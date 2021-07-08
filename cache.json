@@ -17,640 +17,1144 @@
       ]
     },
     {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
+      "title": "JSer.info",
+      "feedUrl": "http://jser.info/rss",
+      "siteUrl": "https://jser.info/",
       "articles": [
         {
-          "id": "https://css-tricks.com/?p=343495",
-          "author": "Chris Coyier",
-          "description": "Astro is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. …\nThe post A Look at Building with Astro appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/a-look-at-building-with-astro/",
-          "publishedOn": "2021-07-07T21:06:35.000Z",
-          "wordCount": 2391,
-          "title": "A Look at Building with Astro"
+          "id": "https://jser.info/2021/07/06/typescript-4.4-beta-immutable-js-4.0.0-rc.13-petite-vue/",
+          "author": null,
+          "description": "JSer.info #547 - TypeScript 4.4 betaがリリースされました。\nAnnouncing TypeScript 4.4 Beta | TypeScript\nControl Flow Analysisの改善され、Type Gurdeの結果を変数に入れてから扱うようなAliasのケースも正しく推論されるようになっています。\nunknown型にするuseUnknownInCatchVariablesオプションの追加と\nundefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。\nその他には、declarationの生成やstrictモードでのビルドパフォーマンスの改善も含まれています。\nimmutable-js 4.0.0-rc.13がリリースされています。\nRelease 4.0.0-rc.13 · immutable-js/immutable-js\nimmutable-jsはv4.0.0-rc.12でメンテナンスが停止して、immutable-oss organiztionにてforkとしてメンテナンスがされていました。\n今回のリリースでは、immutable-js organizationにimmutable-ossのメンテナが追加され、immutable-ossの変更内容もimmutable-js 4.0.0-rc.13へとマージされています。\nimmutable-jsとしてメンテナンスを再開するリリースとなっています。\nImmutable.js is essentially unmaintained · Issue #1689 · immutable-js/immutable-js\nIntegrate immutable-js-oss fork into main repository b…",
+          "link": "https://jser.info/2021/07/06/typescript-4.4-beta-immutable-js-4.0.0-rc.13-petite-vue/",
+          "publishedOn": "2021-07-05T22:36:05.000Z",
+          "wordCount": 403,
+          "title": "2021-07-06のJS: TypeScript 4.4 Beta、immutable-js 4.0.0-rc.13、petite-vue"
         },
         {
-          "id": "https://css-tricks.com/?p=343388",
-          "author": "Robin Rendle",
-          "description": "There are a lot of great defaults when it comes to browsers and the web. Think about all the accessibility features that are baked into HTML so that you don’t have to do weird stuff, like this example from Manuel…\nThe post The Web’s Worst Default appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-webs-worst-default/",
-          "publishedOn": "2021-07-07T14:30:34.000Z",
-          "wordCount": 881,
-          "title": "The Web’s Worst Default"
+          "id": "https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/",
+          "author": null,
+          "description": "JSer.info #546 - ECMAScript 2021(ES2021)がEcma Internationalに承認され、正式にリリースされました。 \nEcma International approves new standards - Ecma International\nES2021では、主に次の機能や構文が追加されています。\nNumeric separators\nPromise combinators\nWeak references and finalizers\nString.prototype.replaceAll\nLogical assignment\nまた、JavaScriptの入門書のJavaScript PrimerもES2021対応した更新がされています。\nES2021に対応したJavaScript Primer 3.0を公開しました - JavaScript入門 | Web Scratch\nStorybook 6.3リリースされました。\nメジャーやアウトライン表示などの視覚的なデバッグ機能の追加がされています。\nまた@storybook/testing-vueと@storybook/testing-reactでのテストのサポート。 Angular 12、Lit 2のサポート、webpack 5のサポートのStable化、Viteのサポートが追加されています。\nStorybook for Vite\nDemystifying styled-componentsという記事では、styled-componentsのミニクローンを作りながらどのような仕組みで動いているのかを解説しています。\nヘッドライン\n[Release News] TOAST UI Editor 3.0 is here! | by TOAST UI | Jun, 2021 | Mediu…",
+          "link": "https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/",
+          "publishedOn": "2021-06-29T01:10:45.000Z",
+          "wordCount": 411,
+          "title": "2021-06-29のJS: ES2021公開、Storybook 6.3、styled-componentsの仕組み"
         },
         {
-          "id": "https://css-tricks.com/?p=343438",
-          "author": "Chris Coyier",
-          "description": "I appreciate the clarity of this trick that Mikael Ainalem posted over on Reddit:\nIt’s a one-liner that toggles the class on the <body> so you can mock up different states and toggle between them on click.\n<body onclick=\"this.classList.toggle(\"active\");\"\nCould …\nThe post Body Toggle appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/body-toggle/",
-          "publishedOn": "2021-07-06T20:55:45.000Z",
-          "wordCount": 548,
-          "title": "Body Toggle"
+          "id": "https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/",
+          "author": null,
+          "description": "JSer.info #545 - Node.js向けのHTTPクライアントであるUndici 4がリリースされました。\nIntroducing Undici@4. After a few years since the first… | by Node.js | Jun, 2021 | Medium\nRelease v4.0.0 - Unified API, Docs Site, WASM, Redirect and Mocking · nodejs/undici\nUndiciは、Node.jsのhttpの代わりとして使えるように、netやtlsを使って一から書き直されているHTTPクライアントです。\nIt’s implemented from scratch. The old client cannot be due to inefficient design of the internals, as well as years of maintaining legacy APIs!\n— Matteo Collina (@matteocollina) February 15, 2021\n \n\nUndici 4.0では、Node.js 10のサポートが終了されています。\nmaxRedirectionsでのリダイレクトサポート、nockをインスパイアしたモックのサポートなどが含まれています。\nまた、4.0にあわせて https://undici.nodejs.org/ にウェブサイトが公開されています。\nNext.js 11がリリースされました。\nBlog - Next.js 11 | Next.js\nNext.js向けの設定でLintをするnpx next lintというESLintの連携が追加されています。\nBasic Features: ESLint | Next.js…",
+          "link": "https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/",
+          "publishedOn": "2021-06-22T00:30:43.000Z",
+          "wordCount": 561,
+          "title": "2021-06-22のJS: undici 4.0.0(HTTPクライアント)、Next.js 11、Safari 15 Beta"
         },
         {
-          "id": "https://css-tricks.com/?p=343560",
-          "author": "Chris Coyier",
-          "description": "And maybe an optional follow-up if you’re up for it.\nAutomattic, the makers of Jetpack and many other WordPress-y things, have sponsored my site (me = Chris Coyier; site = CSS-Tricks) for quite a while. I use Jetpack myself, …\nThe post I’ve got one question about Jetpack for you. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/ive-got-one-question-about-jetpack-for-you/",
-          "publishedOn": "2021-07-06T20:00:30.000Z",
-          "wordCount": 620,
-          "title": "I’ve got one question about Jetpack for you."
-        },
-        {
-          "id": "https://css-tricks.com/?p=343149",
-          "author": "Martin Lexelius",
-          "description": "Normally, a project will have a set of pre-determined font sizes, usually as variables named in such a way that seeks some semblance of order and consistency. Any project of considerable size can use something like that. There are always …\nThe post The Dilemma of Naming Font Size Variables appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-dilemma-of-naming-font-size-variables/",
-          "publishedOn": "2021-07-06T14:41:22.000Z",
-          "wordCount": 4083,
-          "title": "The Dilemma of Naming Font Size Variables"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343166",
-          "author": "Lari Maza",
-          "description": "If you zone out every time someone mentions “Kubernetes,” “containers,” or “pods,” this article is for you. No complex diagrams involved!\nAs a front-end developer, you don’t have to know how to configure an infrastructure from scratch. However, if you …\nThe post Kubernetes Explained Simply: Containers, Pods and Images appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/kubernetes-explained-simply-containers-pods-and-images/",
-          "publishedOn": "2021-07-05T14:17:33.000Z",
-          "wordCount": 1193,
-          "title": "Kubernetes Explained Simply: Containers, Pods and Images"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343671",
-          "author": "Chris Coyier",
-          "description": "Web design is such a rectangle-based design medium that literally any deviation from it feels fresh. Michelle Barker gets into using math in various ways to programmatically draw lines, shapes, and animations that end up looking both beautiful and have …\nThe post Trigonometry in CSS and JavaScript: Beyond Triangles appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://tympanus.net/codrops/2021/06/04/trigonometry-in-css-and-javascript-beyond-triangles/",
-          "publishedOn": "2021-07-05T14:15:20.000Z",
-          "wordCount": 2659,
-          "title": "Trigonometry in CSS and JavaScript: Beyond Triangles"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343496",
-          "author": "Chris Coyier",
-          "description": "It’s CSS-Tricks birthday! Somehow that keeps coming around every year. It’s that time where I reflect upon that past year. It’s like the annual vibe check. \nI’m writing this just days after my current home state of Oregon has …\nThe post The Fourteenth Fourth appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-fourteenth-fourth/",
-          "publishedOn": "2021-07-04T13:29:01.000Z",
-          "wordCount": 1943,
-          "title": "The Fourteenth Fourth"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343435",
-          "author": "Chris Coyier",
-          "description": "The name zero-width space is antithetical, but it’s not without uses. In text, maybe you’d use it around slashes because you want to be sure the words are treated individually but not have any physical space around the slash:…\nThe post Zero-Width Space appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/zero-width-space/",
-          "publishedOn": "2021-07-02T20:39:04.000Z",
-          "wordCount": 1834,
-          "title": "Zero-Width Space"
-        },
-        {
-          "id": "https://css-tricks.com/?p=342995",
-          "author": "Sarah Drasner",
-          "description": "Like it or not, meetings are essential to a good working environment and communication. Therefore, it’s crucial that we work on making them as productive as possible. Today we’ll explore myriad ways to keep meetings coordinated, well documented, and talk …\nThe post Good Meetings appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/good-meetings/",
-          "publishedOn": "2021-07-02T14:41:26.000Z",
-          "wordCount": 3441,
-          "title": "Good Meetings"
-        },
-        {
-          "id": "https://css-tricks.com/?p=342994",
-          "author": "Chris Coyier",
-          "description": "This is a super niche blog post. But it’s been on my list forever to write down because this caused me grief for far too long.\nThe setup is that you can use WooCommerce to sell things on a WordPress …\nThe post The Trick to Enable Printify Shipping Notifications for Orders in WooCommerce? Customer Notes. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-trick-to-enable-printify-shipping-notifications-for-orders-in-woocommerce-customer-notes/",
-          "publishedOn": "2021-07-02T00:02:51.000Z",
-          "wordCount": 1264,
-          "title": "The Trick to Enable Printify Shipping Notifications for Orders in WooCommerce? Customer Notes."
-        },
-        {
-          "id": "https://css-tricks.com/?p=343637",
-          "author": "Chris Coyier",
-          "description": "The marketing for Core Web Vitals (CWV) has been a massive success. I guess that’s what happens when the world’s dominant search engine tells people that something’s going to be an SEO factor. Ya know what language can play a …\nThe post CSS for Web Vitals appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://web.dev/css-web-vitals/",
-          "publishedOn": "2021-07-01T18:54:45.000Z",
-          "wordCount": 1639,
-          "title": "CSS for Web Vitals"
-        },
-        {
-          "id": "https://css-tricks.com/?p=342591",
-          "author": "Chris Coyier",
-          "description": "This is new stuff from DO.\nApp Platform is a hosting product, no surprise there, but it has some features that are Jamstack-inspired in the best possible way, and an additional set of unique and powerful features. Let’s start with …\nThe post App Platform on Digital Ocean appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/app-platform-on-digital-ocean/",
-          "publishedOn": "2021-07-01T18:54:12.000Z",
-          "wordCount": 971,
-          "title": "App Platform on Digital Ocean"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343092",
-          "author": "Cassidy Williams",
-          "description": "If you’re anything like me, you like being lazy shortcuts. The “Deploy to Netlify” button allows me to take this lovely feature of my personality and be productive with it.\n\nClicking the button above lets me (or you!) instantly …\nThe post Hack the “Deploy to Netlify” Button Using Environment Variables to Make a Customizable Site Generator appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/hack-the-deploy-to-netlify-button-using-environment-variables-to-make-a-customizable-site-generator/",
-          "publishedOn": "2021-07-01T14:40:14.000Z",
-          "wordCount": 1576,
-          "title": "Hack the “Deploy to Netlify” Button Using Environment Variables to Make a Customizable Site Generator"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343224",
-          "author": "Chris Coyier",
-          "description": "I got this exact question in an email the other day, and I thought it would make a nice blog post because of how wonderfully satisfying this is to do in CSS these days. Plus we can sprinkle in polish …\nThe post How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/how-do-you-make-a-layout-with-pictures-down-one-side-of-a-page-matched-up-with-paragraphs-on-the-other-side/",
-          "publishedOn": "2021-06-30T20:36:52.000Z",
-          "wordCount": 990,
-          "title": "How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?"
+          "id": "https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/",
+          "author": null,
+          "description": "JSer.info #544 - React 18のα版のリリースとReact 18での変更予定についての記事が公開されています。\nThe Plan for React 18 – React Blog\nReact 18のα版はライブラリのメンテナー向けで、これにあわせてReactのワーキンググループが作られています。\nDiscussions · reactwg/react-18\nReact 18の変更は基本的に ReactDOM.createRootという新しいAPIを使った場合のopt-in方式となっています。\n全体的な概要は次のスレッドにまとめられています。\n Introducing React 18 · Discussion #4 · reactwg/react-18\nそれぞれの変更のサマリは次のようになっています。\nReplacing render with createRoot · Discussion #5 · reactwg/react-18\n\n\nReactDOM.renderの代わりとなるReact.createRoot というRoot(Container)を作るためのAPIが追加された\nLegacy renderのAPIは互換性のために維持される\nReact 18の機能変更や機能追加は、基本的にこの新しいReact.createRoot 以下のTreeに適応される\n\nAutomatic batching for fewer renders in React 18 · Discussion #21 · reactwg/react-18\n\n\nstateの変更が自動的にbatch処理(グループ化)して、レンダリングがまとめられる\n以前あったunstable_batchedUpdatesに相当する処理\n意図的にそれぞれの変更でレンダリングする方法としてReactD…",
+          "link": "https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/",
+          "publishedOn": "2021-06-15T00:52:12.000Z",
+          "wordCount": 600,
+          "title": "2021-06-15のJS: React 18 αリリース、Deno 1.11(Docker Images)、Plotly.js 2.0"
         }
       ]
     },
     {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
+      "title": "Zennの「Next.js」のフィード",
+      "feedUrl": "https://zenn.dev/topics/nextjs/feed",
+      "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
-          "id": "https://smashingmagazine.com/2021/07/introduction-figma-interactive-components/",
-          "author": "hello@smashingmagazine.com (Emiliano Cicero)",
-          "description": "Interactive Components in Figma allows designers to create a component with states (hover, active, clicked, focus) and make it interactive so that every copy of the component will inherit those same interactions by default. Let’s explore how it can reduce the time and effort needed to create interactions for your mock-ups.",
-          "link": "https://smashingmagazine.com/2021/07/introduction-figma-interactive-components/",
-          "publishedOn": "2021-07-07T11:00:00.000Z",
-          "wordCount": 4045,
-          "title": "An Introduction To Figma Interactive Components",
+          "id": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
+          "author": "urasaku77",
+          "description": "経緯\nStorybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生\n\nTypeError: Cannot read property 'get' of undefined\n\n\n 原因\n見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった\n公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）\n\n 解決策\n.storybook/main.jsを書き換えることでwebpack5を適...",
+          "link": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
+          "publishedOn": "2021-07-08T07:45:05.000Z",
+          "wordCount": 51,
+          "title": "Storybook導入時に、webpackのバージョンで詰まった話",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1a8390d0-26c0-4476-bc00-19e8c89b60c5/introduction-figma-interactive-components.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/07/how-to-choose-a-headless-cms/",
-          "author": "hello@smashingmagazine.com (Emmanuel Tissera)",
-          "description": "There is an array of Headless CMSes out there. In this article, we delve into headless CMS features to satisfy your content editors, marketers and yourself as a developer. For the experience headless practitioner, this could be a checklist to see what’s new out there. For those starting out on their headless journey, this could be a guide on what to look for.",
-          "link": "https://smashingmagazine.com/2021/07/how-to-choose-a-headless-cms/",
-          "publishedOn": "2021-07-06T10:30:00.000Z",
-          "wordCount": 4121,
-          "title": "How To Choose A Headless CMS",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0fa37a67-9079-4b4d-9489-fcd87c7c3807/how-to-choose-a-headless-cms.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/07/hsl-colors-css/",
-          "author": "hello@smashingmagazine.com (Ahmad Shadeed)",
-          "description": "In this article, Ahmad Shadeed explains what HSL is, how to use it, and shares some of the useful use-cases and examples that you can use right away in your current projects.",
-          "link": "https://smashingmagazine.com/2021/07/hsl-colors-css/",
-          "publishedOn": "2021-07-05T10:30:00.000Z",
-          "wordCount": 1580,
-          "title": "Using HSL Colors In CSS",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/73607a1e-fe7f-47ea-aada-df79342d823a/hsl-colors-css.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/07/email-testing-flow/",
-          "author": "hello@smashingmagazine.com (Andriy Zapisotskyi)",
-          "description": "With so many tools and approaches, email still has quite a few pain points, both for developers and email marketers. Email is difficult because it has too many aspects to set and a few instances with no common rules to follow.",
-          "link": "https://smashingmagazine.com/2021/07/email-testing-flow/",
-          "publishedOn": "2021-07-02T10:30:00.000Z",
-          "wordCount": 4199,
-          "title": "Email Testing Flow As It Should Be",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/57a53d31-9651-4d88-b2fe-f8de70c08da1/email-testing-flow.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/07/frontend-testing-pitfalls/",
-          "author": "hello@smashingmagazine.com (Ramona Schwering)",
-          "description": "When writing front-end tests, you’ll find a lot of pitfalls along the way. Let’s explore common mistakes developers make, and how to avoid them. Testing doesn’t need to be painful, after all.",
-          "link": "https://smashingmagazine.com/2021/07/frontend-testing-pitfalls/",
-          "publishedOn": "2021-07-01T12:30:00.000Z",
-          "wordCount": 4763,
-          "title": "It’s A (Front-End Testing) Trap! Six Common Testing Pitfalls And How To Solve Them",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/dc1434b9-70c3-4fb2-821e-2128e3373246/frontend-testing-pitfalls.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/web-workers-2021/",
-          "author": "hello@smashingmagazine.com (Surma)",
-          "description": "The web is single-threaded. This makes it increasingly hard to write smooth and responsive apps. Workers have a bad rep, but can be an important and useful tool in any web developer's toolbelt for these kinds of problems. Let’s get up to speed on Workers on the Web!",
-          "link": "https://smashingmagazine.com/2021/06/web-workers-2021/",
-          "publishedOn": "2021-06-30T12:00:00.000Z",
-          "wordCount": 4725,
-          "title": "The State Of Web Workers In 2021",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/379e4510-b4ab-4fde-9a5d-122738be19b2/web-workers-2021.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/desktop-wallpaper-calendars-july-2021/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Let’s welcome July with some fresh desktop wallpapers. Designed by artists and designers from around the world, they are available with and without a calendar. Enjoy!",
-          "link": "https://smashingmagazine.com/2021/06/desktop-wallpaper-calendars-july-2021/",
-          "publishedOn": "2021-06-30T09:30:00.000Z",
-          "wordCount": 3695,
-          "title": "The Many Shades Of July (2021 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/814b3b6e-1510-4c12-8504-433157173355/july-21-against-the-current-preview-opt.png",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--EWaSgXbt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:urasaku77%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Storybook%25E5%25B0%258E%25E5%2585%25A5%25E6%2599%2582%25E3%2581%25AB%25E3%2580%2581webpack%25E3%2581%25AE%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25A7%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTdjYThhOWM0Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
         },
         {
-          "id": "https://smashingmagazine.com/2021/06/breaking-down-bulky-builds-netlify-nextjs/",
-          "author": "hello@smashingmagazine.com (Átila Fassina)",
-          "description": "Static Generation is great for performance — until the app gets too big and build-times go through the roof. Today, we’ll have a look at how Netlify’s fresh On-Demand Builders can fix that.",
-          "link": "https://smashingmagazine.com/2021/06/breaking-down-bulky-builds-netlify-nextjs/",
-          "publishedOn": "2021-06-29T11:00:00.000Z",
-          "wordCount": 2453,
-          "title": "Breaking Down Bulky Builds With Netlify And Next.js",
+          "id": "https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554",
+          "author": "Kenji",
+          "description": "経緯\n業務でさわることになり、学習としてアウトプットさせて頂きます。\n\n はじめに\nNext.js はReactを基礎としたフレームワークです。そして、Vercel社が提供するOSS プロジェクトになっています。\nWebのデプロイ・ホスティングサービス Vercel を運営しており Next.js と Vercel を合わせて使用し、容易にWebサイトを制作することができるようになっています。\nSPA (Single Page Application)　では,Webサイトへ遷移するとローディングが表示され、次々にコンポーネントが表示されることがあったのではないでしょうか？ユーザの行動...",
+          "link": "https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554",
+          "publishedOn": "2021-07-08T00:25:45.000Z",
+          "wordCount": 93,
+          "title": "今更だけど、Next.jsをさわるんだ！",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a11af025-97a1-4506-8cbe-a7786e5574c9/breaking-down-bulky-builds-netlify-nextjs.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-40/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode, we’re talking about Chakra UI. What is it and how can it help with your React projects? Drew McLellan talks to expert Mike Cavaliere to find out.",
-          "link": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-40/",
-          "publishedOn": "2021-06-29T05:30:00.000Z",
-          "wordCount": 6619,
-          "title": "Smashing Podcast Episode 40 With Mike Cavaliere: What Is Chakra UI For React?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e981ad2c-0679-4935-b19f-39d1ca96823e/smashing-podcast-episode-40.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/",
-          "author": "hello@smashingmagazine.com (Manuel Matuzović)",
-          "description": "In this article, Manuel explains why Emmet is one of his favorite productivity tools for writing HTML and CSS, and how you can create custom Emmet snippets in Visual Studio Code to help you improve your front-end workflows even more.",
-          "link": "https://smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/",
-          "publishedOn": "2021-06-28T10:30:00.000Z",
-          "wordCount": 2519,
-          "title": "Creating Custom Emmet Snippets In VS Code",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b7ff6227-3a15-4237-8e58-aa783fc9c485/custom-emmet-snippets-vscode.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/creating-multi-author-blog-nextjs/",
-          "author": "hello@smashingmagazine.com (Dom Habersack)",
-          "description": "This article explains how we can connect different types of content in a Next.js application. With this technique, we can add any kind of one-to-one, one-to-many, or even many-to-many relationship to our projects.",
-          "link": "https://smashingmagazine.com/2021/06/creating-multi-author-blog-nextjs/",
-          "publishedOn": "2021-06-25T11:30:00.000Z",
-          "wordCount": 5447,
-          "title": "Creating A Multi-Author Blog With Next.js",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/28d0f286-9b01-4f8d-aede-01248ba3491d/creating-multi-author-blog-nextjs.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/ux-audit-edtech-platform-case-study/",
-          "author": "hello@smashingmagazine.com (Mark Lankmilier)",
-          "description": "This article is a case study of how a UX audit affects a UI. It explains how a famous educational platform can be analyzed edX against Jakob Nielsen’s usability guidelines. To get started, Mark Lankmiller shares all of the criteria and metrics he used for his UX audit.",
-          "link": "https://smashingmagazine.com/2021/06/ux-audit-edtech-platform-case-study/",
-          "publishedOn": "2021-06-25T10:00:00.000Z",
-          "wordCount": 3522,
-          "title": "How To Run A UX Audit For A Major EdTech Platform (Case Study)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d5116c31-3d66-47b0-aa81-1a6759c68b92/ux-audit-edtech-platform-case-study.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/design-thinking-problem-solving-strategy/",
-          "author": "hello@smashingmagazine.com (Josh Singer)",
-          "description": "In the dynamic and unpredictable environments in which we work, even the most carefully crafted solutions can have a short shelf life. When we accept that our work is impermanent and our problem-solving abilities are limited, our goal can shift from delivering full solutions to developing tools that empower our users to adaptively design for themselves.",
-          "link": "https://smashingmagazine.com/2021/06/design-thinking-problem-solving-strategy/",
-          "publishedOn": "2021-06-24T14:00:00.000Z",
-          "wordCount": 4170,
-          "title": "The Rise Of Design Thinking As A Problem Solving Strategy",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e5ea9274-2ff4-49d8-b259-a5f0904cec77/design-thinking-problem-solving-strategy.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/",
-          "author": "hello@smashingmagazine.com (Iris Lješnjanin)",
-          "description": "Frontend and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run [online workshops](https://smashingconf.com/online-workshops/) for all of us to learn together. And we have new ones coming up, and we’d like to kindly welcome you to join in.",
-          "link": "https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/",
-          "publishedOn": "2021-06-23T13:30:00.000Z",
-          "wordCount": 947,
-          "title": "Smashing Online Workshops (July-October 2021)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1a95c729-8b29-4b44-90b0-d38183b367c0/online-workshops-2021-opt.png",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qOzAILVr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kenji%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E4%25BB%258A%25E6%259B%25B4%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A9%25E3%2580%2581Next.js%25E3%2582%2592%25E3%2581%2595%25E3%2582%258F%25E3%2582%258B%25E3%2582%2593%25E3%2581%25A0%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDk0MmE0YWEyNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
         },
         {
-          "id": "https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/",
-          "author": "hello@smashingmagazine.com (Cameron Cundiff)",
-          "description": "Automated testing is an important part of any software project, including testing for accessibility. There are already tools for linting and integration testing accessibility, but what about end-to-end testing with real assistive technology? Since I hadn’t seen this before, I set out to build Auto VO, a driver for the VoiceOver screen reader.",
-          "link": "https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/",
-          "publishedOn": "2021-06-23T09:30:00.000Z",
-          "wordCount": 1350,
-          "title": "Automating Screen Reader Testing On macOS Using Auto VO",
+          "id": "https://zenn.dev/yuku/articles/f5a728808c4efa",
+          "author": "Yuku Kotani",
+          "description": "Next.js には強力な Incremental Static Regeneration がありますが、Vercel 以外にホストしている場合は使うことができません。そのとき、Cache-Control や Surrogate-Control ヘッダを用いて Fastly のような CDN にキャッシュを持たせたくなります。\nこのヘッダの持たせ方に少しクセがあったので備忘録的に書きます。\n例えば、/articles/[id] にヘッダを持たせたいとします。\n\n 方法1. next.config.js で設定\nnext.config.js の headers で設定する方法です。\n\n  ...",
+          "link": "https://zenn.dev/yuku/articles/f5a728808c4efa",
+          "publishedOn": "2021-07-07T12:35:13.000Z",
+          "wordCount": 152,
+          "title": "Next.js で SSR/SSG したページに Cache-Control などのヘッダを設定する",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c81018b9-c45e-4c21-9762-dff84dd2682c/automating-screen-reader-testing-macos-autovo.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/",
-          "author": "hello@smashingmagazine.com (Mikołaj Dobrucki)",
-          "description": "After years of innovation in both tools and processes, the struggle between design and development is still real. This article focuses on the best practices for improving the design to development processes and how cutting-edge solutions, such as UXPin powered by Merge technology, can help in facilitating the change.",
-          "link": "https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/",
-          "publishedOn": "2021-06-22T09:00:00.000Z",
-          "wordCount": 2885,
-          "title": "Designing With Code: A Modern Approach To Design (Development Challenges)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08546e48-5034-466a-a29c-08ce3827416e/uxpin-ui.png",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--B4IWN0ev--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuku%2520Kotani%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%2520%25E3%2581%25A7%2520SSR%252FSSG%2520%25E3%2581%2597%25E3%2581%259F%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AB%2520Cache-Control%2520%25E3%2581%25AA%25E3%2581%25A9%25E3%2581%25AE%25E3%2583%2598%25E3%2583%2583%25E3%2583%2580%25E3%2582%2592%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEQVVDNDRXNTlSbWgyMjVIR2ZycENZQmRlNUJNZ0VCaDl3TGY0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
         },
         {
-          "id": "https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/",
-          "author": "hello@smashingmagazine.com (Ayobami Ogundiran)",
-          "description": "Do you have to process data manually because it is served through images or scanned documents? An image-to-text conversion makes it possible to extract text from images to automate the processing of texts on images, videos, and scanned documents. In this article, we look at how to convert an image to text with React and Tesseract.js(OCR), preprocess images, and deal with the limitations of Tesseract (OCR).",
-          "link": "https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/",
-          "publishedOn": "2021-06-21T14:30:00.000Z",
-          "wordCount": 5358,
-          "title": "Image To Text Conversion With React And Tesseract.js (OCR)",
+          "id": "https://zenn.dev/minguu42/articles/20210705-nextjs-auth",
+          "author": "minguu",
+          "description": "はじめに\nこの記事では, Firebase Authentication を使って Next アプリに Google ログインを実装する方法を記述します.\nNext アプリの初期化, Firebase アカウントの作成は済んでいることを前提とします.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.\n\n 環境\n\n\n\n名前\nバージョン\n\n\n\n\nmacOS Big Sur\n11.4\n\n\nNode.js\n16.4.1\n\n\nNext.js\n11.0.1\n\n\nReact\n17.0.2\n\n\nFirebase Jav...",
+          "link": "https://zenn.dev/minguu42/articles/20210705-nextjs-auth",
+          "publishedOn": "2021-07-05T11:20:37.000Z",
+          "wordCount": 460,
+          "title": "Next.js で Firebase Authentication を利用し, Google ログインを実装した",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/012f3fbe-980a-44fc-b973-a459f6d9bf1a/image-text-conversion-react-tesseract-js-ocr.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
-          "author": "hello@smashingmagazine.com (Ottomatias Peura)",
-          "description": "Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.",
-          "link": "https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
-          "publishedOn": "2021-06-18T15:00:00.000Z",
-          "wordCount": 3410,
-          "title": "An Alternative Voice UI To Voice Assistants",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8ebd2c76-ebe5-4885-be3e-f9acc3608072/alternative-voice-ui-voice-assistants.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/client-side-routing-next-js/",
-          "author": "hello@smashingmagazine.com (Adebiyi Adedotun)",
-          "description": "Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.",
-          "link": "https://smashingmagazine.com/2021/06/client-side-routing-next-js/",
-          "publishedOn": "2021-06-18T13:00:00.000Z",
-          "wordCount": 3959,
-          "title": "Client-Side Routing In Next.js",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a51f6c83-5e1a-4535-b28a-2018310ffc3b/client-side-routing-next-js.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/",
-          "author": "hello@smashingmagazine.com (Eric Bailey)",
-          "description": "Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.",
-          "link": "https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/",
-          "publishedOn": "2021-06-17T10:30:00.000Z",
-          "wordCount": 1635,
-          "title": "Your Image Is Probably Not Decorative",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/95585fe9-52b8-4bd4-adac-a3580ef87b98/img-alt-attribute-alternate-description-decorative.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/",
-          "author": "hello@smashingmagazine.com (Nic Chan)",
-          "description": "In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.",
-          "link": "https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/",
-          "publishedOn": "2021-06-16T10:30:00.000Z",
-          "wordCount": 4056,
-          "title": "A Complete Guide To Accessibility Tooling",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0e0ea8e6-a4ad-489c-b062-749a22d5e38e/complete-guide-accessibility-tooling.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "When developing themes and plugins for WordPress, we need to test them in different environments. How can we create multiple testing sites on our computer, quickly and easily, without having to become a sysadmin?",
-          "link": "https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/",
-          "publishedOn": "2021-06-15T10:15:00.000Z",
-          "wordCount": 2381,
-          "title": "Spinning Up Multiple WordPress Sites Locally With DevKinsta",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2798d879-8878-49e3-bc0f-a1b2008210c0/devkinsta-frontpage.png",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vAjubluh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%25E3%2581%25A7%2520Firebase%2520Authentication%2520%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%252C%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
         },
         {
-          "id": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode of the Smashing Podcast, we’re talking about image optimization. What steps should we follow for performant images in 2021? We talk to expert Addy Osmani to find out.",
-          "link": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/",
-          "publishedOn": "2021-06-15T07:00:00.000Z",
-          "wordCount": 10715,
-          "title": "Smashing Podcast Episode 39 With Addy Osmani: Image Optimization",
+          "id": "https://zenn.dev/ken505/articles/c049a64f3a2989",
+          "author": "ken505",
+          "description": "以下の公式ドキュメントを参考にしながら、Next.js で ESLint を設定します\n\n ESLint.org\n\n\n docs/rules\n\n\n npm/ESLint\n\n\n Next.js/ESLint\n\n\nバージョン11.0.0以降、Next.jsは統合されたESLint体験をすぐに提供します。\nnext lintをスクリプトとしてpackage.jsonに追加します。\n\n\n      \n        \n        \"scripts\": {\n  \"lint\": \"next lint\"\n}\n\n\n      \n      とのことなので npx create-next-app を実...",
+          "link": "https://zenn.dev/ken505/articles/c049a64f3a2989",
+          "publishedOn": "2021-07-05T07:08:15.000Z",
+          "wordCount": 360,
+          "title": "Next.js version 11.0.0 で ESLint を使うために公式ドキュメントを紐解く",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bf1aeccc-a603-4cb3-b716-69bd0c86d33a/smashing-podcast-episode-39.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/",
-          "author": "hello@smashingmagazine.com (Stephanie Eckles)",
-          "description": "Spoiler alert: tooltips, modals, tabs, carousels, and dropdown menus are some of the user interface components that require more than CSS. To ensure accessibility of your interface, JavaScript is a necessary addition to accomplish focus management, respond to keyboard events, and toggle ARIA attributes.",
-          "link": "https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/",
-          "publishedOn": "2021-06-14T10:30:00.000Z",
-          "wordCount": 3666,
-          "title": "When CSS Isn’t Enough: JavaScript Requirements For Accessible Components",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9982fa1e-806c-4343-9de1-eb804a48451e/css-javascript-requirements-accessible-components.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/web-design-done-well-audio/",
-          "author": "hello@smashingmagazine.com (Frederick O’Brien)",
-          "description": "Design often revolves around visuals, but the other senses deserve love too. In this article, we tune in to audio features that are making sites sing.",
-          "link": "https://smashingmagazine.com/2021/06/web-design-done-well-audio/",
-          "publishedOn": "2021-06-11T15:00:00.000Z",
-          "wordCount": 1750,
-          "title": "Web Design Done Well: Making Use Of Audio",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bf0cbb26-546e-43b7-9b9a-9077259ea84b/making-use-of-audio.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "We don’t need to write everything from scratch every single time. With boilerplates and starter kits, we can set up our projects faster, and get to work immediately.",
-          "link": "https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/",
-          "publishedOn": "2021-06-10T15:00:00.000Z",
-          "wordCount": 5161,
-          "title": "Useful Front-End Boilerplates And Starter Kits",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/598e7f3e-9dca-4922-b17d-76089efab46f/25-frontend-boilerplates-starter-kits.png",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Oc6OVKya--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ken505%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%2520version%252011.0.0%2520%25E3%2581%25A7%2520ESLint%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%25E5%2585%25AC%25E5%25BC%258F%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E7%25B4%2590%25E8%25A7%25A3%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjIyMmIxYWU1OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
         },
         {
-          "id": "https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/",
-          "author": "hello@smashingmagazine.com (Stefan Judis)",
-          "description": "Building a faster website can be a rocket task these days. There are so many things to consider, so it’s challenging to get everything right. Here are some less-known tools that might help you get there.",
-          "link": "https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/",
-          "publishedOn": "2021-06-10T11:15:00.000Z",
-          "wordCount": 867,
-          "title": "Three Front-End Auditing Tools I Discovered Recently",
+          "id": "https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables",
+          "author": "モーリー",
+          "description": "Nextjsでは、たとえばデータベースに接続するときに使う環境変数を設定することができます。\n設定方法は、ルートディレクトリ直下にあるnext.config.jsにあるmodule.exports...とあるところに変数を追加すればOKです。(ファイルがなければnext.config.jsをルート直下に作ってください)\n\n      \n        next.config.js\n        module.exports = {\n  env: {\n    // customKeyは任意の変数名でOK\n    // 'my-value'のところで値を設定する\n    customKey...",
+          "link": "https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables",
+          "publishedOn": "2021-07-04T22:23:27.000Z",
+          "wordCount": 67,
+          "title": "Next.jsの環境変数取得方法",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e21066b1-baa0-4a85-90ee-8074029d0a32/three-frontend-auditing-tools.jpg",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--LHC6G5sB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AA%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Next.js%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E5%25A4%2589%25E6%2595%25B0%25E5%258F%2596%25E5%25BE%2597%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h5X0w2OU5jR2tiM3dLVU1LMUUzb3J4b29MMmZWQmEzdFNwV0tNV3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
-            "type": "image/jpg"
+            "type": "image/png"
           }
         },
         {
-          "id": "https://smashingmagazine.com/2021/06/has-native-css-parent-selector/",
-          "author": "hello@smashingmagazine.com (Adrian Bece)",
-          "description": "What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.",
-          "link": "https://smashingmagazine.com/2021/06/has-native-css-parent-selector/",
-          "publishedOn": "2021-06-09T10:30:00.000Z",
-          "wordCount": 2777,
-          "title": "Meet <code>:has</code>, A Native CSS Parent Selector (And More)",
+          "id": "https://zenn.dev/mast1ff/articles/efc41938236c51",
+          "author": "Mast1ff",
+          "description": "半年くらい前にこんな記事を書きました。\nhttps://zenn.dev/mast1ff/articles/3d6f4b9e4a38bb\n様々なプロダクトにメインとして使用しているNext.js製のフロントエンドをStimulusとTurboに書き換えて運用してみました。\nhttps://hotwired.dev/\n今回は実際に運用してみた所管などをまとめたいと思います。\n\n はじめに\nとはいえ、Hotwireたちは飽くまでフロントエンドのみ。バックエンド側のロジックを持つことのできないこれらのライブラリとの単純な比較対象としては、サーバーレスでも運用できるNext.jsとは若干ズレが出...",
+          "link": "https://zenn.dev/mast1ff/articles/efc41938236c51",
+          "publishedOn": "2021-07-04T12:39:28.000Z",
+          "wordCount": 660,
+          "title": "React vs Hotwire ~ 私とHotwireとその後",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/89aef48d-9be9-45df-a7f4-775168deb8dd/has-native-css-parent-selector.jpg",
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--90H55BdL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Mast1ff%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520vs%2520Hotwire%2520%7E%2520%25E7%25A7%2581%25E3%2581%25A8Hotwire%25E3%2581%25A8%25E3%2581%259D%25E3%2581%25AE%25E5%25BE%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2czMFpoemRvdlNKaEpDNVhTdVdBVlFSbm9DVGQ1eFdDdjRIR2d0dFE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
-            "type": "image/jpg"
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/fujiyama/articles/50b0a73acd89b7",
+          "author": "Fujiyamayama",
+          "description": "経緯\nFirebase Storageを初めて使ってみて，とても使いやすいと感じたので共有したいと思いました．\nNext.jsをフレームワークとして利用しています．\n\n\n 環境\n\n      \n        \n        react@17.0.2\nfirebase@8.6.8\ntypescript@4.3.4\nnext@11.0.1\ntailwindcss@2.2.4\n\n\n      \n      \n 事前準備\n事前にFirebaseプロジェクトを作成し，Reactのfirebase.jsなどにfirebaseの設定を記述してください．また\n\n      \n        \n ...",
+          "link": "https://zenn.dev/fujiyama/articles/50b0a73acd89b7",
+          "publishedOn": "2021-07-04T11:35:45.000Z",
+          "wordCount": 811,
+          "title": "【Next.js】Firebase Storageに画像をアップしてURLを取得する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zUA0ew2h--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Fujiyamayama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E3%2580%2591Firebase%2520Storage%25E3%2581%25AB%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2581%2597%25E3%2581%25A6URL%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hlMHpabHhNbXBzTEQ4NlJqZTFGUnVJd1dBcTJFNUxXWkd3S0U4QVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/takanopontaro/articles/dde9458c32f3f9",
+          "author": "takanopontaro",
+          "description": "数年前に Kindle を購入してから結構本を読むようになり、今はだいたい年間 80 冊程度読んでいます。半額セールとか 50% ポイント還元とか、そういったセールを Kindle ストアは頻繁に行っているので、そういうときに一気にまとめ買いするのが習慣になりました。\nアマゾンのほしい物リストに本を登録しておくと、安くなったときにその旨表示されて便利なんですが、これってポイント還元の時は分からないのでちょっと困っていました。どんなキャンペーンなのかはあまり重要ではなく、欲しい本が得になっているかどうかだけ分かればいいので、そういった事が簡単に分かるサービスはないかな〜と探してみたんですが...",
+          "link": "https://zenn.dev/takanopontaro/articles/dde9458c32f3f9",
+          "publishedOn": "2021-07-04T01:51:37.000Z",
+          "wordCount": 195,
+          "title": "Kindle のセール本をウォッチできるサイトを作った。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--bM3GHwub--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:takanopontaro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Kindle%2520%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%25BC%25E3%2583%25AB%25E6%259C%25AC%25E3%2582%2592%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%2583%25E3%2583%2581%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pwWFRKdlNHR1dIR3Q4SHZpQW9VZTZ2UEw3aGU1OC1NSXp6QXQwPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/itomise/articles/20356a794b665f",
+          "author": "itomise",
+          "description": "next/image での画像最適化が最近のホットなトピックではありますが、見た感じ、next/imageは画像の最適化をサーバサイドで処理する前提のコンポーネントのようです。\nNext.jsでサーバを立てられる場合は使っていきたいのですが、個人的に案件でそういう構成になっていることはあまりないです。\nそこで、next export で使える画像最適化についてまとめてnext/imageっぽいコンポーネントを作ってみようと考えました。\n一応、公式の next export での next/image の使用法についてのページはこちら です。\n\n 前提\n今回はnext/imageのソースを...",
+          "link": "https://zenn.dev/itomise/articles/20356a794b665f",
+          "publishedOn": "2021-07-03T14:26:36.000Z",
+          "wordCount": 333,
+          "title": "next-optimized-images で next/image っぽいものをつくる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s---15vqTrb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:itomise%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:next-optimized-images%2520%25E3%2581%25A7%2520next%252Fimage%2520%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2E1Y2RlZmViYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/thim/articles/7c8ceba730dad35d27dc",
+          "author": "thim",
+          "description": "Next.js のプロジェクトにCSSModules(Sass)+Storybookをセットアップしようとしてハマり倒したので手順を記録しておきます。\nセットアップ完了状態のソースはこちら\nhttps://github.com/TakahiroHimi/Next-CSSModules-SB-sample\n\n Next.js アプリ作成\n\n      \n        \n        npx create-next-app --example with-typescript myapp\n\n\n      \n      \n CSSModules(Sass)セットアップ\n\n パッケージ追加\n\n...",
+          "link": "https://zenn.dev/thim/articles/7c8ceba730dad35d27dc",
+          "publishedOn": "2021-07-03T12:41:24.000Z",
+          "wordCount": 275,
+          "title": "Next.js+CSSModules(Saas)+Storybookのセットアップ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ju-0kqe0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:thim%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%252BCSSModules%2528Saas%2529%252BStorybook%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDQwMTY2ZjMyOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dl10yr/articles/b592e36d852e8c",
+          "author": "dl10yr",
+          "description": "Next.jsでd3使おうとしたら、ハマりました。\nNext.jsがESModuleフォーマットをサポートしてないのが原因のようです。\nhttps://github.com/vercel/next.js/issues/9607\n\n      \n        \n        Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/hogehoge/node_modules/robust-predicates/index.js\nrequire() of ES modules is not supported.\n...",
+          "link": "https://zenn.dev/dl10yr/articles/b592e36d852e8c",
+          "publishedOn": "2021-07-03T01:23:44.000Z",
+          "wordCount": 169,
+          "title": "Next.jsがESModuleフォーマットサポートしてない問題（ERR_REQUIRE_ESM）の回避策",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--a9iA35R7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%25E3%2581%258CESModule%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%259E%25E3%2583%2583%25E3%2583%2588%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25AA%25E3%2581%2584%25E5%2595%258F%25E9%25A1%258C%25EF%25BC%2588ERR_REQUIRE_ESM%25EF%25BC%2589%25E3%2581%25AE%25E5%259B%259E%25E9%2581%25BF%25E7%25AD%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/a_da_chi/articles/0ea66053a8b778",
+          "author": "adachi",
+          "description": "はじめに\n※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。\nhttps://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入\nReactでユニットテストといえばJestですよね。\n今回はNext.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをするまでの手順を書いていきたい思います。\n\n 前提\n\nNext.jsでsrcディレクトリ配下にアプリケーションコードを配置していること。\n\n\n 導入手順\n\n必要なパッケージをインス...",
+          "link": "https://zenn.dev/a_da_chi/articles/0ea66053a8b778",
+          "publishedOn": "2021-07-02T13:43:28.000Z",
+          "wordCount": 337,
+          "title": "Next.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--iy6-cD5d--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:adachi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25ABJest%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2597%25E3%2581%25A6GitHub%2520Actions%25E3%2581%25A7%25E3%2583%25A6%25E3%2583%258B%25E3%2583%2583%25E3%2583%2588%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hvU1F2dTVtTFZ2WUdOVUt1bE5kVE9Gd2Q5Z3VlTFhCaWJ3LTRHS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/manalink/articles/manalink-for-teachers-renewal-202107",
+          "author": "マナリンク Tech Blog",
+          "description": "マナリンクCTOの名人です。\n2021年7月1日に、弊社が運営しているマナリンクTeachersというメディアサイトをリニューアルしました！\nhttps://for-teachers.manalink.jp/\nこのメディアサイトはNext.js×microCMSで構築されています。初回リリースは2020年秋ごろだったので、半年以上運用してのリニューアルとなりガッツリ実装を書き換えました。\nそのため本記事では前回の復習も兼ねて、リニューアルの流れやTipsをまとめてみようと思います。\n\n メディアの概要\nマナリンクTeachersは、オンライン家庭教師向けの情報をまとめているメディアサイト...",
+          "link": "https://zenn.dev/manalink/articles/manalink-for-teachers-renewal-202107",
+          "publishedOn": "2021-07-02T09:25:52.000Z",
+          "wordCount": 227,
+          "title": "Next.js×microCMS製のメディアサイトをリニューアルした話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--yodqENXn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%2520Tech%2520Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25C3%2597microCMS%25E8%25A3%25BD%25E3%2581%25AE%25E3%2583%25A1%25E3%2583%2587%25E3%2582%25A3%25E3%2582%25A2%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E3%2583%25AA%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25A2%25E3%2583%25AB%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODNjZWUyZDUxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/renshimosawa/articles/266b780292aadd",
+          "author": "Ren Shimosawa",
+          "description": "今回はこのようなサイト内のニュース欄をmicroCMSを用いて作ります。\nデプロイはAWS amplifyでする前提です。\n\n\n microCMSの設定\n\n (1)プロジェクトを作る\n\n\n個人開発レベルではHobbyで事足りるかと（検証中）。\n\n (2)APIを作成\n\nリスト形式を選択\n\n\n (3)投稿したい項目を定義\n\n\n APIで取得したデータをmapで出す\n\n (1)API keyを.envに書き込む\n\n      \n        .env.production\n        NEXT_PUBLIC_API_KEY=your key\n\n\n      \n      keyはこちら...",
+          "link": "https://zenn.dev/renshimosawa/articles/266b780292aadd",
+          "publishedOn": "2021-07-01T13:50:49.000Z",
+          "wordCount": 382,
+          "title": "Next.jsのサイトにmicroCMSをAPI接続する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vxR2NyAa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Ren%2520Shimosawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%25ABmicroCMS%25E3%2582%2592API%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptcmlXRGR5UjRXLUdpUHd4eUZHbGphX1Q0cUVRS3hqcXhNU1NPPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
           }
         }
       ]
     },
     {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news",
+      "title": "Zennの「Nuxt.js」のフィード",
+      "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
+      "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
         {
-          "id": "60e521aa134ad707be00e41d",
-          "author": null,
-          "description": "Objects are one of the most valuable things you can learn in Javascript. You can use them to take your programs to the next level.  An object is a collection of data – or key value pairs – which consist of variables and functions that you can access using dot notation. Now",
-          "link": "https://www.freecodecamp.org/news/what-is-a-javascript-object/",
-          "publishedOn": "2021-07-07T22:04:00.000Z",
-          "wordCount": 761,
-          "title": "What is a JavaScript Object? Key Value Pairs and Dot Notation Explained"
+          "id": "https://zenn.dev/tanoken729/articles/a0b556cd6d53ec",
+          "author": "tanoken",
+          "description": "Laravel側\nhttps://jwt-auth.readthedocs.io/en/docs/laravel-installation/\n\n JWTライブラリ（tymon/jwt-auth）をインストール\nLaravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラーになります\n\n      \n        \n        composer require tymon/jwt-auth:1.0.0-rc.5\n\n\n      \n      \n 設定を一部変更\n以下コマンドでconfig/jwt.phpというファイルを生成\n\n      \n        \n ...",
+          "link": "https://zenn.dev/tanoken729/articles/a0b556cd6d53ec",
+          "publishedOn": "2021-07-04T15:57:58.000Z",
+          "wordCount": 101,
+          "title": "【ログイン機能】jwt（JSON Web Token Authentication）でログイン機能実装手順（Laravel/Nuxt）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--27buZ1Ic--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%2590%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591jwt%25EF%25BC%2588JSON%2520Web%2520Token%2520Authentication%25EF%25BC%2589%25E3%2581%25A7%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E6%25A9%259F%25E8%2583%25BD%25E5%25AE%259F%25E8%25A3%2585%25E6%2589%258B%25E9%25A0%2586%25EF%25BC%2588Laravel%252FNuxt%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60ccd1794dc1a607ed7b4feb",
-          "author": null,
-          "description": "A lot of people want to learn machine learning these days. But the daunting bottom-up curriculum that most ML teachers propose is enough discourage a lot of newcomers.  In this tutorial I flip the curriculum upside down and will outline what I think is the fastest and easiest way to",
-          "link": "https://www.freecodecamp.org/news/how-to-learn-machine-learning-practical-tips-and-resources/",
-          "publishedOn": "2021-07-07T17:28:00.000Z",
-          "wordCount": 5411,
-          "title": "How to Learn Machine Learning – Tips and Resources to Learn ML the Practical Way"
+          "id": "https://zenn.dev/foxtail88/articles/574fab811df26d",
+          "author": "こぎつね",
+          "description": "はじめに\nこちらのサイトの作成備忘録です。インフラ等の全体像は別途記事にしたいと思います。\nhttps://tenkoh.github.io/fgo-scenes/\nFate/Grand Orderというスマートフォン向けゲームのコラージュ画像を生成するお遊びサイトです😇\n\n\n(C) TYPE-MOON\n\n\n 方針検討\nやりたいことは 「既存の画像に、セリフだけ好きに挿入する」 という簡単なものです。なんとなくフロントだけでもできそうですが、ある程度フォントを原作に近づけたいと考えたので、特定のフォントを気兼ねなく使えるかな？と思い、バックエンドも構築することにしました。\nまたお遊び...",
+          "link": "https://zenn.dev/foxtail88/articles/574fab811df26d",
+          "publishedOn": "2021-07-03T23:13:01.000Z",
+          "wordCount": 234,
+          "title": "【FGO】「村正ぁーーー！」するためのネタサイト作成記録",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--BE4WPnP9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2581%258E%25E3%2581%25A4%25E3%2581%25AD%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590FGO%25E3%2580%2591%25E3%2580%258C%25E6%259D%2591%25E6%25AD%25A3%25E3%2581%2581%25E3%2583%25BC%25E3%2583%25BC%25E3%2583%25BC%25EF%25BC%2581%25E3%2580%258D%25E3%2581%2599%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2583%258D%25E3%2582%25BF%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E4%25BD%259C%25E6%2588%2590%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjZmNTZjZTExMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60e25e17134ad707be00d947",
-          "author": null,
-          "description": "List comprehension is an easy to read, compact, and elegant way of creating a list from any existing iterable object. Basically, it's a simpler way to create a new list from the values in a list you already have. It is generally a single line of code enclosed in square",
-          "link": "https://www.freecodecamp.org/news/list-comprehension-in-python/",
-          "publishedOn": "2021-07-07T17:25:39.000Z",
-          "wordCount": 1592,
-          "title": "List Comprehension in Python Explained for Beginners"
+          "id": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
+          "author": "ykoizumi0903",
+          "description": "この記事は、昨日会社のテックブログに寄稿した記事\nhttps://tech.andpad.co.jp/entry/2021/07/01/170000\nに入りきらなかった情報の補足です。\n元の記事では、Vue + JSX + Nuxt Composition APIという組み合わせで開発を行う際の、環境設定・導入方法、メリットとデメリット、そしてJSXに限らないComposition APIのTipsまでいろいろ書いていますので、興味のある方は先にそちらの記事をご覧ください【PR】！\n\nさて、冒頭の記事ではVue + JSX（TSX）の組み合わせでの開発のメリデメを挙げる中で、\n現状のVu...",
+          "link": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
+          "publishedOn": "2021-07-02T11:46:58.000Z",
+          "wordCount": 132,
+          "title": "Vue 2 × TSX で完璧な型サポートを手に入れる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zFxN9enk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykoizumi0903%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25202%2520%25C3%2597%2520TSX%2520%25E3%2581%25A7%25E5%25AE%258C%25E7%2592%25A7%25E3%2581%25AA%25E5%259E%258B%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60c38e76d3126007592d66cd",
-          "author": null,
-          "description": "I've carefully gone through over 50 resources, I've been through 10 JavaScript interviews, and I've landed a job at a unicorn startup. And throughout this entire process, I started to see a pattern in the most frequently asked JS interview questions.  In this article, I have tried to list the",
-          "link": "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/",
-          "publishedOn": "2021-07-07T15:43:17.000Z",
-          "wordCount": 4364,
-          "title": "JavaScript Interview Prep Cheatsheet – Ace Your Coding Interviews with These Concepts"
+          "id": "https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify",
+          "author": "リーナーテックブログ",
+          "description": "Leaner Technologies の黒曜(@kokuyouwind)です。\n最近は Nintendo Switch のはじめてゲームプログラミングでプログラミングを勉強しています。めっちゃ褒められるので最高。\nhttps://twitter.com/kokuyouwind/status/1406600715426926595\nいろんなゲームが作れそうでワクワクしますね。任天堂はいいものを作るなぁ。\n\n Elastic Beanstalk を Amplify Console で置き換えた\nLeaner の技術スタック紹介 で「配信環境が Beanstalk になっているのはちょっと冗...",
+          "link": "https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify",
+          "publishedOn": "2021-07-01T01:22:13.000Z",
+          "wordCount": 327,
+          "title": "Amplify ConsoleでSPA配信を置き換えたら最高だった",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DAiRwcTl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Amplify%2520Console%25E3%2581%25A7SPA%25E9%2585%258D%25E4%25BF%25A1%25E3%2582%2592%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25E6%259C%2580%25E9%25AB%2598%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGZiYzhkYzg5MS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60d5ec446e1a1407b6b0bcae",
-          "author": null,
-          "description": "Binary search is a common algorithm used in programming languages and programs. It can be very useful for programmers to understand how it works. We just released a binary search course on the freeCodeCamp.org YouTube channel. You will learn how to implement binary search in C and C++, but",
-          "link": "https://www.freecodecamp.org/news/what-is-binary-search/",
-          "publishedOn": "2021-07-07T13:57:56.000Z",
-          "wordCount": 13488,
-          "title": "What is Binary Search?"
+          "id": "https://zenn.dev/katsuking/articles/16578da99271aa",
+          "author": "KatsuKiNG👑",
+          "description": "note社の記事で、共通コンポーネントにSvelteを使うと聞いて、なるほど面白いと思ってやってみました。\nhttps://note.jp/n/n7f757d7050f6\n今回は、Nuxt上でSvelteコンポーネントを動かすまでをやっていきます。\n上記の記事にもある通り、通常Svelteを動かすには以下のようにtargetにnewすると動くのですが、SSRでは動きません。\n\n      \n        \n        import App from './App.svelte';\n\nconst app = new App({\n\ttarget: document.body,\n\tpro...",
+          "link": "https://zenn.dev/katsuking/articles/16578da99271aa",
+          "publishedOn": "2021-06-30T06:14:36.000Z",
+          "wordCount": 152,
+          "title": "NuxtでSvelteコンポーネントを動かしてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--VnyrfdWL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KatsuKiNG%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25A7Svelte%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjBhYjVmM2Q0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60e16e1b134ad707be00d6bc",
-          "author": null,
-          "description": "In this article, I'm going to explain how to automatically upload an Android App Bundle (.aab file) to the Play Store's beta track. We'll use Android Studio and AWS as a cloud infrastructure provider.  Once we've uploaded the app bundle, we'll trigger a Slack notification.  This is a valuable use",
-          "link": "https://www.freecodecamp.org/news/automatically-upload-an-android-app-bundle-to-the-play-store/",
-          "publishedOn": "2021-07-06T21:08:39.000Z",
-          "wordCount": 2504,
-          "title": "How to Automatically Upload an Android App Bundle to the Play Store"
+          "id": "https://zenn.dev/jqinglong/articles/c8843bce4c475e",
+          "author": "JQinglong",
+          "description": "ちょいぶりに、create nuxt-app してみたら、ちょっとロゴが変わってました。\n\n以上です・・・",
+          "link": "https://zenn.dev/jqinglong/articles/c8843bce4c475e",
+          "publishedOn": "2021-06-29T13:40:01.000Z",
+          "wordCount": 8,
+          "title": "Nuxtのロゴは変わったの？",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_9PtJIxq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:JQinglong%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Nuxt%25E3%2581%25AE%25E3%2583%25AD%25E3%2582%25B4%25E3%2581%25AF%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dGS0FRWHBJUllSRHdIbVgyb1dHSUwyLTd4RHZ5RkN3Zkw3OThnTUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60b22e9611ffb70827ef9547",
-          "author": null,
-          "description": "In this tutorial, you will learn how to authenticate users and secure endpoints in Node.js. You'll also see how to implement Cross-Origin Resource Sharing (CORS) in Node. So let's get started.  Prerequisites You'll need the following to follow along with this tutorial:  A working understanding of JavaScript. A good",
-          "link": "https://www.freecodecamp.org/news/how-to-authenticate-users-and-implement-cors-in-nodejs-applications/",
-          "publishedOn": "2021-07-06T16:02:13.000Z",
-          "wordCount": 2286,
-          "title": "How to Authenticate Users and Implement CORS in Node.js Apps"
+          "id": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
+          "author": "utamori",
+          "description": "今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった\n\n      \n        \n        projects/test-pj\n> touch Makefile\n\n\n      \n      \n      \n        \n        projects/test-pj\n> npx create-nuxt-app .\n\n\ncreate-nuxt-app v3.7.0\nCould not create project in test-pj because the directory is not empty.\n\n\n      \n    ...",
+          "link": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
+          "publishedOn": "2021-06-28T10:24:38.000Z",
+          "wordCount": 135,
+          "title": "create-nuxt-appで既存のディレクトリを上書きできるようになった",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wzB7J9HV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:utamori%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:create-nuxt-app%25E3%2581%25A7%25E6%2597%25A2%25E5%25AD%2598%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E4%25B8%258A%25E6%259B%25B8%25E3%2581%258D%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60df35f027f80207bcdbccea",
-          "author": null,
-          "description": "Let's look at five JavaScript tips you can use today to instantly improve your React applications.  Because React is a JavaScript library, any improvements that we make in our JavaScript skills will directly improve the applications that we build with React. For this reason, I've put together a number of",
-          "link": "https://www.freecodecamp.org/news/javascript-tips-to-improve-your-react-code-today/",
-          "publishedOn": "2021-07-06T15:12:00.000Z",
-          "wordCount": 1570,
-          "title": "5 JavaScript Tips to Improve Your React Code"
+          "id": "https://zenn.dev/tanoken729/articles/e9185ede462fc3",
+          "author": "tanoken",
+          "description": "全指定\nSignup.vue\n\n      \n        \n        await this.$axios.post('http://localhost:8000/api/register',this.user)\n\n\n      \n      baseURLの指定\nauth-moduleでの設定\nnuxt.config.js\n\n      \n        \n          axios: {\n    // baseURL: 'http://localhost:3000',\n    // baseURL: 'http://localhost:8000',\n    baseURL...",
+          "link": "https://zenn.dev/tanoken729/articles/e9185ede462fc3",
+          "publishedOn": "2021-06-27T17:27:09.000Z",
+          "wordCount": 25,
+          "title": "【新規ユーザー登録機能】axiosを使ったapi呼び出しメモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--WabQT7Co--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E7%2599%25BB%25E9%258C%25B2%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591axios%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259Fapi%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2597%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60aa196411ffb70827ef5f43",
-          "author": null,
-          "description": "In this article, you will learn how to schedule a job in Node using node-cron.  Node-cron is a handy npm package which you can use to schedule jobs to run at specific times or intervals. It is most suitable for scheduling repetitive jobs such as email notifications, file downloads, and",
-          "link": "https://www.freecodecamp.org/news/schedule-a-job-in-node-with-nodecron/",
-          "publishedOn": "2021-07-06T14:27:26.000Z",
-          "wordCount": 2989,
-          "title": "How to Schedule a Job in Node Using node-cron"
+          "id": "https://zenn.dev/tanoken729/articles/fc1e0079b9bd03",
+          "author": "tanoken",
+          "description": "laravel\n解決\nhttps://teratail.com/questions/178343\nnuxt側も出てくるから後で調査",
+          "link": "https://zenn.dev/tanoken729/articles/fc1e0079b9bd03",
+          "publishedOn": "2021-06-27T17:17:51.000Z",
+          "wordCount": 11,
+          "title": "【新規ユーザー登録機能】ブラウザが表示しているエラーメッセージ消えない",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--7uGuaH0q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E7%2599%25BB%25E9%258C%25B2%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%258C%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%25A1%25E3%2583%2583%25E3%2582%25BB%25E3%2583%25BC%25E3%2582%25B8%25E6%25B6%2588%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         },
         {
-          "id": "60df6dd827f80207bcdbcf06",
-          "author": null,
-          "description": "Earning the Certified Information Systems Security Professional (CISSP) Certification proves you have what it takes to effectively design, implement and manage a best-in-class cybersecurity program. The CISSP is one of the most valuable Cyber Security Certificates in the market today.  We just posted a 13-hour course on the freeCodeCamp.org",
-          "link": "https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam/",
-          "publishedOn": "2021-07-06T13:55:00.000Z",
-          "wordCount": 109640,
-          "title": "Get Ready to Pass CISSP Exam"
+          "id": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
+          "author": "tatsuhiko",
+          "description": "前提\n\nVeturを利用している\njsconfig.jsonを書いている\nNuxtかVueで開発している\n\n\n 参考にしたサイト\nずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。\nVetur Intellisense slow and incomplete if project has jsconfig #547\n\n\n 結論\njsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。\nプロジェクトフォルダのjsconfig.jsonを\n\n      \n        \n       ...",
+          "link": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
+          "publishedOn": "2021-06-26T09:20:12.000Z",
+          "wordCount": 102,
+          "title": "VS CodeでVueのIntellisense(入力補完)が遅いとき",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--XaO6O-7a--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tatsuhiko%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:VS%2520Code%25E3%2581%25A7Vue%25E3%2581%25AEIntellisense%2528%25E5%2585%25A5%25E5%258A%259B%25E8%25A3%259C%25E5%25AE%258C%2529%25E3%2581%258C%25E9%2581%2585%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzY4MmU0MzhkMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/koniman/articles/e5355a16a5261c",
+          "author": "こにまん",
+          "description": "概要\n\nNuxt.jsでbuefyを使用。\n\n\n 満たしたいこと\nplaceholderで表示される文字列の色を変更。\n参考：\nCSS：input要素のplaceholderの色を変更する方法\n上記の記事参考に記述してみる。\n\n      \n        \n        input::placeholder {\n  color: red;\n}\n\n\n      \n      これでは変わらない。\n\n 解決策\n原因がわからないので最強の上書きで対応。\n\n      \n        \n        ::v-deep input::placeholder {\n  color: red...",
+          "link": "https://zenn.dev/koniman/articles/e5355a16a5261c",
+          "publishedOn": "2021-06-24T13:11:39.000Z",
+          "wordCount": 59,
+          "title": "Buefy Placeholderの色変更　メモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--PCohg1o3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2581%25AB%25E3%2581%25BE%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Buefy%2520Placeholder%25E3%2581%25AE%25E8%2589%25B2%25E5%25A4%2589%25E6%259B%25B4%25E3%2580%2580%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dRdFc2bVUyandqcm50aDVOSnoyVnlxZ3JCaUQzcGNreDEwV0VQPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/katsuking/articles/1fb93bc3bfe70e",
+          "author": "KatsuKiNG👑",
+          "description": "NuxtでSassを使用するにあたって、node-sassとsass-loaderをインストールした後、サーバ起動すると、sass-loaderで以下のエラーが発生しました。\n\n      \n        \n        ERROR  Failed to compile with 1 errors                                     \n\nERROR  in ./components/Header.vue?vue&type=style&index=0&id=1a9bb128&lang=sass&scoped=t...",
+          "link": "https://zenn.dev/katsuking/articles/1fb93bc3bfe70e",
+          "publishedOn": "2021-06-23T05:01:34.000Z",
+          "wordCount": 94,
+          "title": "Nuxt Sass サーバ起動時のエラー対処法 TypeError: this.getOptions is not a function",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--mhKmC_m_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KatsuKiNG%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Nuxt%2520Sass%2520%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E5%25AF%25BE%25E5%2587%25A6%25E6%25B3%2595%2520TypeError%253A%2520this.getOptions%2520is%2520not%2520a%2520function%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjBhYjVmM2Q0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config",
+          "author": "philomagi",
+          "description": "現象\nautoprefixer を v10 にバージョンアップする時、postcssをv8以上に更新する必要が生じた。\nそこで、 postcss8の移行ガイド に従って以下を試みた。\n\nNuxt.js を >= 2.15.3 に更新\n\n@nuxt/postcss8 を追加\n\nその後、 nuxt generate によって静的ファイルを生成しようとしたところ、掲題のエラーによって失敗した。\n\n      \n        \n        ╭──────────────────────────────────────────────────────────────────────...",
+          "link": "https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config",
+          "publishedOn": "2021-06-23T02:14:03.000Z",
+          "wordCount": 365,
+          "title": "@nuxt/postcss8 使用時 \"Cannot find module 0\" エラーが発生する場合とその対処",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_6xoLHBD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:philomagi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%2540nuxt%252Fpostcss8%2520%25E4%25BD%25BF%25E7%2594%25A8%25E6%2599%2582%2520%2522Cannot%2520find%2520module%25200%2522%2520%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%258C%25E7%2599%25BA%25E7%2594%259F%25E3%2581%2599%25E3%2582%258B%25E5%25A0%25B4%25E5%2590%2588%25E3%2581%25A8%25E3%2581%259D%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTgwNDQwMWQ5MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tanoken729/articles/bada725ab82399",
+          "author": "tanoken",
+          "description": "同じプロジェクトでvueを使う場合のみ？\nLaravel6からデフォルトで入っているモダンフロントエンドフレームワーク(Vue、React等)をLaravelで使う事ができるライブラリ\n\n laravel-uiのインストール\n以下を実施\n\n      \n        \n        composer require laravel/ui \"^1.0\" --dev\n\nphp artisan ui vue --auth\n\n\n      \n      \n スカフォールド（足場）を各フレームワークから選べる\n\n      \n        \n        php artisan ui bo...",
+          "link": "https://zenn.dev/tanoken729/articles/bada725ab82399",
+          "publishedOn": "2021-06-19T16:09:58.000Z",
+          "wordCount": 60,
+          "title": "【ログイン機能】laravel-ui",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--blYJWEb_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2580%2590%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591laravel-ui%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d",
+          "author": "ikeo",
+          "description": "はじめに\nヘッドレスCMSを使ってJamstackなブログを構築する機会があったので、使った技術や設定方法をまとめておきます。\n\n 構成\n技術構成です。\n\nHeadless CMS: microCMS\nsource repository: GitHub\nCI: GitHub Actions\nSSG: Nuxt.js\nHosting: Aamazon S3\n\nHeadless CMSには日本製のmicroCMSを選びました。\n公式ブログにNuxt.jsを使ったJamstackの記事があったため、今回参考にしています。\nhttps://blog.microcms.io/microcms-...",
+          "link": "https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d",
+          "publishedOn": "2021-06-18T02:34:18.000Z",
+          "wordCount": 167,
+          "title": "microCMS+NuxtのJamstackブログをS3にデプロイしてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--PLEtnaSh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ikeo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:microCMS%252BNuxt%25E3%2581%25AEJamstack%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592S3%25E3%2581%25AB%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDkwYjYyMzcxYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Zennの「TypeScript」のフィード",
+      "feedUrl": "https://zenn.dev/topics/typescript/feed",
+      "siteUrl": "https://zenn.dev/topics/typescript",
+      "articles": [
+        {
+          "id": "https://zenn.dev/nekoniki/articles/f8600d1ab7d908",
+          "author": "nekoniki",
+          "description": "はじめに\n今回はTypescript + Reactでstyled-componentsを使う場合のTipsを紹介します。\nstyleプロパティで直接記載するよりもスタイルの管理がしやすい+使い回しやすいといったメリットがあるのでおすすめです。\n※普段はReact Nativeを扱っていますが、styled-componentsに着目した場合の使用感はほぼ同じといっていいので、サンプルコードはReactのものになります。\n\n そもそもstyled-componentsとは\nstyled-componentsは所謂CSS in JSライブラリの一種になります。\n名前が表す通り、JSもし...",
+          "link": "https://zenn.dev/nekoniki/articles/f8600d1ab7d908",
+          "publishedOn": "2021-07-08T05:17:05.000Z",
+          "wordCount": 371,
+          "title": "styled-componentsをTypescriptで使う上でのTips",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_dogaJNk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:styled-components%25E3%2582%2592Typescript%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E4%25B8%258A%25E3%2581%25A7%25E3%2581%25AETips%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uttk/articles/ab7afa61eb481f",
+          "author": "uttk",
+          "description": "この記事について\nwebpackの設定ファイルであるwebpack.config.jsは、TypeScriptで書いてNode.js上で実行できます。しかし、本来であればTypeScriptのソースコードはNode.jsでは実行できないはずです。 この事が気になった私は、今回その仕組みを調べてみたので、この場を借りてその調査結果を共有したいと思います💪\n参照\nhttps://webpack.js.org/configuration/configuration-languages/\n\n 記事の概要\n概要のみ知りたい人に向けて、以下にこの記事で解説する内容のまとめを書いておきます👇\n\n\n...",
+          "link": "https://zenn.dev/uttk/articles/ab7afa61eb481f",
+          "publishedOn": "2021-07-08T04:36:31.000Z",
+          "wordCount": 531,
+          "title": "なぜWebpackの設定はTypeScriptで書けるのか？",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--9SBdy7us--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uttk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2581%25AA%25E3%2581%259CWebpack%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25AFTypeScript%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzdkM2Q1NTAxNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9",
+          "author": "ysmtegsr",
+          "description": "はじめに\nいきなりですが、みなさん読書の管理ってどうしていますか？\n僕は、ブクログ というサービスを使っています。以前は、読書メーター を使っていたんですが、ブクログは本に記載されている ISBN コードや Amazon の Asin コードから本を登録できる[1]ということを知って最近移行しました。\nどうせなら自動化したいなと思い、調べてみると同じことを考えた先人たちがいらっしゃったので参考にしつつやってみたのでその紹介です。\n\n 作ったもの\nKindle で書籍を購入した際に Amazon からメールが届きます。そのメールから使いたい Asin コードだけを抜き出して、購入した書...",
+          "link": "https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9",
+          "publishedOn": "2021-07-07T14:35:50.000Z",
+          "wordCount": 513,
+          "title": "Kindle で購入した書籍をブクログへ自動で登録する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--bYkWaURG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ysmtegsr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Kindle%2520%25E3%2581%25A7%25E8%25B3%25BC%25E5%2585%25A5%25E3%2581%2597%25E3%2581%259F%25E6%259B%25B8%25E7%25B1%258D%25E3%2582%2592%25E3%2583%2596%25E3%2582%25AF%25E3%2583%25AD%25E3%2582%25B0%25E3%2581%25B8%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7%25E7%2599%25BB%25E9%258C%25B2%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTMxZDc3MGI1Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hugtech/articles/90abb52f28bc68",
+          "author": "hugtech",
+          "description": "https://www.npmjs.com/package/aws-cognito-temporary-password-generator\n\n      \n        \n        /**\n * Configuration of Password generation.\n * Only possible to specify length. default: 16\n * All Other requirements are automatically satisfy\n * Require numbers\n * Require a special character from t...",
+          "link": "https://zenn.dev/hugtech/articles/90abb52f28bc68",
+          "publishedOn": "2021-07-07T13:24:03.000Z",
+          "wordCount": 268,
+          "title": "Generate AWS Cognito password",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Plxq-mdb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hugtech%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Generate%2520AWS%2520Cognito%2520password%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzc3MTRmYTM3YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yuku/articles/45bb0d6cf3da85",
+          "author": "Yuku Kotani",
+          "description": "仕事で GraphQL を使ったプロダクトに DDD のエッセンスを取り入れたく、GraphQL で部分的にフェッチしたドメインモデルに堅牢な型付けを試みたので、まだまだ荒削りですが紹介します。\n\n やりたいこと\nこのような GraphQL スキーマがあったとします。\n\n      \n        \n        type Person {\n  firstName: String!\n  lastName: String!\n  age: Int!\n}\n\ntype Query {\n  person: Person!\n}\n\n\n      \n      この Person に対して、以下よう...",
+          "link": "https://zenn.dev/yuku/articles/45bb0d6cf3da85",
+          "publishedOn": "2021-07-07T08:53:13.000Z",
+          "wordCount": 884,
+          "title": "GraphQL でフェッチした部分的なモデルのドメインロジックを TypeScript と Proxy で表現する試み",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--pDNMZ-fu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuku%2520Kotani%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:GraphQL%2520%25E3%2581%25A7%25E3%2583%2595%25E3%2582%25A7%25E3%2583%2583%25E3%2583%2581%25E3%2581%2597%25E3%2581%259F%25E9%2583%25A8%25E5%2588%2586%25E7%259A%2584%25E3%2581%25AA%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2581%25AE%25E3%2583%2589%25E3%2583%25A1%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%25AD%25E3%2582%25B8%25E3%2583%2583%25E3%2582%25AF%25E3%2582%2592%2520TypeScript%2520%25E3%2581%25A8%2520Proxy%2520%25E3%2581%25A7%25E8%25A1%25A8%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%25E8%25A9%25A6%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEQVVDNDRXNTlSbWgyMjVIR2ZycENZQmRlNUJNZ0VCaDl3TGY0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hugtech/articles/79d6d9f74e3deb",
+          "author": "hugtech",
+          "description": "tsdx\nhttps://github.com/formium/tsdx\n\n .launch.json\n\n      \n        \n        {\n\t\"version\": \"0.2.0\",\n\t\"configurations\": [\n\t\t{\n\t\t\t\"type\": \"node\",\n\t\t\t\"request\": \"launch\",\n\t\t\t\"name\": \"Jest All\",\n\t\t\t\"program\": \"${workspaceFolder}/node_modules/.bin/tsdx\",\n\t\t\t\"args\": [\"test\", \"--runInBand\"],\n\t\t\t\"conso...",
+          "link": "https://zenn.dev/hugtech/articles/79d6d9f74e3deb",
+          "publishedOn": "2021-07-07T08:04:34.000Z",
+          "wordCount": 74,
+          "title": "the launch.json of tsdx + jest + vscode",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--azPDiR0k--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hugtech%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:the%2520launch.json%2520of%2520tsdx%2520%252B%2520jest%2520%252B%2520vscode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzc3MTRmYTM3YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/masakitm/articles/8d8271b9fdbee8",
+          "author": "masakitm",
+          "description": "概要\nReactの環境構築はcreate-react-appで全然いい。\nNext.jsでもGatsbyでも全然いい。\nいいのだけど、サッと書きたいだけのときは重い。\nそう思って最低限必要だと思うものを1コマンド叩けばいいようにスクリプトを書いた。\n\n 解説\neslintやprettierは必要なら別途入れる。\n個人でサクッと書く分にはvscode側のlint拡張とかで済ませていいと思うので含めていない。\ncss in jsも必要なら後で入れればいい。プロダクト開発のテンプレートではないので。\nまずはtsconfigファイルを生成する関数を作る。\nシェルはzshを使っている。\n\n  ...",
+          "link": "https://zenn.dev/masakitm/articles/8d8271b9fdbee8",
+          "publishedOn": "2021-07-07T07:29:27.000Z",
+          "wordCount": 345,
+          "title": "サクッとReact + typescript書きたいとき一発で環境構築するシェルスクリプトを作る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--xRhrbQuj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:masakitm%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2582%25B5%25E3%2582%25AF%25E3%2583%2583%25E3%2581%25A8React%2520%252B%2520typescript%25E6%259B%25B8%25E3%2581%258D%25E3%2581%259F%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%25E4%25B8%2580%25E7%2599%25BA%25E3%2581%25A7%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2597%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvbS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sota_yamaguchi/articles/a138b03e62595b",
+          "author": "sota_yamaguchi",
+          "description": "最近弊社の開発メンバーでブログを書こうという運動があります。\nネタ探しをしていたらよさげな記事を見つけたのでアイデアをお借りします。\nshohei さんありがとう🙏\n※決してパ○リではありません\nhttps://techblog.roxx.co.jp/entry/2021/04/23/064837\n毎週チーム内での読書会や、部署をまたいだエンジニアでの輪読会を行っているのですが、都度読み順を決めるのが面倒なので、参加メンバーをシャッフルしてリストで返す chrome 拡張機能を作ってみました。\nなお、弊社の読書会は Google Meet で行うことが多いため必然的に Google Me...",
+          "link": "https://zenn.dev/sota_yamaguchi/articles/a138b03e62595b",
+          "publishedOn": "2021-07-07T02:09:31.000Z",
+          "wordCount": 139,
+          "title": "輪読会の読み順をランダムで決める chrome 拡張機能を作る for Google Meet ［React + TypeScript］",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--digA9JFU--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sota_yamaguchi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E8%25BC%25AA%25E8%25AA%25AD%25E4%25BC%259A%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E9%25A0%2586%25E3%2582%2592%25E3%2583%25A9%25E3%2583%25B3%25E3%2583%2580%25E3%2583%25A0%25E3%2581%25A7%25E6%25B1%25BA%25E3%2582%2581%25E3%2582%258B%2520chrome%2520%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2520for%2520Google%2520Meet%2520%25EF%25BC%25BBReact%2520%252B%2520TypeScript%25EF%25BC%25BD%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjBjYWExZWI3Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/bonfireman/articles/400142b4d65409",
+          "author": "Shota Nakano",
+          "description": "オープン・クローズドの原則とは\nSOLID原則の、Open Closed Principle（以下：OCP）のことで、「ソフトウェアの構成要素は拡張に対して開いていて、修正に対して閉じていなければならない」という原則です。\n言い換えると、ソフトウェアの振る舞いは、既存の成果物を変更せず拡張できるようにすべきであるということです。\n以下の仕様になっているサンプルコードを見ながら実際にGoodコードとBadコードを見ながら、理解を深めてみます。\n\n      \n        \n        - ある会員制ECサイトの決済システムで、会員のグレードによって割引がされる\n- Discou...",
+          "link": "https://zenn.dev/bonfireman/articles/400142b4d65409",
+          "publishedOn": "2021-07-06T14:32:18.000Z",
+          "wordCount": 332,
+          "title": "SOLID原則 ◆オープン・クローズドの原則◆",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--YRbC-asU--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Shota%2520Nakano%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:SOLID%25E5%258E%259F%25E5%2589%2587%2520%25E2%2597%2586%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25B3%25E3%2583%25BB%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25BA%25E3%2583%2589%25E3%2581%25AE%25E5%258E%259F%25E5%2589%2587%25E2%2597%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h0c0tkOE1YUGFDbkJuNmdBY3Y3cWNwbzduYVE5T2ZabUZoUUR4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yiwa/articles/3d4b91fd4fb467",
+          "author": "yiwa",
+          "description": "Recoilを使ってみたいので、Firebase Authで使ってみました。\nなるべく複雑なことをしないようにRecoilでFirebaseのUserオブジェクトを保持して、認証状態でルーティングするだけのシンプルなものです。\n\n 使うもの\n\nReact\nRecoil\nReact Router Dom\nFirebase\n\n\n ディレクトリ\n\nsrc/\n\nindex.tsx\nApp.tsx\nfirebase.js\nhooks/Auth.tsx\npages/Login.tsx\n\n\n\n\n 1. Atomの設定\n\n      \n        /hooks/Auth.tsx\n        im...",
+          "link": "https://zenn.dev/yiwa/articles/3d4b91fd4fb467",
+          "publishedOn": "2021-07-06T03:22:43.000Z",
+          "wordCount": 435,
+          "title": "RecoilでFirebase Authを使う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--3Bgms2NB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yiwa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Recoil%25E3%2581%25A7Firebase%2520Auth%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pkc1RqT0pCSEpYenVBQ1VoRFNIUlF2bmlOend0YVBvcndtSnJnQVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/bonfireman/articles/736a5b5fa36b2c",
+          "author": "Shota Nakano",
+          "description": "単一責任の原則とは\nSOLID原則の、Single Reaponsibility Principleのことで、「モジュールはたったひとつのアクターに対して責務を負うべきである」という原則です。\n「モジュール」は、ここではいくつかの関数やデータをまとめた凝集性のあるのものと捉えてください。\n「アクター」はシステムを利用するユーザーやステークホルダーを指します。\nなぜ、モジュールはたったひとつのアクターに対して責務を負うべきなのでしょうか？\nそれは、1つのモジュールが複数のアクターに対して責務を持っている状態だと、1つのアクターに対するモジュールの役割を変更したい場合に、別のアクターへの...",
+          "link": "https://zenn.dev/bonfireman/articles/736a5b5fa36b2c",
+          "publishedOn": "2021-07-05T10:14:29.000Z",
+          "wordCount": 131,
+          "title": "SOLID原則 ◆単一責任の原則◆",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vnR2BY3c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Shota%2520Nakano%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:SOLID%25E5%258E%259F%25E5%2589%2587%2520%25E2%2597%2586%25E5%258D%2598%25E4%25B8%2580%25E8%25B2%25AC%25E4%25BB%25BB%25E3%2581%25AE%25E5%258E%259F%25E5%2589%2587%25E2%2597%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h0c0tkOE1YUGFDbkJuNmdBY3Y3cWNwbzduYVE5T2ZabUZoUUR4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1",
+          "author": "Sosuke Suzuki",
+          "description": "ESTree を CSS のセレクター風の記法で走査する esquery というライブラリがある。\nhttps://github.com/estools/esquery\n直接使ったことがある人は少ないかもしれないが、ESLint ルールを書くときに使ことがあるので esquery の構文を使ったことがある人は多いのではないだろうか。\nesquery は便利だが、長いクエリを文字列で渡したりするのが微妙。テンプレートリテラルでいい感じにしたい。ということで outdent と組み合わせる小さなラッパーを書いた。\n\n      \n        \n        import esquery...",
+          "link": "https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1",
+          "publishedOn": "2021-07-05T06:31:49.000Z",
+          "wordCount": 122,
+          "title": "esquery 便利ラッパー",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--31FFgw1L--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sosuke%2520Suzuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:esquery%2520%25E4%25BE%25BF%25E5%2588%25A9%25E3%2583%25A9%25E3%2583%2583%25E3%2583%2591%25E3%2583%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kzVm5WZHo2MC1CT3lMTS1VVnZaNmdNSDJlTlp1T0lTa1owT3lyNnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c",
+          "author": "Sosuke Suzuki",
+          "description": "この記事では TypeScript から既存のパーサーライブラリを使って JavaScript をパースするときにどのように型をつけるか、自分がやっている方法を紹介する。TypeScript を使って1から JavaScript のパーサーを書く話ではないので注意。\n仕事で、TypeScript で JavaScript をパースして構文木をゴニョゴニョやるツールを書いていた。\nこういうとき、まずどのパーサーを使うかを考える。\nパースする対象が絶対に JavaScript であることがわかっている場合、自分は Acorn を使うことが多い(TypeScript や Flow をパースする...",
+          "link": "https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c",
+          "publishedOn": "2021-07-05T05:33:52.000Z",
+          "wordCount": 107,
+          "title": "TypeScript で JavaScript をパースするときの型",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--T0ESAVK3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sosuke%2520Suzuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%2520%25E3%2581%25A7%2520JavaScript%2520%25E3%2582%2592%25E3%2583%2591%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%259E%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kzVm5WZHo2MC1CT3lMTS1VVnZaNmdNSDJlTlp1T0lTa1owT3lyNnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kawarimidoll/articles/efed8ada433f24",
+          "author": "kawarimidoll",
+          "description": "Deno Deployの勉強をしています。\nhttps://zenn.dev/kawarimidoll/articles/b0a5064befcd31\n本記事では、Deno Deploy用のコードを書いている際に遭遇した[deno-ts 2339]エラーの対処をまとめました。\n\n 発生するエラー\nエラーはエディタ内で表示されるもので、[deno-ts 2339] [E] Property 'respondWith' does not exist on type 'Event'です。\n例として、公式ドキュメントのHello Worldページのコードを使います。\nhttps://deno.c...",
+          "link": "https://zenn.dev/kawarimidoll/articles/efed8ada433f24",
+          "publishedOn": "2021-07-05T02:28:21.000Z",
+          "wordCount": 142,
+          "title": "Deno Deploy用コードで[deno-ts 2339]が発生するときの対処法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vHrSd3NX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Deno%2520Deploy%25E7%2594%25A8%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25A7%255Bdeno-ts%25202339%255D%25E3%2581%258C%25E7%2599%25BA%25E7%2594%259F%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb",
+          "author": "beeeyan",
+          "description": "ことの経緯\nReact × TypeScript のプロジェクトでRebass使おうかな。\n↓\nRebassの開発者さんが最近開発しているのはTheme UIらしい。\n参考 : Theme UI で Theme Driven な快適 React スタイリング生活\n↓\nTheme UI使ってみよう。\n↓\n動かない（表示されない）。。。\n↓\n動かそう!!!\n※ TypeScriptでTheme UIを導入するときの注意点くらいの記事です。\n\n インストール方法\n公式サイトのGetting Startedには以下のコマンドが記載されている。\n\n      \n        \n       ...",
+          "link": "https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb",
+          "publishedOn": "2021-07-05T02:08:52.000Z",
+          "wordCount": 132,
+          "title": "Theme UIをReact×TypeScriptのプロジェクトで使う。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ypw8L8lO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:beeeyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Theme%2520UI%25E3%2582%2592React%25C3%2597TypeScript%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTg0NTA1OGQzYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tatta/books/5096cb23126e64",
+          "author": "たった",
+          "description": "Typescriptを使いはじめて1年になるので、バックエンドのWebアプリを設計するときに気を付けていることをまとめました。（※社内勉強会用資料の公開版です。）\n\nTypescriptについては、Next.jsを中心にフロントエンドに関する公開情報が豊富です。一方でバックエンドに関する公開情報が少ないと感じています。（かくいう私もNext.jsからTypescriptデビューしたわけですが）\n\nTypeScript * GraphQL という構成は仕事・趣味で採用されている方も多いのではないでしょうか？\n私もその1人です。私のような方のためにも、バックエンドの設計プラクティスについてまとめようと思い筆を取りました。\n\n本書がこれから始める読者にとっては教科書のようになり、既に経験がある読者にとっては意見交換の場になったら嬉しいと考えています。",
+          "link": "https://zenn.dev/tatta/books/5096cb23126e64",
+          "publishedOn": "2021-06-25T06:49:19.000Z",
+          "wordCount": 41,
+          "title": "TypeScript * GraphQLのバックエンド設計プラクティス",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--YUooV18A--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci84M2U4NWNlYjE5LmpwZw==%2Cw_200/v1604564438/og_book_base_ndpqis.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sprout2000/books/3691a679478de2",
+          "author": "sprout2000",
+          "description": "Electron の多彩な API を実例とともに紹介する Tips 集",
+          "link": "https://zenn.dev/sprout2000/books/3691a679478de2",
+          "publishedOn": "2021-06-19T08:12:26.000Z",
+          "wordCount": 60,
+          "title": "Electron API レシピブック 2021",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vOALrMEm--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci83NzRmODc4MDc4LmpwZw==%2Cw_200/v1604564438/og_book_base_ndpqis.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Zennの「Vim」のフィード",
+      "feedUrl": "https://zenn.dev/topics/vim/feed",
+      "siteUrl": "https://zenn.dev/topics/vim",
+      "articles": [
+        {
+          "id": "https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops",
+          "author": "uki00a",
+          "description": "はじめに\ndenops.vimを使って、Vim/Neovim上でポモドーロテクニックを実践するためのプラグインを作成してみました。\nhttps://github.com/uki00a/denops-pomodoro.vim/\nこの記事ではdenops-pomodoro.vimの使い方やdenops.vimを使ってプラグインを実装する上でのノウハウなどについて紹介します。\n\n denops.vimとは?\ndenops.vimとはDenoを使ってVimやNeovimのプラグインを書くためのエコシステムです。\nより詳しくは以下の記事を参照いただければと思います。\nhttps://zenn....",
+          "link": "https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops",
+          "publishedOn": "2021-07-04T08:56:51.000Z",
+          "wordCount": 201,
+          "title": "denops.vimを使ってポモドーロタイマーを実装してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Q9Qhj1Bw--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uki00a%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:denops.vim%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%259D%25E3%2583%25A2%25E3%2583%2589%25E3%2583%25BC%25E3%2583%25AD%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%259E%25E3%2583%25BC%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGUzODk3MWRmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kouta/articles/ab2d9df961238e",
+          "author": "koutarn",
+          "description": "ここはどこだ\n\n「あれ、なんの作業をしてたっけ?」\n彼の名前はkoutarn、しがないタッチタイピング虚無僧。\n今日も元気にお経を唱えながらコーディングをしていたのですが、\n度重なるデスマーチのせいで軽く記憶を無くしてしまったようです。\n「vimで作業をしていたんだけど基本的な操作方法以外思いだせない…」\nおっと、彼はvimという 素晴しいエディタ で作業をしていたようですね。\nご都合主義なこの状況から彼と一緒にvimの操作方法を思い出してみましょう。\n\n この記事の対象の方\n✅ この記事は以下の人を想定して書いています。\n\n\nもの忘れが激しい人\nvimって便利なんだけど覚える事が多...",
+          "link": "https://zenn.dev/kouta/articles/ab2d9df961238e",
+          "publishedOn": "2021-07-01T16:12:11.000Z",
+          "wordCount": 379,
+          "title": "もしもvimを使っているときに記憶喪失になったら…",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZRCd1Dxh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:koutarn%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%2582%25E3%2581%2597%25E3%2582%2582vim%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E8%25A8%2598%25E6%2586%25B6%25E5%2596%25AA%25E5%25A4%25B1%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E2%2580%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWJhZThjY2ViMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/u1tnk/articles/303ed2cd4fff6c",
+          "author": "yuichi tanaka",
+          "description": "自ブログから転載 https://u1tnk.github.io/blog/2021/06/28/wsl2_clipboard_config/\n\n 概要\nvim、tmux、windws側のcopy/pasteを全て連携させる。\nWSL2移行前に使っていたVIrtualBox環境からの移行で、結局の所ssh+x転送をやめた結果 xselが使えなくなったのでwindowsのexeを直接叩けばOKだった…というだけ。\n\n windows側のクリップボードを双方向で使えるアプリをインストール\nhttps://github.com/equalsraf/win32yank  を利用。\nwindows...",
+          "link": "https://zenn.dev/u1tnk/articles/303ed2cd4fff6c",
+          "publishedOn": "2021-06-28T06:38:47.000Z",
+          "wordCount": 70,
+          "title": "WSL2でvim/tmuxでクリップボード共有できるようにする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--l3UClVe7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuichi%2520tanaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:WSL2%25E3%2581%25A7vim%252Ftmux%25E3%2581%25A7%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2583%25E3%2583%2597%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E5%2585%25B1%25E6%259C%2589%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hyWGZVOTktXzY1eFFqQ0dfZEFTUlhFX2RtN1dEcmFoQmhxX1dfMEE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/lunarxlark/articles/how-to-use-vi-in-sqlplus",
+          "author": "lunarxlark",
+          "description": "SQL> DEFINE _EDITOR = vi\nSQL> edit\nSQL> /   -- 実行\n\n\n      \n      glogin.sqlに設定することでDEFINE _EDITOR = viを省略できる",
+          "link": "https://zenn.dev/lunarxlark/articles/how-to-use-vi-in-sqlplus",
+          "publishedOn": "2021-06-26T04:01:08.000Z",
+          "wordCount": 20,
+          "title": "SQL*Plusでviを使う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DxIX2WH8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:SQL%252APlus%25E3%2581%25A7vi%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/lunarxlark/articles/from-denite-to-fzf",
+          "author": "lunarxlark",
+          "description": "denite.nvimとfzf.vimって比較記事?\n\n違います。断捨離した結果、fzf.vimで事足りてしまったという記事です。\ndenite.nvimとfzf.vimは、一見やれることが似ているように見えますが提供しているインタフェースが違います。\ndenite.nvimの方が拡張性/汎用性が高いです。Pythonスクリプトを呼び出せますし。\n\nどうしてやめたん？\n\nPython3とpipの環境整備に疲れたというのが理由で完全に力不足なだけです。\nそもそも使いこなせていなかったっていうのも大きい。自分に必要な機能が何か見直したら次のがあれば十分っぽい。\n\nコマンドの結果の一覧表示(...",
+          "link": "https://zenn.dev/lunarxlark/articles/from-denite-to-fzf",
+          "publishedOn": "2021-06-26T04:01:02.000Z",
+          "wordCount": 138,
+          "title": "From denite.nvim To fzf.vim",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--rNKc3BZy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:From%2520denite.nvim%2520To%2520fzf.vim%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/lunarxlark/articles/2021_vim_gopls",
+          "author": "lunarxlark",
+          "description": "goplsが出てから, vimでも定義ジャンプやシンボル検索、ドキュメント参照等が行えるようになった。\nたまにVSCodeを触りvimでの作業を改善できないか考える中で、自身の設定が古いことに気付いた。また、ググってもなかなか出てこなかったのでメモとして記述する。\ncf. GitHub dotfiles\nいきなりだが、vimrcとvim-lsp-settings/settings.jsonを抜粋して貼り付ける。\n以前、GoではLspCodeAction, LspCodeLens等をサポートしていなかったが、今では使えるようになっている。\nキーマップに設定している関数は全てGoで使用出来る...",
+          "link": "https://zenn.dev/lunarxlark/articles/2021_vim_gopls",
+          "publishedOn": "2021-06-26T03:16:35.000Z",
+          "wordCount": 255,
+          "title": "2021年版 vim + goplsの設定",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--2jrN75bq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:2021%25E5%25B9%25B4%25E7%2589%2588%2520vim%2520%252B%2520gopls%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uu64/articles/6518c75cdf5e02",
+          "author": "uu",
+          "description": "最近 VIM の起動時間が遅いことが気になり、高速化のために起動時間の内訳を調査した。\n歴戦の Vimmer の皆様には常識かもしれないが、私のような VIM 初学者の助けになればと思い調査方法を備忘録として残す。\n\n --startuptime オプション\nvim/neovim には --startuptime という起動時間の内訳を調査するための\nオプションが用意されている。\n以下のようにして用いる。オプションの後ろに指定したファイルパスに、起動ログが出力される。\n\n      \n        \n        $ vim --startuptime /tmp/startup.lo...",
+          "link": "https://zenn.dev/uu64/articles/6518c75cdf5e02",
+          "publishedOn": "2021-06-21T14:58:40.000Z",
+          "wordCount": 289,
+          "title": "VIMの起動時間の調査方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--c9KcEw0c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:VIM%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E8%25AA%25BF%25E6%259F%25BB%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kawarimidoll/articles/1c48c097020cbc",
+          "author": "kawarimidoll",
+          "description": "Denoの開発をする際に毎回同じような設定を行っているのでテンプレートリポジトリを作りました。\nhttps://github.com/kawarimidoll/deno-dev-template\n作業記録（Zenn scrap）はこちら\n\n Loggerの設定\n出力したログがコンソールだけでなくファイルに残っていると後から見直しやすく便利です。\nこれに関しては以下の記事でまとめました。\nhttps://zenn.dev/kawarimidoll/articles/b1d9bc15aaa99c\nここで作ったlogger.tsを入れておきます。\n\n Dotenvの設定\ndotenvも使用頻度...",
+          "link": "https://zenn.dev/kawarimidoll/articles/1c48c097020cbc",
+          "publishedOn": "2021-06-20T12:06:58.000Z",
+          "wordCount": 204,
+          "title": "Denoを（Vimで）開発するときのテンプレートを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--gPsE3pbI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E3%2582%2592%25EF%25BC%2588Vim%25E3%2581%25A7%25EF%25BC%2589%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/octaltree/articles/c5757d9a126415",
+          "author": "octaltree",
+          "description": "はじめに\nRust 1.53が本日リリースされ、rustdocが吐く目次データのフォーマットが変わりました。これによりdocを高速に検索するための自作ツールrustdoc-index[1][2]がstableでも使えるようになりました。\n\nここからがvimの話です。私がvim-jpのslackコミュニティに参加したのはこのツールの宣伝が目的[3]でした。そこはvim猛者がたくさんいて、2021/04/01に参加してたった2ヶ月で、7年テキトーに使っていたvimについて学ぶことが多くありました。細々とした知見を書き連ねるのはまとめきれないので、この記事ではvimプラグインとプログラミン...",
+          "link": "https://zenn.dev/octaltree/articles/c5757d9a126415",
+          "publishedOn": "2021-06-17T14:49:23.000Z",
+          "wordCount": 207,
+          "title": "Vimプラグインを書く言語について と宣伝",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--IWt0_nyL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:octaltree%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vim%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%25E8%25A8%2580%25E8%25AA%259E%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2520%25E3%2581%25A8%25E5%25AE%25A3%25E4%25BC%259D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lHUlpoVFNjenlwZTBsbWtackRlZXFVMXIzV2ZORlQ0SXppSEFpPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50",
+          "author": "kouhirose",
+          "description": "コピー，ペースト，切り取り\n\n 一行コピー\nyy\n\n ペースト\np\n\n 範囲選択してコピー\nvで押すと範囲選択モードになる．\nvim以外のエディタのShift押しながらカーソル移動と同じ．\nカーソル移動して\ny\nでコピー\n\n 切り取り\nv\nを押すと範囲選択にする．\nカーソル移動して\nd\nで切り取り.\n後はpでペースト.\n\n 削除\n\n 一文字削除\nx\n\n 一行削除\ndd\n\n 元に戻す,元に戻すを戻す\nwindowsならctrl+zとかctrl+yのやつ．\n元に戻すが「undo」で，元に戻すを戻すが「redo」といいます．\nundoがu\nredoがctrl+u\n\n 移動\n\n 最終行\nG\n...",
+          "link": "https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50",
+          "publishedOn": "2021-06-17T00:42:38.000Z",
+          "wordCount": 67,
+          "title": "vim コマンド",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--xCbfXBeu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kouhirose%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:vim%2520%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTE0MjNmOTI0Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kaz399/articles/50b5f2fdc2afcf",
+          "author": "kaz399",
+          "description": "vim(neovim)はとても便利で気に入っていますが、日本語入力が不便です。\nvimのモード切替＋IMEの切り替え が、とにかく面倒です。\n日本語入力が必要になるときは別のエディタを使ったりしていますが、それはそれで面倒なので、なんとか改善したいです。\n\n やりたいこと\n個人的には\n\nノーマルモードに移る時には、IMEがオフになってほしい\nインサートモードに移る時には、直前のインサートモードでのIME状態に戻ってほしい\n\nと思っています。\nついでに、Windowsのneovimだけでなく日頃の開発環境であるWSL2のneovimでも同様なことをしたいと思っています。\n\n 既存の解決方法...",
+          "link": "https://zenn.dev/kaz399/articles/50b5f2fdc2afcf",
+          "publishedOn": "2021-06-15T11:36:29.000Z",
+          "wordCount": 54,
+          "title": "Windows と WSL2 の neovim を使ったときの 日本語入力をもうちょっとなんとかしたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Yv6x0Ni8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kaz399%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Windows%2520%25E3%2581%25A8%2520WSL2%2520%25E3%2581%25AE%2520neovim%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%2520%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E5%2585%25A5%25E5%258A%259B%25E3%2582%2592%25E3%2582%2582%25E3%2581%2586%25E3%2581%25A1%25E3%2582%2587%25E3%2581%25A3%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%2593%25E3%2581%25A8%25E3%2581%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjJlOWU3YTIxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tayusa/articles/58d1c20172f662",
+          "author": "tayusa",
+          "description": "はじめに\nかねてから、Denoを触ってみたいけど肝心の作るものがないなと思っていました。\nそんな矢先にたまたまdenops.vimとの邂逅を果たしたので、昔作ったプラグインを書き直してみました。\ndenops.vimについては\nhttps://github.com/vim-denops/denops.vim\nhttps://zenn.dev/lambdalisue/articles/b4a31fba0b1ce95104c9\n\n 作ったもの\nhttps://github.com/tayusa/surround.vim\n題目のとおり、引用符と括弧を操作するvimのプラグインです。\n\n 行...",
+          "link": "https://zenn.dev/tayusa/articles/58d1c20172f662",
+          "publishedOn": "2021-06-13T15:41:53.000Z",
+          "wordCount": 25,
+          "title": "denops.vimを使って引用符と括弧を操作するVimのプラグインを書いた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--s3MKIPN8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tayusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:denops.vim%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E5%25BC%2595%25E7%2594%25A8%25E7%25AC%25A6%25E3%2581%25A8%25E6%258B%25AC%25E5%25BC%25A7%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258BVim%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzhiYTFjMjg4Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/rapan931/articles/a5dfdb14ad1a1b",
+          "author": "rapan931",
+          "description": "ソート済みのテキストから重複行の抽出がしたかったので、vimで対応\n\n      \n        \n        \" 重複行は連続で2行まで。\naa\nbbb\nccc\ncccc\ndddddddd\ndddddddd\neeeeeeee\neeeeeeee\neeeeeeee.txt\neeeeeeee.txt\nfff\nfff\nddd\n↓\ndddddddd\neeeeeeee\neeeeeeee.txt\nfff\n\n\n      \n      以下で実施できます。\n\n      \n        \n        :v/\\(^.*$\\)\\n\\1$/delete\n\n\n      \n      行っているこ...",
+          "link": "https://zenn.dev/rapan931/articles/a5dfdb14ad1a1b",
+          "publishedOn": "2021-06-11T10:55:33.000Z",
+          "wordCount": 56,
+          "title": "[vim] 重複行の抽出",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--NGa0tih_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:rapan931%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%255Bvim%255D%2520%25E9%2587%258D%25E8%25A4%2587%25E8%25A1%258C%25E3%2581%25AE%25E6%258A%25BD%25E5%2587%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvci5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ykws/articles/xcode13-vim-mode",
+          "author": "ykws",
+          "description": "Xcode13 で Vim mode が導入されました\nXcode\n\nVim mode\nMany common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.\n\nXcode 13 Beta Release Notes\n\nXcode 13 beta requires a Mac running macOS 11.3 or late...",
+          "link": "https://zenn.dev/ykws/articles/xcode13-vim-mode",
+          "publishedOn": "2021-06-09T18:22:11.000Z",
+          "wordCount": 165,
+          "title": "Xcode 13 で Vim mode を有効にする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--GIUGGjft--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykws%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Xcode%252013%2520%25E3%2581%25A7%2520Vim%2520mode%2520%25E3%2582%2592%25E6%259C%2589%25E5%258A%25B9%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjQzYjQzOTY3Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Zennの「Vue.js」のフィード",
+      "feedUrl": "https://zenn.dev/topics/vue/feed",
+      "siteUrl": "https://zenn.dev/topics/vue",
+      "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/9cb55513c40848",
+          "author": "おしうみなおき",
+          "description": "今回は vue-js-modalで超簡単にモーダルを表示させる方法について紹介したいと思います。\nではさっそくいってみましょう💨\n\n vue-js-modalをインストール\nまずはライブラリをインストールします\n\n      \n        \n        npm install vue-js-modal --save\n\n\n      \n      僕の場合はバージョン1.3.xじゃないとインストールできなかったので、 npm install vue-js-modal@1.3 --save  という指定をしました。\nどんなバージョンがあるかはこちらで確認できます\n\n vue-js-m...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/9cb55513c40848",
+          "publishedOn": "2021-07-07T00:06:49.000Z",
+          "wordCount": 104,
+          "title": "vue-js-modalで超簡単にモーダルを実装する（laravel×vue）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--XI5dWOTE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue-js-modal%25E3%2581%25A7%25E8%25B6%2585%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25AB%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588laravel%25C3%2597vue%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/toshinobu/articles/233aa9b1b65115",
+          "author": "toshinobu",
+          "description": "Nuxtでi18n化対応\n昨今、というかだいぶ前からグローバリゼーションが進んできていますが、それにつれアプリ多言語化が必要な場面が増えてきたかと思います。\n規模やコンテクストにもよると思いますが、現在ではほとんどのアプリで多言語化が必要ではないでしょうか？\n\n そもそもi18nとは\nそもそもi18nってなんぞ？って疑問に思われたかもしれないですが、私も最初はそうでした笑\ni18nとはInternationalizationつまり国際化の略です。\n最初のIと最後のnの間に18文字あるからi18nなんですね。k8sといい、これ初見じゃ絶対わからないでしょ\n(余談ですが、こうゆう略し方を...",
+          "link": "https://zenn.dev/toshinobu/articles/233aa9b1b65115",
+          "publishedOn": "2021-07-06T00:21:30.000Z",
+          "wordCount": 330,
+          "title": "Nuxtでi18n化対応",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qL2I4_Ct--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:toshinobu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Nuxt%25E3%2581%25A7i18n%25E5%258C%2596%25E5%25AF%25BE%25E5%25BF%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hMeEh5bjU4bWZtSllLbl8zMEw2VVIyWG1XS3FMSDJMcWJBUWRZZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dfukui/articles/e8ff9f66ae094c",
+          "author": "dfukui",
+          "description": "はじめに\nCloud9 + Vue.jsを使って管理画面を作成するチュートリアルとなります。\n\n 管理画面テンプレートの導入\nCloud9のターミナルで以下実行します。\nCloud9の基本的な操作方法は以下を参考にしてください。\nhttps://26gram.com/how-to-use-cloud9\n\n Core UI のダウンロード\n\n      \n        \n        # リポジトリのクローン\ngit clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue\n\n# ダウ...",
+          "link": "https://zenn.dev/dfukui/articles/e8ff9f66ae094c",
+          "publishedOn": "2021-07-05T01:45:08.000Z",
+          "wordCount": 1205,
+          "title": "Vue.jsを使って管理画面を作る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--QCQgfhER--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dfukui%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue.js%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E7%25AE%25A1%25E7%2590%2586%25E7%2594%25BB%25E9%259D%25A2%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKekFEQnk4TWZ4MGlLeUZqLUtaM3Nna0ItVmM4SE1aaDlSdTBOV3Y9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52",
+          "author": "おしうみなおき",
+          "description": "Vue.jsで無限スクロールを実装したい場合は vue-infinite-scroll というライブラリを使用することをおすすめします。\n超簡単に実装できます\n公式ページはこちら\n\n ライブラリのインストール\nライブラリをインストールします\n\n      \n        \n        npm install vue-infinite-loading -S\n\n\n      \n      \n infinite-loadingコンポーネントを設置する\nライブラリをインストールしたらinfinite-loadingコンポーネントが使えるようになっているので、設置します。\n@infinite...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52",
+          "publishedOn": "2021-07-04T23:58:01.000Z",
+          "wordCount": 193,
+          "title": "vue-infinite-scrollで超簡単無限スクロールを実装する（vue.js）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--kXWiGs_4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:vue-infinite-scroll%25E3%2581%25A7%25E8%25B6%2585%25E7%25B0%25A1%25E5%258D%2598%25E7%2584%25A1%25E9%2599%2590%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588vue.js%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yuneco/articles/petite-vue-hello",
+          "author": "yuki matsumoto",
+          "description": "petite-vueは軽量・簡易版のVue.js\n2021/7/2にVue.js作者のEvan Youさんの新作、petite-vueがリリースされました。\nざっくりした概要は『petite-vue 最速 使い方』など、早速日本語でまとめてくださっている方がいるので、そちらを参照いただくと良いと思います。\n（ただし、当面は破壊的な変更や機能追加が頻繁に入ると思われるので、日本語の記事と併せて公式もチェックするのが良いと思います）\n\n 習うより慣れろ。ゲーム作って「完全に理解」してみた\n公式のREADMEやサンプルが結構丁寧なので、眺めてみるだけでなんとなく理解できた気になってきます。...",
+          "link": "https://zenn.dev/yuneco/articles/petite-vue-hello",
+          "publishedOn": "2021-07-04T17:58:47.000Z",
+          "wordCount": 467,
+          "title": "ゲームを作ってpetite-vueを完全に理解する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--e4jJfPj_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuki%2520matsumoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6petite-vue%25E3%2582%2592%25E5%25AE%258C%25E5%2585%25A8%25E3%2581%25AB%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzI1ODE2MjI1ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/8f16e42364398c",
+          "author": "chida",
+          "description": "Dockerは事前にMacにインストールされていることを前提とします。\n\n 手順\nVue.jsの開発環境を構築して起動するまでの手順です。\n\nNode.jsのバージョンを確認\ndockerhubを確認\nDockerfileの作成\ndocker-compose.ymlの作成\nコンテナの起動\nコンテナ内の作業\n\n\n Node.jsのバージョンを確認\nNode.jsを利用するため、必要なバージョンを確認します。様々なバージョンの中でも、公式サイトを見て推奨版であるLTSを確認します。\nhttps://nodejs.org/en/\nLTSとはLong-term Supportの略で、長期の保守運...",
+          "link": "https://zenn.dev/chida/articles/8f16e42364398c",
+          "publishedOn": "2021-07-04T09:56:17.000Z",
+          "wordCount": 185,
+          "title": "docker-composeでVue.jsの開発環境を構築する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_Y2w0rpH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:docker-compose%25E3%2581%25A7Vue.js%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/silloi/articles/ecfab241f3fea9",
+          "author": "silloi",
+          "description": "2021年7月3日（日本時間）、Vueの創始者Evan Youが新たなパッケージをリリースしました。\nhttps://github.com/vuejs/petite-vue\n\n petite-vue\npetite-vue（プティットゥ・ヴュー「プチVue」の意）は先進的な機能を備えた、超軽量なVueの下位互換です。スタンダードなVueと同等のテンプレート構文・リアクティビティモデルを有していますが、かつてサーバーフレームワークで所々に書かれていたような、ちょっとしたインタラクションを置き換えられるよう特化しています。\n\n5.7KB以下\nDOMベース（仮想DOMを使用しない）\n@vue/r...",
+          "link": "https://zenn.dev/silloi/articles/ecfab241f3fea9",
+          "publishedOn": "2021-07-03T07:40:54.000Z",
+          "wordCount": 397,
+          "title": "petite-vue 最速 使い方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--g01DhcMv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:silloi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:petite-vue%2520%25E6%259C%2580%25E9%2580%259F%2520%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTMxMzkzYjgwNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
+          "author": "ykoizumi0903",
+          "description": "この記事は、昨日会社のテックブログに寄稿した記事\nhttps://tech.andpad.co.jp/entry/2021/07/01/170000\nに入りきらなかった情報の補足です。\n元の記事では、Vue + JSX + Nuxt Composition APIという組み合わせで開発を行う際の、環境設定・導入方法、メリットとデメリット、そしてJSXに限らないComposition APIのTipsまでいろいろ書いていますので、興味のある方は先にそちらの記事をご覧ください【PR】！\n\nさて、冒頭の記事ではVue + JSX（TSX）の組み合わせでの開発のメリデメを挙げる中で、\n現状のVu...",
+          "link": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
+          "publishedOn": "2021-07-02T11:46:58.000Z",
+          "wordCount": 132,
+          "title": "Vue 2 × TSX で完璧な型サポートを手に入れる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zFxN9enk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykoizumi0903%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25202%2520%25C3%2597%2520TSX%2520%25E3%2581%25A7%25E5%25AE%258C%25E7%2592%25A7%25E3%2581%25AA%25E5%259E%258B%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yuki__k/articles/7ec08743230e49",
+          "author": "@yuki",
+          "description": "まずはmethods!\nまずはボタンをクリックして呼び出した時の挙動。ボタンをクリックした時のみ呼び出されます。\n当たり前だよね。問題は後者よ😩\n\n      \n        index.html\n        <div id=\"app\">\n  <button @click=\"method\">クリック</button>\n</div>\n\n\n      \n      \n      \n        index.js\n        const app = {\n  methods: {\n    method() {\n      conso...",
+          "link": "https://zenn.dev/yuki__k/articles/7ec08743230e49",
+          "publishedOn": "2021-06-30T13:53:11.000Z",
+          "wordCount": 95,
+          "title": "Vueのmethods、computedの挙動・使い分けに混乱した記憶があったので整理してみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--oFqvtBMe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%2540yuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vue%25E3%2581%25AEmethods%25E3%2580%2581computed%25E3%2581%25AE%25E6%258C%2599%25E5%258B%2595%25E3%2583%25BB%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25AB%25E6%25B7%25B7%25E4%25B9%25B1%25E3%2581%2597%25E3%2581%259F%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%258C%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzZhZmE4MmNjOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dialbird/articles/0f79de871fe543",
+          "author": "dialbird",
+          "description": "「あー。このパターンのコード、何度も書いてるな〜」と思っているそこのVSCodeユーザーさん。\nエンジニアらしく「パパッと」コードテンプレートを登録して、VSCodeから召喚できるようにしませんか？\n\n「ただ、設定とか調べるのがちょっと...」という方！\n今この方法を知って、普段から使えるようになるだけで、どんどんコーディングのスピードを加速していけるようになります！\nこちらも5分コースです。\n\n プラグインのインストール\nまずはこのプラグインをインストールしましょう！\nhttps://marketplace.visualstudio.com/items?itemName=inu1255...",
+          "link": "https://zenn.dev/dialbird/articles/0f79de871fe543",
+          "publishedOn": "2021-06-30T12:18:04.000Z",
+          "wordCount": 26,
+          "title": "【早めにつけたいVSCode習慣】何度もよく使うコードのテンプレートはスムーズにコードスニペットへ！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ujbNd1IC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590%25E6%2597%25A9%25E3%2582%2581%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2591%25E3%2581%259F%25E3%2581%2584VSCode%25E7%25BF%2592%25E6%2585%25A3%25E3%2580%2591%25E4%25BD%2595%25E5%25BA%25A6%25E3%2582%2582%25E3%2582%2588%25E3%2581%258F%25E4%25BD%25BF%25E3%2581%2586%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AF%25E3%2582%25B9%25E3%2583%25A0%25E3%2583%25BC%25E3%2582%25BA%25E3%2581%25AB%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25B9%25E3%2583%258B%25E3%2583%259A%25E3%2583%2583%25E3%2583%2588%25E3%2581%25B8%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/goemon/articles/738ef819f68998",
+          "author": "Goemon",
+          "description": "始めに\n2020年1月から受託開発会社に異業種から転職してから1年半が経ち、ある程度の経験をつけてきたもののECのデモアプリは作ったことがありますが、自分でオリジナルアプリを作ってこなかったので今回、個人で運用することも視野にアプリを作ることにしました。\n\n アプリの概要\n\n なぜこのアプリを作ろうと思ったか\n自分自身、インスタグラムやRetty,食べログなどから美味しい店を探すことが多く、探すこと自体に苦を感じることはないですが、一方探すことに時間がかかりすぎ、結局目当ての店が見つからない、もしくは多すぎてなかなか決められないということがありました。自分で探すよりも勝手にピックアッ...",
+          "link": "https://zenn.dev/goemon/articles/738ef819f68998",
+          "publishedOn": "2021-06-29T01:09:01.000Z",
+          "wordCount": 58,
+          "title": "美味しい店レコメンドアプリをLaravel × Vue.js のSPAで作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KVbBcjNu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Goemon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25BE%258E%25E5%2591%25B3%25E3%2581%2597%25E3%2581%2584%25E5%25BA%2597%25E3%2583%25AC%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2589%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592Laravel%2520%25C3%2597%2520Vue.js%2520%25E3%2581%25AESPA%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hySmh1MkFjWEZMbXZzWWVFRWtoU3gwZ3NYdHJmektMMm9tVV9VblE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
+          "author": "utamori",
+          "description": "今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった\n\n      \n        \n        projects/test-pj\n> touch Makefile\n\n\n      \n      \n      \n        \n        projects/test-pj\n> npx create-nuxt-app .\n\n\ncreate-nuxt-app v3.7.0\nCould not create project in test-pj because the directory is not empty.\n\n\n      \n    ...",
+          "link": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
+          "publishedOn": "2021-06-28T10:24:38.000Z",
+          "wordCount": 135,
+          "title": "create-nuxt-appで既存のディレクトリを上書きできるようになった",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wzB7J9HV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:utamori%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:create-nuxt-app%25E3%2581%25A7%25E6%2597%25A2%25E5%25AD%2598%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E4%25B8%258A%25E6%259B%25B8%25E3%2581%258D%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kata_n/articles/233ee8e03c5cb1",
+          "author": "kata-n",
+          "description": "Vue.jsでTypeScriptを使う時、いくつか選択肢があるのを知って整理したくなったので最小限の構成で同じ機能のものを作成し見比べて見ました。\nVueのバージョンは２.x系です。\nなお、Vueの3系では、クラスコンポーネント以外にComposition APIといった新しい書き方が主流になりつつありますが、2.x系を使用したプロジェクトはまだ沢山ある、現在携わっているプロジェクトもクラスコンポーネントを使用している為、TypeScriptの理解を深めるためにもVue.extendとクラスコンポーネントの比較をしています。\n\n 検証する\n\nボタンをクリックすると、数字がカウントアップ...",
+          "link": "https://zenn.dev/kata_n/articles/233ee8e03c5cb1",
+          "publishedOn": "2021-06-27T07:52:56.000Z",
+          "wordCount": 556,
+          "title": "最小限の構成でVue.extendとクラスコンポーネントを比べてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--1JTvOUxa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kata-n%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%259C%2580%25E5%25B0%258F%25E9%2599%2590%25E3%2581%25AE%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25A7Vue.extend%25E3%2581%25A8%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25B9%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU4MTg1MWM4MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/gamin/articles/58bf5f1b9e8ea2",
+          "author": "gamine🍑",
+          "description": "概要\nuseMutation を使いたい!使おう！怒られる！なんで！\n\n      \n        \n        TypeError: Cannot read property '$root' of null\n    at getAppTracking (loadingTracking.js?b1f0:5)\n    at getCurrentTracking (loadingTracking.js?b1f0:25)\n    at track (loadingTracking.js?b1f0:50)\n    at Object.trackMutation (loadingTrac...",
+          "link": "https://zenn.dev/gamin/articles/58bf5f1b9e8ea2",
+          "publishedOn": "2021-06-27T04:09:40.000Z",
+          "wordCount": 115,
+          "title": "Vue Apollo の useMutation でつまづいたところ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--G4d3qsIl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%2520Apollo%2520%25E3%2581%25AE%2520useMutation%2520%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%25BE%25E3%2581%25A5%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A8%25E3%2581%2593%25E3%2582%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
+          "author": "tatsuhiko",
+          "description": "前提\n\nVeturを利用している\njsconfig.jsonを書いている\nNuxtかVueで開発している\n\n\n 参考にしたサイト\nずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。\nVetur Intellisense slow and incomplete if project has jsconfig #547\n\n\n 結論\njsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。\nプロジェクトフォルダのjsconfig.jsonを\n\n      \n        \n       ...",
+          "link": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
+          "publishedOn": "2021-06-26T09:20:12.000Z",
+          "wordCount": 102,
+          "title": "VS CodeでVueのIntellisense(入力補完)が遅いとき",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--XaO6O-7a--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tatsuhiko%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:VS%2520Code%25E3%2581%25A7Vue%25E3%2581%25AEIntellisense%2528%25E5%2585%25A5%25E5%258A%259B%25E8%25A3%259C%25E5%25AE%258C%2529%25E3%2581%258C%25E9%2581%2585%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzY4MmU0MzhkMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
         }
       ]
     }

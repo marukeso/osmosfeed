@@ -16,32 +16,120 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-08">2021-07-08</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Storybook導入時に、webpackのバージョンで詰まった話</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/urasaku77/articles/7fefb518fe91db">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>経緯
+Storybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生
+
+TypeError: Cannot read property &#x27;get&#x27; of undefined
+
+
+ 原因
+見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった
+公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）
+
+ 解決策
+.storybook/main.jsを書き換えることでwebpack5を適...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">今更だけど、Next.jsをさわるんだ！</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>経緯
+業務でさわることになり、学習としてアウトプットさせて頂きます。
+
+ はじめに
+Next.js はReactを基礎としたフレームワークです。そして、Vercel社が提供するOSS プロジェクトになっています。
+Webのデプロイ・ホスティングサービス Vercel を運営しており Next.js と Vercel を合わせて使用し、容易にWebサイトを制作することができるようになっています。
+SPA (Single Page Application)　では,Webサイトへ遷移するとローディングが表示され、次々にコンポーネントが表示されることがあったのではないでしょうか？ユーザの行動...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">styled-componentsをTypescriptで使う上でのTips</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nekoniki/articles/f8600d1ab7d908">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+今回はTypescript + Reactでstyled-componentsを使う場合のTipsを紹介します。
+styleプロパティで直接記載するよりもスタイルの管理がしやすい+使い回しやすいといったメリットがあるのでおすすめです。
+※普段はReact Nativeを扱っていますが、styled-componentsに着目した場合の使用感はほぼ同じといっていいので、サンプルコードはReactのものになります。
+
+ そもそもstyled-componentsとは
+styled-componentsは所謂CSS in JSライブラリの一種になります。
+名前が表す通り、JSもし...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">なぜWebpackの設定はTypeScriptで書けるのか？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uttk/articles/ab7afa61eb481f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>この記事について
+webpackの設定ファイルであるwebpack.config.jsは、TypeScriptで書いてNode.js上で実行できます。しかし、本来であればTypeScriptのソースコードはNode.jsでは実行できないはずです。 この事が気になった私は、今回その仕組みを調べてみたので、この場を借りてその調査結果を共有したいと思います💪
+参照
+https://webpack.js.org/configuration/configuration-languages/
+
+ 記事の概要
+概要のみ知りたい人に向けて、以下にこの記事で解説する内容のまとめを書いておきます👇
+
+
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-07">2021-07-07</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">A Look at Building with Astro</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/a-look-at-building-with-astro/">
+                <summary class="article-expander__title">Next.js で SSR/SSG したページに Cache-Control などのヘッダを設定する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuku/articles/f5a728808c4efa">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Astro is a brand new framework for building websites. To me, the big thing is that it allows you to build a site like you’re using a JavaScript framework (and you are), but the output is a zero-JavaScript static site. …
-The post A Look at Building with Astro appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Web’s Worst Default</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/the-webs-worst-default/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>There are a lot of great defaults when it comes to browsers and the web. Think about all the accessibility features that are baked into HTML so that you don’t have to do weird stuff, like this example from Manuel…
-The post The Web’s Worst Default appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.js には強力な Incremental Static Regeneration がありますが、Vercel 以外にホストしている場合は使うことができません。そのとき、Cache-Control や Surrogate-Control ヘッダを用いて Fastly のような CDN にキャッシュを持たせたくなります。
+このヘッダの持たせ方に少しクセがあったので備忘録的に書きます。
+例えば、/articles/[id] にヘッダを持たせたいとします。
+
+ 方法1. next.config.js で設定
+next.config.js の headers で設定する方法です。
+
+  ...</span>
                   </div>
                 </a>
               </details>
@@ -50,59 +138,139 @@ The post The Web’s Worst Default appeared first on CSS-Tricks. You can support
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">What is a JavaScript Object? Key Value Pairs and Dot Notation Explained</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-a-javascript-object/">
+                <summary class="article-expander__title">Kindle で購入した書籍をブクログへ自動で登録する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+いきなりですが、みなさん読書の管理ってどうしていますか？
+僕は、ブクログ というサービスを使っています。以前は、読書メーター を使っていたんですが、ブクログは本に記載されている ISBN コードや Amazon の Asin コードから本を登録できる[1]ということを知って最近移行しました。
+どうせなら自動化したいなと思い、調べてみると同じことを考えた先人たちがいらっしゃったので参考にしつつやってみたのでその紹介です。
+
+ 作ったもの
+Kindle で書籍を購入した際に Amazon からメールが届きます。そのメールから使いたい Asin コードだけを抜き出して、購入した書...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Generate AWS Cognito password</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hugtech/articles/90abb52f28bc68">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>https://www.npmjs.com/package/aws-cognito-temporary-password-generator
+
+      
+        
+        /**
+ * Configuration of Password generation.
+ * Only possible to specify length. default: 16
+ * All Other requirements are automatically satisfy
+ * Require numbers
+ * Require a special character from t...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GraphQL でフェッチした部分的なモデルのドメインロジックを TypeScript と Proxy で表現する試み</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuku/articles/45bb0d6cf3da85">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
-                    <span>Objects are one of the most valuable things you can learn in Javascript. You can use them to take your programs to the next level.  An object is a collection of data – or key value pairs – which consist of variables and functions that you can access using dot notation. Now</span>
+                    <span>仕事で GraphQL を使ったプロダクトに DDD のエッセンスを取り入れたく、GraphQL で部分的にフェッチしたドメインモデルに堅牢な型付けを試みたので、まだまだ荒削りですが紹介します。
+
+ やりたいこと
+このような GraphQL スキーマがあったとします。
+
+      
+        
+        type Person {
+  firstName: String!
+  lastName: String!
+  age: Int!
+}
+
+type Query {
+  person: Person!
+}
+
+
+      
+      この Person に対して、以下よう...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How to Learn Machine Learning – Tips and Resources to Learn ML the Practical Way</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-learn-machine-learning-practical-tips-and-resources/">
+                <summary class="article-expander__title">the launch.json of tsdx + jest + vscode</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hugtech/articles/79d6d9f74e3deb">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(18 min)</span>
-                    <span>A lot of people want to learn machine learning these days. But the daunting bottom-up curriculum that most ML teachers propose is enough discourage a lot of newcomers.  In this tutorial I flip the curriculum upside down and will outline what I think is the fastest and easiest way to</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>tsdx
+https://github.com/formium/tsdx
+
+ .launch.json
+
+      
+        
+        {
+	&quot;version&quot;: &quot;0.2.0&quot;,
+	&quot;configurations&quot;: [
+		{
+			&quot;type&quot;: &quot;node&quot;,
+			&quot;request&quot;: &quot;launch&quot;,
+			&quot;name&quot;: &quot;Jest All&quot;,
+			&quot;program&quot;: &quot;${workspaceFolder}/node_modules/.bin/tsdx&quot;,
+			&quot;args&quot;: [&quot;test&quot;, &quot;--runInBand&quot;],
+			&quot;conso...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">List Comprehension in Python Explained for Beginners</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/list-comprehension-in-python/">
+                <summary class="article-expander__title">サクッとReact + typescript書きたいとき一発で環境構築するシェルスクリプトを作る</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/masakitm/articles/8d8271b9fdbee8">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>List comprehension is an easy to read, compact, and elegant way of creating a list from any existing iterable object. Basically, it&#x27;s a simpler way to create a new list from the values in a list you already have. It is generally a single line of code enclosed in square</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>概要
+Reactの環境構築はcreate-react-appで全然いい。
+Next.jsでもGatsbyでも全然いい。
+いいのだけど、サッと書きたいだけのときは重い。
+そう思って最低限必要だと思うものを1コマンド叩けばいいようにスクリプトを書いた。
+
+ 解説
+eslintやprettierは必要なら別途入れる。
+個人でサクッと書く分にはvscode側のlint拡張とかで済ませていいと思うので含めていない。
+css in jsも必要なら後で入れればいい。プロダクト開発のテンプレートではないので。
+まずはtsconfigファイルを生成する関数を作る。
+シェルはzshを使っている。
+
+  ...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">JavaScript Interview Prep Cheatsheet – Ace Your Coding Interviews with These Concepts</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/">
+                <summary class="article-expander__title">輪読会の読み順をランダムで決める chrome 拡張機能を作る for Google Meet ［React + TypeScript］</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sota_yamaguchi/articles/a138b03e62595b">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>I&#x27;ve carefully gone through over 50 resources, I&#x27;ve been through 10 JavaScript interviews, and I&#x27;ve landed a job at a unicorn startup. And throughout this entire process, I started to see a pattern in the most frequently asked JS interview questions.  In this article, I have tried to list the</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What is Binary Search?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-binary-search/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(45 min)</span>
-                    <span>Binary search is a common algorithm used in programming languages and programs. It can be very useful for programmers to understand how it works. We just released a binary search course on the freeCodeCamp.org YouTube channel. You will learn how to implement binary search in C and C++, but</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最近弊社の開発メンバーでブログを書こうという運動があります。
+ネタ探しをしていたらよさげな記事を見つけたのでアイデアをお借りします。
+shohei さんありがとう🙏
+※決してパ○リではありません
+https://techblog.roxx.co.jp/entry/2021/04/23/064837
+毎週チーム内での読書会や、部署をまたいだエンジニアでの輪読会を行っているのですが、都度読み順を決めるのが面倒なので、参加メンバーをシャッフルしてリストで返す chrome 拡張機能を作ってみました。
+なお、弊社の読書会は Google Meet で行うことが多いため必然的に Google Me...</span>
                   </div>
                 </a>
               </details>
@@ -111,15 +279,30 @@ The post The Web’s Worst Default appeared first on CSS-Tricks. You can support
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">An Introduction To Figma Interactive Components</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/introduction-figma-interactive-components/">
+                <summary class="article-expander__title">vue-js-modalで超簡単にモーダルを実装する（laravel×vue）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/9cb55513c40848">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(13 min)</span>
-                    <span>Interactive Components in Figma allows designers to create a component with states (hover, active, clicked, focus) and make it interactive so that every copy of the component will inherit those same interactions by default. Let’s explore how it can reduce the time and effort needed to create interactions for your mock-ups.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>今回は vue-js-modalで超簡単にモーダルを表示させる方法について紹介したいと思います。
+ではさっそくいってみましょう💨
+
+ vue-js-modalをインストール
+まずはライブラリをインストールします
+
+      
+        
+        npm install vue-js-modal --save
+
+
+      
+      僕の場合はバージョン1.3.xじゃないとインストールできなかったので、 npm install vue-js-modal@1.3 --save  という指定をしました。
+どんなバージョンがあるかはこちらで確認できます
+
+ vue-js-m...</span>
                   </div>
                 </a>
               </details>
@@ -133,44 +316,62 @@ The post The Web’s Worst Default appeared first on CSS-Tricks. You can support
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Body Toggle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/body-toggle/">
+                <summary class="article-expander__title">SOLID原則 ◆オープン・クローズドの原則◆</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bonfireman/articles/400142b4d65409">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>I appreciate the clarity of this trick that Mikael Ainalem posted over on Reddit:
-It’s a one-liner that toggles the class on the  so you can mock up different states and toggle between them on click.
-&lt;body onclick&#x3D;&quot;this.classList.toggle(&quot;active&quot;);&quot;
-Could …
-The post Body Toggle appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>オープン・クローズドの原則とは
+SOLID原則の、Open Closed Principle（以下：OCP）のことで、「ソフトウェアの構成要素は拡張に対して開いていて、修正に対して閉じていなければならない」という原則です。
+言い換えると、ソフトウェアの振る舞いは、既存の成果物を変更せず拡張できるようにすべきであるということです。
+以下の仕様になっているサンプルコードを見ながら実際にGoodコードとBadコードを見ながら、理解を深めてみます。
+
+      
+        
+        - ある会員制ECサイトの決済システムで、会員のグレードによって割引がされる
+- Discou...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">I’ve got one question about Jetpack for you.</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/ive-got-one-question-about-jetpack-for-you/">
+                <summary class="article-expander__title">RecoilでFirebase Authを使う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yiwa/articles/3d4b91fd4fb467">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>And maybe an optional follow-up if you’re up for it.
-Automattic, the makers of Jetpack and many other WordPress-y things, have sponsored my site (me &#x3D; Chris Coyier; site &#x3D; CSS-Tricks) for quite a while. I use Jetpack myself, …
-The post I’ve got one question about Jetpack for you. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Dilemma of Naming Font Size Variables</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/the-dilemma-of-naming-font-size-variables/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>Normally, a project will have a set of pre-determined font sizes, usually as variables named in such a way that seeks some semblance of order and consistency. Any project of considerable size can use something like that. There are always …
-The post The Dilemma of Naming Font Size Variables appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Recoilを使ってみたいので、Firebase Authで使ってみました。
+なるべく複雑なことをしないようにRecoilでFirebaseのUserオブジェクトを保持して、認証状態でルーティングするだけのシンプルなものです。
+
+ 使うもの
+
+React
+Recoil
+React Router Dom
+Firebase
+
+
+ ディレクトリ
+
+src/
+
+index.tsx
+App.tsx
+firebase.js
+hooks/Auth.tsx
+pages/Login.tsx
+
+
+
+
+ 1. Atomの設定
+
+      
+        /hooks/Auth.tsx
+        im...</span>
                   </div>
                 </a>
               </details>
@@ -179,76 +380,23 @@ The post The Dilemma of Naming Font Size Variables appeared first on CSS-Tricks.
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How to Automatically Upload an Android App Bundle to the Play Store</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/automatically-upload-an-android-app-bundle-to-the-play-store/">
+                <summary class="article-expander__title">Nuxtでi18n化対応</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/toshinobu/articles/233aa9b1b65115">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>In this article, I&#x27;m going to explain how to automatically upload an Android App Bundle (.aab file) to the Play Store&#x27;s beta track. We&#x27;ll use Android Studio and AWS as a cloud infrastructure provider.  Once we&#x27;ve uploaded the app bundle, we&#x27;ll trigger a Slack notification.  This is a valuable use</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Authenticate Users and Implement CORS in Node.js Apps</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-authenticate-users-and-implement-cors-in-nodejs-applications/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>In this tutorial, you will learn how to authenticate users and secure endpoints in Node.js. You&#x27;ll also see how to implement Cross-Origin Resource Sharing (CORS) in Node. So let&#x27;s get started.  Prerequisites You&#x27;ll need the following to follow along with this tutorial:  A working understanding of JavaScript. A good</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">5 JavaScript Tips to Improve Your React Code</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/javascript-tips-to-improve-your-react-code-today/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Let&#x27;s look at five JavaScript tips you can use today to instantly improve your React applications.  Because React is a JavaScript library, any improvements that we make in our JavaScript skills will directly improve the applications that we build with React. For this reason, I&#x27;ve put together a number of</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Schedule a Job in Node Using node-cron</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/schedule-a-job-in-node-with-nodecron/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>In this article, you will learn how to schedule a job in Node using node-cron.  Node-cron is a handy npm package which you can use to schedule jobs to run at specific times or intervals. It is most suitable for scheduling repetitive jobs such as email notifications, file downloads, and</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Get Ready to Pass CISSP Exam</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(365 min)</span>
-                    <span>Earning the Certified Information Systems Security Professional (CISSP) Certification proves you have what it takes to effectively design, implement and manage a best-in-class cybersecurity program. The CISSP is one of the most valuable Cyber Security Certificates in the market today.  We just posted a 13-hour course on the freeCodeCamp.org</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How To Choose A Headless CMS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/how-to-choose-a-headless-cms/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>There is an array of Headless CMSes out there. In this article, we delve into headless CMS features to satisfy your content editors, marketers and yourself as a developer. For the experience headless practitioner, this could be a checklist to see what’s new out there. For those starting out on their headless journey, this could be a guide on what to look for.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Nuxtでi18n化対応
+昨今、というかだいぶ前からグローバリゼーションが進んできていますが、それにつれアプリ多言語化が必要な場面が増えてきたかと思います。
+規模やコンテクストにもよると思いますが、現在ではほとんどのアプリで多言語化が必要ではないでしょうか？
+
+ そもそもi18nとは
+そもそもi18nってなんぞ？って疑問に思われたかもしれないですが、私も最初はそうでした笑
+i18nとはInternationalizationつまり国際化の略です。
+最初のIと最後のnの間に18文字あるからi18nなんですね。k8sといい、これ初見じゃ絶対わからないでしょ
+(余談ですが、こうゆう略し方を...</span>
                   </div>
                 </a>
               </details>
@@ -262,29 +410,27 @@ The post The Dilemma of Naming Font Size Variables appeared first on CSS-Tricks.
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Kubernetes Explained Simply: Containers, Pods and Images</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/kubernetes-explained-simply-containers-pods-and-images/">
+                <summary class="article-expander__title">2021-07-06のJS: TypeScript 4.4 Beta、immutable-js 4.0.0-rc.13、petite-vue</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/07/06/typescript-4.4-beta-immutable-js-4.0.0-rc.13-petite-vue/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>If you zone out every time someone mentions “Kubernetes,” “containers,” or “pods,” this article is for you. No complex diagrams involved!
-As a front-end developer, you don’t have to know how to configure an infrastructure from scratch. However, if you …
-The post Kubernetes Explained Simply: Containers, Pods and Images appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Trigonometry in CSS and JavaScript: Beyond Triangles</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://tympanus.net/codrops/2021/06/04/trigonometry-in-css-and-javascript-beyond-triangles/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Web design is such a rectangle-based design medium that literally any deviation from it feels fresh. Michelle Barker gets into using math in various ways to programmatically draw lines, shapes, and animations that end up looking both beautiful and have …
-The post Trigonometry in CSS and JavaScript: Beyond Triangles appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>JSer.info #547 - TypeScript 4.4 betaがリリースされました。
+Announcing TypeScript 4.4 Beta | TypeScript
+Control Flow Analysisの改善され、Type Gurdeの結果を変数に入れてから扱うようなAliasのケースも正しく推論されるようになっています。
+unknown型にするuseUnknownInCatchVariablesオプションの追加と
+undefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。
+その他には、declarationの生成やstrictモードでのビルドパフォーマンスの改善も含まれています。
+immutable-js 4.0.0-rc.13がリリースされています。
+Release 4.0.0-rc.13 · immutable-js/immutable-js
+immutable-jsはv4.0.0-rc.12でメンテナンスが停止して、immutable-oss organiztionにてforkとしてメンテナンスがされていました。
+今回のリリースでは、immutable-js organizationにimmutable-ossのメンテナが追加され、immutable-ossの変更内容もimmutable-js 4.0.0-rc.13へとマージされています。
+immutable-jsとしてメンテナンスを再開するリリースとなっています。
+Immutable.js is essentially unmaintained · Issue #1689 · immutable-js/immutable-js
+Integrate immutable-js-oss fork into main repository b…</span>
                   </div>
                 </a>
               </details>
@@ -293,15 +439,217 @@ The post Trigonometry in CSS and JavaScript: Beyond Triangles appeared first on 
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Using HSL Colors In CSS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/hsl-colors-css/">
+                <summary class="article-expander__title">Next.js で Firebase Authentication を利用し, Google ログインを実装した</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/minguu42/articles/20210705-nextjs-auth">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>In this article, Ahmad Shadeed explains what HSL is, how to use it, and shares some of the useful use-cases and examples that you can use right away in your current projects.</span>
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+この記事では, Firebase Authentication を使って Next アプリに Google ログインを実装する方法を記述します.
+Next アプリの初期化, Firebase アカウントの作成は済んでいることを前提とします.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
+
+ 環境
+
+
+
+名前
+バージョン
+
+
+
+
+macOS Big Sur
+11.4
+
+
+Node.js
+16.4.1
+
+
+Next.js
+11.0.1
+
+
+React
+17.0.2
+
+
+Firebase Jav...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js version 11.0.0 で ESLint を使うために公式ドキュメントを紐解く</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ken505/articles/c049a64f3a2989">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>以下の公式ドキュメントを参考にしながら、Next.js で ESLint を設定します
+
+ ESLint.org
+
+
+ docs/rules
+
+
+ npm/ESLint
+
+
+ Next.js/ESLint
+
+
+バージョン11.0.0以降、Next.jsは統合されたESLint体験をすぐに提供します。
+next lintをスクリプトとしてpackage.jsonに追加します。
+
+
+      
+        
+        &quot;scripts&quot;: {
+  &quot;lint&quot;: &quot;next lint&quot;
+}
+
+
+      
+      とのことなので npx create-next-app を実...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">SOLID原則 ◆単一責任の原則◆</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bonfireman/articles/736a5b5fa36b2c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>単一責任の原則とは
+SOLID原則の、Single Reaponsibility Principleのことで、「モジュールはたったひとつのアクターに対して責務を負うべきである」という原則です。
+「モジュール」は、ここではいくつかの関数やデータをまとめた凝集性のあるのものと捉えてください。
+「アクター」はシステムを利用するユーザーやステークホルダーを指します。
+なぜ、モジュールはたったひとつのアクターに対して責務を負うべきなのでしょうか？
+それは、1つのモジュールが複数のアクターに対して責務を持っている状態だと、1つのアクターに対するモジュールの役割を変更したい場合に、別のアクターへの...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">esquery 便利ラッパー</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ESTree を CSS のセレクター風の記法で走査する esquery というライブラリがある。
+https://github.com/estools/esquery
+直接使ったことがある人は少ないかもしれないが、ESLint ルールを書くときに使ことがあるので esquery の構文を使ったことがある人は多いのではないだろうか。
+esquery は便利だが、長いクエリを文字列で渡したりするのが微妙。テンプレートリテラルでいい感じにしたい。ということで outdent と組み合わせる小さなラッパーを書いた。
+
+      
+        
+        import esquery...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScript で JavaScript をパースするときの型</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事では TypeScript から既存のパーサーライブラリを使って JavaScript をパースするときにどのように型をつけるか、自分がやっている方法を紹介する。TypeScript を使って1から JavaScript のパーサーを書く話ではないので注意。
+仕事で、TypeScript で JavaScript をパースして構文木をゴニョゴニョやるツールを書いていた。
+こういうとき、まずどのパーサーを使うかを考える。
+パースする対象が絶対に JavaScript であることがわかっている場合、自分は Acorn を使うことが多い(TypeScript や Flow をパースする...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Deno Deploy用コードで[deno-ts 2339]が発生するときの対処法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/efed8ada433f24">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Deno Deployの勉強をしています。
+https://zenn.dev/kawarimidoll/articles/b0a5064befcd31
+本記事では、Deno Deploy用のコードを書いている際に遭遇した[deno-ts 2339]エラーの対処をまとめました。
+
+ 発生するエラー
+エラーはエディタ内で表示されるもので、[deno-ts 2339] [E] Property &#x27;respondWith&#x27; does not exist on type &#x27;Event&#x27;です。
+例として、公式ドキュメントのHello Worldページのコードを使います。
+https://deno.c...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Theme UIをReact×TypeScriptのプロジェクトで使う。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ことの経緯
+React × TypeScript のプロジェクトでRebass使おうかな。
+↓
+Rebassの開発者さんが最近開発しているのはTheme UIらしい。
+参考 : Theme UI で Theme Driven な快適 React スタイリング生活
+↓
+Theme UI使ってみよう。
+↓
+動かない（表示されない）。。。
+↓
+動かそう!!!
+※ TypeScriptでTheme UIを導入するときの注意点くらいの記事です。
+
+ インストール方法
+公式サイトのGetting Startedには以下のコマンドが記載されている。
+
+      
+        
+       ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue.jsを使って管理画面を作る</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dfukui/articles/e8ff9f66ae094c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>はじめに
+Cloud9 + Vue.jsを使って管理画面を作成するチュートリアルとなります。
+
+ 管理画面テンプレートの導入
+Cloud9のターミナルで以下実行します。
+Cloud9の基本的な操作方法は以下を参考にしてください。
+https://26gram.com/how-to-use-cloud9
+
+ Core UI のダウンロード
+
+      
+        
+        # リポジトリのクローン
+git clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue
+
+# ダウ...</span>
                   </div>
                 </a>
               </details>
@@ -315,17 +663,353 @@ The post Trigonometry in CSS and JavaScript: Beyond Triangles appeared first on 
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Fourteenth Fourth</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/the-fourteenth-fourth/">
+                <summary class="article-expander__title">Next.jsの環境変数取得方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>It’s CSS-Tricks birthday! Somehow that keeps coming around every year. It’s that time where I reflect upon that past year. It’s like the annual vibe check. 
-I’m writing this just days after my current home state of Oregon has …
-The post The Fourteenth Fourth appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Nextjsでは、たとえばデータベースに接続するときに使う環境変数を設定することができます。
+設定方法は、ルートディレクトリ直下にあるnext.config.jsにあるmodule.exports...とあるところに変数を追加すればOKです。(ファイルがなければnext.config.jsをルート直下に作ってください)
+
+      
+        next.config.js
+        module.exports &#x3D; {
+  env: {
+    // customKeyは任意の変数名でOK
+    // &#x27;my-value&#x27;のところで値を設定する
+    customKey...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React vs Hotwire ~ 私とHotwireとその後</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mast1ff/articles/efc41938236c51">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>半年くらい前にこんな記事を書きました。
+https://zenn.dev/mast1ff/articles/3d6f4b9e4a38bb
+様々なプロダクトにメインとして使用しているNext.js製のフロントエンドをStimulusとTurboに書き換えて運用してみました。
+https://hotwired.dev/
+今回は実際に運用してみた所管などをまとめたいと思います。
+
+ はじめに
+とはいえ、Hotwireたちは飽くまでフロントエンドのみ。バックエンド側のロジックを持つことのできないこれらのライブラリとの単純な比較対象としては、サーバーレスでも運用できるNext.jsとは若干ズレが出...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Next.js】Firebase Storageに画像をアップしてURLを取得する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/fujiyama/articles/50b0a73acd89b7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>経緯
+Firebase Storageを初めて使ってみて，とても使いやすいと感じたので共有したいと思いました．
+Next.jsをフレームワークとして利用しています．
+
+
+ 環境
+
+      
+        
+        react@17.0.2
+firebase@8.6.8
+typescript@4.3.4
+next@11.0.1
+tailwindcss@2.2.4
+
+
+      
+      
+ 事前準備
+事前にFirebaseプロジェクトを作成し，Reactのfirebase.jsなどにfirebaseの設定を記述してください．また
+
+      
+        
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Kindle のセール本をウォッチできるサイトを作った。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/takanopontaro/articles/dde9458c32f3f9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>数年前に Kindle を購入してから結構本を読むようになり、今はだいたい年間 80 冊程度読んでいます。半額セールとか 50% ポイント還元とか、そういったセールを Kindle ストアは頻繁に行っているので、そういうときに一気にまとめ買いするのが習慣になりました。
+アマゾンのほしい物リストに本を登録しておくと、安くなったときにその旨表示されて便利なんですが、これってポイント還元の時は分からないのでちょっと困っていました。どんなキャンペーンなのかはあまり重要ではなく、欲しい本が得になっているかどうかだけ分かればいいので、そういった事が簡単に分かるサービスはないかな〜と探してみたんですが...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【ログイン機能】jwt（JSON Web Token Authentication）でログイン機能実装手順（Laravel/Nuxt）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/a0b556cd6d53ec">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Laravel側
+https://jwt-auth.readthedocs.io/en/docs/laravel-installation/
+
+ JWTライブラリ（tymon/jwt-auth）をインストール
+Laravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラーになります
+
+      
+        
+        composer require tymon/jwt-auth:1.0.0-rc.5
+
+
+      
+      
+ 設定を一部変更
+以下コマンドでconfig/jwt.phpというファイルを生成
+
+      
+        
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">denops.vimを使ってポモドーロタイマーを実装してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+denops.vimを使って、Vim/Neovim上でポモドーロテクニックを実践するためのプラグインを作成してみました。
+https://github.com/uki00a/denops-pomodoro.vim/
+この記事ではdenops-pomodoro.vimの使い方やdenops.vimを使ってプラグインを実装する上でのノウハウなどについて紹介します。
+
+ denops.vimとは?
+denops.vimとはDenoを使ってVimやNeovimのプラグインを書くためのエコシステムです。
+より詳しくは以下の記事を参照いただければと思います。
+https://zenn....</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vue-infinite-scrollで超簡単無限スクロールを実装する（vue.js）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Vue.jsで無限スクロールを実装したい場合は vue-infinite-scroll というライブラリを使用することをおすすめします。
+超簡単に実装できます
+公式ページはこちら
+
+ ライブラリのインストール
+ライブラリをインストールします
+
+      
+        
+        npm install vue-infinite-loading -S
+
+
+      
+      
+ infinite-loadingコンポーネントを設置する
+ライブラリをインストールしたらinfinite-loadingコンポーネントが使えるようになっているので、設置します。
+@infinite...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ゲームを作ってpetite-vueを完全に理解する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuneco/articles/petite-vue-hello">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>petite-vueは軽量・簡易版のVue.js
+2021/7/2にVue.js作者のEvan Youさんの新作、petite-vueがリリースされました。
+ざっくりした概要は『petite-vue 最速 使い方』など、早速日本語でまとめてくださっている方がいるので、そちらを参照いただくと良いと思います。
+（ただし、当面は破壊的な変更や機能追加が頻繁に入ると思われるので、日本語の記事と併せて公式もチェックするのが良いと思います）
+
+ 習うより慣れろ。ゲーム作って「完全に理解」してみた
+公式のREADMEやサンプルが結構丁寧なので、眺めてみるだけでなんとなく理解できた気になってきます。...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">docker-composeでVue.jsの開発環境を構築する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/8f16e42364398c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Dockerは事前にMacにインストールされていることを前提とします。
+
+ 手順
+Vue.jsの開発環境を構築して起動するまでの手順です。
+
+Node.jsのバージョンを確認
+dockerhubを確認
+Dockerfileの作成
+docker-compose.ymlの作成
+コンテナの起動
+コンテナ内の作業
+
+
+ Node.jsのバージョンを確認
+Node.jsを利用するため、必要なバージョンを確認します。様々なバージョンの中でも、公式サイトを見て推奨版であるLTSを確認します。
+https://nodejs.org/en/
+LTSとはLong-term Supportの略で、長期の保守運...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-03">2021-07-03</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">next-optimized-images で next/image っぽいものをつくる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/itomise/articles/20356a794b665f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>next/image での画像最適化が最近のホットなトピックではありますが、見た感じ、next/imageは画像の最適化をサーバサイドで処理する前提のコンポーネントのようです。
+Next.jsでサーバを立てられる場合は使っていきたいのですが、個人的に案件でそういう構成になっていることはあまりないです。
+そこで、next export で使える画像最適化についてまとめてnext/imageっぽいコンポーネントを作ってみようと考えました。
+一応、公式の next export での next/image の使用法についてのページはこちら です。
+
+ 前提
+今回はnext/imageのソースを...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js+CSSModules(Saas)+Storybookのセットアップ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/thim/articles/7c8ceba730dad35d27dc">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.js のプロジェクトにCSSModules(Sass)+Storybookをセットアップしようとしてハマり倒したので手順を記録しておきます。
+セットアップ完了状態のソースはこちら
+https://github.com/TakahiroHimi/Next-CSSModules-SB-sample
+
+ Next.js アプリ作成
+
+      
+        
+        npx create-next-app --example with-typescript myapp
+
+
+      
+      
+ CSSModules(Sass)セットアップ
+
+ パッケージ追加
+
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsがESModuleフォーマットサポートしてない問題（ERR_REQUIRE_ESM）の回避策</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dl10yr/articles/b592e36d852e8c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.jsでd3使おうとしたら、ハマりました。
+Next.jsがESModuleフォーマットをサポートしてないのが原因のようです。
+https://github.com/vercel/next.js/issues/9607
+
+      
+        
+        Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/hogehoge/node_modules/robust-predicates/index.js
+require() of ES modules is not supported.
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【FGO】「村正ぁーーー！」するためのネタサイト作成記録</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/foxtail88/articles/574fab811df26d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+こちらのサイトの作成備忘録です。インフラ等の全体像は別途記事にしたいと思います。
+https://tenkoh.github.io/fgo-scenes/
+Fate/Grand Orderというスマートフォン向けゲームのコラージュ画像を生成するお遊びサイトです😇
+
+
+(C) TYPE-MOON
+
+
+ 方針検討
+やりたいことは 「既存の画像に、セリフだけ好きに挿入する」 という簡単なものです。なんとなくフロントだけでもできそうですが、ある程度フォントを原作に近づけたいと考えたので、特定のフォントを気兼ねなく使えるかな？と思い、バックエンドも構築することにしました。
+またお遊び...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">petite-vue 最速 使い方</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/silloi/articles/ecfab241f3fea9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>2021年7月3日（日本時間）、Vueの創始者Evan Youが新たなパッケージをリリースしました。
+https://github.com/vuejs/petite-vue
+
+ petite-vue
+petite-vue（プティットゥ・ヴュー「プチVue」の意）は先進的な機能を備えた、超軽量なVueの下位互換です。スタンダードなVueと同等のテンプレート構文・リアクティビティモデルを有していますが、かつてサーバーフレームワークで所々に書かれていたような、ちょっとしたインタラクションを置き換えられるよう特化しています。
+
+5.7KB以下
+DOMベース（仮想DOMを使用しない）
+@vue/r...</span>
                   </div>
                 </a>
               </details>
@@ -339,41 +1023,46 @@ The post The Fourteenth Fourth appeared first on CSS-Tricks. You can support CSS
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Zero-Width Space</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/zero-width-space/">
+                <summary class="article-expander__title">Next.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/a_da_chi/articles/0ea66053a8b778">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>The name zero-width space is antithetical, but it’s not without uses. In text, maybe you’d use it around slashes because you want to be sure the words are treated individually but not have any physical space around the slash:…
-The post Zero-Width Space appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
+https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
+ReactでユニットテストといえばJestですよね。
+今回はNext.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをするまでの手順を書いていきたい思います。
+
+ 前提
+
+Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること。
+
+
+ 導入手順
+
+必要なパッケージをインス...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Good Meetings</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/good-meetings/">
+                <summary class="article-expander__title">Next.js×microCMS製のメディアサイトをリニューアルした話</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/manalink/articles/manalink-for-teachers-renewal-202107">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Like it or not, meetings are essential to a good working environment and communication. Therefore, it’s crucial that we work on making them as productive as possible. Today we’ll explore myriad ways to keep meetings coordinated, well documented, and talk …
-The post Good Meetings appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Trick to Enable Printify Shipping Notifications for Orders in WooCommerce? Customer Notes.</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/the-trick-to-enable-printify-shipping-notifications-for-orders-in-woocommerce-customer-notes/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>This is a super niche blog post. But it’s been on my list forever to write down because this caused me grief for far too long.
-The setup is that you can use WooCommerce to sell things on a WordPress …
-The post The Trick to Enable Printify Shipping Notifications for Orders in WooCommerce? Customer Notes. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>マナリンクCTOの名人です。
+2021年7月1日に、弊社が運営しているマナリンクTeachersというメディアサイトをリニューアルしました！
+https://for-teachers.manalink.jp/
+このメディアサイトはNext.js×microCMSで構築されています。初回リリースは2020年秋ごろだったので、半年以上運用してのリニューアルとなりガッツリ実装を書き換えました。
+そのため本記事では前回の復習も兼ねて、リニューアルの流れやTipsをまとめてみようと思います。
+
+ メディアの概要
+マナリンクTeachersは、オンライン家庭教師向けの情報をまとめているメディアサイト...</span>
                   </div>
                 </a>
               </details>
@@ -382,15 +1071,44 @@ The post The Trick to Enable Printify Shipping Notifications for Orders in WooCo
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Email Testing Flow As It Should Be</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/email-testing-flow/">
+                <summary class="article-expander__title">Vue 2 × TSX で完璧な型サポートを手に入れる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ytr0903/articles/eacee1dee6b055">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>With so many tools and approaches, email still has quite a few pain points, both for developers and email marketers. Email is difficult because it has too many aspects to set and a few instances with no common rules to follow.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事は、昨日会社のテックブログに寄稿した記事
+https://tech.andpad.co.jp/entry/2021/07/01/170000
+に入りきらなかった情報の補足です。
+元の記事では、Vue + JSX + Nuxt Composition APIという組み合わせで開発を行う際の、環境設定・導入方法、メリットとデメリット、そしてJSXに限らないComposition APIのTipsまでいろいろ書いていますので、興味のある方は先にそちらの記事をご覧ください【PR】！
+
+さて、冒頭の記事ではVue + JSX（TSX）の組み合わせでの開発のメリデメを挙げる中で、
+現状のVu...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue 2 × TSX で完璧な型サポートを手に入れる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ytr0903/articles/eacee1dee6b055">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事は、昨日会社のテックブログに寄稿した記事
+https://tech.andpad.co.jp/entry/2021/07/01/170000
+に入りきらなかった情報の補足です。
+元の記事では、Vue + JSX + Nuxt Composition APIという組み合わせで開発を行う際の、環境設定・導入方法、メリットとデメリット、そしてJSXに限らないComposition APIのTipsまでいろいろ書いていますので、興味のある方は先にそちらの記事をご覧ください【PR】！
+
+さて、冒頭の記事ではVue + JSX（TSX）の組み合わせでの開発のメリデメを挙げる中で、
+現状のVu...</span>
                   </div>
                 </a>
               </details>
@@ -404,43 +1122,44 @@ The post The Trick to Enable Printify Shipping Notifications for Orders in WooCo
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">CSS for Web Vitals</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://web.dev/css-web-vitals/">
+                <summary class="article-expander__title">Next.jsのサイトにmicroCMSをAPI接続する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/renshimosawa/articles/266b780292aadd">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>The marketing for Core Web Vitals (CWV) has been a massive success. I guess that’s what happens when the world’s dominant search engine tells people that something’s going to be an SEO factor. Ya know what language can play a …
-The post CSS for Web Vitals appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">App Platform on Digital Ocean</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/app-platform-on-digital-ocean/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>This is new stuff from DO.
-App Platform is a hosting product, no surprise there, but it has some features that are Jamstack-inspired in the best possible way, and an additional set of unique and powerful features. Let’s start with …
-The post App Platform on Digital Ocean appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Hack the “Deploy to Netlify” Button Using Environment Variables to Make a Customizable Site Generator</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/hack-the-deploy-to-netlify-button-using-environment-variables-to-make-a-customizable-site-generator/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>If you’re anything like me, you like being lazy shortcuts. The “Deploy to Netlify” button allows me to take this lovely feature of my personality and be productive with it.
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>今回はこのようなサイト内のニュース欄をmicroCMSを用いて作ります。
+デプロイはAWS amplifyでする前提です。
 
-Clicking the button above lets me (or you!) instantly …
-The post Hack the “Deploy to Netlify” Button Using Environment Variables to Make a Customizable Site Generator appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+
+ microCMSの設定
+
+ (1)プロジェクトを作る
+
+
+個人開発レベルではHobbyで事足りるかと（検証中）。
+
+ (2)APIを作成
+
+リスト形式を選択
+
+
+ (3)投稿したい項目を定義
+
+
+ APIで取得したデータをmapで出す
+
+ (1)API keyを.envに書き込む
+
+      
+        .env.production
+        NEXT_PUBLIC_API_KEY&#x3D;your key
+
+
+      
+      keyはこちら...</span>
                   </div>
                 </a>
               </details>
@@ -449,15 +1168,53 @@ The post Hack the “Deploy to Netlify” Button Using Environment Variables to 
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">It’s A (Front-End Testing) Trap! Six Common Testing Pitfalls And How To Solve Them</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/frontend-testing-pitfalls/">
+                <summary class="article-expander__title">Amplify ConsoleでSPA配信を置き換えたら最高だった</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(16 min)</span>
-                    <span>When writing front-end tests, you’ll find a lot of pitfalls along the way. Let’s explore common mistakes developers make, and how to avoid them. Testing doesn’t need to be painful, after all.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Leaner Technologies の黒曜(@kokuyouwind)です。
+最近は Nintendo Switch のはじめてゲームプログラミングでプログラミングを勉強しています。めっちゃ褒められるので最高。
+https://twitter.com/kokuyouwind/status/1406600715426926595
+いろんなゲームが作れそうでワクワクしますね。任天堂はいいものを作るなぁ。
+
+ Elastic Beanstalk を Amplify Console で置き換えた
+Leaner の技術スタック紹介 で「配信環境が Beanstalk になっているのはちょっと冗...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">もしもvimを使っているときに記憶喪失になったら…</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kouta/articles/ab2d9df961238e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>ここはどこだ
+
+「あれ、なんの作業をしてたっけ?」
+彼の名前はkoutarn、しがないタッチタイピング虚無僧。
+今日も元気にお経を唱えながらコーディングをしていたのですが、
+度重なるデスマーチのせいで軽く記憶を無くしてしまったようです。
+「vimで作業をしていたんだけど基本的な操作方法以外思いだせない…」
+おっと、彼はvimという 素晴しいエディタ で作業をしていたようですね。
+ご都合主義なこの状況から彼と一緒にvimの操作方法を思い出してみましょう。
+
+ この記事の対象の方
+✅ この記事は以下の人を想定して書いています。
+
+
+もの忘れが激しい人
+vimって便利なんだけど覚える事が多...</span>
                   </div>
                 </a>
               </details>
@@ -471,16 +1228,26 @@ The post Hack the “Deploy to Netlify” Button Using Environment Variables to 
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/how-do-you-make-a-layout-with-pictures-down-one-side-of-a-page-matched-up-with-paragraphs-on-the-other-side/">
+                <summary class="article-expander__title">NuxtでSvelteコンポーネントを動かしてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/katsuking/articles/16578da99271aa">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>I got this exact question in an email the other day, and I thought it would make a nice blog post because of how wonderfully satisfying this is to do in CSS these days. Plus we can sprinkle in polish …
-The post How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>note社の記事で、共通コンポーネントにSvelteを使うと聞いて、なるほど面白いと思ってやってみました。
+https://note.jp/n/n7f757d7050f6
+今回は、Nuxt上でSvelteコンポーネントを動かすまでをやっていきます。
+上記の記事にもある通り、通常Svelteを動かすには以下のようにtargetにnewすると動くのですが、SSRでは動きません。
+
+      
+        
+        import App from &#x27;./App.svelte&#x27;;
+
+const app &#x3D; new App({
+	target: document.body,
+	pro...</span>
                   </div>
                 </a>
               </details>
@@ -489,26 +1256,53 @@ The post How do you make a layout with pictures down one side of a page matched 
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The State Of Web Workers In 2021</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/web-workers-2021/">
+                <summary class="article-expander__title">Vueのmethods、computedの挙動・使い分けに混乱した記憶があったので整理してみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuki__k/articles/7ec08743230e49">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(16 min)</span>
-                    <span>The web is single-threaded. This makes it increasingly hard to write smooth and responsive apps. Workers have a bad rep, but can be an important and useful tool in any web developer&#x27;s toolbelt for these kinds of problems. Let’s get up to speed on Workers on the Web!</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>まずはmethods!
+まずはボタンをクリックして呼び出した時の挙動。ボタンをクリックした時のみ呼び出されます。
+当たり前だよね。問題は後者よ😩
+
+      
+        index.html
+        
+クリック
+
+
+
+      
+      
+      
+        index.js
+        const app &#x3D; {
+  methods: {
+    method() {
+      conso...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Many Shades Of July (2021 Desktop Wallpapers Edition)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/desktop-wallpaper-calendars-july-2021/">
+                <summary class="article-expander__title">【早めにつけたいVSCode習慣】何度もよく使うコードのテンプレートはスムーズにコードスニペットへ！</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dialbird/articles/0f79de871fe543">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Let’s welcome July with some fresh desktop wallpapers. Designed by artists and designers from around the world, they are available with and without a calendar. Enjoy!</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>「あー。このパターンのコード、何度も書いてるな〜」と思っているそこのVSCodeユーザーさん。
+エンジニアらしく「パパッと」コードテンプレートを登録して、VSCodeから召喚できるようにしませんか？
+
+「ただ、設定とか調べるのがちょっと...」という方！
+今この方法を知って、普段から使えるようになるだけで、どんどんコーディングのスピードを加速していけるようになります！
+こちらも5分コースです。
+
+ プラグインのインストール
+まずはこのプラグインをインストールしましょう！
+https://marketplace.visualstudio.com/items?itemName&#x3D;inu1255...</span>
                   </div>
                 </a>
               </details>
@@ -522,26 +1316,73 @@ The post How do you make a layout with pictures down one side of a page matched 
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Breaking Down Bulky Builds With Netlify And Next.js</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/breaking-down-bulky-builds-netlify-nextjs/">
+                <summary class="article-expander__title">2021-06-29のJS: ES2021公開、Storybook 6.3、styled-componentsの仕組み</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Static Generation is great for performance — until the app gets too big and build-times go through the roof. Today, we’ll have a look at how Netlify’s fresh On-Demand Builders can fix that.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>JSer.info #546 - ECMAScript 2021(ES2021)がEcma Internationalに承認され、正式にリリースされました。 
+Ecma International approves new standards - Ecma International
+ES2021では、主に次の機能や構文が追加されています。
+Numeric separators
+Promise combinators
+Weak references and finalizers
+String.prototype.replaceAll
+Logical assignment
+また、JavaScriptの入門書のJavaScript PrimerもES2021対応した更新がされています。
+ES2021に対応したJavaScript Primer 3.0を公開しました - JavaScript入門 | Web Scratch
+Storybook 6.3リリースされました。
+メジャーやアウトライン表示などの視覚的なデバッグ機能の追加がされています。
+また@storybook/testing-vueと@storybook/testing-reactでのテストのサポート。 Angular 12、Lit 2のサポート、webpack 5のサポートのStable化、Viteのサポートが追加されています。
+Storybook for Vite
+Demystifying styled-componentsという記事では、styled-componentsのミニクローンを作りながらどのような仕組みで動いているのかを解説しています。
+ヘッドライン
+[Release News] TOAST UI Editor 3.0 is here! | by TOAST UI | Jun, 2021 | Mediu…</span>
                   </div>
                 </a>
               </details>
             </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Smashing Podcast Episode 40 With Mike Cavaliere: What Is Chakra UI For React?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/smashing-podcast-episode-40/">
+                <summary class="article-expander__title">Nuxtのロゴは変わったの？</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/jqinglong/articles/c8843bce4c475e">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(22 min)</span>
-                    <span>In this episode, we’re talking about Chakra UI. What is it and how can it help with your React projects? Drew McLellan talks to expert Mike Cavaliere to find out.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ちょいぶりに、create nuxt-app してみたら、ちょっとロゴが変わってました。
+
+以上です・・・</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">美味しい店レコメンドアプリをLaravel × Vue.js のSPAで作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/goemon/articles/738ef819f68998">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>始めに
+2020年1月から受託開発会社に異業種から転職してから1年半が経ち、ある程度の経験をつけてきたもののECのデモアプリは作ったことがありますが、自分でオリジナルアプリを作ってこなかったので今回、個人で運用することも視野にアプリを作ることにしました。
+
+ アプリの概要
+
+ なぜこのアプリを作ろうと思ったか
+自分自身、インスタグラムやRetty,食べログなどから美味しい店を探すことが多く、探すこと自体に苦を感じることはないですが、一方探すことに時間がかかりすぎ、結局目当ての店が見つからない、もしくは多すぎてなかなか決められないということがありました。自分で探すよりも勝手にピックアッ...</span>
                   </div>
                 </a>
               </details>
@@ -555,15 +1396,332 @@ The post How do you make a layout with pictures down one side of a page matched 
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Creating Custom Emmet Snippets In VS Code</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/">
+                <summary class="article-expander__title">create-nuxt-appで既存のディレクトリを上書きできるようになった</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uta_mory/articles/f8bad2ffa86d99">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>In this article, Manuel explains why Emmet is one of his favorite productivity tools for writing HTML and CSS, and how you can create custom Emmet snippets in Visual Studio Code to help you improve your front-end workflows even more.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった
+
+      
+        
+        projects/test-pj
+&gt; touch Makefile
+
+
+      
+      
+      
+        
+        projects/test-pj
+&gt; npx create-nuxt-app .
+
+
+create-nuxt-app v3.7.0
+Could not create project in test-pj because the directory is not empty.
+
+
+      
+    ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">WSL2でvim/tmuxでクリップボード共有できるようにする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/u1tnk/articles/303ed2cd4fff6c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>自ブログから転載 https://u1tnk.github.io/blog/2021/06/28/wsl2_clipboard_config/
+
+ 概要
+vim、tmux、windws側のcopy/pasteを全て連携させる。
+WSL2移行前に使っていたVIrtualBox環境からの移行で、結局の所ssh+x転送をやめた結果 xselが使えなくなったのでwindowsのexeを直接叩けばOKだった…というだけ。
+
+ windows側のクリップボードを双方向で使えるアプリをインストール
+https://github.com/equalsraf/win32yank  を利用。
+windows...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">create-nuxt-appで既存のディレクトリを上書きできるようになった</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uta_mory/articles/f8bad2ffa86d99">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった
+
+      
+        
+        projects/test-pj
+&gt; touch Makefile
+
+
+      
+      
+      
+        
+        projects/test-pj
+&gt; npx create-nuxt-app .
+
+
+create-nuxt-app v3.7.0
+Could not create project in test-pj because the directory is not empty.
+
+
+      
+    ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-27">2021-06-27</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【新規ユーザー登録機能】axiosを使ったapi呼び出しメモ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/e9185ede462fc3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>全指定
+Signup.vue
+
+      
+        
+        await this.$axios.post(&#x27;http://localhost:8000/api/register&#x27;,this.user)
+
+
+      
+      baseURLの指定
+auth-moduleでの設定
+nuxt.config.js
+
+      
+        
+          axios: {
+    // baseURL: &#x27;http://localhost:3000&#x27;,
+    // baseURL: &#x27;http://localhost:8000&#x27;,
+    baseURL...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【新規ユーザー登録機能】ブラウザが表示しているエラーメッセージ消えない</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/fc1e0079b9bd03">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>laravel
+解決
+https://teratail.com/questions/178343
+nuxt側も出てくるから後で調査</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">最小限の構成でVue.extendとクラスコンポーネントを比べてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kata_n/articles/233ee8e03c5cb1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Vue.jsでTypeScriptを使う時、いくつか選択肢があるのを知って整理したくなったので最小限の構成で同じ機能のものを作成し見比べて見ました。
+Vueのバージョンは２.x系です。
+なお、Vueの3系では、クラスコンポーネント以外にComposition APIといった新しい書き方が主流になりつつありますが、2.x系を使用したプロジェクトはまだ沢山ある、現在携わっているプロジェクトもクラスコンポーネントを使用している為、TypeScriptの理解を深めるためにもVue.extendとクラスコンポーネントの比較をしています。
+
+ 検証する
+
+ボタンをクリックすると、数字がカウントアップ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue Apollo の useMutation でつまづいたところ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gamin/articles/58bf5f1b9e8ea2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>概要
+useMutation を使いたい!使おう！怒られる！なんで！
+
+      
+        
+        TypeError: Cannot read property &#x27;$root&#x27; of null
+    at getAppTracking (loadingTracking.js?b1f0:5)
+    at getCurrentTracking (loadingTracking.js?b1f0:25)
+    at track (loadingTracking.js?b1f0:50)
+    at Object.trackMutation (loadingTrac...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-26">2021-06-26</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VS CodeでVueのIntellisense(入力補完)が遅いとき</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>前提
+
+Veturを利用している
+jsconfig.jsonを書いている
+NuxtかVueで開発している
+
+
+ 参考にしたサイト
+ずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。
+Vetur Intellisense slow and incomplete if project has jsconfig #547
+
+
+ 結論
+jsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。
+プロジェクトフォルダのjsconfig.jsonを
+
+      
+        
+       ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">SQL*Plusでviを使う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/lunarxlark/articles/how-to-use-vi-in-sqlplus">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>SQL&gt; DEFINE _EDITOR &#x3D; vi
+SQL&gt; edit
+SQL&gt; /   -- 実行
+
+
+      
+      glogin.sqlに設定することでDEFINE _EDITOR &#x3D; viを省略できる</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">From denite.nvim To fzf.vim</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/lunarxlark/articles/from-denite-to-fzf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>denite.nvimとfzf.vimって比較記事?
+
+違います。断捨離した結果、fzf.vimで事足りてしまったという記事です。
+denite.nvimとfzf.vimは、一見やれることが似ているように見えますが提供しているインタフェースが違います。
+denite.nvimの方が拡張性/汎用性が高いです。Pythonスクリプトを呼び出せますし。
+
+どうしてやめたん？
+
+Python3とpipの環境整備に疲れたというのが理由で完全に力不足なだけです。
+そもそも使いこなせていなかったっていうのも大きい。自分に必要な機能が何か見直したら次のがあれば十分っぽい。
+
+コマンドの結果の一覧表示(...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021年版 vim + goplsの設定</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/lunarxlark/articles/2021_vim_gopls">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>goplsが出てから, vimでも定義ジャンプやシンボル検索、ドキュメント参照等が行えるようになった。
+たまにVSCodeを触りvimでの作業を改善できないか考える中で、自身の設定が古いことに気付いた。また、ググってもなかなか出てこなかったのでメモとして記述する。
+cf. GitHub dotfiles
+いきなりだが、vimrcとvim-lsp-settings/settings.jsonを抜粋して貼り付ける。
+以前、GoではLspCodeAction, LspCodeLens等をサポートしていなかったが、今では使えるようになっている。
+キーマップに設定している関数は全てGoで使用出来る...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VS CodeでVueのIntellisense(入力補完)が遅いとき</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>前提
+
+Veturを利用している
+jsconfig.jsonを書いている
+NuxtかVueで開発している
+
+
+ 参考にしたサイト
+ずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。
+Vetur Intellisense slow and incomplete if project has jsconfig #547
+
+
+ 結論
+jsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。
+プロジェクトフォルダのjsconfig.jsonを
+
+      
+        
+       ...</span>
                   </div>
                 </a>
               </details>
@@ -577,26 +1735,22 @@ The post How do you make a layout with pictures down one side of a page matched 
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Creating A Multi-Author Blog With Next.js</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/creating-multi-author-blog-nextjs/">
+                <summary class="article-expander__title">TypeScript * GraphQLのバックエンド設計プラクティス</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tatta/books/5096cb23126e64">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(18 min)</span>
-                    <span>This article explains how we can connect different types of content in a Next.js application. With this technique, we can add any kind of one-to-one, one-to-many, or even many-to-many relationship to our projects.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How To Run A UX Audit For A Major EdTech Platform (Case Study)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/ux-audit-edtech-platform-case-study/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>This article is a case study of how a UX audit affects a UI. It explains how a famous educational platform can be analyzed edX against Jakob Nielsen’s usability guidelines. To get started, Mark Lankmiller shares all of the criteria and metrics he used for his UX audit.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Typescriptを使いはじめて1年になるので、バックエンドのWebアプリを設計するときに気を付けていることをまとめました。（※社内勉強会用資料の公開版です。）
+
+Typescriptについては、Next.jsを中心にフロントエンドに関する公開情報が豊富です。一方でバックエンドに関する公開情報が少ないと感じています。（かくいう私もNext.jsからTypescriptデビューしたわけですが）
+
+TypeScript * GraphQL という構成は仕事・趣味で採用されている方も多いのではないでしょうか？
+私もその1人です。私のような方のためにも、バックエンドの設計プラクティスについてまとめようと思い筆を取りました。
+
+本書がこれから始める読者にとっては教科書のようになり、既に経験がある読者にとっては意見交換の場になったら嬉しいと考えています。</span>
                   </div>
                 </a>
               </details>
@@ -610,15 +1764,42 @@ The post How do you make a layout with pictures down one side of a page matched 
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Rise Of Design Thinking As A Problem Solving Strategy</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/design-thinking-problem-solving-strategy/">
+                <summary class="article-expander__title">Buefy Placeholderの色変更　メモ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/koniman/articles/e5355a16a5261c">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>In the dynamic and unpredictable environments in which we work, even the most carefully crafted solutions can have a short shelf life. When we accept that our work is impermanent and our problem-solving abilities are limited, our goal can shift from delivering full solutions to developing tools that empower our users to adaptively design for themselves.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>概要
+
+Nuxt.jsでbuefyを使用。
+
+
+ 満たしたいこと
+placeholderで表示される文字列の色を変更。
+参考：
+CSS：input要素のplaceholderの色を変更する方法
+上記の記事参考に記述してみる。
+
+      
+        
+        input::placeholder {
+  color: red;
+}
+
+
+      
+      これでは変わらない。
+
+ 解決策
+原因がわからないので最強の上書きで対応。
+
+      
+        
+        ::v-deep input::placeholder {
+  color: red...</span>
                   </div>
                 </a>
               </details>
@@ -658,26 +1839,44 @@ Thank you @PiyushLosalka</span>
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Smashing Online Workshops (July-October 2021)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/new-smashing-online-workshops-frontend-ux-design/">
+                <summary class="article-expander__title">Nuxt Sass サーバ起動時のエラー対処法 TypeError: this.getOptions is not a function</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/katsuking/articles/1fb93bc3bfe70e">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Frontend and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run [online workshops](https://smashingconf.com/online-workshops/) for all of us to learn together. And we have new ones coming up, and we’d like to kindly welcome you to join in.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>NuxtでSassを使用するにあたって、node-sassとsass-loaderをインストールした後、サーバ起動すると、sass-loaderで以下のエラーが発生しました。
+
+      
+        
+        ERROR  Failed to compile with 1 errors                                     
+
+ERROR  in ./components/Header.vue?vue&amp;type&#x3D;style&amp;index&#x3D;0&amp;id&#x3D;1a9bb128&amp;lang&#x3D;sass&amp;scoped&#x3D;t...</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Automating Screen Reader Testing On macOS Using Auto VO</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/">
+                <summary class="article-expander__title">@nuxt/postcss8 使用時 &quot;Cannot find module 0&quot; エラーが発生する場合とその対処</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Automated testing is an important part of any software project, including testing for accessibility. There are already tools for linting and integration testing accessibility, but what about end-to-end testing with real assistive technology? Since I hadn’t seen this before, I set out to build Auto VO, a driver for the VoiceOver screen reader.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>現象
+autoprefixer を v10 にバージョンアップする時、postcssをv8以上に更新する必要が生じた。
+そこで、 postcss8の移行ガイド に従って以下を試みた。
+
+Nuxt.js を &gt;&#x3D; 2.15.3 に更新
+
+@nuxt/postcss8 を追加
+
+その後、 nuxt generate によって静的ファイルを生成しようとしたところ、掲題のエラーによって失敗した。
+
+      
+        
+        ╭──────────────────────────────────────────────────────────────────────...</span>
                   </div>
                 </a>
               </details>
@@ -691,15 +1890,29 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Designing With Code: A Modern Approach To Design (Development Challenges)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/design-code-modern-approach-development-challenges/">
+                <summary class="article-expander__title">2021-06-22のJS: undici 4.0.0(HTTPクライアント)、Next.js 11、Safari 15 Beta</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>After years of innovation in both tools and processes, the struggle between design and development is still real. This article focuses on the best practices for improving the design to development processes and how cutting-edge solutions, such as UXPin powered by Merge technology, can help in facilitating the change.</span>
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>JSer.info #545 - Node.js向けのHTTPクライアントであるUndici 4がリリースされました。
+Introducing Undici@4. After a few years since the first… | by Node.js | Jun, 2021 | Medium
+Release v4.0.0 - Unified API, Docs Site, WASM, Redirect and Mocking · nodejs/undici
+Undiciは、Node.jsのhttpの代わりとして使えるように、netやtlsを使って一から書き直されているHTTPクライアントです。
+It’s implemented from scratch. The old client cannot be due to inefficient design of the internals, as well as years of maintaining legacy APIs!
+— Matteo Collina (@matteocollina) February 15, 2021
+ 
+
+Undici 4.0では、Node.js 10のサポートが終了されています。
+maxRedirectionsでのリダイレクトサポート、nockをインスパイアしたモックのサポートなどが含まれています。
+また、4.0にあわせて https://undici.nodejs.org/ にウェブサイトが公開されています。
+Next.js 11がリリースされました。
+Blog - Next.js 11 | Next.js
+Next.js向けの設定でLintをするnpx next lintというESLintの連携が追加されています。
+Basic Features: ESLint | Next.js…</span>
                   </div>
                 </a>
               </details>
@@ -713,15 +1926,116 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Image To Text Conversion With React And Tesseract.js (OCR)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/">
+                <summary class="article-expander__title">VIMの起動時間の調査方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uu64/articles/6518c75cdf5e02">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(18 min)</span>
-                    <span>Do you have to process data manually because it is served through images or scanned documents? An image-to-text conversion makes it possible to extract text from images to automate the processing of texts on images, videos, and scanned documents. In this article, we look at how to convert an image to text with React and Tesseract.js(OCR), preprocess images, and deal with the limitations of Tesseract (OCR).</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>最近 VIM の起動時間が遅いことが気になり、高速化のために起動時間の内訳を調査した。
+歴戦の Vimmer の皆様には常識かもしれないが、私のような VIM 初学者の助けになればと思い調査方法を備忘録として残す。
+
+ --startuptime オプション
+vim/neovim には --startuptime という起動時間の内訳を調査するための
+オプションが用意されている。
+以下のようにして用いる。オプションの後ろに指定したファイルパスに、起動ログが出力される。
+
+      
+        
+        $ vim --startuptime /tmp/startup.lo...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-20">2021-06-20</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Denoを（Vimで）開発するときのテンプレートを作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/1c48c097020cbc">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Denoの開発をする際に毎回同じような設定を行っているのでテンプレートリポジトリを作りました。
+https://github.com/kawarimidoll/deno-dev-template
+作業記録（Zenn scrap）はこちら
+
+ Loggerの設定
+出力したログがコンソールだけでなくファイルに残っていると後から見直しやすく便利です。
+これに関しては以下の記事でまとめました。
+https://zenn.dev/kawarimidoll/articles/b1d9bc15aaa99c
+ここで作ったlogger.tsを入れておきます。
+
+ Dotenvの設定
+dotenvも使用頻度...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-19">2021-06-19</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【ログイン機能】laravel-ui</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/bada725ab82399">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>同じプロジェクトでvueを使う場合のみ？
+Laravel6からデフォルトで入っているモダンフロントエンドフレームワーク(Vue、React等)をLaravelで使う事ができるライブラリ
+
+ laravel-uiのインストール
+以下を実施
+
+      
+        
+        composer require laravel/ui &quot;^1.0&quot; --dev
+
+php artisan ui vue --auth
+
+
+      
+      
+ スカフォールド（足場）を各フレームワークから選べる
+
+      
+        
+        php artisan ui bo...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Electron API レシピブック 2021</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sprout2000/books/3691a679478de2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Electron の多彩な API を実例とともに紹介する Tips 集</span>
                   </div>
                 </a>
               </details>
@@ -735,26 +2049,29 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">An Alternative Voice UI To Voice Assistants</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/">
+                <summary class="article-expander__title">microCMS+NuxtのJamstackブログをS3にデプロイしてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Client-Side Routing In Next.js</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/client-side-routing-next-js/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(13 min)</span>
-                    <span>Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+ヘッドレスCMSを使ってJamstackなブログを構築する機会があったので、使った技術や設定方法をまとめておきます。
+
+ 構成
+技術構成です。
+
+Headless CMS: microCMS
+source repository: GitHub
+CI: GitHub Actions
+SSG: Nuxt.js
+Hosting: Aamazon S3
+
+Headless CMSには日本製のmicroCMSを選びました。
+公式ブログにNuxt.jsを使ったJamstackの記事があったため、今回参考にしています。
+https://blog.microcms.io/microcms-...</span>
                   </div>
                 </a>
               </details>
@@ -768,37 +2085,70 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Your Image Is Probably Not Decorative</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/">
+                <summary class="article-expander__title">Vimプラグインを書く言語について と宣伝</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/octaltree/articles/c5757d9a126415">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+Rust 1.53が本日リリースされ、rustdocが吐く目次データのフォーマットが変わりました。これによりdocを高速に検索するための自作ツールrustdoc-index[1][2]がstableでも使えるようになりました。
+
+ここからがvimの話です。私がvim-jpのslackコミュニティに参加したのはこのツールの宣伝が目的[3]でした。そこはvim猛者がたくさんいて、2021/04/01に参加してたった2ヶ月で、7年テキトーに使っていたvimについて学ぶことが多くありました。細々とした知見を書き連ねるのはまとめきれないので、この記事ではvimプラグインとプログラミン...</span>
                   </div>
                 </a>
               </details>
             </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-16">2021-06-16</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
-          <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">A Complete Guide To Accessibility Tooling</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/">
+                <summary class="article-expander__title">vim コマンド</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>コピー，ペースト，切り取り
+
+ 一行コピー
+yy
+
+ ペースト
+p
+
+ 範囲選択してコピー
+vで押すと範囲選択モードになる．
+vim以外のエディタのShift押しながらカーソル移動と同じ．
+カーソル移動して
+y
+でコピー
+
+ 切り取り
+v
+を押すと範囲選択にする．
+カーソル移動して
+d
+で切り取り.
+後はpでペースト.
+
+ 削除
+
+ 一文字削除
+x
+
+ 一行削除
+dd
+
+ 元に戻す,元に戻すを戻す
+windowsならctrl+zとかctrl+yのやつ．
+元に戻すが「undo」で，元に戻すを戻すが「redo」といいます．
+undoがu
+redoがctrl+u
+
+ 移動
+
+ 最終行
+G
+...</span>
                   </div>
                 </a>
               </details>
@@ -812,26 +2162,65 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Spinning Up Multiple WordPress Sites Locally With DevKinsta</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/">
+                <summary class="article-expander__title">2021-06-15のJS: React 18 αリリース、Deno 1.11(Docker Images)、Plotly.js 2.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>When developing themes and plugins for WordPress, we need to test them in different environments. How can we create multiple testing sites on our computer, quickly and easily, without having to become a sysadmin?</span>
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>JSer.info #544 - React 18のα版のリリースとReact 18での変更予定についての記事が公開されています。
+The Plan for React 18 – React Blog
+React 18のα版はライブラリのメンテナー向けで、これにあわせてReactのワーキンググループが作られています。
+Discussions · reactwg/react-18
+React 18の変更は基本的に ReactDOM.createRootという新しいAPIを使った場合のopt-in方式となっています。
+全体的な概要は次のスレッドにまとめられています。
+ Introducing React 18 · Discussion #4 · reactwg/react-18
+それぞれの変更のサマリは次のようになっています。
+Replacing render with createRoot · Discussion #5 · reactwg/react-18
+
+
+ReactDOM.renderの代わりとなるReact.createRoot というRoot(Container)を作るためのAPIが追加された
+Legacy renderのAPIは互換性のために維持される
+React 18の機能変更や機能追加は、基本的にこの新しいReact.createRoot 以下のTreeに適応される
+
+Automatic batching for fewer renders in React 18 · Discussion #21 · reactwg/react-18
+
+
+stateの変更が自動的にbatch処理(グループ化)して、レンダリングがまとめられる
+以前あったunstable_batchedUpdatesに相当する処理
+意図的にそれぞれの変更でレンダリングする方法としてReactD…</span>
                   </div>
                 </a>
               </details>
             </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Smashing Podcast Episode 39 With Addy Osmani: Image Optimization</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/">
+                <summary class="article-expander__title">Windows と WSL2 の neovim を使ったときの 日本語入力をもうちょっとなんとかしたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kaz399/articles/50b5f2fdc2afcf">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(36 min)</span>
-                    <span>In this episode of the Smashing Podcast, we’re talking about image optimization. What steps should we follow for performant images in 2021? We talk to expert Addy Osmani to find out.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>vim(neovim)はとても便利で気に入っていますが、日本語入力が不便です。
+vimのモード切替＋IMEの切り替え が、とにかく面倒です。
+日本語入力が必要になるときは別のエディタを使ったりしていますが、それはそれで面倒なので、なんとか改善したいです。
+
+ やりたいこと
+個人的には
+
+ノーマルモードに移る時には、IMEがオフになってほしい
+インサートモードに移る時には、直前のインサートモードでのIME状態に戻ってほしい
+
+と思っています。
+ついでに、Windowsのneovimだけでなく日頃の開発環境であるWSL2のneovimでも同様なことをしたいと思っています。
+
+ 既存の解決方法...</span>
                   </div>
                 </a>
               </details>
@@ -841,19 +2230,30 @@ Thank you @PiyushLosalka</span>
     </ul>
   </section>
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-14">2021-06-14</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-06-13">2021-06-13</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">When CSS Isn’t Enough: JavaScript Requirements For Accessible Components</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/css-javascript-requirements-accessible-components/">
+                <summary class="article-expander__title">denops.vimを使って引用符と括弧を操作するVimのプラグインを書いた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tayusa/articles/58d1c20172f662">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Spoiler alert: tooltips, modals, tabs, carousels, and dropdown menus are some of the user interface components that require more than CSS. To ensure accessibility of your interface, JavaScript is a necessary addition to accomplish focus management, respond to keyboard events, and toggle ARIA attributes.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>はじめに
+かねてから、Denoを触ってみたいけど肝心の作るものがないなと思っていました。
+そんな矢先にたまたまdenops.vimとの邂逅を果たしたので、昔作ったプラグインを書き直してみました。
+denops.vimについては
+https://github.com/vim-denops/denops.vim
+https://zenn.dev/lambdalisue/articles/b4a31fba0b1ce95104c9
+
+ 作ったもの
+https://github.com/tayusa/surround.vim
+題目のとおり、引用符と括弧を操作するvimのプラグインです。
+
+ 行...</span>
                   </div>
                 </a>
               </details>
@@ -867,48 +2267,49 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Web Design Done Well: Making Use Of Audio</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/web-design-done-well-audio/">
+                <summary class="article-expander__title">[vim] 重複行の抽出</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rapan931/articles/a5dfdb14ad1a1b">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Design often revolves around visuals, but the other senses deserve love too. In this article, we tune in to audio features that are making sites sing.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-10">2021-06-10</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Useful Front-End Boilerplates And Starter Kits</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(17 min)</span>
-                    <span>We don’t need to write everything from scratch every single time. With boilerplates and starter kits, we can set up our projects faster, and get to work immediately.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Three Front-End Auditing Tools I Discovered Recently</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Building a faster website can be a rocket task these days. There are so many things to consider, so it’s challenging to get everything right. Here are some less-known tools that might help you get there.</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ソート済みのテキストから重複行の抽出がしたかったので、vimで対応
+
+      
+        
+        &quot; 重複行は連続で2行まで。
+aa
+bbb
+ccc
+cccc
+dddddddd
+dddddddd
+eeeeeeee
+eeeeeeee
+eeeeeeee.txt
+eeeeeeee.txt
+fff
+fff
+ddd
+↓
+dddddddd
+eeeeeeee
+eeeeeeee.txt
+fff
+
+
+      
+      以下で実施できます。
+
+      
+        
+        :v/\(^.*$\)\n\1$/delete
+
+
+      
+      行っているこ...</span>
                   </div>
                 </a>
               </details>
@@ -922,15 +2323,23 @@ Thank you @PiyushLosalka</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Meet :has, A Native CSS Parent Selector (And More)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/has-native-css-parent-selector/">
+                <summary class="article-expander__title">Xcode 13 で Vim mode を有効にする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ykws/articles/xcode13-vim-mode">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Xcode13 で Vim mode が導入されました
+Xcode
+
+Vim mode
+Many common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.
+
+Xcode 13 Beta Release Notes
+
+Xcode 13 beta requires a Mac running macOS 11.3 or late...</span>
                   </div>
                 </a>
               </details>
@@ -941,7 +2350,7 @@ Thank you @PiyushLosalka</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-08T09:02:57.953Z">2021-07-08T09:02:57.953Z</time>
+    <time id="build-timestamp" datetime="2021-07-08T09:19:09.189Z">2021-07-08T09:19:09.189Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
