@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-08T18:42:06.703Z</updated>
+    <updated>2021-07-09T01:04:19.001Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vue-toastedで処理成功時・エラー時の通知を楽に実装する（laravel×vue.js）]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188"/>
+        <updated>2021-07-08T23:56:57.000Z</updated>
+        <summary type="html"><![CDATA[vue-toastedは処理成功したときの「処理が完了しました」やエラーが発生したときの「エラーが発生しました」の実装がかんたんにできるライブラリです。
+そもそも、 真ん中の下や右上あたりからすっと通知が出てきて、すっと隠れるやつを「トースター」っていうんですね。
+ではさっそく使ってみます。
+
+ vue-toastedをインストールする
+ささっとインストールしちゃいます。
+
+      
+        
+        npm install vue-toasted --save
+
+
+      
+      
+ app.jsでインポートする
+このあたりはライブラリを使うときのルーティ...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mdn expressJs local library website rebuilt with Strapi and NextJS]]></title>
+        <id>https://zenn.dev/okuninoshi/articles/a63131abf7d9ae</id>
+        <link href="https://zenn.dev/okuninoshi/articles/a63131abf7d9ae"/>
+        <updated>2021-07-08T13:02:52.000Z</updated>
+        <summary type="html"><![CDATA[How to Rebuild the mdn express local library website with strapi and nextjs
+
+ 1-Intro
+Welcome to the "Local Library" Strapijs, Nextjs tutorial, in which we develop a web app that might be used to manage the catalog for a local library.
+this tutorial is a rebuild of the MDN "Local Library" Expre...]]></summary>
+        <author>
+            <name>okuninoshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Storybook導入時に、webpackのバージョンで詰まった話]]></title>
+        <id>https://zenn.dev/urasaku77/articles/7fefb518fe91db</id>
+        <link href="https://zenn.dev/urasaku77/articles/7fefb518fe91db"/>
+        <updated>2021-07-08T07:45:05.000Z</updated>
+        <summary type="html"><![CDATA[経緯
+Storybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生
+
+TypeError: Cannot read property 'get' of undefined
+
+
+ 原因
+見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった
+公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）
+
+ 解決策
+.storybook/main.jsを書き換えることでwebpack5を適...]]></summary>
+        <author>
+            <name>urasaku77</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Storybook導入時に、webpackのバージョンで詰まった話]]></title>
         <id>https://zenn.dev/urasaku77/articles/7fefb518fe91db</id>

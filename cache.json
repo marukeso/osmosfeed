@@ -65,6 +65,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/okuninoshi/articles/a63131abf7d9ae",
+          "author": "okuninoshi",
+          "description": "How to Rebuild the mdn express local library website with strapi and nextjs\n\n 1-Intro\nWelcome to the \"Local Library\" Strapijs, Nextjs tutorial, in which we develop a web app that might be used to manage the catalog for a local library.\nthis tutorial is a rebuild of the MDN \"Local Library\" Expre...",
+          "link": "https://zenn.dev/okuninoshi/articles/a63131abf7d9ae",
+          "publishedOn": "2021-07-08T13:02:52.000Z",
+          "wordCount": 3386,
+          "title": "mdn expressJs local library website rebuilt with Strapi and NextJS",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--C0lbhXnT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:okuninoshi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:mdn%2520expressJs%2520local%2520library%2520website%2520rebuilt%2520with%2520Strapi%2520and%2520NextJS%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hSa2ZzUlBNUlJGOGNUQjUzS00xN3QzY1VlVllMeDFzeUFkRlRSRlE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
           "author": "urasaku77",
           "description": "経緯\nStorybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生\n\nTypeError: Cannot read property 'get' of undefined\n\n\n 原因\n見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった\n公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）\n\n 解決策\n.storybook/main.jsを書き換えることでwebpack5を適...",
@@ -498,6 +512,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
+          "author": "urasaku77",
+          "description": "経緯\nStorybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生\n\nTypeError: Cannot read property 'get' of undefined\n\n\n 原因\n見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった\n公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）\n\n 解決策\n.storybook/main.jsを書き換えることでwebpack5を適...",
+          "link": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
+          "publishedOn": "2021-07-08T07:45:05.000Z",
+          "wordCount": 51,
+          "title": "Storybook導入時に、webpackのバージョンで詰まった話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--EWaSgXbt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:urasaku77%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Storybook%25E5%25B0%258E%25E5%2585%25A5%25E6%2599%2582%25E3%2581%25AB%25E3%2580%2581webpack%25E3%2581%25AE%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25A7%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTdjYThhOWM0Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/nekoniki/articles/f8600d1ab7d908",
           "author": "nekoniki",
@@ -946,6 +974,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188",
+          "author": "おしうみなおき",
+          "description": "vue-toastedは処理成功したときの「処理が完了しました」やエラーが発生したときの「エラーが発生しました」の実装がかんたんにできるライブラリです。\nそもそも、 真ん中の下や右上あたりからすっと通知が出てきて、すっと隠れるやつを「トースター」っていうんですね。\nではさっそく使ってみます。\n\n vue-toastedをインストールする\nささっとインストールしちゃいます。\n\n      \n        \n        npm install vue-toasted --save\n\n\n      \n      \n app.jsでインポートする\nこのあたりはライブラリを使うときのルーティ...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188",
+          "publishedOn": "2021-07-08T23:56:57.000Z",
+          "wordCount": 98,
+          "title": "vue-toastedで処理成功時・エラー時の通知を楽に実装する（laravel×vue.js）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--E9s359o2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:vue-toasted%25E3%2581%25A7%25E5%2587%25A6%25E7%2590%2586%25E6%2588%2590%25E5%258A%259F%25E6%2599%2582%25E3%2583%25BB%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E6%2599%2582%25E3%2581%25AE%25E9%2580%259A%25E7%259F%25A5%25E3%2582%2592%25E6%25A5%25BD%25E3%2581%25AB%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588laravel%25C3%2597vue.js%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/naoki_oshiumi/articles/9cb55513c40848",
           "author": "おしうみなおき",
