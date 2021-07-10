@@ -65,6 +65,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/st43/articles/ff9ac1b0c7d057",
+          "author": "蔀",
+          "description": "一ヶ月くらいかけて、念願だった個人サイトをつくりました。\nhttps://www.shetommy.com/\nポートフォリオサイト + 個人ブログ + Web技術の実験場的な使い方をするためにつくりました。\nポートフォリオサイトとしての実装は割とすぐできたんですが、ブログ機能が大変でした。\nこの記事ではそこメインで書きたいと思います。\nNotion APIをガチャガチャした詳細は長くなるので、後で記事を書いて、とりあえずこの記事は個人サイト開発のまとめとしてもうちょっと雑多に書いていきます。\n同じようなことをしたい方の参考になれば幸いです。\n\n ソース\n公開しています。\nhttps://...",
+          "link": "https://zenn.dev/st43/articles/ff9ac1b0c7d057",
+          "publishedOn": "2021-07-09T09:28:10.000Z",
+          "wordCount": 128,
+          "title": "Next.js x Notion APIで個人ブログをつくりました",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--iszGFuMT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E8%2594%2580%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520x%2520Notion%2520API%25E3%2581%25A7%25E5%2580%258B%25E4%25BA%25BA%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTMwYzI0MTEwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/okuninoshi/articles/a63131abf7d9ae",
           "author": "okuninoshi",
           "description": "How to Rebuild the mdn express local library website with strapi and nextjs\n\n 1-Intro\nWelcome to the \"Local Library\" Strapijs, Nextjs tutorial, in which we develop a web app that might be used to manage the catalog for a local library.\nthis tutorial is a rebuild of the MDN \"Local Library\" Expre...",
@@ -513,6 +527,104 @@
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
         {
+          "id": "https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72",
+          "author": "くぷまーる",
+          "description": "graphqL-code-generatorとは、GraphQLのスキーマからTypeScriptの型を自動生成してくれるライブラリです。便利です。\n普段、何気なく使ってたのですがセットアップ周りとか、あんま知らないなあ。。。\nと思ったのでセットアップしてみました。\n備忘録で残します。\n\n\n初期セットアップ\n\n\n      \n        \n        npx create-react-app graphql-codegen-github-app --template typescript\n\n\n      \n      でappを作成します。\n次に、パッケージをinstallします...",
+          "link": "https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72",
+          "publishedOn": "2021-07-09T15:49:41.000Z",
+          "wordCount": 295,
+          "title": "graphqL-code-generatorをセットアップしますた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--owobexK3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258F%25E3%2581%25B7%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:graphqL-code-generator%25E3%2582%2592%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2599%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjFkZGYxMjM1My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/huequica/articles/first_npm_package",
+          "author": "Haru_Yakumo",
+          "description": "以前ヒカキンシンメトリーbotを書き直したという話をしたのですが一応まだメンテナンスを続けており、それなりに改善を続けています。\n今回はそのbotの新機能を入れるにあたりコードの分割の目的で自作パッケージをリリースした話をします。\n\n 内容\n\n既存の Array クラスに対し、最後の要素と引数が等しいかどうかを返す\n\n\n['hoge', fuga].lastItemIs('fuga') みたいに使いたい\n\n\n\nこれだけ。故に超軽量超簡単です。\nまあ今後なにか追加したいものを思いついたら追加していく感じの運用を考えているので、パッケージの名前としては @huequica/native_ex...",
+          "link": "https://zenn.dev/huequica/articles/first_npm_package",
+          "publishedOn": "2021-07-09T15:07:12.000Z",
+          "wordCount": 478,
+          "title": "npmのパッケージをリリースしてCI/CDさせるまでやってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--99bimqUP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Haru_Yakumo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:npm%25E3%2581%25AE%25E3%2583%2591%25E3%2583%2583%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25A6CI%252FCD%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDRUNJM2xDR3ZjNWNrYWN6QVFIcm5QeTZTS2VsX3lZOFNKM05jMVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yoneapp/articles/d01628752f3267",
+          "author": "米本剛士",
+          "description": "npm install --save-dev jest @types/jest\nnpm install --save-dev @firebase/rules-unit-testing\n\n\n      \n      package.json に test scripts を追加\n\n      \n        \n        \"scripts\": {\n  \"test\": \"firebase emulators:exec --only firestore jest\"\n}\n\n\n      \n      package.json に jest ...",
+          "link": "https://zenn.dev/yoneapp/articles/d01628752f3267",
+          "publishedOn": "2021-07-09T02:48:16.000Z",
+          "wordCount": 81,
+          "title": "Firebase Firestore Rule Jest Test Memo",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--cBTzQ1Wd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25B1%25B3%25E6%259C%25AC%25E5%2589%259B%25E5%25A3%25AB%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Firebase%2520Firestore%2520Rule%2520Jest%2520Test%2520Memo%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lJVTIzdVRxSktmVFlhVFZtR2NJZzFWaXQzSlpyVnVPdzRhb3NQbTdRPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kondo_script/articles/217a9d5285e35f",
+          "author": "kondo_script",
+          "description": "要約\n\namazon-chime-sdk を web + react-native で使う機会があって色々調べたのでまとめた\nAPI は素直で使いやすい。が、高機能な割にドキュメントがまとまりきっていない\n\naws のコンソールに管理画面もなく準備しなくてはいけないことはそこそこある\namazon-chime と amazon-chime-sdk は別物だが、ドキュメントは一つにまとまっている\n\nAmazon Chime Documentation\n\n\n\n\nとりあえず最初は web版/React版のサンプルを触って基本的なアーキテクチャを理解する。\n\namazon-chime-sdk...",
+          "link": "https://zenn.dev/kondo_script/articles/217a9d5285e35f",
+          "publishedOn": "2021-07-09T01:16:00.000Z",
+          "wordCount": 286,
+          "title": "amazon-chime-sdk でWebとReact Nativeでビデオ通話ができるアプリを作る(前編)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--jPYpLMvi--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kondo_script%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:amazon-chime-sdk%2520%25E3%2581%25A7Web%25E3%2581%25A8React%2520Native%25E3%2581%25A7%25E3%2583%2593%25E3%2583%2587%25E3%2582%25AA%25E9%2580%259A%25E8%25A9%25B1%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2528%25E5%2589%258D%25E7%25B7%25A8%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzdhYjk3MmU5Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/daikik/articles/b1a2061162ed83",
+          "author": "daikik",
+          "description": "概要\n最近退職に伴いTypeScriptプロジェクトのCI/CDの見直しを行っているので主にプルリクに対するCIを中心に何をやっているのか(やっていた＆やろうとしているもの含む)紹介します。\nそれぞれはさらっとした紹介のみです。\n\n tsc, prettier, eslint\n基本です。恐らく殆どのプロジェクトでやっているかと思います。\ntscは--noEmitオプションを付けて実行、eslintは--cacheと--quietオプションを付けて実行しています。\nprettierは--list-differentオプションを付けると差分があった場合(=prettierが適用されていな...",
+          "link": "https://zenn.dev/daikik/articles/b1a2061162ed83",
+          "publishedOn": "2021-07-09T00:44:31.000Z",
+          "wordCount": 131,
+          "title": "TypeScriptプロジェクトのCIでやってること",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--jmq1bgXG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:daikik%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25AECI%25E3%2581%25A7%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKdzhodXdIZE9JSzVZTUMxbE95SmhmRkFZaC1KX0YtS1hWODVMNnE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation",
+          "author": "ryo_kawamata",
+          "description": "GitHub API v4 でページネーションを考慮してクエリを投げる機会があったので、その作業メモです。\n\n GitHub API v4のページネーション\nGitHub API v4 で nodes や edges を持つリソースには、PageInfoというオブジェクトフィールドがあり、以下 4 つのフィールドを持ちます。\n\nendCursor\nhasNextPage\nhasPreviousPage\nstartCursor\n\nページングでは、このendCursorとhasNextPageのペア又はstartCursorとhasPreviousPageのペアを使います。\nendCurso...",
+          "link": "https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation",
+          "publishedOn": "2021-07-08T23:05:36.000Z",
+          "wordCount": 254,
+          "title": "GitHub API v4 でページネーションを考慮したクエリの実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--74xfStPW--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:GitHub%2520API%2520v4%2520%25E3%2581%25A7%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%258D%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E8%2580%2583%25E6%2585%25AE%25E3%2581%2597%25E3%2581%259F%25E3%2582%25AF%25E3%2582%25A8%25E3%2583%25AA%25E3%2581%25AE%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mpyw/articles/3c063143fe884a",
+          "author": "mpyw",
+          "description": "実装\n\n      \n        \n        /**\n * [α] T 型から undefined 不可キーの union を抽出\n */\ntype RequiredKeys<T> = {\n  [K in keyof T]-?: Record<any, any> extends Pick<T, K>\n    ? never\n    : K;\n}[keyof T];\n\n/**\n * [β] α を利用し， Passed 型から Req 型の条件を満たさないものだけを抽出\n */\ntype MissingKeys<Req, Passed...",
+          "link": "https://zenn.dev/mpyw/articles/3c063143fe884a",
+          "publishedOn": "2021-07-08T15:50:06.000Z",
+          "wordCount": 429,
+          "title": "TypeScript で「コンストラクタで渡さなかった引数だけ後で必須にする」の型制約を書く",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Ils-pGZw--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mpyw%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%2520%25E3%2581%25A7%25E3%2580%258C%25E3%2582%25B3%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25A9%25E3%2582%25AF%25E3%2582%25BF%25E3%2581%25A7%25E6%25B8%25A1%25E3%2581%2595%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E5%25BC%2595%25E6%2595%25B0%25E3%2581%25A0%25E3%2581%2591%25E5%25BE%258C%25E3%2581%25A7%25E5%25BF%2585%25E9%25A0%2588%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25AE%25E5%259E%258B%25E5%2588%25B6%25E7%25B4%2584%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTRlYzc4ZTg0Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
           "author": "urasaku77",
           "description": "経緯\nStorybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生\n\nTypeError: Cannot read property 'get' of undefined\n\n\n 原因\n見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった\n公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）\n\n 解決策\n.storybook/main.jsを書き換えることでwebpack5を適...",
@@ -772,6 +884,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/kawagh/articles/library2snippets",
+          "author": "kawagh",
+          "description": "はじめに\n\n筆者は競技プログラミングで使用頻度の高い処理を関数やクラスとしてライブラリ化しています。\nそのライブラリをコンテスト中に素早く確実に使用するためにスニペット(snippet)化しました。\nライブラリからsnippet化への作業をライブラリ更新の度に変更を手動で反映させるのは面倒かつ不確実なのでその作業を自動化するシェルスクリプトを作成しました。\n本記事ではsnippet化に伴い行った作業やスクリプト、感じたことをまとめておきます。\n\n\n 依存関係\n\nvim\ncoc.nvim(https://github.com/neoclide/coc.nvim)\ncoc-snippet...",
+          "link": "https://zenn.dev/kawagh/articles/library2snippets",
+          "publishedOn": "2021-07-10T00:12:52.000Z",
+          "wordCount": 210,
+          "title": "競プロライブラリのスニペット化作業の自動化",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--58y1BoXa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawagh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25AB%25B6%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%258B%25E3%2583%259A%25E3%2583%2583%25E3%2583%2588%25E5%258C%2596%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvay5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops",
           "author": "uki00a",
           "description": "はじめに\ndenops.vimを使って、Vim/Neovim上でポモドーロテクニックを実践するためのプラグインを作成してみました。\nhttps://github.com/uki00a/denops-pomodoro.vim/\nこの記事ではdenops-pomodoro.vimの使い方やdenops.vimを使ってプラグインを実装する上でのノウハウなどについて紹介します。\n\n denops.vimとは?\ndenops.vimとはDenoを使ってVimやNeovimのプラグインを書くためのエコシステムです。\nより詳しくは以下の記事を参照いただければと思います。\nhttps://zenn....",
@@ -949,20 +1075,6 @@
           "title": "[vim] 重複行の抽出",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--NGa0tih_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:rapan931%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%255Bvim%255D%2520%25E9%2587%258D%25E8%25A4%2587%25E8%25A1%258C%25E3%2581%25AE%25E6%258A%25BD%25E5%2587%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvci5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ykws/articles/xcode13-vim-mode",
-          "author": "ykws",
-          "description": "Xcode13 で Vim mode が導入されました\nXcode\n\nVim mode\nMany common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.\n\nXcode 13 Beta Release Notes\n\nXcode 13 beta requires a Mac running macOS 11.3 or late...",
-          "link": "https://zenn.dev/ykws/articles/xcode13-vim-mode",
-          "publishedOn": "2021-06-09T18:22:11.000Z",
-          "wordCount": 165,
-          "title": "Xcode 13 で Vim mode を有効にする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--GIUGGjft--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykws%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Xcode%252013%2520%25E3%2581%25A7%2520Vim%2520mode%2520%25E3%2582%2592%25E6%259C%2589%25E5%258A%25B9%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjQzYjQzOTY3Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

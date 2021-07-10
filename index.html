@@ -73,6 +73,199 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-10">2021-07-10</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">競プロライブラリのスニペット化作業の自動化</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawagh/articles/library2snippets">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+
+筆者は競技プログラミングで使用頻度の高い処理を関数やクラスとしてライブラリ化しています。
+そのライブラリをコンテスト中に素早く確実に使用するためにスニペット(snippet)化しました。
+ライブラリからsnippet化への作業をライブラリ更新の度に変更を手動で反映させるのは面倒かつ不確実なのでその作業を自動化するシェルスクリプトを作成しました。
+本記事ではsnippet化に伴い行った作業やスクリプト、感じたことをまとめておきます。
+
+
+ 依存関係
+
+vim
+coc.nvim(https://github.com/neoclide/coc.nvim)
+coc-snippet...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-09">2021-07-09</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js x Notion APIで個人ブログをつくりました</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/st43/articles/ff9ac1b0c7d057">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>一ヶ月くらいかけて、念願だった個人サイトをつくりました。
+https://www.shetommy.com/
+ポートフォリオサイト + 個人ブログ + Web技術の実験場的な使い方をするためにつくりました。
+ポートフォリオサイトとしての実装は割とすぐできたんですが、ブログ機能が大変でした。
+この記事ではそこメインで書きたいと思います。
+Notion APIをガチャガチャした詳細は長くなるので、後で記事を書いて、とりあえずこの記事は個人サイト開発のまとめとしてもうちょっと雑多に書いていきます。
+同じようなことをしたい方の参考になれば幸いです。
+
+ ソース
+公開しています。
+https://...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">graphqL-code-generatorをセットアップしますた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>graphqL-code-generatorとは、GraphQLのスキーマからTypeScriptの型を自動生成してくれるライブラリです。便利です。
+普段、何気なく使ってたのですがセットアップ周りとか、あんま知らないなあ。。。
+と思ったのでセットアップしてみました。
+備忘録で残します。
+
+
+初期セットアップ
+
+
+      
+        
+        npx create-react-app graphql-codegen-github-app --template typescript
+
+
+      
+      でappを作成します。
+次に、パッケージをinstallします...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">npmのパッケージをリリースしてCI/CDさせるまでやってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/huequica/articles/first_npm_package">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>以前ヒカキンシンメトリーbotを書き直したという話をしたのですが一応まだメンテナンスを続けており、それなりに改善を続けています。
+今回はそのbotの新機能を入れるにあたりコードの分割の目的で自作パッケージをリリースした話をします。
+
+ 内容
+
+既存の Array クラスに対し、最後の要素と引数が等しいかどうかを返す
+
+
+[&#x27;hoge&#x27;, fuga].lastItemIs(&#x27;fuga&#x27;) みたいに使いたい
+
+
+
+これだけ。故に超軽量超簡単です。
+まあ今後なにか追加したいものを思いついたら追加していく感じの運用を考えているので、パッケージの名前としては @huequica/native_ex...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Firebase Firestore Rule Jest Test Memo</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yoneapp/articles/d01628752f3267">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>npm install --save-dev jest @types/jest
+npm install --save-dev @firebase/rules-unit-testing
+
+
+      
+      package.json に test scripts を追加
+
+      
+        
+        &quot;scripts&quot;: {
+  &quot;test&quot;: &quot;firebase emulators:exec --only firestore jest&quot;
+}
+
+
+      
+      package.json に jest ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">amazon-chime-sdk でWebとReact Nativeでビデオ通話ができるアプリを作る(前編)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kondo_script/articles/217a9d5285e35f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>要約
+
+amazon-chime-sdk を web + react-native で使う機会があって色々調べたのでまとめた
+API は素直で使いやすい。が、高機能な割にドキュメントがまとまりきっていない
+
+aws のコンソールに管理画面もなく準備しなくてはいけないことはそこそこある
+amazon-chime と amazon-chime-sdk は別物だが、ドキュメントは一つにまとまっている
+
+Amazon Chime Documentation
+
+
+
+
+とりあえず最初は web版/React版のサンプルを触って基本的なアーキテクチャを理解する。
+
+amazon-chime-sdk...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptプロジェクトのCIでやってること</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/daikik/articles/b1a2061162ed83">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>概要
+最近退職に伴いTypeScriptプロジェクトのCI/CDの見直しを行っているので主にプルリクに対するCIを中心に何をやっているのか(やっていた＆やろうとしているもの含む)紹介します。
+それぞれはさらっとした紹介のみです。
+
+ tsc, prettier, eslint
+基本です。恐らく殆どのプロジェクトでやっているかと思います。
+tscは--noEmitオプションを付けて実行、eslintは--cacheと--quietオプションを付けて実行しています。
+prettierは--list-differentオプションを付けると差分があった場合(&#x3D;prettierが適用されていな...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-08">2021-07-08</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -139,6 +332,55 @@ SPA (Single Page Application)　では,Webサイトへ遷移するとローデ�
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitHub API v4 でページネーションを考慮したクエリの実装</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>GitHub API v4 でページネーションを考慮してクエリを投げる機会があったので、その作業メモです。
+
+ GitHub API v4のページネーション
+GitHub API v4 で nodes や edges を持つリソースには、PageInfoというオブジェクトフィールドがあり、以下 4 つのフィールドを持ちます。
+
+endCursor
+hasNextPage
+hasPreviousPage
+startCursor
+
+ページングでは、このendCursorとhasNextPageのペア又はstartCursorとhasPreviousPageのペアを使います。
+endCurso...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScript で「コンストラクタで渡さなかった引数だけ後で必須にする」の型制約を書く</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mpyw/articles/3c063143fe884a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>実装
+
+      
+        
+        /**
+ * [α] T 型から undefined 不可キーの union を抽出
+ */
+type RequiredKeys &#x3D; {
+  [K in keyof T]-?: Record extends Pick
+    ? never
+    : K;
+}[keyof T];
+
+/**
+ * [β] α を利用し， Passed 型から Req 型の条件を満たさないものだけを抽出
+ */
+type MissingKeys&lt;Req, Passed...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Storybook導入時に、webpackのバージョンで詰まった話</summary>
@@ -2444,39 +2686,9 @@ fff
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-09">2021-06-09</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Xcode 13 で Vim mode を有効にする</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ykws/articles/xcode13-vim-mode">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Xcode13 で Vim mode が導入されました
-Xcode
-
-Vim mode
-Many common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.
-
-Xcode 13 Beta Release Notes
-
-Xcode 13 beta requires a Mac running macOS 11.3 or late...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-09T01:04:18.985Z">2021-07-09T01:04:18.985Z</time>
+    <time id="build-timestamp" datetime="2021-07-10T01:02:22.910Z">2021-07-10T01:02:22.910Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

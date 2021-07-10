@@ -2,10 +2,168 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-09T01:04:19.001Z</updated>
+    <updated>2021-07-10T01:02:22.928Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[競プロライブラリのスニペット化作業の自動化]]></title>
+        <id>https://zenn.dev/kawagh/articles/library2snippets</id>
+        <link href="https://zenn.dev/kawagh/articles/library2snippets"/>
+        <updated>2021-07-10T00:12:52.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+
+筆者は競技プログラミングで使用頻度の高い処理を関数やクラスとしてライブラリ化しています。
+そのライブラリをコンテスト中に素早く確実に使用するためにスニペット(snippet)化しました。
+ライブラリからsnippet化への作業をライブラリ更新の度に変更を手動で反映させるのは面倒かつ不確実なのでその作業を自動化するシェルスクリプトを作成しました。
+本記事ではsnippet化に伴い行った作業やスクリプト、感じたことをまとめておきます。
+
+
+ 依存関係
+
+vim
+coc.nvim(https://github.com/neoclide/coc.nvim)
+coc-snippet...]]></summary>
+        <author>
+            <name>kawagh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[graphqL-code-generatorをセットアップしますた]]></title>
+        <id>https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72</id>
+        <link href="https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72"/>
+        <updated>2021-07-09T15:49:41.000Z</updated>
+        <summary type="html"><![CDATA[graphqL-code-generatorとは、GraphQLのスキーマからTypeScriptの型を自動生成してくれるライブラリです。便利です。
+普段、何気なく使ってたのですがセットアップ周りとか、あんま知らないなあ。。。
+と思ったのでセットアップしてみました。
+備忘録で残します。
+
+
+初期セットアップ
+
+
+      
+        
+        npx create-react-app graphql-codegen-github-app --template typescript
+
+
+      
+      でappを作成します。
+次に、パッケージをinstallします...]]></summary>
+        <author>
+            <name>くぷまーる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[npmのパッケージをリリースしてCI/CDさせるまでやってみた]]></title>
+        <id>https://zenn.dev/huequica/articles/first_npm_package</id>
+        <link href="https://zenn.dev/huequica/articles/first_npm_package"/>
+        <updated>2021-07-09T15:07:12.000Z</updated>
+        <summary type="html"><![CDATA[以前ヒカキンシンメトリーbotを書き直したという話をしたのですが一応まだメンテナンスを続けており、それなりに改善を続けています。
+今回はそのbotの新機能を入れるにあたりコードの分割の目的で自作パッケージをリリースした話をします。
+
+ 内容
+
+既存の Array クラスに対し、最後の要素と引数が等しいかどうかを返す
+
+
+['hoge', fuga].lastItemIs('fuga') みたいに使いたい
+
+
+
+これだけ。故に超軽量超簡単です。
+まあ今後なにか追加したいものを思いついたら追加していく感じの運用を考えているので、パッケージの名前としては @huequica/native_ex...]]></summary>
+        <author>
+            <name>Haru_Yakumo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js x Notion APIで個人ブログをつくりました]]></title>
+        <id>https://zenn.dev/st43/articles/ff9ac1b0c7d057</id>
+        <link href="https://zenn.dev/st43/articles/ff9ac1b0c7d057"/>
+        <updated>2021-07-09T09:28:10.000Z</updated>
+        <summary type="html"><![CDATA[一ヶ月くらいかけて、念願だった個人サイトをつくりました。
+https://www.shetommy.com/
+ポートフォリオサイト + 個人ブログ + Web技術の実験場的な使い方をするためにつくりました。
+ポートフォリオサイトとしての実装は割とすぐできたんですが、ブログ機能が大変でした。
+この記事ではそこメインで書きたいと思います。
+Notion APIをガチャガチャした詳細は長くなるので、後で記事を書いて、とりあえずこの記事は個人サイト開発のまとめとしてもうちょっと雑多に書いていきます。
+同じようなことをしたい方の参考になれば幸いです。
+
+ ソース
+公開しています。
+https://...]]></summary>
+        <author>
+            <name>蔀</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firebase Firestore Rule Jest Test Memo]]></title>
+        <id>https://zenn.dev/yoneapp/articles/d01628752f3267</id>
+        <link href="https://zenn.dev/yoneapp/articles/d01628752f3267"/>
+        <updated>2021-07-09T02:48:16.000Z</updated>
+        <summary type="html"><![CDATA[npm install --save-dev jest @types/jest
+npm install --save-dev @firebase/rules-unit-testing
+
+
+      
+      package.json に test scripts を追加
+
+      
+        
+        "scripts": {
+  "test": "firebase emulators:exec --only firestore jest"
+}
+
+
+      
+      package.json に jest ...]]></summary>
+        <author>
+            <name>米本剛士</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[amazon-chime-sdk でWebとReact Nativeでビデオ通話ができるアプリを作る(前編)]]></title>
+        <id>https://zenn.dev/kondo_script/articles/217a9d5285e35f</id>
+        <link href="https://zenn.dev/kondo_script/articles/217a9d5285e35f"/>
+        <updated>2021-07-09T01:16:00.000Z</updated>
+        <summary type="html"><![CDATA[要約
+
+amazon-chime-sdk を web + react-native で使う機会があって色々調べたのでまとめた
+API は素直で使いやすい。が、高機能な割にドキュメントがまとまりきっていない
+
+aws のコンソールに管理画面もなく準備しなくてはいけないことはそこそこある
+amazon-chime と amazon-chime-sdk は別物だが、ドキュメントは一つにまとまっている
+
+Amazon Chime Documentation
+
+
+
+
+とりあえず最初は web版/React版のサンプルを触って基本的なアーキテクチャを理解する。
+
+amazon-chime-sdk...]]></summary>
+        <author>
+            <name>kondo_script</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptプロジェクトのCIでやってること]]></title>
+        <id>https://zenn.dev/daikik/articles/b1a2061162ed83</id>
+        <link href="https://zenn.dev/daikik/articles/b1a2061162ed83"/>
+        <updated>2021-07-09T00:44:31.000Z</updated>
+        <summary type="html"><![CDATA[概要
+最近退職に伴いTypeScriptプロジェクトのCI/CDの見直しを行っているので主にプルリクに対するCIを中心に何をやっているのか(やっていた＆やろうとしているもの含む)紹介します。
+それぞれはさらっとした紹介のみです。
+
+ tsc, prettier, eslint
+基本です。恐らく殆どのプロジェクトでやっているかと思います。
+tscは--noEmitオプションを付けて実行、eslintは--cacheと--quietオプションを付けて実行しています。
+prettierは--list-differentオプションを付けると差分があった場合(=prettierが適用されていな...]]></summary>
+        <author>
+            <name>daikik</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vue-toastedで処理成功時・エラー時の通知を楽に実装する（laravel×vue.js）]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188</id>
@@ -29,6 +187,53 @@
 このあたりはライブラリを使うときのルーティ...]]></summary>
         <author>
             <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub API v4 でページネーションを考慮したクエリの実装]]></title>
+        <id>https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation</id>
+        <link href="https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation"/>
+        <updated>2021-07-08T23:05:36.000Z</updated>
+        <summary type="html"><![CDATA[GitHub API v4 でページネーションを考慮してクエリを投げる機会があったので、その作業メモです。
+
+ GitHub API v4のページネーション
+GitHub API v4 で nodes や edges を持つリソースには、PageInfoというオブジェクトフィールドがあり、以下 4 つのフィールドを持ちます。
+
+endCursor
+hasNextPage
+hasPreviousPage
+startCursor
+
+ページングでは、このendCursorとhasNextPageのペア又はstartCursorとhasPreviousPageのペアを使います。
+endCurso...]]></summary>
+        <author>
+            <name>ryo_kawamata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript で「コンストラクタで渡さなかった引数だけ後で必須にする」の型制約を書く]]></title>
+        <id>https://zenn.dev/mpyw/articles/3c063143fe884a</id>
+        <link href="https://zenn.dev/mpyw/articles/3c063143fe884a"/>
+        <updated>2021-07-08T15:50:06.000Z</updated>
+        <summary type="html"><![CDATA[実装
+
+      
+        
+        /**
+ * [α] T 型から undefined 不可キーの union を抽出
+ */
+type RequiredKeys<T> = {
+  [K in keyof T]-?: Record<any, any> extends Pick<T, K>
+    ? never
+    : K;
+}[keyof T];
+
+/**
+ * [β] α を利用し， Passed 型から Req 型の条件を満たさないものだけを抽出
+ */
+type MissingKeys<Req, Passed...]]></summary>
+        <author>
+            <name>mpyw</name>
         </author>
     </entry>
     <entry>
@@ -1850,24 +2055,6 @@ fff
       行っているこ...]]></summary>
         <author>
             <name>rapan931</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Xcode 13 で Vim mode を有効にする]]></title>
-        <id>https://zenn.dev/ykws/articles/xcode13-vim-mode</id>
-        <link href="https://zenn.dev/ykws/articles/xcode13-vim-mode"/>
-        <updated>2021-06-09T18:22:11.000Z</updated>
-        <summary type="html"><![CDATA[Xcode13 で Vim mode が導入されました
-Xcode
-
-Vim mode
-Many common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.
-
-Xcode 13 Beta Release Notes
-
-Xcode 13 beta requires a Mac running macOS 11.3 or late...]]></summary>
-        <author>
-            <name>ykws</name>
         </author>
     </entry>
 </feed>
