@@ -2,10 +2,188 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-10T01:02:22.928Z</updated>
+    <updated>2021-07-11T01:09:24.850Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Vue.js】スライドアップダウン・ドロップダウン・アコーディオン]]></title>
+        <id>https://zenn.dev/ymkn8crz/articles/25c7962dd20d54</id>
+        <link href="https://zenn.dev/ymkn8crz/articles/25c7962dd20d54"/>
+        <updated>2021-07-10T15:20:44.000Z</updated>
+        <summary type="html"><![CDATA[以前実装に使ったVueのライブラリについてメモ。
+スライドアップダウンメニュー、ドロップダウンメニュー、アコーディオンメニューなど言い方がいろいろあるやつ。
+
+ 今回の仕様
+「詳しくはこちら」と書いてある赤色ヘッダーをクリックすると、
+
+スライドがアニメーションで開き、詳細を表示する。周りの要素もスライドに合わせて移動する。
+
+もう一度クリックすると元に戻る。
+
+ vue-slide-up-down
+Vue.jsの開発で、スライド機能を実装するならvue-slide-up-downを使うと簡単に実装できた。
+https://github.com/danieldiekmeier/vue-s...]]></summary>
+        <author>
+            <name>ymkn8crz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vite + React + TS + vanilla-extract +α が動作するサンプルリポジトリを作った]]></title>
+        <id>https://zenn.dev/meijin/articles/vite-react-ts-vanilla-extract-playground</id>
+        <link href="https://zenn.dev/meijin/articles/vite-react-ts-vanilla-extract-playground"/>
+        <updated>2021-07-10T08:32:49.000Z</updated>
+        <summary type="html"><![CDATA[概要
+以下のGitHubリポジトリに、Vite + React + TS + vanilla-extract +α が動作するサンプルリポジトリを作った。
+https://github.com/TeXmeijin/vite-react-playground
+本記事では動作させるための設定のポイントや、各利用技術、ライブラリの概要について説明する。
+リポジトリ名をplaygroundとしているとおり、今後このリポジトリには色々なライブラリ(react-hook-form, SWRなど)の検証内容を追記していく予定だが、ひとまず環境構築で一段落したので記事を書いた。
+
+
+ 動作確認時のバ...]]></summary>
+        <author>
+            <name>Meijin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vueで「$」から始まる謎のモノに困惑した]]></title>
+        <id>https://zenn.dev/lemonadern/articles/6194cc19b71d61</id>
+        <link href="https://zenn.dev/lemonadern/articles/6194cc19b71d61"/>
+        <updated>2021-07-10T07:43:20.000Z</updated>
+        <summary type="html"><![CDATA[チーム開発でVueを使っていると、突然$hoge(hogeは任意の文字列)とかいう変数や関数に遭遇することがある。
+中途半端にVueを知っていると、
+「知らない機能だな、$emit()みたいなやつかな？」
+と思ってGoogle検索をするも、何も結果が得られない...
+「じゃあ普通に関数とかかな？」
+と思ってコード内を検索しても、定義箇所が見当たらない...　　
+という状況に陥ることがある。
+かなり困惑したので調べた。
+
+ $hogeとは？
+Vueの場合、$hogeというのはすべてのコンポーネントからアクセスできるデータやメゾッドを示している可能性が高い。
+もしファイル内で宣言もなく、im...]]></summary>
+        <author>
+            <name>Taishi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【React Native】React Navigationで遷移時に受け渡すパラメータに型を設定する方法]]></title>
+        <id>https://zenn.dev/garmi/articles/e761f112d9c48a</id>
+        <link href="https://zenn.dev/garmi/articles/e761f112d9c48a"/>
+        <updated>2021-07-10T07:38:49.000Z</updated>
+        <summary type="html"><![CDATA[JavaScriptで書かれたReact NativeアプリをTypeScriptへ変換しているのですが、その際にReactNavigation（v5）で画面遷移を実装している箇所に型を定義する際に躓いたのでその時の設定方法を載せておきます。
+以下は公式ドキュメントをなぞって実装しています。
+https://reactnavigation.org/docs/typescript/
+
+ Navigator (Router)の設定
+まずは画面を管理しているファイルに型を定義します。（プロジェクトによって異なると思いますが、私の場合はRouter.tsx)
+
+      
+        
+ ...]]></summary>
+        <author>
+            <name>がーみ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テスタブルなReact Componentの書き方]]></title>
+        <id>https://zenn.dev/yuki0410/articles/2ad97915768826</id>
+        <link href="https://zenn.dev/yuki0410/articles/2ad97915768826"/>
+        <updated>2021-07-10T06:35:05.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+最近、JESTとReact Testing Libraryを使ってテストを書く機会が増えてきました。
+最初は愚直にテストを書いていたのですが、以下のような課題が出てきたため、コンポーネント構成を見直してみました。
+
+コンポーネント外のパラメータ(Props や store, API など) と画面表示項目の間に複雑な変換ロジックが入っていてテストを書くのが大変
+UI の変更などによりテストが通らなくなる
+
+
+ Before
+1 コンポーネントの中に表示値への変換ロジックが入っているコンポーネントになります。
+変換部分が複雑化するとテストを書くのがだんだん億劫になってきます。...]]></summary>
+        <author>
+            <name>らんす🍐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【React Native】端末で設定している文字サイズによる影響を制限したい]]></title>
+        <id>https://zenn.dev/garmi/articles/6bdab5527ca325</id>
+        <link href="https://zenn.dev/garmi/articles/6bdab5527ca325"/>
+        <updated>2021-07-10T06:34:13.000Z</updated>
+        <summary type="html"><![CDATA[React Nativeでアプリを開発している際に、スマートフォンの端末で文字サイズを大きく設定している場合に文字サイズによってはレイアウトが崩れてしまうことがありました。一旦文字サイズを端末に影響されないよう固定にしたいと思ったのでそのときの調査メモです。
+
+ 結論
+TextコンポーネントのPropsに以下の項目を設定
+
+      
+        
+        allowFontScaling={false}
+
+
+      
+      
+ コンポーネント共通化
+Expo環境で実装しているので、app.jsonにフォントサイズの固定の設定などはあるか調べてみましたが見当たらな...]]></summary>
+        <author>
+            <name>がーみ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Composition API で @vue/test-utils 使ってみた]]></title>
+        <id>https://zenn.dev/gamin/articles/796f8b643c8401</id>
+        <link href="https://zenn.dev/gamin/articles/796f8b643c8401"/>
+        <updated>2021-07-10T02:21:24.000Z</updated>
+        <summary type="html"><![CDATA[これまでの経緯
+jest で Unit Test 描けるようになった。
+次のステップ行ってみよう。
+「「 Component Test だ！」」
+
+ 環境とか
+
+Jest
+Vue.js Composition API
+
+
+ 環境を整える
+必要なものを import する。
+
+      
+        
+        import { createLocalVue, shallowMount } from '@vue/test-utils'
+import VueCompositionApi from '@vue/composition-api'
+import CalendarTe...]]></summary>
+        <author>
+            <name>gamine🍑</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Composition API で @vue/test-utils 使ってみた]]></title>
+        <id>https://zenn.dev/gamin/articles/796f8b643c8401</id>
+        <link href="https://zenn.dev/gamin/articles/796f8b643c8401"/>
+        <updated>2021-07-10T02:21:24.000Z</updated>
+        <summary type="html"><![CDATA[これまでの経緯
+jest で Unit Test 描けるようになった。
+次のステップ行ってみよう。
+「「 Component Test だ！」」
+
+ 環境とか
+
+Jest
+Vue.js Composition API
+
+
+ 環境を整える
+必要なものを import する。
+
+      
+        
+        import { createLocalVue, shallowMount } from '@vue/test-utils'
+import VueCompositionApi from '@vue/composition-api'
+import CalendarTe...]]></summary>
+        <author>
+            <name>gamine🍑</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[競プロライブラリのスニペット化作業の自動化]]></title>
         <id>https://zenn.dev/kawagh/articles/library2snippets</id>
@@ -2011,50 +2189,6 @@ https://github.com/tayusa/surround.vim
  行...]]></summary>
         <author>
             <name>tayusa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[vim] 重複行の抽出]]></title>
-        <id>https://zenn.dev/rapan931/articles/a5dfdb14ad1a1b</id>
-        <link href="https://zenn.dev/rapan931/articles/a5dfdb14ad1a1b"/>
-        <updated>2021-06-11T10:55:33.000Z</updated>
-        <summary type="html"><![CDATA[ソート済みのテキストから重複行の抽出がしたかったので、vimで対応
-
-      
-        
-        " 重複行は連続で2行まで。
-aa
-bbb
-ccc
-cccc
-dddddddd
-dddddddd
-eeeeeeee
-eeeeeeee
-eeeeeeee.txt
-eeeeeeee.txt
-fff
-fff
-ddd
-↓
-dddddddd
-eeeeeeee
-eeeeeeee.txt
-fff
-
-
-      
-      以下で実施できます。
-
-      
-        
-        :v/\(^.*$\)\n\1$/delete
-
-
-      
-      行っているこ...]]></summary>
-        <author>
-            <name>rapan931</name>
         </author>
     </entry>
 </feed>
