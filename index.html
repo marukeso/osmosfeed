@@ -73,6 +73,214 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-11">2021-07-11</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/din/articles/15d27a4bff3b5c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+なろう形式のタイトルってわかりやすいですね。
+初投稿です。
+Reactの学習のため、Todoアプリを作成しました。
+どうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。
+
+ 環境
+Windows10 64bit(20H2)
+WSL(Ubuntu 18.) v1
+node v14.17.1
+yarn 1.22.5
+VSCode
+
+ 完成図
+こんな感じの簡単なtodoアプリを作ってみました。
+見た目は完全に度外視しています。
+
+
+ install
+まずWSLで下記コマンドを実行して、...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vercelを使わずにNext.jsするのはまだ早かった</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/makumattun/articles/c091602d3060d3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>こちらの記事の続きになります。
+https://zenn.dev/articles/6e260f3a5af117
+
+ serverless-nextjs
+2021年7月11日現在
+https://www.serverless.com/plugins/serverless-nextjs-plugin/
+こちらを使うことによって、Next.jsの10系の機能をAWSにデプロイできると歓喜してそちらをつかいながら実装しておりました。
+
+ ISRを設定したページで503エラーの頻発
+こちらエラーの全文を載せておきます。
+
+      
+        
+        503 ERROR
+The...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/a_da_chi/articles/7ba871c23c5510">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
+https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
+今回はNext.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをするまでの手順を書いていきたい思います。
+
+ 前提
+
+Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること
+Vercelを使用しており、PRごとにPreview環境がデ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【簡単】Next.jsによるSSGの実装</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mo_ri_regen/articles/implement-ssg-article">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.jsではAPIを叩くときにgetStaticPropsを使うことで、ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことができます。ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことをSSGと呼びます。
+TypeScriptを使う場合はgetStaticPropsの型にGetStaticProps[1]を指定します。
+SSG(StaticSiteGeneration)とは
+Static Generationと呼ばれることもあります。
+ビルド時にデータを取得することでpre-renderされるため高速にデータを読むことができます。
+リアル...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Serverless FrameworkとTypeScriptでCQRSを実現する 概要編</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/makumattun/articles/474fbe08a5111c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>CQRS イベントソーシングやってますか？
+なかなかCQRSとイベントソーシングを個人でちゃんとやろうと思うと難しいですよね。
+そして本気でパフォーマンス考えるならスナップショットなども考慮してAkka一択な感じがありますよね。
+でもそれなりのパフォーマンスを実現するのであれば、
+それを実現できるデータベースはいくつかあります。そうDynamoDBもね！
+
+ 参考
+https://zenn.dev/j5ik2o/articles/368e0ab78f105f2a0fae
+https://techblog.zozo.com/entry/zozomat-cqrs
+zozo technol...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/din/articles/15d27a4bff3b5c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+なろう形式のタイトルってわかりやすいですね。
+初投稿です。
+Reactの学習のため、Todoアプリを作成しました。
+どうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。
+
+ 環境
+Windows10 64bit(20H2)
+WSL(Ubuntu 18.) v1
+node v14.17.1
+yarn 1.22.5
+VSCode
+
+ 完成図
+こんな感じの簡単なtodoアプリを作ってみました。
+見た目は完全に度外視しています。
+
+
+ install
+まずWSLで下記コマンドを実行して、...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">テスト駆動開発（TDD）でコードを書く</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/6d1882c2e00d0a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>テスト駆動開発の本を買って少し読みましたが、実際に自分でコードを書いて表現してみたく、TypeScriptとJestでテスト駆動開発を実践します。
+https://www.amazon.co.jp/-/en/Kent-Beck/dp/4274217884/ref&#x3D;sr_1_1?crid&#x3D;29A7GYVAMFT8E&amp;dchild&#x3D;1&amp;keywords&#x3D;テスト駆動開発&amp;language&#x3D;ja_JP&amp;qid&#x3D;1625801931&amp;sprefix&#x3D;テスト駆動%2Caps%2C282&amp;sr&#x3D;8-1
+この記事では簡単なコードをテスト駆動開発の手順に沿っ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vue-clipboard2でクリップボードにコピーを簡単に実現する（laravel×vue.js）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/af1723805deef4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>vue-clipboardを使えば、vue.jsでクリップボードにコピーがめちゃくちゃ簡単に実現することができます！
+
+ VueClipboard2をインストールする
+普通にインストールしていきます
+
+      
+        
+        npm install --save vue-clipboard2
+
+
+      
+      
+ VueClipboard2をインポートする
+
+      
+        
+        import VueClipboard from &#x27;vue-clipboard2&#x27;
+Vue.use(VueClipboard)
+
+
+      
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-10">2021-07-10</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -2830,7 +3038,7 @@ https://github.com/tayusa/surround.vim
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-11T01:09:24.813Z">2021-07-11T01:09:24.813Z</time>
+    <time id="build-timestamp" datetime="2021-07-12T01:02:28.690Z">2021-07-12T01:02:28.690Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

@@ -65,6 +65,62 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/din/articles/15d27a4bff3b5c",
+          "author": "din",
+          "description": "はじめに\nなろう形式のタイトルってわかりやすいですね。\n初投稿です。\nReactの学習のため、Todoアプリを作成しました。\nどうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。\n\n 環境\nWindows10 64bit(20H2)\nWSL(Ubuntu 18.) v1\nnode v14.17.1\nyarn 1.22.5\nVSCode\n\n 完成図\nこんな感じの簡単なtodoアプリを作ってみました。\n見た目は完全に度外視しています。\n\n\n install\nまずWSLで下記コマンドを実行して、...",
+          "link": "https://zenn.dev/din/articles/15d27a4bff3b5c",
+          "publishedOn": "2021-07-11T15:01:45.000Z",
+          "wordCount": 462,
+          "title": "Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--5ysT6Zxi--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:din%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%25E3%2581%25A7todo%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%2520%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589Recoil%2520%252B%2520React%2520Hook%2520Form%2520v7%25E3%2581%25A7%25E6%25A5%25BD%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzcxZDU3OTNkZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/makumattun/articles/c091602d3060d3",
+          "author": "mattun",
+          "description": "こちらの記事の続きになります。\nhttps://zenn.dev/articles/6e260f3a5af117\n\n serverless-nextjs\n2021年7月11日現在\nhttps://www.serverless.com/plugins/serverless-nextjs-plugin/\nこちらを使うことによって、Next.jsの10系の機能をAWSにデプロイできると歓喜してそちらをつかいながら実装しておりました。\n\n ISRを設定したページで503エラーの頻発\nこちらエラーの全文を載せておきます。\n\n      \n        \n        503 ERROR\nThe...",
+          "link": "https://zenn.dev/makumattun/articles/c091602d3060d3",
+          "publishedOn": "2021-07-11T08:10:46.000Z",
+          "wordCount": 148,
+          "title": "Vercelを使わずにNext.jsするのはまだ早かった",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--VhcVs2MA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mattun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vercel%25E3%2582%2592%25E4%25BD%25BF%25E3%2582%258F%25E3%2581%259A%25E3%2581%25ABNext.js%25E3%2581%2599%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AF%25E3%2581%25BE%25E3%2581%25A0%25E6%2597%25A9%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTkzOWQ3MzE0ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/a_da_chi/articles/7ba871c23c5510",
+          "author": "adachi",
+          "description": "はじめに\n※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。\nhttps://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入\n今回はNext.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをするまでの手順を書いていきたい思います。\n\n 前提\n\nNext.jsでsrcディレクトリ配下にアプリケーションコードを配置していること\nVercelを使用しており、PRごとにPreview環境がデ...",
+          "link": "https://zenn.dev/a_da_chi/articles/7ba871c23c5510",
+          "publishedOn": "2021-07-11T07:56:28.000Z",
+          "wordCount": 301,
+          "title": "Next.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Q3wXf_4b--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:adachi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25ABCypress%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2597%25E3%2581%25A6GitHub%2520Actions%25E3%2581%25A7Vercel%25E3%2581%25AEPreview%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25AEE2E%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hvU1F2dTVtTFZ2WUdOVUt1bE5kVE9Gd2Q5Z3VlTFhCaWJ3LTRHS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mo_ri_regen/articles/implement-ssg-article",
+          "author": "モーリー",
+          "description": "Next.jsではAPIを叩くときにgetStaticPropsを使うことで、ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことができます。ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことをSSGと呼びます。\nTypeScriptを使う場合はgetStaticPropsの型にGetStaticProps[1]を指定します。\nSSG(StaticSiteGeneration)とは\nStatic Generationと呼ばれることもあります。\nビルド時にデータを取得することでpre-renderされるため高速にデータを読むことができます。\nリアル...",
+          "link": "https://zenn.dev/mo_ri_regen/articles/implement-ssg-article",
+          "publishedOn": "2021-07-11T02:03:43.000Z",
+          "wordCount": 154,
+          "title": "【簡単】Next.jsによるSSGの実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KQl-hxC---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AA%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E7%25B0%25A1%25E5%258D%2598%25E3%2580%2591Next.js%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258BSSG%25E3%2581%25AE%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h5X0w2OU5jR2tiM3dLVU1LMUUzb3J4b29MMmZWQmEzdFNwV0tNV3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/st43/articles/ff9ac1b0c7d057",
           "author": "蔀",
           "description": "一ヶ月くらいかけて、念願だった個人サイトをつくりました。\nhttps://www.shetommy.com/\nポートフォリオサイト + 個人ブログ + Web技術の実験場的な使い方をするためにつくりました。\nポートフォリオサイトとしての実装は割とすぐできたんですが、ブログ機能が大変でした。\nこの記事ではそこメインで書きたいと思います。\nNotion APIをガチャガチャした詳細は長くなるので、後で記事を書いて、とりあえずこの記事は個人サイト開発のまとめとしてもうちょっと雑多に書いていきます。\n同じようなことをしたい方の参考になれば幸いです。\n\n ソース\n公開しています。\nhttps://...",
@@ -526,6 +582,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/makumattun/articles/474fbe08a5111c",
+          "author": "mattun",
+          "description": "CQRS イベントソーシングやってますか？\nなかなかCQRSとイベントソーシングを個人でちゃんとやろうと思うと難しいですよね。\nそして本気でパフォーマンス考えるならスナップショットなども考慮してAkka一択な感じがありますよね。\nでもそれなりのパフォーマンスを実現するのであれば、\nそれを実現できるデータベースはいくつかあります。そうDynamoDBもね！\n\n 参考\nhttps://zenn.dev/j5ik2o/articles/368e0ab78f105f2a0fae\nhttps://techblog.zozo.com/entry/zozomat-cqrs\nzozo technol...",
+          "link": "https://zenn.dev/makumattun/articles/474fbe08a5111c",
+          "publishedOn": "2021-07-11T15:02:47.000Z",
+          "wordCount": 65,
+          "title": "Serverless FrameworkとTypeScriptでCQRSを実現する 概要編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--O_qWN-JE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mattun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Serverless%2520Framework%25E3%2581%25A8TypeScript%25E3%2581%25A7CQRS%25E3%2582%2592%25E5%25AE%259F%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2520%25E6%25A6%2582%25E8%25A6%2581%25E7%25B7%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTkzOWQ3MzE0ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/din/articles/15d27a4bff3b5c",
+          "author": "din",
+          "description": "はじめに\nなろう形式のタイトルってわかりやすいですね。\n初投稿です。\nReactの学習のため、Todoアプリを作成しました。\nどうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。\n\n 環境\nWindows10 64bit(20H2)\nWSL(Ubuntu 18.) v1\nnode v14.17.1\nyarn 1.22.5\nVSCode\n\n 完成図\nこんな感じの簡単なtodoアプリを作ってみました。\n見た目は完全に度外視しています。\n\n\n install\nまずWSLで下記コマンドを実行して、...",
+          "link": "https://zenn.dev/din/articles/15d27a4bff3b5c",
+          "publishedOn": "2021-07-11T15:01:45.000Z",
+          "wordCount": 462,
+          "title": "Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--5ysT6Zxi--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:din%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%25E3%2581%25A7todo%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%2520%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589Recoil%2520%252B%2520React%2520Hook%2520Form%2520v7%25E3%2581%25A7%25E6%25A5%25BD%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzcxZDU3OTNkZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/6d1882c2e00d0a",
+          "author": "chida",
+          "description": "テスト駆動開発の本を買って少し読みましたが、実際に自分でコードを書いて表現してみたく、TypeScriptとJestでテスト駆動開発を実践します。\nhttps://www.amazon.co.jp/-/en/Kent-Beck/dp/4274217884/ref=sr_1_1?crid=29A7GYVAMFT8E&dchild=1&keywords=テスト駆動開発&language=ja_JP&qid=1625801931&sprefix=テスト駆動%2Caps%2C282&sr=8-1\nこの記事では簡単なコードをテスト駆動開発の手順に沿っ...",
+          "link": "https://zenn.dev/chida/articles/6d1882c2e00d0a",
+          "publishedOn": "2021-07-11T09:59:28.000Z",
+          "wordCount": 338,
+          "title": "テスト駆動開発（TDD）でコードを書く",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--BP88TuIG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25EF%25BC%2588TDD%25EF%25BC%2589%25E3%2581%25A7%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/meijin/articles/vite-react-ts-vanilla-extract-playground",
           "author": "Meijin",
@@ -1142,6 +1240,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/af1723805deef4",
+          "author": "おしうみなおき",
+          "description": "vue-clipboardを使えば、vue.jsでクリップボードにコピーがめちゃくちゃ簡単に実現することができます！\n\n VueClipboard2をインストールする\n普通にインストールしていきます\n\n      \n        \n        npm install --save vue-clipboard2\n\n\n      \n      \n VueClipboard2をインポートする\n\n      \n        \n        import VueClipboard from 'vue-clipboard2'\nVue.use(VueClipboard)\n\n\n      \n ...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/af1723805deef4",
+          "publishedOn": "2021-07-11T23:35:18.000Z",
+          "wordCount": 78,
+          "title": "vue-clipboard2でクリップボードにコピーを簡単に実現する（laravel×vue.js）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZUCRBYkk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:vue-clipboard2%25E3%2581%25A7%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2583%25E3%2583%2597%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AB%25E3%2582%25B3%25E3%2583%2594%25E3%2583%25BC%25E3%2582%2592%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25AB%25E5%25AE%259F%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588laravel%25C3%2597vue.js%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/ymkn8crz/articles/25c7962dd20d54",
           "author": "ymkn8crz",

@@ -2,10 +2,187 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-11T01:09:24.850Z</updated>
+    <updated>2021-07-12T01:02:28.709Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vue-clipboard2でクリップボードにコピーを簡単に実現する（laravel×vue.js）]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/af1723805deef4</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/af1723805deef4"/>
+        <updated>2021-07-11T23:35:18.000Z</updated>
+        <summary type="html"><![CDATA[vue-clipboardを使えば、vue.jsでクリップボードにコピーがめちゃくちゃ簡単に実現することができます！
+
+ VueClipboard2をインストールする
+普通にインストールしていきます
+
+      
+        
+        npm install --save vue-clipboard2
+
+
+      
+      
+ VueClipboard2をインポートする
+
+      
+        
+        import VueClipboard from 'vue-clipboard2'
+Vue.use(VueClipboard)
+
+
+      
+ ...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Serverless FrameworkとTypeScriptでCQRSを実現する 概要編]]></title>
+        <id>https://zenn.dev/makumattun/articles/474fbe08a5111c</id>
+        <link href="https://zenn.dev/makumattun/articles/474fbe08a5111c"/>
+        <updated>2021-07-11T15:02:47.000Z</updated>
+        <summary type="html"><![CDATA[CQRS イベントソーシングやってますか？
+なかなかCQRSとイベントソーシングを個人でちゃんとやろうと思うと難しいですよね。
+そして本気でパフォーマンス考えるならスナップショットなども考慮してAkka一択な感じがありますよね。
+でもそれなりのパフォーマンスを実現するのであれば、
+それを実現できるデータベースはいくつかあります。そうDynamoDBもね！
+
+ 参考
+https://zenn.dev/j5ik2o/articles/368e0ab78f105f2a0fae
+https://techblog.zozo.com/entry/zozomat-cqrs
+zozo technol...]]></summary>
+        <author>
+            <name>mattun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件]]></title>
+        <id>https://zenn.dev/din/articles/15d27a4bff3b5c</id>
+        <link href="https://zenn.dev/din/articles/15d27a4bff3b5c"/>
+        <updated>2021-07-11T15:01:45.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+なろう形式のタイトルってわかりやすいですね。
+初投稿です。
+Reactの学習のため、Todoアプリを作成しました。
+どうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。
+
+ 環境
+Windows10 64bit(20H2)
+WSL(Ubuntu 18.) v1
+node v14.17.1
+yarn 1.22.5
+VSCode
+
+ 完成図
+こんな感じの簡単なtodoアプリを作ってみました。
+見た目は完全に度外視しています。
+
+
+ install
+まずWSLで下記コマンドを実行して、...]]></summary>
+        <author>
+            <name>din</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件]]></title>
+        <id>https://zenn.dev/din/articles/15d27a4bff3b5c</id>
+        <link href="https://zenn.dev/din/articles/15d27a4bff3b5c"/>
+        <updated>2021-07-11T15:01:45.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+なろう形式のタイトルってわかりやすいですね。
+初投稿です。
+Reactの学習のため、Todoアプリを作成しました。
+どうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。
+
+ 環境
+Windows10 64bit(20H2)
+WSL(Ubuntu 18.) v1
+node v14.17.1
+yarn 1.22.5
+VSCode
+
+ 完成図
+こんな感じの簡単なtodoアプリを作ってみました。
+見た目は完全に度外視しています。
+
+
+ install
+まずWSLで下記コマンドを実行して、...]]></summary>
+        <author>
+            <name>din</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テスト駆動開発（TDD）でコードを書く]]></title>
+        <id>https://zenn.dev/chida/articles/6d1882c2e00d0a</id>
+        <link href="https://zenn.dev/chida/articles/6d1882c2e00d0a"/>
+        <updated>2021-07-11T09:59:28.000Z</updated>
+        <summary type="html"><![CDATA[テスト駆動開発の本を買って少し読みましたが、実際に自分でコードを書いて表現してみたく、TypeScriptとJestでテスト駆動開発を実践します。
+https://www.amazon.co.jp/-/en/Kent-Beck/dp/4274217884/ref=sr_1_1?crid=29A7GYVAMFT8E&dchild=1&keywords=テスト駆動開発&language=ja_JP&qid=1625801931&sprefix=テスト駆動%2Caps%2C282&sr=8-1
+この記事では簡単なコードをテスト駆動開発の手順に沿っ...]]></summary>
+        <author>
+            <name>chida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vercelを使わずにNext.jsするのはまだ早かった]]></title>
+        <id>https://zenn.dev/makumattun/articles/c091602d3060d3</id>
+        <link href="https://zenn.dev/makumattun/articles/c091602d3060d3"/>
+        <updated>2021-07-11T08:10:46.000Z</updated>
+        <summary type="html"><![CDATA[こちらの記事の続きになります。
+https://zenn.dev/articles/6e260f3a5af117
+
+ serverless-nextjs
+2021年7月11日現在
+https://www.serverless.com/plugins/serverless-nextjs-plugin/
+こちらを使うことによって、Next.jsの10系の機能をAWSにデプロイできると歓喜してそちらをつかいながら実装しておりました。
+
+ ISRを設定したページで503エラーの頻発
+こちらエラーの全文を載せておきます。
+
+      
+        
+        503 ERROR
+The...]]></summary>
+        <author>
+            <name>mattun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをする]]></title>
+        <id>https://zenn.dev/a_da_chi/articles/7ba871c23c5510</id>
+        <link href="https://zenn.dev/a_da_chi/articles/7ba871c23c5510"/>
+        <updated>2021-07-11T07:56:28.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
+https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
+今回はNext.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをするまでの手順を書いていきたい思います。
+
+ 前提
+
+Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること
+Vercelを使用しており、PRごとにPreview環境がデ...]]></summary>
+        <author>
+            <name>adachi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【簡単】Next.jsによるSSGの実装]]></title>
+        <id>https://zenn.dev/mo_ri_regen/articles/implement-ssg-article</id>
+        <link href="https://zenn.dev/mo_ri_regen/articles/implement-ssg-article"/>
+        <updated>2021-07-11T02:03:43.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsではAPIを叩くときにgetStaticPropsを使うことで、ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことができます。ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことをSSGと呼びます。
+TypeScriptを使う場合はgetStaticPropsの型にGetStaticProps[1]を指定します。
+SSG(StaticSiteGeneration)とは
+Static Generationと呼ばれることもあります。
+ビルド時にデータを取得することでpre-renderされるため高速にデータを読むことができます。
+リアル...]]></summary>
+        <author>
+            <name>モーリー</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【Vue.js】スライドアップダウン・ドロップダウン・アコーディオン]]></title>
         <id>https://zenn.dev/ymkn8crz/articles/25c7962dd20d54</id>
