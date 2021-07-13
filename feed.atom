@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-12T01:02:28.709Z</updated>
+    <updated>2021-07-13T01:05:33.250Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vue3 + Composition API でフォーム操作]]></title>
+        <id>https://zenn.dev/fjsh/articles/aa17332a126162</id>
+        <link href="https://zenn.dev/fjsh/articles/aa17332a126162"/>
+        <updated>2021-07-12T16:21:10.000Z</updated>
+        <summary type="html"><![CDATA[Vue3 を使ってフォーム操作のサンプルを作ります。
+
+ プロジェクトの作成
+
+      
+        
+        $ vue create form-handling
+
+? Please pick a preset: Manually select features
+? Check the features needed for your project: Choose Vue version, TS, Linter
+? Choose a version of Vue.js that you want to start the project with 3.x
+? Use ...]]></summary>
+        <author>
+            <name>Sho Fujimoto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt TypeScript（Composition API）、Django REST Framework で、・・・]]></title>
+        <id>https://zenn.dev/jqinglong/articles/e901ca698f2158</id>
+        <link href="https://zenn.dev/jqinglong/articles/e901ca698f2158"/>
+        <updated>2021-07-12T12:49:03.000Z</updated>
+        <summary type="html"><![CDATA[タイトル長すぎですね。途中で切れました。
+本当は
+
+ Nuxt TypeScript（Composition API）、Django REST Framework で、Docker Compose上での開発基盤を作る
+こいつの続きというか。
+https://zenn.dev/jqinglong/scraps/168d1bb5dd4832
+この悪戦苦闘の結果、まあまあ良い構成ができたと思っており、それを使って、さらにもう一つアプリを作ってます。スッキリいくと思うので、そのスッキリした記録を残そうと思ったのですが、そうは問屋はおろさず・・・それでも、上記よりは落ち着いてできたので、こちらに残...]]></summary>
+        <author>
+            <name>JQinglong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt TypeScript（Composition API）、Django REST Framework で、・・・]]></title>
+        <id>https://zenn.dev/jqinglong/articles/e901ca698f2158</id>
+        <link href="https://zenn.dev/jqinglong/articles/e901ca698f2158"/>
+        <updated>2021-07-12T12:49:03.000Z</updated>
+        <summary type="html"><![CDATA[タイトル長すぎですね。途中で切れました。
+本当は
+
+ Nuxt TypeScript（Composition API）、Django REST Framework で、Docker Compose上での開発基盤を作る
+こいつの続きというか。
+https://zenn.dev/jqinglong/scraps/168d1bb5dd4832
+この悪戦苦闘の結果、まあまあ良い構成ができたと思っており、それを使って、さらにもう一つアプリを作ってます。スッキリいくと思うので、そのスッキリした記録を残そうと思ったのですが、そうは問屋はおろさず・・・それでも、上記よりは落ち着いてできたので、こちらに残...]]></summary>
+        <author>
+            <name>JQinglong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[denopsでPaiza IOのwebAPIを実行するプラグインを作った]]></title>
+        <id>https://zenn.dev/omochice/articles/35e339fdfb5241</id>
+        <link href="https://zenn.dev/omochice/articles/35e339fdfb5241"/>
+        <updated>2021-07-12T03:16:14.000Z</updated>
+        <summary type="html"><![CDATA[denopsでPaiza IOのwebAPIを実行するプラグインを作った
+
+手元に特定の言語の実行環境がなくてもクラウドでコードを実行できるwebAPI(paiza.io)をvim上から実行するプラグインを作った。
+denopsについては以下を参照。
+
+
+ 使い方
+
+ インストール
+私がdein.vimを使ってるのでdeinの例で。
+
+      
+        
+        call dein#add("vim-denops/denops.vim")
+call dein#add("Omochice/dps-paiza-io-vim")
+
+
+      
+      
+ 実行
+...]]></summary>
+        <author>
+            <name>Omochice</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vue-clipboard2でクリップボードにコピーを簡単に実現する（laravel×vue.js）]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/af1723805deef4</id>
@@ -35,6 +118,98 @@ Vue.use(VueClipboard)
  ...]]></summary>
         <author>
             <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AngularでRoutingしてもServiceが再作成されるときの原因]]></title>
+        <id>https://zenn.dev/hashito/articles/f24b066962f58d</id>
+        <link href="https://zenn.dev/hashito/articles/f24b066962f58d"/>
+        <updated>2021-07-11T23:32:45.000Z</updated>
+        <summary type="html"><![CDATA[背景
+AngularでServiceを作成して下記の一文を入れておくとクラスがシングルストン構成となるはずです。
+
+      
+        
+        @Injectable({
+  providedIn: 'root'
+})
+
+
+      
+      シングルストン構成とは、アプリケーション上単一のインスタンスしか持たいない構成で、通常のクラスは複数の実態を持つが、シングルストンなクラスはどこからアクセスしても単一な実態へアクセスすることになります。
+詳しくは下記。
+https://ja.wikipedia.org/wiki/Singleton_パターン
+これで構成...]]></summary>
+        <author>
+            <name>hashito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google App Script 開発 のための Templateリポジトリを作った]]></title>
+        <id>https://zenn.dev/ryo_kawamata/articles/2c6cc4e7c27210</id>
+        <link href="https://zenn.dev/ryo_kawamata/articles/2c6cc4e7c27210"/>
+        <updated>2021-07-11T23:15:22.000Z</updated>
+        <summary type="html"><![CDATA[GAS を書くたびに開発環境構築を調べている気がするので、GAS 開発用の Template リポジトリを作ってみました。
+
+ Templateリポジトリ
+https://github.com/kawamataryo/google-app-script-starter-template
+機能はこちらです。
+
+
+claspによる App Script へのデプロイ
+TypeScript 対応
+Webpack5 でのビルド※
+
+ESLint / prettier でのコード整形
+
+husky / lint-stage でのプレコミットフック
+
+
+Clasp を使えば TypeScrip での...]]></summary>
+        <author>
+            <name>ryo_kawamata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでFind型を作ってみた]]></title>
+        <id>https://zenn.dev/schrosis/articles/ec2e43e2bd72c2</id>
+        <link href="https://zenn.dev/schrosis/articles/ec2e43e2bd72c2"/>
+        <updated>2021-07-11T20:08:43.000Z</updated>
+        <summary type="html"><![CDATA[作ったもの
+以下のテストが通る Find 型
+
+型テストのための Equal ,  Expect は @type-challenges/utils の型
+
+
+      
+        
+        import { Equal, Expect } from '@type-challenges/utils'
+
+type Lang = 'TypeScript'|'PHP'|'Swift'|'Python'
+
+type cases = [
+  // 配列側が確定していて、探す要素が1通りしかないとき
+  // 探していた要素か undefined を明確に返す
+  Expect&l...]]></summary>
+        <author>
+            <name>シュレシス</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[warn(prisma-client) Already 10 Prisma Clients are actively runningの対処]]></title>
+        <id>https://zenn.dev/kanasugi/articles/368d0b39c94daf</id>
+        <link href="https://zenn.dev/kanasugi/articles/368d0b39c94daf"/>
+        <updated>2021-07-11T15:45:42.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+new PrismaClient() を複数回書いてる可能性があるので、
+root直下でlibのようなファイルを作り、そこで、PrsimaClientのインスタンスを１度だけ生成し、そこからimportする形で、PrismaClientのインスタンスを使用すれば解決。
+
+ 概要
+Prismaを使用している時、
+warn(prisma-client) Already 10 Prisma Clients are actively runningというメッセージがコンソールに表示されることがある。
+本番Build時にこの箇所が原因で、DBのコネクション数の制限のエラーになること...]]></summary>
+        <author>
+            <name>Kanasugi</name>
         </author>
     </entry>
     <entry>
