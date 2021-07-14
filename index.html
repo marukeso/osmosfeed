@@ -73,6 +73,171 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-13">2021-07-13</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ViteでReact17以降のJSXトランスフォームに対応する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sykmhmh/articles/086eef9300ac2d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>概要
+Viteで、React17以降のJSXトランスフォームに対応する方法です。
+https://ja.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
+
+ 動機
+React16以前では、JSXを利用するには明示的にReactをインポートする必要がありましたが、React 17以降は新しいトランスフォームの方法が提供され(現在は16以前のバージョンでも提供されています)、babelやtsconfigの設定を変更することで明示的にReactをインポートせずともJSXが利用できるようになりました。
+しかし...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vueでドラムロールを実装する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/syuri/articles/ea7117bfb35a09">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>ドラムロールとは・・・
+数字がじゃかじゃか回るやつです。
+今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)
+
+
+ 目次
+最初に考えた方法
+もうちょっと賢い方法
+最終型を見たい方はもうちょっと賢い方法から見てください。
+
+ 最初に考えた方法
+まずはコードから。
+
+      
+        
+        
+0
+
+
+      
+   ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">apollo graphqlアプリのUIテスト</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>apollo graphqlを使ったUIテストのセットアップをしてみました。
+備忘録で残します。
+テストはreact-tesing-liblaryで行います。
+以下、テスト対象のアプリです。
+https://github.com/kupuma-ru21/apollo_relay_style_cursor_pagination
+(以前、書いた記事にテスト対象のアプリの作成方法を記載してます。読まなくてもできるように進めたいと思います。)
+https://zenn.dev/kupuma_ru21/articles/f56148ffcac7b0
+
+
+ 前提
+まず、普通にreact-tesing...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vueでドラムロールを実装する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/syuri/articles/ea7117bfb35a09">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>ドラムロールとは・・・
+数字がじゃかじゃか回るやつです。
+今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)
+
+
+ 目次
+最初に考えた方法
+もうちょっと賢い方法
+最終型を見たい方はもうちょっと賢い方法から見てください。
+
+ 最初に考えた方法
+まずはコードから。
+
+      
+        
+        
+0
+
+
+      
+   ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ViteをNuxtで試した</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kai/articles/try-nuxt-vite">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>最近話題となっている Vite を Nuxt で試してみました。
+Vite とは簡単に言ってしまうと、速い、フロントエンドのビルドツールです。
+調べてみると、Nuxt Vite というのがあるんですね。
+そちらで試したことを書いていきます。
+
+ Nuxt に Vite を導入する
+
+ Nuxt のプロジェクトを作成
+
+      
+        
+        $ yarn create nuxt-app vite-nuxt
+
+
+      
+      vite-nuxtのところは任意の名前で大丈夫です。
+Vite を試したいだけなので、とりあえず最小限の構成にしました。
+targ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">１００万円失いながらハッキングを乗り越え誰でも１分で切り抜きを作れるサービスを公開するまでの失敗と学び</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kendai/articles/b6a3467eafb7db">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>先日、誰でも最短1分でYouTubeの切り抜きを作れるウェブサービスを公開しました。
+私はプログラミングの勉強を始めて1年半の初学者ですが、個人開発でサービスを公開するまでに、数多くの失敗と苦労をしてきました(そして今もしてます笑)。後ほど詳しく書きますが、以下のような経験をしました。
+
+ハッキングを受けデータを盗まれる
+α版をリリースするも作り直しを決意する
+巻き返しのため海外フリーランサーを雇うも無駄金となる
+公開前に本家が同じ機能を発表し諦めかける
+β版をリリースするも使われない
+
+同じようにプログラミングの勉強をし始めたばかりの方や、個人開発でいつかはサービスを公開したいと考えて...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-12">2021-07-12</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -102,6 +267,33 @@ https://zenn.dev/jqinglong/scraps/168d1bb5dd4832
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">JestでModuleNameMapperを使うとVSCodeくんがモジュール参照してくれない時～～</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>悲しい時～～～～～悲し以下略
+Jestには ModuleNameMapper なる、テスト対象のオブジェクトを import してくる際にパス名を特定の prefix で代用する機能があります。
+例えば、以下のようなディレクトリ構成のプロジェクトであると仮定します。
+
+      
+        
+        $ tree  -L 1
+.
+├── LICENSE
+├── README.md
+├── dist
+├── jest.config.js
+├── node_modules
+├── package.json
+├── src
+├── tests
+├── tsconfig.json...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Nuxt TypeScript（Composition API）、Django REST Framework で、・・・</summary>
@@ -3215,42 +3407,9 @@ vimのモード切替＋IMEの切り替え が、とにかく面倒です。
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-13">2021-06-13</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">denops.vimを使って引用符と括弧を操作するVimのプラグインを書いた</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tayusa/articles/58d1c20172f662">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>はじめに
-かねてから、Denoを触ってみたいけど肝心の作るものがないなと思っていました。
-そんな矢先にたまたまdenops.vimとの邂逅を果たしたので、昔作ったプラグインを書き直してみました。
-denops.vimについては
-https://github.com/vim-denops/denops.vim
-https://zenn.dev/lambdalisue/articles/b4a31fba0b1ce95104c9
-
- 作ったもの
-https://github.com/tayusa/surround.vim
-題目のとおり、引用符と括弧を操作するvimのプラグインです。
-
- 行...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-13T01:05:33.212Z">2021-07-13T01:05:33.212Z</time>
+    <time id="build-timestamp" datetime="2021-07-14T01:00:13.180Z">2021-07-14T01:00:13.180Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

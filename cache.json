@@ -597,6 +597,62 @@
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
         {
+          "id": "https://zenn.dev/sykmhmh/articles/086eef9300ac2d",
+          "author": "sykmhmh",
+          "description": "概要\nViteで、React17以降のJSXトランスフォームに対応する方法です。\nhttps://ja.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html\n\n 動機\nReact16以前では、JSXを利用するには明示的にReactをインポートする必要がありましたが、React 17以降は新しいトランスフォームの方法が提供され(現在は16以前のバージョンでも提供されています)、babelやtsconfigの設定を変更することで明示的にReactをインポートせずともJSXが利用できるようになりました。\nしかし...",
+          "link": "https://zenn.dev/sykmhmh/articles/086eef9300ac2d",
+          "publishedOn": "2021-07-13T14:13:21.000Z",
+          "wordCount": 55,
+          "title": "ViteでReact17以降のJSXトランスフォームに対応する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--MHxN-etN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sykmhmh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vite%25E3%2581%25A7React17%25E4%25BB%25A5%25E9%2599%258D%25E3%2581%25AEJSX%25E3%2583%2588%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AB%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTAxZTBjZDM5OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
+          "author": "syuri",
+          "description": "ドラムロールとは・・・\n数字がじゃかじゃか回るやつです。\n今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)\n\n\n 目次\n最初に考えた方法\nもうちょっと賢い方法\n最終型を見たい方はもうちょっと賢い方法から見てください。\n\n 最初に考えた方法\nまずはコードから。\n\n      \n        \n        <div data-destination=\"2000\"　class=\"number\">0</div>\n\n\n      \n   ...",
+          "link": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
+          "publishedOn": "2021-07-13T13:58:19.000Z",
+          "wordCount": 626,
+          "title": "Vueでドラムロールを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZEgqWODG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:syuri%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue%25E3%2581%25A7%25E3%2583%2589%25E3%2583%25A9%25E3%2583%25A0%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102",
+          "author": "くぷまーる",
+          "description": "apollo graphqlを使ったUIテストのセットアップをしてみました。\n備忘録で残します。\nテストはreact-tesing-liblaryで行います。\n以下、テスト対象のアプリです。\nhttps://github.com/kupuma-ru21/apollo_relay_style_cursor_pagination\n(以前、書いた記事にテスト対象のアプリの作成方法を記載してます。読まなくてもできるように進めたいと思います。)\nhttps://zenn.dev/kupuma_ru21/articles/f56148ffcac7b0\n\n\n 前提\nまず、普通にreact-tesing...",
+          "link": "https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102",
+          "publishedOn": "2021-07-13T13:14:30.000Z",
+          "wordCount": 352,
+          "title": "apollo graphqlアプリのUIテスト",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Sn0THC1Y--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258F%25E3%2581%25B7%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:apollo%2520graphql%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AEUI%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjFkZGYxMjM1My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode",
+          "author": "Haru_Yakumo",
+          "description": "悲しい時～～～～～悲し以下略\nJestには ModuleNameMapper なる、テスト対象のオブジェクトを import してくる際にパス名を特定の prefix で代用する機能があります。\n例えば、以下のようなディレクトリ構成のプロジェクトであると仮定します。\n\n      \n        \n        $ tree  -L 1\n.\n├── LICENSE\n├── README.md\n├── dist\n├── jest.config.js\n├── node_modules\n├── package.json\n├── src\n├── tests\n├── tsconfig.json...",
+          "link": "https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode",
+          "publishedOn": "2021-07-12T18:13:43.000Z",
+          "wordCount": 229,
+          "title": "JestでModuleNameMapperを使うとVSCodeくんがモジュール参照してくれない時～～",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--3M_W_Pp6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Haru_Yakumo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Jest%25E3%2581%25A7ModuleNameMapper%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25A8VSCode%25E3%2581%258F%25E3%2582%2593%25E3%2581%258C%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E5%258F%2582%25E7%2585%25A7%25E3%2581%2597%25E3%2581%25A6%25E3%2581%258F%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E6%2599%2582%25EF%25BD%259E%25EF%25BD%259E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDRUNJM2xDR3ZjNWNrYWN6QVFIcm5QeTZTS2VsX3lZOFNKM05jMVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/jqinglong/articles/e901ca698f2158",
           "author": "JQinglong",
           "description": "タイトル長すぎですね。途中で切れました。\n本当は\n\n Nuxt TypeScript（Composition API）、Django REST Framework で、Docker Compose上での開発基盤を作る\nこいつの続きというか。\nhttps://zenn.dev/jqinglong/scraps/168d1bb5dd4832\nこの悪戦苦闘の結果、まあまあ良い構成ができたと思っており、それを使って、さらにもう一つアプリを作ってます。スッキリいくと思うので、そのスッキリした記録を残そうと思ったのですが、そうは問屋はおろさず・・・それでも、上記よりは落ち着いてできたので、こちらに残...",
@@ -1316,20 +1372,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/tayusa/articles/58d1c20172f662",
-          "author": "tayusa",
-          "description": "はじめに\nかねてから、Denoを触ってみたいけど肝心の作るものがないなと思っていました。\nそんな矢先にたまたまdenops.vimとの邂逅を果たしたので、昔作ったプラグインを書き直してみました。\ndenops.vimについては\nhttps://github.com/vim-denops/denops.vim\nhttps://zenn.dev/lambdalisue/articles/b4a31fba0b1ce95104c9\n\n 作ったもの\nhttps://github.com/tayusa/surround.vim\n題目のとおり、引用符と括弧を操作するvimのプラグインです。\n\n 行...",
-          "link": "https://zenn.dev/tayusa/articles/58d1c20172f662",
-          "publishedOn": "2021-06-13T15:41:53.000Z",
-          "wordCount": 25,
-          "title": "denops.vimを使って引用符と括弧を操作するVimのプラグインを書いた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--s3MKIPN8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tayusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:denops.vim%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E5%25BC%2595%25E7%2594%25A8%25E7%25AC%25A6%25E3%2581%25A8%25E6%258B%25AC%25E5%25BC%25A7%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258BVim%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzhiYTFjMjg4Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1338,6 +1380,48 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
+          "author": "syuri",
+          "description": "ドラムロールとは・・・\n数字がじゃかじゃか回るやつです。\n今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)\n\n\n 目次\n最初に考えた方法\nもうちょっと賢い方法\n最終型を見たい方はもうちょっと賢い方法から見てください。\n\n 最初に考えた方法\nまずはコードから。\n\n      \n        \n        <div data-destination=\"2000\"　class=\"number\">0</div>\n\n\n      \n   ...",
+          "link": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
+          "publishedOn": "2021-07-13T13:58:19.000Z",
+          "wordCount": 626,
+          "title": "Vueでドラムロールを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZEgqWODG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:syuri%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue%25E3%2581%25A7%25E3%2583%2589%25E3%2583%25A9%25E3%2583%25A0%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kai/articles/try-nuxt-vite",
+          "author": "カイ",
+          "description": "最近話題となっている Vite を Nuxt で試してみました。\nVite とは簡単に言ってしまうと、速い、フロントエンドのビルドツールです。\n調べてみると、Nuxt Vite というのがあるんですね。\nそちらで試したことを書いていきます。\n\n Nuxt に Vite を導入する\n\n Nuxt のプロジェクトを作成\n\n      \n        \n        $ yarn create nuxt-app vite-nuxt\n\n\n      \n      vite-nuxtのところは任意の名前で大丈夫です。\nVite を試したいだけなので、とりあえず最小限の構成にしました。\ntarg...",
+          "link": "https://zenn.dev/kai/articles/try-nuxt-vite",
+          "publishedOn": "2021-07-13T13:36:11.000Z",
+          "wordCount": 111,
+          "title": "ViteをNuxtで試した",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--gLF2MdI9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25AB%25E3%2582%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vite%25E3%2582%2592Nuxt%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTllM2UwYWYxOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kendai/articles/b6a3467eafb7db",
+          "author": "Kendai",
+          "description": "先日、誰でも最短1分でYouTubeの切り抜きを作れるウェブサービスを公開しました。\n私はプログラミングの勉強を始めて1年半の初学者ですが、個人開発でサービスを公開するまでに、数多くの失敗と苦労をしてきました(そして今もしてます笑)。後ほど詳しく書きますが、以下のような経験をしました。\n\nハッキングを受けデータを盗まれる\nα版をリリースするも作り直しを決意する\n巻き返しのため海外フリーランサーを雇うも無駄金となる\n公開前に本家が同じ機能を発表し諦めかける\nβ版をリリースするも使われない\n\n同じようにプログラミングの勉強をし始めたばかりの方や、個人開発でいつかはサービスを公開したいと考えて...",
+          "link": "https://zenn.dev/kendai/articles/b6a3467eafb7db",
+          "publishedOn": "2021-07-13T03:19:32.000Z",
+          "wordCount": 133,
+          "title": "１００万円失いながらハッキングを乗り越え誰でも１分で切り抜きを作れるサービスを公開するまでの失敗と学び",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--GOZbN5Zh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kendai%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25EF%25BC%2591%25EF%25BC%2590%25EF%25BC%2590%25E4%25B8%2587%25E5%2586%2586%25E5%25A4%25B1%25E3%2581%2584%25E3%2581%25AA%25E3%2581%258C%25E3%2582%2589%25E3%2583%258F%25E3%2583%2583%25E3%2582%25AD%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%2592%25E4%25B9%2597%25E3%2582%258A%25E8%25B6%258A%25E3%2581%2588%25E8%25AA%25B0%25E3%2581%25A7%25E3%2582%2582%25EF%25BC%2591%25E5%2588%2586%25E3%2581%25A7%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258C%25E3%2582%258B%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%25E3%2581%25AE%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%25A8%25E5%25AD%25A6%25E3%2581%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjBiOTJmMTEyNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/fjsh/articles/aa17332a126162",
           "author": "Sho Fujimoto",
