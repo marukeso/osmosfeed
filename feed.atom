@@ -2,10 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-14T01:00:13.199Z</updated>
+    <updated>2021-07-15T01:05:01.052Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PHPでもNextしたい]]></title>
+        <id>https://zenn.dev/quocca/articles/36182859d30b22</id>
+        <link href="https://zenn.dev/quocca/articles/36182859d30b22"/>
+        <updated>2021-07-14T13:36:47.000Z</updated>
+        <summary type="html"><![CDATA[したかったので開発しました！
+https://quocca-works.com/accela/
+ドキュメントはサイト内にあるので、この記事ではNext.jsとの対比や簡単なコードで、Accelaの特徴を紹介していきます。実際にどういった動作をするかは当サイトで確認することができ、サイトのデータ自体もダウンロードできるので、サンプルとしてお使いください。
+
+ Next.jsを参考にした機能
+Next.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...]]></summary>
+        <author>
+            <name>quocca</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsの環境を構築する（+TypeScript, Storybook, Hygen）]]></title>
+        <id>https://zenn.dev/nihashi/articles/f532d43bd52e6f</id>
+        <link href="https://zenn.dev/nihashi/articles/f532d43bd52e6f"/>
+        <updated>2021-07-14T11:48:49.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsの導入
+
+      
+        
+        npx create-next-app project-name
+
+
+      
+      typescriptを導入したい場合はオプションに--typescript（もしくは--ts）を追加するか、プロジェクト作成後に必要なファイルの作成およびパッケージのインストールを行います。
+
+      
+         プロジェクト作成時に導入
+        npx create-next-app project-name --typescript
+
+
+      
+      
+      
+        ...]]></summary>
+        <author>
+            <name>nihashi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小規模環境のi18nで、t("Hello","こんにちは")のように日本語をfallbackに入れる運用したら良かった話]]></title>
+        <id>https://zenn.dev/terrierscript/articles/2021-07-13-i18n</id>
+        <link href="https://zenn.dev/terrierscript/articles/2021-07-13-i18n"/>
+        <updated>2021-07-14T10:10:29.000Z</updated>
+        <summary type="html"><![CDATA[Reactアプリケーションをi18nをするにあたって、t("Hello", "こんにちは")のように日本語をfallback値として設定するようにしたらわりと良かったのでまとめる
+
+ 前提
+あくまで今回の話は下記のような前提としている。
+
+小規模で、複雑な多言語化処理を要する部分が少ない
+日本語から他言語への変換である
+多言語化の種類は少なく、多言語化後も日本語が中心。
+組織のコミュニケーションパスが少なく、実装者がUIを変更する事が出来る環境である
+
+
+ 準備
+本題に入る前の前提として、ライブラリと外部サービス選びについて。
+
+ ライブラリ選び
+i18n自体はマッピングさえできれば十分...]]></summary>
+        <author>
+            <name>terrierscript</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno 1.12.0 がリリースされたので新機能や変更点の紹介]]></title>
+        <id>https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0</id>
+        <link href="https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0"/>
+        <updated>2021-07-14T04:30:36.000Z</updated>
+        <summary type="html"><![CDATA[Copyright (c) 2018-2021 the Deno authors. MIT License.
+日本時間の昨日（2021 年 7 月 13 日）に Deno の v1.12.0 がリリースされました。
+https://deno.com/blog/v1.12
+詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。
+
+
+generateKey, sign, verify の3つの Web Crypto API がサポート
+ネイティブ HTTP サーバーでの WebSocket サポート
+REPL における TypeScript のサポ...]]></summary>
+        <author>
+            <name>magurotuna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-07-14のJS: Firefox 90、npm auditの問題、Access Guide]]></title>
+        <id>https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/</id>
+        <link href="https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/"/>
+        <updated>2021-07-14T03:24:13.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #548 - Firefox 90がリリースされました。
+Firefox 90.0, See All New Features, Updates and Fixes
+Firefox 90 for developers - Mozilla | MDN
+Firefox 90ではECMAScript Proposal Stage 4のPrivate class fieldsをデフォルトでサポート、Stage 3のString/Arrayのat()をサポートしています。FTPサポートの削除、WheelEventの互換性を改善なども含まれています。
+また、Chromeでも実装されていたFetch metadata request headersが実装されています。
+Sec-Fetch-Site、Sec-Fetch-Mode、Sec-Fetch-User、Sec-Fetch-Destのリクエストヘッダがそれぞれのリクエストに追加され、サーバ側でのチェックに利用できます。
+Firefox 90 supports Fetch Metadata Request Headers - Mozilla Security Blog
+Protect your resources from web attacks with Fetch Metadata
+Fetch metadata request headersはSafariとIE以外のブラウザで実装されています。
+npm audit: Broken by Design — Overreactedという記事では、create-react-appを例に npm audit で報告される脆弱性の問題について書かれています。
+報告される脆弱性の殆どはReDOSとなっていて、devDependenciesとして扱うツールにおいてはfalse…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Serverless FrameworkとTypeScriptでCQRSを実現する 実装編1]]></title>
+        <id>https://zenn.dev/makumattun/articles/e3e598ff8c6dd3</id>
+        <link href="https://zenn.dev/makumattun/articles/e3e598ff8c6dd3"/>
+        <updated>2021-07-14T01:20:29.000Z</updated>
+        <summary type="html"><![CDATA[こちらの記事の続きです。
+https://zenn.dev/makumattun/articles/474fbe08a5111c
+※この記事ではEventStoreとmain関数の流れまでを紹介します。
+この部分
+
+
+ イベントソーシングでテーブル格納時にやりたいこと
+やりたいこと
+・一つのテーブルにすべてのイベントを格納したい
+・複数のドメインイベントをAcidに登録したい
+・整合性を持たせるために誤って２回登録のイベントが発火されたときは失敗させたい
+ここらへんを満たすようにテーブルの設計をする必要があります。
+
+ DynamoDBのインデックス設計
+ごちゃごちゃ記載するよりも、Ev...]]></summary>
+        <author>
+            <name>mattun</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ViteでReact17以降のJSXトランスフォームに対応する]]></title>
         <id>https://zenn.dev/sykmhmh/articles/086eef9300ac2d</id>
@@ -2633,59 +2763,6 @@ G
 ...]]></summary>
         <author>
             <name>kouhirose</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows と WSL2 の neovim を使ったときの 日本語入力をもうちょっとなんとかしたい]]></title>
-        <id>https://zenn.dev/kaz399/articles/50b5f2fdc2afcf</id>
-        <link href="https://zenn.dev/kaz399/articles/50b5f2fdc2afcf"/>
-        <updated>2021-06-15T11:36:29.000Z</updated>
-        <summary type="html"><![CDATA[vim(neovim)はとても便利で気に入っていますが、日本語入力が不便です。
-vimのモード切替＋IMEの切り替え が、とにかく面倒です。
-日本語入力が必要になるときは別のエディタを使ったりしていますが、それはそれで面倒なので、なんとか改善したいです。
-
- やりたいこと
-個人的には
-
-ノーマルモードに移る時には、IMEがオフになってほしい
-インサートモードに移る時には、直前のインサートモードでのIME状態に戻ってほしい
-
-と思っています。
-ついでに、Windowsのneovimだけでなく日頃の開発環境であるWSL2のneovimでも同様なことをしたいと思っています。
-
- 既存の解決方法...]]></summary>
-        <author>
-            <name>kaz399</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-06-15のJS: React 18 αリリース、Deno 1.11(Docker Images)、Plotly.js 2.0]]></title>
-        <id>https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/</id>
-        <link href="https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/"/>
-        <updated>2021-06-15T00:52:12.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #544 - React 18のα版のリリースとReact 18での変更予定についての記事が公開されています。
-The Plan for React 18 – React Blog
-React 18のα版はライブラリのメンテナー向けで、これにあわせてReactのワーキンググループが作られています。
-Discussions · reactwg/react-18
-React 18の変更は基本的に ReactDOM.createRootという新しいAPIを使った場合のopt-in方式となっています。
-全体的な概要は次のスレッドにまとめられています。
- Introducing React 18 · Discussion #4 · reactwg/react-18
-それぞれの変更のサマリは次のようになっています。
-Replacing render with createRoot · Discussion #5 · reactwg/react-18
-
-
-ReactDOM.renderの代わりとなるReact.createRoot というRoot(Container)を作るためのAPIが追加された
-Legacy renderのAPIは互換性のために維持される
-React 18の機能変更や機能追加は、基本的にこの新しいReact.createRoot 以下のTreeに適応される
-
-Automatic batching for fewer renders in React 18 · Discussion #21 · reactwg/react-18
-
-
-stateの変更が自動的にbatch処理(グループ化)して、レンダリングがまとめられる
-以前あったunstable_batchedUpdatesに相当する処理
-意図的にそれぞれの変更でレンダリングする方法としてReactD…]]></summary>
-        <author>
-            <name>JSer.info</name>
         </author>
     </entry>
 </feed>

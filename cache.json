@@ -22,6 +22,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/",
+          "author": null,
+          "description": "JSer.info #548 - Firefox 90がリリースされました。\nFirefox 90.0, See All New Features, Updates and Fixes\nFirefox 90 for developers - Mozilla | MDN\nFirefox 90ではECMAScript Proposal Stage 4のPrivate class fieldsをデフォルトでサポート、Stage 3のString/Arrayのat()をサポートしています。FTPサポートの削除、WheelEventの互換性を改善なども含まれています。\nまた、Chromeでも実装されていたFetch metadata request headersが実装されています。\nSec-Fetch-Site、Sec-Fetch-Mode、Sec-Fetch-User、Sec-Fetch-Destのリクエストヘッダがそれぞれのリクエストに追加され、サーバ側でのチェックに利用できます。\nFirefox 90 supports Fetch Metadata Request Headers - Mozilla Security Blog\nProtect your resources from web attacks with Fetch Metadata\nFetch metadata request headersはSafariとIE以外のブラウザで実装されています。\nnpm audit: Broken by Design — Overreactedという記事では、create-react-appを例に npm audit で報告される脆弱性の問題について書かれています。\n報告される脆弱性の殆どはReDOSとなっていて、devDependenciesとして扱うツールにおいてはfalse…",
+          "link": "https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/",
+          "publishedOn": "2021-07-14T03:24:13.000Z",
+          "wordCount": 480,
+          "title": "2021-07-14のJS: Firefox 90、npm auditの問題、Access Guide"
+        },
+        {
           "id": "https://jser.info/2021/07/06/typescript-4.4-beta-immutable-js-4.0.0-rc.13-petite-vue/",
           "author": null,
           "description": "JSer.info #547 - TypeScript 4.4 betaがリリースされました。\nAnnouncing TypeScript 4.4 Beta | TypeScript\nControl Flow Analysisの改善され、Type Gurdeの結果を変数に入れてから扱うようなAliasのケースも正しく推論されるようになっています。\nunknown型にするuseUnknownInCatchVariablesオプションの追加と\nundefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。\nその他には、declarationの生成やstrictモードでのビルドパフォーマンスの改善も含まれています。\nimmutable-js 4.0.0-rc.13がリリースされています。\nRelease 4.0.0-rc.13 · immutable-js/immutable-js\nimmutable-jsはv4.0.0-rc.12でメンテナンスが停止して、immutable-oss organiztionにてforkとしてメンテナンスがされていました。\n今回のリリースでは、immutable-js organizationにimmutable-ossのメンテナが追加され、immutable-ossの変更内容もimmutable-js 4.0.0-rc.13へとマージされています。\nimmutable-jsとしてメンテナンスを再開するリリースとなっています。\nImmutable.js is essentially unmaintained · Issue #1689 · immutable-js/immutable-js\nIntegrate immutable-js-oss fork into main repository b…",
@@ -47,15 +56,6 @@
           "publishedOn": "2021-06-22T00:30:43.000Z",
           "wordCount": 561,
           "title": "2021-06-22のJS: undici 4.0.0(HTTPクライアント)、Next.js 11、Safari 15 Beta"
-        },
-        {
-          "id": "https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/",
-          "author": null,
-          "description": "JSer.info #544 - React 18のα版のリリースとReact 18での変更予定についての記事が公開されています。\nThe Plan for React 18 – React Blog\nReact 18のα版はライブラリのメンテナー向けで、これにあわせてReactのワーキンググループが作られています。\nDiscussions · reactwg/react-18\nReact 18の変更は基本的に ReactDOM.createRootという新しいAPIを使った場合のopt-in方式となっています。\n全体的な概要は次のスレッドにまとめられています。\n Introducing React 18 · Discussion #4 · reactwg/react-18\nそれぞれの変更のサマリは次のようになっています。\nReplacing render with createRoot · Discussion #5 · reactwg/react-18\n\n\nReactDOM.renderの代わりとなるReact.createRoot というRoot(Container)を作るためのAPIが追加された\nLegacy renderのAPIは互換性のために維持される\nReact 18の機能変更や機能追加は、基本的にこの新しいReact.createRoot 以下のTreeに適応される\n\nAutomatic batching for fewer renders in React 18 · Discussion #21 · reactwg/react-18\n\n\nstateの変更が自動的にbatch処理(グループ化)して、レンダリングがまとめられる\n以前あったunstable_batchedUpdatesに相当する処理\n意図的にそれぞれの変更でレンダリングする方法としてReactD…",
-          "link": "https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/",
-          "publishedOn": "2021-06-15T00:52:12.000Z",
-          "wordCount": 600,
-          "title": "2021-06-15のJS: React 18 αリリース、Deno 1.11(Docker Images)、Plotly.js 2.0"
         }
       ]
     },
@@ -64,6 +64,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/quocca/articles/36182859d30b22",
+          "author": "quocca",
+          "description": "したかったので開発しました！\nhttps://quocca-works.com/accela/\nドキュメントはサイト内にあるので、この記事ではNext.jsとの対比や簡単なコードで、Accelaの特徴を紹介していきます。実際にどういった動作をするかは当サイトで確認することができ、サイトのデータ自体もダウンロードできるので、サンプルとしてお使いください。\n\n Next.jsを参考にした機能\nNext.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...",
+          "link": "https://zenn.dev/quocca/articles/36182859d30b22",
+          "publishedOn": "2021-07-14T13:36:47.000Z",
+          "wordCount": 144,
+          "title": "PHPでもNextしたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--J0Ldggk3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:quocca%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:PHP%25E3%2581%25A7%25E3%2582%2582Next%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjZmODA0YjU1Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nihashi/articles/f532d43bd52e6f",
+          "author": "nihashi",
+          "description": "Next.jsの導入\n\n      \n        \n        npx create-next-app project-name\n\n\n      \n      typescriptを導入したい場合はオプションに--typescript（もしくは--ts）を追加するか、プロジェクト作成後に必要なファイルの作成およびパッケージのインストールを行います。\n\n      \n         プロジェクト作成時に導入\n        npx create-next-app project-name --typescript\n\n\n      \n      \n      \n        ...",
+          "link": "https://zenn.dev/nihashi/articles/f532d43bd52e6f",
+          "publishedOn": "2021-07-14T11:48:49.000Z",
+          "wordCount": 588,
+          "title": "Next.jsの環境を構築する（+TypeScript, Storybook, Hygen）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--xeTR771G--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nihashi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588%252BTypeScript%252C%2520Storybook%252C%2520Hygen%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzczMzgyM2EwYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/din/articles/15d27a4bff3b5c",
           "author": "din",
@@ -596,6 +624,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/terrierscript/articles/2021-07-13-i18n",
+          "author": "terrierscript",
+          "description": "Reactアプリケーションをi18nをするにあたって、t(\"Hello\", \"こんにちは\")のように日本語をfallback値として設定するようにしたらわりと良かったのでまとめる\n\n 前提\nあくまで今回の話は下記のような前提としている。\n\n小規模で、複雑な多言語化処理を要する部分が少ない\n日本語から他言語への変換である\n多言語化の種類は少なく、多言語化後も日本語が中心。\n組織のコミュニケーションパスが少なく、実装者がUIを変更する事が出来る環境である\n\n\n 準備\n本題に入る前の前提として、ライブラリと外部サービス選びについて。\n\n ライブラリ選び\ni18n自体はマッピングさえできれば十分...",
+          "link": "https://zenn.dev/terrierscript/articles/2021-07-13-i18n",
+          "publishedOn": "2021-07-14T10:10:29.000Z",
+          "wordCount": 363,
+          "title": "小規模環境のi18nで、t(\"Hello\",\"こんにちは\")のように日本語をfallbackに入れる運用したら良かった話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--jFMxq2rh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:terrierscript%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E5%25B0%258F%25E8%25A6%258F%25E6%25A8%25A1%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25AEi18n%25E3%2581%25A7%25E3%2580%2581t%2528%2522Hello%2522%252C%2522%25E3%2581%2593%25E3%2582%2593%25E3%2581%25AB%25E3%2581%25A1%25E3%2581%25AF%2522%2529%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%2592fallback%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E8%2589%25AF%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTQwYmE4ZjQ3ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0",
+          "author": "magurotuna",
+          "description": "Copyright (c) 2018-2021 the Deno authors. MIT License.\n日本時間の昨日（2021 年 7 月 13 日）に Deno の v1.12.0 がリリースされました。\nhttps://deno.com/blog/v1.12\n詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。\n\n\ngenerateKey, sign, verify の3つの Web Crypto API がサポート\nネイティブ HTTP サーバーでの WebSocket サポート\nREPL における TypeScript のサポ...",
+          "link": "https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0",
+          "publishedOn": "2021-07-14T04:30:36.000Z",
+          "wordCount": 1065,
+          "title": "Deno 1.12.0 がリリースされたので新機能や変更点の紹介",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--1058S3yy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:magurotuna%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25201.12.0%2520%25E3%2581%258C%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2584%25E5%25A4%2589%25E6%259B%25B4%25E7%2582%25B9%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dNUGF0cWN1MUh1d1dEcG5uVzRETFVxZlI5aDlOM1NFc3FmaWdYZkE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/makumattun/articles/e3e598ff8c6dd3",
+          "author": "mattun",
+          "description": "こちらの記事の続きです。\nhttps://zenn.dev/makumattun/articles/474fbe08a5111c\n※この記事ではEventStoreとmain関数の流れまでを紹介します。\nこの部分\n\n\n イベントソーシングでテーブル格納時にやりたいこと\nやりたいこと\n・一つのテーブルにすべてのイベントを格納したい\n・複数のドメインイベントをAcidに登録したい\n・整合性を持たせるために誤って２回登録のイベントが発火されたときは失敗させたい\nここらへんを満たすようにテーブルの設計をする必要があります。\n\n DynamoDBのインデックス設計\nごちゃごちゃ記載するよりも、Ev...",
+          "link": "https://zenn.dev/makumattun/articles/e3e598ff8c6dd3",
+          "publishedOn": "2021-07-14T01:20:29.000Z",
+          "wordCount": 334,
+          "title": "Serverless FrameworkとTypeScriptでCQRSを実現する 実装編1",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--nnaTDmGm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mattun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Serverless%2520Framework%25E3%2581%25A8TypeScript%25E3%2581%25A7CQRS%25E3%2582%2592%25E5%25AE%259F%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2520%25E5%25AE%259F%25E8%25A3%2585%25E7%25B7%25A81%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTkzOWQ3MzE0ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sykmhmh/articles/086eef9300ac2d",
           "author": "sykmhmh",
@@ -1355,20 +1425,6 @@
           "title": "vim コマンド",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--xCbfXBeu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kouhirose%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:vim%2520%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTE0MjNmOTI0Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kaz399/articles/50b5f2fdc2afcf",
-          "author": "kaz399",
-          "description": "vim(neovim)はとても便利で気に入っていますが、日本語入力が不便です。\nvimのモード切替＋IMEの切り替え が、とにかく面倒です。\n日本語入力が必要になるときは別のエディタを使ったりしていますが、それはそれで面倒なので、なんとか改善したいです。\n\n やりたいこと\n個人的には\n\nノーマルモードに移る時には、IMEがオフになってほしい\nインサートモードに移る時には、直前のインサートモードでのIME状態に戻ってほしい\n\nと思っています。\nついでに、Windowsのneovimだけでなく日頃の開発環境であるWSL2のneovimでも同様なことをしたいと思っています。\n\n 既存の解決方法...",
-          "link": "https://zenn.dev/kaz399/articles/50b5f2fdc2afcf",
-          "publishedOn": "2021-06-15T11:36:29.000Z",
-          "wordCount": 54,
-          "title": "Windows と WSL2 の neovim を使ったときの 日本語入力をもうちょっとなんとかしたい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Yv6x0Ni8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kaz399%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Windows%2520%25E3%2581%25A8%2520WSL2%2520%25E3%2581%25AE%2520neovim%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%2520%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E5%2585%25A5%25E5%258A%259B%25E3%2582%2592%25E3%2582%2582%25E3%2581%2586%25E3%2581%25A1%25E3%2582%2587%25E3%2581%25A3%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%2593%25E3%2581%25A8%25E3%2581%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjJlOWU3YTIxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

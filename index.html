@@ -73,6 +73,165 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-14">2021-07-14</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021-07-14のJS: Firefox 90、npm auditの問題、Access Guide</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>JSer.info #548 - Firefox 90がリリースされました。
+Firefox 90.0, See All New Features, Updates and Fixes
+Firefox 90 for developers - Mozilla | MDN
+Firefox 90ではECMAScript Proposal Stage 4のPrivate class fieldsをデフォルトでサポート、Stage 3のString/Arrayのat()をサポートしています。FTPサポートの削除、WheelEventの互換性を改善なども含まれています。
+また、Chromeでも実装されていたFetch metadata request headersが実装されています。
+Sec-Fetch-Site、Sec-Fetch-Mode、Sec-Fetch-User、Sec-Fetch-Destのリクエストヘッダがそれぞれのリクエストに追加され、サーバ側でのチェックに利用できます。
+Firefox 90 supports Fetch Metadata Request Headers - Mozilla Security Blog
+Protect your resources from web attacks with Fetch Metadata
+Fetch metadata request headersはSafariとIE以外のブラウザで実装されています。
+npm audit: Broken by Design — Overreactedという記事では、create-react-appを例に npm audit で報告される脆弱性の問題について書かれています。
+報告される脆弱性の殆どはReDOSとなっていて、devDependenciesとして扱うツールにおいてはfalse…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">PHPでもNextしたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/quocca/articles/36182859d30b22">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>したかったので開発しました！
+https://quocca-works.com/accela/
+ドキュメントはサイト内にあるので、この記事ではNext.jsとの対比や簡単なコードで、Accelaの特徴を紹介していきます。実際にどういった動作をするかは当サイトで確認することができ、サイトのデータ自体もダウンロードできるので、サンプルとしてお使いください。
+
+ Next.jsを参考にした機能
+Next.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsの環境を構築する（+TypeScript, Storybook, Hygen）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nihashi/articles/f532d43bd52e6f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Next.jsの導入
+
+      
+        
+        npx create-next-app project-name
+
+
+      
+      typescriptを導入したい場合はオプションに--typescript（もしくは--ts）を追加するか、プロジェクト作成後に必要なファイルの作成およびパッケージのインストールを行います。
+
+      
+         プロジェクト作成時に導入
+        npx create-next-app project-name --typescript
+
+
+      
+      
+      
+        ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">小規模環境のi18nで、t(&quot;Hello&quot;,&quot;こんにちは&quot;)のように日本語をfallbackに入れる運用したら良かった話</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/terrierscript/articles/2021-07-13-i18n">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Reactアプリケーションをi18nをするにあたって、t(&quot;Hello&quot;, &quot;こんにちは&quot;)のように日本語をfallback値として設定するようにしたらわりと良かったのでまとめる
+
+ 前提
+あくまで今回の話は下記のような前提としている。
+
+小規模で、複雑な多言語化処理を要する部分が少ない
+日本語から他言語への変換である
+多言語化の種類は少なく、多言語化後も日本語が中心。
+組織のコミュニケーションパスが少なく、実装者がUIを変更する事が出来る環境である
+
+
+ 準備
+本題に入る前の前提として、ライブラリと外部サービス選びについて。
+
+ ライブラリ選び
+i18n自体はマッピングさえできれば十分...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Deno 1.12.0 がリリースされたので新機能や変更点の紹介</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Copyright (c) 2018-2021 the Deno authors. MIT License.
+日本時間の昨日（2021 年 7 月 13 日）に Deno の v1.12.0 がリリースされました。
+https://deno.com/blog/v1.12
+詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。
+
+
+generateKey, sign, verify の3つの Web Crypto API がサポート
+ネイティブ HTTP サーバーでの WebSocket サポート
+REPL における TypeScript のサポ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Serverless FrameworkとTypeScriptでCQRSを実現する 実装編1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/makumattun/articles/e3e598ff8c6dd3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こちらの記事の続きです。
+https://zenn.dev/makumattun/articles/474fbe08a5111c
+※この記事ではEventStoreとmain関数の流れまでを紹介します。
+この部分
+
+
+ イベントソーシングでテーブル格納時にやりたいこと
+やりたいこと
+・一つのテーブルにすべてのイベントを格納したい
+・複数のドメインイベントをAcidに登録したい
+・整合性を持たせるために誤って２回登録のイベントが発火されたときは失敗させたい
+ここらへんを満たすようにテーブルの設計をする必要があります。
+
+ DynamoDBのインデックス設計
+ごちゃごちゃ記載するよりも、Ev...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-13">2021-07-13</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -3335,81 +3494,9 @@ G
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-15">2021-06-15</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-06-15のJS: React 18 αリリース、Deno 1.11(Docker Images)、Plotly.js 2.0</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/06/15/react-18-a-deno-1.11docker-images-plotly.js-2.0/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>JSer.info #544 - React 18のα版のリリースとReact 18での変更予定についての記事が公開されています。
-The Plan for React 18 – React Blog
-React 18のα版はライブラリのメンテナー向けで、これにあわせてReactのワーキンググループが作られています。
-Discussions · reactwg/react-18
-React 18の変更は基本的に ReactDOM.createRootという新しいAPIを使った場合のopt-in方式となっています。
-全体的な概要は次のスレッドにまとめられています。
- Introducing React 18 · Discussion #4 · reactwg/react-18
-それぞれの変更のサマリは次のようになっています。
-Replacing render with createRoot · Discussion #5 · reactwg/react-18
-
-
-ReactDOM.renderの代わりとなるReact.createRoot というRoot(Container)を作るためのAPIが追加された
-Legacy renderのAPIは互換性のために維持される
-React 18の機能変更や機能追加は、基本的にこの新しいReact.createRoot 以下のTreeに適応される
-
-Automatic batching for fewer renders in React 18 · Discussion #21 · reactwg/react-18
-
-
-stateの変更が自動的にbatch処理(グループ化)して、レンダリングがまとめられる
-以前あったunstable_batchedUpdatesに相当する処理
-意図的にそれぞれの変更でレンダリングする方法としてReactD…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Windows と WSL2 の neovim を使ったときの 日本語入力をもうちょっとなんとかしたい</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kaz399/articles/50b5f2fdc2afcf">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>vim(neovim)はとても便利で気に入っていますが、日本語入力が不便です。
-vimのモード切替＋IMEの切り替え が、とにかく面倒です。
-日本語入力が必要になるときは別のエディタを使ったりしていますが、それはそれで面倒なので、なんとか改善したいです。
-
- やりたいこと
-個人的には
-
-ノーマルモードに移る時には、IMEがオフになってほしい
-インサートモードに移る時には、直前のインサートモードでのIME状態に戻ってほしい
-
-と思っています。
-ついでに、Windowsのneovimだけでなく日頃の開発環境であるWSL2のneovimでも同様なことをしたいと思っています。
-
- 既存の解決方法...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-14T01:00:13.180Z">2021-07-14T01:00:13.180Z</time>
+    <time id="build-timestamp" datetime="2021-07-15T01:05:01.029Z">2021-07-15T01:05:01.029Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
