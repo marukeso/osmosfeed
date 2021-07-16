@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-15T01:05:01.052Z</updated>
+    <updated>2021-07-16T01:04:54.176Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[neovim+pyls+flake8でテキスト領域に警告内容が表示されないようにする]]></title>
+        <id>https://zenn.dev/hhatto/articles/38cc31b301ede3</id>
+        <link href="https://zenn.dev/hhatto/articles/38cc31b301ede3"/>
+        <updated>2021-07-16T00:16:17.000Z</updated>
+        <summary type="html"><![CDATA['sys' imported but unused はflake8による警告メッセージ
+
+ 結論
+let g:lsp_diagnostics_virtual_text_enabled = 0 の設定にしておく
+
+ 使用環境
+
+neovim(NVIM): v0.5.0
+
+
+ 設定ファイル
+
+      
+        .config/nvim/init.vim
+        call plug#begin('~/.config/nvim/plugged')
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+call...]]></summary>
+        <author>
+            <name>hhatto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした]]></title>
+        <id>https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c</id>
+        <link href="https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c"/>
+        <updated>2021-07-15T13:00:42.000Z</updated>
+        <summary type="html"><![CDATA[ほんと適当ですみません。
+
+ Install
+
+      
+        
+        $ npm install vue-chartjs@2 chart.js@2
+
+
+      
+      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。
+vue-chartjsの導入を忘れないこと。
+
+      
+        
+        $ npm install @nuxtjs/moment
+
+
+      
+      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。
+
+      
+        
+        $ np...]]></summary>
+        <author>
+            <name>博ノ助</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PHPでもNextしたい]]></title>
         <id>https://zenn.dev/quocca/articles/36182859d30b22</id>

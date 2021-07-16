@@ -1262,6 +1262,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/hhatto/articles/38cc31b301ede3",
+          "author": "hhatto",
+          "description": "'sys' imported but unused はflake8による警告メッセージ\n\n 結論\nlet g:lsp_diagnostics_virtual_text_enabled = 0 の設定にしておく\n\n 使用環境\n\nneovim(NVIM): v0.5.0\n\n\n 設定ファイル\n\n      \n        .config/nvim/init.vim\n        call plug#begin('~/.config/nvim/plugged')\nPlug 'prabirshrestha/vim-lsp'\nPlug 'mattn/vim-lsp-settings'\ncall...",
+          "link": "https://zenn.dev/hhatto/articles/38cc31b301ede3",
+          "publishedOn": "2021-07-16T00:16:17.000Z",
+          "wordCount": 71,
+          "title": "neovim+pyls+flake8でテキスト領域に警告内容が表示されないようにする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--s9Wpg_gT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hhatto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:neovim%252Bpyls%252Bflake8%25E3%2581%25A7%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E9%25A0%2598%25E5%259F%259F%25E3%2581%25AB%25E8%25AD%25A6%25E5%2591%258A%25E5%2586%2585%25E5%25AE%25B9%25E3%2581%258C%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2595%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTA5MWI2OTY5ZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/omochice/articles/35e339fdfb5241",
           "author": "Omochice",
           "description": "denopsでPaiza IOのwebAPIを実行するプラグインを作った\n\n手元に特定の言語の実行環境がなくてもクラウドでコードを実行できるwebAPI(paiza.io)をvim上から実行するプラグインを作った。\ndenopsについては以下を参照。\n\n\n 使い方\n\n インストール\n私がdein.vimを使ってるのでdeinの例で。\n\n      \n        \n        call dein#add(\"vim-denops/denops.vim\")\ncall dein#add(\"Omochice/dps-paiza-io-vim\")\n\n\n      \n      \n 実行\n...",
@@ -1436,6 +1450,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c",
+          "author": "博ノ助",
+          "description": "ほんと適当ですみません。\n\n Install\n\n      \n        \n        $ npm install vue-chartjs@2 chart.js@2\n\n\n      \n      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。\nvue-chartjsの導入を忘れないこと。\n\n      \n        \n        $ npm install @nuxtjs/moment\n\n\n      \n      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。\n\n      \n        \n        $ np...",
+          "link": "https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c",
+          "publishedOn": "2021-07-15T13:00:42.000Z",
+          "wordCount": 269,
+          "title": "Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--k9JKkQCd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%258D%259A%25E3%2583%258E%25E5%258A%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Chart.js%25E3%2582%2592Nuxt.js%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E6%258A%2598%25E7%25B7%259A%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E5%2580%258B%25E4%25BA%25BA%25E7%259A%2584%25E3%2581%25AB%25E3%2583%25A1%25E3%2583%25A2%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmNjNzg4YzUzOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
           "author": "syuri",

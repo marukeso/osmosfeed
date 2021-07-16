@@ -73,6 +73,90 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-16">2021-07-16</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">neovim+pyls+flake8でテキスト領域に警告内容が表示されないようにする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hhatto/articles/38cc31b301ede3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>&#x27;sys&#x27; imported but unused はflake8による警告メッセージ
+
+ 結論
+let g:lsp_diagnostics_virtual_text_enabled &#x3D; 0 の設定にしておく
+
+ 使用環境
+
+neovim(NVIM): v0.5.0
+
+
+ 設定ファイル
+
+      
+        .config/nvim/init.vim
+        call plug#begin(&#x27;~/.config/nvim/plugged&#x27;)
+Plug &#x27;prabirshrestha/vim-lsp&#x27;
+Plug &#x27;mattn/vim-lsp-settings&#x27;
+call...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-15">2021-07-15</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>ほんと適当ですみません。
+
+ Install
+
+      
+        
+        $ npm install vue-chartjs@2 chart.js@2
+
+
+      
+      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。
+vue-chartjsの導入を忘れないこと。
+
+      
+        
+        $ npm install @nuxtjs/moment
+
+
+      
+      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。
+
+      
+        
+        $ np...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-14">2021-07-14</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -3496,7 +3580,7 @@ G
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-15T01:05:01.029Z">2021-07-15T01:05:01.029Z</time>
+    <time id="build-timestamp" datetime="2021-07-16T01:04:54.157Z">2021-07-16T01:04:54.157Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
