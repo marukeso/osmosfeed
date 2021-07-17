@@ -65,6 +65,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031",
+          "author": "Yuuya Miyamae",
+          "description": "Firebase AppCheck 導入\n\n 対応サービス\n\nRealtime Database\nCloud Storage\nCloud Functions (callable functions)\n\n\n 前提\nFirebase のプロジェクト作成まで完了している\n\n 1. reCAPTCHA 登録\nhttps://www.google.com/recaptcha/admin/create\n\n以下の情報を登録\n\nラベル\nreCAPTCHA タイプ: \"reCAPTCHA v3\" を選択\nドメイン: ドメイン設定\n\n\n 2. コンソール画面からAppCheck登録\nhttps://co...",
+          "link": "https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031",
+          "publishedOn": "2021-07-15T19:54:35.000Z",
+          "wordCount": 108,
+          "title": "Firebase: AppCheck 導入",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--oTNttJXm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuuya%2520Miyamae%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Firebase%253A%2520AppCheck%2520%25E5%25B0%258E%25E5%2585%25A5%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjYyY2JiMzAyYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eringiv3/articles/56f2b9f90a0632",
+          "author": "Eringi_V3",
+          "description": "フロントエンドアプリケーションの開発を行う上で避けては通れないデータフェッチの実装。\nREST APIを使うか、GraphQLを使うか、クライアントでキャッシュするか、APIレスポンスにどのようにして型を付けるか、状態管理はどうするのかなど、開発者の悩みが尽きないけれども、それに関しての設計を考えたり議論を行うのはフロントエンド開発の楽しいポイントだと僕は思っています。\nこの記事では、バックエンドにHasura、フロントエンドにNext.jsを使用する場合に僕が最強だと感じたツールの組み合わせ・使い方を紹介します。\n\n モチベーション\n\nAPIからのレスポンスにはTypeScriptの型...",
+          "link": "https://zenn.dev/eringiv3/articles/56f2b9f90a0632",
+          "publishedOn": "2021-07-15T15:16:24.000Z",
+          "wordCount": 768,
+          "title": "ぼくのかんがえたさいきょうのデータフェッチ 2021Summer🏄‍♂️【Next.js / Hasura】",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--82ifwyxV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Eringi_V3%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2581%25BC%25E3%2581%258F%25E3%2581%25AE%25E3%2581%258B%25E3%2582%2593%25E3%2581%258C%25E3%2581%2588%25E3%2581%259F%25E3%2581%2595%25E3%2581%2584%25E3%2581%258D%25E3%2582%2587%25E3%2581%2586%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2595%25E3%2582%25A7%25E3%2583%2583%25E3%2583%2581%25202021Summer%2520%25E3%2580%2590Next.js%2520%252F%2520Hasura%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDU2Y2U2YjAzNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
+          "author": "リーナーテックブログ",
+          "description": "Leaner Technologies の黒曜(@kokuyouwind)です。\n以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。\nhttps://zenn.dev/leaner_tech/articles/20210608-leaner-techstack\nまた新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。\nこれらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...",
+          "link": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
+          "publishedOn": "2021-07-15T01:51:12.000Z",
+          "wordCount": 280,
+          "title": "Leaner の技術スタック紹介(2021年7月版)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--j47hoymn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Leaner%2520%25E3%2581%25AE%25E6%258A%2580%25E8%25A1%2593%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%25E7%25B4%25B9%25E4%25BB%258B%25282021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGZiYzhkYzg5MS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/quocca/articles/36182859d30b22",
           "author": "quocca",
           "description": "したかったので開発しました！\nhttps://quocca-works.com/accela/\nドキュメントはサイト内にあるので、この記事ではNext.jsとの対比や簡単なコードで、Accelaの特徴を紹介していきます。実際にどういった動作をするかは当サイトで確認することができ、サイトのデータ自体もダウンロードできるので、サンプルとしてお使いください。\n\n Next.jsを参考にした機能\nNext.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...",
@@ -394,6 +436,48 @@
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
         {
+          "id": "https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031",
+          "author": "Yuuya Miyamae",
+          "description": "Firebase AppCheck 導入\n\n 対応サービス\n\nRealtime Database\nCloud Storage\nCloud Functions (callable functions)\n\n\n 前提\nFirebase のプロジェクト作成まで完了している\n\n 1. reCAPTCHA 登録\nhttps://www.google.com/recaptcha/admin/create\n\n以下の情報を登録\n\nラベル\nreCAPTCHA タイプ: \"reCAPTCHA v3\" を選択\nドメイン: ドメイン設定\n\n\n 2. コンソール画面からAppCheck登録\nhttps://co...",
+          "link": "https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031",
+          "publishedOn": "2021-07-15T19:54:35.000Z",
+          "wordCount": 108,
+          "title": "Firebase: AppCheck 導入",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--oTNttJXm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuuya%2520Miyamae%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Firebase%253A%2520AppCheck%2520%25E5%25B0%258E%25E5%2585%25A5%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjYyY2JiMzAyYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c",
+          "author": "博ノ助",
+          "description": "ほんと適当ですみません。\n\n Install\n\n      \n        \n        $ npm install vue-chartjs@2 chart.js@2\n\n\n      \n      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。\nvue-chartjsの導入を忘れないこと。\n\n      \n        \n        $ npm install @nuxtjs/moment\n\n\n      \n      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。\n\n      \n        \n        $ np...",
+          "link": "https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c",
+          "publishedOn": "2021-07-15T13:00:42.000Z",
+          "wordCount": 269,
+          "title": "Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--k9JKkQCd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%258D%259A%25E3%2583%258E%25E5%258A%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Chart.js%25E3%2582%2592Nuxt.js%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E6%258A%2598%25E7%25B7%259A%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E5%2580%258B%25E4%25BA%25BA%25E7%259A%2584%25E3%2581%25AB%25E3%2583%25A1%25E3%2583%25A2%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmNjNzg4YzUzOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
+          "author": "リーナーテックブログ",
+          "description": "Leaner Technologies の黒曜(@kokuyouwind)です。\n以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。\nhttps://zenn.dev/leaner_tech/articles/20210608-leaner-techstack\nまた新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。\nこれらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...",
+          "link": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
+          "publishedOn": "2021-07-15T01:51:12.000Z",
+          "wordCount": 280,
+          "title": "Leaner の技術スタック紹介(2021年7月版)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--j47hoymn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Leaner%2520%25E3%2581%25AE%25E6%258A%2580%25E8%25A1%2593%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%25E7%25B4%25B9%25E4%25BB%258B%25282021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGZiYzhkYzg5MS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/jqinglong/articles/e901ca698f2158",
           "author": "JQinglong",
           "description": "タイトル長すぎですね。途中で切れました。\n本当は\n\n Nuxt TypeScript（Composition API）、Django REST Framework で、Docker Compose上での開発基盤を作る\nこいつの続きというか。\nhttps://zenn.dev/jqinglong/scraps/168d1bb5dd4832\nこの悪戦苦闘の結果、まあまあ良い構成ができたと思っており、それを使って、さらにもう一つアプリを作ってます。スッキリいくと思うので、そのスッキリした記録を残そうと思ったのですが、そうは問屋はおろさず・・・それでも、上記よりは落ち着いてできたので、こちらに残...",
@@ -624,6 +708,76 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/jpn_asane/articles/d7f44682b74fdc",
+          "author": "Asane",
+          "description": "環境構築をしっかりするメリット\n正直な話、React+TypeScriptは公式にあるコマンドを一個打ち込めばプロジェクト自体は出来ます。\n環境構築がめんどくさくてそれだけで済ませていた人も多いと思いますが、今回紹介する環境構築をする事で、様々なメリットがあります。\n\nチーム制作などでコーディングルールを厳格化できる\n->チーム一人一人が我流のコーディングをすると誰も読み取る事が出来ないモノが完成します。\n初心者のうちからコーディングの変な癖をなくす\n->初心者のうちから変な癖がついてしまうと、修正するのが大変です。\nコーディングの穴をなくす\n->JavaScrip...",
+          "link": "https://zenn.dev/jpn_asane/articles/d7f44682b74fdc",
+          "publishedOn": "2021-07-15T18:19:10.000Z",
+          "wordCount": 536,
+          "title": "React+TypeScript+ESLint+Prettierをまとめて環境構築",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--K9drwuRx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Asane%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%252BTypeScript%252BESLint%252BPrettier%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kwbnYxXzJnTFZYYWQ4TzlvRWR1cW5ZVnlTem1iMVktNm5VRm9Lanc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eringiv3/articles/56f2b9f90a0632",
+          "author": "Eringi_V3",
+          "description": "フロントエンドアプリケーションの開発を行う上で避けては通れないデータフェッチの実装。\nREST APIを使うか、GraphQLを使うか、クライアントでキャッシュするか、APIレスポンスにどのようにして型を付けるか、状態管理はどうするのかなど、開発者の悩みが尽きないけれども、それに関しての設計を考えたり議論を行うのはフロントエンド開発の楽しいポイントだと僕は思っています。\nこの記事では、バックエンドにHasura、フロントエンドにNext.jsを使用する場合に僕が最強だと感じたツールの組み合わせ・使い方を紹介します。\n\n モチベーション\n\nAPIからのレスポンスにはTypeScriptの型...",
+          "link": "https://zenn.dev/eringiv3/articles/56f2b9f90a0632",
+          "publishedOn": "2021-07-15T15:16:24.000Z",
+          "wordCount": 768,
+          "title": "ぼくのかんがえたさいきょうのデータフェッチ 2021Summer🏄‍♂️【Next.js / Hasura】",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--82ifwyxV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Eringi_V3%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2581%25BC%25E3%2581%258F%25E3%2581%25AE%25E3%2581%258B%25E3%2582%2593%25E3%2581%258C%25E3%2581%2588%25E3%2581%259F%25E3%2581%2595%25E3%2581%2584%25E3%2581%258D%25E3%2582%2587%25E3%2581%2586%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2595%25E3%2582%25A7%25E3%2583%2583%25E3%2583%2581%25202021Summer%2520%25E3%2580%2590Next.js%2520%252F%2520Hasura%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDU2Y2U2YjAzNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hashito/articles/f0c4c0441b4cd2",
+          "author": "hashito",
+          "description": "問題\n下記のように|undefinedなどがある場合に、HTML上で参照しようとすると、下記のようなエラーが出る。\n\n      \n        \n        import {\n  Component\n} from '@angular/core';\n@Component({\n  selector: 'my-app',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css']\n})\nexport class AppComponent {\n  user: { name: string; a...",
+          "link": "https://zenn.dev/hashito/articles/f0c4c0441b4cd2",
+          "publishedOn": "2021-07-15T13:42:14.000Z",
+          "wordCount": 72,
+          "title": "Angularでundefinedな可能性のある要素を表示する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--kMevm_1R--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Angular%25E3%2581%25A7undefined%25E3%2581%25AA%25E5%258F%25AF%25E8%2583%25BD%25E6%2580%25A7%25E3%2581%25AE%25E3%2581%2582%25E3%2582%258B%25E8%25A6%2581%25E7%25B4%25A0%25E3%2582%2592%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hashito/articles/f9b9c2401e0318",
+          "author": "hashito",
+          "description": "結論\n下記のようにする。\n\n      \n        \n        import {\n  Component,\n  ViewChild,\n  AfterViewInit,\n  OnInit,\n  ElementRef\n} from '@angular/core';\n@Component({\n  selector: 'my-app',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css']\n})\nexport class AppComponent implements AfterVi...",
+          "link": "https://zenn.dev/hashito/articles/f9b9c2401e0318",
+          "publishedOn": "2021-07-15T13:19:13.000Z",
+          "wordCount": 89,
+          "title": "Angularで生のDOMを操作する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ClAKpmku--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Angular%25E3%2581%25A7%25E7%2594%259F%25E3%2581%25AEDOM%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ibaraki/articles/7a6368bdfb890f",
+          "author": "いばらき",
+          "description": "やりたかったこと\nNode.jsでAPIを書いたら、OpenAPIドキュメントを自動生成して欲しい\n\n 背景\nAPIを書く場合に使うFrameworkにおいてPythonではDjangoやFlaskが有名ですが、最近注目されているFrameworkにFastAPIというものがあります。FastAPIは、動作がNode.js並に早いとか習得が容易といった特徴もありますが、コードを書くと自動でOpenAPIドキュメントを作ってくれてwebインターフェースも用意してくれる機能がとても便利です。\n詳しくは知りたい方は、ドキュメントを読んでください。\nhttps://fastapi.tiang...",
+          "link": "https://zenn.dev/ibaraki/articles/7a6368bdfb890f",
+          "publishedOn": "2021-07-15T12:17:44.000Z",
+          "wordCount": 228,
+          "title": "Node.js環境で、PythonのFastAPIみたいなOpenAPIドキュメント自動生成を求めて、Fastifyに手を出してみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s---YQTuKwp--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2584%25E3%2581%25B0%25E3%2582%2589%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Node.js%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25A7%25E3%2580%2581Python%25E3%2581%25AEFastAPI%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E3%2581%25AAOpenAPI%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E8%2587%25AA%25E5%258B%2595%25E7%2594%259F%25E6%2588%2590%25E3%2582%2592%25E6%25B1%2582%25E3%2582%2581%25E3%2581%25A6%25E3%2580%2581Fastify%25E3%2581%25AB%25E6%2589%258B%25E3%2582%2592%25E5%2587%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lXRjZXeUJCMTBrRDZNaV9Fa0tLQi13WFJSUC04eFlJbDV5eWljPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/terrierscript/articles/2021-07-13-i18n",
           "author": "terrierscript",
@@ -1428,20 +1582,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50",
-          "author": "kouhirose",
-          "description": "コピー，ペースト，切り取り\n\n 一行コピー\nyy\n\n ペースト\np\n\n 範囲選択してコピー\nvで押すと範囲選択モードになる．\nvim以外のエディタのShift押しながらカーソル移動と同じ．\nカーソル移動して\ny\nでコピー\n\n 切り取り\nv\nを押すと範囲選択にする．\nカーソル移動して\nd\nで切り取り.\n後はpでペースト.\n\n 削除\n\n 一文字削除\nx\n\n 一行削除\ndd\n\n 元に戻す,元に戻すを戻す\nwindowsならctrl+zとかctrl+yのやつ．\n元に戻すが「undo」で，元に戻すを戻すが「redo」といいます．\nundoがu\nredoがctrl+u\n\n 移動\n\n 最終行\nG\n...",
-          "link": "https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50",
-          "publishedOn": "2021-06-17T00:42:38.000Z",
-          "wordCount": 67,
-          "title": "vim コマンド",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--xCbfXBeu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kouhirose%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:vim%2520%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTE0MjNmOTI0Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1450,6 +1590,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0",
+          "author": "おしうみなおき",
+          "description": "vue.jsには算出プロパティを意味する「computed」と関数を意味する「methods」があります。\n少しオブジェクト指向を知っている人ならプロパティ とメソッドは全然別物だということが分かりますが、Vue.jsのcomputedでは計算ができてしまうので、実際にできることととしてはほとんど変わらないのです。\nでは、どういうときにプロパティを使って、どういうときにメソッドを使えば良いのでしょうか？\n\n computedとmethodsの大きな違いはキャッシュ機能があるかどうか\ncomputedにはキャッシュ機能がありページをリロードしてもキャッシュした値を表示するため、データが変わ...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0",
+          "publishedOn": "2021-07-16T02:14:23.000Z",
+          "wordCount": 95,
+          "title": "vue.jsのcomputedとmethodsの使い分け",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--V-x4f4Gz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue.js%25E3%2581%25AEcomputed%25E3%2581%25A8methods%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c",
           "author": "博ノ助",

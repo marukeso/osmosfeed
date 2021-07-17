@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-16T01:04:54.176Z</updated>
+    <updated>2021-07-17T01:02:30.421Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vue.jsのcomputedとmethodsの使い分け]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0"/>
+        <updated>2021-07-16T02:14:23.000Z</updated>
+        <summary type="html"><![CDATA[vue.jsには算出プロパティを意味する「computed」と関数を意味する「methods」があります。
+少しオブジェクト指向を知っている人ならプロパティ とメソッドは全然別物だということが分かりますが、Vue.jsのcomputedでは計算ができてしまうので、実際にできることととしてはほとんど変わらないのです。
+では、どういうときにプロパティを使って、どういうときにメソッドを使えば良いのでしょうか？
+
+ computedとmethodsの大きな違いはキャッシュ機能があるかどうか
+computedにはキャッシュ機能がありページをリロードしてもキャッシュした値を表示するため、データが変わ...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[neovim+pyls+flake8でテキスト領域に警告内容が表示されないようにする]]></title>
         <id>https://zenn.dev/hhatto/articles/38cc31b301ede3</id>
@@ -31,6 +46,174 @@ Plug 'mattn/vim-lsp-settings'
 call...]]></summary>
         <author>
             <name>hhatto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firebase: AppCheck 導入]]></title>
+        <id>https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031</id>
+        <link href="https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031"/>
+        <updated>2021-07-15T19:54:35.000Z</updated>
+        <summary type="html"><![CDATA[Firebase AppCheck 導入
+
+ 対応サービス
+
+Realtime Database
+Cloud Storage
+Cloud Functions (callable functions)
+
+
+ 前提
+Firebase のプロジェクト作成まで完了している
+
+ 1. reCAPTCHA 登録
+https://www.google.com/recaptcha/admin/create
+
+以下の情報を登録
+
+ラベル
+reCAPTCHA タイプ: "reCAPTCHA v3" を選択
+ドメイン: ドメイン設定
+
+
+ 2. コンソール画面からAppCheck登録
+https://co...]]></summary>
+        <author>
+            <name>Yuuya Miyamae</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firebase: AppCheck 導入]]></title>
+        <id>https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031</id>
+        <link href="https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031"/>
+        <updated>2021-07-15T19:54:35.000Z</updated>
+        <summary type="html"><![CDATA[Firebase AppCheck 導入
+
+ 対応サービス
+
+Realtime Database
+Cloud Storage
+Cloud Functions (callable functions)
+
+
+ 前提
+Firebase のプロジェクト作成まで完了している
+
+ 1. reCAPTCHA 登録
+https://www.google.com/recaptcha/admin/create
+
+以下の情報を登録
+
+ラベル
+reCAPTCHA タイプ: "reCAPTCHA v3" を選択
+ドメイン: ドメイン設定
+
+
+ 2. コンソール画面からAppCheck登録
+https://co...]]></summary>
+        <author>
+            <name>Yuuya Miyamae</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React+TypeScript+ESLint+Prettierをまとめて環境構築]]></title>
+        <id>https://zenn.dev/jpn_asane/articles/d7f44682b74fdc</id>
+        <link href="https://zenn.dev/jpn_asane/articles/d7f44682b74fdc"/>
+        <updated>2021-07-15T18:19:10.000Z</updated>
+        <summary type="html"><![CDATA[環境構築をしっかりするメリット
+正直な話、React+TypeScriptは公式にあるコマンドを一個打ち込めばプロジェクト自体は出来ます。
+環境構築がめんどくさくてそれだけで済ませていた人も多いと思いますが、今回紹介する環境構築をする事で、様々なメリットがあります。
+
+チーム制作などでコーディングルールを厳格化できる
+->チーム一人一人が我流のコーディングをすると誰も読み取る事が出来ないモノが完成します。
+初心者のうちからコーディングの変な癖をなくす
+->初心者のうちから変な癖がついてしまうと、修正するのが大変です。
+コーディングの穴をなくす
+->JavaScrip...]]></summary>
+        <author>
+            <name>Asane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ぼくのかんがえたさいきょうのデータフェッチ 2021Summer🏄‍♂️【Next.js / Hasura】]]></title>
+        <id>https://zenn.dev/eringiv3/articles/56f2b9f90a0632</id>
+        <link href="https://zenn.dev/eringiv3/articles/56f2b9f90a0632"/>
+        <updated>2021-07-15T15:16:24.000Z</updated>
+        <summary type="html"><![CDATA[フロントエンドアプリケーションの開発を行う上で避けては通れないデータフェッチの実装。
+REST APIを使うか、GraphQLを使うか、クライアントでキャッシュするか、APIレスポンスにどのようにして型を付けるか、状態管理はどうするのかなど、開発者の悩みが尽きないけれども、それに関しての設計を考えたり議論を行うのはフロントエンド開発の楽しいポイントだと僕は思っています。
+この記事では、バックエンドにHasura、フロントエンドにNext.jsを使用する場合に僕が最強だと感じたツールの組み合わせ・使い方を紹介します。
+
+ モチベーション
+
+APIからのレスポンスにはTypeScriptの型...]]></summary>
+        <author>
+            <name>Eringi_V3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ぼくのかんがえたさいきょうのデータフェッチ 2021Summer🏄‍♂️【Next.js / Hasura】]]></title>
+        <id>https://zenn.dev/eringiv3/articles/56f2b9f90a0632</id>
+        <link href="https://zenn.dev/eringiv3/articles/56f2b9f90a0632"/>
+        <updated>2021-07-15T15:16:24.000Z</updated>
+        <summary type="html"><![CDATA[フロントエンドアプリケーションの開発を行う上で避けては通れないデータフェッチの実装。
+REST APIを使うか、GraphQLを使うか、クライアントでキャッシュするか、APIレスポンスにどのようにして型を付けるか、状態管理はどうするのかなど、開発者の悩みが尽きないけれども、それに関しての設計を考えたり議論を行うのはフロントエンド開発の楽しいポイントだと僕は思っています。
+この記事では、バックエンドにHasura、フロントエンドにNext.jsを使用する場合に僕が最強だと感じたツールの組み合わせ・使い方を紹介します。
+
+ モチベーション
+
+APIからのレスポンスにはTypeScriptの型...]]></summary>
+        <author>
+            <name>Eringi_V3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angularでundefinedな可能性のある要素を表示する]]></title>
+        <id>https://zenn.dev/hashito/articles/f0c4c0441b4cd2</id>
+        <link href="https://zenn.dev/hashito/articles/f0c4c0441b4cd2"/>
+        <updated>2021-07-15T13:42:14.000Z</updated>
+        <summary type="html"><![CDATA[問題
+下記のように|undefinedなどがある場合に、HTML上で参照しようとすると、下記のようなエラーが出る。
+
+      
+        
+        import {
+  Component
+} from '@angular/core';
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  user: { name: string; a...]]></summary>
+        <author>
+            <name>hashito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angularで生のDOMを操作する]]></title>
+        <id>https://zenn.dev/hashito/articles/f9b9c2401e0318</id>
+        <link href="https://zenn.dev/hashito/articles/f9b9c2401e0318"/>
+        <updated>2021-07-15T13:19:13.000Z</updated>
+        <summary type="html"><![CDATA[結論
+下記のようにする。
+
+      
+        
+        import {
+  Component,
+  ViewChild,
+  AfterViewInit,
+  OnInit,
+  ElementRef
+} from '@angular/core';
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements AfterVi...]]></summary>
+        <author>
+            <name>hashito</name>
         </author>
     </entry>
     <entry>
@@ -64,6 +247,83 @@ vue-chartjsの導入を忘れないこと。
         $ np...]]></summary>
         <author>
             <name>博ノ助</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした]]></title>
+        <id>https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c</id>
+        <link href="https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c"/>
+        <updated>2021-07-15T13:00:42.000Z</updated>
+        <summary type="html"><![CDATA[ほんと適当ですみません。
+
+ Install
+
+      
+        
+        $ npm install vue-chartjs@2 chart.js@2
+
+
+      
+      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。
+vue-chartjsの導入を忘れないこと。
+
+      
+        
+        $ npm install @nuxtjs/moment
+
+
+      
+      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。
+
+      
+        
+        $ np...]]></summary>
+        <author>
+            <name>博ノ助</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js環境で、PythonのFastAPIみたいなOpenAPIドキュメント自動生成を求めて、Fastifyに手を出してみる]]></title>
+        <id>https://zenn.dev/ibaraki/articles/7a6368bdfb890f</id>
+        <link href="https://zenn.dev/ibaraki/articles/7a6368bdfb890f"/>
+        <updated>2021-07-15T12:17:44.000Z</updated>
+        <summary type="html"><![CDATA[やりたかったこと
+Node.jsでAPIを書いたら、OpenAPIドキュメントを自動生成して欲しい
+
+ 背景
+APIを書く場合に使うFrameworkにおいてPythonではDjangoやFlaskが有名ですが、最近注目されているFrameworkにFastAPIというものがあります。FastAPIは、動作がNode.js並に早いとか習得が容易といった特徴もありますが、コードを書くと自動でOpenAPIドキュメントを作ってくれてwebインターフェースも用意してくれる機能がとても便利です。
+詳しくは知りたい方は、ドキュメントを読んでください。
+https://fastapi.tiang...]]></summary>
+        <author>
+            <name>いばらき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leaner の技術スタック紹介(2021年7月版)]]></title>
+        <id>https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107</id>
+        <link href="https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107"/>
+        <updated>2021-07-15T01:51:12.000Z</updated>
+        <summary type="html"><![CDATA[Leaner Technologies の黒曜(@kokuyouwind)です。
+以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。
+https://zenn.dev/leaner_tech/articles/20210608-leaner-techstack
+また新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。
+これらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...]]></summary>
+        <author>
+            <name>リーナーテックブログ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leaner の技術スタック紹介(2021年7月版)]]></title>
+        <id>https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107</id>
+        <link href="https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107"/>
+        <updated>2021-07-15T01:51:12.000Z</updated>
+        <summary type="html"><![CDATA[Leaner Technologies の黒曜(@kokuyouwind)です。
+以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。
+https://zenn.dev/leaner_tech/articles/20210608-leaner-techstack
+また新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。
+これらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...]]></summary>
+        <author>
+            <name>リーナーテックブログ</name>
         </author>
     </entry>
     <entry>
@@ -2772,57 +3032,6 @@ Rust 1.53が本日リリースされ、rustdocが吐く目次データのフォ�
 ここからがvimの話です。私がvim-jpのslackコミュニティに参加したのはこのツールの宣伝が目的[3]でした。そこはvim猛者がたくさんいて、2021/04/01に参加してたった2ヶ月で、7年テキトーに使っていたvimについて学ぶことが多くありました。細々とした知見を書き連ねるのはまとめきれないので、この記事ではvimプラグインとプログラミン...]]></summary>
         <author>
             <name>octaltree</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vim コマンド]]></title>
-        <id>https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50</id>
-        <link href="https://zenn.dev/meiden362/articles/7c26bb46197eab7dbe50"/>
-        <updated>2021-06-17T00:42:38.000Z</updated>
-        <summary type="html"><![CDATA[コピー，ペースト，切り取り
-
- 一行コピー
-yy
-
- ペースト
-p
-
- 範囲選択してコピー
-vで押すと範囲選択モードになる．
-vim以外のエディタのShift押しながらカーソル移動と同じ．
-カーソル移動して
-y
-でコピー
-
- 切り取り
-v
-を押すと範囲選択にする．
-カーソル移動して
-d
-で切り取り.
-後はpでペースト.
-
- 削除
-
- 一文字削除
-x
-
- 一行削除
-dd
-
- 元に戻す,元に戻すを戻す
-windowsならctrl+zとかctrl+yのやつ．
-元に戻すが「undo」で，元に戻すを戻すが「redo」といいます．
-undoがu
-redoがctrl+u
-
- 移動
-
- 最終行
-G
-...]]></summary>
-        <author>
-            <name>kouhirose</name>
         </author>
     </entry>
 </feed>
