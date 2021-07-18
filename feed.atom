@@ -2,10 +2,187 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-17T01:02:30.421Z</updated>
+    <updated>2021-07-18T01:06:20.972Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next.js（TypeScript）で Firebase を利用し, Google ログインを]]></title>
+        <id>https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth</id>
+        <link href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth"/>
+        <updated>2021-07-18T00:16:08.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
+JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
+
+ 環境
+
+
+
+名前
+バージョン
+
+
+
+
+macOS Big Sur
+11.4
+
+
+Node.js
+16.4.1
+
+
+TypeScript
+4.3.5...]]></summary>
+        <author>
+            <name>minguu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】みんな next.confing.js にどんなプラグイン入れてる？]]></title>
+        <id>https://zenn.dev/aiji42/articles/1de8f9ea7b8a10</id>
+        <link href="https://zenn.dev/aiji42/articles/1de8f9ea7b8a10"/>
+        <updated>2021-07-17T14:43:03.000Z</updated>
+        <summary type="html"><![CDATA[https://twitter.com/aiji42_dev/status/1415711986608795648?s=20
+
+
+Why Next.js
+私は、業務でもプライベートでも Next.js を使っています。
+Next.js は "Zero Config" をうたっているわけですが、実際業務で使うとなると、なかなか Zero とはいきません。IE11用にトランスパイルが必要になったり、ソースマップのアップロードのために webpack の拡張が必要なるケースにおいては、next.config.js のカスタマイズが必要になります。
+そういったカスタマイズをサポートし、設定のスト...]]></summary>
+        <author>
+            <name>aiji42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順]]></title>
+        <id>https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel</id>
+        <link href="https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel"/>
+        <updated>2021-07-17T13:08:22.000Z</updated>
+        <summary type="html"><![CDATA[ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。
+
+最終更新: 2021年7月17日
+筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください
+
+
+ 何をセットアップするか
+
+
+yarn create nuxt-appで以下を済ませる
+
+TypeScript化
+Prettier+ESLint
+TailwindCSS対応
+PWA対応
+
+
+コンフィグをTS化する
+
+srcディレクトリにまとめる
+OGPを設定する...]]></summary>
+        <author>
+            <name>sasigume</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順]]></title>
+        <id>https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel</id>
+        <link href="https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel"/>
+        <updated>2021-07-17T13:08:22.000Z</updated>
+        <summary type="html"><![CDATA[ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。
+
+最終更新: 2021年7月17日
+筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください
+
+
+ 何をセットアップするか
+
+
+yarn create nuxt-appで以下を済ませる
+
+TypeScript化
+Prettier+ESLint
+TailwindCSS対応
+PWA対応
+
+
+コンフィグをTS化する
+
+srcディレクトリにまとめる
+OGPを設定する...]]></summary>
+        <author>
+            <name>sasigume</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[転職後2週間でフロントエンドの開発環境を大工事して、React を導入した話]]></title>
+        <id>https://zenn.dev/nappa/articles/e7759c7e65df9a</id>
+        <link href="https://zenn.dev/nappa/articles/e7759c7e65df9a"/>
+        <updated>2021-07-17T11:46:33.000Z</updated>
+        <summary type="html"><![CDATA[ども、今月スタートアップ企業に転職した nappa です。現在新規事業の開発に携わっています。
+今日は転職後2週間でフロントエンドの環境を大工事 & React 導入した話を書きます。
+
+ 面接まで
+面接では「新規事業では Vue.js を使っている」と言われて、ある程度フロントエンドの環境が整ってるだろうと思っていました。サーバサイドは Rails を使っているとのことだったので、技術的には前職の経験もあるので、大丈夫だろうと思っていました。
+
+ 入社後、フタを開けてみたら...
+入社後、ソースコードを拝見して度肝を抜かれました。
+当初、面接から入社まで Vue.js を使って...]]></summary>
+        <author>
+            <name>nappa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vue-i18nの翻訳をコンポーネント(SFC)毎にする普通ではない方法]]></title>
+        <id>https://zenn.dev/yukihirop/articles/b36c43014355fd</id>
+        <link href="https://zenn.dev/yukihirop/articles/b36c43014355fd"/>
+        <updated>2021-07-17T11:27:48.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+vue-i18nを使っている人なら一度や二度は翻訳のキーのつけ方に悩んだ人は多いかと思います。
+しかも複数人で開発していると人によってキーのつけ方の癖が違ったり、ルール化していてもそのルールを常に意識しながら開発するのは辛いです。そういう問題に対しての一つの解決策を提示してみようかと思います。
+「コンポーネント専用の翻訳ファイルでルートキーがユニークならそれに続くキーは適当でも大して問題ないのではないか？ キーのつけ方が適当になってしまったとしてもそれはそのコンポーネントの翻訳で閉じているし、影響範囲は明確なので大して問題ないのではなかろうか？」
+です。
+
+ 環境
+
+vue...]]></summary>
+        <author>
+            <name>yukihirop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでベース配列型で新しい型を作って初期化するとエラーになる。]]></title>
+        <id>https://zenn.dev/hashito/articles/54d9167e7b5624</id>
+        <link href="https://zenn.dev/hashito/articles/54d9167e7b5624"/>
+        <updated>2021-07-17T00:31:52.000Z</updated>
+        <summary type="html"><![CDATA[現象
+
+      
+        
+        type History=Array<string>;
+history:History=new History();
+
+
+      
+      下記のようなエラーが出る。
+
+TS2693: 'History' only refers to a type, but is being used as a value here.
+
+
+ 解決
+下記のように修正すれば解決される。
+
+      
+        
+        type History=Array<string>;
+history:Histo...]]></summary>
+        <author>
+            <name>hashito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vue.jsのcomputedとmethodsの使い分け]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0</id>
@@ -2995,43 +3172,6 @@ php artisan ui vue --auth
         <summary type="html"><![CDATA[Electron の多彩な API を実例とともに紹介する Tips 集]]></summary>
         <author>
             <name>sprout2000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[microCMS+NuxtのJamstackブログをS3にデプロイしてみる]]></title>
-        <id>https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d</id>
-        <link href="https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d"/>
-        <updated>2021-06-18T02:34:18.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-ヘッドレスCMSを使ってJamstackなブログを構築する機会があったので、使った技術や設定方法をまとめておきます。
-
- 構成
-技術構成です。
-
-Headless CMS: microCMS
-source repository: GitHub
-CI: GitHub Actions
-SSG: Nuxt.js
-Hosting: Aamazon S3
-
-Headless CMSには日本製のmicroCMSを選びました。
-公式ブログにNuxt.jsを使ったJamstackの記事があったため、今回参考にしています。
-https://blog.microcms.io/microcms-...]]></summary>
-        <author>
-            <name>ikeo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vimプラグインを書く言語について と宣伝]]></title>
-        <id>https://zenn.dev/octaltree/articles/c5757d9a126415</id>
-        <link href="https://zenn.dev/octaltree/articles/c5757d9a126415"/>
-        <updated>2021-06-17T14:49:23.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-Rust 1.53が本日リリースされ、rustdocが吐く目次データのフォーマットが変わりました。これによりdocを高速に検索するための自作ツールrustdoc-index[1][2]がstableでも使えるようになりました。
-
-ここからがvimの話です。私がvim-jpのslackコミュニティに参加したのはこのツールの宣伝が目的[3]でした。そこはvim猛者がたくさんいて、2021/04/01に参加してたった2ヶ月で、7年テキトーに使っていたvimについて学ぶことが多くありました。細々とした知見を書き連ねるのはまとめきれないので、この記事ではvimプラグインとプログラミン...]]></summary>
-        <author>
-            <name>octaltree</name>
         </author>
     </entry>
 </feed>

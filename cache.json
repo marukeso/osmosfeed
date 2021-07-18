@@ -65,6 +65,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/aiji42/articles/1de8f9ea7b8a10",
+          "author": "aiji42",
+          "description": "https://twitter.com/aiji42_dev/status/1415711986608795648?s=20\n\n\nWhy Next.js\n私は、業務でもプライベートでも Next.js を使っています。\nNext.js は \"Zero Config\" をうたっているわけですが、実際業務で使うとなると、なかなか Zero とはいきません。IE11用にトランスパイルが必要になったり、ソースマップのアップロードのために webpack の拡張が必要なるケースにおいては、next.config.js のカスタマイズが必要になります。\nそういったカスタマイズをサポートし、設定のスト...",
+          "link": "https://zenn.dev/aiji42/articles/1de8f9ea7b8a10",
+          "publishedOn": "2021-07-17T14:43:03.000Z",
+          "wordCount": 364,
+          "title": "【Next.js】みんな next.confing.js にどんなプラグイン入れてる？",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--0yXqxaFf--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:aiji42%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E3%2580%2591%25E3%2581%25BF%25E3%2582%2593%25E3%2581%25AA%2520next.confing.js%2520%25E3%2581%25AB%25E3%2581%25A9%25E3%2582%2593%25E3%2581%25AA%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E3%2582%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTczOGQyOGQwMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031",
           "author": "Yuuya Miyamae",
           "description": "Firebase AppCheck 導入\n\n 対応サービス\n\nRealtime Database\nCloud Storage\nCloud Functions (callable functions)\n\n\n 前提\nFirebase のプロジェクト作成まで完了している\n\n 1. reCAPTCHA 登録\nhttps://www.google.com/recaptcha/admin/create\n\n以下の情報を登録\n\nラベル\nreCAPTCHA タイプ: \"reCAPTCHA v3\" を選択\nドメイン: ドメイン設定\n\n\n 2. コンソール画面からAppCheck登録\nhttps://co...",
@@ -436,6 +450,20 @@
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
         {
+          "id": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
+          "author": "sasigume",
+          "description": "ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。\n\n最終更新: 2021年7月17日\n筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください\n\n\n 何をセットアップするか\n\n\nyarn create nuxt-appで以下を済ませる\n\nTypeScript化\nPrettier+ESLint\nTailwindCSS対応\nPWA対応\n\n\nコンフィグをTS化する\n\nsrcディレクトリにまとめる\nOGPを設定する...",
+          "link": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
+          "publishedOn": "2021-07-17T13:08:22.000Z",
+          "wordCount": 689,
+          "title": "Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--I8cpjTY0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sasigume%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%252BTS%252BCompositionAPI%252BVercel%252BVSCode%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E6%2589%258B%25E9%25A0%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmMzZWY2ZjdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031",
           "author": "Yuuya Miyamae",
           "description": "Firebase AppCheck 導入\n\n 対応サービス\n\nRealtime Database\nCloud Storage\nCloud Functions (callable functions)\n\n\n 前提\nFirebase のプロジェクト作成まで完了している\n\n 1. reCAPTCHA 登録\nhttps://www.google.com/recaptcha/admin/create\n\n以下の情報を登録\n\nラベル\nreCAPTCHA タイプ: \"reCAPTCHA v3\" を選択\nドメイン: ドメイン設定\n\n\n 2. コンソール画面からAppCheck登録\nhttps://co...",
@@ -686,20 +714,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d",
-          "author": "ikeo",
-          "description": "はじめに\nヘッドレスCMSを使ってJamstackなブログを構築する機会があったので、使った技術や設定方法をまとめておきます。\n\n 構成\n技術構成です。\n\nHeadless CMS: microCMS\nsource repository: GitHub\nCI: GitHub Actions\nSSG: Nuxt.js\nHosting: Aamazon S3\n\nHeadless CMSには日本製のmicroCMSを選びました。\n公式ブログにNuxt.jsを使ったJamstackの記事があったため、今回参考にしています。\nhttps://blog.microcms.io/microcms-...",
-          "link": "https://zenn.dev/ikeo/articles/8dfbfac7ad4cb5226b4d",
-          "publishedOn": "2021-06-18T02:34:18.000Z",
-          "wordCount": 167,
-          "title": "microCMS+NuxtのJamstackブログをS3にデプロイしてみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--PLEtnaSh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ikeo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:microCMS%252BNuxt%25E3%2581%25AEJamstack%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592S3%25E3%2581%25AB%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDkwYjYyMzcxYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -708,6 +722,62 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
+          "author": "minguu",
+          "description": "はじめに\nこの記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.\nJavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.\n\n 環境\n\n\n\n名前\nバージョン\n\n\n\n\nmacOS Big Sur\n11.4\n\n\nNode.js\n16.4.1\n\n\nTypeScript\n4.3.5...",
+          "link": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
+          "publishedOn": "2021-07-18T00:16:08.000Z",
+          "wordCount": 542,
+          "title": "Next.js（TypeScript）で Firebase を利用し, Google ログインを",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZjMUES8F--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25EF%25BC%2588TypeScript%25EF%25BC%2589%25E3%2581%25A7%2520Firebase%2520%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%252C%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
+          "author": "sasigume",
+          "description": "ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。\n\n最終更新: 2021年7月17日\n筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください\n\n\n 何をセットアップするか\n\n\nyarn create nuxt-appで以下を済ませる\n\nTypeScript化\nPrettier+ESLint\nTailwindCSS対応\nPWA対応\n\n\nコンフィグをTS化する\n\nsrcディレクトリにまとめる\nOGPを設定する...",
+          "link": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
+          "publishedOn": "2021-07-17T13:08:22.000Z",
+          "wordCount": 689,
+          "title": "Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--I8cpjTY0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sasigume%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%252BTS%252BCompositionAPI%252BVercel%252BVSCode%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E6%2589%258B%25E9%25A0%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmMzZWY2ZjdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yukihirop/articles/b36c43014355fd",
+          "author": "yukihirop",
+          "description": "はじめに\nvue-i18nを使っている人なら一度や二度は翻訳のキーのつけ方に悩んだ人は多いかと思います。\nしかも複数人で開発していると人によってキーのつけ方の癖が違ったり、ルール化していてもそのルールを常に意識しながら開発するのは辛いです。そういう問題に対しての一つの解決策を提示してみようかと思います。\n「コンポーネント専用の翻訳ファイルでルートキーがユニークならそれに続くキーは適当でも大して問題ないのではないか？ キーのつけ方が適当になってしまったとしてもそれはそのコンポーネントの翻訳で閉じているし、影響範囲は明確なので大して問題ないのではなかろうか？」\nです。\n\n 環境\n\nvue...",
+          "link": "https://zenn.dev/yukihirop/articles/b36c43014355fd",
+          "publishedOn": "2021-07-17T11:27:48.000Z",
+          "wordCount": 476,
+          "title": "vue-i18nの翻訳をコンポーネント(SFC)毎にする普通ではない方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ctKAMofK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hashito/articles/54d9167e7b5624",
+          "author": "hashito",
+          "description": "現象\n\n      \n        \n        type History=Array<string>;\nhistory:History=new History();\n\n\n      \n      下記のようなエラーが出る。\n\nTS2693: 'History' only refers to a type, but is being used as a value here.\n\n\n 解決\n下記のように修正すれば解決される。\n\n      \n        \n        type History=Array<string>;\nhistory:Histo...",
+          "link": "https://zenn.dev/hashito/articles/54d9167e7b5624",
+          "publishedOn": "2021-07-17T00:31:52.000Z",
+          "wordCount": 39,
+          "title": "TypeScriptでベース配列型で新しい型を作って初期化するとエラーになる。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--8mGXOq_Q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E9%2585%258D%25E5%2588%2597%25E5%259E%258B%25E3%2581%25A7%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E5%259E%258B%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2588%259D%25E6%259C%259F%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/jpn_asane/articles/d7f44682b74fdc",
           "author": "Asane",
@@ -1568,20 +1638,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/octaltree/articles/c5757d9a126415",
-          "author": "octaltree",
-          "description": "はじめに\nRust 1.53が本日リリースされ、rustdocが吐く目次データのフォーマットが変わりました。これによりdocを高速に検索するための自作ツールrustdoc-index[1][2]がstableでも使えるようになりました。\n\nここからがvimの話です。私がvim-jpのslackコミュニティに参加したのはこのツールの宣伝が目的[3]でした。そこはvim猛者がたくさんいて、2021/04/01に参加してたった2ヶ月で、7年テキトーに使っていたvimについて学ぶことが多くありました。細々とした知見を書き連ねるのはまとめきれないので、この記事ではvimプラグインとプログラミン...",
-          "link": "https://zenn.dev/octaltree/articles/c5757d9a126415",
-          "publishedOn": "2021-06-17T14:49:23.000Z",
-          "wordCount": 207,
-          "title": "Vimプラグインを書く言語について と宣伝",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--IWt0_nyL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:octaltree%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vim%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%25E8%25A8%2580%25E8%25AA%259E%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2520%25E3%2581%25A8%25E5%25AE%25A3%25E4%25BC%259D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lHUlpoVFNjenlwZTBsbWtackRlZXFVMXIzV2ZORlQ0SXppSEFpPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1590,6 +1646,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/nappa/articles/e7759c7e65df9a",
+          "author": "nappa",
+          "description": "ども、今月スタートアップ企業に転職した nappa です。現在新規事業の開発に携わっています。\n今日は転職後2週間でフロントエンドの環境を大工事 & React 導入した話を書きます。\n\n 面接まで\n面接では「新規事業では Vue.js を使っている」と言われて、ある程度フロントエンドの環境が整ってるだろうと思っていました。サーバサイドは Rails を使っているとのことだったので、技術的には前職の経験もあるので、大丈夫だろうと思っていました。\n\n 入社後、フタを開けてみたら...\n入社後、ソースコードを拝見して度肝を抜かれました。\n当初、面接から入社まで Vue.js を使って...",
+          "link": "https://zenn.dev/nappa/articles/e7759c7e65df9a",
+          "publishedOn": "2021-07-17T11:46:33.000Z",
+          "wordCount": 136,
+          "title": "転職後2週間でフロントエンドの開発環境を大工事して、React を導入した話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JAHoEoUl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nappa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%25BB%25A2%25E8%2581%25B7%25E5%25BE%258C2%25E9%2580%25B1%25E9%2596%2593%25E3%2581%25A7%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%25A4%25A7%25E5%25B7%25A5%25E4%25BA%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581React%2520%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTgzZjQ1NjcwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0",
           "author": "おしうみなおき",
