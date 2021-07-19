@@ -2,10 +2,200 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-18T01:06:20.972Z</updated>
+    <updated>2021-07-19T01:04:40.888Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VSCodeのTrigger Suggestionの紹介と、macOSで有効化するための工夫]]></title>
+        <id>https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos</id>
+        <link href="https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos"/>
+        <updated>2021-07-18T12:22:01.000Z</updated>
+        <summary type="html"><![CDATA[VSCodeでTypescriptを書くときに、「一文字も入力していないんだけど、予測変換が出てほしいな...」と思うことはありませんか？
+それ、Trigger Suggestion で可能です。macOSユーザーで「何それ？」って人は、私のようにOSのショートカットと衝突しているせいで見逃しているかもしれないです。
+
+ デモ
+Ctrl + Spaceでショートカットを表示しています。
+
+
+ Trigger Suggestionについて
+VSCodeには Trigger Suggestionというショートカットがあります。
+いまVSCodeを開いている人は、Cmd + Shift + P...]]></summary>
+        <author>
+            <name>hiroga</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NPM パッケージ作成講座]]></title>
+        <id>https://zenn.dev/sprout2000/books/9325fe6c9c1ba9</id>
+        <link href="https://zenn.dev/sprout2000/books/9325fe6c9c1ba9"/>
+        <updated>2021-07-18T08:17:52.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript を使ってオリジナルの NPM パッケージを作ろう！]]></summary>
+        <author>
+            <name>sprout2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Test Double】JestでMockとStubを確認する]]></title>
+        <id>https://zenn.dev/chida/articles/cec625e3b6aa7b</id>
+        <link href="https://zenn.dev/chida/articles/cec625e3b6aa7b"/>
+        <updated>2021-07-18T07:24:04.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+MockとStubの違いをソースコードレベルで理解出来ていないと思い、記事を書いて整理してみました。色々検索して調べましたが、もし間違えている箇所がありましたら、ご指摘いただけると有り難いです。
+
+ Test Doubleとは
+Test Doubleは、テストの対象が他のモジュール（クラスや関数など）に依存している場合、その代役として使われるモジュールのことです。
+TestsDoublesの作成者であるGerardMeszarosによると、Test Doubleは5つのカテゴリに分類できます。その中でも今回は、JestでMockとStubについて書きます。
+
+http://...]]></summary>
+        <author>
+            <name>chida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Svelte】on:clickで呼ばれる関数をpropsとして渡す方法]]></title>
+        <id>https://zenn.dev/ezryow/articles/08d8a7bf16ac1f</id>
+        <link href="https://zenn.dev/ezryow/articles/08d8a7bf16ac1f"/>
+        <updated>2021-07-18T06:18:48.000Z</updated>
+        <summary type="html"><![CDATA[いつも忘れてしまうので，書きます．
+HogeButton.svelteがあります．
+
+      
+        
+        <button on:click>ClickMe</button>
+
+
+      
+      on:clickは通常on:click={f}などの形式で，呼び出し関数を波括弧の中に書きますが，上記例では何も書いていません．
+そして，propsとして呼び出したい関数は次のような形式で渡します．
+
+      
+        
+        <script lang="ts">
+    import HogeButt...]]></summary>
+        <author>
+            <name>EZryow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]]]></title>
+        <id>https://zenn.dev/yukihirop/articles/20920804228834</id>
+        <link href="https://zenn.dev/yukihirop/articles/20920804228834"/>
+        <updated>2021-07-18T05:34:39.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
+https://zenn.dev/yukihirop/articles/b36c43014355fd
+前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
+前回のやり方には以下の問題がありました。
+
+      
+        
+        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
+- 生成物にファイル構造が分かってしまう情報が出てしまう
+ - 翻訳のルートキーをSFCへの相対...]]></summary>
+        <author>
+            <name>yukihirop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]]]></title>
+        <id>https://zenn.dev/yukihirop/articles/20920804228834</id>
+        <link href="https://zenn.dev/yukihirop/articles/20920804228834"/>
+        <updated>2021-07-18T05:34:39.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
+https://zenn.dev/yukihirop/articles/b36c43014355fd
+前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
+前回のやり方には以下の問題がありました。
+
+      
+        
+        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
+- 生成物にファイル構造が分かってしまう情報が出てしまう
+ - 翻訳のルートキーをSFCへの相対...]]></summary>
+        <author>
+            <name>yukihirop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode]]></title>
+        <id>https://zenn.dev/15/articles/aa8c322c85d27f</id>
+        <link href="https://zenn.dev/15/articles/aa8c322c85d27f"/>
+        <updated>2021-07-18T04:27:20.000Z</updated>
+        <summary type="html"><![CDATA[まえがき
+このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
+詳しい手順の理解が必要であればリンク先を参照してほしい。
+https://zenn.dev/66ed3gs/articles/99aa613a86f21f
+https://zenn.dev/januswel/articles/402774d76424e71ac906
+
+ create-next-app
+ts版で実行する。
+
+      
+        
+        npx create-next-app --ts sample-app
+cd samp...]]></summary>
+        <author>
+            <name>15</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode]]></title>
+        <id>https://zenn.dev/15/articles/aa8c322c85d27f</id>
+        <link href="https://zenn.dev/15/articles/aa8c322c85d27f"/>
+        <updated>2021-07-18T04:27:20.000Z</updated>
+        <summary type="html"><![CDATA[まえがき
+このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
+詳しい手順の理解が必要であればリンク先を参照してほしい。
+https://zenn.dev/66ed3gs/articles/99aa613a86f21f
+https://zenn.dev/januswel/articles/402774d76424e71ac906
+
+ create-next-app
+ts版で実行する。
+
+      
+        
+        npx create-next-app --ts sample-app
+cd samp...]]></summary>
+        <author>
+            <name>15</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js（TypeScript）で Firebase を利用し, Google ログインを]]></title>
+        <id>https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth</id>
+        <link href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth"/>
+        <updated>2021-07-18T00:16:08.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
+JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
+
+ 環境
+
+
+
+名前
+バージョン
+
+
+
+
+macOS Big Sur
+11.4
+
+
+Node.js
+16.4.1
+
+
+TypeScript
+4.3.5...]]></summary>
+        <author>
+            <name>minguu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.js（TypeScript）で Firebase を利用し, Google ログインを]]></title>
         <id>https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth</id>
@@ -3162,16 +3352,6 @@ php artisan ui vue --auth
         php artisan ui bo...]]></summary>
         <author>
             <name>tanoken</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Electron API レシピブック 2021]]></title>
-        <id>https://zenn.dev/sprout2000/books/3691a679478de2</id>
-        <link href="https://zenn.dev/sprout2000/books/3691a679478de2"/>
-        <updated>2021-06-19T08:12:26.000Z</updated>
-        <summary type="html"><![CDATA[Electron の多彩な API を実例とともに紹介する Tips 集]]></summary>
-        <author>
-            <name>sprout2000</name>
         </author>
     </entry>
 </feed>

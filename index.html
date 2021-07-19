@@ -77,8 +77,31 @@
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/15/articles/aa8c322c85d27f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>まえがき
+このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
+詳しい手順の理解が必要であればリンク先を参照してほしい。
+https://zenn.dev/66ed3gs/articles/99aa613a86f21f
+https://zenn.dev/januswel/articles/402774d76424e71ac906
+
+ create-next-app
+ts版で実行する。
+
+      
+        
+        npx create-next-app --ts sample-app
+cd samp...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Next.js（TypeScript）で Firebase を利用し, Google ログインを</summary>
@@ -111,6 +134,194 @@ Node.js
 
 TypeScript
 4.3.5...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VSCodeのTrigger Suggestionの紹介と、macOSで有効化するための工夫</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>VSCodeでTypescriptを書くときに、「一文字も入力していないんだけど、予測変換が出てほしいな...」と思うことはありませんか？
+それ、Trigger Suggestion で可能です。macOSユーザーで「何それ？」って人は、私のようにOSのショートカットと衝突しているせいで見逃しているかもしれないです。
+
+ デモ
+Ctrl + Spaceでショートカットを表示しています。
+
+
+ Trigger Suggestionについて
+VSCodeには Trigger Suggestionというショートカットがあります。
+いまVSCodeを開いている人は、Cmd + Shift + P...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">NPM パッケージ作成講座</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sprout2000/books/9325fe6c9c1ba9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>TypeScript を使ってオリジナルの NPM パッケージを作ろう！</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Test Double】JestでMockとStubを確認する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/cec625e3b6aa7b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+MockとStubの違いをソースコードレベルで理解出来ていないと思い、記事を書いて整理してみました。色々検索して調べましたが、もし間違えている箇所がありましたら、ご指摘いただけると有り難いです。
+
+ Test Doubleとは
+Test Doubleは、テストの対象が他のモジュール（クラスや関数など）に依存している場合、その代役として使われるモジュールのことです。
+TestsDoublesの作成者であるGerardMeszarosによると、Test Doubleは5つのカテゴリに分類できます。その中でも今回は、JestでMockとStubについて書きます。
+
+http://...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Svelte】on:clickで呼ばれる関数をpropsとして渡す方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ezryow/articles/08d8a7bf16ac1f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>いつも忘れてしまうので，書きます．
+HogeButton.svelteがあります．
+
+      
+        
+        ClickMe
+
+
+      
+      on:clickは通常on:click&#x3D;{f}などの形式で，呼び出し関数を波括弧の中に書きますが，上記例では何も書いていません．
+そして，propsとして呼び出したい関数は次のような形式で渡します．
+
+      
+        
+        
+    import HogeButt...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukihirop/articles/20920804228834">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
+https://zenn.dev/yukihirop/articles/b36c43014355fd
+前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
+前回のやり方には以下の問題がありました。
+
+      
+        
+        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
+- 生成物にファイル構造が分かってしまう情報が出てしまう
+ - 翻訳のルートキーをSFCへの相対...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/15/articles/aa8c322c85d27f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>まえがき
+このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
+詳しい手順の理解が必要であればリンク先を参照してほしい。
+https://zenn.dev/66ed3gs/articles/99aa613a86f21f
+https://zenn.dev/januswel/articles/402774d76424e71ac906
+
+ create-next-app
+ts版で実行する。
+
+      
+        
+        npx create-next-app --ts sample-app
+cd samp...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js（TypeScript）で Firebase を利用し, Google ログインを</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
+JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
+
+ 環境
+
+
+
+名前
+バージョン
+
+
+
+
+macOS Big Sur
+11.4
+
+
+Node.js
+16.4.1
+
+
+TypeScript
+4.3.5...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukihirop/articles/20920804228834">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
+https://zenn.dev/yukihirop/articles/b36c43014355fd
+前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
+前回のやり方には以下の問題がありました。
+
+      
+        
+        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
+- 生成物にファイル構造が分かってしまう情報が出てしまう
+ - 翻訳のルートキーをSFCへの相対...</span>
                   </div>
                 </a>
               </details>
@@ -3966,28 +4177,11 @@ php artisan ui vue --auth
             </article>
         </section>
       </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Electron API レシピブック 2021</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sprout2000/books/3691a679478de2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Electron の多彩な API を実例とともに紹介する Tips 集</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-18T01:06:20.929Z">2021-07-18T01:06:20.929Z</time>
+    <time id="build-timestamp" datetime="2021-07-19T01:04:40.869Z">2021-07-19T01:04:40.869Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

@@ -65,6 +65,34 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/15/articles/aa8c322c85d27f",
+          "author": "15",
+          "description": "まえがき\nこのあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。\n詳しい手順の理解が必要であればリンク先を参照してほしい。\nhttps://zenn.dev/66ed3gs/articles/99aa613a86f21f\nhttps://zenn.dev/januswel/articles/402774d76424e71ac906\n\n create-next-app\nts版で実行する。\n\n      \n        \n        npx create-next-app --ts sample-app\ncd samp...",
+          "link": "https://zenn.dev/15/articles/aa8c322c85d27f",
+          "publishedOn": "2021-07-18T04:27:20.000Z",
+          "wordCount": 104,
+          "title": "Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JOauVqs9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:15%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2520%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2583%25A1%25E3%2583%25A2%25202021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2520-%2520Yarn%252C%2520TypeScript%252C%2520ESLint%252C%2520Prettier%252C%2520VSCode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lCd2p5Q0htOUYzcmF6SW9SNU1jcXVidDc1cFdBUzdlQlRJYnpiYWc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
+          "author": "minguu",
+          "description": "はじめに\nこの記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.\nJavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.\n\n 環境\n\n\n\n名前\nバージョン\n\n\n\n\nmacOS Big Sur\n11.4\n\n\nNode.js\n16.4.1\n\n\nTypeScript\n4.3.5...",
+          "link": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
+          "publishedOn": "2021-07-18T00:16:08.000Z",
+          "wordCount": 542,
+          "title": "Next.js（TypeScript）で Firebase を利用し, Google ログインを",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZjMUES8F--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25EF%25BC%2588TypeScript%25EF%25BC%2589%25E3%2581%25A7%2520Firebase%2520%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%252C%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/aiji42/articles/1de8f9ea7b8a10",
           "author": "aiji42",
           "description": "https://twitter.com/aiji42_dev/status/1415711986608795648?s=20\n\n\nWhy Next.js\n私は、業務でもプライベートでも Next.js を使っています。\nNext.js は \"Zero Config\" をうたっているわけですが、実際業務で使うとなると、なかなか Zero とはいきません。IE11用にトランスパイルが必要になったり、ソースマップのアップロードのために webpack の拡張が必要なるケースにおいては、next.config.js のカスタマイズが必要になります。\nそういったカスタマイズをサポートし、設定のスト...",
@@ -722,6 +750,90 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos",
+          "author": "hiroga",
+          "description": "VSCodeでTypescriptを書くときに、「一文字も入力していないんだけど、予測変換が出てほしいな...」と思うことはありませんか？\nそれ、Trigger Suggestion で可能です。macOSユーザーで「何それ？」って人は、私のようにOSのショートカットと衝突しているせいで見逃しているかもしれないです。\n\n デモ\nCtrl + Spaceでショートカットを表示しています。\n\n\n Trigger Suggestionについて\nVSCodeには Trigger Suggestionというショートカットがあります。\nいまVSCodeを開いている人は、Cmd + Shift + P...",
+          "link": "https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos",
+          "publishedOn": "2021-07-18T12:22:01.000Z",
+          "wordCount": 79,
+          "title": "VSCodeのTrigger Suggestionの紹介と、macOSで有効化するための工夫",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KojUJ8-g--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hiroga%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:VSCode%25E3%2581%25AETrigger%2520Suggestion%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%25A8%25E3%2580%2581macOS%25E3%2581%25A7%25E6%259C%2589%25E5%258A%25B9%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E5%25B7%25A5%25E5%25A4%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pfZHF2VHk5OFdpTG1EZ1Q1Ry1jLVNmWjRwaEdCcGdncGVKSjhqUzhzPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sprout2000/books/9325fe6c9c1ba9",
+          "author": "sprout2000",
+          "description": "TypeScript を使ってオリジナルの NPM パッケージを作ろう！",
+          "link": "https://zenn.dev/sprout2000/books/9325fe6c9c1ba9",
+          "publishedOn": "2021-07-18T08:17:52.000Z",
+          "wordCount": 22,
+          "title": "NPM パッケージ作成講座",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--A6tGhsjn--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci8zZWQwMWM3Mjc1LmpwZw==%2Cw_200/v1604564438/og_book_base_ndpqis.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/cec625e3b6aa7b",
+          "author": "chida",
+          "description": "はじめに\nMockとStubの違いをソースコードレベルで理解出来ていないと思い、記事を書いて整理してみました。色々検索して調べましたが、もし間違えている箇所がありましたら、ご指摘いただけると有り難いです。\n\n Test Doubleとは\nTest Doubleは、テストの対象が他のモジュール（クラスや関数など）に依存している場合、その代役として使われるモジュールのことです。\nTestsDoublesの作成者であるGerardMeszarosによると、Test Doubleは5つのカテゴリに分類できます。その中でも今回は、JestでMockとStubについて書きます。\n\nhttp://...",
+          "link": "https://zenn.dev/chida/articles/cec625e3b6aa7b",
+          "publishedOn": "2021-07-18T07:24:04.000Z",
+          "wordCount": 248,
+          "title": "【Test Double】JestでMockとStubを確認する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--SEVL0QjM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Test%2520Double%25E3%2580%2591Jest%25E3%2581%25A7Mock%25E3%2581%25A8Stub%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ezryow/articles/08d8a7bf16ac1f",
+          "author": "EZryow",
+          "description": "いつも忘れてしまうので，書きます．\nHogeButton.svelteがあります．\n\n      \n        \n        <button on:click>ClickMe</button>\n\n\n      \n      on:clickは通常on:click={f}などの形式で，呼び出し関数を波括弧の中に書きますが，上記例では何も書いていません．\nそして，propsとして呼び出したい関数は次のような形式で渡します．\n\n      \n        \n        <script lang=\"ts\">\n    import HogeButt...",
+          "link": "https://zenn.dev/ezryow/articles/08d8a7bf16ac1f",
+          "publishedOn": "2021-07-18T06:18:48.000Z",
+          "wordCount": 30,
+          "title": "【Svelte】on:clickで呼ばれる関数をpropsとして渡す方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Dglz5Ye3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:EZryow%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Svelte%25E3%2580%2591on%253Aclick%25E3%2581%25A7%25E5%2591%25BC%25E3%2581%25B0%25E3%2582%258C%25E3%2582%258B%25E9%2596%25A2%25E6%2595%25B0%25E3%2582%2592props%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E6%25B8%25A1%25E3%2581%2599%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzVkYzllOWQ1NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yukihirop/articles/20920804228834",
+          "author": "yukihirop",
+          "description": "はじめに\nこの記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。\nhttps://zenn.dev/yukihirop/articles/b36c43014355fd\n前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀\n前回のやり方には以下の問題がありました。\n\n      \n        \n        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった\n- 生成物にファイル構造が分かってしまう情報が出てしまう\n - 翻訳のルートキーをSFCへの相対...",
+          "link": "https://zenn.dev/yukihirop/articles/20920804228834",
+          "publishedOn": "2021-07-18T05:34:39.000Z",
+          "wordCount": 397,
+          "title": "vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4JjmdK_m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592yaml%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%258B%25E3%2581%25A4%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%255B%25E6%2594%25B9%25E8%2589%25AF%25E7%2589%2588%255D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/15/articles/aa8c322c85d27f",
+          "author": "15",
+          "description": "まえがき\nこのあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。\n詳しい手順の理解が必要であればリンク先を参照してほしい。\nhttps://zenn.dev/66ed3gs/articles/99aa613a86f21f\nhttps://zenn.dev/januswel/articles/402774d76424e71ac906\n\n create-next-app\nts版で実行する。\n\n      \n        \n        npx create-next-app --ts sample-app\ncd samp...",
+          "link": "https://zenn.dev/15/articles/aa8c322c85d27f",
+          "publishedOn": "2021-07-18T04:27:20.000Z",
+          "wordCount": 104,
+          "title": "Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JOauVqs9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:15%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2520%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2583%25A1%25E3%2583%25A2%25202021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2520-%2520Yarn%252C%2520TypeScript%252C%2520ESLint%252C%2520Prettier%252C%2520VSCode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lCd2p5Q0htOUYzcmF6SW9SNU1jcXVidDc1cFdBUzdlQlRJYnpiYWc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
           "author": "minguu",
@@ -1463,20 +1575,6 @@
             "length": "0",
             "type": "image/jpeg"
           }
-        },
-        {
-          "id": "https://zenn.dev/sprout2000/books/3691a679478de2",
-          "author": "sprout2000",
-          "description": "Electron の多彩な API を実例とともに紹介する Tips 集",
-          "link": "https://zenn.dev/sprout2000/books/3691a679478de2",
-          "publishedOn": "2021-06-19T08:12:26.000Z",
-          "wordCount": 60,
-          "title": "Electron API レシピブック 2021",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vOALrMEm--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci83NzRmODc4MDc4LmpwZw==%2Cw_200/v1604564438/og_book_base_ndpqis.jpg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
         }
       ]
     },
@@ -1646,6 +1744,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/yukihirop/articles/20920804228834",
+          "author": "yukihirop",
+          "description": "はじめに\nこの記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。\nhttps://zenn.dev/yukihirop/articles/b36c43014355fd\n前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀\n前回のやり方には以下の問題がありました。\n\n      \n        \n        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった\n- 生成物にファイル構造が分かってしまう情報が出てしまう\n - 翻訳のルートキーをSFCへの相対...",
+          "link": "https://zenn.dev/yukihirop/articles/20920804228834",
+          "publishedOn": "2021-07-18T05:34:39.000Z",
+          "wordCount": 397,
+          "title": "vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4JjmdK_m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592yaml%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%258B%25E3%2581%25A4%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%255B%25E6%2594%25B9%25E8%2589%25AF%25E7%2589%2588%255D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/nappa/articles/e7759c7e65df9a",
           "author": "nappa",
