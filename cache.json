@@ -728,20 +728,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/tanoken729/articles/bada725ab82399",
-          "author": "tanoken",
-          "description": "同じプロジェクトでvueを使う場合のみ？\nLaravel6からデフォルトで入っているモダンフロントエンドフレームワーク(Vue、React等)をLaravelで使う事ができるライブラリ\n\n laravel-uiのインストール\n以下を実施\n\n      \n        \n        composer require laravel/ui \"^1.0\" --dev\n\nphp artisan ui vue --auth\n\n\n      \n      \n スカフォールド（足場）を各フレームワークから選べる\n\n      \n        \n        php artisan ui bo...",
-          "link": "https://zenn.dev/tanoken729/articles/bada725ab82399",
-          "publishedOn": "2021-06-19T16:09:58.000Z",
-          "wordCount": 60,
-          "title": "【ログイン機能】laravel-ui",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--blYJWEb_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2580%2590%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591laravel-ui%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -750,6 +736,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/himenon/articles/4c6d7ed8b7df30",
+          "author": "Himenon",
+          "description": "配列操作を利用した検索機能を紹介します。UI化することで利便性が一気に向上する機能を紹介します。\n\n DEMO\nまずはデモです。入力欄に適当なアルファベットを入力することで、続くリストが増減します。\n\n※ DemoのサンプルデータはWikipediaのプログラミング言語を利用しています。\n\n 基本的な仕組み\n基本的な仕組みはfitlerを利用した配列操作です。\n\n      \n        \n        [\"a\", \"b\", \"c\"].filter((text) => {\n  return text === \"a\";\n});\n// #=> [\"a\"];\n\n\n      ...",
+          "link": "https://zenn.dev/himenon/articles/4c6d7ed8b7df30",
+          "publishedOn": "2021-07-19T12:36:13.000Z",
+          "wordCount": 169,
+          "title": "Reactで作る簡易検索機能",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s---kmYUMvB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Himenon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:React%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E7%25B0%25A1%25E6%2598%2593%25E6%25A4%259C%25E7%25B4%25A2%25E6%25A9%259F%25E8%2583%25BD%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDJhOTlkZTcwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
+          "author": "白雀",
+          "description": "Next + typescript で i18n 対応し、SSR、SSG を行う example\n本項では、Next を使用して i18n 対応(SSR, SSG)を方法を解説します。\n\n 記事の要約\n\n\nnext-i18nextを使うとi18nextを使用して、SSR、SSG を比較的手軽に行う事ができる\n\nreact-i18nextは typescript 対応を行っているので、.d.tsでネームスペースごとに追加の定義を行うと便利\n\n参考\n\n\ni18n 対応時はnext-seoが便利\n\ni18n 対応していない場合も便利\ni18n 対応時はalternatesの設定をきちんとす...",
+          "link": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
+          "publishedOn": "2021-07-19T10:11:01.000Z",
+          "wordCount": 801,
+          "title": "Next + typescript で i18n対応し、SSR、SSGを行うexample",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--w9oO3BM3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%2599%25BD%25E9%259B%2580%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next%2520%252B%2520typescript%2520%25E3%2581%25A7%2520i18n%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2597%25E3%2580%2581SSR%25E3%2580%2581SSG%25E3%2582%2592%25E8%25A1%258C%25E3%2581%2586example%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODcyNGZlMmIxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eitches/articles/2021-0719-api-routes-http-request-type",
+          "author": "eitches",
+          "description": "前提\nNext.jsでAPI Routesを使用する際、以下のようなコードを書くと思います。\n\n      \n        \n        const handler = (req, res) => { \n  res.status(200).json({ ... })\n}\n\nexport default handler\n\n\n      \n      このreq, resに型をつける方法がわからなかったので調べました。\n\n Next.jsの公式ページを確認する\n公式ページのAPI Routesの部分にreq, resについての情報がありました。\nhttps://nextjs....",
+          "link": "https://zenn.dev/eitches/articles/2021-0719-api-routes-http-request-type",
+          "publishedOn": "2021-07-19T09:47:20.000Z",
+          "wordCount": 180,
+          "title": "[Next] API Routesのreq, resの型について",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--rkD4xzJB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eitches%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BNext%255D%2520API%2520Routes%25E3%2581%25AEreq%252C%2520res%25E3%2581%25AE%25E5%259E%258B%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzZkOTA5ZTVjNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos",
           "author": "hiroga",
@@ -1584,6 +1612,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/skanehira/articles/2021-07-18-vim-denops-docker",
+          "author": "シン・ゴリラ@上野動物園休園中",
+          "description": "初めに\n最近denops.vimを使ってプラグインを作るのが自分の中で流行っています。\ndenops.vimはTypeScriptメインでVim/Neovim対応のプラグインを書けるところが魅力的で、型システムがあることでデータ構造が明確にわかるためとても書きやすいので、\n今後プラグインを作るときは基本denops.vimで書こうと考えています。\ndenops.vimの詳細に関してこれ以上触れないので、気になる方はこちらの記事を参照してください。\n本題ですが、Vimを初めたころにdocker.vimというプラグインを作りました。\n本記事はdocker.vimをdenops.vimで書...",
+          "link": "https://zenn.dev/skanehira/articles/2021-07-18-vim-denops-docker",
+          "publishedOn": "2021-07-19T01:50:16.000Z",
+          "wordCount": 187,
+          "title": "Vim/Neovimでdockerを操作できるdenops-docker.vimを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wUCkHOzF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%25BB%25E3%2582%25B4%25E3%2583%25AA%25E3%2583%25A9%2540%25E4%25B8%258A%25E9%2587%258E%25E5%258B%2595%25E7%2589%25A9%25E5%259C%2592%25E4%25BC%2591%25E5%259C%2592%25E4%25B8%25AD%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vim%252FNeovim%25E3%2581%25A7docker%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258Bdenops-docker.vim%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fY2VhMGI1MzMxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/hhatto/articles/38cc31b301ede3",
           "author": "hhatto",
           "description": "'sys' imported but unused はflake8による警告メッセージ\n\n 結論\nlet g:lsp_diagnostics_virtual_text_enabled = 0 の設定にしておく\n\n 使用環境\n\nneovim(NVIM): v0.5.0\n\n\n 設定ファイル\n\n      \n        .config/nvim/init.vim\n        call plug#begin('~/.config/nvim/plugged')\nPlug 'prabirshrestha/vim-lsp'\nPlug 'mattn/vim-lsp-settings'\ncall...",
@@ -1719,20 +1761,6 @@
           "title": "VIMの起動時間の調査方法",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--c9KcEw0c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:VIM%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E8%25AA%25BF%25E6%259F%25BB%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kawarimidoll/articles/1c48c097020cbc",
-          "author": "kawarimidoll",
-          "description": "Denoの開発をする際に毎回同じような設定を行っているのでテンプレートリポジトリを作りました。\nhttps://github.com/kawarimidoll/deno-dev-template\n作業記録（Zenn scrap）はこちら\n\n Loggerの設定\n出力したログがコンソールだけでなくファイルに残っていると後から見直しやすく便利です。\nこれに関しては以下の記事でまとめました。\nhttps://zenn.dev/kawarimidoll/articles/b1d9bc15aaa99c\nここで作ったlogger.tsを入れておきます。\n\n Dotenvの設定\ndotenvも使用頻度...",
-          "link": "https://zenn.dev/kawarimidoll/articles/1c48c097020cbc",
-          "publishedOn": "2021-06-20T12:06:58.000Z",
-          "wordCount": 204,
-          "title": "Denoを（Vimで）開発するときのテンプレートを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--gPsE3pbI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E3%2582%2592%25EF%25BC%2588Vim%25E3%2581%25A7%25EF%25BC%2589%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

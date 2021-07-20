@@ -77,6 +77,124 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-19">2021-07-19</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reactで作る簡易検索機能</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/himenon/articles/4c6d7ed8b7df30">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>配列操作を利用した検索機能を紹介します。UI化することで利便性が一気に向上する機能を紹介します。
+
+ DEMO
+まずはデモです。入力欄に適当なアルファベットを入力することで、続くリストが増減します。
+
+※ DemoのサンプルデータはWikipediaのプログラミング言語を利用しています。
+
+ 基本的な仕組み
+基本的な仕組みはfitlerを利用した配列操作です。
+
+      
+        
+        [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;].filter((text) &#x3D;&gt; {
+  return text &#x3D;&#x3D;&#x3D; &quot;a&quot;;
+});
+// #&#x3D;&gt; [&quot;a&quot;];
+
+
+      ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next + typescript で i18n対応し、SSR、SSGを行うexample</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sirosuzume/articles/393b17b21034a7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Next + typescript で i18n 対応し、SSR、SSG を行う example
+本項では、Next を使用して i18n 対応(SSR, SSG)を方法を解説します。
+
+ 記事の要約
+
+
+next-i18nextを使うとi18nextを使用して、SSR、SSG を比較的手軽に行う事ができる
+
+react-i18nextは typescript 対応を行っているので、.d.tsでネームスペースごとに追加の定義を行うと便利
+
+参考
+
+
+i18n 対応時はnext-seoが便利
+
+i18n 対応していない場合も便利
+i18n 対応時はalternatesの設定をきちんとす...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Next] API Routesのreq, resの型について</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/eitches/articles/2021-0719-api-routes-http-request-type">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>前提
+Next.jsでAPI Routesを使用する際、以下のようなコードを書くと思います。
+
+      
+        
+        const handler &#x3D; (req, res) &#x3D;&gt; { 
+  res.status(200).json({ ... })
+}
+
+export default handler
+
+
+      
+      このreq, resに型をつける方法がわからなかったので調べました。
+
+ Next.jsの公式ページを確認する
+公式ページのAPI Routesの部分にreq, resについての情報がありました。
+https://nextjs....</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vim/Neovimでdockerを操作できるdenops-docker.vimを作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/skanehira/articles/2021-07-18-vim-denops-docker">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>初めに
+最近denops.vimを使ってプラグインを作るのが自分の中で流行っています。
+denops.vimはTypeScriptメインでVim/Neovim対応のプラグインを書けるところが魅力的で、型システムがあることでデータ構造が明確にわかるためとても書きやすいので、
+今後プラグインを作るときは基本denops.vimで書こうと考えています。
+denops.vimの詳細に関してこれ以上触れないので、気になる方はこちらの記事を参照してください。
+本題ですが、Vimを初めたころにdocker.vimというプラグインを作りました。
+本記事はdocker.vimをdenops.vimで書...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-18">2021-07-18</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -4109,83 +4227,9 @@ vim/neovim には --startuptime という起動時間の内訳を調査するた
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-20">2021-06-20</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Denoを（Vimで）開発するときのテンプレートを作った</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/1c48c097020cbc">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Denoの開発をする際に毎回同じような設定を行っているのでテンプレートリポジトリを作りました。
-https://github.com/kawarimidoll/deno-dev-template
-作業記録（Zenn scrap）はこちら
-
- Loggerの設定
-出力したログがコンソールだけでなくファイルに残っていると後から見直しやすく便利です。
-これに関しては以下の記事でまとめました。
-https://zenn.dev/kawarimidoll/articles/b1d9bc15aaa99c
-ここで作ったlogger.tsを入れておきます。
-
- Dotenvの設定
-dotenvも使用頻度...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-19">2021-06-19</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【ログイン機能】laravel-ui</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/bada725ab82399">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>同じプロジェクトでvueを使う場合のみ？
-Laravel6からデフォルトで入っているモダンフロントエンドフレームワーク(Vue、React等)をLaravelで使う事ができるライブラリ
-
- laravel-uiのインストール
-以下を実施
-
-      
-        
-        composer require laravel/ui &quot;^1.0&quot; --dev
-
-php artisan ui vue --auth
-
-
-      
-      
- スカフォールド（足場）を各フレームワークから選べる
-
-      
-        
-        php artisan ui bo...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-19T01:14:41.399Z">2021-07-19T01:14:41.399Z</time>
+    <time id="build-timestamp" datetime="2021-07-20T01:09:44.303Z">2021-07-20T01:09:44.303Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
