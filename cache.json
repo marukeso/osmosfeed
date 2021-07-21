@@ -22,6 +22,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/",
+          "author": null,
+          "description": "JSer.info #549 - Node.js 16.5.0がリリースされました。\nNode v16.5.0 (Current) | Node.js\n16.5.0では試験的に、WHATWGで仕様策定されウェブブラウザに実装されているWHATWG Streams APIが実装されました。(stream/web)\nNode.js Stream APIがありますが、これとは異なる実装です。\nNode.js StreamとWHATWG Streamの違いについては次のドキュメントにも書かれています。\nstreams/FAQ.md at main · whatwg/streams\nNode.jsでWHATWG Streamを実装している理由としてはQUIC/HTTP3のサポートなどが挙げられています。\nHTTP/3 support · Issue #38478 · nodejs/node\nまた、Node.js StreamとWHATWG Streamの棲み分けや相互運用性については次のIssueで議論されています。\nFuture of streams · Issue #39093 · nodejs/node\nnpm 7.20.0がリリースされました。\nRelease v7.20.0 · npm/cli\nnpm 7.20.0では、package.jsonの任意のフィールドを読み書きできるnpm pkgコマンドが追加されています。\nfeat: npm pkg by ruyadorno · Pull Request #3487 · npm/cli\nThe Road to Ember 4.0という記事では、Ember 4のロードマップが公開されています。\nEmber 4は2021年9月20日にリリース予定としています。\nそれぞれのマイグレーションガイドも公開されています。\nEmber.js…",
+          "link": "https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/",
+          "publishedOn": "2021-07-20T02:16:58.000Z",
+          "wordCount": 460,
+          "title": "2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(`npm pkg`)、Ember 4のロードマップ"
+        },
+        {
           "id": "https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/",
           "author": null,
           "description": "JSer.info #548 - Firefox 90がリリースされました。\nFirefox 90.0, See All New Features, Updates and Fixes\nFirefox 90 for developers - Mozilla | MDN\nFirefox 90ではECMAScript Proposal Stage 4のPrivate class fieldsをデフォルトでサポート、Stage 3のString/Arrayのat()をサポートしています。FTPサポートの削除、WheelEventの互換性を改善なども含まれています。\nまた、Chromeでも実装されていたFetch metadata request headersが実装されています。\nSec-Fetch-Site、Sec-Fetch-Mode、Sec-Fetch-User、Sec-Fetch-Destのリクエストヘッダがそれぞれのリクエストに追加され、サーバ側でのチェックに利用できます。\nFirefox 90 supports Fetch Metadata Request Headers - Mozilla Security Blog\nProtect your resources from web attacks with Fetch Metadata\nFetch metadata request headersはSafariとIE以外のブラウザで実装されています。\nnpm audit: Broken by Design — Overreactedという記事では、create-react-appを例に npm audit で報告される脆弱性の問題について書かれています。\n報告される脆弱性の殆どはReDOSとなっていて、devDependenciesとして扱うツールにおいてはfalse…",
@@ -64,6 +73,20 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
+          "author": "白雀",
+          "description": "Next + typescript で i18n 対応し、SSR、SSG を行う example\n本項では、Next を使用して i18n 対応(SSR, SSG)を方法を解説します。\n\n 記事の要約\n\n\nnext-i18nextを使うとi18nextを使用して、SSR、SSG を比較的手軽に行う事ができる\n\nreact-i18nextは typescript 対応を行っているので、.d.tsでネームスペースごとに追加の定義を行うと便利\n\n参考\n\n\ni18n 対応時はnext-seoが便利\n\ni18n 対応していない場合も便利\ni18n 対応時はalternatesの設定をきちんとす...",
+          "link": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
+          "publishedOn": "2021-07-19T10:11:01.000Z",
+          "wordCount": 801,
+          "title": "Next + typescript で i18n対応し、SSR、SSGを行うexample",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--w9oO3BM3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%2599%25BD%25E9%259B%2580%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next%2520%252B%2520typescript%2520%25E3%2581%25A7%2520i18n%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2597%25E3%2580%2581SSR%25E3%2580%2581SSG%25E3%2582%2592%25E8%25A1%258C%25E3%2581%2586example%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODcyNGZlMmIxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/15/articles/aa8c322c85d27f",
           "author": "15",
@@ -736,6 +759,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1",
+          "author": "tak_iwamoto",
+          "description": "Ptera\n\nDenoのDateTimeライブラリであるPteraをリリースしたので、その紹介(宣伝)をします。\n素敵なロゴはDenoのイラストを数多く書いてらっしゃる hashrockさんにデザインしていただきました！\nこれまでNode.jsのライブラリはMoment.js、Day.js、Luxon、date-fns\nなどいくつか選択肢がありました。\nただ、Denoで書かれているThird Partyライブラリは自分が調査した限り見当たらなかったので、作ってみました。\n\n Getting Started\nメインで使用するAPIはdatetimeです。\n引数なしの場合、ローカルの現在...",
+          "link": "https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1",
+          "publishedOn": "2021-07-20T00:48:58.000Z",
+          "wordCount": 360,
+          "title": "DenoのDateTimeライブラリPteraをリリースしました",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--kw-t9byB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tak_iwamoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E3%2581%25AEDateTime%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AAPtera%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWZjMDRlNjU3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/himenon/articles/4c6d7ed8b7df30",
           "author": "Himenon",

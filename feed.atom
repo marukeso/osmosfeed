@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-20T01:09:44.326Z</updated>
+    <updated>2021-07-21T01:05:53.750Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(`npm pkg`)、Ember 4のロードマップ]]></title>
+        <id>https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/</id>
+        <link href="https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/"/>
+        <updated>2021-07-20T02:16:58.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #549 - Node.js 16.5.0がリリースされました。
+Node v16.5.0 (Current) | Node.js
+16.5.0では試験的に、WHATWGで仕様策定されウェブブラウザに実装されているWHATWG Streams APIが実装されました。(stream/web)
+Node.js Stream APIがありますが、これとは異なる実装です。
+Node.js StreamとWHATWG Streamの違いについては次のドキュメントにも書かれています。
+streams/FAQ.md at main · whatwg/streams
+Node.jsでWHATWG Streamを実装している理由としてはQUIC/HTTP3のサポートなどが挙げられています。
+HTTP/3 support · Issue #38478 · nodejs/node
+また、Node.js StreamとWHATWG Streamの棲み分けや相互運用性については次のIssueで議論されています。
+Future of streams · Issue #39093 · nodejs/node
+npm 7.20.0がリリースされました。
+Release v7.20.0 · npm/cli
+npm 7.20.0では、package.jsonの任意のフィールドを読み書きできるnpm pkgコマンドが追加されています。
+feat: npm pkg by ruyadorno · Pull Request #3487 · npm/cli
+The Road to Ember 4.0という記事では、Ember 4のロードマップが公開されています。
+Ember 4は2021年9月20日にリリース予定としています。
+それぞれのマイグレーションガイドも公開されています。
+Ember.js…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DenoのDateTimeライブラリPteraをリリースしました]]></title>
+        <id>https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1</id>
+        <link href="https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1"/>
+        <updated>2021-07-20T00:48:58.000Z</updated>
+        <summary type="html"><![CDATA[Ptera
+
+DenoのDateTimeライブラリであるPteraをリリースしたので、その紹介(宣伝)をします。
+素敵なロゴはDenoのイラストを数多く書いてらっしゃる hashrockさんにデザインしていただきました！
+これまでNode.jsのライブラリはMoment.js、Day.js、Luxon、date-fns
+などいくつか選択肢がありました。
+ただ、Denoで書かれているThird Partyライブラリは自分が調査した限り見当たらなかったので、作ってみました。
+
+ Getting Started
+メインで使用するAPIはdatetimeです。
+引数なしの場合、ローカルの現在...]]></summary>
+        <author>
+            <name>tak_iwamoto</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reactで作る簡易検索機能]]></title>
         <id>https://zenn.dev/himenon/articles/4c6d7ed8b7df30</id>
@@ -32,6 +79,32 @@
       ...]]></summary>
         <author>
             <name>Himenon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next + typescript で i18n対応し、SSR、SSGを行うexample]]></title>
+        <id>https://zenn.dev/sirosuzume/articles/393b17b21034a7</id>
+        <link href="https://zenn.dev/sirosuzume/articles/393b17b21034a7"/>
+        <updated>2021-07-19T10:11:01.000Z</updated>
+        <summary type="html"><![CDATA[Next + typescript で i18n 対応し、SSR、SSG を行う example
+本項では、Next を使用して i18n 対応(SSR, SSG)を方法を解説します。
+
+ 記事の要約
+
+
+next-i18nextを使うとi18nextを使用して、SSR、SSG を比較的手軽に行う事ができる
+
+react-i18nextは typescript 対応を行っているので、.d.tsでネームスペースごとに追加の定義を行うと便利
+
+参考
+
+
+i18n 対応時はnext-seoが便利
+
+i18n 対応していない場合も便利
+i18n 対応時はalternatesの設定をきちんとす...]]></summary>
+        <author>
+            <name>白雀</name>
         </author>
     </entry>
     <entry>
