@@ -56,15 +56,6 @@
           "publishedOn": "2021-06-29T01:10:45.000Z",
           "wordCount": 411,
           "title": "2021-06-29のJS: ES2021公開、Storybook 6.3、styled-componentsの仕組み"
-        },
-        {
-          "id": "https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/",
-          "author": null,
-          "description": "JSer.info #545 - Node.js向けのHTTPクライアントであるUndici 4がリリースされました。\nIntroducing Undici@4. After a few years since the first… | by Node.js | Jun, 2021 | Medium\nRelease v4.0.0 - Unified API, Docs Site, WASM, Redirect and Mocking · nodejs/undici\nUndiciは、Node.jsのhttpの代わりとして使えるように、netやtlsを使って一から書き直されているHTTPクライアントです。\nIt’s implemented from scratch. The old client cannot be due to inefficient design of the internals, as well as years of maintaining legacy APIs!\n— Matteo Collina (@matteocollina) February 15, 2021\n \n\nUndici 4.0では、Node.js 10のサポートが終了されています。\nmaxRedirectionsでのリダイレクトサポート、nockをインスパイアしたモックのサポートなどが含まれています。\nまた、4.0にあわせて https://undici.nodejs.org/ にウェブサイトが公開されています。\nNext.js 11がリリースされました。\nBlog - Next.js 11 | Next.js\nNext.js向けの設定でLintをするnpx next lintというESLintの連携が追加されています。\nBasic Features: ESLint | Next.js…",
-          "link": "https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/",
-          "publishedOn": "2021-06-22T00:30:43.000Z",
-          "wordCount": 561,
-          "title": "2021-06-22のJS: undici 4.0.0(HTTPクライアント)、Next.js 11、Safari 15 Beta"
         }
       ]
     },
@@ -73,6 +64,48 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e",
+          "author": "かわみつ",
+          "description": "今回は認証サーバとしてLaravelを使った場合を想定したOAuth2の認可コードフローに基づいた認証機能の実装をしていきます。\nNext.jsでは認証を楽に作れるNextAuthというライブラリがあるので、今回はそれを使っていきますが、NextAuthはパスワードなしの認証(Passwordless Authentication)を推奨しているということもあり、OAuth2の認可コードフロー実装に関する情報が少ないように思えたので備忘録も兼ねて記事として残してみます。\n今回Laravel側で認証基盤を実装するためのものとしてLaravel Passportを使います。\nOAuthで定義...",
+          "link": "https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e",
+          "publishedOn": "2021-07-21T12:59:55.000Z",
+          "wordCount": 732,
+          "title": "Next.js + TypeScript + Laravel Passportで実装するOAuth2認証",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--HpUOSroa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258B%25E3%2582%258F%25E3%2581%25BF%25E3%2581%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%252B%2520TypeScript%2520%252B%2520Laravel%2520Passport%25E3%2581%25A7%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258BOAuth2%25E8%25AA%258D%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTk5NmU1N2I4OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hokaccha/articles/887e1af361faa8",
+          "author": "hokaccha",
+          "description": "https://github.com/hokaccha/electron-template-2021\n作ったので公開しておくが、こういうテンプレートはメンテしないとすぐ腐ってしまうけどメンテするモチベーションも特にないのでスナップショットという意味合いも込めて2021をつけている。\n\n electron-next\nベースに electron-next というのを使っていて、これがけっこうよくできていた。やっていることはシンプルで、レンダラプロセスに Next.js を使っていて、開発時は Next.js のサーバーを起動し、production build では next export ...",
+          "link": "https://zenn.dev/hokaccha/articles/887e1af361faa8",
+          "publishedOn": "2021-07-20T14:58:32.000Z",
+          "wordCount": 262,
+          "title": "Electron アプリのテンプレート 2021",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4FBoJrGv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hokaccha%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Electron%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25202021%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lpYWctanVyZUl3Q21TY0ZpclkwaUo0eXppaGZYekxOc1RfejZNX3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nshiro/articles/49b0c7b5fabef5",
+          "author": "nshiro",
+          "description": "Laravel 作成者の Taylor さんより、Next.js スターターキットがリリースされました。\nhttps://twitter.com/taylorotwell/status/1417148351506681859\nhttps://github.com/taylorotwell/next-example-frontend\nhttps://github.com/taylorotwell/next-example-backend\nTaylor さん個人のリポジトリなので、Laravel 公式という訳では無いですが、まぁ、Laravel 作成者の方ですからね。半分公式と言えなくはない...",
+          "link": "https://zenn.dev/nshiro/articles/49b0c7b5fabef5",
+          "publishedOn": "2021-07-20T07:16:47.000Z",
+          "wordCount": 41,
+          "title": "Laravel 非公式（半分公式？）な Next.js スターターキット登場",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--W-oCjHNV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nshiro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Laravel%2520%25E9%259D%259E%25E5%2585%25AC%25E5%25BC%258F%25EF%25BC%2588%25E5%258D%258A%25E5%2588%2586%25E5%2585%25AC%25E5%25BC%258F%25EF%25BC%259F%25EF%25BC%2589%25E3%2581%25AA%2520Next.js%2520%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%25AD%25E3%2583%2583%25E3%2583%2588%25E7%2599%25BB%25E5%25A0%25B4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODU5NTMxMmFlNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
           "author": "白雀",
@@ -759,6 +792,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kondo_script/articles/adef37669545a1",
+          "author": "kondo_script",
+          "description": "前編の続きです\n\n 要約\n\nAndroid/iOSともに殆どネイティブアプリを触ったことがない人が頑張った話\n\nKotlin/Objective-Cデビューしながらの体験記です\n誤記/誤解などありましたらDiscussionで教えてください🙏\n\n\nReact Native 対応は結構しんどい\n\n公式から RN のライブラリは出ていない  - サンプル はある\nkotlin/Objective-Cの知識が必要\nios/androidともにシミュレータだと動作に問題があるため開発には 実機が必須 となる\n\n\n\n\n 前提 amazon-chime-sdkとreact-native\n公式からre...",
+          "link": "https://zenn.dev/kondo_script/articles/adef37669545a1",
+          "publishedOn": "2021-07-21T15:00:39.000Z",
+          "wordCount": 155,
+          "title": "amazon-chime-sdk でWebとReact Nativeでビデオ通話ができるアプリを作る(後編)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--hbcZezl---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kondo_script%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:amazon-chime-sdk%2520%25E3%2581%25A7Web%25E3%2581%25A8React%2520Native%25E3%2581%25A7%25E3%2583%2593%25E3%2583%2587%25E3%2582%25AA%25E9%2580%259A%25E8%25A9%25B1%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2528%25E5%25BE%258C%25E7%25B7%25A8%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzdhYjk3MmU5Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs",
+          "author": "Moriya Hiroyuki",
+          "description": "はじめに\nCloudFront のログを解析して、リクエストされたパスごとの転送容量を出したい、という場面があったので、その時にやったことのメモです。\n半分は備忘録として、半分は誰かやってみたい人もいるかも、と思ったので書き残しておこうと思った次第です。\n\n CloudFront のログ\nCloudFront で設定しておけば、S3バケットに出力されます。\n詳しくはこちらの公式ドキュメントをご覧ください。\nhttps://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html\n\n...",
+          "link": "https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs",
+          "publishedOn": "2021-07-21T09:55:56.000Z",
+          "wordCount": 473,
+          "title": "CloudFront のログを JS (TS) で分析する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--i5w7bVVI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Moriya%2520Hiroyuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:CloudFront%2520%25E3%2581%25AE%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592%2520JS%2520%2528TS%2529%2520%25E3%2581%25A7%25E5%2588%2586%25E6%259E%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pqUDk2YWdEUGQzSllKWi1DT0NlemZQcVVvOVVHRmR0Q3p3UTF3PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime",
+          "author": "wok",
+          "description": "この記事は、こちらの記事を改変したものになります。\nhttps://cloud.flect.co.jp/entry/2021/07/21/113845\n\nこんにちは。\nオリンピックの開催が間近になりましたが、最近はデジタルの界隈でもe-sportsがにわかに注目を集め始めていますね。これを後押しするというわけでもありませんが、今回はAmazon Chime SDK JSを用いてマルチプレイヤーゲームの実況配信システムを作ってみたいと思います。特に今回は、公式がファン創作についてポリシーを明確にしてくれているAmong Usを題材にしてみようと思います(ref)。\n具体的には下図のような...",
+          "link": "https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime",
+          "publishedOn": "2021-07-21T02:41:12.000Z",
+          "wordCount": 223,
+          "title": "マルチプレイヤーゲーム実況システムをAmazon Chime SDK JSで作る。 - Among Us Auto Mute -",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--nit7nRdd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:wok%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2583%259E%25E3%2583%25AB%25E3%2583%2581%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25A4%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E5%25AE%259F%25E6%25B3%2581%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2582%2592Amazon%2520Chime%2520SDK%2520JS%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E3%2580%2582%2520-%2520Among%2520Us%2520Auto%2520Mute%2520-%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hZemxmeFk4WFJDTHJzM1VvRWI2YmI0cEVhem1kTDg5ejFXQnFZdVE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1",
           "author": "tak_iwamoto",
@@ -1649,6 +1724,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/ssssssigma/articles/coding-on-smartphone-1",
+          "author": "sigma",
+          "description": "スマホでコードを書くとなると、パソコンの場合と前提条件が異なります。スマホは画面が小さく、可能な限りテキスト編集のみにリソースを割くべきで、また、スマホのIMEを使った快適なテキスト編集のため、高度な補完も大切です。任意のキーバインドが使えることもアドバンテージとなるでしょう。\n\n Vimを使う\nスマホでVimを使うことは非常に理に適っています。Vimはディスプレイが限られた文字数の文字しか表示できない時代から支持されてきたエディタであり、またスマホのテキストの表示能力はその時代のディスプレイよりもリッチです。\nまた、Vimはキーボードが標準化される前から存在していてスマホのIMEのよう...",
+          "link": "https://zenn.dev/ssssssigma/articles/coding-on-smartphone-1",
+          "publishedOn": "2021-07-21T18:26:58.000Z",
+          "wordCount": 239,
+          "title": "スマホでコード書く 環境構築編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ICQ7Uvci--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sigma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25A7%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E6%259B%25B8%25E3%2581%258F%2520%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E7%25B7%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZGZmYmRlM2I0Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/skanehira/articles/2021-07-18-vim-denops-docker",
           "author": "シン・ゴリラ@上野動物園休園中",
           "description": "初めに\n最近denops.vimを使ってプラグインを作るのが自分の中で流行っています。\ndenops.vimはTypeScriptメインでVim/Neovim対応のプラグインを書けるところが魅力的で、型システムがあることでデータ構造が明確にわかるためとても書きやすいので、\n今後プラグインを作るときは基本denops.vimで書こうと考えています。\ndenops.vimの詳細に関してこれ以上触れないので、気になる方はこちらの記事を参照してください。\n本題ですが、Vimを初めたころにdocker.vimというプラグインを作りました。\n本記事はdocker.vimをdenops.vimで書...",
@@ -1784,20 +1873,6 @@
           "title": "2021年版 vim + goplsの設定",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--2jrN75bq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:2021%25E5%25B9%25B4%25E7%2589%2588%2520vim%2520%252B%2520gopls%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uu64/articles/6518c75cdf5e02",
-          "author": "uu",
-          "description": "最近 VIM の起動時間が遅いことが気になり、高速化のために起動時間の内訳を調査した。\n歴戦の Vimmer の皆様には常識かもしれないが、私のような VIM 初学者の助けになればと思い調査方法を備忘録として残す。\n\n --startuptime オプション\nvim/neovim には --startuptime という起動時間の内訳を調査するための\nオプションが用意されている。\n以下のようにして用いる。オプションの後ろに指定したファイルパスに、起動ログが出力される。\n\n      \n        \n        $ vim --startuptime /tmp/startup.lo...",
-          "link": "https://zenn.dev/uu64/articles/6518c75cdf5e02",
-          "publishedOn": "2021-06-21T14:58:40.000Z",
-          "wordCount": 289,
-          "title": "VIMの起動時間の調査方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--c9KcEw0c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:VIM%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E8%25AA%25BF%25E6%259F%25BB%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

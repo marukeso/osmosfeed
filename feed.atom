@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-21T01:05:53.750Z</updated>
+    <updated>2021-07-22T01:06:14.811Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[スマホでコード書く 環境構築編]]></title>
+        <id>https://zenn.dev/ssssssigma/articles/coding-on-smartphone-1</id>
+        <link href="https://zenn.dev/ssssssigma/articles/coding-on-smartphone-1"/>
+        <updated>2021-07-21T18:26:58.000Z</updated>
+        <summary type="html"><![CDATA[スマホでコードを書くとなると、パソコンの場合と前提条件が異なります。スマホは画面が小さく、可能な限りテキスト編集のみにリソースを割くべきで、また、スマホのIMEを使った快適なテキスト編集のため、高度な補完も大切です。任意のキーバインドが使えることもアドバンテージとなるでしょう。
+
+ Vimを使う
+スマホでVimを使うことは非常に理に適っています。Vimはディスプレイが限られた文字数の文字しか表示できない時代から支持されてきたエディタであり、またスマホのテキストの表示能力はその時代のディスプレイよりもリッチです。
+また、Vimはキーボードが標準化される前から存在していてスマホのIMEのよう...]]></summary>
+        <author>
+            <name>sigma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[amazon-chime-sdk でWebとReact Nativeでビデオ通話ができるアプリを作る(後編)]]></title>
+        <id>https://zenn.dev/kondo_script/articles/adef37669545a1</id>
+        <link href="https://zenn.dev/kondo_script/articles/adef37669545a1"/>
+        <updated>2021-07-21T15:00:39.000Z</updated>
+        <summary type="html"><![CDATA[前編の続きです
+
+ 要約
+
+Android/iOSともに殆どネイティブアプリを触ったことがない人が頑張った話
+
+Kotlin/Objective-Cデビューしながらの体験記です
+誤記/誤解などありましたらDiscussionで教えてください🙏
+
+
+React Native 対応は結構しんどい
+
+公式から RN のライブラリは出ていない  - サンプル はある
+kotlin/Objective-Cの知識が必要
+ios/androidともにシミュレータだと動作に問題があるため開発には 実機が必須 となる
+
+
+
+
+ 前提 amazon-chime-sdkとreact-native
+公式からre...]]></summary>
+        <author>
+            <name>kondo_script</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + TypeScript + Laravel Passportで実装するOAuth2認証]]></title>
+        <id>https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e</id>
+        <link href="https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e"/>
+        <updated>2021-07-21T12:59:55.000Z</updated>
+        <summary type="html"><![CDATA[今回は認証サーバとしてLaravelを使った場合を想定したOAuth2の認可コードフローに基づいた認証機能の実装をしていきます。
+Next.jsでは認証を楽に作れるNextAuthというライブラリがあるので、今回はそれを使っていきますが、NextAuthはパスワードなしの認証(Passwordless Authentication)を推奨しているということもあり、OAuth2の認可コードフロー実装に関する情報が少ないように思えたので備忘録も兼ねて記事として残してみます。
+今回Laravel側で認証基盤を実装するためのものとしてLaravel Passportを使います。
+OAuthで定義...]]></summary>
+        <author>
+            <name>かわみつ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CloudFront のログを JS (TS) で分析する]]></title>
+        <id>https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs</id>
+        <link href="https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs"/>
+        <updated>2021-07-21T09:55:56.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+CloudFront のログを解析して、リクエストされたパスごとの転送容量を出したい、という場面があったので、その時にやったことのメモです。
+半分は備忘録として、半分は誰かやってみたい人もいるかも、と思ったので書き残しておこうと思った次第です。
+
+ CloudFront のログ
+CloudFront で設定しておけば、S3バケットに出力されます。
+詳しくはこちらの公式ドキュメントをご覧ください。
+https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html
+
+...]]></summary>
+        <author>
+            <name>Moriya Hiroyuki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マルチプレイヤーゲーム実況システムをAmazon Chime SDK JSで作る。 - Among Us Auto Mute -]]></title>
+        <id>https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime</id>
+        <link href="https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime"/>
+        <updated>2021-07-21T02:41:12.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、こちらの記事を改変したものになります。
+https://cloud.flect.co.jp/entry/2021/07/21/113845
+
+こんにちは。
+オリンピックの開催が間近になりましたが、最近はデジタルの界隈でもe-sportsがにわかに注目を集め始めていますね。これを後押しするというわけでもありませんが、今回はAmazon Chime SDK JSを用いてマルチプレイヤーゲームの実況配信システムを作ってみたいと思います。特に今回は、公式がファン創作についてポリシーを明確にしてくれているAmong Usを題材にしてみようと思います(ref)。
+具体的には下図のような...]]></summary>
+        <author>
+            <name>wok</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electron アプリのテンプレート 2021]]></title>
+        <id>https://zenn.dev/hokaccha/articles/887e1af361faa8</id>
+        <link href="https://zenn.dev/hokaccha/articles/887e1af361faa8"/>
+        <updated>2021-07-20T14:58:32.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/hokaccha/electron-template-2021
+作ったので公開しておくが、こういうテンプレートはメンテしないとすぐ腐ってしまうけどメンテするモチベーションも特にないのでスナップショットという意味合いも込めて2021をつけている。
+
+ electron-next
+ベースに electron-next というのを使っていて、これがけっこうよくできていた。やっていることはシンプルで、レンダラプロセスに Next.js を使っていて、開発時は Next.js のサーバーを起動し、production build では next export ...]]></summary>
+        <author>
+            <name>hokaccha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravel 非公式（半分公式？）な Next.js スターターキット登場]]></title>
+        <id>https://zenn.dev/nshiro/articles/49b0c7b5fabef5</id>
+        <link href="https://zenn.dev/nshiro/articles/49b0c7b5fabef5"/>
+        <updated>2021-07-20T07:16:47.000Z</updated>
+        <summary type="html"><![CDATA[Laravel 作成者の Taylor さんより、Next.js スターターキットがリリースされました。
+https://twitter.com/taylorotwell/status/1417148351506681859
+https://github.com/taylorotwell/next-example-frontend
+https://github.com/taylorotwell/next-example-backend
+Taylor さん個人のリポジトリなので、Laravel 公式という訳では無いですが、まぁ、Laravel 作成者の方ですからね。半分公式と言えなくはない...]]></summary>
+        <author>
+            <name>nshiro</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(`npm pkg`)、Ember 4のロードマップ]]></title>
         <id>https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/</id>
@@ -3428,50 +3547,6 @@ Nuxt.js を >= 2.15.3 に更新
         ╭──────────────────────────────────────────────────────────────────────...]]></summary>
         <author>
             <name>philomagi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-06-22のJS: undici 4.0.0(HTTPクライアント)、Next.js 11、Safari 15 Beta]]></title>
-        <id>https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/</id>
-        <link href="https://jser.info/2021/06/22/undici-4.0.0http-next.js-11-safari-15-beta/"/>
-        <updated>2021-06-22T00:30:43.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #545 - Node.js向けのHTTPクライアントであるUndici 4がリリースされました。
-Introducing Undici@4. After a few years since the first… | by Node.js | Jun, 2021 | Medium
-Release v4.0.0 - Unified API, Docs Site, WASM, Redirect and Mocking · nodejs/undici
-Undiciは、Node.jsのhttpの代わりとして使えるように、netやtlsを使って一から書き直されているHTTPクライアントです。
-It’s implemented from scratch. The old client cannot be due to inefficient design of the internals, as well as years of maintaining legacy APIs!
-— Matteo Collina (@matteocollina) February 15, 2021
- 
-
-Undici 4.0では、Node.js 10のサポートが終了されています。
-maxRedirectionsでのリダイレクトサポート、nockをインスパイアしたモックのサポートなどが含まれています。
-また、4.0にあわせて https://undici.nodejs.org/ にウェブサイトが公開されています。
-Next.js 11がリリースされました。
-Blog - Next.js 11 | Next.js
-Next.js向けの設定でLintをするnpx next lintというESLintの連携が追加されています。
-Basic Features: ESLint | Next.js…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VIMの起動時間の調査方法]]></title>
-        <id>https://zenn.dev/uu64/articles/6518c75cdf5e02</id>
-        <link href="https://zenn.dev/uu64/articles/6518c75cdf5e02"/>
-        <updated>2021-06-21T14:58:40.000Z</updated>
-        <summary type="html"><![CDATA[最近 VIM の起動時間が遅いことが気になり、高速化のために起動時間の内訳を調査した。
-歴戦の Vimmer の皆様には常識かもしれないが、私のような VIM 初学者の助けになればと思い調査方法を備忘録として残す。
-
- --startuptime オプション
-vim/neovim には --startuptime という起動時間の内訳を調査するための
-オプションが用意されている。
-以下のようにして用いる。オプションの後ろに指定したファイルパスに、起動ログが出力される。
-
-      
-        
-        $ vim --startuptime /tmp/startup.lo...]]></summary>
-        <author>
-            <name>uu</name>
         </author>
     </entry>
 </feed>
