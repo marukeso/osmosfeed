@@ -4,17 +4,7 @@
       "title": "Release notes from osmosfeed",
       "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
-      "articles": [
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0",
-          "author": null,
-          "description": "Added: support an experimental template for YouTube feed 📺 Demo | Source\n\nAggregate content from any YouTube channel rss url https://www.youtube.com/feeds/videos.xml?channel_id=<replace_with_channel_id>\nVideos are embedded via iframe and loading accelerated by youtube-lite-embed\nAds are reduced thanks to YouTube's policy for embedded videos 🙃\nWorks on mobile devices with butter smooth horizontal scroll.\nCaveat: the template works only with YouTube content. You cannot mix textual RSS feed or other video sources such as Vimeo.\nChanged: Default HTML template meta tag adjusted to match convention\nChanged: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)\nThank you @PiyushLosalka",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0",
-          "publishedOn": "2021-06-23T05:57:59.000Z",
-          "wordCount": 370,
-          "title": "v1.11.0"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "JSer.info",
@@ -756,34 +746,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/katsuking/articles/1fb93bc3bfe70e",
-          "author": "KatsuKiNG👑",
-          "description": "NuxtでSassを使用するにあたって、node-sassとsass-loaderをインストールした後、サーバ起動すると、sass-loaderで以下のエラーが発生しました。\n\n      \n        \n        ERROR  Failed to compile with 1 errors                                     \n\nERROR  in ./components/Header.vue?vue&type=style&index=0&id=1a9bb128&lang=sass&scoped=t...",
-          "link": "https://zenn.dev/katsuking/articles/1fb93bc3bfe70e",
-          "publishedOn": "2021-06-23T05:01:34.000Z",
-          "wordCount": 94,
-          "title": "Nuxt Sass サーバ起動時のエラー対処法 TypeError: this.getOptions is not a function",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--mhKmC_m_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KatsuKiNG%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Nuxt%2520Sass%2520%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E5%25AF%25BE%25E5%2587%25A6%25E6%25B3%2595%2520TypeError%253A%2520this.getOptions%2520is%2520not%2520a%2520function%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjBhYjVmM2Q0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config",
-          "author": "philomagi",
-          "description": "現象\nautoprefixer を v10 にバージョンアップする時、postcssをv8以上に更新する必要が生じた。\nそこで、 postcss8の移行ガイド に従って以下を試みた。\n\nNuxt.js を >= 2.15.3 に更新\n\n@nuxt/postcss8 を追加\n\nその後、 nuxt generate によって静的ファイルを生成しようとしたところ、掲題のエラーによって失敗した。\n\n      \n        \n        ╭──────────────────────────────────────────────────────────────────────...",
-          "link": "https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config",
-          "publishedOn": "2021-06-23T02:14:03.000Z",
-          "wordCount": 365,
-          "title": "@nuxt/postcss8 使用時 \"Cannot find module 0\" エラーが発生する場合とその対処",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_6xoLHBD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:philomagi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%2540nuxt%252Fpostcss8%2520%25E4%25BD%25BF%25E7%2594%25A8%25E6%2599%2582%2520%2522Cannot%2520find%2520module%25200%2522%2520%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%258C%25E7%2599%25BA%25E7%2594%259F%25E3%2581%2599%25E3%2582%258B%25E5%25A0%25B4%25E5%2590%2588%25E3%2581%25A8%25E3%2581%259D%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTgwNDQwMWQ5MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -792,6 +754,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/karibash/articles/c093902e8294d1",
+          "author": "Karibash",
+          "description": "https://www.npmjs.com/package/@karibash/pixel-units\n\n 設計の大幅な見直し\n以前作成したライブラリをとある記事を参考に、クラスに依存しない設計へと大幅に改修を加え作り直しました。\nインスタンス化が不要になったのでパフォーマンスもたぶん上がってると思います。しらんけど。\n\n      \n        \n        // old\nconst pixel = new Pixel(16);\nconsole.log(`${pixel}`}\n// -> 16px\n\n// new\nconst pixel: Unit<'px'>...",
+          "link": "https://zenn.dev/karibash/articles/c093902e8294d1",
+          "publishedOn": "2021-07-22T12:06:19.000Z",
+          "wordCount": 73,
+          "title": "CSSの単位を型安全にしつつ相互に変換出来るライブラリを更新した",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_Q7MaULm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Karibash%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:CSS%25E3%2581%25AE%25E5%258D%2598%25E4%25BD%258D%25E3%2582%2592%25E5%259E%258B%25E5%25AE%2589%25E5%2585%25A8%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A4%25E3%2581%25A4%25E7%259B%25B8%25E4%25BA%2592%25E3%2581%25AB%25E5%25A4%2589%25E6%258F%259B%25E5%2587%25BA%25E6%259D%25A5%25E3%2582%258B%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2582%2592%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPMW45d0ZmU3FpV21hNW9HWlAzczc4YnRIN0VBUXE5aDdaOU5VZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/5756a54d94230a",
+          "author": "chida",
+          "description": "概要\nリポジトリパターンは、データの操作（作成、削除など）をビジネスロジックから分離します。ビジネスロジック内でAxiosをインスタンス化すると単体テストが難しくなったり、各ファイルにエンドポイントの定義を書いている場合、そのエンドポイントが変わった時に多数のファイルを更新しなければいけません。\nリポジトリパターンはそのような問題を解決し、コードの柔軟性・保守性を高めてくれます。\n\n 実装\n\nAPIはJSONPlaceholderというサービスを使い、userを取得します\nリポジトリパターンのコードをすぐに動作確認したい場合は、CodeSandboxなどのオンラインエディタを使うと良...",
+          "link": "https://zenn.dev/chida/articles/5756a54d94230a",
+          "publishedOn": "2021-07-22T08:53:00.000Z",
+          "wordCount": 165,
+          "title": "Type Script × Axios リポジトリパターン",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JbDSCruK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Type%2520Script%2520%25C3%2597%2520Axios%2520%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/fujiyama/articles/53ec18ca9367e8",
+          "author": "Fujiyamayama",
+          "description": "始めに\nReactのhooksを使うことは多いと思うのですが，recoilでログインユーザーの状態管理を勉強しているときにカスタムフックをちゃんと勉強しようと思ったのでまとめます.\n\n 公式解説\n公式にチャットアプリでのフレンドがオンラインかどうかを示すコンポーネントがありました．\n\n      \n        FriendStatus.tsx\n        import React, { useState, useEffect } from 'react';\n\nfunction FriendStatus(props) {\n  const [isOnline, setIsOnli...",
+          "link": "https://zenn.dev/fujiyama/articles/53ec18ca9367e8",
+          "publishedOn": "2021-07-22T07:40:34.000Z",
+          "wordCount": 190,
+          "title": "【連休】Reactのカスタムフックを勉強してみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--6XxyiNox--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Fujiyamayama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E9%2580%25A3%25E4%25BC%2591%25E3%2580%2591React%25E3%2581%25AE%25E3%2582%25AB%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25A0%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2582%2592%25E5%258B%2589%25E5%25BC%25B7%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hlMHpabHhNbXBzTEQ4NlJqZTFGUnVJd1dBcTJFNUxXWkd3S0U4QVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kondo_script/articles/adef37669545a1",
           "author": "kondo_script",
@@ -1884,6 +1888,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462",
+          "author": "おしうみなおき",
+          "description": "僕の場合はLaravel×Vueを使っており本来であれば、Laravelの方でsocialiteというパッケージを使用してgoogle oauth認証を行うのが一般的なのですが、\n諸事情でVue側でgoogle oauth認証を行いアクセストークンを使用してから、バックエンドにリクエストを送るという方法をしたかったのです。\nそこで今回はvue側でgoogle認証を実装する方法をメモとして残しておきます。\n\n 1-1. Google Cloud Platformにアクセスし、プロジェクトを作成する\nGoogle Cloud Platformにアクセスしてプロジェクトを作成してください。\nこ...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462",
+          "publishedOn": "2021-07-23T00:19:37.000Z",
+          "wordCount": 125,
+          "title": "VueからGoogle OAuthを使用してログインする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--UpVZZVA4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25E3%2581%258B%25E3%2582%2589Google%2520OAuth%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/gamin/articles/b509c1d9b08816",
+          "author": "gamine🍑",
+          "description": "概要\nmutation 処理で、親子コンポーネントでデータのやりとりをする時。\n例えば、親コンポーネントの中に\n\n      \n        \n        XXX - XXXX\n\n\n      \n      みたいな郵便番号の Input box が連なっている子コンポーネントがある時を考える。\n郵便番号自体はサーバから XXX-XXXX と、一つのまとまりで送られてくる。\n仮に郵便番号の Input box がハイフンつなぎでふたつあるとする。ふたつあるので、どこかでデータをふたつに整形するる必要がある。\nさてさて fetch、 親、 子、どこで整形するのが正しいのだろうか？...",
+          "link": "https://zenn.dev/gamin/articles/b509c1d9b08816",
+          "publishedOn": "2021-07-22T03:35:55.000Z",
+          "wordCount": 52,
+          "title": "データの整形は末端で行うようにしている",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--i7RBx_TF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2581%25AE%25E6%2595%25B4%25E5%25BD%25A2%25E3%2581%25AF%25E6%259C%25AB%25E7%25AB%25AF%25E3%2581%25A7%25E8%25A1%258C%25E3%2581%2586%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yukihirop/articles/20920804228834",
           "author": "yukihirop",

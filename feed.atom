@@ -2,10 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-22T01:06:14.811Z</updated>
+    <updated>2021-07-23T01:05:27.896Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VueからGoogle OAuthを使用してログインする]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462"/>
+        <updated>2021-07-23T00:19:37.000Z</updated>
+        <summary type="html"><![CDATA[僕の場合はLaravel×Vueを使っており本来であれば、Laravelの方でsocialiteというパッケージを使用してgoogle oauth認証を行うのが一般的なのですが、
+諸事情でVue側でgoogle oauth認証を行いアクセストークンを使用してから、バックエンドにリクエストを送るという方法をしたかったのです。
+そこで今回はvue側でgoogle認証を実装する方法をメモとして残しておきます。
+
+ 1-1. Google Cloud Platformにアクセスし、プロジェクトを作成する
+Google Cloud Platformにアクセスしてプロジェクトを作成してください。
+こ...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSSの単位を型安全にしつつ相互に変換出来るライブラリを更新した]]></title>
+        <id>https://zenn.dev/karibash/articles/c093902e8294d1</id>
+        <link href="https://zenn.dev/karibash/articles/c093902e8294d1"/>
+        <updated>2021-07-22T12:06:19.000Z</updated>
+        <summary type="html"><![CDATA[https://www.npmjs.com/package/@karibash/pixel-units
+
+ 設計の大幅な見直し
+以前作成したライブラリをとある記事を参考に、クラスに依存しない設計へと大幅に改修を加え作り直しました。
+インスタンス化が不要になったのでパフォーマンスもたぶん上がってると思います。しらんけど。
+
+      
+        
+        // old
+const pixel = new Pixel(16);
+console.log(`${pixel}`}
+// -> 16px
+
+// new
+const pixel: Unit<'px'>...]]></summary>
+        <author>
+            <name>Karibash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Type Script × Axios リポジトリパターン]]></title>
+        <id>https://zenn.dev/chida/articles/5756a54d94230a</id>
+        <link href="https://zenn.dev/chida/articles/5756a54d94230a"/>
+        <updated>2021-07-22T08:53:00.000Z</updated>
+        <summary type="html"><![CDATA[概要
+リポジトリパターンは、データの操作（作成、削除など）をビジネスロジックから分離します。ビジネスロジック内でAxiosをインスタンス化すると単体テストが難しくなったり、各ファイルにエンドポイントの定義を書いている場合、そのエンドポイントが変わった時に多数のファイルを更新しなければいけません。
+リポジトリパターンはそのような問題を解決し、コードの柔軟性・保守性を高めてくれます。
+
+ 実装
+
+APIはJSONPlaceholderというサービスを使い、userを取得します
+リポジトリパターンのコードをすぐに動作確認したい場合は、CodeSandboxなどのオンラインエディタを使うと良...]]></summary>
+        <author>
+            <name>chida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【連休】Reactのカスタムフックを勉強してみる]]></title>
+        <id>https://zenn.dev/fujiyama/articles/53ec18ca9367e8</id>
+        <link href="https://zenn.dev/fujiyama/articles/53ec18ca9367e8"/>
+        <updated>2021-07-22T07:40:34.000Z</updated>
+        <summary type="html"><![CDATA[始めに
+Reactのhooksを使うことは多いと思うのですが，recoilでログインユーザーの状態管理を勉強しているときにカスタムフックをちゃんと勉強しようと思ったのでまとめます.
+
+ 公式解説
+公式にチャットアプリでのフレンドがオンラインかどうかを示すコンポーネントがありました．
+
+      
+        FriendStatus.tsx
+        import React, { useState, useEffect } from 'react';
+
+function FriendStatus(props) {
+  const [isOnline, setIsOnli...]]></summary>
+        <author>
+            <name>Fujiyamayama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[データの整形は末端で行うようにしている]]></title>
+        <id>https://zenn.dev/gamin/articles/b509c1d9b08816</id>
+        <link href="https://zenn.dev/gamin/articles/b509c1d9b08816"/>
+        <updated>2021-07-22T03:35:55.000Z</updated>
+        <summary type="html"><![CDATA[概要
+mutation 処理で、親子コンポーネントでデータのやりとりをする時。
+例えば、親コンポーネントの中に
+
+      
+        
+        XXX - XXXX
+
+
+      
+      みたいな郵便番号の Input box が連なっている子コンポーネントがある時を考える。
+郵便番号自体はサーバから XXX-XXXX と、一つのまとまりで送られてくる。
+仮に郵便番号の Input box がハイフンつなぎでふたつあるとする。ふたつあるので、どこかでデータをふたつに整形するる必要がある。
+さてさて fetch、 親、 子、どこで整形するのが正しいのだろうか？...]]></summary>
+        <author>
+            <name>gamine🍑</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[スマホでコード書く 環境構築編]]></title>
         <id>https://zenn.dev/ssssssigma/articles/coding-on-smartphone-1</id>
@@ -3490,63 +3591,6 @@ CSS：input要素のplaceholderの色を変更する方法
   color: red...]]></summary>
         <author>
             <name>こにまん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.11.0]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0"/>
-        <updated>2021-06-23T05:57:59.000Z</updated>
-        <summary type="html"><![CDATA[Added: support an experimental template for YouTube feed 📺 Demo | Source
-
-Aggregate content from any YouTube channel rss url https://www.youtube.com/feeds/videos.xml?channel_id=<replace_with_channel_id>
-Videos are embedded via iframe and loading accelerated by youtube-lite-embed
-Ads are reduced thanks to YouTube's policy for embedded videos 🙃
-Works on mobile devices with butter smooth horizontal scroll.
-Caveat: the template works only with YouTube content. You cannot mix textual RSS feed or other video sources such as Vimeo.
-Changed: Default HTML template meta tag adjusted to match convention
-Changed: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)
-Thank you @PiyushLosalka]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt Sass サーバ起動時のエラー対処法 TypeError: this.getOptions is not a function]]></title>
-        <id>https://zenn.dev/katsuking/articles/1fb93bc3bfe70e</id>
-        <link href="https://zenn.dev/katsuking/articles/1fb93bc3bfe70e"/>
-        <updated>2021-06-23T05:01:34.000Z</updated>
-        <summary type="html"><![CDATA[NuxtでSassを使用するにあたって、node-sassとsass-loaderをインストールした後、サーバ起動すると、sass-loaderで以下のエラーが発生しました。
-
-      
-        
-        ERROR  Failed to compile with 1 errors                                     
-
-ERROR  in ./components/Header.vue?vue&type=style&index=0&id=1a9bb128&lang=sass&scoped=t...]]></summary>
-        <author>
-            <name>KatsuKiNG👑</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[@nuxt/postcss8 使用時 "Cannot find module 0" エラーが発生する場合とその対処]]></title>
-        <id>https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config</id>
-        <link href="https://zenn.dev/philomagi/articles/nuxt_postcss8_error_with_array_plugins_config"/>
-        <updated>2021-06-23T02:14:03.000Z</updated>
-        <summary type="html"><![CDATA[現象
-autoprefixer を v10 にバージョンアップする時、postcssをv8以上に更新する必要が生じた。
-そこで、 postcss8の移行ガイド に従って以下を試みた。
-
-Nuxt.js を >= 2.15.3 に更新
-
-@nuxt/postcss8 を追加
-
-その後、 nuxt generate によって静的ファイルを生成しようとしたところ、掲題のエラーによって失敗した。
-
-      
-        
-        ╭──────────────────────────────────────────────────────────────────────...]]></summary>
-        <author>
-            <name>philomagi</name>
         </author>
     </entry>
 </feed>
