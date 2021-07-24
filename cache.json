@@ -755,6 +755,76 @@
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
         {
+          "id": "https://zenn.dev/dl10yr/articles/582fd609078cea",
+          "author": "dl10yr",
+          "description": "こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。\nhttps://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp\n\n まずはNext.js × Tailwind.cssの環境構築\n以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。\nhttps://zenn.dev/dl10yr/articles/0e31819e983a28\n\n      \n        \n         git clone -b not-i...",
+          "link": "https://zenn.dev/dl10yr/articles/582fd609078cea",
+          "publishedOn": "2021-07-23T13:53:31.000Z",
+          "wordCount": 299,
+          "title": "Next.js × Tailwind.cssでAMP対応させてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zK9HZAU_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25C3%2597%2520Tailwind.css%25E3%2581%25A7AMP%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sojiro/articles/3d678492f1d94b",
+          "author": "So Koyama",
+          "description": "Nest.js Version 8が7月7日にリリース!\nhttps://trilon.io/blog/announcing-nestjs-8-whats-new\n\n 新機能: API Versioning\nController及び各Routesをバージョン管理できるようになりました。\n\n 1.URI Versioning\nURIの中にVersion情報を含める。\n\n      \n        \n        import { VersioningType } from '@nestjs/common';\n\nconst app = await NestFactory.create...",
+          "link": "https://zenn.dev/sojiro/articles/3d678492f1d94b",
+          "publishedOn": "2021-07-23T06:52:48.000Z",
+          "wordCount": 257,
+          "title": "Nest.js Version8がリリースされたので新機能についてまとめる : API Versioning編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KjBjn6En--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:So%2520Koyama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Nest.js%2520Version8%25E3%2581%258C%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2582%258B%2520%253A%2520API%2520Versioning%25E7%25B7%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDE1YmJhYWI1YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types",
+          "author": "ulcttku",
+          "description": "TypeScript で、(Lower)CamelCase な型を SnakeCase な型に、SnakeCase な型を(Lower)CamelCase な型に変換する型を作りました。\n具体的には、\n\n      \n        \n        type camelCase = SnakeToCamel<\"camel_case\">;\n// type camelCase = \"camelCase\"\n\ntype snakeCase = CamelToSnake<\"snakeCase\">;\n// type snakeCase = \"snake_case\";\n\n\n ...",
+          "link": "https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types",
+          "publishedOn": "2021-07-23T04:33:05.000Z",
+          "wordCount": 883,
+          "title": "CamelCase な型と SnakeCase な型の変換",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Z_yFO-Dv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ulcttku%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:CamelCase%2520%25E3%2581%25AA%25E5%259E%258B%25E3%2581%25A8%2520SnakeCase%2520%25E3%2581%25AA%25E5%259E%258B%25E3%2581%25AE%25E5%25A4%2589%25E6%258F%259B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yamo/articles/prisma-express-rest-api",
+          "author": "yamo",
+          "description": "はじめに\n前から気になっていた Prisma を触ってみました。\n公式ドキュメントを読みながら、練習として Prisma + Express で REST API を作ってみました。\n自分と同じように入門してみたい人の参考になれば幸いです。\nソースコードはこちらになります。\nhttps://github.com/yamosan/prisma-rest-api\n\n 環境構築\n\n プロジェクトの作成\n\n      \n        \n        $ npm init -y\n\n\n      \n      \n パッケージのインストール\n必要なパッケージを予めインストールしていきます。\nつ...",
+          "link": "https://zenn.dev/yamo/articles/prisma-express-rest-api",
+          "publishedOn": "2021-07-22T16:45:04.000Z",
+          "wordCount": 1654,
+          "title": "prisma と express でつくる REST API",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--p0Sb5lw9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yamo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:prisma%2520%25E3%2581%25A8%2520express%2520%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258B%2520REST%2520API%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTE1NjU5YzQyMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hokaccha/articles/a665b7406b9773",
+          "author": "hokaccha",
+          "description": "TypeScript version: v4.3.5\n元々やりたかったのは以下のようなこと。外部入力の文字列を Union Type にマッチするか検証してマッチしなければデフォルト値を返すみたいなやつ。\n\n      \n        \n        const colors = [\"red\", \"blue\", \"yellow\"] as const;\ntype Color = typeof colors[number];\nconst defaultColor = colors[0];\n\nfunction toColor(color: string): Color {\n  return...",
+          "link": "https://zenn.dev/hokaccha/articles/a665b7406b9773",
+          "publishedOn": "2021-07-22T13:58:02.000Z",
+          "wordCount": 216,
+          "title": "TypeScript で値が Union Type にマッチするかを検証したい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--kWi-b3Bm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hokaccha%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%2520%25E3%2581%25A7%25E5%2580%25A4%25E3%2581%258C%2520Union%2520Type%2520%25E3%2581%25AB%25E3%2583%259E%25E3%2583%2583%25E3%2583%2581%25E3%2581%2599%25E3%2582%258B%25E3%2581%258B%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lpYWctanVyZUl3Q21TY0ZpclkwaUo0eXppaGZYekxOc1RfejZNX3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/karibash/articles/c093902e8294d1",
           "author": "Karibash",
           "description": "https://www.npmjs.com/package/@karibash/pixel-units\n\n 設計の大幅な見直し\n以前作成したライブラリをとある記事を参考に、クラスに依存しない設計へと大幅に改修を加え作り直しました。\nインスタンス化が不要になったのでパフォーマンスもたぶん上がってると思います。しらんけど。\n\n      \n        \n        // old\nconst pixel = new Pixel(16);\nconsole.log(`${pixel}`}\n// -> 16px\n\n// new\nconst pixel: Unit<'px'>...",
@@ -1888,6 +1958,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/sakots/articles/fb6529ee401fd3",
+          "author": "sakots",
+          "description": "やあ、さこつです。\nこれは最初の記事だよ！　お手柔らかに。\n\n 今作ってるやつ\n\nこのお絵かき掲示板はSQLiteとさらにBladeを（以下略\nGithub\n\nphpとBladeでつくったお絵描き掲示板です。データベースにSQLiteを使用。\n\n なぜまた新しく作るのか\n\n 新技術のへの渇望\nとにかくいろいろできたほうが仕事が多い。んで、ReactとVueでどっちからやるか比べてたんですけども、どうもJSXに慣れるまで時間がかかりそうだったのでVueから勉強することに決定。\n\n というわけで\nGithubにページだけ作りました。こんごともよろしく。\nveita\n\nにゃー",
+          "link": "https://zenn.dev/sakots/articles/fb6529ee401fd3",
+          "publishedOn": "2021-07-23T17:48:15.000Z",
+          "wordCount": 22,
+          "title": "Vue3で掲示板（BBS）を作ろうという試み",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qZdiimEB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sakots%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue3%25E3%2581%25A7%25E6%258E%25B2%25E7%25A4%25BA%25E6%259D%25BF%25EF%25BC%2588BBS%25EF%25BC%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2584%25E3%2581%2586%25E8%25A9%25A6%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lXQ3MycUNwUnFXdFJNZFFmRC1jR0ROSUVVVHpqZGJQWmdwUkxldHc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8",
+          "author": "Yusuke Akiyama",
+          "description": "Tailwindcssとは、ユーティリティファーストのCSSフレームワークです。\nhttps://tailwindcss.com/\nユーティリティファーストなのでCSS設計など考慮しなくてもいいので、個人的に好きです！\n\n Tailwindcssのカードデザイン\ncodepenに残しておいたのでHTMLのコードはそこから拾って使ってみてください。\n\n\n できなかったこと\n\n当然ですがクリック時の「ripple efect」（波紋のアニメーション）の表現ができないのは残念ですね...。\nボタンを押した後のアクションなどの指定をしたかったのですが、設定ファイルに記述が必要でCDNでは無理そ...",
+          "link": "https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8",
+          "publishedOn": "2021-07-23T12:23:07.000Z",
+          "wordCount": 27,
+          "title": "TailwindcssでMaterial UI風のカードデザイン作ってみました",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--B1KtBiC6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yusuke%2520Akiyama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Tailwindcss%25E3%2581%25A7Material%2520UI%25E9%25A2%25A8%25E3%2581%25AE%25E3%2582%25AB%25E3%2583%25BC%25E3%2583%2589%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2p6ZFpmbTBUMzdyZEhHZUFCTVpGWndPek9Wd2tLQjRET0cweThXR3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462",
           "author": "おしうみなおき",

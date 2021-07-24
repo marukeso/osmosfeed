@@ -81,8 +81,133 @@
     <ul class="sources card">
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js × Tailwind.cssでAMP対応させてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dl10yr/articles/582fd609078cea">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。
+https://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp
+
+ まずはNext.js × Tailwind.cssの環境構築
+以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。
+https://zenn.dev/dl10yr/articles/0e31819e983a28
+
+      
+        
+         git clone -b not-i...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nest.js Version8がリリースされたので新機能についてまとめる : API Versioning編</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sojiro/articles/3d678492f1d94b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Nest.js Version 8が7月7日にリリース!
+https://trilon.io/blog/announcing-nestjs-8-whats-new
+
+ 新機能: API Versioning
+Controller及び各Routesをバージョン管理できるようになりました。
+
+ 1.URI Versioning
+URIの中にVersion情報を含める。
+
+      
+        
+        import { VersioningType } from &#x27;@nestjs/common&#x27;;
+
+const app &#x3D; await NestFactory.create...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">CamelCase な型と SnakeCase な型の変換</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>TypeScript で、(Lower)CamelCase な型を SnakeCase な型に、SnakeCase な型を(Lower)CamelCase な型に変換する型を作りました。
+具体的には、
+
+      
+        
+        type camelCase &#x3D; SnakeToCamel;
+// type camelCase &#x3D; &quot;camelCase&quot;
+
+type snakeCase &#x3D; CamelToSnake;
+// type snakeCase &#x3D; &quot;snake_case&quot;;
+
+
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue3で掲示板（BBS）を作ろうという試み</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sakots/articles/fb6529ee401fd3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>やあ、さこつです。
+これは最初の記事だよ！　お手柔らかに。
+
+ 今作ってるやつ
+
+このお絵かき掲示板はSQLiteとさらにBladeを（以下略
+Github
+
+phpとBladeでつくったお絵描き掲示板です。データベースにSQLiteを使用。
+
+ なぜまた新しく作るのか
+
+ 新技術のへの渇望
+とにかくいろいろできたほうが仕事が多い。んで、ReactとVueでどっちからやるか比べてたんですけども、どうもJSXに慣れるまで時間がかかりそうだったのでVueから勉強することに決定。
+
+ というわけで
+Githubにページだけ作りました。こんごともよろしく。
+veita
+
+にゃー</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TailwindcssでMaterial UI風のカードデザイン作ってみました</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Tailwindcssとは、ユーティリティファーストのCSSフレームワークです。
+https://tailwindcss.com/
+ユーティリティファーストなのでCSS設計など考慮しなくてもいいので、個人的に好きです！
+
+ Tailwindcssのカードデザイン
+codepenに残しておいたのでHTMLのコードはそこから拾って使ってみてください。
+
+
+ できなかったこと
+
+当然ですがクリック時の「ripple efect」（波紋のアニメーション）の表現ができないのは残念ですね...。
+ボタンを押した後のアクションなどの指定をしたかったのですが、設定ファイルに記述が必要でCDNでは無理そ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">VueからGoogle OAuthを使用してログインする</summary>
@@ -111,6 +236,58 @@ Google Cloud Platformにアクセスしてプロジェクトを作成してく�
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">prisma と express でつくる REST API</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yamo/articles/prisma-express-rest-api">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>はじめに
+前から気になっていた Prisma を触ってみました。
+公式ドキュメントを読みながら、練習として Prisma + Express で REST API を作ってみました。
+自分と同じように入門してみたい人の参考になれば幸いです。
+ソースコードはこちらになります。
+https://github.com/yamosan/prisma-rest-api
+
+ 環境構築
+
+ プロジェクトの作成
+
+      
+        
+        $ npm init -y
+
+
+      
+      
+ パッケージのインストール
+必要なパッケージを予めインストールしていきます。
+つ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScript で値が Union Type にマッチするかを検証したい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hokaccha/articles/a665b7406b9773">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>TypeScript version: v4.3.5
+元々やりたかったのは以下のようなこと。外部入力の文字列を Union Type にマッチするか検証してマッチしなければデフォルト値を返すみたいなやつ。
+
+      
+        
+        const colors &#x3D; [&quot;red&quot;, &quot;blue&quot;, &quot;yellow&quot;] as const;
+type Color &#x3D; typeof colors[number];
+const defaultColor &#x3D; colors[0];
+
+function toColor(color: string): Color {
+  return...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">CSSの単位を型安全にしつつ相互に変換出来るライブラリを更新した</summary>
@@ -4472,7 +4649,7 @@ CSS：input要素のplaceholderの色を変更する方法
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-23T01:05:27.854Z">2021-07-23T01:05:27.854Z</time>
+    <time id="build-timestamp" datetime="2021-07-24T01:04:53.609Z">2021-07-24T01:04:53.609Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

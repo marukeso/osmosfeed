@@ -2,10 +2,124 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-23T01:05:27.896Z</updated>
+    <updated>2021-07-24T01:04:53.628Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vue3で掲示板（BBS）を作ろうという試み]]></title>
+        <id>https://zenn.dev/sakots/articles/fb6529ee401fd3</id>
+        <link href="https://zenn.dev/sakots/articles/fb6529ee401fd3"/>
+        <updated>2021-07-23T17:48:15.000Z</updated>
+        <summary type="html"><![CDATA[やあ、さこつです。
+これは最初の記事だよ！　お手柔らかに。
+
+ 今作ってるやつ
+
+このお絵かき掲示板はSQLiteとさらにBladeを（以下略
+Github
+
+phpとBladeでつくったお絵描き掲示板です。データベースにSQLiteを使用。
+
+ なぜまた新しく作るのか
+
+ 新技術のへの渇望
+とにかくいろいろできたほうが仕事が多い。んで、ReactとVueでどっちからやるか比べてたんですけども、どうもJSXに慣れるまで時間がかかりそうだったのでVueから勉強することに決定。
+
+ というわけで
+Githubにページだけ作りました。こんごともよろしく。
+veita
+
+にゃー]]></summary>
+        <author>
+            <name>sakots</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js × Tailwind.cssでAMP対応させてみる]]></title>
+        <id>https://zenn.dev/dl10yr/articles/582fd609078cea</id>
+        <link href="https://zenn.dev/dl10yr/articles/582fd609078cea"/>
+        <updated>2021-07-23T13:53:31.000Z</updated>
+        <summary type="html"><![CDATA[こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。
+https://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp
+
+ まずはNext.js × Tailwind.cssの環境構築
+以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。
+https://zenn.dev/dl10yr/articles/0e31819e983a28
+
+      
+        
+         git clone -b not-i...]]></summary>
+        <author>
+            <name>dl10yr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TailwindcssでMaterial UI風のカードデザイン作ってみました]]></title>
+        <id>https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8</id>
+        <link href="https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8"/>
+        <updated>2021-07-23T12:23:07.000Z</updated>
+        <summary type="html"><![CDATA[Tailwindcssとは、ユーティリティファーストのCSSフレームワークです。
+https://tailwindcss.com/
+ユーティリティファーストなのでCSS設計など考慮しなくてもいいので、個人的に好きです！
+
+ Tailwindcssのカードデザイン
+codepenに残しておいたのでHTMLのコードはそこから拾って使ってみてください。
+
+
+ できなかったこと
+
+当然ですがクリック時の「ripple efect」（波紋のアニメーション）の表現ができないのは残念ですね...。
+ボタンを押した後のアクションなどの指定をしたかったのですが、設定ファイルに記述が必要でCDNでは無理そ...]]></summary>
+        <author>
+            <name>Yusuke Akiyama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nest.js Version8がリリースされたので新機能についてまとめる : API Versioning編]]></title>
+        <id>https://zenn.dev/sojiro/articles/3d678492f1d94b</id>
+        <link href="https://zenn.dev/sojiro/articles/3d678492f1d94b"/>
+        <updated>2021-07-23T06:52:48.000Z</updated>
+        <summary type="html"><![CDATA[Nest.js Version 8が7月7日にリリース!
+https://trilon.io/blog/announcing-nestjs-8-whats-new
+
+ 新機能: API Versioning
+Controller及び各Routesをバージョン管理できるようになりました。
+
+ 1.URI Versioning
+URIの中にVersion情報を含める。
+
+      
+        
+        import { VersioningType } from '@nestjs/common';
+
+const app = await NestFactory.create...]]></summary>
+        <author>
+            <name>So Koyama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CamelCase な型と SnakeCase な型の変換]]></title>
+        <id>https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types</id>
+        <link href="https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types"/>
+        <updated>2021-07-23T04:33:05.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript で、(Lower)CamelCase な型を SnakeCase な型に、SnakeCase な型を(Lower)CamelCase な型に変換する型を作りました。
+具体的には、
+
+      
+        
+        type camelCase = SnakeToCamel<"camel_case">;
+// type camelCase = "camelCase"
+
+type snakeCase = CamelToSnake<"snakeCase">;
+// type snakeCase = "snake_case";
+
+
+ ...]]></summary>
+        <author>
+            <name>ulcttku</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[VueからGoogle OAuthを使用してログインする]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462</id>
@@ -20,6 +134,56 @@ Google Cloud Platformにアクセスしてプロジェクトを作成してく�
 こ...]]></summary>
         <author>
             <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[prisma と express でつくる REST API]]></title>
+        <id>https://zenn.dev/yamo/articles/prisma-express-rest-api</id>
+        <link href="https://zenn.dev/yamo/articles/prisma-express-rest-api"/>
+        <updated>2021-07-22T16:45:04.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+前から気になっていた Prisma を触ってみました。
+公式ドキュメントを読みながら、練習として Prisma + Express で REST API を作ってみました。
+自分と同じように入門してみたい人の参考になれば幸いです。
+ソースコードはこちらになります。
+https://github.com/yamosan/prisma-rest-api
+
+ 環境構築
+
+ プロジェクトの作成
+
+      
+        
+        $ npm init -y
+
+
+      
+      
+ パッケージのインストール
+必要なパッケージを予めインストールしていきます。
+つ...]]></summary>
+        <author>
+            <name>yamo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript で値が Union Type にマッチするかを検証したい]]></title>
+        <id>https://zenn.dev/hokaccha/articles/a665b7406b9773</id>
+        <link href="https://zenn.dev/hokaccha/articles/a665b7406b9773"/>
+        <updated>2021-07-22T13:58:02.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript version: v4.3.5
+元々やりたかったのは以下のようなこと。外部入力の文字列を Union Type にマッチするか検証してマッチしなければデフォルト値を返すみたいなやつ。
+
+      
+        
+        const colors = ["red", "blue", "yellow"] as const;
+type Color = typeof colors[number];
+const defaultColor = colors[0];
+
+function toColor(color: string): Color {
+  return...]]></summary>
+        <author>
+            <name>hokaccha</name>
         </author>
     </entry>
     <entry>
