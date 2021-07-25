@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/damuha/articles/f109e1f1cfe1e5",
+          "author": "だむは",
+          "description": "Notion Blogでブログを開設しました\nちょっと前になりますが、Notion Blogでsisterのブログを開設したので、開設するまでの流れを書いてみようと思います。\n▼sisterのブログはこちらです↓\nhttps://blog.sisterwith.com/\n▼ Notion Blogはこちらです↓\nhttps://notion-blog.vercel.app/\n▼ 参考記事はこちらです↓\nhttps://blog.35d.jp/2020-05-23-notion-blog-1\n\n Notion Blogとは\nNotion Blog とは、Notion（バックエンド）で作...",
+          "link": "https://zenn.dev/damuha/articles/f109e1f1cfe1e5",
+          "publishedOn": "2021-07-24T13:06:29.000Z",
+          "wordCount": 274,
+          "title": "【Notion】Notion Blogでブログ開設〜10分でできるもん〜（デプロイ〜ローカル環境構築まで）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4mMAgDe---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25A0%25E3%2582%2580%25E3%2581%25AF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Notion%25E3%2580%2591Notion%2520Blog%25E3%2581%25A7%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E9%2596%258B%25E8%25A8%25AD%25E3%2580%259C10%25E5%2588%2586%25E3%2581%25A7%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2582%25E3%2582%2593%25E3%2580%259C%25EF%25BC%2588%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2580%259C%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%25BE%25E3%2581%25A7%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzk2NmZiMTdiNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dl10yr/articles/582fd609078cea",
+          "author": "dl10yr",
+          "description": "こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。\nhttps://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp\n\n まずはNext.js × Tailwind.cssの環境構築\n以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。\nhttps://zenn.dev/dl10yr/articles/0e31819e983a28\n\n      \n        \n         git clone -b not-i...",
+          "link": "https://zenn.dev/dl10yr/articles/582fd609078cea",
+          "publishedOn": "2021-07-23T13:53:31.000Z",
+          "wordCount": 299,
+          "title": "Next.js × Tailwind.cssでAMP対応させてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zK9HZAU_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25C3%2597%2520Tailwind.css%25E3%2581%25A7AMP%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ihsan/articles/506510db3ba233",
+          "author": "マレーシア人のイサン",
+          "description": "BEYONDMAGのマガジンサイトに連載と特集機能の画像アップロードを実装したときに、気づいたメモです。\n\n\n 前提🙇🏽‍♂️\n本記事は、コーディングの仕方を教えるよりかは、ベストプラクティスを教えます。\n画像アップロードのコーディングを学びたい人はこの記事を参考にしてください。\n\n 初めに🏁\n\n「画像を更新する時ってどうやるんだろう？」 という疑問持っている人いっぱいいますよね？\n僕もその一人です😅。\n\n 僕が知っている画像の更新方法🙋🏽\n僕が知っている画像の更新方法は二つあります🤔\n\n 1. 同じURLを使用し、画像の中身だけ変える方法\n\n\nつまり画像をS3に同じURLかつ違う画像の...",
+          "link": "https://zenn.dev/ihsan/articles/506510db3ba233",
+          "publishedOn": "2021-07-23T10:01:09.000Z",
+          "wordCount": 48,
+          "title": "「NEXTJS / S3 画像アップロード」画像を更新する時にこれやっちゃダメ！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--5XFlpAxc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2582%25A2%25E4%25BA%25BA%25E3%2581%25AE%25E3%2582%25A4%25E3%2582%25B5%25E3%2583%25B3%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%258CNEXTJS%2520%252F%2520S3%2520%25E7%2594%25BB%25E5%2583%258F%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2589%25E3%2580%258D%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%2599%25E3%2582%258B%25E6%2599%2582%25E3%2581%25AB%25E3%2581%2593%25E3%2582%258C%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A1%25E3%2582%2583%25E3%2583%2580%25E3%2583%25A1%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDdDdnajdUQW5kZDREaWFfX1oxYkx4YzZTYVc0TklVWTFPSS1IZ2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e",
           "author": "かわみつ",
           "description": "今回は認証サーバとしてLaravelを使った場合を想定したOAuth2の認可コードフローに基づいた認証機能の実装をしていきます。\nNext.jsでは認証を楽に作れるNextAuthというライブラリがあるので、今回はそれを使っていきますが、NextAuthはパスワードなしの認証(Passwordless Authentication)を推奨しているということもあり、OAuth2の認可コードフロー実装に関する情報が少ないように思えたので備忘録も兼ねて記事として残してみます。\n今回Laravel側で認証基盤を実装するためのものとしてLaravel Passportを使います。\nOAuthで定義...",
@@ -732,20 +774,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/koniman/articles/e5355a16a5261c",
-          "author": "こにまん",
-          "description": "概要\n\nNuxt.jsでbuefyを使用。\n\n\n 満たしたいこと\nplaceholderで表示される文字列の色を変更。\n参考：\nCSS：input要素のplaceholderの色を変更する方法\n上記の記事参考に記述してみる。\n\n      \n        \n        input::placeholder {\n  color: red;\n}\n\n\n      \n      これでは変わらない。\n\n 解決策\n原因がわからないので最強の上書きで対応。\n\n      \n        \n        ::v-deep input::placeholder {\n  color: red...",
-          "link": "https://zenn.dev/koniman/articles/e5355a16a5261c",
-          "publishedOn": "2021-06-24T13:11:39.000Z",
-          "wordCount": 59,
-          "title": "Buefy Placeholderの色変更　メモ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--PCohg1o3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2581%25AB%25E3%2581%25BE%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Buefy%2520Placeholder%25E3%2581%25AE%25E8%2589%25B2%25E5%25A4%2589%25E6%259B%25B4%25E3%2580%2580%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dRdFc2bVUyandqcm50aDVOSnoyVnlxZ3JCaUQzcGNreDEwV0VQPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -754,6 +782,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/damuha/articles/f109e1f1cfe1e5",
+          "author": "だむは",
+          "description": "Notion Blogでブログを開設しました\nちょっと前になりますが、Notion Blogでsisterのブログを開設したので、開設するまでの流れを書いてみようと思います。\n▼sisterのブログはこちらです↓\nhttps://blog.sisterwith.com/\n▼ Notion Blogはこちらです↓\nhttps://notion-blog.vercel.app/\n▼ 参考記事はこちらです↓\nhttps://blog.35d.jp/2020-05-23-notion-blog-1\n\n Notion Blogとは\nNotion Blog とは、Notion（バックエンド）で作...",
+          "link": "https://zenn.dev/damuha/articles/f109e1f1cfe1e5",
+          "publishedOn": "2021-07-24T13:06:29.000Z",
+          "wordCount": 274,
+          "title": "【Notion】Notion Blogでブログ開設〜10分でできるもん〜（デプロイ〜ローカル環境構築まで）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4mMAgDe---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25A0%25E3%2582%2580%25E3%2581%25AF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Notion%25E3%2580%2591Notion%2520Blog%25E3%2581%25A7%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E9%2596%258B%25E8%25A8%25AD%25E3%2580%259C10%25E5%2588%2586%25E3%2581%25A7%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2582%25E3%2582%2593%25E3%2580%259C%25EF%25BC%2588%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2580%259C%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%25BE%25E3%2581%25A7%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzk2NmZiMTdiNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538",
+          "author": "kawarimidoll",
+          "description": "先日、Deno標準ライブラリのバージョン0.102.0が公開されました。\nhttps://github.com/denoland/deno_std/releases/tag/0.102.0\nこちらで追加されたcollectionsというモジュールを紹介します。\nhttps://deno.land/std@0.102.0/collections\nその名の通り、集合の扱いを支援してくれるモジュールです。\nなお、READMEに載っているサンプルコードは記述にミスがあるのでそのままでは動作しません。\nPRが出ているのでそのうち解決されると思います。\nhttps://github.com/deno...",
+          "link": "https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538",
+          "publishedOn": "2021-07-24T06:54:18.000Z",
+          "wordCount": 808,
+          "title": "Deno標準ライブラリ0.102.0で追加されたcollectionsの紹介",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Mv03ujOO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E6%25A8%2599%25E6%25BA%2596%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA0.102.0%25E3%2581%25A7%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2595%25E3%2582%258C%25E3%2581%259Fcollections%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mouritania/articles/0ea0412deb4256",
+          "author": "mouritania",
+          "description": "こんにちは。もうりです。\nwebエンジニアとしてフロントエンド(React + Typescript)およびバックエンド(Rails)の開発をしています。\n未経験からエンジニアになって2ヶ月目の振り返りをします。\nぜひ最後まで読んでいただけると嬉しいです。\n1ヶ月目の振り返りは下のリンクから御覧ください。\nhttps://zenn.dev/mouritania/articles/9821ee3457aa10\n\n 今月のトピック\n今月は主にこんなことがありました。\n\nはじめての社外開発\nはじめて触れる技術(React, Typescript, Cypress, ActionMailer.....",
+          "link": "https://zenn.dev/mouritania/articles/0ea0412deb4256",
+          "publishedOn": "2021-07-24T00:32:32.000Z",
+          "wordCount": 80,
+          "title": "エンジニア1年生、2ヶ月目の振り返り",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qTI9p-dM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mouritania%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A21%25E5%25B9%25B4%25E7%2594%259F%25E3%2580%25812%25E3%2583%25B6%25E6%259C%2588%25E7%259B%25AE%25E3%2581%25AE%25E6%258C%25AF%25E3%2582%258A%25E8%25BF%2594%25E3%2582%258A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOThiMmMzMDE1Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/dl10yr/articles/582fd609078cea",
           "author": "dl10yr",
@@ -1774,20 +1844,6 @@
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ypw8L8lO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:beeeyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Theme%2520UI%25E3%2582%2592React%25C3%2597TypeScript%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTg0NTA1OGQzYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tatta/books/5096cb23126e64",
-          "author": "たった",
-          "description": "Typescriptを使いはじめて1年になるので、バックエンドのWebアプリを設計するときに気を付けていることをまとめました。（※社内勉強会用資料の公開版です。）\n\nTypescriptについては、Next.jsを中心にフロントエンドに関する公開情報が豊富です。一方でバックエンドに関する公開情報が少ないと感じています。（かくいう私もNext.jsからTypescriptデビューしたわけですが）\n\nTypeScript * GraphQL という構成は仕事・趣味で採用されている方も多いのではないでしょうか？\n私もその1人です。私のような方のためにも、バックエンドの設計プラクティスについてまとめようと思い筆を取りました。\n\n本書がこれから始める読者にとっては教科書のようになり、既に経験がある読者にとっては意見交換の場になったら嬉しいと考えています。",
-          "link": "https://zenn.dev/tatta/books/5096cb23126e64",
-          "publishedOn": "2021-06-25T06:49:19.000Z",
-          "wordCount": 41,
-          "title": "TypeScript * GraphQLのバックエンド設計プラクティス",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--YUooV18A--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci84M2U4NWNlYjE5LmpwZw==%2Cw_200/v1604564438/og_book_base_ndpqis.jpg",
-            "length": "0",
-            "type": "image/jpeg"
           }
         }
       ]

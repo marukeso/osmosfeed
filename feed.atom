@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-24T01:04:53.628Z</updated>
+    <updated>2021-07-25T01:06:29.830Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Notion】Notion Blogでブログ開設〜10分でできるもん〜（デプロイ〜ローカル環境構築まで）]]></title>
+        <id>https://zenn.dev/damuha/articles/f109e1f1cfe1e5</id>
+        <link href="https://zenn.dev/damuha/articles/f109e1f1cfe1e5"/>
+        <updated>2021-07-24T13:06:29.000Z</updated>
+        <summary type="html"><![CDATA[Notion Blogでブログを開設しました
+ちょっと前になりますが、Notion Blogでsisterのブログを開設したので、開設するまでの流れを書いてみようと思います。
+▼sisterのブログはこちらです↓
+https://blog.sisterwith.com/
+▼ Notion Blogはこちらです↓
+https://notion-blog.vercel.app/
+▼ 参考記事はこちらです↓
+https://blog.35d.jp/2020-05-23-notion-blog-1
+
+ Notion Blogとは
+Notion Blog とは、Notion（バックエンド）で作...]]></summary>
+        <author>
+            <name>だむは</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Notion】Notion Blogでブログ開設〜10分でできるもん〜（デプロイ〜ローカル環境構築まで）]]></title>
+        <id>https://zenn.dev/damuha/articles/f109e1f1cfe1e5</id>
+        <link href="https://zenn.dev/damuha/articles/f109e1f1cfe1e5"/>
+        <updated>2021-07-24T13:06:29.000Z</updated>
+        <summary type="html"><![CDATA[Notion Blogでブログを開設しました
+ちょっと前になりますが、Notion Blogでsisterのブログを開設したので、開設するまでの流れを書いてみようと思います。
+▼sisterのブログはこちらです↓
+https://blog.sisterwith.com/
+▼ Notion Blogはこちらです↓
+https://notion-blog.vercel.app/
+▼ 参考記事はこちらです↓
+https://blog.35d.jp/2020-05-23-notion-blog-1
+
+ Notion Blogとは
+Notion Blog とは、Notion（バックエンド）で作...]]></summary>
+        <author>
+            <name>だむは</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno標準ライブラリ0.102.0で追加されたcollectionsの紹介]]></title>
+        <id>https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538</id>
+        <link href="https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538"/>
+        <updated>2021-07-24T06:54:18.000Z</updated>
+        <summary type="html"><![CDATA[先日、Deno標準ライブラリのバージョン0.102.0が公開されました。
+https://github.com/denoland/deno_std/releases/tag/0.102.0
+こちらで追加されたcollectionsというモジュールを紹介します。
+https://deno.land/std@0.102.0/collections
+その名の通り、集合の扱いを支援してくれるモジュールです。
+なお、READMEに載っているサンプルコードは記述にミスがあるのでそのままでは動作しません。
+PRが出ているのでそのうち解決されると思います。
+https://github.com/deno...]]></summary>
+        <author>
+            <name>kawarimidoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エンジニア1年生、2ヶ月目の振り返り]]></title>
+        <id>https://zenn.dev/mouritania/articles/0ea0412deb4256</id>
+        <link href="https://zenn.dev/mouritania/articles/0ea0412deb4256"/>
+        <updated>2021-07-24T00:32:32.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。もうりです。
+webエンジニアとしてフロントエンド(React + Typescript)およびバックエンド(Rails)の開発をしています。
+未経験からエンジニアになって2ヶ月目の振り返りをします。
+ぜひ最後まで読んでいただけると嬉しいです。
+1ヶ月目の振り返りは下のリンクから御覧ください。
+https://zenn.dev/mouritania/articles/9821ee3457aa10
+
+ 今月のトピック
+今月は主にこんなことがありました。
+
+はじめての社外開発
+はじめて触れる技術(React, Typescript, Cypress, ActionMailer.....]]></summary>
+        <author>
+            <name>mouritania</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vue3で掲示板（BBS）を作ろうという試み]]></title>
         <id>https://zenn.dev/sakots/articles/fb6529ee401fd3</id>
@@ -55,6 +133,25 @@ https://zenn.dev/dl10yr/articles/0e31819e983a28
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Next.js × Tailwind.cssでAMP対応させてみる]]></title>
+        <id>https://zenn.dev/dl10yr/articles/582fd609078cea</id>
+        <link href="https://zenn.dev/dl10yr/articles/582fd609078cea"/>
+        <updated>2021-07-23T13:53:31.000Z</updated>
+        <summary type="html"><![CDATA[こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。
+https://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp
+
+ まずはNext.js × Tailwind.cssの環境構築
+以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。
+https://zenn.dev/dl10yr/articles/0e31819e983a28
+
+      
+        
+         git clone -b not-i...]]></summary>
+        <author>
+            <name>dl10yr</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[TailwindcssでMaterial UI風のカードデザイン作ってみました]]></title>
         <id>https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8</id>
         <link href="https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8"/>
@@ -73,6 +170,34 @@ codepenに残しておいたのでHTMLのコードはそこから拾って使っ
 ボタンを押した後のアクションなどの指定をしたかったのですが、設定ファイルに記述が必要でCDNでは無理そ...]]></summary>
         <author>
             <name>Yusuke Akiyama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「NEXTJS / S3 画像アップロード」画像を更新する時にこれやっちゃダメ！]]></title>
+        <id>https://zenn.dev/ihsan/articles/506510db3ba233</id>
+        <link href="https://zenn.dev/ihsan/articles/506510db3ba233"/>
+        <updated>2021-07-23T10:01:09.000Z</updated>
+        <summary type="html"><![CDATA[BEYONDMAGのマガジンサイトに連載と特集機能の画像アップロードを実装したときに、気づいたメモです。
+
+
+ 前提🙇🏽‍♂️
+本記事は、コーディングの仕方を教えるよりかは、ベストプラクティスを教えます。
+画像アップロードのコーディングを学びたい人はこの記事を参考にしてください。
+
+ 初めに🏁
+
+「画像を更新する時ってどうやるんだろう？」 という疑問持っている人いっぱいいますよね？
+僕もその一人です😅。
+
+ 僕が知っている画像の更新方法🙋🏽
+僕が知っている画像の更新方法は二つあります🤔
+
+ 1. 同じURLを使用し、画像の中身だけ変える方法
+
+
+つまり画像をS3に同じURLかつ違う画像の...]]></summary>
+        <author>
+            <name>マレーシア人のイサン</name>
         </author>
     </entry>
     <entry>
@@ -3701,60 +3826,6 @@ cf. GitHub dotfiles
 キーマップに設定している関数は全てGoで使用出来る...]]></summary>
         <author>
             <name>lunarxlark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript * GraphQLのバックエンド設計プラクティス]]></title>
-        <id>https://zenn.dev/tatta/books/5096cb23126e64</id>
-        <link href="https://zenn.dev/tatta/books/5096cb23126e64"/>
-        <updated>2021-06-25T06:49:19.000Z</updated>
-        <summary type="html"><![CDATA[Typescriptを使いはじめて1年になるので、バックエンドのWebアプリを設計するときに気を付けていることをまとめました。（※社内勉強会用資料の公開版です。）
-
-Typescriptについては、Next.jsを中心にフロントエンドに関する公開情報が豊富です。一方でバックエンドに関する公開情報が少ないと感じています。（かくいう私もNext.jsからTypescriptデビューしたわけですが）
-
-TypeScript * GraphQL という構成は仕事・趣味で採用されている方も多いのではないでしょうか？
-私もその1人です。私のような方のためにも、バックエンドの設計プラクティスについてまとめようと思い筆を取りました。
-
-本書がこれから始める読者にとっては教科書のようになり、既に経験がある読者にとっては意見交換の場になったら嬉しいと考えています。]]></summary>
-        <author>
-            <name>たった</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buefy Placeholderの色変更　メモ]]></title>
-        <id>https://zenn.dev/koniman/articles/e5355a16a5261c</id>
-        <link href="https://zenn.dev/koniman/articles/e5355a16a5261c"/>
-        <updated>2021-06-24T13:11:39.000Z</updated>
-        <summary type="html"><![CDATA[概要
-
-Nuxt.jsでbuefyを使用。
-
-
- 満たしたいこと
-placeholderで表示される文字列の色を変更。
-参考：
-CSS：input要素のplaceholderの色を変更する方法
-上記の記事参考に記述してみる。
-
-      
-        
-        input::placeholder {
-  color: red;
-}
-
-
-      
-      これでは変わらない。
-
- 解決策
-原因がわからないので最強の上書きで対応。
-
-      
-        
-        ::v-deep input::placeholder {
-  color: red...]]></summary>
-        <author>
-            <name>こにまん</name>
         </author>
     </entry>
 </feed>
