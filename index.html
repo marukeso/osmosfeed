@@ -77,6 +77,273 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-25">2021-07-25</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsで複数ツイートを埋め込みたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mktbsh/articles/376f4558bca196">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>CatNoseさんのJSでツイートを埋め込むときのベストプラクティスの記事を参考に複数ツイート読み込みを実現しようとしていました。
+
+ 上記の記事からの変更点
+基本はCatNoseさんの記事にまとまってるので、どのように変更したかだけ記載します。
+（とりあえず、動くようにしただけなのでパフォーマンス最適化されてるか否かは未計測です...！）
+
+スニペットは利用せず、widgets.jsを読み込むように変更
+useEffectの利用をやめました
+next/scriptのScriptコンポーネントを使うようにしました
+
+というわけでこうなった。
+
+ 実装
+
+      
+         p...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsでちょっとだけsessionStorageを使わせて</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tetsuyanh/articles/1ed9acd834723f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Next.jsがSSGで静的ページをプリレンダーして高速化してくれるのは大変ありがたいですが、クライアント側のセッション読み書きをほんの少しだけ使いたい時ってありますよね。
+useContextはまだしもReduxとか、いやそんな大事にはしたくないんです。
+クライアント側で発火するuseEffectでなんとかできないものか。
+
+ 要件
+タグを持っているカードの一覧ページがあって、そこでタグの絞り込みができる。
+このページに戻ってきた時に、先ほど指定したタグが適用されていて欲しい。
+router.back()などで戻ってきたりすることもあって、クエリパラメータ云々はできない。
+
+ Befo...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nextjsにtailwindcssをインストールしてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mo_ri_regen/articles/install-tailwind-article">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Nextjsにtailwindcssを入れてから実際に使えるようにするまでの流れをみていきます。
+公式ではnpmを使っているのでyarnでインストールしていこうと思います。
+
+ 前提
+Node.js 12.13.0以降をインストールしている
+
+ インストール方法
+
+
+インストール
+ターミナルを開いて下記のように入力します。
+
+      
+        
+        yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+
+      
+      
+
+tailwind.config.js と postc...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GA4（Web）でDebugViewが使えるようになっていたので試してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mktbsh/articles/f2880ae7058187">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>昨年、GA4がリリースされた時は使えなかったような気がしたDebugViewが使えるようになっていたので、試してみました。
+業務での利用だと検証環境用と本番環境用などでGAのプロパティ・トラッキングIDを分けていることがほとんどだと思いますが、個人レベルで触る分にはID一つで使えたほうが楽なので、これで楽できる...！
+
+ DebugViewとは
+[GA4] デバッグモードでイベントをモニタリングする
+こんな感じでリアルタイムにイベント等を確認できます。
+FirebaseではAndroid, iOSアプリ向けで使っていて便利だったのでWebでも使いたいと思っていました。
+
+
+ Next....</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">どうしてもnuxtでaxiosが動かない時の留意点</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryuji_cre8ive/articles/dc42afd40a1147">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ターゲット層
+Nuxtで外部APIを叩きたいと考えているが、@nuxtjs/axiosがうまく動かない全人に向けて
+
+ 結論
+
+nuxt.config.js内のaxiosとproxyの位置を変える
+axios内の{ proxy: true }の記述をなくす。
+
+
+ 諸解説
+この二つを踏まえた上でまだ動かないという人はpathRewriteやprefixなども見直したほうがいいです。
+prefixというのは読んで字の如く前に付随しますよ〜という合図です。
+なので$axiosがリクエストを送る際に記述したエンドポイント（URL）の前に勝手についてきます。
+そして肝心なproxy部ですが、...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TS/JSでレベルを持つオブジェクトの一次元配列をネストされた配列に変換する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/528ee947842021">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>連休中のヤクの毛刈りを共有したいと思います。
+
+ 要件
+TypeScriptで、一次元配列をネストされた配列に変換するというのをやってました。
+level要素を持つオブジェクトの配列を、そのレベルに従って入れ子式にした状態にする処理です。
+日本語だとちょっと何言ってるかわからないですね。
+以下のfromをtoに変換するということです。
+
+      
+        
+        const from &#x3D; [
+  { level: 0, name: &quot;a&quot; },
+  { level: 1, name: &quot;b&quot; },
+  { level: 1, name: &quot;c&quot; },
+  { lev...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【TypeScript】初歩的だけど忘れがちな構文</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/b925b018d43455">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>TypeScriptの基本的な所は知っているけど、「あれの呼び方何って言うんだっけ？」とか「interfaceとtypeって何が違うんだっけ？」となりがちなので、その辺りをまとめてみました。
+
+ 1. 基本
+覚えておきたいTSの基本的な構文や型
+
+ インデックスシグネチャ
+[key: T]: Uという構文をインデックスシグネチャを呼びます。インデックスシグネチャのキーの型（T）は、numberかstringのどちらかでなければいけません。
+
+      
+        
+        interface NumberList {
+  [key: number]: string
+}
+c...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Serverless Frameworkで作成したプロジェクトでexpressを使う with TypeScript</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/jojojo/articles/f58cc3d65f39b5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは！
+最近個人で開発しているアプリで、ServerlessFrameworkで作成したプロジェクトでexpressを使うことがありました。その中で色々調べていたのですが、ymlを使って設定を書いているものが多く、tsファイルに設定を書いているものはあまり見つかりませんでした。
+ですので本記事では、tsファイルで設定を書き、serverlessでexpressを使う方法を紹介していきます。
+
+ 目次
+
+アプリの構成。この改修が必要になった理由
+serverlessアプリ作成
+serverless offlineインストール
+express, serverless-httpインストー...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vue側でlaravelのenvファイルの値を使用する方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/0b8e8b7863b4f2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Vueのファイルの方で.envの値を使いたいことがあったので調べて実装してみました。
+
+ 手順1. .envにMIX_という接頭辞を付けて環境設定を設定する
+例えば APP_ENVの値をvue側で使いたい場合、 MIX_APP_ENV という風に MIX」 というprefixをつけて.envに登録します。
+
+      
+        
+        APP_ENV&#x3D;local
+MIX_APP_ENV&#x3D;&quot;${APP_ENV}&quot;
+
+
+      
+      
+ 手順2. ローカルサーバーを立ち上げなおし、再コンパイルする
+僕はこれをしていなかったので、なかなか値が反映されずしばらく困...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">東京フレンドパーク風ブロックゲームをVue.jsで作った話</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/century/articles/e67dc676ab81b0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ゲームの紹介
+
+再現して作ったゲーム
+
+参考にした本家のゲーム
+https://github.com/Century-ss/BlockGame-like-TokyoFriendPark
+今回作ったゲームは、動くブロックを止めて、左から繋げていき、右の壁に到達するとクリアするというものになっています。
+この記事では、このゲームを作ることで得たノウハウや行き詰まった点などを紹介していこうと思います。
+
+ 作った経緯
+単純にVueの勉強のためです。
+ハンズオンをやったり、公式ドキュメントを眺めるだけではなかなか頭に入ってこなかったので、
+自分で考えながら手を動かしてプログラミングをしたいと...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-24">2021-07-24</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -4587,145 +4854,9 @@ useMutation を使いたい!使おう！怒られる！なんで！
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-26">2021-06-26</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">VS CodeでVueのIntellisense(入力補完)が遅いとき</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>前提
-
-Veturを利用している
-jsconfig.jsonを書いている
-NuxtかVueで開発している
-
-
- 参考にしたサイト
-ずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。
-Vetur Intellisense slow and incomplete if project has jsconfig #547
-
-
- 結論
-jsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。
-プロジェクトフォルダのjsconfig.jsonを
-
-      
-        
-       ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SQL*Plusでviを使う</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/lunarxlark/articles/how-to-use-vi-in-sqlplus">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>SQL&gt; DEFINE _EDITOR &#x3D; vi
-SQL&gt; edit
-SQL&gt; /   -- 実行
-
-
-      
-      glogin.sqlに設定することでDEFINE _EDITOR &#x3D; viを省略できる</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">From denite.nvim To fzf.vim</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/lunarxlark/articles/from-denite-to-fzf">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>denite.nvimとfzf.vimって比較記事?
-
-違います。断捨離した結果、fzf.vimで事足りてしまったという記事です。
-denite.nvimとfzf.vimは、一見やれることが似ているように見えますが提供しているインタフェースが違います。
-denite.nvimの方が拡張性/汎用性が高いです。Pythonスクリプトを呼び出せますし。
-
-どうしてやめたん？
-
-Python3とpipの環境整備に疲れたというのが理由で完全に力不足なだけです。
-そもそも使いこなせていなかったっていうのも大きい。自分に必要な機能が何か見直したら次のがあれば十分っぽい。
-
-コマンドの結果の一覧表示(...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021年版 vim + goplsの設定</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/lunarxlark/articles/2021_vim_gopls">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>goplsが出てから, vimでも定義ジャンプやシンボル検索、ドキュメント参照等が行えるようになった。
-たまにVSCodeを触りvimでの作業を改善できないか考える中で、自身の設定が古いことに気付いた。また、ググってもなかなか出てこなかったのでメモとして記述する。
-cf. GitHub dotfiles
-いきなりだが、vimrcとvim-lsp-settings/settings.jsonを抜粋して貼り付ける。
-以前、GoではLspCodeAction, LspCodeLens等をサポートしていなかったが、今では使えるようになっている。
-キーマップに設定している関数は全てGoで使用出来る...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">VS CodeでVueのIntellisense(入力補完)が遅いとき</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>前提
-
-Veturを利用している
-jsconfig.jsonを書いている
-NuxtかVueで開発している
-
-
- 参考にしたサイト
-ずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。
-Vetur Intellisense slow and incomplete if project has jsconfig #547
-
-
- 結論
-jsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。
-プロジェクトフォルダのjsconfig.jsonを
-
-      
-        
-       ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-25T01:06:29.810Z">2021-07-25T01:06:29.810Z</time>
+    <time id="build-timestamp" datetime="2021-07-26T01:04:40.760Z">2021-07-26T01:04:40.760Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

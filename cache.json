@@ -55,6 +55,62 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/mktbsh/articles/376f4558bca196",
+          "author": "mktbsh",
+          "description": "CatNoseさんのJSでツイートを埋め込むときのベストプラクティスの記事を参考に複数ツイート読み込みを実現しようとしていました。\n\n 上記の記事からの変更点\n基本はCatNoseさんの記事にまとまってるので、どのように変更したかだけ記載します。\n（とりあえず、動くようにしただけなのでパフォーマンス最適化されてるか否かは未計測です...！）\n\nスニペットは利用せず、widgets.jsを読み込むように変更\nuseEffectの利用をやめました\nnext/scriptのScriptコンポーネントを使うようにしました\n\nというわけでこうなった。\n\n 実装\n\n      \n         p...",
+          "link": "https://zenn.dev/mktbsh/articles/376f4558bca196",
+          "publishedOn": "2021-07-25T15:03:00.000Z",
+          "wordCount": 118,
+          "title": "Next.jsで複数ツイートを埋め込みたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--HEbxR5bc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mktbsh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%25E3%2583%2584%25E3%2582%25A4%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E5%259F%258B%25E3%2582%2581%25E8%25BE%25BC%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWY0MTVhNDA1OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tetsuyanh/articles/1ed9acd834723f",
+          "author": "tetsuyanh",
+          "description": "Next.jsがSSGで静的ページをプリレンダーして高速化してくれるのは大変ありがたいですが、クライアント側のセッション読み書きをほんの少しだけ使いたい時ってありますよね。\nuseContextはまだしもReduxとか、いやそんな大事にはしたくないんです。\nクライアント側で発火するuseEffectでなんとかできないものか。\n\n 要件\nタグを持っているカードの一覧ページがあって、そこでタグの絞り込みができる。\nこのページに戻ってきた時に、先ほど指定したタグが適用されていて欲しい。\nrouter.back()などで戻ってきたりすることもあって、クエリパラメータ云々はできない。\n\n Befo...",
+          "link": "https://zenn.dev/tetsuyanh/articles/1ed9acd834723f",
+          "publishedOn": "2021-07-25T07:35:19.000Z",
+          "wordCount": 119,
+          "title": "Next.jsでちょっとだけsessionStorageを使わせて",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--rhnqvdR5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tetsuyanh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2581%25A1%25E3%2582%2587%25E3%2581%25A3%25E3%2581%25A8%25E3%2581%25A0%25E3%2581%2591sessionStorage%25E3%2582%2592%25E4%25BD%25BF%25E3%2582%258F%25E3%2581%259B%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hURVVIMWktT1pjRkF4OW9NS19lcVQ0Q2FWRm9xajdQSFVsNkZ1NUZ3PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mo_ri_regen/articles/install-tailwind-article",
+          "author": "モーリー",
+          "description": "Nextjsにtailwindcssを入れてから実際に使えるようにするまでの流れをみていきます。\n公式ではnpmを使っているのでyarnでインストールしていこうと思います。\n\n 前提\nNode.js 12.13.0以降をインストールしている\n\n インストール方法\n\n\nインストール\nターミナルを開いて下記のように入力します。\n\n      \n        \n        yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest\n\n\n      \n      \n\ntailwind.config.js と postc...",
+          "link": "https://zenn.dev/mo_ri_regen/articles/install-tailwind-article",
+          "publishedOn": "2021-07-25T05:00:32.000Z",
+          "wordCount": 134,
+          "title": "Nextjsにtailwindcssをインストールしてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--nxGPp4ip--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AA%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nextjs%25E3%2581%25ABtailwindcss%25E3%2582%2592%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTE4MDU3NTdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mktbsh/articles/f2880ae7058187",
+          "author": "mktbsh",
+          "description": "昨年、GA4がリリースされた時は使えなかったような気がしたDebugViewが使えるようになっていたので、試してみました。\n業務での利用だと検証環境用と本番環境用などでGAのプロパティ・トラッキングIDを分けていることがほとんどだと思いますが、個人レベルで触る分にはID一つで使えたほうが楽なので、これで楽できる...！\n\n DebugViewとは\n[GA4] デバッグモードでイベントをモニタリングする\nこんな感じでリアルタイムにイベント等を確認できます。\nFirebaseではAndroid, iOSアプリ向けで使っていて便利だったのでWebでも使いたいと思っていました。\n\n\n Next....",
+          "link": "https://zenn.dev/mktbsh/articles/f2880ae7058187",
+          "publishedOn": "2021-07-25T01:55:54.000Z",
+          "wordCount": 186,
+          "title": "GA4（Web）でDebugViewが使えるようになっていたので試してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qzUr_qTZ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mktbsh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:GA4%25EF%25BC%2588Web%25EF%25BC%2589%25E3%2581%25A7DebugView%25E3%2581%258C%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWY0MTVhNDA1OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/damuha/articles/f109e1f1cfe1e5",
           "author": "だむは",
           "description": "Notion Blogでブログを開設しました\nちょっと前になりますが、Notion Blogでsisterのブログを開設したので、開設するまでの流れを書いてみようと思います。\n▼sisterのブログはこちらです↓\nhttps://blog.sisterwith.com/\n▼ Notion Blogはこちらです↓\nhttps://notion-blog.vercel.app/\n▼ 参考記事はこちらです↓\nhttps://blog.35d.jp/2020-05-23-notion-blog-1\n\n Notion Blogとは\nNotion Blog とは、Notion（バックエンド）で作...",
@@ -566,6 +622,20 @@
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
         {
+          "id": "https://zenn.dev/ryuji_cre8ive/articles/dc42afd40a1147",
+          "author": "ryuji_cre8ive",
+          "description": "ターゲット層\nNuxtで外部APIを叩きたいと考えているが、@nuxtjs/axiosがうまく動かない全人に向けて\n\n 結論\n\nnuxt.config.js内のaxiosとproxyの位置を変える\naxios内の{ proxy: true }の記述をなくす。\n\n\n 諸解説\nこの二つを踏まえた上でまだ動かないという人はpathRewriteやprefixなども見直したほうがいいです。\nprefixというのは読んで字の如く前に付随しますよ〜という合図です。\nなので$axiosがリクエストを送る際に記述したエンドポイント（URL）の前に勝手についてきます。\nそして肝心なproxy部ですが、...",
+          "link": "https://zenn.dev/ryuji_cre8ive/articles/dc42afd40a1147",
+          "publishedOn": "2021-07-25T06:24:45.000Z",
+          "wordCount": 53,
+          "title": "どうしてもnuxtでaxiosが動かない時の留意点",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--9HwAJ54w--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryuji_cre8ive%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2581%25A9%25E3%2581%2586%25E3%2581%2597%25E3%2581%25A6%25E3%2582%2582nuxt%25E3%2581%25A7axios%25E3%2581%258C%25E5%258B%2595%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E6%2599%2582%25E3%2581%25AE%25E7%2595%2599%25E6%2584%258F%25E7%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hKUHROdS15cGNUUERTNUdxMnB0M09YeXpDbDZmdVlBMmF4bjFoTnc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
           "author": "sasigume",
           "description": "ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。\n\n最終更新: 2021年7月17日\n筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください\n\n\n 何をセットアップするか\n\n\nyarn create nuxt-appで以下を済ませる\n\nTypeScript化\nPrettier+ESLint\nTailwindCSS対応\nPWA対応\n\n\nコンフィグをTS化する\n\nsrcディレクトリにまとめる\nOGPを設定する...",
@@ -760,20 +830,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
-          "author": "tatsuhiko",
-          "description": "前提\n\nVeturを利用している\njsconfig.jsonを書いている\nNuxtかVueで開発している\n\n\n 参考にしたサイト\nずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。\nVetur Intellisense slow and incomplete if project has jsconfig #547\n\n\n 結論\njsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。\nプロジェクトフォルダのjsconfig.jsonを\n\n      \n        \n       ...",
-          "link": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
-          "publishedOn": "2021-06-26T09:20:12.000Z",
-          "wordCount": 102,
-          "title": "VS CodeでVueのIntellisense(入力補完)が遅いとき",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--XaO6O-7a--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tatsuhiko%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:VS%2520Code%25E3%2581%25A7Vue%25E3%2581%25AEIntellisense%2528%25E5%2585%25A5%25E5%258A%259B%25E8%25A3%259C%25E5%25AE%258C%2529%25E3%2581%258C%25E9%2581%2585%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzY4MmU0MzhkMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -782,6 +838,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kawarimidoll/articles/528ee947842021",
+          "author": "kawarimidoll",
+          "description": "連休中のヤクの毛刈りを共有したいと思います。\n\n 要件\nTypeScriptで、一次元配列をネストされた配列に変換するというのをやってました。\nlevel要素を持つオブジェクトの配列を、そのレベルに従って入れ子式にした状態にする処理です。\n日本語だとちょっと何言ってるかわからないですね。\n以下のfromをtoに変換するということです。\n\n      \n        \n        const from = [\n  { level: 0, name: \"a\" },\n  { level: 1, name: \"b\" },\n  { level: 1, name: \"c\" },\n  { lev...",
+          "link": "https://zenn.dev/kawarimidoll/articles/528ee947842021",
+          "publishedOn": "2021-07-25T12:15:05.000Z",
+          "wordCount": 475,
+          "title": "TS/JSでレベルを持つオブジェクトの一次元配列をネストされた配列に変換する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--p06aTJz1--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TS%252FJS%25E3%2581%25A7%25E3%2583%25AC%25E3%2583%2599%25E3%2583%25AB%25E3%2582%2592%25E6%258C%2581%25E3%2581%25A4%25E3%2582%25AA%25E3%2583%2596%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25AE%25E4%25B8%2580%25E6%25AC%25A1%25E5%2585%2583%25E9%2585%258D%25E5%2588%2597%25E3%2582%2592%25E3%2583%258D%25E3%2582%25B9%25E3%2583%2588%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E9%2585%258D%25E5%2588%2597%25E3%2581%25AB%25E5%25A4%2589%25E6%258F%259B%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/b925b018d43455",
+          "author": "chida",
+          "description": "TypeScriptの基本的な所は知っているけど、「あれの呼び方何って言うんだっけ？」とか「interfaceとtypeって何が違うんだっけ？」となりがちなので、その辺りをまとめてみました。\n\n 1. 基本\n覚えておきたいTSの基本的な構文や型\n\n インデックスシグネチャ\n[key: T]: Uという構文をインデックスシグネチャを呼びます。インデックスシグネチャのキーの型（T）は、numberかstringのどちらかでなければいけません。\n\n      \n        \n        interface NumberList {\n  [key: number]: string\n}\nc...",
+          "link": "https://zenn.dev/chida/articles/b925b018d43455",
+          "publishedOn": "2021-07-25T08:35:20.000Z",
+          "wordCount": 732,
+          "title": "【TypeScript】初歩的だけど忘れがちな構文",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--P8rYXlPa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590TypeScript%25E3%2580%2591%25E5%2588%259D%25E6%25AD%25A9%25E7%259A%2584%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A9%25E5%25BF%2598%25E3%2582%258C%25E3%2581%258C%25E3%2581%25A1%25E3%2581%25AA%25E6%25A7%258B%25E6%2596%2587%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/jojojo/articles/f58cc3d65f39b5",
+          "author": "jojojo",
+          "description": "こんにちは！\n最近個人で開発しているアプリで、ServerlessFrameworkで作成したプロジェクトでexpressを使うことがありました。その中で色々調べていたのですが、ymlを使って設定を書いているものが多く、tsファイルに設定を書いているものはあまり見つかりませんでした。\nですので本記事では、tsファイルで設定を書き、serverlessでexpressを使う方法を紹介していきます。\n\n 目次\n\nアプリの構成。この改修が必要になった理由\nserverlessアプリ作成\nserverless offlineインストール\nexpress, serverless-httpインストー...",
+          "link": "https://zenn.dev/jojojo/articles/f58cc3d65f39b5",
+          "publishedOn": "2021-07-25T06:53:19.000Z",
+          "wordCount": 216,
+          "title": "Serverless Frameworkで作成したプロジェクトでexpressを使う with TypeScript",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--grSGLC4j--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:jojojo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Serverless%2520Framework%25E3%2581%25A7%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2597%25E3%2581%259F%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7express%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2520with%2520TypeScript%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODk2ODYwNjVjMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/damuha/articles/f109e1f1cfe1e5",
           "author": "だむは",
@@ -1964,48 +2062,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/lunarxlark/articles/how-to-use-vi-in-sqlplus",
-          "author": "lunarxlark",
-          "description": "SQL> DEFINE _EDITOR = vi\nSQL> edit\nSQL> /   -- 実行\n\n\n      \n      glogin.sqlに設定することでDEFINE _EDITOR = viを省略できる",
-          "link": "https://zenn.dev/lunarxlark/articles/how-to-use-vi-in-sqlplus",
-          "publishedOn": "2021-06-26T04:01:08.000Z",
-          "wordCount": 20,
-          "title": "SQL*Plusでviを使う",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DxIX2WH8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:SQL%252APlus%25E3%2581%25A7vi%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/lunarxlark/articles/from-denite-to-fzf",
-          "author": "lunarxlark",
-          "description": "denite.nvimとfzf.vimって比較記事?\n\n違います。断捨離した結果、fzf.vimで事足りてしまったという記事です。\ndenite.nvimとfzf.vimは、一見やれることが似ているように見えますが提供しているインタフェースが違います。\ndenite.nvimの方が拡張性/汎用性が高いです。Pythonスクリプトを呼び出せますし。\n\nどうしてやめたん？\n\nPython3とpipの環境整備に疲れたというのが理由で完全に力不足なだけです。\nそもそも使いこなせていなかったっていうのも大きい。自分に必要な機能が何か見直したら次のがあれば十分っぽい。\n\nコマンドの結果の一覧表示(...",
-          "link": "https://zenn.dev/lunarxlark/articles/from-denite-to-fzf",
-          "publishedOn": "2021-06-26T04:01:02.000Z",
-          "wordCount": 138,
-          "title": "From denite.nvim To fzf.vim",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--rNKc3BZy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:From%2520denite.nvim%2520To%2520fzf.vim%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/lunarxlark/articles/2021_vim_gopls",
-          "author": "lunarxlark",
-          "description": "goplsが出てから, vimでも定義ジャンプやシンボル検索、ドキュメント参照等が行えるようになった。\nたまにVSCodeを触りvimでの作業を改善できないか考える中で、自身の設定が古いことに気付いた。また、ググってもなかなか出てこなかったのでメモとして記述する。\ncf. GitHub dotfiles\nいきなりだが、vimrcとvim-lsp-settings/settings.jsonを抜粋して貼り付ける。\n以前、GoではLspCodeAction, LspCodeLens等をサポートしていなかったが、今では使えるようになっている。\nキーマップに設定している関数は全てGoで使用出来る...",
-          "link": "https://zenn.dev/lunarxlark/articles/2021_vim_gopls",
-          "publishedOn": "2021-06-26T03:16:35.000Z",
-          "wordCount": 255,
-          "title": "2021年版 vim + goplsの設定",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--2jrN75bq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:lunarxlark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:2021%25E5%25B9%25B4%25E7%2589%2588%2520vim%2520%252B%2520gopls%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWE1YWYxNDFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2014,6 +2070,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/0b8e8b7863b4f2",
+          "author": "おしうみなおき",
+          "description": "Vueのファイルの方で.envの値を使いたいことがあったので調べて実装してみました。\n\n 手順1. .envにMIX_という接頭辞を付けて環境設定を設定する\n例えば APP_ENVの値をvue側で使いたい場合、 MIX_APP_ENV という風に MIX」 というprefixをつけて.envに登録します。\n\n      \n        \n        APP_ENV=local\nMIX_APP_ENV=\"${APP_ENV}\"\n\n\n      \n      \n 手順2. ローカルサーバーを立ち上げなおし、再コンパイルする\n僕はこれをしていなかったので、なかなか値が反映されずしばらく困...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/0b8e8b7863b4f2",
+          "publishedOn": "2021-07-25T23:12:37.000Z",
+          "wordCount": 35,
+          "title": "vue側でlaravelのenvファイルの値を使用する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Q6zchQZ6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue%25E5%2581%25B4%25E3%2581%25A7laravel%25E3%2581%25AEenv%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%25AE%25E5%2580%25A4%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/century/articles/e67dc676ab81b0",
+          "author": "Century",
+          "description": "ゲームの紹介\n\n再現して作ったゲーム\n\n参考にした本家のゲーム\nhttps://github.com/Century-ss/BlockGame-like-TokyoFriendPark\n今回作ったゲームは、動くブロックを止めて、左から繋げていき、右の壁に到達するとクリアするというものになっています。\nこの記事では、このゲームを作ることで得たノウハウや行き詰まった点などを紹介していこうと思います。\n\n 作った経緯\n単純にVueの勉強のためです。\nハンズオンをやったり、公式ドキュメントを眺めるだけではなかなか頭に入ってこなかったので、\n自分で考えながら手を動かしてプログラミングをしたいと...",
+          "link": "https://zenn.dev/century/articles/e67dc676ab81b0",
+          "publishedOn": "2021-07-25T04:49:42.000Z",
+          "wordCount": 106,
+          "title": "東京フレンドパーク風ブロックゲームをVue.jsで作った話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--skQgtiNE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Century%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%259D%25B1%25E4%25BA%25AC%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2589%25E3%2583%2591%25E3%2583%25BC%25E3%2582%25AF%25E9%25A2%25A8%25E3%2583%2596%25E3%2583%25AD%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592Vue.js%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTc4MTFjODcxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sakots/articles/fb6529ee401fd3",
           "author": "sakots",
@@ -2444,20 +2528,6 @@
           "title": "Vue Apollo の useMutation でつまづいたところ",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--G4d3qsIl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%2520Apollo%2520%25E3%2581%25AE%2520useMutation%2520%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%25BE%25E3%2581%25A5%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A8%25E3%2581%2593%25E3%2582%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
-          "author": "tatsuhiko",
-          "description": "前提\n\nVeturを利用している\njsconfig.jsonを書いている\nNuxtかVueで開発している\n\n\n 参考にしたサイト\nずっと理由がわからず、VS Codeくそやん！とか思ってしまいましたがどうやらVS Codeは悪くないようです。\nVetur Intellisense slow and incomplete if project has jsconfig #547\n\n\n 結論\njsconfigの「include」には、veturに適用する必要のあるフォルダーのみを含める。\nプロジェクトフォルダのjsconfig.jsonを\n\n      \n        \n       ...",
-          "link": "https://zenn.dev/tatsuhiko/articles/d7cedc5a1a3f5a",
-          "publishedOn": "2021-06-26T09:20:12.000Z",
-          "wordCount": 102,
-          "title": "VS CodeでVueのIntellisense(入力補完)が遅いとき",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--XaO6O-7a--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tatsuhiko%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:VS%2520Code%25E3%2581%25A7Vue%25E3%2581%25AEIntellisense%2528%25E5%2585%25A5%25E5%258A%259B%25E8%25A3%259C%25E5%25AE%258C%2529%25E3%2581%258C%25E9%2581%2585%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzY4MmU0MzhkMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
