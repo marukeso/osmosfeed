@@ -2,10 +2,219 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-27T01:07:00.064Z</updated>
+    <updated>2021-07-28T01:08:08.443Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Nuxtjs】Promise allでパフォーマンス改善について]]></title>
+        <id>https://zenn.dev/sengosha/articles/498398d82fb056</id>
+        <link href="https://zenn.dev/sengosha/articles/498398d82fb056"/>
+        <updated>2021-07-27T14:46:20.000Z</updated>
+        <summary type="html"><![CDATA[背景
+最近NuxtJSの公式オンラインコース を受講してパフォーマンス周りを改善する方法を勉強したので共有します。
+
+ 概要
+NuxtのSSRモードでページにアクセス時にasyncDataやfetchで複数のAPIリクエストを投げるのはよくあることです。APIリクエストはasync/waitで非同期処理なので、例えばA、B、Cの３つのリクエストがある場合、BはAが完了してから処理され、CはBが完了してから処理されます。リクエストが多ければ多いほどパフォーマンスに悪影響を与えてしまいます。
+Promise.all でAPIリクエストを並列処理させることで、ページアクセスが早くなり、TT...]]></summary>
+        <author>
+            <name>ユウ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt x Composition API x Hasura x TypeScriptを実装する]]></title>
+        <id>https://zenn.dev/dialbird/articles/a63e9f1c838462</id>
+        <link href="https://zenn.dev/dialbird/articles/a63e9f1c838462"/>
+        <updated>2021-07-27T13:13:32.000Z</updated>
+        <summary type="html"><![CDATA[まずはHasura Cloudでプロジェクトを作っておきましょう
+https://hasura.io/docs/latest/graphql/cloud/projects/create.html
+接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます
+
+次にNuxtプロジェクトをnpxで作ります
+
+      
+        
+        $ npx create-nuxt-app nuxt-composable-hasura
+
+
+      
+      次に必要なライブラリ群をインストールしていきましょう（各ライ...]]></summary>
+        <author>
+            <name>dialbird</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt x Composition API x Hasura x TypeScriptを実装する]]></title>
+        <id>https://zenn.dev/dialbird/articles/a63e9f1c838462</id>
+        <link href="https://zenn.dev/dialbird/articles/a63e9f1c838462"/>
+        <updated>2021-07-27T13:13:32.000Z</updated>
+        <summary type="html"><![CDATA[まずはHasura Cloudでプロジェクトを作っておきましょう
+https://hasura.io/docs/latest/graphql/cloud/projects/create.html
+接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます
+
+次にNuxtプロジェクトをnpxで作ります
+
+      
+        
+        $ npx create-nuxt-app nuxt-composable-hasura
+
+
+      
+      次に必要なライブラリ群をインストールしていきましょう（各ライ...]]></summary>
+        <author>
+            <name>dialbird</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-07-27のJS: vscode-js-debug、 Privacy Sandbox Timeline、小さなブラウザの作り方]]></title>
+        <id>https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/</id>
+        <link href="https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/"/>
+        <updated>2021-07-27T12:52:36.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #550 - vscode-js-debugはVSCodeからブラウザのデバッガーに接続し、JavaScriptをデバッグするVSCode拡張です。
+Easier browser debugging with Developer Tools integration in Visual Studio Code - Microsoft Edge Blog
+microsoft/vscode-js-debug: The VS Code JavaScript debugger
+vscode-js-debugは、ChromeやMSEdgeなどのブラウザのデバッガーに接続できます。
+Debug Adapter Protocol(DAP)という、開発ツール(VScodeなど)とデバッガー(ブラウザやNodeなど)を中継するAdapterを利用しています。
+DAPはLanguage Server Protocol(LSP)似た形のもので、開発ツールと各種言語の中継となるプロトコルを定めています。
+Privacy Sandbox TimelineというサイトでGoogleのPrivacy Sandboxと呼ばれるthird-party cookiesを廃止するためのProposal集に関するロードマップが公開されています。
+Privacy Sandboxの各Proposalごとにどのようなスケジュールで、実装やテストをしていくかの予定が公開されています。
+ちいさな Web ブラウザを作ってみようでは、Rustでウェブブラウザを作りつつ、ブラウザのレンダリングの仕組みやセキュリティについて学習する教材が公開されています。
+現時点ではWIP(Working In Progress)な章もありますが、小さなブラウザをつくりつつブラウザの内部構造について学ぶのが目的となっています。…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amplify+Next.js 環境変数設定方法まとめ]]></title>
+        <id>https://zenn.dev/thim/articles/04775c68d796445f3c90</id>
+        <link href="https://zenn.dev/thim/articles/04775c68d796445f3c90"/>
+        <updated>2021-07-27T12:47:14.000Z</updated>
+        <summary type="html"><![CDATA[Next.js アプリを Amplify にデプロイする際に環境変数の設定方法でつまづいたので記事にしておきます。
+
+ クライアントサイドで扱う環境変数
+クライアントサイド、つまりはブラウザで実行されるソースから参照する環境変数は Amplify コンソールから設定します。
+
+ソースからは以下のように参照可能で非常に簡単です。
+
+      
+        
+        const TEST = process.env.NEXT_PUBLIC_TEST;
+
+
+      
+      
+ サーバーサイドで扱う環境変数
+サーバーサイド、つまりは SSR する場合に参照する環境変数はn...]]></summary>
+        <author>
+            <name>thim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DenoでHTMLタグを楽に書けるモジュールを作ってレジストリに公開した感想]]></title>
+        <id>https://zenn.dev/kawarimidoll/articles/6022552f509b84</id>
+        <link href="https://zenn.dev/kawarimidoll/articles/6022552f509b84"/>
+        <updated>2021-07-27T11:24:13.000Z</updated>
+        <summary type="html"><![CDATA[本記事の主題はDenoの自作モジュールの説明ではなく、Denoのモジュール公開に関する所感について述べるものです。したがってIdea記事です。
+
+ markup-tagをリリースした
+先日、markup-tagというモジュールをリリースしました。
+https://github.com/kawarimidoll/deno-markup-tag
+https://deno.land/x/markup_tag
+https://nest.land/package/markup-tag
+
+ 機能
+プログラム内でHTMLのソースを記述したいときに、
+
+      
+        
+        c...]]></summary>
+        <author>
+            <name>kawarimidoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[仮想オンライン作業スペースを作った]]></title>
+        <id>https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3</id>
+        <link href="https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3"/>
+        <updated>2021-07-27T10:45:38.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、そらららいどです。
+今回はじめて、個人的に開発したWebサービス「オンライン作業部屋」をリリースしましたので紹介したいと思います。
+
+現在、後続の類似サービス「Youtube作業部屋」という24時間ライブ配信によるオンライン自習室も運営していますのでぜひご覧ください。
+Youtube作業部屋チャンネル
+Youtube作業部屋についても記事を準備中です。
+
+
+
+ リンク
+
+Webアプリ
+Githubリポジトリ
+
+
+ オンライン作業部屋とは？
+オンライン上の仮想的な作業部屋というコンセプトです。
+仕組みはシンプルで、好きな科目と座席を選び、ボタンを押して入室・退室するだけです。
+...]]></summary>
+        <author>
+            <name>そららいど</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactで任意のタグ名を設定できるコンポーネントを作る]]></title>
+        <id>https://zenn.dev/andynuma/articles/c7f6d6587c116d</id>
+        <link href="https://zenn.dev/andynuma/articles/c7f6d6587c116d"/>
+        <updated>2021-07-27T04:08:28.000Z</updated>
+        <summary type="html"><![CDATA[前書き
+as を受け取るコンポーネントはどういうコンポーネントかというと、Chakra UI の Box コンポーネント にいい例があるのですが、
+
+      
+        
+        <Box as="button" borderRadius="md" px={4} h={8}>
+  Button
+</Box>
+
+
+      
+      上記のようなコンポーネントです。
+このようなコンポーネントを自作する場合に、型をどう付与するかについて Generics を使用する書き方を学んだので備忘録も兼ねて記事にします。
+もっと良い方法などあれば教え...]]></summary>
+        <author>
+            <name>nu0ma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prismaで複数のデータベースを同時に扱う]]></title>
+        <id>https://zenn.dev/frog/articles/073af49880452f</id>
+        <link href="https://zenn.dev/frog/articles/073af49880452f"/>
+        <updated>2021-07-26T19:36:35.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+prismaについてはこちら
+参考資料
+
+ 対象読者
+
+Prismaを使っている
+Node.jsを使っている(もしくは個別に変換して解釈できる)
+複数のデータベースを同じプロジェクトで扱う必要がある
+とりあえず動かしたい
+
+
+ 手順
+
+Prisma schemaの作成
+Prisma clientの生成
+Clientのインポート&初期化
+それぞれのクライアントを使う
+
+
+ Prisma schemaの作成
+Prismaで複数のデータベースを同時に扱うには、Schemaを複数作成する必要があります。
+また、generatorの設定にoutputの項目を追加することで/p...]]></summary>
+        <author>
+            <name>かえる</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&1人でNext.jsに置き換えた話]]></title>
         <id>https://zenn.dev/yuku/articles/a9edd53e13bb26</id>
@@ -3899,127 +4108,6 @@ Demystifying styled-componentsという記事では、styled-componentsのミニ
 自分自身、インスタグラムやRetty,食べログなどから美味しい店を探すことが多く、探すこと自体に苦を感じることはないですが、一方探すことに時間がかかりすぎ、結局目当ての店が見つからない、もしくは多すぎてなかなか決められないということがありました。自分で探すよりも勝手にピックアッ...]]></summary>
         <author>
             <name>Goemon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[create-nuxt-appで既存のディレクトリを上書きできるようになった]]></title>
-        <id>https://zenn.dev/uta_mory/articles/f8bad2ffa86d99</id>
-        <link href="https://zenn.dev/uta_mory/articles/f8bad2ffa86d99"/>
-        <updated>2021-06-28T10:24:38.000Z</updated>
-        <summary type="html"><![CDATA[今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった
-
-      
-        
-        projects/test-pj
-> touch Makefile
-
-
-      
-      
-      
-        
-        projects/test-pj
-> npx create-nuxt-app .
-
-
-create-nuxt-app v3.7.0
-Could not create project in test-pj because the directory is not empty.
-
-
-      
-    ...]]></summary>
-        <author>
-            <name>utamori</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[create-nuxt-appで既存のディレクトリを上書きできるようになった]]></title>
-        <id>https://zenn.dev/uta_mory/articles/f8bad2ffa86d99</id>
-        <link href="https://zenn.dev/uta_mory/articles/f8bad2ffa86d99"/>
-        <updated>2021-06-28T10:24:38.000Z</updated>
-        <summary type="html"><![CDATA[今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった
-
-      
-        
-        projects/test-pj
-> touch Makefile
-
-
-      
-      
-      
-        
-        projects/test-pj
-> npx create-nuxt-app .
-
-
-create-nuxt-app v3.7.0
-Could not create project in test-pj because the directory is not empty.
-
-
-      
-    ...]]></summary>
-        <author>
-            <name>utamori</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WSL2でvim/tmuxでクリップボード共有できるようにする]]></title>
-        <id>https://zenn.dev/u1tnk/articles/303ed2cd4fff6c</id>
-        <link href="https://zenn.dev/u1tnk/articles/303ed2cd4fff6c"/>
-        <updated>2021-06-28T06:38:47.000Z</updated>
-        <summary type="html"><![CDATA[自ブログから転載 https://u1tnk.github.io/blog/2021/06/28/wsl2_clipboard_config/
-
- 概要
-vim、tmux、windws側のcopy/pasteを全て連携させる。
-WSL2移行前に使っていたVIrtualBox環境からの移行で、結局の所ssh+x転送をやめた結果 xselが使えなくなったのでwindowsのexeを直接叩けばOKだった…というだけ。
-
- windows側のクリップボードを双方向で使えるアプリをインストール
-https://github.com/equalsraf/win32yank  を利用。
-windows...]]></summary>
-        <author>
-            <name>yuichi tanaka</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【新規ユーザー登録機能】axiosを使ったapi呼び出しメモ]]></title>
-        <id>https://zenn.dev/tanoken729/articles/e9185ede462fc3</id>
-        <link href="https://zenn.dev/tanoken729/articles/e9185ede462fc3"/>
-        <updated>2021-06-27T17:27:09.000Z</updated>
-        <summary type="html"><![CDATA[全指定
-Signup.vue
-
-      
-        
-        await this.$axios.post('http://localhost:8000/api/register',this.user)
-
-
-      
-      baseURLの指定
-auth-moduleでの設定
-nuxt.config.js
-
-      
-        
-          axios: {
-    // baseURL: 'http://localhost:3000',
-    // baseURL: 'http://localhost:8000',
-    baseURL...]]></summary>
-        <author>
-            <name>tanoken</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【新規ユーザー登録機能】ブラウザが表示しているエラーメッセージ消えない]]></title>
-        <id>https://zenn.dev/tanoken729/articles/fc1e0079b9bd03</id>
-        <link href="https://zenn.dev/tanoken729/articles/fc1e0079b9bd03"/>
-        <updated>2021-06-27T17:17:51.000Z</updated>
-        <summary type="html"><![CDATA[laravel
-解決
-https://teratail.com/questions/178343
-nuxt側も出てくるから後で調査]]></summary>
-        <author>
-            <name>tanoken</name>
         </author>
     </entry>
 </feed>

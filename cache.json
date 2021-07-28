@@ -12,6 +12,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/",
+          "author": null,
+          "description": "JSer.info #550 - vscode-js-debugはVSCodeからブラウザのデバッガーに接続し、JavaScriptをデバッグするVSCode拡張です。\nEasier browser debugging with Developer Tools integration in Visual Studio Code - Microsoft Edge Blog\nmicrosoft/vscode-js-debug: The VS Code JavaScript debugger\nvscode-js-debugは、ChromeやMSEdgeなどのブラウザのデバッガーに接続できます。\nDebug Adapter Protocol(DAP)という、開発ツール(VScodeなど)とデバッガー(ブラウザやNodeなど)を中継するAdapterを利用しています。\nDAPはLanguage Server Protocol(LSP)似た形のもので、開発ツールと各種言語の中継となるプロトコルを定めています。\nPrivacy Sandbox TimelineというサイトでGoogleのPrivacy Sandboxと呼ばれるthird-party cookiesを廃止するためのProposal集に関するロードマップが公開されています。\nPrivacy Sandboxの各Proposalごとにどのようなスケジュールで、実装やテストをしていくかの予定が公開されています。\nちいさな Web ブラウザを作ってみようでは、Rustでウェブブラウザを作りつつ、ブラウザのレンダリングの仕組みやセキュリティについて学習する教材が公開されています。\n現時点ではWIP(Working In Progress)な章もありますが、小さなブラウザをつくりつつブラウザの内部構造について学ぶのが目的となっています。…",
+          "link": "https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/",
+          "publishedOn": "2021-07-27T12:52:36.000Z",
+          "wordCount": 447,
+          "title": "2021-07-27のJS: vscode-js-debug、 Privacy Sandbox Timeline、小さなブラウザの作り方"
+        },
+        {
           "id": "https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/",
           "author": null,
           "description": "JSer.info #549 - Node.js 16.5.0がリリースされました。\nNode v16.5.0 (Current) | Node.js\n16.5.0では試験的に、WHATWGで仕様策定されウェブブラウザに実装されているWHATWG Streams APIが実装されました。(stream/web)\nNode.js Stream APIがありますが、これとは異なる実装です。\nNode.js StreamとWHATWG Streamの違いについては次のドキュメントにも書かれています。\nstreams/FAQ.md at main · whatwg/streams\nNode.jsでWHATWG Streamを実装している理由としてはQUIC/HTTP3のサポートなどが挙げられています。\nHTTP/3 support · Issue #38478 · nodejs/node\nまた、Node.js StreamとWHATWG Streamの棲み分けや相互運用性については次のIssueで議論されています。\nFuture of streams · Issue #39093 · nodejs/node\nnpm 7.20.0がリリースされました。\nRelease v7.20.0 · npm/cli\nnpm 7.20.0では、package.jsonの任意のフィールドを読み書きできるnpm pkgコマンドが追加されています。\nfeat: npm pkg by ruyadorno · Pull Request #3487 · npm/cli\nThe Road to Ember 4.0という記事では、Ember 4のロードマップが公開されています。\nEmber 4は2021年9月20日にリリース予定としています。\nそれぞれのマイグレーションガイドも公開されています。\nEmber.js…",
@@ -54,6 +63,20 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/thim/articles/04775c68d796445f3c90",
+          "author": "thim",
+          "description": "Next.js アプリを Amplify にデプロイする際に環境変数の設定方法でつまづいたので記事にしておきます。\n\n クライアントサイドで扱う環境変数\nクライアントサイド、つまりはブラウザで実行されるソースから参照する環境変数は Amplify コンソールから設定します。\n\nソースからは以下のように参照可能で非常に簡単です。\n\n      \n        \n        const TEST = process.env.NEXT_PUBLIC_TEST;\n\n\n      \n      \n サーバーサイドで扱う環境変数\nサーバーサイド、つまりは SSR する場合に参照する環境変数はn...",
+          "link": "https://zenn.dev/thim/articles/04775c68d796445f3c90",
+          "publishedOn": "2021-07-27T12:47:14.000Z",
+          "wordCount": 62,
+          "title": "Amplify+Next.js 環境変数設定方法まとめ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--GOmg4J1w--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:thim%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Amplify%252BNext.js%2520%25E7%2592%25B0%25E5%25A2%2583%25E5%25A4%2589%25E6%2595%25B0%25E8%25A8%25AD%25E5%25AE%259A%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDQwMTY2ZjMyOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
           "author": "Yuku Kotani",
@@ -636,6 +659,48 @@
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
         {
+          "id": "https://zenn.dev/sengosha/articles/498398d82fb056",
+          "author": "ユウ",
+          "description": "背景\n最近NuxtJSの公式オンラインコース を受講してパフォーマンス周りを改善する方法を勉強したので共有します。\n\n 概要\nNuxtのSSRモードでページにアクセス時にasyncDataやfetchで複数のAPIリクエストを投げるのはよくあることです。APIリクエストはasync/waitで非同期処理なので、例えばA、B、Cの３つのリクエストがある場合、BはAが完了してから処理され、CはBが完了してから処理されます。リクエストが多ければ多いほどパフォーマンスに悪影響を与えてしまいます。\nPromise.all でAPIリクエストを並列処理させることで、ページアクセスが早くなり、TT...",
+          "link": "https://zenn.dev/sengosha/articles/498398d82fb056",
+          "publishedOn": "2021-07-27T14:46:20.000Z",
+          "wordCount": 187,
+          "title": "【Nuxtjs】Promise allでパフォーマンス改善について",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--uLFiQWsg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A6%25E3%2582%25A6%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Nuxtjs%25E3%2580%2591Promise%2520all%25E3%2581%25A7%25E3%2583%2591%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%259E%25E3%2583%25B3%25E3%2582%25B9%25E6%2594%25B9%25E5%2596%2584%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
+          "author": "dialbird",
+          "description": "まずはHasura Cloudでプロジェクトを作っておきましょう\nhttps://hasura.io/docs/latest/graphql/cloud/projects/create.html\n接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます\n\n次にNuxtプロジェクトをnpxで作ります\n\n      \n        \n        $ npx create-nuxt-app nuxt-composable-hasura\n\n\n      \n      次に必要なライブラリ群をインストールしていきましょう（各ライ...",
+          "link": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
+          "publishedOn": "2021-07-27T13:13:32.000Z",
+          "wordCount": 237,
+          "title": "Nuxt x Composition API x Hasura x TypeScriptを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0D0rDbAG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%2520x%2520Composition%2520API%2520x%2520Hasura%2520x%2520TypeScript%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3",
+          "author": "そららいど",
+          "description": "こんにちは、そらららいどです。\n今回はじめて、個人的に開発したWebサービス「オンライン作業部屋」をリリースしましたので紹介したいと思います。\n\n現在、後続の類似サービス「Youtube作業部屋」という24時間ライブ配信によるオンライン自習室も運営していますのでぜひご覧ください。\nYoutube作業部屋チャンネル\nYoutube作業部屋についても記事を準備中です。\n\n\n\n リンク\n\nWebアプリ\nGithubリポジトリ\n\n\n オンライン作業部屋とは？\nオンライン上の仮想的な作業部屋というコンセプトです。\n仕組みはシンプルで、好きな科目と座席を選び、ボタンを押して入室・退室するだけです。\n...",
+          "link": "https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3",
+          "publishedOn": "2021-07-27T10:45:38.000Z",
+          "wordCount": 168,
+          "title": "仮想オンライン作業スペースを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2T-4B11I--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%259D%25E3%2582%2589%25E3%2582%2589%25E3%2581%2584%25E3%2581%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E4%25BB%25AE%25E6%2583%25B3%25E3%2582%25AA%25E3%2583%25B3%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%25B9%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODk3MWVjNzI5Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
           "author": "Yuku Kotani",
           "description": "Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。\nまだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。\n\n詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。\n\n\nNext.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...",
@@ -816,48 +881,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
-          "author": "utamori",
-          "description": "今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった\n\n      \n        \n        projects/test-pj\n> touch Makefile\n\n\n      \n      \n      \n        \n        projects/test-pj\n> npx create-nuxt-app .\n\n\ncreate-nuxt-app v3.7.0\nCould not create project in test-pj because the directory is not empty.\n\n\n      \n    ...",
-          "link": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
-          "publishedOn": "2021-06-28T10:24:38.000Z",
-          "wordCount": 135,
-          "title": "create-nuxt-appで既存のディレクトリを上書きできるようになった",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wzB7J9HV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:utamori%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:create-nuxt-app%25E3%2581%25A7%25E6%2597%25A2%25E5%25AD%2598%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E4%25B8%258A%25E6%259B%25B8%25E3%2581%258D%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tanoken729/articles/e9185ede462fc3",
-          "author": "tanoken",
-          "description": "全指定\nSignup.vue\n\n      \n        \n        await this.$axios.post('http://localhost:8000/api/register',this.user)\n\n\n      \n      baseURLの指定\nauth-moduleでの設定\nnuxt.config.js\n\n      \n        \n          axios: {\n    // baseURL: 'http://localhost:3000',\n    // baseURL: 'http://localhost:8000',\n    baseURL...",
-          "link": "https://zenn.dev/tanoken729/articles/e9185ede462fc3",
-          "publishedOn": "2021-06-27T17:27:09.000Z",
-          "wordCount": 25,
-          "title": "【新規ユーザー登録機能】axiosを使ったapi呼び出しメモ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--WabQT7Co--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E7%2599%25BB%25E9%258C%25B2%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591axios%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259Fapi%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2597%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tanoken729/articles/fc1e0079b9bd03",
-          "author": "tanoken",
-          "description": "laravel\n解決\nhttps://teratail.com/questions/178343\nnuxt側も出てくるから後で調査",
-          "link": "https://zenn.dev/tanoken729/articles/fc1e0079b9bd03",
-          "publishedOn": "2021-06-27T17:17:51.000Z",
-          "wordCount": 11,
-          "title": "【新規ユーザー登録機能】ブラウザが表示しているエラーメッセージ消えない",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--7uGuaH0q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E7%2599%25BB%25E9%258C%25B2%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%258C%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%25A1%25E3%2583%2583%25E3%2582%25BB%25E3%2583%25BC%25E3%2582%25B8%25E6%25B6%2588%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -866,6 +889,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kawarimidoll/articles/6022552f509b84",
+          "author": "kawarimidoll",
+          "description": "本記事の主題はDenoの自作モジュールの説明ではなく、Denoのモジュール公開に関する所感について述べるものです。したがってIdea記事です。\n\n markup-tagをリリースした\n先日、markup-tagというモジュールをリリースしました。\nhttps://github.com/kawarimidoll/deno-markup-tag\nhttps://deno.land/x/markup_tag\nhttps://nest.land/package/markup-tag\n\n 機能\nプログラム内でHTMLのソースを記述したいときに、\n\n      \n        \n        c...",
+          "link": "https://zenn.dev/kawarimidoll/articles/6022552f509b84",
+          "publishedOn": "2021-07-27T11:24:13.000Z",
+          "wordCount": 124,
+          "title": "DenoでHTMLタグを楽に書けるモジュールを作ってレジストリに公開した感想",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--JRs6a7JL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E3%2581%25A7HTML%25E3%2582%25BF%25E3%2582%25B0%25E3%2582%2592%25E6%25A5%25BD%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%25AC%25E3%2582%25B8%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AA%25E3%2581%25AB%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E6%2584%259F%25E6%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/andynuma/articles/c7f6d6587c116d",
+          "author": "nu0ma",
+          "description": "前書き\nas を受け取るコンポーネントはどういうコンポーネントかというと、Chakra UI の Box コンポーネント にいい例があるのですが、\n\n      \n        \n        <Box as=\"button\" borderRadius=\"md\" px={4} h={8}>\n  Button\n</Box>\n\n\n      \n      上記のようなコンポーネントです。\nこのようなコンポーネントを自作する場合に、型をどう付与するかについて Generics を使用する書き方を学んだので備忘録も兼ねて記事にします。\nもっと良い方法などあれば教え...",
+          "link": "https://zenn.dev/andynuma/articles/c7f6d6587c116d",
+          "publishedOn": "2021-07-27T04:08:28.000Z",
+          "wordCount": 211,
+          "title": "Reactで任意のタグ名を設定できるコンポーネントを作る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--XcH9_UYL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nu0ma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25E3%2581%25A7%25E4%25BB%25BB%25E6%2584%258F%25E3%2581%25AE%25E3%2582%25BF%25E3%2582%25B0%25E5%2590%258D%25E3%2582%2592%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjcyM2MzY2VjNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/frog/articles/073af49880452f",
+          "author": "かえる",
+          "description": "はじめに\nprismaについてはこちら\n参考資料\n\n 対象読者\n\nPrismaを使っている\nNode.jsを使っている(もしくは個別に変換して解釈できる)\n複数のデータベースを同じプロジェクトで扱う必要がある\nとりあえず動かしたい\n\n\n 手順\n\nPrisma schemaの作成\nPrisma clientの生成\nClientのインポート&初期化\nそれぞれのクライアントを使う\n\n\n Prisma schemaの作成\nPrismaで複数のデータベースを同時に扱うには、Schemaを複数作成する必要があります。\nまた、generatorの設定にoutputの項目を追加することで/p...",
+          "link": "https://zenn.dev/frog/articles/073af49880452f",
+          "publishedOn": "2021-07-26T19:36:35.000Z",
+          "wordCount": 272,
+          "title": "Prismaで複数のデータベースを同時に扱う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--IZi6RJFe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258B%25E3%2581%2588%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Prisma%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%2592%25E5%2590%258C%25E6%2599%2582%25E3%2581%25AB%25E6%2589%25B1%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmEyN2Y0OWEzOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/ryo_kawamata/articles/4bf52f97165058",
           "author": "ryo_kawamata",
@@ -2104,20 +2169,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/u1tnk/articles/303ed2cd4fff6c",
-          "author": "yuichi tanaka",
-          "description": "自ブログから転載 https://u1tnk.github.io/blog/2021/06/28/wsl2_clipboard_config/\n\n 概要\nvim、tmux、windws側のcopy/pasteを全て連携させる。\nWSL2移行前に使っていたVIrtualBox環境からの移行で、結局の所ssh+x転送をやめた結果 xselが使えなくなったのでwindowsのexeを直接叩けばOKだった…というだけ。\n\n windows側のクリップボードを双方向で使えるアプリをインストール\nhttps://github.com/equalsraf/win32yank  を利用。\nwindows...",
-          "link": "https://zenn.dev/u1tnk/articles/303ed2cd4fff6c",
-          "publishedOn": "2021-06-28T06:38:47.000Z",
-          "wordCount": 70,
-          "title": "WSL2でvim/tmuxでクリップボード共有できるようにする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--l3UClVe7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuichi%2520tanaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:WSL2%25E3%2581%25A7vim%252Ftmux%25E3%2581%25A7%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2583%25E3%2583%2597%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E5%2585%25B1%25E6%259C%2589%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hyWGZVOTktXzY1eFFqQ0dfZEFTUlhFX2RtN1dEcmFoQmhxX1dfMEE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2126,6 +2177,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
+          "author": "dialbird",
+          "description": "まずはHasura Cloudでプロジェクトを作っておきましょう\nhttps://hasura.io/docs/latest/graphql/cloud/projects/create.html\n接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます\n\n次にNuxtプロジェクトをnpxで作ります\n\n      \n        \n        $ npx create-nuxt-app nuxt-composable-hasura\n\n\n      \n      次に必要なライブラリ群をインストールしていきましょう（各ライ...",
+          "link": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
+          "publishedOn": "2021-07-27T13:13:32.000Z",
+          "wordCount": 237,
+          "title": "Nuxt x Composition API x Hasura x TypeScriptを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0D0rDbAG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%2520x%2520Composition%2520API%2520x%2520Hasura%2520x%2520TypeScript%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
           "author": "Yuku Kotani",
@@ -2570,20 +2635,6 @@
           "title": "美味しい店レコメンドアプリをLaravel × Vue.js のSPAで作った",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KVbBcjNu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Goemon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25BE%258E%25E5%2591%25B3%25E3%2581%2597%25E3%2581%2584%25E5%25BA%2597%25E3%2583%25AC%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2589%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592Laravel%2520%25C3%2597%2520Vue.js%2520%25E3%2581%25AESPA%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hySmh1MkFjWEZMbXZzWWVFRWtoU3gwZ3NYdHJmektMMm9tVV9VblE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
-          "author": "utamori",
-          "description": "今までは、プロジェクトを作りたいディレクトリに何かファイルがあるとエラーになった\n\n      \n        \n        projects/test-pj\n> touch Makefile\n\n\n      \n      \n      \n        \n        projects/test-pj\n> npx create-nuxt-app .\n\n\ncreate-nuxt-app v3.7.0\nCould not create project in test-pj because the directory is not empty.\n\n\n      \n    ...",
-          "link": "https://zenn.dev/uta_mory/articles/f8bad2ffa86d99",
-          "publishedOn": "2021-06-28T10:24:38.000Z",
-          "wordCount": 135,
-          "title": "create-nuxt-appで既存のディレクトリを上書きできるようになった",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wzB7J9HV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:utamori%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:create-nuxt-app%25E3%2581%25A7%25E6%2597%25A2%25E5%25AD%2598%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E4%25B8%258A%25E6%259B%25B8%25E3%2581%258D%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvdS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
