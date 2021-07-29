@@ -46,15 +46,6 @@
           "publishedOn": "2021-07-05T22:36:05.000Z",
           "wordCount": 403,
           "title": "2021-07-06のJS: TypeScript 4.4 Beta、immutable-js 4.0.0-rc.13、petite-vue"
-        },
-        {
-          "id": "https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/",
-          "author": null,
-          "description": "JSer.info #546 - ECMAScript 2021(ES2021)がEcma Internationalに承認され、正式にリリースされました。 \nEcma International approves new standards - Ecma International\nES2021では、主に次の機能や構文が追加されています。\nNumeric separators\nPromise combinators\nWeak references and finalizers\nString.prototype.replaceAll\nLogical assignment\nまた、JavaScriptの入門書のJavaScript PrimerもES2021対応した更新がされています。\nES2021に対応したJavaScript Primer 3.0を公開しました - JavaScript入門 | Web Scratch\nStorybook 6.3リリースされました。\nメジャーやアウトライン表示などの視覚的なデバッグ機能の追加がされています。\nまた@storybook/testing-vueと@storybook/testing-reactでのテストのサポート。 Angular 12、Lit 2のサポート、webpack 5のサポートのStable化、Viteのサポートが追加されています。\nStorybook for Vite\nDemystifying styled-componentsという記事では、styled-componentsのミニクローンを作りながらどのような仕組みで動いているのかを解説しています。\nヘッドライン\n[Release News] TOAST UI Editor 3.0 is here! | by TOAST UI | Jun, 2021 | Mediu…",
-          "link": "https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/",
-          "publishedOn": "2021-06-29T01:10:45.000Z",
-          "wordCount": 411,
-          "title": "2021-06-29のJS: ES2021公開、Storybook 6.3、styled-componentsの仕組み"
         }
       ]
     },
@@ -63,6 +54,20 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/choo/articles/84f41ad249c1dd",
+          "author": "choo",
+          "description": "個人開発で 賃貸物件検索サービス Comfy を作りました。\n先週、リリース後の告知ツイートをしたのですが、幸いなことに多くの人にリツイート・いいねの反響を頂きました（リアクションして頂いた方、本当にありがとうございます…!!!）\n\nこの記事では、Comfy のシステム構成及び使用した技術・サービスを紹介します。\n\n システム構成\n\n図の通り、システムは大きく 3 つに分けられます。\n\nフロントエンド\nバックエンド\nスクレイピング基盤\n\n上記 3 つのサブシステムについて、使用している技術をそれぞれ述べます。\n\n フロントエンド\nComfy は一切ページ遷移のない SPA（Single ...",
+          "link": "https://zenn.dev/choo/articles/84f41ad249c1dd",
+          "publishedOn": "2021-07-28T09:27:04.000Z",
+          "wordCount": 248,
+          "title": "個人開発した賃貸物件検索サービスのシステム構成と使用技術",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--pNASw_Gv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:choo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2597%25E3%2581%259F%25E8%25B3%2583%25E8%25B2%25B8%25E7%2589%25A9%25E4%25BB%25B6%25E6%25A4%259C%25E7%25B4%25A2%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2581%25AE%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25A8%25E4%25BD%25BF%25E7%2594%25A8%25E6%258A%2580%25E8%25A1%2593%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjQ5NWI1MTMyNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/thim/articles/04775c68d796445f3c90",
           "author": "thim",
@@ -659,6 +664,20 @@
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
         {
+          "id": "https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer",
+          "author": "はるのん",
+          "description": "VuetifyのDialogを使ってv-cardを表示させたときにFooterを画面内に固定させる方法を備忘録程度に。\n\n 完成形\nせっかちめな人はこちらを参考に。\n\n\n Buttonを用意してダイアログを作成\n\n      \n         sample.vue\n           <v-dialog\n      v-model=\"dialog\"\n      scrollable\n      max-width=\"300px\"\n    >\n      <template v-slot:activator=\"{ on, attrs }\">\n        &l...",
+          "link": "https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer",
+          "publishedOn": "2021-07-28T14:05:45.000Z",
+          "wordCount": 189,
+          "title": "v-dialogでv-cardを開いたときにFooterを固定させてスクロールする方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--UvhGSu8W--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AF%25E3%2582%258B%25E3%2581%25AE%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:v-dialog%25E3%2581%25A7v-card%25E3%2582%2592%25E9%2596%258B%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25ABFooter%25E3%2582%2592%25E5%259B%25BA%25E5%25AE%259A%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hFQzVyNG9mYTlYSDVYWnJoSGVmRkFEZGhWcVU2aV9vX3ljV3UyeUlJPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/sengosha/articles/498398d82fb056",
           "author": "ユウ",
           "description": "背景\n最近NuxtJSの公式オンラインコース を受講してパフォーマンス周りを改善する方法を勉強したので共有します。\n\n 概要\nNuxtのSSRモードでページにアクセス時にasyncDataやfetchで複数のAPIリクエストを投げるのはよくあることです。APIリクエストはasync/waitで非同期処理なので、例えばA、B、Cの３つのリクエストがある場合、BはAが完了してから処理され、CはBが完了してから処理されます。リクエストが多ければ多いほどパフォーマンスに悪影響を与えてしまいます。\nPromise.all でAPIリクエストを並列処理させることで、ページアクセスが早くなり、TT...",
@@ -889,6 +908,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/mura_chan/articles/e8c85262f54830",
+          "author": "mura_chan",
+          "description": "「空でない配列を表現する型」は需要がありそうで、ググってヒットする日本語の記事が少なかった（和訳されたサイトはあったが純粋な日本語の記事はすぐに出てこなかった）ため、ひとつくらいすぐにヒットする日本語の記事があればと思い、記事にします。\nいきなりですがコードは以下です。\n\n      \n        \n        type NonEmptyArray<T> = [T, ...T[]];\n\n\n      \n      \n      \n        \n        // コンパイルエラー\nconst numbers: NonEmptyArray<number>...",
+          "link": "https://zenn.dev/mura_chan/articles/e8c85262f54830",
+          "publishedOn": "2021-07-27T16:01:35.000Z",
+          "wordCount": 67,
+          "title": "Typescriptで空でない配列を型で表現する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--AMyij0js--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mura_chan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Typescript%25E3%2581%25A7%25E7%25A9%25BA%25E3%2581%25A7%25E3%2581%25AA%25E3%2581%2584%25E9%2585%258D%25E5%2588%2597%25E3%2582%2592%25E5%259E%258B%25E3%2581%25A7%25E8%25A1%25A8%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dvRGRPZUxRTGV3TWRYYVg4c0RmelFtaXFVZFRPaThQQ3MxenMtZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/acro5piano/articles/32a71345ea35cd",
+          "author": "五所和哉",
+          "description": "I've created a tiny library which improves performance for GraphQL + Knex.\n\n tl;dr\n\n Before\n\n\n After\n\n\nFilter select columns based on a query from clients\nLoad relations without N+1 problem (pagination available!)\n\nhttps://github.com/acro5piano/knex-graphql-utils\nCurrently only PostgreSQL is supp...",
+          "link": "https://zenn.dev/acro5piano/articles/32a71345ea35cd",
+          "publishedOn": "2021-07-27T14:55:26.000Z",
+          "wordCount": 163,
+          "title": "Improve GraphQL server performance with knex-graphql-utils",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0qhWtteP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E4%25BA%2594%25E6%2589%2580%25E5%2592%258C%25E5%2593%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Improve%2520GraphQL%2520server%2520performance%2520with%2520knex-graphql-utils%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPdDhnaDhYVEJ3VjFmU0FGTG5kMU9WTExTaGc4dUpiaml3Y2FILWFZPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kawarimidoll/articles/6022552f509b84",
           "author": "kawarimidoll",
@@ -2073,6 +2120,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/purenium/articles/50facb02e93cbd",
+          "author": "mumei",
+          "description": "Vim/Neovim のファイラープラグイン ferm.vim についての記事です。\n\n 環境\nUbuntu 20.04 LTS(WSL2)\nNeovim 0.6.0\n\n 事象と解決\n.prettierrc、.gitignore などのドットで始まるファイルが含まれているフォルダがあるとします。\n\nこれを fern.vim で表示します。すると、.prettierrc などは、表示されないようです。\n\nこれを表示するにはどうすればよいでしょうか。\ninit.vim などの設定ファイルに以下を記述します。\n\n      \n        init.vim\n        let g:fer...",
+          "link": "https://zenn.dev/purenium/articles/50facb02e93cbd",
+          "publishedOn": "2021-07-28T11:02:24.000Z",
+          "wordCount": 50,
+          "title": "【Vim/Neovim】fern.vim で隠しファイル(\".\"などで始まるファイル）を表示する。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--VOIWpWFe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mumei%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Vim%252FNeovim%25E3%2580%2591fern.vim%2520%25E3%2581%25A7%25E9%259A%25A0%25E3%2581%2597%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%2528%2522.%2522%25E3%2581%25AA%25E3%2581%25A9%25E3%2581%25A7%25E5%25A7%258B%25E3%2581%25BE%25E3%2582%258B%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25EF%25BC%2589%25E3%2582%2592%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDgwNTdlNWJlNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/ssssssigma/articles/coding-on-smartphone-1",
           "author": "sigma",
           "description": "スマホでコードを書くとなると、パソコンの場合と前提条件が異なります。スマホは画面が小さく、可能な限りテキスト編集のみにリソースを割くべきで、また、スマホのIMEを使った快適なテキスト編集のため、高度な補完も大切です。任意のキーバインドが使えることもアドバンテージとなるでしょう。\n\n Vimを使う\nスマホでVimを使うことは非常に理に適っています。Vimはディスプレイが限られた文字数の文字しか表示できない時代から支持されてきたエディタであり、またスマホのテキストの表示能力はその時代のディスプレイよりもリッチです。\nまた、Vimはキーボードが標準化される前から存在していてスマホのIMEのよう...",
@@ -2621,20 +2682,6 @@
           "title": "【早めにつけたいVSCode習慣】何度もよく使うコードのテンプレートはスムーズにコードスニペットへ！",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ujbNd1IC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590%25E6%2597%25A9%25E3%2582%2581%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2591%25E3%2581%259F%25E3%2581%2584VSCode%25E7%25BF%2592%25E6%2585%25A3%25E3%2580%2591%25E4%25BD%2595%25E5%25BA%25A6%25E3%2582%2582%25E3%2582%2588%25E3%2581%258F%25E4%25BD%25BF%25E3%2581%2586%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AF%25E3%2582%25B9%25E3%2583%25A0%25E3%2583%25BC%25E3%2582%25BA%25E3%2581%25AB%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25B9%25E3%2583%258B%25E3%2583%259A%25E3%2583%2583%25E3%2583%2588%25E3%2581%25B8%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/goemon/articles/738ef819f68998",
-          "author": "Goemon",
-          "description": "始めに\n2020年1月から受託開発会社に異業種から転職してから1年半が経ち、ある程度の経験をつけてきたもののECのデモアプリは作ったことがありますが、自分でオリジナルアプリを作ってこなかったので今回、個人で運用することも視野にアプリを作ることにしました。\n\n アプリの概要\n\n なぜこのアプリを作ろうと思ったか\n自分自身、インスタグラムやRetty,食べログなどから美味しい店を探すことが多く、探すこと自体に苦を感じることはないですが、一方探すことに時間がかかりすぎ、結局目当ての店が見つからない、もしくは多すぎてなかなか決められないということがありました。自分で探すよりも勝手にピックアッ...",
-          "link": "https://zenn.dev/goemon/articles/738ef819f68998",
-          "publishedOn": "2021-06-29T01:09:01.000Z",
-          "wordCount": 58,
-          "title": "美味しい店レコメンドアプリをLaravel × Vue.js のSPAで作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KVbBcjNu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Goemon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25BE%258E%25E5%2591%25B3%25E3%2581%2597%25E3%2581%2584%25E5%25BA%2597%25E3%2583%25AC%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2589%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592Laravel%2520%25C3%2597%2520Vue.js%2520%25E3%2581%25AESPA%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hySmh1MkFjWEZMbXZzWWVFRWtoU3gwZ3NYdHJmektMMm9tVV9VblE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

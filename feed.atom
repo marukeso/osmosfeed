@@ -2,10 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-28T01:08:08.443Z</updated>
+    <updated>2021-07-29T01:03:19.684Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[v-dialogでv-cardを開いたときにFooterを固定させてスクロールする方法]]></title>
+        <id>https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer</id>
+        <link href="https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer"/>
+        <updated>2021-07-28T14:05:45.000Z</updated>
+        <summary type="html"><![CDATA[VuetifyのDialogを使ってv-cardを表示させたときにFooterを画面内に固定させる方法を備忘録程度に。
+
+ 完成形
+せっかちめな人はこちらを参考に。
+
+
+ Buttonを用意してダイアログを作成
+
+      
+         sample.vue
+           <v-dialog
+      v-model="dialog"
+      scrollable
+      max-width="300px"
+    >
+      <template v-slot:activator="{ on, attrs }">
+        &l...]]></summary>
+        <author>
+            <name>はるのん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Vim/Neovim】fern.vim で隠しファイル("."などで始まるファイル）を表示する。]]></title>
+        <id>https://zenn.dev/purenium/articles/50facb02e93cbd</id>
+        <link href="https://zenn.dev/purenium/articles/50facb02e93cbd"/>
+        <updated>2021-07-28T11:02:24.000Z</updated>
+        <summary type="html"><![CDATA[Vim/Neovim のファイラープラグイン ferm.vim についての記事です。
+
+ 環境
+Ubuntu 20.04 LTS(WSL2)
+Neovim 0.6.0
+
+ 事象と解決
+.prettierrc、.gitignore などのドットで始まるファイルが含まれているフォルダがあるとします。
+
+これを fern.vim で表示します。すると、.prettierrc などは、表示されないようです。
+
+これを表示するにはどうすればよいでしょうか。
+init.vim などの設定ファイルに以下を記述します。
+
+      
+        init.vim
+        let g:fer...]]></summary>
+        <author>
+            <name>mumei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[個人開発した賃貸物件検索サービスのシステム構成と使用技術]]></title>
+        <id>https://zenn.dev/choo/articles/84f41ad249c1dd</id>
+        <link href="https://zenn.dev/choo/articles/84f41ad249c1dd"/>
+        <updated>2021-07-28T09:27:04.000Z</updated>
+        <summary type="html"><![CDATA[個人開発で 賃貸物件検索サービス Comfy を作りました。
+先週、リリース後の告知ツイートをしたのですが、幸いなことに多くの人にリツイート・いいねの反響を頂きました（リアクションして頂いた方、本当にありがとうございます…!!!）
+
+この記事では、Comfy のシステム構成及び使用した技術・サービスを紹介します。
+
+ システム構成
+
+図の通り、システムは大きく 3 つに分けられます。
+
+フロントエンド
+バックエンド
+スクレイピング基盤
+
+上記 3 つのサブシステムについて、使用している技術をそれぞれ述べます。
+
+ フロントエンド
+Comfy は一切ページ遷移のない SPA（Single ...]]></summary>
+        <author>
+            <name>choo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescriptで空でない配列を型で表現する]]></title>
+        <id>https://zenn.dev/mura_chan/articles/e8c85262f54830</id>
+        <link href="https://zenn.dev/mura_chan/articles/e8c85262f54830"/>
+        <updated>2021-07-27T16:01:35.000Z</updated>
+        <summary type="html"><![CDATA[「空でない配列を表現する型」は需要がありそうで、ググってヒットする日本語の記事が少なかった（和訳されたサイトはあったが純粋な日本語の記事はすぐに出てこなかった）ため、ひとつくらいすぐにヒットする日本語の記事があればと思い、記事にします。
+いきなりですがコードは以下です。
+
+      
+        
+        type NonEmptyArray<T> = [T, ...T[]];
+
+
+      
+      
+      
+        
+        // コンパイルエラー
+const numbers: NonEmptyArray<number>...]]></summary>
+        <author>
+            <name>mura_chan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improve GraphQL server performance with knex-graphql-utils]]></title>
+        <id>https://zenn.dev/acro5piano/articles/32a71345ea35cd</id>
+        <link href="https://zenn.dev/acro5piano/articles/32a71345ea35cd"/>
+        <updated>2021-07-27T14:55:26.000Z</updated>
+        <summary type="html"><![CDATA[I've created a tiny library which improves performance for GraphQL + Knex.
+
+ tl;dr
+
+ Before
+
+
+ After
+
+
+Filter select columns based on a query from clients
+Load relations without N+1 problem (pagination available!)
+
+https://github.com/acro5piano/knex-graphql-utils
+Currently only PostgreSQL is supp...]]></summary>
+        <author>
+            <name>五所和哉</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【Nuxtjs】Promise allでパフォーマンス改善について]]></title>
         <id>https://zenn.dev/sengosha/articles/498398d82fb056</id>
@@ -4066,48 +4191,6 @@ const app = new App({
 以上です・・・]]></summary>
         <author>
             <name>JQinglong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-06-29のJS: ES2021公開、Storybook 6.3、styled-componentsの仕組み]]></title>
-        <id>https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/</id>
-        <link href="https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/"/>
-        <updated>2021-06-29T01:10:45.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #546 - ECMAScript 2021(ES2021)がEcma Internationalに承認され、正式にリリースされました。 
-Ecma International approves new standards - Ecma International
-ES2021では、主に次の機能や構文が追加されています。
-Numeric separators
-Promise combinators
-Weak references and finalizers
-String.prototype.replaceAll
-Logical assignment
-また、JavaScriptの入門書のJavaScript PrimerもES2021対応した更新がされています。
-ES2021に対応したJavaScript Primer 3.0を公開しました - JavaScript入門 | Web Scratch
-Storybook 6.3リリースされました。
-メジャーやアウトライン表示などの視覚的なデバッグ機能の追加がされています。
-また@storybook/testing-vueと@storybook/testing-reactでのテストのサポート。 Angular 12、Lit 2のサポート、webpack 5のサポートのStable化、Viteのサポートが追加されています。
-Storybook for Vite
-Demystifying styled-componentsという記事では、styled-componentsのミニクローンを作りながらどのような仕組みで動いているのかを解説しています。
-ヘッドライン
-[Release News] TOAST UI Editor 3.0 is here! | by TOAST UI | Jun, 2021 | Mediu…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美味しい店レコメンドアプリをLaravel × Vue.js のSPAで作った]]></title>
-        <id>https://zenn.dev/goemon/articles/738ef819f68998</id>
-        <link href="https://zenn.dev/goemon/articles/738ef819f68998"/>
-        <updated>2021-06-29T01:09:01.000Z</updated>
-        <summary type="html"><![CDATA[始めに
-2020年1月から受託開発会社に異業種から転職してから1年半が経ち、ある程度の経験をつけてきたもののECのデモアプリは作ったことがありますが、自分でオリジナルアプリを作ってこなかったので今回、個人で運用することも視野にアプリを作ることにしました。
-
- アプリの概要
-
- なぜこのアプリを作ろうと思ったか
-自分自身、インスタグラムやRetty,食べログなどから美味しい店を探すことが多く、探すこと自体に苦を感じることはないですが、一方探すことに時間がかかりすぎ、結局目当ての店が見つからない、もしくは多すぎてなかなか決められないということがありました。自分で探すよりも勝手にピックアッ...]]></summary>
-        <author>
-            <name>Goemon</name>
         </author>
     </entry>
 </feed>

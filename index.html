@@ -77,6 +77,106 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-28">2021-07-28</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">個人開発した賃貸物件検索サービスのシステム構成と使用技術</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/choo/articles/84f41ad249c1dd">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>個人開発で 賃貸物件検索サービス Comfy を作りました。
+先週、リリース後の告知ツイートをしたのですが、幸いなことに多くの人にリツイート・いいねの反響を頂きました（リアクションして頂いた方、本当にありがとうございます…!!!）
+
+この記事では、Comfy のシステム構成及び使用した技術・サービスを紹介します。
+
+ システム構成
+
+図の通り、システムは大きく 3 つに分けられます。
+
+フロントエンド
+バックエンド
+スクレイピング基盤
+
+上記 3 つのサブシステムについて、使用している技術をそれぞれ述べます。
+
+ フロントエンド
+Comfy は一切ページ遷移のない SPA（Single ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">v-dialogでv-cardを開いたときにFooterを固定させてスクロールする方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>VuetifyのDialogを使ってv-cardを表示させたときにFooterを画面内に固定させる方法を備忘録程度に。
+
+ 完成形
+せっかちめな人はこちらを参考に。
+
+
+ Buttonを用意してダイアログを作成
+
+      
+         sample.vue
+           
+      
+        &amp;l...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Vim/Neovim】fern.vim で隠しファイル(&quot;.&quot;などで始まるファイル）を表示する。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/purenium/articles/50facb02e93cbd">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Vim/Neovim のファイラープラグイン ferm.vim についての記事です。
+
+ 環境
+Ubuntu 20.04 LTS(WSL2)
+Neovim 0.6.0
+
+ 事象と解決
+.prettierrc、.gitignore などのドットで始まるファイルが含まれているフォルダがあるとします。
+
+これを fern.vim で表示します。すると、.prettierrc などは、表示されないようです。
+
+これを表示するにはどうすればよいでしょうか。
+init.vim などの設定ファイルに以下を記述します。
+
+      
+        init.vim
+        let g:fer...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-27">2021-07-27</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -215,6 +315,55 @@ Githubリポジトリ
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Typescriptで空でない配列を型で表現する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mura_chan/articles/e8c85262f54830">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>「空でない配列を表現する型」は需要がありそうで、ググってヒットする日本語の記事が少なかった（和訳されたサイトはあったが純粋な日本語の記事はすぐに出てこなかった）ため、ひとつくらいすぐにヒットする日本語の記事があればと思い、記事にします。
+いきなりですがコードは以下です。
+
+      
+        
+        type NonEmptyArray &#x3D; [T, ...T[]];
+
+
+      
+      
+      
+        
+        // コンパイルエラー
+const numbers: NonEmptyArray...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Improve GraphQL server performance with knex-graphql-utils</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/acro5piano/articles/32a71345ea35cd">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>I&#x27;ve created a tiny library which improves performance for GraphQL + Knex.
+
+ tl;dr
+
+ Before
+
+
+ After
+
+
+Filter select columns based on a query from clients
+Load relations without N+1 problem (pagination available!)
+
+https://github.com/acro5piano/knex-graphql-utils
+Currently only PostgreSQL is supp...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">DenoでHTMLタグを楽に書けるモジュールを作ってレジストリに公開した感想</summary>
@@ -4973,39 +5122,6 @@ https://marketplace.visualstudio.com/items?itemName&#x3D;inu1255...</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-06-29のJS: ES2021公開、Storybook 6.3、styled-componentsの仕組み</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/06/29/es2021-storybook-6.3-styled-components/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>JSer.info #546 - ECMAScript 2021(ES2021)がEcma Internationalに承認され、正式にリリースされました。 
-Ecma International approves new standards - Ecma International
-ES2021では、主に次の機能や構文が追加されています。
-Numeric separators
-Promise combinators
-Weak references and finalizers
-String.prototype.replaceAll
-Logical assignment
-また、JavaScriptの入門書のJavaScript PrimerもES2021対応した更新がされています。
-ES2021に対応したJavaScript Primer 3.0を公開しました - JavaScript入門 | Web Scratch
-Storybook 6.3リリースされました。
-メジャーやアウトライン表示などの視覚的なデバッグ機能の追加がされています。
-また@storybook/testing-vueと@storybook/testing-reactでのテストのサポート。 Angular 12、Lit 2のサポート、webpack 5のサポートのStable化、Viteのサポートが追加されています。
-Storybook for Vite
-Demystifying styled-componentsという記事では、styled-componentsのミニクローンを作りながらどのような仕組みで動いているのかを解説しています。
-ヘッドライン
-[Release News] TOAST UI Editor 3.0 is here! | by TOAST UI | Jun, 2021 | Mediu…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -5023,34 +5139,11 @@ Demystifying styled-componentsという記事では、styled-componentsのミニ
             </article>
         </section>
       </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">美味しい店レコメンドアプリをLaravel × Vue.js のSPAで作った</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/goemon/articles/738ef819f68998">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>始めに
-2020年1月から受託開発会社に異業種から転職してから1年半が経ち、ある程度の経験をつけてきたもののECのデモアプリは作ったことがありますが、自分でオリジナルアプリを作ってこなかったので今回、個人で運用することも視野にアプリを作ることにしました。
-
- アプリの概要
-
- なぜこのアプリを作ろうと思ったか
-自分自身、インスタグラムやRetty,食べログなどから美味しい店を探すことが多く、探すこと自体に苦を感じることはないですが、一方探すことに時間がかかりすぎ、結局目当ての店が見つからない、もしくは多すぎてなかなか決められないということがありました。自分で探すよりも勝手にピックアッ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-28T01:08:08.403Z">2021-07-28T01:08:08.403Z</time>
+    <time id="build-timestamp" datetime="2021-07-29T01:03:19.657Z">2021-07-29T01:03:19.657Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
