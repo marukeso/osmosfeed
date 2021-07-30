@@ -2,10 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-29T01:03:19.684Z</updated>
+    <updated>2021-07-30T01:06:56.300Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TypeScript & Context APIのdefaultValueの書き方]]></title>
+        <id>https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab</id>
+        <link href="https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab"/>
+        <updated>2021-07-29T17:54:22.000Z</updated>
+        <summary type="html"><![CDATA[TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。
+なぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！
+初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。
+
+ エラーの内容
+
+与えられた型にcountプロパティが存在しません！
+
+ as をつかって型を与える方法
+
+      
+        CountProvider.tsx
+        impo...]]></summary>
+        <author>
+            <name>Hiro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RTP Payloadのキーフレーム判定方法 VP8/VP9/H264/AV1 編]]></title>
+        <id>https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe</id>
+        <link href="https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe"/>
+        <updated>2021-07-29T11:35:37.000Z</updated>
+        <summary type="html"><![CDATA[趣旨
+Chrome の WebRTC で使える代表的なコーデックの RTP Payload をパースして RTP パケットのキーフレーム判定を行う方法についてまとめます。
+
+ RTP Payload とは
+
+      
+        
+              0                   1                   2                   3
+      0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+     +-+-+-+-+-+-+-+-+-+-+-+-...]]></summary>
+        <author>
+            <name>shin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js/成果物に含まれる node_modules を減量する]]></title>
+        <id>https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact</id>
+        <link href="https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact"/>
+        <updated>2021-07-29T11:08:36.000Z</updated>
+        <summary type="html"><![CDATA[動機
+JavaScript ( や TypeScript などの AltJS ) で記述されたプロジェクトをデプロイするとき、対象となるサービスに設定されたデプロイパッケージの容量制限を意識せねばならない場合があります。 そういった目的のために、この記事では node_modules パッケージの容量を減らす方法についてまとめます。
+node_modules のサイズについては、以下のコマンドなどで確認できます。
+
+      
+        
+        $ du -d 1 -kh ./node_modules | sort -hr | head -50
+
+
+      
+ ...]]></summary>
+        <author>
+            <name>shztmk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kysely が Knex をリプレイスする日も近いかもしれない]]></title>
+        <id>https://zenn.dev/acro5piano/articles/388b504289ccaa</id>
+        <link href="https://zenn.dev/acro5piano/articles/388b504289ccaa"/>
+        <updated>2021-07-29T08:40:08.000Z</updated>
+        <summary type="html"><![CDATA[Node.js の RDB 向けの Query Builder は Knex が有名ですが、 Kysely というのが台頭しそうな予感がします。
+https://github.com/koskimas/kysely
+Knex と非常に似た構文をしていますが、大きな違いは、 TypeScript で書かれている ことです。 TS 4.1 で導入された Template Literal Type を駆使し、複雑な Join や As を使ったエイリアスでも可能な限り型推論できるようになっています。
+作者の Koskimas 氏は Knex を利用した ORM である Objection.js...]]></summary>
+        <author>
+            <name>五所和哉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[InsightFaceの顔検出結果をNext.jsで可視化してみた]]></title>
+        <id>https://zenn.dev/yuyakato/articles/e96b9d8ec289cc</id>
+        <link href="https://zenn.dev/yuyakato/articles/e96b9d8ec289cc"/>
+        <updated>2021-07-28T17:07:20.000Z</updated>
+        <summary type="html"><![CDATA[初めに
+先日、InsightFaceとFastAPIを使った顔検出サーバを実装し、「InsightFaceとFastAPIで顔検出サーバを作ってみた」という記事を書きました。
+先の記事の中では検出結果として数値が出力されているだけで、どのような結果なのかが確認しづらい状態でした。
+今回はその結果を、Next.jsを使って可視化してみたいと思います。
+なお本記事には、Next.js自体に関する説明は一切ありません。ご了承ください。
+
+ 実行例
+文章で説明するよりも実行例を見た方が早いと思うので、女性1人、男女2人ずつが写った画像の認識結果を以下に示します。
+なお、画像はぱくたそから以下...]]></summary>
+        <author>
+            <name>Yuya Kato</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v-dialogでv-cardを開いたときにFooterを固定させてスクロールする方法]]></title>
         <id>https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer</id>
@@ -4139,58 +4231,6 @@ Leaner の技術スタック紹介 で「配信環境が Beanstalk になって�
       conso...]]></summary>
         <author>
             <name>@yuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【早めにつけたいVSCode習慣】何度もよく使うコードのテンプレートはスムーズにコードスニペットへ！]]></title>
-        <id>https://zenn.dev/dialbird/articles/0f79de871fe543</id>
-        <link href="https://zenn.dev/dialbird/articles/0f79de871fe543"/>
-        <updated>2021-06-30T12:18:04.000Z</updated>
-        <summary type="html"><![CDATA[「あー。このパターンのコード、何度も書いてるな〜」と思っているそこのVSCodeユーザーさん。
-エンジニアらしく「パパッと」コードテンプレートを登録して、VSCodeから召喚できるようにしませんか？
-
-「ただ、設定とか調べるのがちょっと...」という方！
-今この方法を知って、普段から使えるようになるだけで、どんどんコーディングのスピードを加速していけるようになります！
-こちらも5分コースです。
-
- プラグインのインストール
-まずはこのプラグインをインストールしましょう！
-https://marketplace.visualstudio.com/items?itemName=inu1255...]]></summary>
-        <author>
-            <name>dialbird</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NuxtでSvelteコンポーネントを動かしてみる]]></title>
-        <id>https://zenn.dev/katsuking/articles/16578da99271aa</id>
-        <link href="https://zenn.dev/katsuking/articles/16578da99271aa"/>
-        <updated>2021-06-30T06:14:36.000Z</updated>
-        <summary type="html"><![CDATA[note社の記事で、共通コンポーネントにSvelteを使うと聞いて、なるほど面白いと思ってやってみました。
-https://note.jp/n/n7f757d7050f6
-今回は、Nuxt上でSvelteコンポーネントを動かすまでをやっていきます。
-上記の記事にもある通り、通常Svelteを動かすには以下のようにtargetにnewすると動くのですが、SSRでは動きません。
-
-      
-        
-        import App from './App.svelte';
-
-const app = new App({
-	target: document.body,
-	pro...]]></summary>
-        <author>
-            <name>KatsuKiNG👑</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxtのロゴは変わったの？]]></title>
-        <id>https://zenn.dev/jqinglong/articles/c8843bce4c475e</id>
-        <link href="https://zenn.dev/jqinglong/articles/c8843bce4c475e"/>
-        <updated>2021-06-29T13:40:01.000Z</updated>
-        <summary type="html"><![CDATA[ちょいぶりに、create nuxt-app してみたら、ちょっとロゴが変わってました。
-
-以上です・・・]]></summary>
-        <author>
-            <name>JQinglong</name>
         </author>
     </entry>
 </feed>

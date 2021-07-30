@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/yuyakato/articles/e96b9d8ec289cc",
+          "author": "Yuya Kato",
+          "description": "初めに\n先日、InsightFaceとFastAPIを使った顔検出サーバを実装し、「InsightFaceとFastAPIで顔検出サーバを作ってみた」という記事を書きました。\n先の記事の中では検出結果として数値が出力されているだけで、どのような結果なのかが確認しづらい状態でした。\n今回はその結果を、Next.jsを使って可視化してみたいと思います。\nなお本記事には、Next.js自体に関する説明は一切ありません。ご了承ください。\n\n 実行例\n文章で説明するよりも実行例を見た方が早いと思うので、女性1人、男女2人ずつが写った画像の認識結果を以下に示します。\nなお、画像はぱくたそから以下...",
+          "link": "https://zenn.dev/yuyakato/articles/e96b9d8ec289cc",
+          "publishedOn": "2021-07-28T17:07:20.000Z",
+          "wordCount": 117,
+          "title": "InsightFaceの顔検出結果をNext.jsで可視化してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--o6yX6bk3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuya%2520Kato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:InsightFace%25E3%2581%25AE%25E9%25A1%2594%25E6%25A4%259C%25E5%2587%25BA%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592Next.js%25E3%2581%25A7%25E5%258F%25AF%25E8%25A6%2596%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUSUhmX2JGaE1tcVp0aDNYQUI2NFY0aGRnNlJWbE5CbjVhZmQzdXc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/choo/articles/84f41ad249c1dd",
           "author": "choo",
           "description": "個人開発で 賃貸物件検索サービス Comfy を作りました。\n先週、リリース後の告知ツイートをしたのですが、幸いなことに多くの人にリツイート・いいねの反響を頂きました（リアクションして頂いた方、本当にありがとうございます…!!!）\n\nこの記事では、Comfy のシステム構成及び使用した技術・サービスを紹介します。\n\n システム構成\n\n図の通り、システムは大きく 3 つに分けられます。\n\nフロントエンド\nバックエンド\nスクレイピング基盤\n\n上記 3 つのサブシステムについて、使用している技術をそれぞれ述べます。\n\n フロントエンド\nComfy は一切ページ遷移のない SPA（Single ...",
@@ -872,34 +886,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/katsuking/articles/16578da99271aa",
-          "author": "KatsuKiNG👑",
-          "description": "note社の記事で、共通コンポーネントにSvelteを使うと聞いて、なるほど面白いと思ってやってみました。\nhttps://note.jp/n/n7f757d7050f6\n今回は、Nuxt上でSvelteコンポーネントを動かすまでをやっていきます。\n上記の記事にもある通り、通常Svelteを動かすには以下のようにtargetにnewすると動くのですが、SSRでは動きません。\n\n      \n        \n        import App from './App.svelte';\n\nconst app = new App({\n\ttarget: document.body,\n\tpro...",
-          "link": "https://zenn.dev/katsuking/articles/16578da99271aa",
-          "publishedOn": "2021-06-30T06:14:36.000Z",
-          "wordCount": 152,
-          "title": "NuxtでSvelteコンポーネントを動かしてみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--VnyrfdWL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KatsuKiNG%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25A7Svelte%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjBhYjVmM2Q0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/jqinglong/articles/c8843bce4c475e",
-          "author": "JQinglong",
-          "description": "ちょいぶりに、create nuxt-app してみたら、ちょっとロゴが変わってました。\n\n以上です・・・",
-          "link": "https://zenn.dev/jqinglong/articles/c8843bce4c475e",
-          "publishedOn": "2021-06-29T13:40:01.000Z",
-          "wordCount": 8,
-          "title": "Nuxtのロゴは変わったの？",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_9PtJIxq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:JQinglong%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Nuxt%25E3%2581%25AE%25E3%2583%25AD%25E3%2582%25B4%25E3%2581%25AF%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dGS0FRWHBJUllSRHdIbVgyb1dHSUwyLTd4RHZ5RkN3Zkw3OThnTUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -908,6 +894,62 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab",
+          "author": "Hiro",
+          "description": "TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。\nなぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！\n初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。\n\n エラーの内容\n\n与えられた型にcountプロパティが存在しません！\n\n as をつかって型を与える方法\n\n      \n        CountProvider.tsx\n        impo...",
+          "link": "https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab",
+          "publishedOn": "2021-07-29T17:54:22.000Z",
+          "wordCount": 256,
+          "title": "TypeScript & Context APIのdefaultValueの書き方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--b0opxlDx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hiro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%2520%2526%2520Context%2520API%25E3%2581%25AEdefaultValue%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvaC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe",
+          "author": "shin",
+          "description": "趣旨\nChrome の WebRTC で使える代表的なコーデックの RTP Payload をパースして RTP パケットのキーフレーム判定を行う方法についてまとめます。\n\n RTP Payload とは\n\n      \n        \n              0                   1                   2                   3\n      0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1\n     +-+-+-+-+-+-+-+-+-+-+-+-...",
+          "link": "https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe",
+          "publishedOn": "2021-07-29T11:35:37.000Z",
+          "wordCount": 1455,
+          "title": "RTP Payloadのキーフレーム判定方法 VP8/VP9/H264/AV1 編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--OtlEO3Sk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shin%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:RTP%2520Payload%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E5%2588%25A4%25E5%25AE%259A%25E6%2596%25B9%25E6%25B3%2595%2520VP8%252FVP9%252FH264%252FAV1%2520%25E7%25B7%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dlQ0NSdmkyZDMwY2loVUYybjZEbEJ5SERIRzQ5SlBLU1pqa1NhaEE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact",
+          "author": "shztmk",
+          "description": "動機\nJavaScript ( や TypeScript などの AltJS ) で記述されたプロジェクトをデプロイするとき、対象となるサービスに設定されたデプロイパッケージの容量制限を意識せねばならない場合があります。 そういった目的のために、この記事では node_modules パッケージの容量を減らす方法についてまとめます。\nnode_modules のサイズについては、以下のコマンドなどで確認できます。\n\n      \n        \n        $ du -d 1 -kh ./node_modules | sort -hr | head -50\n\n\n      \n ...",
+          "link": "https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact",
+          "publishedOn": "2021-07-29T11:08:36.000Z",
+          "wordCount": 276,
+          "title": "Node.js/成果物に含まれる node_modules を減量する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5lSwd4_8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shztmk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Node.js%252F%25E6%2588%2590%25E6%259E%259C%25E7%2589%25A9%25E3%2581%25AB%25E5%2590%25AB%25E3%2581%25BE%25E3%2582%258C%25E3%2582%258B%2520node_modules%2520%25E3%2582%2592%25E6%25B8%259B%25E9%2587%258F%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODZiMTI4NjZkYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/acro5piano/articles/388b504289ccaa",
+          "author": "五所和哉",
+          "description": "Node.js の RDB 向けの Query Builder は Knex が有名ですが、 Kysely というのが台頭しそうな予感がします。\nhttps://github.com/koskimas/kysely\nKnex と非常に似た構文をしていますが、大きな違いは、 TypeScript で書かれている ことです。 TS 4.1 で導入された Template Literal Type を駆使し、複雑な Join や As を使ったエイリアスでも可能な限り型推論できるようになっています。\n作者の Koskimas 氏は Knex を利用した ORM である Objection.js...",
+          "link": "https://zenn.dev/acro5piano/articles/388b504289ccaa",
+          "publishedOn": "2021-07-29T08:40:08.000Z",
+          "wordCount": 120,
+          "title": "Kysely が Knex をリプレイスする日も近いかもしれない",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--vjYSpsgB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E4%25BA%2594%25E6%2589%2580%25E5%2592%258C%25E5%2593%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Kysely%2520%25E3%2581%258C%2520Knex%2520%25E3%2582%2592%25E3%2583%25AA%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%25E6%2597%25A5%25E3%2582%2582%25E8%25BF%2591%25E3%2581%2584%25E3%2581%258B%25E3%2582%2582%25E3%2581%2597%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPdDhnaDhYVEJ3VjFmU0FGTG5kMU9WTExTaGc4dUpiaml3Y2FILWFZPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/mura_chan/articles/e8c85262f54830",
           "author": "mura_chan",
@@ -2668,20 +2710,6 @@
           "title": "Vueのmethods、computedの挙動・使い分けに混乱した記憶があったので整理してみる",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--oFqvtBMe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%2540yuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vue%25E3%2581%25AEmethods%25E3%2580%2581computed%25E3%2581%25AE%25E6%258C%2599%25E5%258B%2595%25E3%2583%25BB%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25AB%25E6%25B7%25B7%25E4%25B9%25B1%25E3%2581%2597%25E3%2581%259F%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%258C%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzZhZmE4MmNjOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dialbird/articles/0f79de871fe543",
-          "author": "dialbird",
-          "description": "「あー。このパターンのコード、何度も書いてるな〜」と思っているそこのVSCodeユーザーさん。\nエンジニアらしく「パパッと」コードテンプレートを登録して、VSCodeから召喚できるようにしませんか？\n\n「ただ、設定とか調べるのがちょっと...」という方！\n今この方法を知って、普段から使えるようになるだけで、どんどんコーディングのスピードを加速していけるようになります！\nこちらも5分コースです。\n\n プラグインのインストール\nまずはこのプラグインをインストールしましょう！\nhttps://marketplace.visualstudio.com/items?itemName=inu1255...",
-          "link": "https://zenn.dev/dialbird/articles/0f79de871fe543",
-          "publishedOn": "2021-06-30T12:18:04.000Z",
-          "wordCount": 26,
-          "title": "【早めにつけたいVSCode習慣】何度もよく使うコードのテンプレートはスムーズにコードスニペットへ！",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ujbNd1IC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590%25E6%2597%25A9%25E3%2582%2581%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2591%25E3%2581%259F%25E3%2581%2584VSCode%25E7%25BF%2592%25E6%2585%25A3%25E3%2580%2591%25E4%25BD%2595%25E5%25BA%25A6%25E3%2582%2582%25E3%2582%2588%25E3%2581%258F%25E4%25BD%25BF%25E3%2581%2586%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AF%25E3%2582%25B9%25E3%2583%25A0%25E3%2583%25BC%25E3%2582%25BA%25E3%2581%25AB%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25B9%25E3%2583%258B%25E3%2583%259A%25E3%2583%2583%25E3%2583%2588%25E3%2581%25B8%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
