@@ -2,10 +2,91 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-30T01:06:56.300Z</updated>
+    <updated>2021-07-31T01:03:53.269Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[パスワードを生成するライブラリを作った]]></title>
+        <id>https://zenn.dev/karibash/articles/3f18b3a77e1792</id>
+        <link href="https://zenn.dev/karibash/articles/3f18b3a77e1792"/>
+        <updated>2021-07-30T13:45:55.000Z</updated>
+        <summary type="html"><![CDATA[https://github.com/Karibash/password-generator
+
+ 使い方
+
+      
+        
+        import password from '@karibash/password-generator';
+
+console.log(password(9));
+// -> C_Tpmf45L
+
+
+      
+      これだけで大文字、小文字、数字、記号を各1文字以上含む文字列を生成できます
+探しても無かったので作っちゃいました
+
+ 生成時に使用する文字を変更する
+第2引数に文字配列を指定すると、生成時に使用する文字を変更出...]]></summary>
+        <author>
+            <name>Karibash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AmplifyでNext.js11系がサポート対象となりました]]></title>
+        <id>https://zenn.dev/thim/articles/e16dd195fdee816a868c</id>
+        <link href="https://zenn.dev/thim/articles/e16dd195fdee816a868c"/>
+        <updated>2021-07-30T10:40:41.000Z</updated>
+        <summary type="html"><![CDATA[https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html
+以下、公式ドキュメントより引用
+
+When you deploy a new Next.js app with Amplify, by default Amplify uses the most recent supported version of Next.js. Currently, Amplify supports Next.js version 11.
+
+
+Amplify で新しい Next.js アプリ...]]></summary>
+        <author>
+            <name>thim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「JupyterNotebookを一瞬で記事にするプラットフォーム」Noteboxの現在の技術スタック]]></title>
+        <id>https://zenn.dev/fasdfas/articles/839bfc5160a81e</id>
+        <link href="https://zenn.dev/fasdfas/articles/839bfc5160a81e"/>
+        <updated>2021-07-30T06:22:29.000Z</updated>
+        <summary type="html"><![CDATA[Noteboxとは
+Noteboxは、「Jupyter Notebookを一瞬でブログ化」がコンセントのサービスです。それ以外はこちらのZennやQiitaと同じようなブログサービスですが、Jupyter Notebookを使う人、つまりデータサイエンスなどのサイエンス領域に特化したプラットフォームです。→https://notebox.jp
+動画は↓
+https://www.youtube.com/watch?v=IWcUbVnQxkw
+
+ Noteboxができたきっかけ
+実は最初はまったく別のプロダクトを作っていました。そのプロダクト上で、Djangoで作ったCMSがあり、「Ju...]]></summary>
+        <author>
+            <name>Naoya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript & Context APIのdefaultValueの書き方]]></title>
+        <id>https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab</id>
+        <link href="https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab"/>
+        <updated>2021-07-29T17:54:22.000Z</updated>
+        <summary type="html"><![CDATA[TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。
+なぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！
+初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。
+
+ エラーの内容
+
+与えられた型にcountプロパティが存在しません！
+
+ as をつかって型を与える方法
+
+      
+        CountProvider.tsx
+        impo...]]></summary>
+        <author>
+            <name>Hiro</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScript & Context APIのdefaultValueの書き方]]></title>
         <id>https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab</id>
@@ -4187,50 +4268,6 @@ vimって便利なんだけど覚える事が多...]]></summary>
       keyはこちら...]]></summary>
         <author>
             <name>Ren Shimosawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amplify ConsoleでSPA配信を置き換えたら最高だった]]></title>
-        <id>https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify</id>
-        <link href="https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify"/>
-        <updated>2021-07-01T01:22:13.000Z</updated>
-        <summary type="html"><![CDATA[Leaner Technologies の黒曜(@kokuyouwind)です。
-最近は Nintendo Switch のはじめてゲームプログラミングでプログラミングを勉強しています。めっちゃ褒められるので最高。
-https://twitter.com/kokuyouwind/status/1406600715426926595
-いろんなゲームが作れそうでワクワクしますね。任天堂はいいものを作るなぁ。
-
- Elastic Beanstalk を Amplify Console で置き換えた
-Leaner の技術スタック紹介 で「配信環境が Beanstalk になっているのはちょっと冗...]]></summary>
-        <author>
-            <name>リーナーテックブログ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vueのmethods、computedの挙動・使い分けに混乱した記憶があったので整理してみる]]></title>
-        <id>https://zenn.dev/yuki__k/articles/7ec08743230e49</id>
-        <link href="https://zenn.dev/yuki__k/articles/7ec08743230e49"/>
-        <updated>2021-06-30T13:53:11.000Z</updated>
-        <summary type="html"><![CDATA[まずはmethods!
-まずはボタンをクリックして呼び出した時の挙動。ボタンをクリックした時のみ呼び出されます。
-当たり前だよね。問題は後者よ😩
-
-      
-        index.html
-        <div id="app">
-  <button @click="method">クリック</button>
-</div>
-
-
-      
-      
-      
-        index.js
-        const app = {
-  methods: {
-    method() {
-      conso...]]></summary>
-        <author>
-            <name>@yuki</name>
         </author>
     </entry>
 </feed>

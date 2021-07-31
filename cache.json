@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/thim/articles/e16dd195fdee816a868c",
+          "author": "thim",
+          "description": "https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html\n以下、公式ドキュメントより引用\n\nWhen you deploy a new Next.js app with Amplify, by default Amplify uses the most recent supported version of Next.js. Currently, Amplify supports Next.js version 11.\n\n\nAmplify で新しい Next.js アプリ...",
+          "link": "https://zenn.dev/thim/articles/e16dd195fdee816a868c",
+          "publishedOn": "2021-07-30T10:40:41.000Z",
+          "wordCount": 211,
+          "title": "AmplifyでNext.js11系がサポート対象となりました",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--mUVQeuVo--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:thim%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Amplify%25E3%2581%25A7Next.js11%25E7%25B3%25BB%25E3%2581%258C%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E5%25AF%25BE%25E8%25B1%25A1%25E3%2581%25A8%25E3%2581%25AA%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDQwMTY2ZjMyOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/fasdfas/articles/839bfc5160a81e",
+          "author": "Naoya",
+          "description": "Noteboxとは\nNoteboxは、「Jupyter Notebookを一瞬でブログ化」がコンセントのサービスです。それ以外はこちらのZennやQiitaと同じようなブログサービスですが、Jupyter Notebookを使う人、つまりデータサイエンスなどのサイエンス領域に特化したプラットフォームです。→https://notebox.jp\n動画は↓\nhttps://www.youtube.com/watch?v=IWcUbVnQxkw\n\n Noteboxができたきっかけ\n実は最初はまったく別のプロダクトを作っていました。そのプロダクト上で、Djangoで作ったCMSがあり、「Ju...",
+          "link": "https://zenn.dev/fasdfas/articles/839bfc5160a81e",
+          "publishedOn": "2021-07-30T06:22:29.000Z",
+          "wordCount": 55,
+          "title": "「JupyterNotebookを一瞬で記事にするプラットフォーム」Noteboxの現在の技術スタック",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--M4NeiyDo--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Naoya%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%258CJupyterNotebook%25E3%2582%2592%25E4%25B8%2580%25E7%259E%25AC%25E3%2581%25A7%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2583%2597%25E3%2583%25A9%25E3%2583%2583%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25A0%25E3%2580%258DNotebox%25E3%2581%25AE%25E7%258F%25BE%25E5%259C%25A8%25E3%2581%25AE%25E6%258A%2580%25E8%25A1%2593%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTRlMWJjZmE5Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab",
+          "author": "Hiro",
+          "description": "TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。\nなぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！\n初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。\n\n エラーの内容\n\n与えられた型にcountプロパティが存在しません！\n\n as をつかって型を与える方法\n\n      \n        CountProvider.tsx\n        impo...",
+          "link": "https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab",
+          "publishedOn": "2021-07-29T17:54:22.000Z",
+          "wordCount": 256,
+          "title": "TypeScript & Context APIのdefaultValueの書き方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--b0opxlDx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hiro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%2520%2526%2520Context%2520API%25E3%2581%25AEdefaultValue%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvaC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yuyakato/articles/e96b9d8ec289cc",
           "author": "Yuya Kato",
           "description": "初めに\n先日、InsightFaceとFastAPIを使った顔検出サーバを実装し、「InsightFaceとFastAPIで顔検出サーバを作ってみた」という記事を書きました。\n先の記事の中では検出結果として数値が出力されているだけで、どのような結果なのかが確認しづらい状態でした。\n今回はその結果を、Next.jsを使って可視化してみたいと思います。\nなお本記事には、Next.js自体に関する説明は一切ありません。ご了承ください。\n\n 実行例\n文章で説明するよりも実行例を見た方が早いと思うので、女性1人、男女2人ずつが写った画像の認識結果を以下に示します。\nなお、画像はぱくたそから以下...",
@@ -872,20 +914,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify",
-          "author": "リーナーテックブログ",
-          "description": "Leaner Technologies の黒曜(@kokuyouwind)です。\n最近は Nintendo Switch のはじめてゲームプログラミングでプログラミングを勉強しています。めっちゃ褒められるので最高。\nhttps://twitter.com/kokuyouwind/status/1406600715426926595\nいろんなゲームが作れそうでワクワクしますね。任天堂はいいものを作るなぁ。\n\n Elastic Beanstalk を Amplify Console で置き換えた\nLeaner の技術スタック紹介 で「配信環境が Beanstalk になっているのはちょっと冗...",
-          "link": "https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify",
-          "publishedOn": "2021-07-01T01:22:13.000Z",
-          "wordCount": 327,
-          "title": "Amplify ConsoleでSPA配信を置き換えたら最高だった",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DAiRwcTl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Amplify%2520Console%25E3%2581%25A7SPA%25E9%2585%258D%25E4%25BF%25A1%25E3%2582%2592%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25E6%259C%2580%25E9%25AB%2598%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGZiYzhkYzg5MS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -894,6 +922,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/karibash/articles/3f18b3a77e1792",
+          "author": "Karibash",
+          "description": "https://github.com/Karibash/password-generator\n\n 使い方\n\n      \n        \n        import password from '@karibash/password-generator';\n\nconsole.log(password(9));\n// -> C_Tpmf45L\n\n\n      \n      これだけで大文字、小文字、数字、記号を各1文字以上含む文字列を生成できます\n探しても無かったので作っちゃいました\n\n 生成時に使用する文字を変更する\n第2引数に文字配列を指定すると、生成時に使用する文字を変更出...",
+          "link": "https://zenn.dev/karibash/articles/3f18b3a77e1792",
+          "publishedOn": "2021-07-30T13:45:55.000Z",
+          "wordCount": 309,
+          "title": "パスワードを生成するライブラリを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--o_oxPD6C--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Karibash%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2583%2591%25E3%2582%25B9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E7%2594%259F%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPMW45d0ZmU3FpV21hNW9HWlAzczc4YnRIN0VBUXE5aDdaOU5VZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab",
           "author": "Hiro",
@@ -2696,20 +2738,6 @@
           "title": "Vue 2 × TSX で完璧な型サポートを手に入れる",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zFxN9enk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykoizumi0903%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25202%2520%25C3%2597%2520TSX%2520%25E3%2581%25A7%25E5%25AE%258C%25E7%2592%25A7%25E3%2581%25AA%25E5%259E%258B%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yuki__k/articles/7ec08743230e49",
-          "author": "@yuki",
-          "description": "まずはmethods!\nまずはボタンをクリックして呼び出した時の挙動。ボタンをクリックした時のみ呼び出されます。\n当たり前だよね。問題は後者よ😩\n\n      \n        index.html\n        <div id=\"app\">\n  <button @click=\"method\">クリック</button>\n</div>\n\n\n      \n      \n      \n        index.js\n        const app = {\n  methods: {\n    method() {\n      conso...",
-          "link": "https://zenn.dev/yuki__k/articles/7ec08743230e49",
-          "publishedOn": "2021-06-30T13:53:11.000Z",
-          "wordCount": 95,
-          "title": "Vueのmethods、computedの挙動・使い分けに混乱した記憶があったので整理してみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--oFqvtBMe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%2540yuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vue%25E3%2581%25AEmethods%25E3%2580%2581computed%25E3%2581%25AE%25E6%258C%2599%25E5%258B%2595%25E3%2583%25BB%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25AB%25E6%25B7%25B7%25E4%25B9%25B1%25E3%2581%2597%25E3%2581%259F%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%258C%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzZhZmE4MmNjOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

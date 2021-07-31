@@ -77,8 +77,116 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-30">2021-07-30</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AmplifyでNext.js11系がサポート対象となりました</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/thim/articles/e16dd195fdee816a868c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html
+以下、公式ドキュメントより引用
+
+When you deploy a new Next.js app with Amplify, by default Amplify uses the most recent supported version of Next.js. Currently, Amplify supports Next.js version 11.
+
+
+Amplify で新しい Next.js アプリ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">「JupyterNotebookを一瞬で記事にするプラットフォーム」Noteboxの現在の技術スタック</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/fasdfas/articles/839bfc5160a81e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Noteboxとは
+Noteboxは、「Jupyter Notebookを一瞬でブログ化」がコンセントのサービスです。それ以外はこちらのZennやQiitaと同じようなブログサービスですが、Jupyter Notebookを使う人、つまりデータサイエンスなどのサイエンス領域に特化したプラットフォームです。→https://notebox.jp
+動画は↓
+https://www.youtube.com/watch?v&#x3D;IWcUbVnQxkw
+
+ Noteboxができたきっかけ
+実は最初はまったく別のプロダクトを作っていました。そのプロダクト上で、Djangoで作ったCMSがあり、「Ju...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">パスワードを生成するライブラリを作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/karibash/articles/3f18b3a77e1792">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>https://github.com/Karibash/password-generator
+
+ 使い方
+
+      
+        
+        import password from &#x27;@karibash/password-generator&#x27;;
+
+console.log(password(9));
+// -&gt; C_Tpmf45L
+
+
+      
+      これだけで大文字、小文字、数字、記号を各1文字以上含む文字列を生成できます
+探しても無かったので作っちゃいました
+
+ 生成時に使用する文字を変更する
+第2引数に文字配列を指定すると、生成時に使用する文字を変更出...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-29">2021-07-29</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScript &amp; Context APIのdefaultValueの書き方</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。
+なぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！
+初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。
+
+ エラーの内容
+
+与えられた型にcountプロパティが存在しません！
+
+ as をつかって型を与える方法
+
+      
+        CountProvider.tsx
+        impo...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
@@ -5082,29 +5190,6 @@ https://tech.andpad.co.jp/entry/2021/07/01/170000
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Amplify ConsoleでSPA配信を置き換えたら最高だった</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/leaner_tech/articles/20210630-replace-spa-with-amplify">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Leaner Technologies の黒曜(@kokuyouwind)です。
-最近は Nintendo Switch のはじめてゲームプログラミングでプログラミングを勉強しています。めっちゃ褒められるので最高。
-https://twitter.com/kokuyouwind/status/1406600715426926595
-いろんなゲームが作れそうでワクワクしますね。任天堂はいいものを作るなぁ。
-
- Elastic Beanstalk を Amplify Console で置き換えた
-Leaner の技術スタック紹介 で「配信環境が Beanstalk になっているのはちょっと冗...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -5137,49 +5222,9 @@ vimって便利なんだけど覚える事が多...</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-30">2021-06-30</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vueのmethods、computedの挙動・使い分けに混乱した記憶があったので整理してみる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuki__k/articles/7ec08743230e49">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>まずはmethods!
-まずはボタンをクリックして呼び出した時の挙動。ボタンをクリックした時のみ呼び出されます。
-当たり前だよね。問題は後者よ😩
-
-      
-        index.html
-        
-クリック
-
-
-
-      
-      
-      
-        index.js
-        const app &#x3D; {
-  methods: {
-    method() {
-      conso...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-30T01:06:56.252Z">2021-07-30T01:06:56.252Z</time>
+    <time id="build-timestamp" datetime="2021-07-31T01:03:53.226Z">2021-07-31T01:03:53.226Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
