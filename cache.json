@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/umireon/articles/2e6add9aa34dbb",
+          "author": "Kaito Udagawa",
+          "description": "たった一つの理由\nnext start （npm run start） の実装にNode.jsでHTTPサーバーを提供される場合に標準的に使用されるexpressが使用されていないからです。（httpモジュールは実装が低レベルすぎるので直接使用するべきではありません）\n\n 長い理由\n\n Next.jsのドキュメントに書いてあるよ？\nNext.jsのドキュメントにはnext startが（一応）プロダクションデプロイに使えるよと書いてあります。\nhttps://nextjs.org/docs/deployment#nodejs-server\nだから、next startを本番で使うこと...",
+          "link": "https://zenn.dev/umireon/articles/2e6add9aa34dbb",
+          "publishedOn": "2021-07-31T01:59:53.000Z",
+          "wordCount": 60,
+          "title": "next startを本番に使用すべきではないたった一つの理由",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--tzboDPTv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kaito%2520Udagawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:next%2520start%25E3%2582%2592%25E6%259C%25AC%25E7%2595%25AA%25E3%2581%25AB%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2581%25B9%25E3%2581%258D%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A3%25E3%2581%259F%25E4%25B8%2580%25E3%2581%25A4%25E3%2581%25AE%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lJR21KSDFPTjlGd28wMTczcnE3bU1xWmNSZVpScEU0YkVSa1dwPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/thim/articles/e16dd195fdee816a868c",
           "author": "thim",
           "description": "https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html\n以下、公式ドキュメントより引用\n\nWhen you deploy a new Next.js app with Amplify, by default Amplify uses the most recent supported version of Next.js. Currently, Amplify supports Next.js version 11.\n\n\nAmplify で新しい Next.js アプリ...",
@@ -683,34 +697,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/manalink/articles/manalink-for-teachers-renewal-202107",
-          "author": "マナリンク Tech Blog",
-          "description": "マナリンクCTOの名人です。\n2021年7月1日に、弊社が運営しているマナリンクTeachersというメディアサイトをリニューアルしました！\nhttps://for-teachers.manalink.jp/\nこのメディアサイトはNext.js×microCMSで構築されています。初回リリースは2020年秋ごろだったので、半年以上運用してのリニューアルとなりガッツリ実装を書き換えました。\nそのため本記事では前回の復習も兼ねて、リニューアルの流れやTipsをまとめてみようと思います。\n\n メディアの概要\nマナリンクTeachersは、オンライン家庭教師向けの情報をまとめているメディアサイト...",
-          "link": "https://zenn.dev/manalink/articles/manalink-for-teachers-renewal-202107",
-          "publishedOn": "2021-07-02T09:25:52.000Z",
-          "wordCount": 227,
-          "title": "Next.js×microCMS製のメディアサイトをリニューアルした話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--yodqENXn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%2520Tech%2520Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25C3%2597microCMS%25E8%25A3%25BD%25E3%2581%25AE%25E3%2583%25A1%25E3%2583%2587%25E3%2582%25A3%25E3%2582%25A2%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E3%2583%25AA%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25A2%25E3%2583%25AB%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODNjZWUyZDUxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/renshimosawa/articles/266b780292aadd",
-          "author": "Ren Shimosawa",
-          "description": "今回はこのようなサイト内のニュース欄をmicroCMSを用いて作ります。\nデプロイはAWS amplifyでする前提です。\n\n\n microCMSの設定\n\n (1)プロジェクトを作る\n\n\n個人開発レベルではHobbyで事足りるかと（検証中）。\n\n (2)APIを作成\n\nリスト形式を選択\n\n\n (3)投稿したい項目を定義\n\n\n APIで取得したデータをmapで出す\n\n (1)API keyを.envに書き込む\n\n      \n        .env.production\n        NEXT_PUBLIC_API_KEY=your key\n\n\n      \n      keyはこちら...",
-          "link": "https://zenn.dev/renshimosawa/articles/266b780292aadd",
-          "publishedOn": "2021-07-01T13:50:49.000Z",
-          "wordCount": 382,
-          "title": "Next.jsのサイトにmicroCMSをAPI接続する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vxR2NyAa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Ren%2520Shimosawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%25ABmicroCMS%25E3%2582%2592API%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptcmlXRGR5UjRXLUdpUHd4eUZHbGphX1Q0cUVRS3hqcXhNU1NPPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -719,6 +705,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/kata_n/articles/2d4744d1bb6ab6",
+          "author": "kata",
+          "description": "Tailwind CSSとは\nユーティリティが用意されているCSSフレームワーク。\nCSSでいうユーティリティとは、あらかじめ用意されたクラスを利用してStyleを当てていくことで、CSSを書く事なくスタイルを当てていく手法です。\n具体的には、クラスを定義した別ファイル（ユーティリティファイル）を用意しておいて、使いたい時にクラス名を書くイメージです。\n\n      \n        ユーティリティファイル\n        .p-10 { padding:10px }\n\n\n      \n      使うときは、\n\n      \n        \n        <h2 clas...",
+          "link": "https://zenn.dev/kata_n/articles/2d4744d1bb6ab6",
+          "publishedOn": "2021-07-31T11:10:31.000Z",
+          "wordCount": 375,
+          "title": "Nuxt.jsにTailwindを初めて使ってみるときのTips",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Q6v2ht8p--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt.js%25E3%2581%25ABTailwind%25E3%2582%2592%25E5%2588%259D%25E3%2582%2581%25E3%2581%25A6%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AETips%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU4MTg1MWM4MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer",
           "author": "はるのん",
@@ -900,20 +900,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
-          "author": "ykoizumi0903",
-          "description": "この記事は、昨日会社のテックブログに寄稿した記事\nhttps://tech.andpad.co.jp/entry/2021/07/01/170000\nに入りきらなかった情報の補足です。\n元の記事では、Vue + JSX + Nuxt Composition APIという組み合わせで開発を行う際の、環境設定・導入方法、メリットとデメリット、そしてJSXに限らないComposition APIのTipsまでいろいろ書いていますので、興味のある方は先にそちらの記事をご覧ください【PR】！\n\nさて、冒頭の記事ではVue + JSX（TSX）の組み合わせでの開発のメリデメを挙げる中で、\n現状のVu...",
-          "link": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
-          "publishedOn": "2021-07-02T11:46:58.000Z",
-          "wordCount": 132,
-          "title": "Vue 2 × TSX で完璧な型サポートを手に入れる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zFxN9enk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykoizumi0903%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25202%2520%25C3%2597%2520TSX%2520%25E3%2581%25A7%25E5%25AE%258C%25E7%2592%25A7%25E3%2581%25AA%25E5%259E%258B%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -922,6 +908,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/tnzk/articles/27b72f6b7ce982",
+          "author": "tnzk",
+          "description": "先日 Daniel North の記事を訳していて、この記事がドラフトのままになっているのを思い出したので、加筆して公開することにしました。\n\n 概要\nGauge のように受け入れテストを日本語で書いて、 Jest を採用しているプロジェクトで受け入れテスト駆動開発 (ATDD) を実現できる Jest 拡張 \"jest-gauge\" を公開しました。\nhttps://github.com/tnzk/jest-gauge\n\n 受け入れテスト駆動開発 (ATDD) とは\n受け入れテスト駆動開発 (ATDD) とは、テスト駆動開発 (TDD) の延長線上にあるソフトウェア開発技法のひとつで、...",
+          "link": "https://zenn.dev/tnzk/articles/27b72f6b7ce982",
+          "publishedOn": "2021-07-31T10:14:31.000Z",
+          "wordCount": 214,
+          "title": "Gauge のように受け入れテストを日本語で書ける Jest 拡張 \"Jest-gauge\" を公開しました",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--N0FCDFvV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tnzk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Gauge%2520%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E5%258F%2597%25E3%2581%2591%25E5%2585%25A5%25E3%2582%258C%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%2520Jest%2520%25E6%258B%25A1%25E5%25BC%25B5%2520%2522Jest-gauge%2522%2520%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2djejlyS2ZfMDZoUDNVZFB5MWxGay0xUDM3OHFGTlpQel9sNEdPbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/karibash/articles/3f18b3a77e1792",
           "author": "Karibash",
@@ -2204,6 +2204,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing",
+          "author": "notomo",
+          "description": "Vimで:tabeditすると新しいタブが右側に開くが、\n:tabcloseすると元々いたタブの右側のタブが開く。\nこれを閉じたタブの左にあったタブが開かれるようにしたい。\nつまり| 1 | 2 | 3 |のようにタブがあって、2を閉じたら3ではなく1を開く。\n1で作業中に2を開いて閉じたら1の作業に戻りたいことが多い。\n\n 実装\n以下のようにautocmdで実現できる。\n\n      \n        \n        let s:after_tab_leave = v:false\naugroup activate_left_tab\n  autocmd!\n  autocmd TabEn...",
+          "link": "https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing",
+          "publishedOn": "2021-07-30T23:52:51.000Z",
+          "wordCount": 76,
+          "title": "Vimでタブを閉じたときに左側のタブを開く",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cm-J9pWA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:notomo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vim%25E3%2581%25A7%25E3%2582%25BF%25E3%2583%2596%25E3%2582%2592%25E9%2596%2589%25E3%2581%2598%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E5%25B7%25A6%25E5%2581%25B4%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%2596%25E3%2582%2592%25E9%2596%258B%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmZlOTlhMDUxYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/purenium/articles/50facb02e93cbd",
           "author": "mumei",
           "description": "Vim/Neovim のファイラープラグイン ferm.vim についての記事です。\n\n 環境\nUbuntu 20.04 LTS(WSL2)\nNeovim 0.6.0\n\n 事象と解決\n.prettierrc、.gitignore などのドットで始まるファイルが含まれているフォルダがあるとします。\n\nこれを fern.vim で表示します。すると、.prettierrc などは、表示されないようです。\n\nこれを表示するにはどうすればよいでしょうか。\ninit.vim などの設定ファイルに以下を記述します。\n\n      \n        init.vim\n        let g:fer...",
@@ -2300,20 +2314,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kouta/articles/ab2d9df961238e",
-          "author": "koutarn",
-          "description": "ここはどこだ\n\n「あれ、なんの作業をしてたっけ?」\n彼の名前はkoutarn、しがないタッチタイピング虚無僧。\n今日も元気にお経を唱えながらコーディングをしていたのですが、\n度重なるデスマーチのせいで軽く記憶を無くしてしまったようです。\n「vimで作業をしていたんだけど基本的な操作方法以外思いだせない…」\nおっと、彼はvimという 素晴しいエディタ で作業をしていたようですね。\nご都合主義なこの状況から彼と一緒にvimの操作方法を思い出してみましょう。\n\n この記事の対象の方\n✅ この記事は以下の人を想定して書いています。\n\n\nもの忘れが激しい人\nvimって便利なんだけど覚える事が多...",
-          "link": "https://zenn.dev/kouta/articles/ab2d9df961238e",
-          "publishedOn": "2021-07-01T16:12:11.000Z",
-          "wordCount": 379,
-          "title": "もしもvimを使っているときに記憶喪失になったら…",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZRCd1Dxh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:koutarn%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%2582%25E3%2581%2597%25E3%2582%2582vim%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E8%25A8%2598%25E6%2586%25B6%25E5%2596%25AA%25E5%25A4%25B1%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E2%2580%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWJhZThjY2ViMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2322,6 +2322,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/nana/articles/c6e27ded863a95",
+          "author": "ななな",
+          "description": "Vue Cropperについて\n今回使用したのは以下のライブラリになります。\nVue製なのでVue環境であれば使えると思います。\nhttps://github.com/xyxiao001/vue-cropper\nCropper.jsというライブラリがあり、こちらはJSのものになるので、JS環境であれば使う事ができます。\nhttps://github.com/fengyuanchen/cropperjs\nデモ\nCropper.jsはかなり老舗のライブラリのようで\n画像の切り抜きに使う形になります。\n今回紹介するもの以外にも以下のようなCropperをメインにしているライブラリは多数存在...",
+          "link": "https://zenn.dev/nana/articles/c6e27ded863a95",
+          "publishedOn": "2021-07-31T13:59:54.000Z",
+          "wordCount": 209,
+          "title": "画像の切り抜きライブラリVue Cropperを使ってみた。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--fwBQYB8i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AA%25E3%2581%25AA%25E3%2581%25AA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2594%25BB%25E5%2583%258F%25E3%2581%25AE%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AAVue%2520Cropper%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTc4ZDExMWNiZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a",
+          "author": "uedayou",
+          "description": "Linked Open Addresses Japan という住所オープンデータ提供サイトで使用している周辺情報データを検索できる Web API を公開しました。\nhttps://uedayou.net/loa/\n実際には以下で使用しているものになります。\n\nAPI には GraphQL と SPARQLエンドポイントの2種類があります。GraphQL は簡易、SPARQLエンドポイントはより詳細に検索ができます。用途によって使い分けてください。\n\n 特徴\n一般的に、位置情報を持つ情報を検索する場合、緯度経度で範囲を絞り込んで検索することが一般的だと思います。今回公開する周辺情報 AP...",
+          "link": "https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a",
+          "publishedOn": "2021-07-31T03:22:27.000Z",
+          "wordCount": 1065,
+          "title": "住所で検索可能な周辺情報 GraphQL/SPARQL API",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2BTgW-GJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uedayou%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E4%25BD%258F%25E6%2589%2580%25E3%2581%25A7%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AA%25E5%2591%25A8%25E8%25BE%25BA%25E6%2583%2585%25E5%25A0%25B1%2520GraphQL%252FSPARQL%2520API%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjE1ODQxMjJlMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
           "author": "dialbird",
@@ -2724,20 +2752,6 @@
           "title": "petite-vue 最速 使い方",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--g01DhcMv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:silloi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:petite-vue%2520%25E6%259C%2580%25E9%2580%259F%2520%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTMxMzkzYjgwNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
-          "author": "ykoizumi0903",
-          "description": "この記事は、昨日会社のテックブログに寄稿した記事\nhttps://tech.andpad.co.jp/entry/2021/07/01/170000\nに入りきらなかった情報の補足です。\n元の記事では、Vue + JSX + Nuxt Composition APIという組み合わせで開発を行う際の、環境設定・導入方法、メリットとデメリット、そしてJSXに限らないComposition APIのTipsまでいろいろ書いていますので、興味のある方は先にそちらの記事をご覧ください【PR】！\n\nさて、冒頭の記事ではVue + JSX（TSX）の組み合わせでの開発のメリデメを挙げる中で、\n現状のVu...",
-          "link": "https://zenn.dev/ytr0903/articles/eacee1dee6b055",
-          "publishedOn": "2021-07-02T11:46:58.000Z",
-          "wordCount": 132,
-          "title": "Vue 2 × TSX で完璧な型サポートを手に入れる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zFxN9enk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ykoizumi0903%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25202%2520%25C3%2597%2520TSX%2520%25E3%2581%25A7%25E5%25AE%258C%25E7%2592%25A7%25E3%2581%25AA%25E5%259E%258B%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
