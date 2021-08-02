@@ -2,10 +2,137 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-01T01:13:33.992Z</updated>
+    <updated>2021-08-02T01:05:36.032Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
+        <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
+        <link href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0"/>
+        <updated>2021-08-01T17:07:28.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ しっぽくんです
+Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
+本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
+
+ はじめに
+Vue.js から Nuxt.js へ移行するモチベーションは色々あります
+例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
+「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...]]></summary>
+        <author>
+            <name>しっぽくん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
+        <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
+        <link href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0"/>
+        <updated>2021-08-01T17:07:28.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ しっぽくんです
+Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
+本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
+
+ はじめに
+Vue.js から Nuxt.js へ移行するモチベーションは色々あります
+例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
+「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...]]></summary>
+        <author>
+            <name>しっぽくん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jest setTimeout()のようなでタイマー関数をテストする]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7</id>
+        <link href="https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7"/>
+        <updated>2021-08-01T13:04:25.000Z</updated>
+        <summary type="html"><![CDATA[JavaScriptには、以下のような時間に関する関数が用意されています。
+
+setTimeout
+setInterval
+clearTimeout
+clearInterval
+
+例えば、setTimeoutは第1引数で渡したコールバック関数を第2引数で渡したミリ秒後に実行します。
+標準で用意されている非常に便利な関数群ですが、ユニットテストを記述するときには少々困りものです。setTimeoutのコールバック関数に渡した処理が正しく呼び出されているかどうか調べたいようない場合には、setTimeoutのコールバックが呼び出されるまで待機する処理を挟む必要があります。
+setTimeou...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[超入門] FizzBuzzで考える関数型プログラミング学習を純粋関数型言語でやる理由]]></title>
+        <id>https://zenn.dev/ababup1192/articles/a5f5c232b502d6</id>
+        <link href="https://zenn.dev/ababup1192/articles/a5f5c232b502d6"/>
+        <updated>2021-08-01T12:03:48.000Z</updated>
+        <summary type="html"><![CDATA[先日、関数型プログラミングはまずは純粋関数型言語を用いて、考え方から理解しよう
+と言う記事を書かせていただきました。納得の声をたくさん頂きましたが、それでは純粋関数型プログラミング言語を闇雲に初めて勘所がわかった！とはすぐにはならないと思い、順調にステップアップするための記事を書こうと思いました。また、考え方が違うだけで関数型プログラミング言語を学んだり使用する理由は特にないとの意見をいただいたので、改めて実例と共に関数型プログラミング言語を確認していただければなと思います。
+今回の記事ではFizzBuzzとElmを利用して解説をしていきたいと思います。FizzBuzzは使い古された例で...]]></summary>
+        <author>
+            <name>ABAB↑↓BA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Apps Script向け簡易job-queueを作った]]></title>
+        <id>https://zenn.dev/katzumi/articles/58354fb4d05038</id>
+        <link href="https://zenn.dev/katzumi/articles/58354fb4d05038"/>
+        <updated>2021-08-01T08:46:58.000Z</updated>
+        <summary type="html"><![CDATA[Motivation
+個人的にいくつかのSlackボットをGoogle Apps Script（以下GAS）で実装していますが、3秒ルールの壁があってイベント処理がタイムアウトしてしまうという課題がありました。
+Slackの公式ドキュメントには3秒以内にレスポンスできない処理は、一旦レスポンスして非同期処理でイベントのペイロードにあるレスポンスURLに書き込めとありました。
+GAS内で非同期処理を行うには、トリガー処理を組み合わせして実現できそうでした。
+https://developers.google.com/apps-script/guides/triggers
+使えるトリガー...]]></summary>
+        <author>
+            <name>katzumi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js にレイアウトに関するドキュメントが追加されました]]></title>
+        <id>https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84</id>
+        <link href="https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84"/>
+        <updated>2021-08-01T08:05:54.000Z</updated>
+        <summary type="html"><![CDATA[Next.js の Layout 周りのドキュメントが新しく追加されました。
+https://nextjs.org/docs/basic-features/layouts
+
+ 単一のレイアウトを扱う場合
+単一のレイアウトで十分な場合はカスタマイズした <Layout/> で <Component /> タグを囲むだけで実装できます。
+
+      
+        
+        // pages/_app.js
+
+import Layout from '../components/layout'
+
+export default function MyApp({...]]></summary>
+        <author>
+            <name>sota_yamaguchi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angularでunix timeを取得する]]></title>
+        <id>https://zenn.dev/hashito/articles/f23af092957bf5</id>
+        <link href="https://zenn.dev/hashito/articles/f23af092957bf5"/>
+        <updated>2021-08-01T07:07:16.000Z</updated>
+        <summary type="html"><![CDATA[momentjsを利用したやり方
+コマンドでmomenjsをプロジェクトにインストールする。
+npm install moment --save
+importして下記のように利用できる。
+
+      
+        
+        import * as moment from 'moment';
+let unixtime:number=moment().unix();
+
+
+      
+      
+ Dateを利用したやり方
+Date.now()というコードでunix timeのミリ秒版が取得できる。
+なのでDate.now()/1000で単位を秒にすれば小数点付きだがun...]]></summary>
+        <author>
+            <name>hashito</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[画像の切り抜きライブラリVue Cropperを使ってみた。]]></title>
         <id>https://zenn.dev/nana/articles/c6e27ded863a95</id>
@@ -23,6 +150,28 @@ Cropper.jsはかなり老舗のライブラリのようで
 今回紹介するもの以外にも以下のようなCropperをメインにしているライブラリは多数存在...]]></summary>
         <author>
             <name>ななな</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discord Slash CommandのInteractionをAzure Functionsにデプロイしてみる]]></title>
+        <id>https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195</id>
+        <link href="https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195"/>
+        <updated>2021-07-31T12:38:37.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+
+ TL;DR
+Discord の Slash Command を TypeScript を使って開発し、
+Azure Functions にデプロイすることで簡単なボットのようなアプリをサーバーレスに作ることできる。
+
+ 扱う内容・対象読者
+この記事では、Azure Functions にデプロイした関数を
+Discord Slash Command の Interaction Endpoint に指定して使うまでを目標とします。
+したがって次のような項目を扱います。
+
+Slash Command の概要と作成方法
+Azure Function アプリを TypeScri...]]></summary>
+        <author>
+            <name>にー兄さん</name>
         </author>
     </entry>
     <entry>
@@ -4189,92 +4338,6 @@ Next.jsでサーバを立てられる場合は使っていきたいのですが�
 今回はnext/imageのソースを...]]></summary>
         <author>
             <name>itomise</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js+CSSModules(Saas)+Storybookのセットアップ]]></title>
-        <id>https://zenn.dev/thim/articles/7c8ceba730dad35d27dc</id>
-        <link href="https://zenn.dev/thim/articles/7c8ceba730dad35d27dc"/>
-        <updated>2021-07-03T12:41:24.000Z</updated>
-        <summary type="html"><![CDATA[Next.js のプロジェクトにCSSModules(Sass)+Storybookをセットアップしようとしてハマり倒したので手順を記録しておきます。
-セットアップ完了状態のソースはこちら
-https://github.com/TakahiroHimi/Next-CSSModules-SB-sample
-
- Next.js アプリ作成
-
-      
-        
-        npx create-next-app --example with-typescript myapp
-
-
-      
-      
- CSSModules(Sass)セットアップ
-
- パッケージ追加
-
-...]]></summary>
-        <author>
-            <name>thim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[petite-vue 最速 使い方]]></title>
-        <id>https://zenn.dev/silloi/articles/ecfab241f3fea9</id>
-        <link href="https://zenn.dev/silloi/articles/ecfab241f3fea9"/>
-        <updated>2021-07-03T07:40:54.000Z</updated>
-        <summary type="html"><![CDATA[2021年7月3日（日本時間）、Vueの創始者Evan Youが新たなパッケージをリリースしました。
-https://github.com/vuejs/petite-vue
-
- petite-vue
-petite-vue（プティットゥ・ヴュー「プチVue」の意）は先進的な機能を備えた、超軽量なVueの下位互換です。スタンダードなVueと同等のテンプレート構文・リアクティビティモデルを有していますが、かつてサーバーフレームワークで所々に書かれていたような、ちょっとしたインタラクションを置き換えられるよう特化しています。
-
-5.7KB以下
-DOMベース（仮想DOMを使用しない）
-@vue/r...]]></summary>
-        <author>
-            <name>silloi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsがESModuleフォーマットサポートしてない問題（ERR_REQUIRE_ESM）の回避策]]></title>
-        <id>https://zenn.dev/dl10yr/articles/b592e36d852e8c</id>
-        <link href="https://zenn.dev/dl10yr/articles/b592e36d852e8c"/>
-        <updated>2021-07-03T01:23:44.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsでd3使おうとしたら、ハマりました。
-Next.jsがESModuleフォーマットをサポートしてないのが原因のようです。
-https://github.com/vercel/next.js/issues/9607
-
-      
-        
-        Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/hogehoge/node_modules/robust-predicates/index.js
-require() of ES modules is not supported.
-...]]></summary>
-        <author>
-            <name>dl10yr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをする]]></title>
-        <id>https://zenn.dev/a_da_chi/articles/0ea66053a8b778</id>
-        <link href="https://zenn.dev/a_da_chi/articles/0ea66053a8b778"/>
-        <updated>2021-07-02T13:43:28.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
-https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
-ReactでユニットテストといえばJestですよね。
-今回はNext.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをするまでの手順を書いていきたい思います。
-
- 前提
-
-Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること。
-
-
- 導入手順
-
-必要なパッケージをインス...]]></summary>
-        <author>
-            <name>adachi</name>
         </author>
     </entry>
 </feed>

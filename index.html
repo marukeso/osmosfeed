@@ -77,6 +77,163 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-01">2021-08-01</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js にレイアウトに関するドキュメントが追加されました</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Next.js の Layout 周りのドキュメントが新しく追加されました。
+https://nextjs.org/docs/basic-features/layouts
+
+ 単一のレイアウトを扱う場合
+単一のレイアウトで十分な場合はカスタマイズした  で  タグを囲むだけで実装できます。
+
+      
+        
+        // pages/_app.js
+
+import Layout from &#x27;../components/layout&#x27;
+
+export default function MyApp({...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">簡単にVue.jsからNuxt.js(SPA)へ移行する手引き</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは！ しっぽくんです
+Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
+本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
+
+ はじめに
+Vue.js から Nuxt.js へ移行するモチベーションは色々あります
+例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
+「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Jest setTimeout()のようなでタイマー関数をテストする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>JavaScriptには、以下のような時間に関する関数が用意されています。
+
+setTimeout
+setInterval
+clearTimeout
+clearInterval
+
+例えば、setTimeoutは第1引数で渡したコールバック関数を第2引数で渡したミリ秒後に実行します。
+標準で用意されている非常に便利な関数群ですが、ユニットテストを記述するときには少々困りものです。setTimeoutのコールバック関数に渡した処理が正しく呼び出されているかどうか調べたいようない場合には、setTimeoutのコールバックが呼び出されるまで待機する処理を挟む必要があります。
+setTimeou...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[超入門] FizzBuzzで考える関数型プログラミング学習を純粋関数型言語でやる理由</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ababup1192/articles/a5f5c232b502d6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>先日、関数型プログラミングはまずは純粋関数型言語を用いて、考え方から理解しよう
+と言う記事を書かせていただきました。納得の声をたくさん頂きましたが、それでは純粋関数型プログラミング言語を闇雲に初めて勘所がわかった！とはすぐにはならないと思い、順調にステップアップするための記事を書こうと思いました。また、考え方が違うだけで関数型プログラミング言語を学んだり使用する理由は特にないとの意見をいただいたので、改めて実例と共に関数型プログラミング言語を確認していただければなと思います。
+今回の記事ではFizzBuzzとElmを利用して解説をしていきたいと思います。FizzBuzzは使い古された例で...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Google Apps Script向け簡易job-queueを作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/katzumi/articles/58354fb4d05038">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Motivation
+個人的にいくつかのSlackボットをGoogle Apps Script（以下GAS）で実装していますが、3秒ルールの壁があってイベント処理がタイムアウトしてしまうという課題がありました。
+Slackの公式ドキュメントには3秒以内にレスポンスできない処理は、一旦レスポンスして非同期処理でイベントのペイロードにあるレスポンスURLに書き込めとありました。
+GAS内で非同期処理を行うには、トリガー処理を組み合わせして実現できそうでした。
+https://developers.google.com/apps-script/guides/triggers
+使えるトリガー...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Angularでunix timeを取得する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hashito/articles/f23af092957bf5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>momentjsを利用したやり方
+コマンドでmomenjsをプロジェクトにインストールする。
+npm install moment --save
+importして下記のように利用できる。
+
+      
+        
+        import * as moment from &#x27;moment&#x27;;
+let unixtime:number&#x3D;moment().unix();
+
+
+      
+      
+ Dateを利用したやり方
+Date.now()というコードでunix timeのミリ秒版が取得できる。
+なのでDate.now()/1000で単位を秒にすれば小数点付きだがun...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">簡単にVue.jsからNuxt.js(SPA)へ移行する手引き</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは！ しっぽくんです
+Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
+本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
+
+ はじめに
+Vue.js から Nuxt.js へ移行するモチベーションは色々あります
+例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
+「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-31">2021-07-31</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -140,6 +297,29 @@ CSSでいうユーティリティとは、あらかじめ用意されたクラ�
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Discord Slash CommandのInteractionをAzure Functionsにデプロイしてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>はじめに
+
+ TL;DR
+Discord の Slash Command を TypeScript を使って開発し、
+Azure Functions にデプロイすることで簡単なボットのようなアプリをサーバーレスに作ることできる。
+
+ 扱う内容・対象読者
+この記事では、Azure Functions にデプロイした関数を
+Discord Slash Command の Interaction Endpoint に指定して使うまでを目標とします。
+したがって次のような項目を扱います。
+
+Slash Command の概要と作成方法
+Azure Function アプリを TypeScri...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Gauge のように受け入れテストを日本語で書ける Jest 拡張 &quot;Jest-gauge&quot; を公開しました</summary>
@@ -5097,53 +5277,6 @@ Next.jsでサーバを立てられる場合は使っていきたいのですが�
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js+CSSModules(Saas)+Storybookのセットアップ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/thim/articles/7c8ceba730dad35d27dc">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Next.js のプロジェクトにCSSModules(Sass)+Storybookをセットアップしようとしてハマり倒したので手順を記録しておきます。
-セットアップ完了状態のソースはこちら
-https://github.com/TakahiroHimi/Next-CSSModules-SB-sample
-
- Next.js アプリ作成
-
-      
-        
-        npx create-next-app --example with-typescript myapp
-
-
-      
-      
- CSSModules(Sass)セットアップ
-
- パッケージ追加
-
-...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsがESModuleフォーマットサポートしてない問題（ERR_REQUIRE_ESM）の回避策</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dl10yr/articles/b592e36d852e8c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Next.jsでd3使おうとしたら、ハマりました。
-Next.jsがESModuleフォーマットをサポートしてないのが原因のようです。
-https://github.com/vercel/next.js/issues/9607
-
-      
-        
-        Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/hogehoge/node_modules/robust-predicates/index.js
-require() of ES modules is not supported.
-...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -5174,71 +5307,11 @@ Fate/Grand Orderというスマートフォン向けゲームのコラージュ�
             </article>
         </section>
       </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">petite-vue 最速 使い方</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/silloi/articles/ecfab241f3fea9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>2021年7月3日（日本時間）、Vueの創始者Evan Youが新たなパッケージをリリースしました。
-https://github.com/vuejs/petite-vue
-
- petite-vue
-petite-vue（プティットゥ・ヴュー「プチVue」の意）は先進的な機能を備えた、超軽量なVueの下位互換です。スタンダードなVueと同等のテンプレート構文・リアクティビティモデルを有していますが、かつてサーバーフレームワークで所々に書かれていたような、ちょっとしたインタラクションを置き換えられるよう特化しています。
-
-5.7KB以下
-DOMベース（仮想DOMを使用しない）
-@vue/r...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-02">2021-07-02</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをする</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/a_da_chi/articles/0ea66053a8b778">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
-https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
-ReactでユニットテストといえばJestですよね。
-今回はNext.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをするまでの手順を書いていきたい思います。
-
- 前提
-
-Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること。
-
-
- 導入手順
-
-必要なパッケージをインス...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-01T01:13:33.967Z">2021-08-01T01:13:33.967Z</time>
+    <time id="build-timestamp" datetime="2021-08-02T01:05:36.008Z">2021-08-02T01:05:36.008Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

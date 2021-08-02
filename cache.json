@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84",
+          "author": "sota_yamaguchi",
+          "description": "Next.js の Layout 周りのドキュメントが新しく追加されました。\nhttps://nextjs.org/docs/basic-features/layouts\n\n 単一のレイアウトを扱う場合\n単一のレイアウトで十分な場合はカスタマイズした <Layout/> で <Component /> タグを囲むだけで実装できます。\n\n      \n        \n        // pages/_app.js\n\nimport Layout from '../components/layout'\n\nexport default function MyApp({...",
+          "link": "https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84",
+          "publishedOn": "2021-08-01T08:05:54.000Z",
+          "wordCount": 132,
+          "title": "Next.js にレイアウトに関するドキュメントが追加されました",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0wpd0ew4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sota_yamaguchi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25AB%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25A2%25E3%2582%25A6%25E3%2583%2588%25E3%2581%25AB%25E9%2596%25A2%25E3%2581%2599%25E3%2582%258B%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2595%25E3%2582%258C%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjBjYWExZWI3Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/umireon/articles/2e6add9aa34dbb",
           "author": "Kaito Udagawa",
           "description": "たった一つの理由\nnext start （npm run start） の実装にNode.jsでHTTPサーバーを提供される場合に標準的に使用されるexpressが使用されていないからです。（httpモジュールは実装が低レベルすぎるので直接使用するべきではありません）\n\n 長い理由\n\n Next.jsのドキュメントに書いてあるよ？\nNext.jsのドキュメントにはnext startが（一応）プロダクションデプロイに使えるよと書いてあります。\nhttps://nextjs.org/docs/deployment#nodejs-server\nだから、next startを本番で使うこと...",
@@ -655,48 +669,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/thim/articles/7c8ceba730dad35d27dc",
-          "author": "thim",
-          "description": "Next.js のプロジェクトにCSSModules(Sass)+Storybookをセットアップしようとしてハマり倒したので手順を記録しておきます。\nセットアップ完了状態のソースはこちら\nhttps://github.com/TakahiroHimi/Next-CSSModules-SB-sample\n\n Next.js アプリ作成\n\n      \n        \n        npx create-next-app --example with-typescript myapp\n\n\n      \n      \n CSSModules(Sass)セットアップ\n\n パッケージ追加\n\n...",
-          "link": "https://zenn.dev/thim/articles/7c8ceba730dad35d27dc",
-          "publishedOn": "2021-07-03T12:41:24.000Z",
-          "wordCount": 275,
-          "title": "Next.js+CSSModules(Saas)+Storybookのセットアップ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ju-0kqe0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:thim%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%252BCSSModules%2528Saas%2529%252BStorybook%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDQwMTY2ZjMyOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dl10yr/articles/b592e36d852e8c",
-          "author": "dl10yr",
-          "description": "Next.jsでd3使おうとしたら、ハマりました。\nNext.jsがESModuleフォーマットをサポートしてないのが原因のようです。\nhttps://github.com/vercel/next.js/issues/9607\n\n      \n        \n        Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/hogehoge/node_modules/robust-predicates/index.js\nrequire() of ES modules is not supported.\n...",
-          "link": "https://zenn.dev/dl10yr/articles/b592e36d852e8c",
-          "publishedOn": "2021-07-03T01:23:44.000Z",
-          "wordCount": 169,
-          "title": "Next.jsがESModuleフォーマットサポートしてない問題（ERR_REQUIRE_ESM）の回避策",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--a9iA35R7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%25E3%2581%258CESModule%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%259E%25E3%2583%2583%25E3%2583%2588%25E3%2582%25B5%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25AA%25E3%2581%2584%25E5%2595%258F%25E9%25A1%258C%25EF%25BC%2588ERR_REQUIRE_ESM%25EF%25BC%2589%25E3%2581%25AE%25E5%259B%259E%25E9%2581%25BF%25E7%25AD%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/a_da_chi/articles/0ea66053a8b778",
-          "author": "adachi",
-          "description": "はじめに\n※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。\nhttps://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入\nReactでユニットテストといえばJestですよね。\n今回はNext.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをするまでの手順を書いていきたい思います。\n\n 前提\n\nNext.jsでsrcディレクトリ配下にアプリケーションコードを配置していること。\n\n\n 導入手順\n\n必要なパッケージをインス...",
-          "link": "https://zenn.dev/a_da_chi/articles/0ea66053a8b778",
-          "publishedOn": "2021-07-02T13:43:28.000Z",
-          "wordCount": 337,
-          "title": "Next.jsプロジェクトにJestを導入してGitHub Actionsでユニットテストをする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--iy6-cD5d--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:adachi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25ABJest%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2597%25E3%2581%25A6GitHub%2520Actions%25E3%2581%25A7%25E3%2583%25A6%25E3%2583%258B%25E3%2583%2583%25E3%2583%2588%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hvU1F2dTVtTFZ2WUdOVUt1bE5kVE9Gd2Q5Z3VlTFhCaWJ3LTRHS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -908,6 +880,90 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
+          "author": "しっぽくん",
+          "description": "こんにちは！ しっぽくんです\nVue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました\n本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します\n\n はじめに\nVue.js から Nuxt.js へ移行するモチベーションは色々あります\n例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…\n「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...",
+          "link": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
+          "publishedOn": "2021-08-01T17:07:28.000Z",
+          "wordCount": 390,
+          "title": "簡単にVue.jsからNuxt.js(SPA)へ移行する手引き",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4qxtVlKh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2597%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25ABVue.js%25E3%2581%258B%25E3%2582%2589Nuxt.js%2528SPA%2529%25E3%2581%25B8%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%25E6%2589%258B%25E5%25BC%2595%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3NGxmTkQ2aHRMeml1NUFUUXNLR3RMVzFoMWE1R0tNT3lRU1RfVUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7",
+          "author": "azukiazusa",
+          "description": "JavaScriptには、以下のような時間に関する関数が用意されています。\n\nsetTimeout\nsetInterval\nclearTimeout\nclearInterval\n\n例えば、setTimeoutは第1引数で渡したコールバック関数を第2引数で渡したミリ秒後に実行します。\n標準で用意されている非常に便利な関数群ですが、ユニットテストを記述するときには少々困りものです。setTimeoutのコールバック関数に渡した処理が正しく呼び出されているかどうか調べたいようない場合には、setTimeoutのコールバックが呼び出されるまで待機する処理を挟む必要があります。\nsetTimeou...",
+          "link": "https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7",
+          "publishedOn": "2021-08-01T13:04:25.000Z",
+          "wordCount": 334,
+          "title": "Jest setTimeout()のようなでタイマー関数をテストする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cDz5U3m2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Jest%2520setTimeout%2528%2529%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AA%25E3%2581%25A7%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%259E%25E3%2583%25BC%25E9%2596%25A2%25E6%2595%25B0%25E3%2582%2592%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ababup1192/articles/a5f5c232b502d6",
+          "author": "ABAB↑↓BA",
+          "description": "先日、関数型プログラミングはまずは純粋関数型言語を用いて、考え方から理解しよう\nと言う記事を書かせていただきました。納得の声をたくさん頂きましたが、それでは純粋関数型プログラミング言語を闇雲に初めて勘所がわかった！とはすぐにはならないと思い、順調にステップアップするための記事を書こうと思いました。また、考え方が違うだけで関数型プログラミング言語を学んだり使用する理由は特にないとの意見をいただいたので、改めて実例と共に関数型プログラミング言語を確認していただければなと思います。\n今回の記事ではFizzBuzzとElmを利用して解説をしていきたいと思います。FizzBuzzは使い古された例で...",
+          "link": "https://zenn.dev/ababup1192/articles/a5f5c232b502d6",
+          "publishedOn": "2021-08-01T12:03:48.000Z",
+          "wordCount": 876,
+          "title": "[超入門] FizzBuzzで考える関数型プログラミング学習を純粋関数型言語でやる理由",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--GGAfgfo3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ABAB%25E2%2586%2591%25E2%2586%2593BA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%255B%25E8%25B6%2585%25E5%2585%25A5%25E9%2596%2580%255D%2520FizzBuzz%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%25E9%2596%25A2%25E6%2595%25B0%25E5%259E%258B%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0%25E5%25AD%25A6%25E7%25BF%2592%25E3%2582%2592%25E7%25B4%2594%25E7%25B2%258B%25E9%2596%25A2%25E6%2595%25B0%25E5%259E%258B%25E8%25A8%2580%25E8%25AA%259E%25E3%2581%25A7%25E3%2582%2584%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqRm84X2NSbjU2WlRqUEpXQmNzQTVCMmZ0c1l6czFnUnAyRUZ5PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/katzumi/articles/58354fb4d05038",
+          "author": "katzumi",
+          "description": "Motivation\n個人的にいくつかのSlackボットをGoogle Apps Script（以下GAS）で実装していますが、3秒ルールの壁があってイベント処理がタイムアウトしてしまうという課題がありました。\nSlackの公式ドキュメントには3秒以内にレスポンスできない処理は、一旦レスポンスして非同期処理でイベントのペイロードにあるレスポンスURLに書き込めとありました。\nGAS内で非同期処理を行うには、トリガー処理を組み合わせして実現できそうでした。\nhttps://developers.google.com/apps-script/guides/triggers\n使えるトリガー...",
+          "link": "https://zenn.dev/katzumi/articles/58354fb4d05038",
+          "publishedOn": "2021-08-01T08:46:58.000Z",
+          "wordCount": 191,
+          "title": "Google Apps Script向け簡易job-queueを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Vqd8Yk_a--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:katzumi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Google%2520Apps%2520Script%25E5%2590%2591%25E3%2581%2591%25E7%25B0%25A1%25E6%2598%2593job-queue%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGZiMGM4OGU2Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hashito/articles/f23af092957bf5",
+          "author": "hashito",
+          "description": "momentjsを利用したやり方\nコマンドでmomenjsをプロジェクトにインストールする。\nnpm install moment --save\nimportして下記のように利用できる。\n\n      \n        \n        import * as moment from 'moment';\nlet unixtime:number=moment().unix();\n\n\n      \n      \n Dateを利用したやり方\nDate.now()というコードでunix timeのミリ秒版が取得できる。\nなのでDate.now()/1000で単位を秒にすれば小数点付きだがun...",
+          "link": "https://zenn.dev/hashito/articles/f23af092957bf5",
+          "publishedOn": "2021-08-01T07:07:16.000Z",
+          "wordCount": 92,
+          "title": "Angularでunix timeを取得する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--rj0vHw-o--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Angular%25E3%2581%25A7unix%2520time%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195",
+          "author": "にー兄さん",
+          "description": "はじめに\n\n TL;DR\nDiscord の Slash Command を TypeScript を使って開発し、\nAzure Functions にデプロイすることで簡単なボットのようなアプリをサーバーレスに作ることできる。\n\n 扱う内容・対象読者\nこの記事では、Azure Functions にデプロイした関数を\nDiscord Slash Command の Interaction Endpoint に指定して使うまでを目標とします。\nしたがって次のような項目を扱います。\n\nSlash Command の概要と作成方法\nAzure Function アプリを TypeScri...",
+          "link": "https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195",
+          "publishedOn": "2021-07-31T12:38:37.000Z",
+          "wordCount": 924,
+          "title": "Discord Slash CommandのInteractionをAzure Functionsにデプロイしてみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ZR_W4lXX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2583%25BC%25E5%2585%2584%25E3%2581%2595%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Discord%2520Slash%2520Command%25E3%2581%25AEInteraction%25E3%2582%2592Azure%2520Functions%25E3%2581%25AB%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUQndtd2ZiTmM3Nzg0SmxRZWdlX3BSc09RdmdvX2hxNlg5MTJKT3VZPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/tnzk/articles/27b72f6b7ce982",
           "author": "tnzk",
@@ -2323,6 +2379,20 @@
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
         {
+          "id": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
+          "author": "しっぽくん",
+          "description": "こんにちは！ しっぽくんです\nVue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました\n本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します\n\n はじめに\nVue.js から Nuxt.js へ移行するモチベーションは色々あります\n例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…\n「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...",
+          "link": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
+          "publishedOn": "2021-08-01T17:07:28.000Z",
+          "wordCount": 390,
+          "title": "簡単にVue.jsからNuxt.js(SPA)へ移行する手引き",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4qxtVlKh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2597%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25ABVue.js%25E3%2581%258B%25E3%2582%2589Nuxt.js%2528SPA%2529%25E3%2581%25B8%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%25E6%2589%258B%25E5%25BC%2595%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3NGxmTkQ2aHRMeml1NUFUUXNLR3RMVzFoMWE1R0tNT3lRU1RfVUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/nana/articles/c6e27ded863a95",
           "author": "ななな",
           "description": "Vue Cropperについて\n今回使用したのは以下のライブラリになります。\nVue製なのでVue環境であれば使えると思います。\nhttps://github.com/xyxiao001/vue-cropper\nCropper.jsというライブラリがあり、こちらはJSのものになるので、JS環境であれば使う事ができます。\nhttps://github.com/fengyuanchen/cropperjs\nデモ\nCropper.jsはかなり老舗のライブラリのようで\n画像の切り抜きに使う形になります。\n今回紹介するもの以外にも以下のようなCropperをメインにしているライブラリは多数存在...",
@@ -2738,20 +2808,6 @@
           "title": "docker-composeでVue.jsの開発環境を構築する",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_Y2w0rpH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:docker-compose%25E3%2581%25A7Vue.js%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/silloi/articles/ecfab241f3fea9",
-          "author": "silloi",
-          "description": "2021年7月3日（日本時間）、Vueの創始者Evan Youが新たなパッケージをリリースしました。\nhttps://github.com/vuejs/petite-vue\n\n petite-vue\npetite-vue（プティットゥ・ヴュー「プチVue」の意）は先進的な機能を備えた、超軽量なVueの下位互換です。スタンダードなVueと同等のテンプレート構文・リアクティビティモデルを有していますが、かつてサーバーフレームワークで所々に書かれていたような、ちょっとしたインタラクションを置き換えられるよう特化しています。\n\n5.7KB以下\nDOMベース（仮想DOMを使用しない）\n@vue/r...",
-          "link": "https://zenn.dev/silloi/articles/ecfab241f3fea9",
-          "publishedOn": "2021-07-03T07:40:54.000Z",
-          "wordCount": 397,
-          "title": "petite-vue 最速 使い方",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--g01DhcMv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:silloi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:petite-vue%2520%25E6%259C%2580%25E9%2580%259F%2520%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTMxMzkzYjgwNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
