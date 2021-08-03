@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/kenta0313/articles/eb1c38209aa30e",
+          "author": "KenT",
+          "description": "今回作ったもの\n作品はこちら\nコードはこちら\n\n 作った経緯\nContextAPIを使ってみたかった為\n\n コードの解説\n\n コンポーネントをAppContextに接続する\n\n      \n        \n        import React, { useContext } from 'react';\nimport { AppContext } from '../context/AppContext';\n\nconst Budget = () => {\n\tconst { budget } = useContext(AppContext);\n\treturn (\n\t\t<d...",
+          "link": "https://zenn.dev/kenta0313/articles/eb1c38209aa30e",
+          "publishedOn": "2021-08-02T08:31:47.000Z",
+          "wordCount": 206,
+          "title": "Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Q6GyqDpi--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenT%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%252BTypescript%252BContextAPI%25E3%2581%25A7%25E4%25BA%2588%25E7%25AE%2597%25E3%2583%2588%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25AB%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjg4ZDAyMTI0NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84",
           "author": "sota_yamaguchi",
           "description": "Next.js の Layout 周りのドキュメントが新しく追加されました。\nhttps://nextjs.org/docs/basic-features/layouts\n\n 単一のレイアウトを扱う場合\n単一のレイアウトで十分な場合はカスタマイズした <Layout/> で <Component /> タグを囲むだけで実装できます。\n\n      \n        \n        // pages/_app.js\n\nimport Layout from '../components/layout'\n\nexport default function MyApp({...",
@@ -613,62 +627,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/mast1ff/articles/efc41938236c51",
-          "author": "Mast1ff",
-          "description": "半年くらい前にこんな記事を書きました。\nhttps://zenn.dev/mast1ff/articles/3d6f4b9e4a38bb\n様々なプロダクトにメインとして使用しているNext.js製のフロントエンドをStimulusとTurboに書き換えて運用してみました。\nhttps://hotwired.dev/\n今回は実際に運用してみた所管などをまとめたいと思います。\n\n はじめに\nとはいえ、Hotwireたちは飽くまでフロントエンドのみ。バックエンド側のロジックを持つことのできないこれらのライブラリとの単純な比較対象としては、サーバーレスでも運用できるNext.jsとは若干ズレが出...",
-          "link": "https://zenn.dev/mast1ff/articles/efc41938236c51",
-          "publishedOn": "2021-07-04T12:39:28.000Z",
-          "wordCount": 660,
-          "title": "React vs Hotwire ~ 私とHotwireとその後",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--90H55BdL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Mast1ff%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520vs%2520Hotwire%2520%7E%2520%25E7%25A7%2581%25E3%2581%25A8Hotwire%25E3%2581%25A8%25E3%2581%259D%25E3%2581%25AE%25E5%25BE%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2czMFpoemRvdlNKaEpDNVhTdVdBVlFSbm9DVGQ1eFdDdjRIR2d0dFE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/fujiyama/articles/50b0a73acd89b7",
-          "author": "Fujiyamayama",
-          "description": "経緯\nFirebase Storageを初めて使ってみて，とても使いやすいと感じたので共有したいと思いました．\nNext.jsをフレームワークとして利用しています．\n\n\n 環境\n\n      \n        \n        react@17.0.2\nfirebase@8.6.8\ntypescript@4.3.4\nnext@11.0.1\ntailwindcss@2.2.4\n\n\n      \n      \n 事前準備\n事前にFirebaseプロジェクトを作成し，Reactのfirebase.jsなどにfirebaseの設定を記述してください．また\n\n      \n        \n ...",
-          "link": "https://zenn.dev/fujiyama/articles/50b0a73acd89b7",
-          "publishedOn": "2021-07-04T11:35:45.000Z",
-          "wordCount": 811,
-          "title": "【Next.js】Firebase Storageに画像をアップしてURLを取得する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zUA0ew2h--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Fujiyamayama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E3%2580%2591Firebase%2520Storage%25E3%2581%25AB%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2581%2597%25E3%2581%25A6URL%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hlMHpabHhNbXBzTEQ4NlJqZTFGUnVJd1dBcTJFNUxXWkd3S0U4QVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/takanopontaro/articles/dde9458c32f3f9",
-          "author": "takanopontaro",
-          "description": "数年前に Kindle を購入してから結構本を読むようになり、今はだいたい年間 80 冊程度読んでいます。半額セールとか 50% ポイント還元とか、そういったセールを Kindle ストアは頻繁に行っているので、そういうときに一気にまとめ買いするのが習慣になりました。\nアマゾンのほしい物リストに本を登録しておくと、安くなったときにその旨表示されて便利なんですが、これってポイント還元の時は分からないのでちょっと困っていました。どんなキャンペーンなのかはあまり重要ではなく、欲しい本が得になっているかどうかだけ分かればいいので、そういった事が簡単に分かるサービスはないかな〜と探してみたんですが...",
-          "link": "https://zenn.dev/takanopontaro/articles/dde9458c32f3f9",
-          "publishedOn": "2021-07-04T01:51:37.000Z",
-          "wordCount": 195,
-          "title": "Kindle のセール本をウォッチできるサイトを作った。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--bM3GHwub--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:takanopontaro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Kindle%2520%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%25BC%25E3%2583%25AB%25E6%259C%25AC%25E3%2582%2592%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%2583%25E3%2583%2581%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pwWFRKdlNHR1dIR3Q4SHZpQW9VZTZ2UEw3aGU1OC1NSXp6QXQwPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/itomise/articles/20356a794b665f",
-          "author": "itomise",
-          "description": "next/image での画像最適化が最近のホットなトピックではありますが、見た感じ、next/imageは画像の最適化をサーバサイドで処理する前提のコンポーネントのようです。\nNext.jsでサーバを立てられる場合は使っていきたいのですが、個人的に案件でそういう構成になっていることはあまりないです。\nそこで、next export で使える画像最適化についてまとめてnext/imageっぽいコンポーネントを作ってみようと考えました。\n一応、公式の next export での next/image の使用法についてのページはこちら です。\n\n 前提\n今回はnext/imageのソースを...",
-          "link": "https://zenn.dev/itomise/articles/20356a794b665f",
-          "publishedOn": "2021-07-03T14:26:36.000Z",
-          "wordCount": 333,
-          "title": "next-optimized-images で next/image っぽいものをつくる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s---15vqTrb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:itomise%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:next-optimized-images%2520%25E3%2581%25A7%2520next%252Fimage%2520%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2E1Y2RlZmViYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -677,6 +635,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
+          "author": "しっぽくん",
+          "description": "こんにちは！ しっぽくんです\nVue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました\n本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します\n\n はじめに\nVue.js から Nuxt.js へ移行するモチベーションは色々あります\n例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…\n「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...",
+          "link": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
+          "publishedOn": "2021-08-01T17:07:28.000Z",
+          "wordCount": 391,
+          "title": "簡単にVue.jsからNuxt.js(SPA)へ移行する手引き",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4qxtVlKh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2597%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25ABVue.js%25E3%2581%258B%25E3%2582%2589Nuxt.js%2528SPA%2529%25E3%2581%25B8%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%25E6%2589%258B%25E5%25BC%2595%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3NGxmTkQ2aHRMeml1NUFUUXNLR3RMVzFoMWE1R0tNT3lRU1RfVUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kata_n/articles/2d4744d1bb6ab6",
           "author": "kata",
@@ -858,20 +830,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/foxtail88/articles/574fab811df26d",
-          "author": "こぎつね",
-          "description": "はじめに\nこちらのサイトの作成備忘録です。インフラ等の全体像は別途記事にしたいと思います。\nhttps://tenkoh.github.io/fgo-scenes/\nFate/Grand Orderというスマートフォン向けゲームのコラージュ画像を生成するお遊びサイトです😇\n\n\n(C) TYPE-MOON\n\n\n 方針検討\nやりたいことは 「既存の画像に、セリフだけ好きに挿入する」 という簡単なものです。なんとなくフロントだけでもできそうですが、ある程度フォントを原作に近づけたいと考えたので、特定のフォントを気兼ねなく使えるかな？と思い、バックエンドも構築することにしました。\nまたお遊び...",
-          "link": "https://zenn.dev/foxtail88/articles/574fab811df26d",
-          "publishedOn": "2021-07-03T23:13:01.000Z",
-          "wordCount": 234,
-          "title": "【FGO】「村正ぁーーー！」するためのネタサイト作成記録",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--BE4WPnP9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2581%258E%25E3%2581%25A4%25E3%2581%25AD%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590FGO%25E3%2580%2591%25E3%2580%258C%25E6%259D%2591%25E6%25AD%25A3%25E3%2581%2581%25E3%2583%25BC%25E3%2583%25BC%25E3%2583%25BC%25EF%25BC%2581%25E3%2580%258D%25E3%2581%2599%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2583%258D%25E3%2582%25BF%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E4%25BD%259C%25E6%2588%2590%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjZmNTZjZTExMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -880,6 +838,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kenta0313/articles/eb1c38209aa30e",
+          "author": "KenT",
+          "description": "今回作ったもの\n作品はこちら\nコードはこちら\n\n 作った経緯\nContextAPIを使ってみたかった為\n\n コードの解説\n\n コンポーネントをAppContextに接続する\n\n      \n        \n        import React, { useContext } from 'react';\nimport { AppContext } from '../context/AppContext';\n\nconst Budget = () => {\n\tconst { budget } = useContext(AppContext);\n\treturn (\n\t\t<d...",
+          "link": "https://zenn.dev/kenta0313/articles/eb1c38209aa30e",
+          "publishedOn": "2021-08-02T08:31:47.000Z",
+          "wordCount": 206,
+          "title": "Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Q6GyqDpi--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenT%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%252BTypescript%252BContextAPI%25E3%2581%25A7%25E4%25BA%2588%25E7%25AE%2597%25E3%2583%2588%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25AB%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjg4ZDAyMTI0NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yukination/articles/e854062cea4920",
+          "author": "Yukination",
+          "description": "npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。\nこちら に公式が発表しているベンチマークの結果があります。\nnpm や yarn との違いはこちらの記事が分かりやすくてオススメです。\n\n node.js のバージョンを確認\n現在使用している Node.js のバージョンが 12 以上か？の確認を行います。\n\n      \n        \n        > node -v\nv16.4.2\n\n\n      \n      \n pnpm を新規インストール\nnpm を使用し pnpm のインストールを行います。\n\n      \n ...",
+          "link": "https://zenn.dev/yukination/articles/e854062cea4920",
+          "publishedOn": "2021-08-02T06:26:46.000Z",
+          "wordCount": 189,
+          "title": "pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cZ8sw5ZO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yukination%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:pnpm%2520%252B%2520Vite%2520%252B%2520Vue%2520%252B%2520TypeScript%2520%25E3%2581%25A7%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMmYxNDI0YTYxMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/shztmk/articles/05_javascript-timezone",
+          "author": "shztmk",
+          "description": "予備知識\nJavaScript の Date オブジェクトは、時刻を実行環境のタイムゾーンで保持している、とみなすことができます。\nすなわち new Date('2020-01-01T09:00:00+09:00') としたとき\n\n実行環境が JST ならば 2020-01-01T09:00:00+09:00\n\n実行環境が UTC ならば 2020-01-01T00:00:00Z\n\n実行環境が EST ならば 2019-12-31T19:00:00-05:00\n\n\nとして保持していることになります。\n\n 懸念点\n2020-01-01T00:00:00+09:00 という文字列を受け取...",
+          "link": "https://zenn.dev/shztmk/articles/05_javascript-timezone",
+          "publishedOn": "2021-08-02T06:12:37.000Z",
+          "wordCount": 311,
+          "title": "Node.js/JST で時刻をやりとりするにあたって",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--T-dGP0uj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shztmk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Node.js%252FJST%2520%25E3%2581%25A7%25E6%2599%2582%25E5%2588%25BB%25E3%2582%2592%25E3%2582%2584%25E3%2582%258A%25E3%2581%25A8%25E3%2582%258A%25E3%2581%2599%25E3%2582%258B%25E3%2581%25AB%25E3%2581%2582%25E3%2581%259F%25E3%2581%25A3%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODZiMTI4NjZkYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
           "author": "しっぽくん",
@@ -2260,6 +2260,20 @@
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
         {
+          "id": "https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link",
+          "author": "kis9a",
+          "description": "初めに\nVim では、リンクの上でgxをタイプすることで、ブラウザーでそのリンクを開くことができます。それを参考に、今回はカーソル下のリンクの<title>を取得して、テキストリンクに置き換える関数を書いてみました。単純ですが、個人的に markdown でメモを取る時や、参考 URL を書く時などに便利に使用しています。\n\n イメージ\n\nvim-expand-link-to-text-link\n\n 1.カーソル下のリンクを取得する。\nこれが、結構難しいと思っていましたが、案外簡単でした。\n\n      \n        \n        expand('<cfil...",
+          "link": "https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link",
+          "publishedOn": "2021-08-02T01:24:44.000Z",
+          "wordCount": 365,
+          "title": "Vim script. カーソル下のリンクの<title>を取得して、テキストリンクに置き換える。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--scIfxkx8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kis9a%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vim%2520script.%2520%25E3%2582%25AB%25E3%2583%25BC%25E3%2582%25BD%25E3%2583%25AB%25E4%25B8%258B%25E3%2581%25AE%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2581%25AE%253Ctitle%253E%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzkwNDg0MmI2My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing",
           "author": "notomo",
           "description": "Vimで:tabeditすると新しいタブが右側に開くが、\n:tabcloseすると元々いたタブの右側のタブが開く。\nこれを閉じたタブの左にあったタブが開かれるようにしたい。\nつまり| 1 | 2 | 3 |のようにタブがあって、2を閉じたら3ではなく1を開く。\n1で作業中に2を開いて閉じたら1の作業に戻りたいことが多い。\n\n 実装\n以下のようにautocmdで実現できる。\n\n      \n        \n        let s:after_tab_leave = v:false\naugroup activate_left_tab\n  autocmd!\n  autocmd TabEn...",
@@ -2356,20 +2370,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops",
-          "author": "uki00a",
-          "description": "はじめに\ndenops.vimを使って、Vim/Neovim上でポモドーロテクニックを実践するためのプラグインを作成してみました。\nhttps://github.com/uki00a/denops-pomodoro.vim/\nこの記事ではdenops-pomodoro.vimの使い方やdenops.vimを使ってプラグインを実装する上でのノウハウなどについて紹介します。\n\n denops.vimとは?\ndenops.vimとはDenoを使ってVimやNeovimのプラグインを書くためのエコシステムです。\nより詳しくは以下の記事を参照いただければと思います。\nhttps://zenn....",
-          "link": "https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops",
-          "publishedOn": "2021-07-04T08:56:51.000Z",
-          "wordCount": 201,
-          "title": "denops.vimを使ってポモドーロタイマーを実装してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Q9Qhj1Bw--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uki00a%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:denops.vim%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%259D%25E3%2583%25A2%25E3%2583%2589%25E3%2583%25BC%25E3%2583%25AD%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%259E%25E3%2583%25BC%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGUzODk3MWRmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2378,6 +2378,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
+          "author": "kazuhe",
+          "description": "はじめに\n型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。\n2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。\n自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。\nまた、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...",
+          "link": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
+          "publishedOn": "2021-08-02T15:54:16.000Z",
+          "wordCount": 643,
+          "title": "TypeScriptで型駆動開発",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--56npAWpa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kazuhe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:TypeScript%25E3%2581%25A7%25E5%259E%258B%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGEwMmEwNWExZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yukination/articles/e854062cea4920",
+          "author": "Yukination",
+          "description": "npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。\nこちら に公式が発表しているベンチマークの結果があります。\nnpm や yarn との違いはこちらの記事が分かりやすくてオススメです。\n\n node.js のバージョンを確認\n現在使用している Node.js のバージョンが 12 以上か？の確認を行います。\n\n      \n        \n        > node -v\nv16.4.2\n\n\n      \n      \n pnpm を新規インストール\nnpm を使用し pnpm のインストールを行います。\n\n      \n ...",
+          "link": "https://zenn.dev/yukination/articles/e854062cea4920",
+          "publishedOn": "2021-08-02T06:26:46.000Z",
+          "wordCount": 189,
+          "title": "pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cZ8sw5ZO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yukination%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:pnpm%2520%252B%2520Vite%2520%252B%2520Vue%2520%252B%2520TypeScript%2520%25E3%2581%25A7%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMmYxNDI0YTYxMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
           "author": "しっぽくん",
@@ -2794,20 +2822,6 @@
           "title": "ゲームを作ってpetite-vueを完全に理解する",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--e4jJfPj_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuki%2520matsumoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6petite-vue%25E3%2582%2592%25E5%25AE%258C%25E5%2585%25A8%25E3%2581%25AB%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzI1ODE2MjI1ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/chida/articles/8f16e42364398c",
-          "author": "chida",
-          "description": "Dockerは事前にMacにインストールされていることを前提とします。\n\n 手順\nVue.jsの開発環境を構築して起動するまでの手順です。\n\nNode.jsのバージョンを確認\ndockerhubを確認\nDockerfileの作成\ndocker-compose.ymlの作成\nコンテナの起動\nコンテナ内の作業\n\n\n Node.jsのバージョンを確認\nNode.jsを利用するため、必要なバージョンを確認します。様々なバージョンの中でも、公式サイトを見て推奨版であるLTSを確認します。\nhttps://nodejs.org/en/\nLTSとはLong-term Supportの略で、長期の保守運...",
-          "link": "https://zenn.dev/chida/articles/8f16e42364398c",
-          "publishedOn": "2021-07-04T09:56:17.000Z",
-          "wordCount": 185,
-          "title": "docker-composeでVue.jsの開発環境を構築する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_Y2w0rpH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:docker-compose%25E3%2581%25A7Vue.js%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

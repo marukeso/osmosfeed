@@ -77,6 +77,218 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-02">2021-08-02</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kenta0313/articles/eb1c38209aa30e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>今回作ったもの
+作品はこちら
+コードはこちら
+
+ 作った経緯
+ContextAPIを使ってみたかった為
+
+ コードの解説
+
+ コンポーネントをAppContextに接続する
+
+      
+        
+        import React, { useContext } from &#x27;react&#x27;;
+import { AppContext } from &#x27;../context/AppContext&#x27;;
+
+const Budget &#x3D; () &#x3D;&gt; {
+	const { budget } &#x3D; useContext(AppContext);
+	return (
+		&lt;d...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kenta0313/articles/eb1c38209aa30e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>今回作ったもの
+作品はこちら
+コードはこちら
+
+ 作った経緯
+ContextAPIを使ってみたかった為
+
+ コードの解説
+
+ コンポーネントをAppContextに接続する
+
+      
+        
+        import React, { useContext } from &#x27;react&#x27;;
+import { AppContext } from &#x27;../context/AppContext&#x27;;
+
+const Budget &#x3D; () &#x3D;&gt; {
+	const { budget } &#x3D; useContext(AppContext);
+	return (
+		&lt;d...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukination/articles/e854062cea4920">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。
+こちら に公式が発表しているベンチマークの結果があります。
+npm や yarn との違いはこちらの記事が分かりやすくてオススメです。
+
+ node.js のバージョンを確認
+現在使用している Node.js のバージョンが 12 以上か？の確認を行います。
+
+      
+        
+        &gt; node -v
+v16.4.2
+
+
+      
+      
+ pnpm を新規インストール
+npm を使用し pnpm のインストールを行います。
+
+      
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Node.js/JST で時刻をやりとりするにあたって</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shztmk/articles/05_javascript-timezone">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>予備知識
+JavaScript の Date オブジェクトは、時刻を実行環境のタイムゾーンで保持している、とみなすことができます。
+すなわち new Date(&#x27;2020-01-01T09:00:00+09:00&#x27;) としたとき
+
+実行環境が JST ならば 2020-01-01T09:00:00+09:00
+
+実行環境が UTC ならば 2020-01-01T00:00:00Z
+
+実行環境が EST ならば 2019-12-31T19:00:00-05:00
+
+
+として保持していることになります。
+
+ 懸念点
+2020-01-01T00:00:00+09:00 という文字列を受け取...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vim script. カーソル下のリンクのを取得して、テキストリンクに置き換える。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>初めに
+Vim では、リンクの上でgxをタイプすることで、ブラウザーでそのリンクを開くことができます。それを参考に、今回はカーソル下のリンクのを取得して、テキストリンクに置き換える関数を書いてみました。単純ですが、個人的に markdown でメモを取る時や、参考 URL を書く時などに便利に使用しています。
+
+ イメージ
+
+vim-expand-link-to-text-link
+
+ 1.カーソル下のリンクを取得する。
+これが、結構難しいと思っていましたが、案外簡単でした。
+
+      
+        
+        expand(&#x27;&lt;cfil...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptで型駆動開発</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kazuhe/articles/type-driven-development-typescript">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。
+2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。
+自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。
+また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukination/articles/e854062cea4920">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。
+こちら に公式が発表しているベンチマークの結果があります。
+npm や yarn との違いはこちらの記事が分かりやすくてオススメです。
+
+ node.js のバージョンを確認
+現在使用している Node.js のバージョンが 12 以上か？の確認を行います。
+
+      
+        
+        &gt; node -v
+v16.4.2
+
+
+      
+      
+ pnpm を新規インストール
+npm を使用し pnpm のインストールを行います。
+
+      
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-01">2021-08-01</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -102,6 +314,30 @@ https://nextjs.org/docs/basic-features/layouts
 import Layout from &#x27;../components/layout&#x27;
 
 export default function MyApp({...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">簡単にVue.jsからNuxt.js(SPA)へ移行する手引き</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは！ しっぽくんです
+Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
+本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
+
+ はじめに
+Vue.js から Nuxt.js へ移行するモチベーションは色々あります
+例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
+「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...</span>
                   </div>
                 </a>
               </details>
@@ -5048,70 +5284,6 @@ git clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vu
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React vs Hotwire ~ 私とHotwireとその後</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mast1ff/articles/efc41938236c51">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>半年くらい前にこんな記事を書きました。
-https://zenn.dev/mast1ff/articles/3d6f4b9e4a38bb
-様々なプロダクトにメインとして使用しているNext.js製のフロントエンドをStimulusとTurboに書き換えて運用してみました。
-https://hotwired.dev/
-今回は実際に運用してみた所管などをまとめたいと思います。
-
- はじめに
-とはいえ、Hotwireたちは飽くまでフロントエンドのみ。バックエンド側のロジックを持つことのできないこれらのライブラリとの単純な比較対象としては、サーバーレスでも運用できるNext.jsとは若干ズレが出...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Next.js】Firebase Storageに画像をアップしてURLを取得する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/fujiyama/articles/50b0a73acd89b7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>経緯
-Firebase Storageを初めて使ってみて，とても使いやすいと感じたので共有したいと思いました．
-Next.jsをフレームワークとして利用しています．
-
-
- 環境
-
-      
-        
-        react@17.0.2
-firebase@8.6.8
-typescript@4.3.4
-next@11.0.1
-tailwindcss@2.2.4
-
-
-      
-      
- 事前準備
-事前にFirebaseプロジェクトを作成し，Reactのfirebase.jsなどにfirebaseの設定を記述してください．また
-
-      
-        
- ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Kindle のセール本をウォッチできるサイトを作った。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/takanopontaro/articles/dde9458c32f3f9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>数年前に Kindle を購入してから結構本を読むようになり、今はだいたい年間 80 冊程度読んでいます。半額セールとか 50% ポイント還元とか、そういったセールを Kindle ストアは頻繁に行っているので、そういうときに一気にまとめ買いするのが習慣になりました。
-アマゾンのほしい物リストに本を登録しておくと、安くなったときにその旨表示されて便利なんですが、これってポイント還元の時は分からないのでちょっと困っていました。どんなキャンペーンなのかはあまり重要ではなく、欲しい本が得になっているかどうかだけ分かればいいので、そういった事が簡単に分かるサービスはないかな〜と探してみたんですが...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -5143,31 +5315,6 @@ Laravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラ�
       
         
  ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">denops.vimを使ってポモドーロタイマーを実装してみた</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-denops.vimを使って、Vim/Neovim上でポモドーロテクニックを実践するためのプラグインを作成してみました。
-https://github.com/uki00a/denops-pomodoro.vim/
-この記事ではdenops-pomodoro.vimの使い方やdenops.vimを使ってプラグインを実装する上でのノウハウなどについて紹介します。
-
- denops.vimとは?
-denops.vimとはDenoを使ってVimやNeovimのプラグインを書くためのエコシステムです。
-より詳しくは以下の記事を参照いただければと思います。
-https://zenn....</span>
                   </div>
                 </a>
               </details>
@@ -5222,96 +5369,13 @@ https://zenn....</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">docker-composeでVue.jsの開発環境を構築する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/8f16e42364398c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Dockerは事前にMacにインストールされていることを前提とします。
-
- 手順
-Vue.jsの開発環境を構築して起動するまでの手順です。
-
-Node.jsのバージョンを確認
-dockerhubを確認
-Dockerfileの作成
-docker-compose.ymlの作成
-コンテナの起動
-コンテナ内の作業
-
-
- Node.jsのバージョンを確認
-Node.jsを利用するため、必要なバージョンを確認します。様々なバージョンの中でも、公式サイトを見て推奨版であるLTSを確認します。
-https://nodejs.org/en/
-LTSとはLong-term Supportの略で、長期の保守運...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-03">2021-07-03</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">next-optimized-images で next/image っぽいものをつくる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/itomise/articles/20356a794b665f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>next/image での画像最適化が最近のホットなトピックではありますが、見た感じ、next/imageは画像の最適化をサーバサイドで処理する前提のコンポーネントのようです。
-Next.jsでサーバを立てられる場合は使っていきたいのですが、個人的に案件でそういう構成になっていることはあまりないです。
-そこで、next export で使える画像最適化についてまとめてnext/imageっぽいコンポーネントを作ってみようと考えました。
-一応、公式の next export での next/image の使用法についてのページはこちら です。
-
- 前提
-今回はnext/imageのソースを...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【FGO】「村正ぁーーー！」するためのネタサイト作成記録</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/foxtail88/articles/574fab811df26d">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-こちらのサイトの作成備忘録です。インフラ等の全体像は別途記事にしたいと思います。
-https://tenkoh.github.io/fgo-scenes/
-Fate/Grand Orderというスマートフォン向けゲームのコラージュ画像を生成するお遊びサイトです😇
-
-
-(C) TYPE-MOON
-
-
- 方針検討
-やりたいことは 「既存の画像に、セリフだけ好きに挿入する」 という簡単なものです。なんとなくフロントだけでもできそうですが、ある程度フォントを原作に近づけたいと考えたので、特定のフォントを気兼ねなく使えるかな？と思い、バックエンドも構築することにしました。
-またお遊び...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-02T01:05:36.008Z">2021-08-02T01:05:36.008Z</time>
+    <time id="build-timestamp" datetime="2021-08-03T01:08:54.372Z">2021-08-03T01:08:54.372Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

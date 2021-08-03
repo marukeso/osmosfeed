@@ -2,10 +2,203 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-02T01:05:36.032Z</updated>
+    <updated>2021-08-03T01:08:54.397Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptで型駆動開発]]></title>
+        <id>https://zenn.dev/kazuhe/articles/type-driven-development-typescript</id>
+        <link href="https://zenn.dev/kazuhe/articles/type-driven-development-typescript"/>
+        <updated>2021-08-02T15:54:16.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。
+2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。
+自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。
+また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...]]></summary>
+        <author>
+            <name>kazuhe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた]]></title>
+        <id>https://zenn.dev/kenta0313/articles/eb1c38209aa30e</id>
+        <link href="https://zenn.dev/kenta0313/articles/eb1c38209aa30e"/>
+        <updated>2021-08-02T08:31:47.000Z</updated>
+        <summary type="html"><![CDATA[今回作ったもの
+作品はこちら
+コードはこちら
+
+ 作った経緯
+ContextAPIを使ってみたかった為
+
+ コードの解説
+
+ コンポーネントをAppContextに接続する
+
+      
+        
+        import React, { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
+
+const Budget = () => {
+	const { budget } = useContext(AppContext);
+	return (
+		<d...]]></summary>
+        <author>
+            <name>KenT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた]]></title>
+        <id>https://zenn.dev/kenta0313/articles/eb1c38209aa30e</id>
+        <link href="https://zenn.dev/kenta0313/articles/eb1c38209aa30e"/>
+        <updated>2021-08-02T08:31:47.000Z</updated>
+        <summary type="html"><![CDATA[今回作ったもの
+作品はこちら
+コードはこちら
+
+ 作った経緯
+ContextAPIを使ってみたかった為
+
+ コードの解説
+
+ コンポーネントをAppContextに接続する
+
+      
+        
+        import React, { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
+
+const Budget = () => {
+	const { budget } = useContext(AppContext);
+	return (
+		<d...]]></summary>
+        <author>
+            <name>KenT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する]]></title>
+        <id>https://zenn.dev/yukination/articles/e854062cea4920</id>
+        <link href="https://zenn.dev/yukination/articles/e854062cea4920"/>
+        <updated>2021-08-02T06:26:46.000Z</updated>
+        <summary type="html"><![CDATA[npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。
+こちら に公式が発表しているベンチマークの結果があります。
+npm や yarn との違いはこちらの記事が分かりやすくてオススメです。
+
+ node.js のバージョンを確認
+現在使用している Node.js のバージョンが 12 以上か？の確認を行います。
+
+      
+        
+        > node -v
+v16.4.2
+
+
+      
+      
+ pnpm を新規インストール
+npm を使用し pnpm のインストールを行います。
+
+      
+ ...]]></summary>
+        <author>
+            <name>Yukination</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する]]></title>
+        <id>https://zenn.dev/yukination/articles/e854062cea4920</id>
+        <link href="https://zenn.dev/yukination/articles/e854062cea4920"/>
+        <updated>2021-08-02T06:26:46.000Z</updated>
+        <summary type="html"><![CDATA[npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。
+こちら に公式が発表しているベンチマークの結果があります。
+npm や yarn との違いはこちらの記事が分かりやすくてオススメです。
+
+ node.js のバージョンを確認
+現在使用している Node.js のバージョンが 12 以上か？の確認を行います。
+
+      
+        
+        > node -v
+v16.4.2
+
+
+      
+      
+ pnpm を新規インストール
+npm を使用し pnpm のインストールを行います。
+
+      
+ ...]]></summary>
+        <author>
+            <name>Yukination</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js/JST で時刻をやりとりするにあたって]]></title>
+        <id>https://zenn.dev/shztmk/articles/05_javascript-timezone</id>
+        <link href="https://zenn.dev/shztmk/articles/05_javascript-timezone"/>
+        <updated>2021-08-02T06:12:37.000Z</updated>
+        <summary type="html"><![CDATA[予備知識
+JavaScript の Date オブジェクトは、時刻を実行環境のタイムゾーンで保持している、とみなすことができます。
+すなわち new Date('2020-01-01T09:00:00+09:00') としたとき
+
+実行環境が JST ならば 2020-01-01T09:00:00+09:00
+
+実行環境が UTC ならば 2020-01-01T00:00:00Z
+
+実行環境が EST ならば 2019-12-31T19:00:00-05:00
+
+
+として保持していることになります。
+
+ 懸念点
+2020-01-01T00:00:00+09:00 という文字列を受け取...]]></summary>
+        <author>
+            <name>shztmk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vim script. カーソル下のリンクの<title>を取得して、テキストリンクに置き換える。]]></title>
+        <id>https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link</id>
+        <link href="https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link"/>
+        <updated>2021-08-02T01:24:44.000Z</updated>
+        <summary type="html"><![CDATA[初めに
+Vim では、リンクの上でgxをタイプすることで、ブラウザーでそのリンクを開くことができます。それを参考に、今回はカーソル下のリンクの<title>を取得して、テキストリンクに置き換える関数を書いてみました。単純ですが、個人的に markdown でメモを取る時や、参考 URL を書く時などに便利に使用しています。
+
+ イメージ
+
+vim-expand-link-to-text-link
+
+ 1.カーソル下のリンクを取得する。
+これが、結構難しいと思っていましたが、案外簡単でした。
+
+      
+        
+        expand('<cfil...]]></summary>
+        <author>
+            <name>kis9a</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
+        <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
+        <link href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0"/>
+        <updated>2021-08-01T17:07:28.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ しっぽくんです
+Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
+本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
+
+ はじめに
+Vue.js から Nuxt.js へ移行するモチベーションは色々あります
+例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
+「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...]]></summary>
+        <author>
+            <name>しっぽくん</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
         <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
@@ -4196,148 +4389,6 @@ Laravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラ�
  ...]]></summary>
         <author>
             <name>tanoken</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React vs Hotwire ~ 私とHotwireとその後]]></title>
-        <id>https://zenn.dev/mast1ff/articles/efc41938236c51</id>
-        <link href="https://zenn.dev/mast1ff/articles/efc41938236c51"/>
-        <updated>2021-07-04T12:39:28.000Z</updated>
-        <summary type="html"><![CDATA[半年くらい前にこんな記事を書きました。
-https://zenn.dev/mast1ff/articles/3d6f4b9e4a38bb
-様々なプロダクトにメインとして使用しているNext.js製のフロントエンドをStimulusとTurboに書き換えて運用してみました。
-https://hotwired.dev/
-今回は実際に運用してみた所管などをまとめたいと思います。
-
- はじめに
-とはいえ、Hotwireたちは飽くまでフロントエンドのみ。バックエンド側のロジックを持つことのできないこれらのライブラリとの単純な比較対象としては、サーバーレスでも運用できるNext.jsとは若干ズレが出...]]></summary>
-        <author>
-            <name>Mast1ff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Next.js】Firebase Storageに画像をアップしてURLを取得する]]></title>
-        <id>https://zenn.dev/fujiyama/articles/50b0a73acd89b7</id>
-        <link href="https://zenn.dev/fujiyama/articles/50b0a73acd89b7"/>
-        <updated>2021-07-04T11:35:45.000Z</updated>
-        <summary type="html"><![CDATA[経緯
-Firebase Storageを初めて使ってみて，とても使いやすいと感じたので共有したいと思いました．
-Next.jsをフレームワークとして利用しています．
-
-
- 環境
-
-      
-        
-        react@17.0.2
-firebase@8.6.8
-typescript@4.3.4
-next@11.0.1
-tailwindcss@2.2.4
-
-
-      
-      
- 事前準備
-事前にFirebaseプロジェクトを作成し，Reactのfirebase.jsなどにfirebaseの設定を記述してください．また
-
-      
-        
- ...]]></summary>
-        <author>
-            <name>Fujiyamayama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[docker-composeでVue.jsの開発環境を構築する]]></title>
-        <id>https://zenn.dev/chida/articles/8f16e42364398c</id>
-        <link href="https://zenn.dev/chida/articles/8f16e42364398c"/>
-        <updated>2021-07-04T09:56:17.000Z</updated>
-        <summary type="html"><![CDATA[Dockerは事前にMacにインストールされていることを前提とします。
-
- 手順
-Vue.jsの開発環境を構築して起動するまでの手順です。
-
-Node.jsのバージョンを確認
-dockerhubを確認
-Dockerfileの作成
-docker-compose.ymlの作成
-コンテナの起動
-コンテナ内の作業
-
-
- Node.jsのバージョンを確認
-Node.jsを利用するため、必要なバージョンを確認します。様々なバージョンの中でも、公式サイトを見て推奨版であるLTSを確認します。
-https://nodejs.org/en/
-LTSとはLong-term Supportの略で、長期の保守運...]]></summary>
-        <author>
-            <name>chida</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[denops.vimを使ってポモドーロタイマーを実装してみた]]></title>
-        <id>https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops</id>
-        <link href="https://zenn.dev/uki00a/articles/implemented-pomodoro-timer-using-denops"/>
-        <updated>2021-07-04T08:56:51.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-denops.vimを使って、Vim/Neovim上でポモドーロテクニックを実践するためのプラグインを作成してみました。
-https://github.com/uki00a/denops-pomodoro.vim/
-この記事ではdenops-pomodoro.vimの使い方やdenops.vimを使ってプラグインを実装する上でのノウハウなどについて紹介します。
-
- denops.vimとは?
-denops.vimとはDenoを使ってVimやNeovimのプラグインを書くためのエコシステムです。
-より詳しくは以下の記事を参照いただければと思います。
-https://zenn....]]></summary>
-        <author>
-            <name>uki00a</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kindle のセール本をウォッチできるサイトを作った。]]></title>
-        <id>https://zenn.dev/takanopontaro/articles/dde9458c32f3f9</id>
-        <link href="https://zenn.dev/takanopontaro/articles/dde9458c32f3f9"/>
-        <updated>2021-07-04T01:51:37.000Z</updated>
-        <summary type="html"><![CDATA[数年前に Kindle を購入してから結構本を読むようになり、今はだいたい年間 80 冊程度読んでいます。半額セールとか 50% ポイント還元とか、そういったセールを Kindle ストアは頻繁に行っているので、そういうときに一気にまとめ買いするのが習慣になりました。
-アマゾンのほしい物リストに本を登録しておくと、安くなったときにその旨表示されて便利なんですが、これってポイント還元の時は分からないのでちょっと困っていました。どんなキャンペーンなのかはあまり重要ではなく、欲しい本が得になっているかどうかだけ分かればいいので、そういった事が簡単に分かるサービスはないかな〜と探してみたんですが...]]></summary>
-        <author>
-            <name>takanopontaro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【FGO】「村正ぁーーー！」するためのネタサイト作成記録]]></title>
-        <id>https://zenn.dev/foxtail88/articles/574fab811df26d</id>
-        <link href="https://zenn.dev/foxtail88/articles/574fab811df26d"/>
-        <updated>2021-07-03T23:13:01.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-こちらのサイトの作成備忘録です。インフラ等の全体像は別途記事にしたいと思います。
-https://tenkoh.github.io/fgo-scenes/
-Fate/Grand Orderというスマートフォン向けゲームのコラージュ画像を生成するお遊びサイトです😇
-
-
-(C) TYPE-MOON
-
-
- 方針検討
-やりたいことは 「既存の画像に、セリフだけ好きに挿入する」 という簡単なものです。なんとなくフロントだけでもできそうですが、ある程度フォントを原作に近づけたいと考えたので、特定のフォントを気兼ねなく使えるかな？と思い、バックエンドも構築することにしました。
-またお遊び...]]></summary>
-        <author>
-            <name>こぎつね</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[next-optimized-images で next/image っぽいものをつくる]]></title>
-        <id>https://zenn.dev/itomise/articles/20356a794b665f</id>
-        <link href="https://zenn.dev/itomise/articles/20356a794b665f"/>
-        <updated>2021-07-03T14:26:36.000Z</updated>
-        <summary type="html"><![CDATA[next/image での画像最適化が最近のホットなトピックではありますが、見た感じ、next/imageは画像の最適化をサーバサイドで処理する前提のコンポーネントのようです。
-Next.jsでサーバを立てられる場合は使っていきたいのですが、個人的に案件でそういう構成になっていることはあまりないです。
-そこで、next export で使える画像最適化についてまとめてnext/imageっぽいコンポーネントを作ってみようと考えました。
-一応、公式の next export での next/image の使用法についてのページはこちら です。
-
- 前提
-今回はnext/imageのソースを...]]></summary>
-        <author>
-            <name>itomise</name>
         </author>
     </entry>
 </feed>
