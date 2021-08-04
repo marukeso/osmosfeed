@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-03T01:08:54.397Z</updated>
+    <updated>2021-08-04T01:04:52.856Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい]]></title>
+        <id>https://zenn.dev/tanoken729/articles/6a96bff90b8e12</id>
+        <link href="https://zenn.dev/tanoken729/articles/6a96bff90b8e12"/>
+        <updated>2021-08-03T15:32:50.000Z</updated>
+        <summary type="html"><![CDATA[成功
+store/musicFiles.js
+
+      
+        
+        export const state = () => ({
+  musicFileData: [],
+})
+
+export const getters = {
+  musicFileData: state => state.musicFileData
+}
+
+export const mutations = {
+  setMusicFileDataMutations(state, musicFileData) {
+    // console.log(musicFileData)
+ ...]]></summary>
+        <author>
+            <name>tanoken</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[InsightFaceで顔認証（特徴量抽出、比較）してみた]]></title>
+        <id>https://zenn.dev/yuyakato/articles/d35b185d36a33b</id>
+        <link href="https://zenn.dev/yuyakato/articles/d35b185d36a33b"/>
+        <updated>2021-08-03T13:48:56.000Z</updated>
+        <summary type="html"><![CDATA[目次
+
+InsightFaceとFastAPIで顔検出サーバを作ってみた
+InsightFaceの顔検出結果をNext.jsで可視化してみた
+InsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）
+
+
+ 初めに
+前回、前々回と、InsightFaceを使った顔検出の例を紹介しました。
+今回は、InsightFaceを使って顔認証（Face Recognition）を試してみたいと思います。
+
+ 顔認証とは
+顔認証とは:
+
+提示された画像に含まれている顔が、事前に登録されているどの顔に一番近いか？
+2つの顔画像、顔Aと顔Bはどれだけ類似しているか？
+
+みたいなことを調べる...]]></summary>
+        <author>
+            <name>Yuya Kato</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-08-03のJS: Yarn 3.0、Chrome 93 beta、cross origin iframeでのalert/prompt/confirmを削除]]></title>
+        <id>https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/</id>
+        <link href="https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/"/>
+        <updated>2021-08-03T03:38:52.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #551 - Yarn 3.0がリリースされました。
+Yarn 3.0 🚀🤖 Performances, ESBuild, Better Patches, ... - DEV Community 👩‍💻👨‍💻
+berry/CHANGELOG.md at master · yarnpkg/berry
+Node.js 10のサポート終了、.pnp.cjsにリネーム、@yarnpkg/pnpifyを3つのパッケージに分解などの変更を含んでいます。
+@yarnpkg/sdks: Editor SDKs
+@yarnpkg/pnpify: PnPと互換性のないツールを実行するツール
+@yarnpkg/nm: node_modules linker
+また、 exportsフィールドのサポート、pnpmライクなハードリンクのサポート、シェル構文のサポート改善、 ESBuildでのbundleをサポートする@yarnpkg/esbuild-plugin-pnpの追加なども含まれています。
+Chrome 93 betaがリリースされました。
+Chromium Blog: Chrome 93: Multi-Screen Window Placement, PWAs as URL Handlers, and More
+Origin TrialとしてCOEPの導入をより手軽にするためのCross-Origin-Embedder-Policy：credentialless、URL Handlersの追加などが含まれています。
+AbortSignal.abort()メソッドのサポート、Stage 3のError causeとObject.hasOwnのサポートも含まれています。
+ダークモード対応などではCSSのprefers-color-scheme media quer…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue packages version mismatch:   エラーを確認 -> 解消する]]></title>
+        <id>https://zenn.dev/koushikagawa/articles/d253bb1afc591f</id>
+        <link href="https://zenn.dev/koushikagawa/articles/d253bb1afc591f"/>
+        <updated>2021-08-03T03:14:35.000Z</updated>
+        <summary type="html"><![CDATA[vue と vue-server-renderer で version mismatch
+先日Nuxtプロジェクトで npm run dev を実行した際に、下記エラーが表示されました。
+
+      
+        
+         ✖ Nuxt Fatal Error  
+ Error:    
+ Vue packages version mismatch:   
+ - vue@2.6.11    
+ - vue-server-renderer@2.6.14    
+ This may cause things to work incorrectly. Make sure t...]]></summary>
+        <author>
+            <name>koushikagawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker×FastAPI×React(TypeScript) on AWS ECS【backend】]]></title>
+        <id>https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3</id>
+        <link href="https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3"/>
+        <updated>2021-08-02T20:31:44.000Z</updated>
+        <summary type="html"><![CDATA[はい、やってみた系です。
+最近ずーっとInputばっかりだったのでやったこと書くか。。となった次第です。
+ECSとか使ったことなかったので。（高いし。。）
+※お金は知らんうちに全然可愛くない金額になってるのでご利用は計画的に（RDSとかも使ってたけど１週で3000円弱くらいになってた。。）
+
+ 最終構築のイメージ
+何章かに分けて作成していきますが、全部終わったらこうなるイメージ
+（今回はbackend編）
+
+
+ 動作環境
+
+BigSur ver11.4
+MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)
+1.4 GHz クアッドコ...]]></summary>
+        <author>
+            <name>daisuke sasaki</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScriptで型駆動開発]]></title>
         <id>https://zenn.dev/kazuhe/articles/type-driven-development-typescript</id>
@@ -18,6 +137,35 @@
 また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...]]></summary>
         <author>
             <name>kazuhe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptで型駆動開発]]></title>
+        <id>https://zenn.dev/kazuhe/articles/type-driven-development-typescript</id>
+        <link href="https://zenn.dev/kazuhe/articles/type-driven-development-typescript"/>
+        <updated>2021-08-02T15:54:16.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。
+2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。
+自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。
+また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...]]></summary>
+        <author>
+            <name>kazuhe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Serverless Next.js Component のISR実装を読み解く]]></title>
+        <id>https://zenn.dev/laiso/articles/8c619c38bd7b7b</id>
+        <link href="https://zenn.dev/laiso/articles/8c619c38bd7b7b"/>
+        <updated>2021-08-02T15:13:59.000Z</updated>
+        <summary type="html"><![CDATA[AWS Amplify ConsoleでNext.jsのプロジェクトをデプロイすると Serverless Next.js Component のインテグレーションによってAWS Lambda リソースが最大4つ作成される(ソースコードはエクスポートできる)
+
+Default Lambda@Edge for Next CloudFront distribution
+API Lambda@Edge for Next CloudFront distribution
+Image Lambda@Edge for Next CloudFront distribution
+Next.js Regen...]]></summary>
+        <author>
+            <name>laiso</name>
         </author>
     </entry>
     <entry>
@@ -4107,288 +4255,6 @@ Immutable.js is essentially unmaintained · Issue #1689 · immutable-js/immutabl
 Integrate immutable-js-oss fork into main repository b…]]></summary>
         <author>
             <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js で Firebase Authentication を利用し, Google ログインを実装した]]></title>
-        <id>https://zenn.dev/minguu42/articles/20210705-nextjs-auth</id>
-        <link href="https://zenn.dev/minguu42/articles/20210705-nextjs-auth"/>
-        <updated>2021-07-05T11:20:37.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-この記事では, Firebase Authentication を使って Next アプリに Google ログインを実装する方法を記述します.
-Next アプリの初期化, Firebase アカウントの作成は済んでいることを前提とします.
-この記事が他の人の参考になれば幸いです.
-また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
-
- 環境
-
-
-
-名前
-バージョン
-
-
-
-
-macOS Big Sur
-11.4
-
-
-Node.js
-16.4.1
-
-
-Next.js
-11.0.1
-
-
-React
-17.0.2
-
-
-Firebase Jav...]]></summary>
-        <author>
-            <name>minguu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SOLID原則 ◆単一責任の原則◆]]></title>
-        <id>https://zenn.dev/bonfireman/articles/736a5b5fa36b2c</id>
-        <link href="https://zenn.dev/bonfireman/articles/736a5b5fa36b2c"/>
-        <updated>2021-07-05T10:14:29.000Z</updated>
-        <summary type="html"><![CDATA[単一責任の原則とは
-SOLID原則の、Single Reaponsibility Principleのことで、「モジュールはたったひとつのアクターに対して責務を負うべきである」という原則です。
-「モジュール」は、ここではいくつかの関数やデータをまとめた凝集性のあるのものと捉えてください。
-「アクター」はシステムを利用するユーザーやステークホルダーを指します。
-なぜ、モジュールはたったひとつのアクターに対して責務を負うべきなのでしょうか？
-それは、1つのモジュールが複数のアクターに対して責務を持っている状態だと、1つのアクターに対するモジュールの役割を変更したい場合に、別のアクターへの...]]></summary>
-        <author>
-            <name>Shota Nakano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js version 11.0.0 で ESLint を使うために公式ドキュメントを紐解く]]></title>
-        <id>https://zenn.dev/ken505/articles/c049a64f3a2989</id>
-        <link href="https://zenn.dev/ken505/articles/c049a64f3a2989"/>
-        <updated>2021-07-05T07:08:15.000Z</updated>
-        <summary type="html"><![CDATA[以下の公式ドキュメントを参考にしながら、Next.js で ESLint を設定します
-
- ESLint.org
-
-
- docs/rules
-
-
- npm/ESLint
-
-
- Next.js/ESLint
-
-
-バージョン11.0.0以降、Next.jsは統合されたESLint体験をすぐに提供します。
-next lintをスクリプトとしてpackage.jsonに追加します。
-
-
-      
-        
-        "scripts": {
-  "lint": "next lint"
-}
-
-
-      
-      とのことなので npx create-next-app を実...]]></summary>
-        <author>
-            <name>ken505</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[esquery 便利ラッパー]]></title>
-        <id>https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1</id>
-        <link href="https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1"/>
-        <updated>2021-07-05T06:31:49.000Z</updated>
-        <summary type="html"><![CDATA[ESTree を CSS のセレクター風の記法で走査する esquery というライブラリがある。
-https://github.com/estools/esquery
-直接使ったことがある人は少ないかもしれないが、ESLint ルールを書くときに使ことがあるので esquery の構文を使ったことがある人は多いのではないだろうか。
-esquery は便利だが、長いクエリを文字列で渡したりするのが微妙。テンプレートリテラルでいい感じにしたい。ということで outdent と組み合わせる小さなラッパーを書いた。
-
-      
-        
-        import esquery...]]></summary>
-        <author>
-            <name>Sosuke Suzuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript で JavaScript をパースするときの型]]></title>
-        <id>https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c</id>
-        <link href="https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c"/>
-        <updated>2021-07-05T05:33:52.000Z</updated>
-        <summary type="html"><![CDATA[この記事では TypeScript から既存のパーサーライブラリを使って JavaScript をパースするときにどのように型をつけるか、自分がやっている方法を紹介する。TypeScript を使って1から JavaScript のパーサーを書く話ではないので注意。
-仕事で、TypeScript で JavaScript をパースして構文木をゴニョゴニョやるツールを書いていた。
-こういうとき、まずどのパーサーを使うかを考える。
-パースする対象が絶対に JavaScript であることがわかっている場合、自分は Acorn を使うことが多い(TypeScript や Flow をパースする...]]></summary>
-        <author>
-            <name>Sosuke Suzuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deno Deploy用コードで[deno-ts 2339]が発生するときの対処法]]></title>
-        <id>https://zenn.dev/kawarimidoll/articles/efed8ada433f24</id>
-        <link href="https://zenn.dev/kawarimidoll/articles/efed8ada433f24"/>
-        <updated>2021-07-05T02:28:21.000Z</updated>
-        <summary type="html"><![CDATA[Deno Deployの勉強をしています。
-https://zenn.dev/kawarimidoll/articles/b0a5064befcd31
-本記事では、Deno Deploy用のコードを書いている際に遭遇した[deno-ts 2339]エラーの対処をまとめました。
-
- 発生するエラー
-エラーはエディタ内で表示されるもので、[deno-ts 2339] [E] Property 'respondWith' does not exist on type 'Event'です。
-例として、公式ドキュメントのHello Worldページのコードを使います。
-https://deno.c...]]></summary>
-        <author>
-            <name>kawarimidoll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Theme UIをReact×TypeScriptのプロジェクトで使う。]]></title>
-        <id>https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb</id>
-        <link href="https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb"/>
-        <updated>2021-07-05T02:08:52.000Z</updated>
-        <summary type="html"><![CDATA[ことの経緯
-React × TypeScript のプロジェクトでRebass使おうかな。
-↓
-Rebassの開発者さんが最近開発しているのはTheme UIらしい。
-参考 : Theme UI で Theme Driven な快適 React スタイリング生活
-↓
-Theme UI使ってみよう。
-↓
-動かない（表示されない）。。。
-↓
-動かそう!!!
-※ TypeScriptでTheme UIを導入するときの注意点くらいの記事です。
-
- インストール方法
-公式サイトのGetting Startedには以下のコマンドが記載されている。
-
-      
-        
-       ...]]></summary>
-        <author>
-            <name>beeeyan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue.jsを使って管理画面を作る]]></title>
-        <id>https://zenn.dev/dfukui/articles/e8ff9f66ae094c</id>
-        <link href="https://zenn.dev/dfukui/articles/e8ff9f66ae094c"/>
-        <updated>2021-07-05T01:45:08.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-Cloud9 + Vue.jsを使って管理画面を作成するチュートリアルとなります。
-
- 管理画面テンプレートの導入
-Cloud9のターミナルで以下実行します。
-Cloud9の基本的な操作方法は以下を参考にしてください。
-https://26gram.com/how-to-use-cloud9
-
- Core UI のダウンロード
-
-      
-        
-        # リポジトリのクローン
-git clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue
-
-# ダウ...]]></summary>
-        <author>
-            <name>dfukui</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue-infinite-scrollで超簡単無限スクロールを実装する（vue.js）]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52"/>
-        <updated>2021-07-04T23:58:01.000Z</updated>
-        <summary type="html"><![CDATA[Vue.jsで無限スクロールを実装したい場合は vue-infinite-scroll というライブラリを使用することをおすすめします。
-超簡単に実装できます
-公式ページはこちら
-
- ライブラリのインストール
-ライブラリをインストールします
-
-      
-        
-        npm install vue-infinite-loading -S
-
-
-      
-      
- infinite-loadingコンポーネントを設置する
-ライブラリをインストールしたらinfinite-loadingコンポーネントが使えるようになっているので、設置します。
-@infinite...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsの環境変数取得方法]]></title>
-        <id>https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables</id>
-        <link href="https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables"/>
-        <updated>2021-07-04T22:23:27.000Z</updated>
-        <summary type="html"><![CDATA[Nextjsでは、たとえばデータベースに接続するときに使う環境変数を設定することができます。
-設定方法は、ルートディレクトリ直下にあるnext.config.jsにあるmodule.exports...とあるところに変数を追加すればOKです。(ファイルがなければnext.config.jsをルート直下に作ってください)
-
-      
-        next.config.js
-        module.exports = {
-  env: {
-    // customKeyは任意の変数名でOK
-    // 'my-value'のところで値を設定する
-    customKey...]]></summary>
-        <author>
-            <name>モーリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ゲームを作ってpetite-vueを完全に理解する]]></title>
-        <id>https://zenn.dev/yuneco/articles/petite-vue-hello</id>
-        <link href="https://zenn.dev/yuneco/articles/petite-vue-hello"/>
-        <updated>2021-07-04T17:58:47.000Z</updated>
-        <summary type="html"><![CDATA[petite-vueは軽量・簡易版のVue.js
-2021/7/2にVue.js作者のEvan Youさんの新作、petite-vueがリリースされました。
-ざっくりした概要は『petite-vue 最速 使い方』など、早速日本語でまとめてくださっている方がいるので、そちらを参照いただくと良いと思います。
-（ただし、当面は破壊的な変更や機能追加が頻繁に入ると思われるので、日本語の記事と併せて公式もチェックするのが良いと思います）
-
- 習うより慣れろ。ゲーム作って「完全に理解」してみた
-公式のREADMEやサンプルが結構丁寧なので、眺めてみるだけでなんとなく理解できた気になってきます。...]]></summary>
-        <author>
-            <name>yuki matsumoto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【ログイン機能】jwt（JSON Web Token Authentication）でログイン機能実装手順（Laravel/Nuxt）]]></title>
-        <id>https://zenn.dev/tanoken729/articles/a0b556cd6d53ec</id>
-        <link href="https://zenn.dev/tanoken729/articles/a0b556cd6d53ec"/>
-        <updated>2021-07-04T15:57:58.000Z</updated>
-        <summary type="html"><![CDATA[Laravel側
-https://jwt-auth.readthedocs.io/en/docs/laravel-installation/
-
- JWTライブラリ（tymon/jwt-auth）をインストール
-Laravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラーになります
-
-      
-        
-        composer require tymon/jwt-auth:1.0.0-rc.5
-
-
-      
-      
- 設定を一部変更
-以下コマンドでconfig/jwt.phpというファイルを生成
-
-      
-        
- ...]]></summary>
-        <author>
-            <name>tanoken</name>
         </author>
     </entry>
 </feed>

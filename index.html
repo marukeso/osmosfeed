@@ -77,12 +77,156 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-03">2021-08-03</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021-08-03のJS: Yarn 3.0、Chrome 93 beta、cross origin iframeでのalert/prompt/confirmを削除</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>JSer.info #551 - Yarn 3.0がリリースされました。
+Yarn 3.0 🚀🤖 Performances, ESBuild, Better Patches, ... - DEV Community 👩‍💻👨‍💻
+berry/CHANGELOG.md at master · yarnpkg/berry
+Node.js 10のサポート終了、.pnp.cjsにリネーム、@yarnpkg/pnpifyを3つのパッケージに分解などの変更を含んでいます。
+@yarnpkg/sdks: Editor SDKs
+@yarnpkg/pnpify: PnPと互換性のないツールを実行するツール
+@yarnpkg/nm: node_modules linker
+また、 exportsフィールドのサポート、pnpmライクなハードリンクのサポート、シェル構文のサポート改善、 ESBuildでのbundleをサポートする@yarnpkg/esbuild-plugin-pnpの追加なども含まれています。
+Chrome 93 betaがリリースされました。
+Chromium Blog: Chrome 93: Multi-Screen Window Placement, PWAs as URL Handlers, and More
+Origin TrialとしてCOEPの導入をより手軽にするためのCross-Origin-Embedder-Policy：credentialless、URL Handlersの追加などが含まれています。
+AbortSignal.abort()メソッドのサポート、Stage 3のError causeとObject.hasOwnのサポートも含まれています。
+ダークモード対応などではCSSのprefers-color-scheme media quer…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">InsightFaceで顔認証（特徴量抽出、比較）してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuyakato/articles/d35b185d36a33b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>目次
+
+InsightFaceとFastAPIで顔検出サーバを作ってみた
+InsightFaceの顔検出結果をNext.jsで可視化してみた
+InsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）
+
+
+ 初めに
+前回、前々回と、InsightFaceを使った顔検出の例を紹介しました。
+今回は、InsightFaceを使って顔認証（Face Recognition）を試してみたいと思います。
+
+ 顔認証とは
+顔認証とは:
+
+提示された画像に含まれている顔が、事前に登録されているどの顔に一番近いか？
+2つの顔画像、顔Aと顔Bはどれだけ類似しているか？
+
+みたいなことを調べる...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/6a96bff90b8e12">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>成功
+store/musicFiles.js
+
+      
+        
+        export const state &#x3D; () &#x3D;&gt; ({
+  musicFileData: [],
+})
+
+export const getters &#x3D; {
+  musicFileData: state &#x3D;&gt; state.musicFileData
+}
+
+export const mutations &#x3D; {
+  setMusicFileDataMutations(state, musicFileData) {
+    // console.log(musicFileData)
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue packages version mismatch:   エラーを確認 -&gt; 解消する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/koushikagawa/articles/d253bb1afc591f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>vue と vue-server-renderer で version mismatch
+先日Nuxtプロジェクトで npm run dev を実行した際に、下記エラーが表示されました。
+
+      
+        
+         ✖ Nuxt Fatal Error  
+ Error:    
+ Vue packages version mismatch:   
+ - vue@2.6.11    
+ - vue-server-renderer@2.6.14    
+ This may cause things to work incorrectly. Make sure t...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-02">2021-08-02</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Serverless Next.js Component のISR実装を読み解く</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/laiso/articles/8c619c38bd7b7b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>AWS Amplify ConsoleでNext.jsのプロジェクトをデプロイすると Serverless Next.js Component のインテグレーションによってAWS Lambda リソースが最大4つ作成される(ソースコードはエクスポートできる)
+
+Default Lambda@Edge for Next CloudFront distribution
+API Lambda@Edge for Next CloudFront distribution
+Image Lambda@Edge for Next CloudFront distribution
+Next.js Regen...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた</summary>
@@ -119,6 +263,46 @@ const Budget &#x3D; () &#x3D;&gt; {
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Docker×FastAPI×React(TypeScript) on AWS ECS【backend】</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>はい、やってみた系です。
+最近ずーっとInputばっかりだったのでやったこと書くか。。となった次第です。
+ECSとか使ったことなかったので。（高いし。。）
+※お金は知らんうちに全然可愛くない金額になってるのでご利用は計画的に（RDSとかも使ってたけど１週で3000円弱くらいになってた。。）
+
+ 最終構築のイメージ
+何章かに分けて作成していきますが、全部終わったらこうなるイメージ
+（今回はbackend編）
+
+
+ 動作環境
+
+BigSur ver11.4
+MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)
+1.4 GHz クアッドコ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptで型駆動開発</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kazuhe/articles/type-driven-development-typescript">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。
+2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。
+自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。
+また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた</summary>
@@ -5036,346 +5220,11 @@ Integrate immutable-js-oss fork into main repository b…</span>
             </article>
         </section>
       </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js で Firebase Authentication を利用し, Google ログインを実装した</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/minguu42/articles/20210705-nextjs-auth">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>はじめに
-この記事では, Firebase Authentication を使って Next アプリに Google ログインを実装する方法を記述します.
-Next アプリの初期化, Firebase アカウントの作成は済んでいることを前提とします.
-この記事が他の人の参考になれば幸いです.
-また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
-
- 環境
-
-
-
-名前
-バージョン
-
-
-
-
-macOS Big Sur
-11.4
-
-
-Node.js
-16.4.1
-
-
-Next.js
-11.0.1
-
-
-React
-17.0.2
-
-
-Firebase Jav...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js version 11.0.0 で ESLint を使うために公式ドキュメントを紐解く</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ken505/articles/c049a64f3a2989">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>以下の公式ドキュメントを参考にしながら、Next.js で ESLint を設定します
-
- ESLint.org
-
-
- docs/rules
-
-
- npm/ESLint
-
-
- Next.js/ESLint
-
-
-バージョン11.0.0以降、Next.jsは統合されたESLint体験をすぐに提供します。
-next lintをスクリプトとしてpackage.jsonに追加します。
-
-
-      
-        
-        &quot;scripts&quot;: {
-  &quot;lint&quot;: &quot;next lint&quot;
-}
-
-
-      
-      とのことなので npx create-next-app を実...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SOLID原則 ◆単一責任の原則◆</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bonfireman/articles/736a5b5fa36b2c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>単一責任の原則とは
-SOLID原則の、Single Reaponsibility Principleのことで、「モジュールはたったひとつのアクターに対して責務を負うべきである」という原則です。
-「モジュール」は、ここではいくつかの関数やデータをまとめた凝集性のあるのものと捉えてください。
-「アクター」はシステムを利用するユーザーやステークホルダーを指します。
-なぜ、モジュールはたったひとつのアクターに対して責務を負うべきなのでしょうか？
-それは、1つのモジュールが複数のアクターに対して責務を持っている状態だと、1つのアクターに対するモジュールの役割を変更したい場合に、別のアクターへの...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">esquery 便利ラッパー</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>ESTree を CSS のセレクター風の記法で走査する esquery というライブラリがある。
-https://github.com/estools/esquery
-直接使ったことがある人は少ないかもしれないが、ESLint ルールを書くときに使ことがあるので esquery の構文を使ったことがある人は多いのではないだろうか。
-esquery は便利だが、長いクエリを文字列で渡したりするのが微妙。テンプレートリテラルでいい感じにしたい。ということで outdent と組み合わせる小さなラッパーを書いた。
-
-      
-        
-        import esquery...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScript で JavaScript をパースするときの型</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>この記事では TypeScript から既存のパーサーライブラリを使って JavaScript をパースするときにどのように型をつけるか、自分がやっている方法を紹介する。TypeScript を使って1から JavaScript のパーサーを書く話ではないので注意。
-仕事で、TypeScript で JavaScript をパースして構文木をゴニョゴニョやるツールを書いていた。
-こういうとき、まずどのパーサーを使うかを考える。
-パースする対象が絶対に JavaScript であることがわかっている場合、自分は Acorn を使うことが多い(TypeScript や Flow をパースする...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Deno Deploy用コードで[deno-ts 2339]が発生するときの対処法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/efed8ada433f24">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Deno Deployの勉強をしています。
-https://zenn.dev/kawarimidoll/articles/b0a5064befcd31
-本記事では、Deno Deploy用のコードを書いている際に遭遇した[deno-ts 2339]エラーの対処をまとめました。
-
- 発生するエラー
-エラーはエディタ内で表示されるもので、[deno-ts 2339] [E] Property &#x27;respondWith&#x27; does not exist on type &#x27;Event&#x27;です。
-例として、公式ドキュメントのHello Worldページのコードを使います。
-https://deno.c...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Theme UIをReact×TypeScriptのプロジェクトで使う。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>ことの経緯
-React × TypeScript のプロジェクトでRebass使おうかな。
-↓
-Rebassの開発者さんが最近開発しているのはTheme UIらしい。
-参考 : Theme UI で Theme Driven な快適 React スタイリング生活
-↓
-Theme UI使ってみよう。
-↓
-動かない（表示されない）。。。
-↓
-動かそう!!!
-※ TypeScriptでTheme UIを導入するときの注意点くらいの記事です。
-
- インストール方法
-公式サイトのGetting Startedには以下のコマンドが記載されている。
-
-      
-        
-       ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vue.jsを使って管理画面を作る</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dfukui/articles/e8ff9f66ae094c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>はじめに
-Cloud9 + Vue.jsを使って管理画面を作成するチュートリアルとなります。
-
- 管理画面テンプレートの導入
-Cloud9のターミナルで以下実行します。
-Cloud9の基本的な操作方法は以下を参考にしてください。
-https://26gram.com/how-to-use-cloud9
-
- Core UI のダウンロード
-
-      
-        
-        # リポジトリのクローン
-git clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue
-
-# ダウ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-04">2021-07-04</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsの環境変数取得方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Nextjsでは、たとえばデータベースに接続するときに使う環境変数を設定することができます。
-設定方法は、ルートディレクトリ直下にあるnext.config.jsにあるmodule.exports...とあるところに変数を追加すればOKです。(ファイルがなければnext.config.jsをルート直下に作ってください)
-
-      
-        next.config.js
-        module.exports &#x3D; {
-  env: {
-    // customKeyは任意の変数名でOK
-    // &#x27;my-value&#x27;のところで値を設定する
-    customKey...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【ログイン機能】jwt（JSON Web Token Authentication）でログイン機能実装手順（Laravel/Nuxt）</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/a0b556cd6d53ec">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Laravel側
-https://jwt-auth.readthedocs.io/en/docs/laravel-installation/
-
- JWTライブラリ（tymon/jwt-auth）をインストール
-Laravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラーになります
-
-      
-        
-        composer require tymon/jwt-auth:1.0.0-rc.5
-
-
-      
-      
- 設定を一部変更
-以下コマンドでconfig/jwt.phpというファイルを生成
-
-      
-        
- ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vue-infinite-scrollで超簡単無限スクロールを実装する（vue.js）</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Vue.jsで無限スクロールを実装したい場合は vue-infinite-scroll というライブラリを使用することをおすすめします。
-超簡単に実装できます
-公式ページはこちら
-
- ライブラリのインストール
-ライブラリをインストールします
-
-      
-        
-        npm install vue-infinite-loading -S
-
-
-      
-      
- infinite-loadingコンポーネントを設置する
-ライブラリをインストールしたらinfinite-loadingコンポーネントが使えるようになっているので、設置します。
-@infinite...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">ゲームを作ってpetite-vueを完全に理解する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuneco/articles/petite-vue-hello">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>petite-vueは軽量・簡易版のVue.js
-2021/7/2にVue.js作者のEvan Youさんの新作、petite-vueがリリースされました。
-ざっくりした概要は『petite-vue 最速 使い方』など、早速日本語でまとめてくださっている方がいるので、そちらを参照いただくと良いと思います。
-（ただし、当面は破壊的な変更や機能追加が頻繁に入ると思われるので、日本語の記事と併せて公式もチェックするのが良いと思います）
-
- 習うより慣れろ。ゲーム作って「完全に理解」してみた
-公式のREADMEやサンプルが結構丁寧なので、眺めてみるだけでなんとなく理解できた気になってきます。...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-03T01:08:54.372Z">2021-08-03T01:08:54.372Z</time>
+    <time id="build-timestamp" datetime="2021-08-04T01:04:52.836Z">2021-08-04T01:04:52.836Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

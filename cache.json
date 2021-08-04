@@ -12,6 +12,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/",
+          "author": null,
+          "description": "JSer.info #551 - Yarn 3.0がリリースされました。\nYarn 3.0 🚀🤖 Performances, ESBuild, Better Patches, ... - DEV Community 👩‍💻👨‍💻\nberry/CHANGELOG.md at master · yarnpkg/berry\nNode.js 10のサポート終了、.pnp.cjsにリネーム、@yarnpkg/pnpifyを3つのパッケージに分解などの変更を含んでいます。\n@yarnpkg/sdks: Editor SDKs\n@yarnpkg/pnpify: PnPと互換性のないツールを実行するツール\n@yarnpkg/nm: node_modules linker\nまた、 exportsフィールドのサポート、pnpmライクなハードリンクのサポート、シェル構文のサポート改善、 ESBuildでのbundleをサポートする@yarnpkg/esbuild-plugin-pnpの追加なども含まれています。\nChrome 93 betaがリリースされました。\nChromium Blog: Chrome 93: Multi-Screen Window Placement, PWAs as URL Handlers, and More\nOrigin TrialとしてCOEPの導入をより手軽にするためのCross-Origin-Embedder-Policy：credentialless、URL Handlersの追加などが含まれています。\nAbortSignal.abort()メソッドのサポート、Stage 3のError causeとObject.hasOwnのサポートも含まれています。\nダークモード対応などではCSSのprefers-color-scheme media quer…",
+          "link": "https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/",
+          "publishedOn": "2021-08-03T03:38:52.000Z",
+          "wordCount": 574,
+          "title": "2021-08-03のJS: Yarn 3.0、Chrome 93 beta、cross origin iframeでのalert/prompt/confirmを削除"
+        },
+        {
           "id": "https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/",
           "author": null,
           "description": "JSer.info #550 - vscode-js-debugはVSCodeからブラウザのデバッガーに接続し、JavaScriptをデバッグするVSCode拡張です。\nEasier browser debugging with Developer Tools integration in Visual Studio Code - Microsoft Edge Blog\nmicrosoft/vscode-js-debug: The VS Code JavaScript debugger\nvscode-js-debugは、ChromeやMSEdgeなどのブラウザのデバッガーに接続できます。\nDebug Adapter Protocol(DAP)という、開発ツール(VScodeなど)とデバッガー(ブラウザやNodeなど)を中継するAdapterを利用しています。\nDAPはLanguage Server Protocol(LSP)似た形のもので、開発ツールと各種言語の中継となるプロトコルを定めています。\nPrivacy Sandbox TimelineというサイトでGoogleのPrivacy Sandboxと呼ばれるthird-party cookiesを廃止するためのProposal集に関するロードマップが公開されています。\nPrivacy Sandboxの各Proposalごとにどのようなスケジュールで、実装やテストをしていくかの予定が公開されています。\nちいさな Web ブラウザを作ってみようでは、Rustでウェブブラウザを作りつつ、ブラウザのレンダリングの仕組みやセキュリティについて学習する教材が公開されています。\n現時点ではWIP(Working In Progress)な章もありますが、小さなブラウザをつくりつつブラウザの内部構造について学ぶのが目的となっています。…",
@@ -54,6 +63,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/yuyakato/articles/d35b185d36a33b",
+          "author": "Yuya Kato",
+          "description": "目次\n\nInsightFaceとFastAPIで顔検出サーバを作ってみた\nInsightFaceの顔検出結果をNext.jsで可視化してみた\nInsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）\n\n\n 初めに\n前回、前々回と、InsightFaceを使った顔検出の例を紹介しました。\n今回は、InsightFaceを使って顔認証（Face Recognition）を試してみたいと思います。\n\n 顔認証とは\n顔認証とは:\n\n提示された画像に含まれている顔が、事前に登録されているどの顔に一番近いか？\n2つの顔画像、顔Aと顔Bはどれだけ類似しているか？\n\nみたいなことを調べる...",
+          "link": "https://zenn.dev/yuyakato/articles/d35b185d36a33b",
+          "publishedOn": "2021-08-03T13:48:56.000Z",
+          "wordCount": 185,
+          "title": "InsightFaceで顔認証（特徴量抽出、比較）してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--wRi6u_dX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuya%2520Kato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:InsightFace%25E3%2581%25A7%25E9%25A1%2594%25E8%25AA%258D%25E8%25A8%25BC%25EF%25BC%2588%25E7%2589%25B9%25E5%25BE%25B4%25E9%2587%258F%25E6%258A%25BD%25E5%2587%25BA%25E3%2580%2581%25E6%25AF%2594%25E8%25BC%2583%25EF%25BC%2589%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUSUhmX2JGaE1tcVp0aDNYQUI2NFY0aGRnNlJWbE5CbjVhZmQzdXc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/laiso/articles/8c619c38bd7b7b",
+          "author": "laiso",
+          "description": "AWS Amplify ConsoleでNext.jsのプロジェクトをデプロイすると Serverless Next.js Component のインテグレーションによってAWS Lambda リソースが最大4つ作成される(ソースコードはエクスポートできる)\n\nDefault Lambda@Edge for Next CloudFront distribution\nAPI Lambda@Edge for Next CloudFront distribution\nImage Lambda@Edge for Next CloudFront distribution\nNext.js Regen...",
+          "link": "https://zenn.dev/laiso/articles/8c619c38bd7b7b",
+          "publishedOn": "2021-08-02T15:13:59.000Z",
+          "wordCount": 130,
+          "title": "Serverless Next.js Component のISR実装を読み解く",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--oGF5KW1F--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:laiso%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Serverless%2520Next.js%2520Component%2520%25E3%2581%25AEISR%25E5%25AE%259F%25E8%25A3%2585%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BF%25E8%25A7%25A3%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDhlOThiNTFhNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kenta0313/articles/eb1c38209aa30e",
           "author": "KenT",
@@ -585,48 +622,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/minguu42/articles/20210705-nextjs-auth",
-          "author": "minguu",
-          "description": "はじめに\nこの記事では, Firebase Authentication を使って Next アプリに Google ログインを実装する方法を記述します.\nNext アプリの初期化, Firebase アカウントの作成は済んでいることを前提とします.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.\n\n 環境\n\n\n\n名前\nバージョン\n\n\n\n\nmacOS Big Sur\n11.4\n\n\nNode.js\n16.4.1\n\n\nNext.js\n11.0.1\n\n\nReact\n17.0.2\n\n\nFirebase Jav...",
-          "link": "https://zenn.dev/minguu42/articles/20210705-nextjs-auth",
-          "publishedOn": "2021-07-05T11:20:37.000Z",
-          "wordCount": 460,
-          "title": "Next.js で Firebase Authentication を利用し, Google ログインを実装した",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vAjubluh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%25E3%2581%25A7%2520Firebase%2520Authentication%2520%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%252C%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ken505/articles/c049a64f3a2989",
-          "author": "ken505",
-          "description": "以下の公式ドキュメントを参考にしながら、Next.js で ESLint を設定します\n\n ESLint.org\n\n\n docs/rules\n\n\n npm/ESLint\n\n\n Next.js/ESLint\n\n\nバージョン11.0.0以降、Next.jsは統合されたESLint体験をすぐに提供します。\nnext lintをスクリプトとしてpackage.jsonに追加します。\n\n\n      \n        \n        \"scripts\": {\n  \"lint\": \"next lint\"\n}\n\n\n      \n      とのことなので npx create-next-app を実...",
-          "link": "https://zenn.dev/ken505/articles/c049a64f3a2989",
-          "publishedOn": "2021-07-05T07:08:15.000Z",
-          "wordCount": 360,
-          "title": "Next.js version 11.0.0 で ESLint を使うために公式ドキュメントを紐解く",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Oc6OVKya--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ken505%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%2520version%252011.0.0%2520%25E3%2581%25A7%2520ESLint%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%25E5%2585%25AC%25E5%25BC%258F%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E7%25B4%2590%25E8%25A7%25A3%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjIyMmIxYWU1OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables",
-          "author": "モーリー",
-          "description": "Nextjsでは、たとえばデータベースに接続するときに使う環境変数を設定することができます。\n設定方法は、ルートディレクトリ直下にあるnext.config.jsにあるmodule.exports...とあるところに変数を追加すればOKです。(ファイルがなければnext.config.jsをルート直下に作ってください)\n\n      \n        next.config.js\n        module.exports = {\n  env: {\n    // customKeyは任意の変数名でOK\n    // 'my-value'のところで値を設定する\n    customKey...",
-          "link": "https://zenn.dev/mo_ri_regen/articles/nextjs-environment-variables",
-          "publishedOn": "2021-07-04T22:23:27.000Z",
-          "wordCount": 67,
-          "title": "Next.jsの環境変数取得方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--LHC6G5sB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AA%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Next.js%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E5%25A4%2589%25E6%2595%25B0%25E5%258F%2596%25E5%25BE%2597%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h5X0w2OU5jR2tiM3dLVU1LMUUzb3J4b29MMmZWQmEzdFNwV0tNV3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -635,6 +630,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/tanoken729/articles/6a96bff90b8e12",
+          "author": "tanoken",
+          "description": "成功\nstore/musicFiles.js\n\n      \n        \n        export const state = () => ({\n  musicFileData: [],\n})\n\nexport const getters = {\n  musicFileData: state => state.musicFileData\n}\n\nexport const mutations = {\n  setMusicFileDataMutations(state, musicFileData) {\n    // console.log(musicFileData)\n ...",
+          "link": "https://zenn.dev/tanoken729/articles/6a96bff90b8e12",
+          "publishedOn": "2021-08-03T15:32:50.000Z",
+          "wordCount": 155,
+          "title": "wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--qVmDL7ti--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:wip%2520%25E3%2580%2590%25E9%259F%25B3%25E6%25A5%25BD%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E8%25A9%25B3%25E7%25B4%25B0%25E8%25A1%25A8%25E7%25A4%25BA%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591store%25E3%2582%2592%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581getter%25E3%2582%2592%25E5%258F%2582%25E7%2585%25A7%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/shippokun/articles/8f9d13d7b05ed0",
           "author": "しっぽくん",
@@ -816,20 +825,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/tanoken729/articles/a0b556cd6d53ec",
-          "author": "tanoken",
-          "description": "Laravel側\nhttps://jwt-auth.readthedocs.io/en/docs/laravel-installation/\n\n JWTライブラリ（tymon/jwt-auth）をインストール\nLaravel 6 の場合はバージョンに:1.0.0-rc.5を指定しないとエラーになります\n\n      \n        \n        composer require tymon/jwt-auth:1.0.0-rc.5\n\n\n      \n      \n 設定を一部変更\n以下コマンドでconfig/jwt.phpというファイルを生成\n\n      \n        \n ...",
-          "link": "https://zenn.dev/tanoken729/articles/a0b556cd6d53ec",
-          "publishedOn": "2021-07-04T15:57:58.000Z",
-          "wordCount": 101,
-          "title": "【ログイン機能】jwt（JSON Web Token Authentication）でログイン機能実装手順（Laravel/Nuxt）",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--27buZ1Ic--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%2590%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591jwt%25EF%25BC%2588JSON%2520Web%2520Token%2520Authentication%25EF%25BC%2589%25E3%2581%25A7%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E6%25A9%259F%25E8%2583%25BD%25E5%25AE%259F%25E8%25A3%2585%25E6%2589%258B%25E9%25A0%2586%25EF%25BC%2588Laravel%252FNuxt%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -838,6 +833,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3",
+          "author": "daisuke sasaki",
+          "description": "はい、やってみた系です。\n最近ずーっとInputばっかりだったのでやったこと書くか。。となった次第です。\nECSとか使ったことなかったので。（高いし。。）\n※お金は知らんうちに全然可愛くない金額になってるのでご利用は計画的に（RDSとかも使ってたけど１週で3000円弱くらいになってた。。）\n\n 最終構築のイメージ\n何章かに分けて作成していきますが、全部終わったらこうなるイメージ\n（今回はbackend編）\n\n\n 動作環境\n\nBigSur ver11.4\nMacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)\n1.4 GHz クアッドコ...",
+          "link": "https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3",
+          "publishedOn": "2021-08-02T20:31:44.000Z",
+          "wordCount": 912,
+          "title": "Docker×FastAPI×React(TypeScript) on AWS ECS【backend】",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Nz-MNjC0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:daisuke%2520sasaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Docker%25C3%2597FastAPI%25C3%2597React%2528TypeScript%2529%2520on%2520AWS%2520ECS%25E3%2580%2590backend%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWZiMjI1NmFmZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
+          "author": "kazuhe",
+          "description": "はじめに\n型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。\n2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。\n自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。\nまた、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...",
+          "link": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
+          "publishedOn": "2021-08-02T15:54:16.000Z",
+          "wordCount": 643,
+          "title": "TypeScriptで型駆動開発",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--56npAWpa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kazuhe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:TypeScript%25E3%2581%25A7%25E5%259E%258B%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGEwMmEwNWExZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kenta0313/articles/eb1c38209aa30e",
           "author": "KenT",
@@ -2181,76 +2204,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/bonfireman/articles/736a5b5fa36b2c",
-          "author": "Shota Nakano",
-          "description": "単一責任の原則とは\nSOLID原則の、Single Reaponsibility Principleのことで、「モジュールはたったひとつのアクターに対して責務を負うべきである」という原則です。\n「モジュール」は、ここではいくつかの関数やデータをまとめた凝集性のあるのものと捉えてください。\n「アクター」はシステムを利用するユーザーやステークホルダーを指します。\nなぜ、モジュールはたったひとつのアクターに対して責務を負うべきなのでしょうか？\nそれは、1つのモジュールが複数のアクターに対して責務を持っている状態だと、1つのアクターに対するモジュールの役割を変更したい場合に、別のアクターへの...",
-          "link": "https://zenn.dev/bonfireman/articles/736a5b5fa36b2c",
-          "publishedOn": "2021-07-05T10:14:29.000Z",
-          "wordCount": 131,
-          "title": "SOLID原則 ◆単一責任の原則◆",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vnR2BY3c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Shota%2520Nakano%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:SOLID%25E5%258E%259F%25E5%2589%2587%2520%25E2%2597%2586%25E5%258D%2598%25E4%25B8%2580%25E8%25B2%25AC%25E4%25BB%25BB%25E3%2581%25AE%25E5%258E%259F%25E5%2589%2587%25E2%2597%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h0c0tkOE1YUGFDbkJuNmdBY3Y3cWNwbzduYVE5T2ZabUZoUUR4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1",
-          "author": "Sosuke Suzuki",
-          "description": "ESTree を CSS のセレクター風の記法で走査する esquery というライブラリがある。\nhttps://github.com/estools/esquery\n直接使ったことがある人は少ないかもしれないが、ESLint ルールを書くときに使ことがあるので esquery の構文を使ったことがある人は多いのではないだろうか。\nesquery は便利だが、長いクエリを文字列で渡したりするのが微妙。テンプレートリテラルでいい感じにしたい。ということで outdent と組み合わせる小さなラッパーを書いた。\n\n      \n        \n        import esquery...",
-          "link": "https://zenn.dev/sosukesuzuki/articles/9c17507e7c34f1",
-          "publishedOn": "2021-07-05T06:31:49.000Z",
-          "wordCount": 122,
-          "title": "esquery 便利ラッパー",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--31FFgw1L--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sosuke%2520Suzuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:esquery%2520%25E4%25BE%25BF%25E5%2588%25A9%25E3%2583%25A9%25E3%2583%2583%25E3%2583%2591%25E3%2583%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kzVm5WZHo2MC1CT3lMTS1VVnZaNmdNSDJlTlp1T0lTa1owT3lyNnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c",
-          "author": "Sosuke Suzuki",
-          "description": "この記事では TypeScript から既存のパーサーライブラリを使って JavaScript をパースするときにどのように型をつけるか、自分がやっている方法を紹介する。TypeScript を使って1から JavaScript のパーサーを書く話ではないので注意。\n仕事で、TypeScript で JavaScript をパースして構文木をゴニョゴニョやるツールを書いていた。\nこういうとき、まずどのパーサーを使うかを考える。\nパースする対象が絶対に JavaScript であることがわかっている場合、自分は Acorn を使うことが多い(TypeScript や Flow をパースする...",
-          "link": "https://zenn.dev/sosukesuzuki/articles/161ad4870a0f8c",
-          "publishedOn": "2021-07-05T05:33:52.000Z",
-          "wordCount": 107,
-          "title": "TypeScript で JavaScript をパースするときの型",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--T0ESAVK3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sosuke%2520Suzuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%2520%25E3%2581%25A7%2520JavaScript%2520%25E3%2582%2592%25E3%2583%2591%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%259E%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kzVm5WZHo2MC1CT3lMTS1VVnZaNmdNSDJlTlp1T0lTa1owT3lyNnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kawarimidoll/articles/efed8ada433f24",
-          "author": "kawarimidoll",
-          "description": "Deno Deployの勉強をしています。\nhttps://zenn.dev/kawarimidoll/articles/b0a5064befcd31\n本記事では、Deno Deploy用のコードを書いている際に遭遇した[deno-ts 2339]エラーの対処をまとめました。\n\n 発生するエラー\nエラーはエディタ内で表示されるもので、[deno-ts 2339] [E] Property 'respondWith' does not exist on type 'Event'です。\n例として、公式ドキュメントのHello Worldページのコードを使います。\nhttps://deno.c...",
-          "link": "https://zenn.dev/kawarimidoll/articles/efed8ada433f24",
-          "publishedOn": "2021-07-05T02:28:21.000Z",
-          "wordCount": 142,
-          "title": "Deno Deploy用コードで[deno-ts 2339]が発生するときの対処法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--vHrSd3NX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Deno%2520Deploy%25E7%2594%25A8%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25A7%255Bdeno-ts%25202339%255D%25E3%2581%258C%25E7%2599%25BA%25E7%2594%259F%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb",
-          "author": "beeeyan",
-          "description": "ことの経緯\nReact × TypeScript のプロジェクトでRebass使おうかな。\n↓\nRebassの開発者さんが最近開発しているのはTheme UIらしい。\n参考 : Theme UI で Theme Driven な快適 React スタイリング生活\n↓\nTheme UI使ってみよう。\n↓\n動かない（表示されない）。。。\n↓\n動かそう!!!\n※ TypeScriptでTheme UIを導入するときの注意点くらいの記事です。\n\n インストール方法\n公式サイトのGetting Startedには以下のコマンドが記載されている。\n\n      \n        \n       ...",
-          "link": "https://zenn.dev/beeeyan/articles/d3c40cea9158075a3dcb",
-          "publishedOn": "2021-07-05T02:08:52.000Z",
-          "wordCount": 132,
-          "title": "Theme UIをReact×TypeScriptのプロジェクトで使う。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ypw8L8lO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:beeeyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Theme%2520UI%25E3%2582%2592React%25C3%2597TypeScript%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTg0NTA1OGQzYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2378,6 +2331,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/koushikagawa/articles/d253bb1afc591f",
+          "author": "koushikagawa",
+          "description": "vue と vue-server-renderer で version mismatch\n先日Nuxtプロジェクトで npm run dev を実行した際に、下記エラーが表示されました。\n\n      \n        \n         ✖ Nuxt Fatal Error  \n Error:    \n Vue packages version mismatch:   \n - vue@2.6.11    \n - vue-server-renderer@2.6.14    \n This may cause things to work incorrectly. Make sure t...",
+          "link": "https://zenn.dev/koushikagawa/articles/d253bb1afc591f",
+          "publishedOn": "2021-08-03T03:14:35.000Z",
+          "wordCount": 182,
+          "title": "Vue packages version mismatch:   エラーを確認 -> 解消する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s---yMDuN-M--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:koushikagawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vue%2520packages%2520version%2520mismatch%253A%2520%2520%2520%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%2520-%253E%2520%25E8%25A7%25A3%25E6%25B6%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEUWtHdVNnSnE4dEdNUzFOY2tESTl2dHZkLXdvYU5SYlpLazM1c3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
           "author": "kazuhe",
@@ -2780,48 +2747,6 @@
           "title": "Nuxtでi18n化対応",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qL2I4_Ct--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:toshinobu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Nuxt%25E3%2581%25A7i18n%25E5%258C%2596%25E5%25AF%25BE%25E5%25BF%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hMeEh5bjU4bWZtSllLbl8zMEw2VVIyWG1XS3FMSDJMcWJBUWRZZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dfukui/articles/e8ff9f66ae094c",
-          "author": "dfukui",
-          "description": "はじめに\nCloud9 + Vue.jsを使って管理画面を作成するチュートリアルとなります。\n\n 管理画面テンプレートの導入\nCloud9のターミナルで以下実行します。\nCloud9の基本的な操作方法は以下を参考にしてください。\nhttps://26gram.com/how-to-use-cloud9\n\n Core UI のダウンロード\n\n      \n        \n        # リポジトリのクローン\ngit clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue\n\n# ダウ...",
-          "link": "https://zenn.dev/dfukui/articles/e8ff9f66ae094c",
-          "publishedOn": "2021-07-05T01:45:08.000Z",
-          "wordCount": 1205,
-          "title": "Vue.jsを使って管理画面を作る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--QCQgfhER--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dfukui%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue.js%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E7%25AE%25A1%25E7%2590%2586%25E7%2594%25BB%25E9%259D%25A2%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKekFEQnk4TWZ4MGlLeUZqLUtaM3Nna0ItVmM4SE1aaDlSdTBOV3Y9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52",
-          "author": "おしうみなおき",
-          "description": "Vue.jsで無限スクロールを実装したい場合は vue-infinite-scroll というライブラリを使用することをおすすめします。\n超簡単に実装できます\n公式ページはこちら\n\n ライブラリのインストール\nライブラリをインストールします\n\n      \n        \n        npm install vue-infinite-loading -S\n\n\n      \n      \n infinite-loadingコンポーネントを設置する\nライブラリをインストールしたらinfinite-loadingコンポーネントが使えるようになっているので、設置します。\n@infinite...",
-          "link": "https://zenn.dev/naoki_oshiumi/articles/776b9052f47d52",
-          "publishedOn": "2021-07-04T23:58:01.000Z",
-          "wordCount": 193,
-          "title": "vue-infinite-scrollで超簡単無限スクロールを実装する（vue.js）",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--kXWiGs_4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:vue-infinite-scroll%25E3%2581%25A7%25E8%25B6%2585%25E7%25B0%25A1%25E5%258D%2598%25E7%2584%25A1%25E9%2599%2590%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588vue.js%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yuneco/articles/petite-vue-hello",
-          "author": "yuki matsumoto",
-          "description": "petite-vueは軽量・簡易版のVue.js\n2021/7/2にVue.js作者のEvan Youさんの新作、petite-vueがリリースされました。\nざっくりした概要は『petite-vue 最速 使い方』など、早速日本語でまとめてくださっている方がいるので、そちらを参照いただくと良いと思います。\n（ただし、当面は破壊的な変更や機能追加が頻繁に入ると思われるので、日本語の記事と併せて公式もチェックするのが良いと思います）\n\n 習うより慣れろ。ゲーム作って「完全に理解」してみた\n公式のREADMEやサンプルが結構丁寧なので、眺めてみるだけでなんとなく理解できた気になってきます。...",
-          "link": "https://zenn.dev/yuneco/articles/petite-vue-hello",
-          "publishedOn": "2021-07-04T17:58:47.000Z",
-          "wordCount": 467,
-          "title": "ゲームを作ってpetite-vueを完全に理解する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--e4jJfPj_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuki%2520matsumoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6petite-vue%25E3%2582%2592%25E5%25AE%258C%25E5%2585%25A8%25E3%2581%25AB%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzI1ODE2MjI1ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
