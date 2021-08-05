@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-04T01:04:52.856Z</updated>
+    <updated>2021-08-05T01:05:21.639Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。]]></title>
+        <id>https://zenn.dev/yoshixj/articles/d460f4d9cfb299</id>
+        <link href="https://zenn.dev/yoshixj/articles/d460f4d9cfb299"/>
+        <updated>2021-08-04T23:09:36.000Z</updated>
+        <summary type="html"><![CDATA[vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。
+そのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。
+
+ CompositionAPIのメリット
+CompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。
+
+記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...]]></summary>
+        <author>
+            <name>yoshixj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vim戦記 Part1]]></title>
+        <id>https://zenn.dev/vampire_yuta/articles/c4703f4232f16b</id>
+        <link href="https://zenn.dev/vampire_yuta/articles/c4703f4232f16b"/>
+        <updated>2021-08-04T16:28:43.000Z</updated>
+        <summary type="html"><![CDATA[基本操作
+
+参照（https://knowledge.sakura.ad.jp/21687/）
+
+ カーソル移動
+h → 左に移動
+j → 下に移動
+k → 上に移動
+l → 右に移動
+gg → 最初の行へ移動
+GG → 最後の行へ移動
+Ctrl+f → 上へページスクロール
+Ctrl+b → 下へページスクロール
+zz → カーソル位置を中央へ
+{ → 前の空行まで移動
+} → 次の空行まで移動
+w → 文字単位で次に移動
+W → 区切り文字なしで次の文字に移動
+b → 文字単位で前の文字に移動
+B → 区切り文字なしで前の文字に移動
+
+ 進む戻る
+Ctrl + r → 一つ前の操...]]></summary>
+        <author>
+            <name>vampire_yuta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dockerで立てたNode.js, TypeScript環境にESLintとprettierを導入して、VSCode保存でコード整形も行う]]></title>
+        <id>https://zenn.dev/unemployed/articles/prettier-eslint</id>
+        <link href="https://zenn.dev/unemployed/articles/prettier-eslint"/>
+        <updated>2021-08-04T06:11:36.000Z</updated>
+        <summary type="html"><![CDATA[最初に
+綺麗なコードを書きたいという事で、Stripe の API を試す環境（TypeScript と Express）に ESLint と Prettier を導入してコードを静的解析、整形出来る環境を作ろうと思う。
+
+ node.js の環境構築
+今回も docker-compose を使ってサクッと作ろうと思う。docker じゃなく docker-compose を使う理由はポートをルーティングしたコンテナの起動等が docker-compose.yml に記述出来るので起動時のコマンドを省略出来るので使用している。単一のコンテナを利用する際でも便利だと思う。
+軽量な no...]]></summary>
+        <author>
+            <name>大学生だった.</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい]]></title>
         <id>https://zenn.dev/tanoken729/articles/6a96bff90b8e12</id>
@@ -4177,84 +4240,6 @@ SOLID原則の、Open Closed Principle（以下：OCP）のことで、「ソフ
 - Discou...]]></summary>
         <author>
             <name>Shota Nakano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RecoilでFirebase Authを使う]]></title>
-        <id>https://zenn.dev/yiwa/articles/3d4b91fd4fb467</id>
-        <link href="https://zenn.dev/yiwa/articles/3d4b91fd4fb467"/>
-        <updated>2021-07-06T03:22:43.000Z</updated>
-        <summary type="html"><![CDATA[Recoilを使ってみたいので、Firebase Authで使ってみました。
-なるべく複雑なことをしないようにRecoilでFirebaseのUserオブジェクトを保持して、認証状態でルーティングするだけのシンプルなものです。
-
- 使うもの
-
-React
-Recoil
-React Router Dom
-Firebase
-
-
- ディレクトリ
-
-src/
-
-index.tsx
-App.tsx
-firebase.js
-hooks/Auth.tsx
-pages/Login.tsx
-
-
-
-
- 1. Atomの設定
-
-      
-        /hooks/Auth.tsx
-        im...]]></summary>
-        <author>
-            <name>yiwa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxtでi18n化対応]]></title>
-        <id>https://zenn.dev/toshinobu/articles/233aa9b1b65115</id>
-        <link href="https://zenn.dev/toshinobu/articles/233aa9b1b65115"/>
-        <updated>2021-07-06T00:21:30.000Z</updated>
-        <summary type="html"><![CDATA[Nuxtでi18n化対応
-昨今、というかだいぶ前からグローバリゼーションが進んできていますが、それにつれアプリ多言語化が必要な場面が増えてきたかと思います。
-規模やコンテクストにもよると思いますが、現在ではほとんどのアプリで多言語化が必要ではないでしょうか？
-
- そもそもi18nとは
-そもそもi18nってなんぞ？って疑問に思われたかもしれないですが、私も最初はそうでした笑
-i18nとはInternationalizationつまり国際化の略です。
-最初のIと最後のnの間に18文字あるからi18nなんですね。k8sといい、これ初見じゃ絶対わからないでしょ
-(余談ですが、こうゆう略し方を...]]></summary>
-        <author>
-            <name>toshinobu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-07-06のJS: TypeScript 4.4 Beta、immutable-js 4.0.0-rc.13、petite-vue]]></title>
-        <id>https://jser.info/2021/07/06/typescript-4.4-beta-immutable-js-4.0.0-rc.13-petite-vue/</id>
-        <link href="https://jser.info/2021/07/06/typescript-4.4-beta-immutable-js-4.0.0-rc.13-petite-vue/"/>
-        <updated>2021-07-05T22:36:05.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #547 - TypeScript 4.4 betaがリリースされました。
-Announcing TypeScript 4.4 Beta | TypeScript
-Control Flow Analysisの改善され、Type Gurdeの結果を変数に入れてから扱うようなAliasのケースも正しく推論されるようになっています。
-unknown型にするuseUnknownInCatchVariablesオプションの追加と
-undefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。
-その他には、declarationの生成やstrictモードでのビルドパフォーマンスの改善も含まれています。
-immutable-js 4.0.0-rc.13がリリースされています。
-Release 4.0.0-rc.13 · immutable-js/immutable-js
-immutable-jsはv4.0.0-rc.12でメンテナンスが停止して、immutable-oss organiztionにてforkとしてメンテナンスがされていました。
-今回のリリースでは、immutable-js organizationにimmutable-ossのメンテナが追加され、immutable-ossの変更内容もimmutable-js 4.0.0-rc.13へとマージされています。
-immutable-jsとしてメンテナンスを再開するリリースとなっています。
-Immutable.js is essentially unmaintained · Issue #1689 · immutable-js/immutable-js
-Integrate immutable-js-oss fork into main repository b…]]></summary>
-        <author>
-            <name>JSer.info</name>
         </author>
     </entry>
 </feed>
