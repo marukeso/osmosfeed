@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-05T01:05:21.639Z</updated>
+    <updated>2021-08-06T01:08:00.634Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nextjs AMPモードで Google Analyticsを動かしたい]]></title>
+        <id>https://zenn.dev/dl10yr/articles/021c1b0fc2ec35</id>
+        <link href="https://zenn.dev/dl10yr/articles/021c1b0fc2ec35"/>
+        <updated>2021-08-05T12:11:57.000Z</updated>
+        <summary type="html"><![CDATA[最重要なこと
+GA4ではなくユニバーサルアナリティクスのプロパティ（UA-始まりのID）を使うこと！ (2021年8月4日現在、私調べ）
+
+      
+        
+        [AmpAnalytics <unknown id>] No triggers were found in the config. No analytics data will be sent.
+
+
+      
+      GA4のIDでは動きませんでした...
+https://github.com/ampproject/amphtml/issues/30903
+
+ 実装方針
+AMP対...]]></summary>
+        <author>
+            <name>dl10yr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最低限わかるVue Composition API]]></title>
+        <id>https://zenn.dev/masakitm/articles/6b5e31549c03d9</id>
+        <link href="https://zenn.dev/masakitm/articles/6b5e31549c03d9"/>
+        <updated>2021-08-05T03:18:54.000Z</updated>
+        <summary type="html"><![CDATA[この資料について
+この資料はVue2.0で動くプロダクトでVue Composition APIについて簡単に解説し、関心をもってもらうために用いた際のものです。
+対象読者は以下を想定しています。
+
+VueのOption API（今までの書き方）をさわったことがある
+React Hooksの経験がない
+
+より詳細な知識は公式ドキュメントよりご参照ください。
+
+ Vue 3系のコンポジションapi について
+
+ ってなんですか
+
+今までとは違う書式でvueを書ける記法
+今後主流になりそう
+reactのhooks apiに強く影響をうけている
+https://ja.reactjs.org...]]></summary>
+        <author>
+            <name>masakitm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[現場のフロントエンド開発環境を Dart Sass へマイグレーションする覚書]]></title>
+        <id>https://zenn.dev/toshimarnie/articles/c7cb99994075a3</id>
+        <link href="https://zenn.dev/toshimarnie/articles/c7cb99994075a3"/>
+        <updated>2021-08-05T02:49:11.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Sass の公式ドキュメントで 2020 年 10 月に LibSass の利用は非推奨 になり、Dart Sass の利用を推奨しています。そんな折、筆者が所属するフロントエンド開発チームでは LibSass を利用しており Dart Sass へ移行を進めました。本稿は LibSass から Dart Sass の移行についてご紹介します。本移行時の Dart Sass のバージョンは 1.32.7 になります。
+
+LibSass の非推奨は『継続的にメンテナンスをするが、将来的に追加予定の CSS および Sass の新機能の互換性を担保しない』という意味になります。...]]></summary>
+        <author>
+            <name>Toshifumi Imanishi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。]]></title>
+        <id>https://zenn.dev/yoshixj/articles/d460f4d9cfb299</id>
+        <link href="https://zenn.dev/yoshixj/articles/d460f4d9cfb299"/>
+        <updated>2021-08-04T23:09:36.000Z</updated>
+        <summary type="html"><![CDATA[vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。
+そのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。
+
+ CompositionAPIのメリット
+CompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。
+
+記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...]]></summary>
+        <author>
+            <name>yoshixj</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。]]></title>
         <id>https://zenn.dev/yoshixj/articles/d460f4d9cfb299</id>
@@ -4086,160 +4164,6 @@ Kindle で書籍を購入した際に Amazon からメールが届きます。�
  * Require a special character from t...]]></summary>
         <author>
             <name>hugtech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js で SSR/SSG したページに Cache-Control などのヘッダを設定する]]></title>
-        <id>https://zenn.dev/yuku/articles/f5a728808c4efa</id>
-        <link href="https://zenn.dev/yuku/articles/f5a728808c4efa"/>
-        <updated>2021-07-07T12:35:13.000Z</updated>
-        <summary type="html"><![CDATA[Next.js には強力な Incremental Static Regeneration がありますが、Vercel 以外にホストしている場合は使うことができません。そのとき、Cache-Control や Surrogate-Control ヘッダを用いて Fastly のような CDN にキャッシュを持たせたくなります。
-このヘッダの持たせ方に少しクセがあったので備忘録的に書きます。
-例えば、/articles/[id] にヘッダを持たせたいとします。
-
- 方法1. next.config.js で設定
-next.config.js の headers で設定する方法です。
-
-  ...]]></summary>
-        <author>
-            <name>Yuku Kotani</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GraphQL でフェッチした部分的なモデルのドメインロジックを TypeScript と Proxy で表現する試み]]></title>
-        <id>https://zenn.dev/yuku/articles/45bb0d6cf3da85</id>
-        <link href="https://zenn.dev/yuku/articles/45bb0d6cf3da85"/>
-        <updated>2021-07-07T08:53:13.000Z</updated>
-        <summary type="html"><![CDATA[仕事で GraphQL を使ったプロダクトに DDD のエッセンスを取り入れたく、GraphQL で部分的にフェッチしたドメインモデルに堅牢な型付けを試みたので、まだまだ荒削りですが紹介します。
-
- やりたいこと
-このような GraphQL スキーマがあったとします。
-
-      
-        
-        type Person {
-  firstName: String!
-  lastName: String!
-  age: Int!
-}
-
-type Query {
-  person: Person!
-}
-
-
-      
-      この Person に対して、以下よう...]]></summary>
-        <author>
-            <name>Yuku Kotani</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the launch.json of tsdx + jest + vscode]]></title>
-        <id>https://zenn.dev/hugtech/articles/79d6d9f74e3deb</id>
-        <link href="https://zenn.dev/hugtech/articles/79d6d9f74e3deb"/>
-        <updated>2021-07-07T08:04:34.000Z</updated>
-        <summary type="html"><![CDATA[tsdx
-https://github.com/formium/tsdx
-
- .launch.json
-
-      
-        
-        {
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "Jest All",
-			"program": "${workspaceFolder}/node_modules/.bin/tsdx",
-			"args": ["test", "--runInBand"],
-			"conso...]]></summary>
-        <author>
-            <name>hugtech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サクッとReact + typescript書きたいとき一発で環境構築するシェルスクリプトを作る]]></title>
-        <id>https://zenn.dev/masakitm/articles/8d8271b9fdbee8</id>
-        <link href="https://zenn.dev/masakitm/articles/8d8271b9fdbee8"/>
-        <updated>2021-07-07T07:29:27.000Z</updated>
-        <summary type="html"><![CDATA[概要
-Reactの環境構築はcreate-react-appで全然いい。
-Next.jsでもGatsbyでも全然いい。
-いいのだけど、サッと書きたいだけのときは重い。
-そう思って最低限必要だと思うものを1コマンド叩けばいいようにスクリプトを書いた。
-
- 解説
-eslintやprettierは必要なら別途入れる。
-個人でサクッと書く分にはvscode側のlint拡張とかで済ませていいと思うので含めていない。
-css in jsも必要なら後で入れればいい。プロダクト開発のテンプレートではないので。
-まずはtsconfigファイルを生成する関数を作る。
-シェルはzshを使っている。
-
-  ...]]></summary>
-        <author>
-            <name>masakitm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[輪読会の読み順をランダムで決める chrome 拡張機能を作る for Google Meet ［React + TypeScript］]]></title>
-        <id>https://zenn.dev/sota_yamaguchi/articles/a138b03e62595b</id>
-        <link href="https://zenn.dev/sota_yamaguchi/articles/a138b03e62595b"/>
-        <updated>2021-07-07T02:09:31.000Z</updated>
-        <summary type="html"><![CDATA[最近弊社の開発メンバーでブログを書こうという運動があります。
-ネタ探しをしていたらよさげな記事を見つけたのでアイデアをお借りします。
-shohei さんありがとう🙏
-※決してパ○リではありません
-https://techblog.roxx.co.jp/entry/2021/04/23/064837
-毎週チーム内での読書会や、部署をまたいだエンジニアでの輪読会を行っているのですが、都度読み順を決めるのが面倒なので、参加メンバーをシャッフルしてリストで返す chrome 拡張機能を作ってみました。
-なお、弊社の読書会は Google Meet で行うことが多いため必然的に Google Me...]]></summary>
-        <author>
-            <name>sota_yamaguchi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue-js-modalで超簡単にモーダルを実装する（laravel×vue）]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/9cb55513c40848</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/9cb55513c40848"/>
-        <updated>2021-07-07T00:06:49.000Z</updated>
-        <summary type="html"><![CDATA[今回は vue-js-modalで超簡単にモーダルを表示させる方法について紹介したいと思います。
-ではさっそくいってみましょう💨
-
- vue-js-modalをインストール
-まずはライブラリをインストールします
-
-      
-        
-        npm install vue-js-modal --save
-
-
-      
-      僕の場合はバージョン1.3.xじゃないとインストールできなかったので、 npm install vue-js-modal@1.3 --save  という指定をしました。
-どんなバージョンがあるかはこちらで確認できます
-
- vue-js-m...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SOLID原則 ◆オープン・クローズドの原則◆]]></title>
-        <id>https://zenn.dev/bonfireman/articles/400142b4d65409</id>
-        <link href="https://zenn.dev/bonfireman/articles/400142b4d65409"/>
-        <updated>2021-07-06T14:32:18.000Z</updated>
-        <summary type="html"><![CDATA[オープン・クローズドの原則とは
-SOLID原則の、Open Closed Principle（以下：OCP）のことで、「ソフトウェアの構成要素は拡張に対して開いていて、修正に対して閉じていなければならない」という原則です。
-言い換えると、ソフトウェアの振る舞いは、既存の成果物を変更せず拡張できるようにすべきであるということです。
-以下の仕様になっているサンプルコードを見ながら実際にGoodコードとBadコードを見ながら、理解を深めてみます。
-
-      
-        
-        - ある会員制ECサイトの決済システムで、会員のグレードによって割引がされる
-- Discou...]]></summary>
-        <author>
-            <name>Shota Nakano</name>
         </author>
     </entry>
 </feed>
