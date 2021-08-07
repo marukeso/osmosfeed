@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-06T01:08:00.634Z</updated>
+    <updated>2021-08-07T00:59:23.683Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[内部モジュールでは TypeScript をコンパイルせずに配る]]></title>
+        <id>https://zenn.dev/mizchi/articles/no-traspiled-typescript</id>
+        <link href="https://zenn.dev/mizchi/articles/no-traspiled-typescript"/>
+        <updated>2021-08-06T08:23:18.000Z</updated>
+        <summary type="html"><![CDATA[主張
+現代では、 npm に publish するものを除けば TypeScript をコンパイルして配布する必要はほぼないと考えています。
+TypeScript のコンパイルをしない環境、例えば deno や rome を使うと、コンパイルをするというステップが省くことで開発体験が大きく向上する、という肌感があり、ローカル環境ならこのメリットを優先するべきと考えています。
+基本的に、ビルドはフロントエンド/サーバーともに配布前の最後の一回だけでいいはず、というのが自分の主張です。
+https://github.com/denoland/deno
+
+Rome Toolchain
+De...]]></summary>
+        <author>
+            <name>mizchi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React コンポーネントの書き方をチームで統一する]]></title>
+        <id>https://zenn.dev/januswel/articles/a54aedc09fe7bc</id>
+        <link href="https://zenn.dev/januswel/articles/a54aedc09fe7bc"/>
+        <updated>2021-08-06T05:05:29.000Z</updated>
+        <summary type="html"><![CDATA[次の記事を見てなるほどと思ったものの、コンポーネント集作成の視点で書かれている。我々はアプリを作る機会が多いので、その際はどういう書き方が楽なのか、チームで共有するために類型を洗い出し、比較した。
+https://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/
+
+ TL;DR
+関数での書き方を覚えれば良いと判断した。
+
+      
+        
+        function MyComponent(props: React.PropsWithChildren<Props>) {
+  if (props.ti...]]></summary>
+        <author>
+            <name>januswel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[パスワードレス認証サービスGAZEPASSを使ってみた]]></title>
+        <id>https://zenn.dev/gaomar/articles/12c8664058638b</id>
+        <link href="https://zenn.dev/gaomar/articles/12c8664058638b"/>
+        <updated>2021-08-06T01:39:20.000Z</updated>
+        <summary type="html"><![CDATA[GAZEPASSというパスワードレスでログイン認証するシステムを使ってみました。
+端末にある生体認証機能を使って認証する仕組みです。生体認証が無いデバイスは顔認証することができます。
+※現在はbeta版なので無料で使えますが、今後は 有料化 になる可能性がありますのでご注意ください。
+
+ お試し環境
+下記からどういうものか動かすことができます。
+https://www.katacoda.com/gaomar/scenarios/gazepass-handson-playground
+
+ 1. API Keysを作成しよう
+GAZEPASSサイトにアクセスしてアカウントを発行します。
+
+ ...]]></summary>
+        <author>
+            <name>がおまる</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nextjs AMPモードで Google Analyticsを動かしたい]]></title>
         <id>https://zenn.dev/dl10yr/articles/021c1b0fc2ec35</id>
@@ -4035,135 +4092,6 @@ Welcome to the "Local Library" Strapijs, Nextjs tutorial, in which we develop a 
 this tutorial is a rebuild of the MDN "Local Library" Expre...]]></summary>
         <author>
             <name>okuninoshi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Storybook導入時に、webpackのバージョンで詰まった話]]></title>
-        <id>https://zenn.dev/urasaku77/articles/7fefb518fe91db</id>
-        <link href="https://zenn.dev/urasaku77/articles/7fefb518fe91db"/>
-        <updated>2021-07-08T07:45:05.000Z</updated>
-        <summary type="html"><![CDATA[経緯
-Storybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生
-
-TypeError: Cannot read property 'get' of undefined
-
-
- 原因
-見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった
-公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）
-
- 解決策
-.storybook/main.jsを書き換えることでwebpack5を適...]]></summary>
-        <author>
-            <name>urasaku77</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Storybook導入時に、webpackのバージョンで詰まった話]]></title>
-        <id>https://zenn.dev/urasaku77/articles/7fefb518fe91db</id>
-        <link href="https://zenn.dev/urasaku77/articles/7fefb518fe91db"/>
-        <updated>2021-07-08T07:45:05.000Z</updated>
-        <summary type="html"><![CDATA[経緯
-Storybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生
-
-TypeError: Cannot read property 'get' of undefined
-
-
- 原因
-見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった
-公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）
-
- 解決策
-.storybook/main.jsを書き換えることでwebpack5を適...]]></summary>
-        <author>
-            <name>urasaku77</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[styled-componentsをTypescriptで使う上でのTips]]></title>
-        <id>https://zenn.dev/nekoniki/articles/f8600d1ab7d908</id>
-        <link href="https://zenn.dev/nekoniki/articles/f8600d1ab7d908"/>
-        <updated>2021-07-08T05:17:05.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-今回はTypescript + Reactでstyled-componentsを使う場合のTipsを紹介します。
-styleプロパティで直接記載するよりもスタイルの管理がしやすい+使い回しやすいといったメリットがあるのでおすすめです。
-※普段はReact Nativeを扱っていますが、styled-componentsに着目した場合の使用感はほぼ同じといっていいので、サンプルコードはReactのものになります。
-
- そもそもstyled-componentsとは
-styled-componentsは所謂CSS in JSライブラリの一種になります。
-名前が表す通り、JSもし...]]></summary>
-        <author>
-            <name>nekoniki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[なぜWebpackの設定はTypeScriptで書けるのか？]]></title>
-        <id>https://zenn.dev/uttk/articles/ab7afa61eb481f</id>
-        <link href="https://zenn.dev/uttk/articles/ab7afa61eb481f"/>
-        <updated>2021-07-08T04:36:31.000Z</updated>
-        <summary type="html"><![CDATA[この記事について
-webpackの設定ファイルであるwebpack.config.jsは、TypeScriptで書いてNode.js上で実行できます。しかし、本来であればTypeScriptのソースコードはNode.jsでは実行できないはずです。 この事が気になった私は、今回その仕組みを調べてみたので、この場を借りてその調査結果を共有したいと思います💪
-参照
-https://webpack.js.org/configuration/configuration-languages/
-
- 記事の概要
-概要のみ知りたい人に向けて、以下にこの記事で解説する内容のまとめを書いておきます👇
-
-
-...]]></summary>
-        <author>
-            <name>uttk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今更だけど、Next.jsをさわるんだ！]]></title>
-        <id>https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554</id>
-        <link href="https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554"/>
-        <updated>2021-07-08T00:25:45.000Z</updated>
-        <summary type="html"><![CDATA[経緯
-業務でさわることになり、学習としてアウトプットさせて頂きます。
-
- はじめに
-Next.js はReactを基礎としたフレームワークです。そして、Vercel社が提供するOSS プロジェクトになっています。
-Webのデプロイ・ホスティングサービス Vercel を運営しており Next.js と Vercel を合わせて使用し、容易にWebサイトを制作することができるようになっています。
-SPA (Single Page Application)　では,Webサイトへ遷移するとローディングが表示され、次々にコンポーネントが表示されることがあったのではないでしょうか？ユーザの行動...]]></summary>
-        <author>
-            <name>Kenji</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kindle で購入した書籍をブクログへ自動で登録する]]></title>
-        <id>https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9</id>
-        <link href="https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9"/>
-        <updated>2021-07-07T14:35:50.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-いきなりですが、みなさん読書の管理ってどうしていますか？
-僕は、ブクログ というサービスを使っています。以前は、読書メーター を使っていたんですが、ブクログは本に記載されている ISBN コードや Amazon の Asin コードから本を登録できる[1]ということを知って最近移行しました。
-どうせなら自動化したいなと思い、調べてみると同じことを考えた先人たちがいらっしゃったので参考にしつつやってみたのでその紹介です。
-
- 作ったもの
-Kindle で書籍を購入した際に Amazon からメールが届きます。そのメールから使いたい Asin コードだけを抜き出して、購入した書...]]></summary>
-        <author>
-            <name>ysmtegsr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generate AWS Cognito password]]></title>
-        <id>https://zenn.dev/hugtech/articles/90abb52f28bc68</id>
-        <link href="https://zenn.dev/hugtech/articles/90abb52f28bc68"/>
-        <updated>2021-07-07T13:24:03.000Z</updated>
-        <summary type="html"><![CDATA[https://www.npmjs.com/package/aws-cognito-temporary-password-generator
-
-      
-        
-        /**
- * Configuration of Password generation.
- * Only possible to specify length. default: 16
- * All Other requirements are automatically satisfy
- * Require numbers
- * Require a special character from t...]]></summary>
-        <author>
-            <name>hugtech</name>
         </author>
     </entry>
 </feed>

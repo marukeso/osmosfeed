@@ -585,34 +585,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
-          "author": "urasaku77",
-          "description": "経緯\nStorybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生\n\nTypeError: Cannot read property 'get' of undefined\n\n\n 原因\n見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった\n公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）\n\n 解決策\n.storybook/main.jsを書き換えることでwebpack5を適...",
-          "link": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
-          "publishedOn": "2021-07-08T07:45:05.000Z",
-          "wordCount": 51,
-          "title": "Storybook導入時に、webpackのバージョンで詰まった話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--EWaSgXbt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:urasaku77%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Storybook%25E5%25B0%258E%25E5%2585%25A5%25E6%2599%2582%25E3%2581%25AB%25E3%2580%2581webpack%25E3%2581%25AE%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25A7%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTdjYThhOWM0Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554",
-          "author": "Kenji",
-          "description": "経緯\n業務でさわることになり、学習としてアウトプットさせて頂きます。\n\n はじめに\nNext.js はReactを基礎としたフレームワークです。そして、Vercel社が提供するOSS プロジェクトになっています。\nWebのデプロイ・ホスティングサービス Vercel を運営しており Next.js と Vercel を合わせて使用し、容易にWebサイトを制作することができるようになっています。\nSPA (Single Page Application)　では,Webサイトへ遷移するとローディングが表示され、次々にコンポーネントが表示されることがあったのではないでしょうか？ユーザの行動...",
-          "link": "https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554",
-          "publishedOn": "2021-07-08T00:25:45.000Z",
-          "wordCount": 93,
-          "title": "今更だけど、Next.jsをさわるんだ！",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qOzAILVr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kenji%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E4%25BB%258A%25E6%259B%25B4%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A9%25E3%2580%2581Next.js%25E3%2582%2592%25E3%2581%2595%25E3%2582%258F%25E3%2582%258B%25E3%2582%2593%25E3%2581%25A0%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDk0MmE0YWEyNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -824,6 +796,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/mizchi/articles/no-traspiled-typescript",
+          "author": "mizchi",
+          "description": "主張\n現代では、 npm に publish するものを除けば TypeScript をコンパイルして配布する必要はほぼないと考えています。\nTypeScript のコンパイルをしない環境、例えば deno や rome を使うと、コンパイルをするというステップが省くことで開発体験が大きく向上する、という肌感があり、ローカル環境ならこのメリットを優先するべきと考えています。\n基本的に、ビルドはフロントエンド/サーバーともに配布前の最後の一回だけでいいはず、というのが自分の主張です。\nhttps://github.com/denoland/deno\n\nRome Toolchain\nDe...",
+          "link": "https://zenn.dev/mizchi/articles/no-traspiled-typescript",
+          "publishedOn": "2021-08-06T08:23:18.000Z",
+          "wordCount": 191,
+          "title": "内部モジュールでは TypeScript をコンパイルせずに配る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--sS1xWih6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mizchi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E5%2586%2585%25E9%2583%25A8%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25A7%25E3%2581%25AF%2520TypeScript%2520%25E3%2582%2592%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2591%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%259B%25E3%2581%259A%25E3%2581%25AB%25E9%2585%258D%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liclRHT052Z3d3ay1fNGxlcVk4TGNGSlNuX0FoWnpEWVlKaXJNcWc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/januswel/articles/a54aedc09fe7bc",
+          "author": "januswel",
+          "description": "次の記事を見てなるほどと思ったものの、コンポーネント集作成の視点で書かれている。我々はアプリを作る機会が多いので、その際はどういう書き方が楽なのか、チームで共有するために類型を洗い出し、比較した。\nhttps://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/\n\n TL;DR\n関数での書き方を覚えれば良いと判断した。\n\n      \n        \n        function MyComponent(props: React.PropsWithChildren<Props>) {\n  if (props.ti...",
+          "link": "https://zenn.dev/januswel/articles/a54aedc09fe7bc",
+          "publishedOn": "2021-08-06T05:05:29.000Z",
+          "wordCount": 393,
+          "title": "React コンポーネントの書き方をチームで統一する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--r-zcfeH_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:januswel%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%25E3%2582%2592%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25A7%25E7%25B5%25B1%25E4%25B8%2580%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hPWVhXdlBhLXJBNGJEd1V3Vnhfb0c2UmJnZUFQYnpNVllKMk1MPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yoshixj/articles/d460f4d9cfb299",
           "author": "yoshixj",
@@ -2069,76 +2069,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
-          "author": "urasaku77",
-          "description": "経緯\nStorybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生\n\nTypeError: Cannot read property 'get' of undefined\n\n\n 原因\n見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった\n公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）\n\n 解決策\n.storybook/main.jsを書き換えることでwebpack5を適...",
-          "link": "https://zenn.dev/urasaku77/articles/7fefb518fe91db",
-          "publishedOn": "2021-07-08T07:45:05.000Z",
-          "wordCount": 51,
-          "title": "Storybook導入時に、webpackのバージョンで詰まった話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--EWaSgXbt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:urasaku77%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Storybook%25E5%25B0%258E%25E5%2585%25A5%25E6%2599%2582%25E3%2581%25AB%25E3%2580%2581webpack%25E3%2581%25AE%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25A7%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTdjYThhOWM0Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nekoniki/articles/f8600d1ab7d908",
-          "author": "nekoniki",
-          "description": "はじめに\n今回はTypescript + Reactでstyled-componentsを使う場合のTipsを紹介します。\nstyleプロパティで直接記載するよりもスタイルの管理がしやすい+使い回しやすいといったメリットがあるのでおすすめです。\n※普段はReact Nativeを扱っていますが、styled-componentsに着目した場合の使用感はほぼ同じといっていいので、サンプルコードはReactのものになります。\n\n そもそもstyled-componentsとは\nstyled-componentsは所謂CSS in JSライブラリの一種になります。\n名前が表す通り、JSもし...",
-          "link": "https://zenn.dev/nekoniki/articles/f8600d1ab7d908",
-          "publishedOn": "2021-07-08T05:17:05.000Z",
-          "wordCount": 371,
-          "title": "styled-componentsをTypescriptで使う上でのTips",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--_dogaJNk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:styled-components%25E3%2582%2592Typescript%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E4%25B8%258A%25E3%2581%25A7%25E3%2581%25AETips%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uttk/articles/ab7afa61eb481f",
-          "author": "uttk",
-          "description": "この記事について\nwebpackの設定ファイルであるwebpack.config.jsは、TypeScriptで書いてNode.js上で実行できます。しかし、本来であればTypeScriptのソースコードはNode.jsでは実行できないはずです。 この事が気になった私は、今回その仕組みを調べてみたので、この場を借りてその調査結果を共有したいと思います💪\n参照\nhttps://webpack.js.org/configuration/configuration-languages/\n\n 記事の概要\n概要のみ知りたい人に向けて、以下にこの記事で解説する内容のまとめを書いておきます👇\n\n\n...",
-          "link": "https://zenn.dev/uttk/articles/ab7afa61eb481f",
-          "publishedOn": "2021-07-08T04:36:31.000Z",
-          "wordCount": 531,
-          "title": "なぜWebpackの設定はTypeScriptで書けるのか？",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--9SBdy7us--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uttk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2581%25AA%25E3%2581%259CWebpack%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25AFTypeScript%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzdkM2Q1NTAxNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9",
-          "author": "ysmtegsr",
-          "description": "はじめに\nいきなりですが、みなさん読書の管理ってどうしていますか？\n僕は、ブクログ というサービスを使っています。以前は、読書メーター を使っていたんですが、ブクログは本に記載されている ISBN コードや Amazon の Asin コードから本を登録できる[1]ということを知って最近移行しました。\nどうせなら自動化したいなと思い、調べてみると同じことを考えた先人たちがいらっしゃったので参考にしつつやってみたのでその紹介です。\n\n 作ったもの\nKindle で書籍を購入した際に Amazon からメールが届きます。そのメールから使いたい Asin コードだけを抜き出して、購入した書...",
-          "link": "https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9",
-          "publishedOn": "2021-07-07T14:35:50.000Z",
-          "wordCount": 513,
-          "title": "Kindle で購入した書籍をブクログへ自動で登録する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--bYkWaURG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ysmtegsr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Kindle%2520%25E3%2581%25A7%25E8%25B3%25BC%25E5%2585%25A5%25E3%2581%2597%25E3%2581%259F%25E6%259B%25B8%25E7%25B1%258D%25E3%2582%2592%25E3%2583%2596%25E3%2582%25AF%25E3%2583%25AD%25E3%2582%25B0%25E3%2581%25B8%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7%25E7%2599%25BB%25E9%258C%25B2%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTMxZDc3MGI1Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hugtech/articles/90abb52f28bc68",
-          "author": "hugtech",
-          "description": "https://www.npmjs.com/package/aws-cognito-temporary-password-generator\n\n      \n        \n        /**\n * Configuration of Password generation.\n * Only possible to specify length. default: 16\n * All Other requirements are automatically satisfy\n * Require numbers\n * Require a special character from t...",
-          "link": "https://zenn.dev/hugtech/articles/90abb52f28bc68",
-          "publishedOn": "2021-07-07T13:24:03.000Z",
-          "wordCount": 268,
-          "title": "Generate AWS Cognito password",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Plxq-mdb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hugtech%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Generate%2520AWS%2520Cognito%2520password%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzc3MTRmYTM3YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2280,6 +2210,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/gaomar/articles/12c8664058638b",
+          "author": "がおまる",
+          "description": "GAZEPASSというパスワードレスでログイン認証するシステムを使ってみました。\n端末にある生体認証機能を使って認証する仕組みです。生体認証が無いデバイスは顔認証することができます。\n※現在はbeta版なので無料で使えますが、今後は 有料化 になる可能性がありますのでご注意ください。\n\n お試し環境\n下記からどういうものか動かすことができます。\nhttps://www.katacoda.com/gaomar/scenarios/gazepass-handson-playground\n\n 1. API Keysを作成しよう\nGAZEPASSサイトにアクセスしてアカウントを発行します。\n\n ...",
+          "link": "https://zenn.dev/gaomar/articles/12c8664058638b",
+          "publishedOn": "2021-08-06T01:39:20.000Z",
+          "wordCount": 220,
+          "title": "パスワードレス認証サービスGAZEPASSを使ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zO5WVjPA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258C%25E3%2581%258A%25E3%2581%25BE%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%2591%25E3%2582%25B9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589%25E3%2583%25AC%25E3%2582%25B9%25E8%25AA%258D%25E8%25A8%25BC%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9GAZEPASS%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hQR0w0Ml90M2dMSDhRS3hoVVBWR2VrWXdmZW9aSF9ueS1Za3lGTHlvPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/masakitm/articles/6b5e31549c03d9",
           "author": "masakitm",

@@ -77,6 +77,83 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-06">2021-08-06</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">内部モジュールでは TypeScript をコンパイルせずに配る</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mizchi/articles/no-traspiled-typescript">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>主張
+現代では、 npm に publish するものを除けば TypeScript をコンパイルして配布する必要はほぼないと考えています。
+TypeScript のコンパイルをしない環境、例えば deno や rome を使うと、コンパイルをするというステップが省くことで開発体験が大きく向上する、という肌感があり、ローカル環境ならこのメリットを優先するべきと考えています。
+基本的に、ビルドはフロントエンド/サーバーともに配布前の最後の一回だけでいいはず、というのが自分の主張です。
+https://github.com/denoland/deno
+
+Rome Toolchain
+De...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React コンポーネントの書き方をチームで統一する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/januswel/articles/a54aedc09fe7bc">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>次の記事を見てなるほどと思ったものの、コンポーネント集作成の視点で書かれている。我々はアプリを作る機会が多いので、その際はどういう書き方が楽なのか、チームで共有するために類型を洗い出し、比較した。
+https://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/
+
+ TL;DR
+関数での書き方を覚えれば良いと判断した。
+
+      
+        
+        function MyComponent(props: React.PropsWithChildren) {
+  if (props.ti...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">パスワードレス認証サービスGAZEPASSを使ってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gaomar/articles/12c8664058638b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>GAZEPASSというパスワードレスでログイン認証するシステムを使ってみました。
+端末にある生体認証機能を使って認証する仕組みです。生体認証が無いデバイスは顔認証することができます。
+※現在はbeta版なので無料で使えますが、今後は 有料化 になる可能性がありますのでご注意ください。
+
+ お試し環境
+下記からどういうものか動かすことができます。
+https://www.katacoda.com/gaomar/scenarios/gazepass-handson-playground
+
+ 1. API Keysを作成しよう
+GAZEPASSサイトにアクセスしてアカウントを発行します。
+
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-05">2021-08-05</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -4890,45 +4967,6 @@ this tutorial is a rebuild of the MDN &quot;Local Library&quot; Expre...</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Storybook導入時に、webpackのバージョンで詰まった話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/urasaku77/articles/7fefb518fe91db">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>経緯
-Storybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生
-
-TypeError: Cannot read property &#x27;get&#x27; of undefined
-
-
- 原因
-見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった
-公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）
-
- 解決策
-.storybook/main.jsを書き換えることでwebpack5を適...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">今更だけど、Next.jsをさわるんだ！</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ignorant_kenji/articles/3c74e04a99bb0362c554">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>経緯
-業務でさわることになり、学習としてアウトプットさせて頂きます。
-
- はじめに
-Next.js はReactを基礎としたフレームワークです。そして、Vercel社が提供するOSS プロジェクトになっています。
-Webのデプロイ・ホスティングサービス Vercel を運営しており Next.js と Vercel を合わせて使用し、容易にWebサイトを制作することができるようになっています。
-SPA (Single Page Application)　では,Webサイトへ遷移するとローディングが表示され、次々にコンポーネントが表示されることがあったのではないでしょうか？ユーザの行動...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4984,66 +5022,6 @@ type MissingKeys&lt;Req, Passed...</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Storybook導入時に、webpackのバージョンで詰まった話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/urasaku77/articles/7fefb518fe91db">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>経緯
-Storybookの公式に沿ってインストールして実行する際、下記のようなエラーが発生
-
-TypeError: Cannot read property &#x27;get&#x27; of undefined
-
-
- 原因
-見ただけではなんのことではわからなかったのだが、調べてみると使っているwebpackのバージョンが違うことが原因だった
-公式のinitコマンドを打つと、自動的にwebpack4が使われるらしく、webpack5を使っている場合はエラーが出るみたい（もう少しわかりやすいエラー出してほしい・・・）
-
- 解決策
-.storybook/main.jsを書き換えることでwebpack5を適...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">styled-componentsをTypescriptで使う上でのTips</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nekoniki/articles/f8600d1ab7d908">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-今回はTypescript + Reactでstyled-componentsを使う場合のTipsを紹介します。
-styleプロパティで直接記載するよりもスタイルの管理がしやすい+使い回しやすいといったメリットがあるのでおすすめです。
-※普段はReact Nativeを扱っていますが、styled-componentsに着目した場合の使用感はほぼ同じといっていいので、サンプルコードはReactのものになります。
-
- そもそもstyled-componentsとは
-styled-componentsは所謂CSS in JSライブラリの一種になります。
-名前が表す通り、JSもし...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">なぜWebpackの設定はTypeScriptで書けるのか？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uttk/articles/ab7afa61eb481f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>この記事について
-webpackの設定ファイルであるwebpack.config.jsは、TypeScriptで書いてNode.js上で実行できます。しかし、本来であればTypeScriptのソースコードはNode.jsでは実行できないはずです。 この事が気になった私は、今回その仕組みを調べてみたので、この場を借りてその調査結果を共有したいと思います💪
-参照
-https://webpack.js.org/configuration/configuration-languages/
-
- 記事の概要
-概要のみ知りたい人に向けて、以下にこの記事で解説する内容のまとめを書いておきます👇
-
-
-...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -5080,57 +5058,9 @@ https://webpack.js.org/configuration/configuration-languages/
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-07">2021-07-07</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Kindle で購入した書籍をブクログへ自動で登録する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ysmtegsr/articles/c9077709acb67ff3f1d9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>はじめに
-いきなりですが、みなさん読書の管理ってどうしていますか？
-僕は、ブクログ というサービスを使っています。以前は、読書メーター を使っていたんですが、ブクログは本に記載されている ISBN コードや Amazon の Asin コードから本を登録できる[1]ということを知って最近移行しました。
-どうせなら自動化したいなと思い、調べてみると同じことを考えた先人たちがいらっしゃったので参考にしつつやってみたのでその紹介です。
-
- 作ったもの
-Kindle で書籍を購入した際に Amazon からメールが届きます。そのメールから使いたい Asin コードだけを抜き出して、購入した書...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Generate AWS Cognito password</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hugtech/articles/90abb52f28bc68">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>https://www.npmjs.com/package/aws-cognito-temporary-password-generator
-
-      
-        
-        /**
- * Configuration of Password generation.
- * Only possible to specify length. default: 16
- * All Other requirements are automatically satisfy
- * Require numbers
- * Require a special character from t...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-06T01:08:00.596Z">2021-08-06T01:08:00.596Z</time>
+    <time id="build-timestamp" datetime="2021-08-07T00:59:23.663Z">2021-08-07T00:59:23.663Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
