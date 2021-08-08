@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-07T00:59:23.683Z</updated>
+    <updated>2021-08-08T01:05:11.852Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Docker で React + TypeScript の開発環境構築 2021]]></title>
+        <id>https://zenn.dev/sprout2000/articles/1ee32fa0181870</id>
+        <link href="https://zenn.dev/sprout2000/articles/1ee32fa0181870"/>
+        <updated>2021-08-07T07:27:01.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+Docker Desktop （docker デーモン）を起動させておいて…
+
+      
+        zsh
+        % git clone git@github.com:sprout2000/cra.git
+% cd cra
+% docker-compose up cra
+
+
+      
+      localhost:3000 を開きましょう。これだけです。
+
+ 手順
+
+ 1. Docker のインストール
+公式ドキュメントに従ってインストールしましょう。
+https://docs.docker.com/docker-for-windows/inst...]]></summary>
+        <author>
+            <name>sprout2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DOM, Node, Elementの違い]]></title>
+        <id>https://zenn.dev/sqer/articles/2d4def0f07bf04c5cc47</id>
+        <link href="https://zenn.dev/sqer/articles/2d4def0f07bf04c5cc47"/>
+        <updated>2021-08-07T06:05:15.000Z</updated>
+        <summary type="html"><![CDATA[DOM, Node, Elementについてそれぞれの違いを説明できますか？
+DOM
+Node
+Element
+実践！NodeをElementに変換する
+まとめ
+リンク
+
+
+ DOM, Node, Elementについてそれぞれの違いを説明できますか？
+Web開発において、これらをすべて「要素」として呼んで曖昧にしていると型定義などで詰まることがあります。
+この３つの名称、実は明確な違いがあると知っていましたか？
+これを期にマスターしましょう。
+
+ DOM
+DOMは、「Document Object Model、つまりドキュメントを物として扱うモデル」のことを言います。
+DOMツリーと...]]></summary>
+        <author>
+            <name>sqer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blitz.js の prisma で MongoDB を使う！！！！]]></title>
+        <id>https://zenn.dev/yuiseki/articles/5a3b418ca06581</id>
+        <link href="https://zenn.dev/yuiseki/articles/5a3b418ca06581"/>
+        <updated>2021-08-07T02:18:30.000Z</updated>
+        <summary type="html"><![CDATA[Blitz.jsをインストールしてプロジェクトを生成する
+
+      
+        
+        npm install -g blitz --legacy-peer-deps
+cd blitz-hoge
+
+
+      
+      参考文献
+
+https://blitzjs.com/docs/get-started
+https://blitzjs.com/docs/tutorial
+
+
+
+ db/schema.prisma を編集する
+注意点
+
+prismaのMongoDB対応はPreviewFeature
+Cascading delete（リレーションを張った親モデル...]]></summary>
+        <author>
+            <name>yuiseki</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[内部モジュールでは TypeScript をコンパイルせずに配る]]></title>
         <id>https://zenn.dev/mizchi/articles/no-traspiled-typescript</id>
@@ -3919,179 +4002,6 @@ coc-snippet...]]></summary>
 まあ今後なにか追加したいものを思いついたら追加していく感じの運用を考えているので、パッケージの名前としては @huequica/native_ex...]]></summary>
         <author>
             <name>Haru_Yakumo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js x Notion APIで個人ブログをつくりました]]></title>
-        <id>https://zenn.dev/st43/articles/ff9ac1b0c7d057</id>
-        <link href="https://zenn.dev/st43/articles/ff9ac1b0c7d057"/>
-        <updated>2021-07-09T09:28:10.000Z</updated>
-        <summary type="html"><![CDATA[一ヶ月くらいかけて、念願だった個人サイトをつくりました。
-https://www.shetommy.com/
-ポートフォリオサイト + 個人ブログ + Web技術の実験場的な使い方をするためにつくりました。
-ポートフォリオサイトとしての実装は割とすぐできたんですが、ブログ機能が大変でした。
-この記事ではそこメインで書きたいと思います。
-Notion APIをガチャガチャした詳細は長くなるので、後で記事を書いて、とりあえずこの記事は個人サイト開発のまとめとしてもうちょっと雑多に書いていきます。
-同じようなことをしたい方の参考になれば幸いです。
-
- ソース
-公開しています。
-https://...]]></summary>
-        <author>
-            <name>蔀</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firebase Firestore Rule Jest Test Memo]]></title>
-        <id>https://zenn.dev/yoneapp/articles/d01628752f3267</id>
-        <link href="https://zenn.dev/yoneapp/articles/d01628752f3267"/>
-        <updated>2021-07-09T02:48:16.000Z</updated>
-        <summary type="html"><![CDATA[npm install --save-dev jest @types/jest
-npm install --save-dev @firebase/rules-unit-testing
-
-
-      
-      package.json に test scripts を追加
-
-      
-        
-        "scripts": {
-  "test": "firebase emulators:exec --only firestore jest"
-}
-
-
-      
-      package.json に jest ...]]></summary>
-        <author>
-            <name>米本剛士</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[amazon-chime-sdk でWebとReact Nativeでビデオ通話ができるアプリを作る(前編)]]></title>
-        <id>https://zenn.dev/kondo_script/articles/217a9d5285e35f</id>
-        <link href="https://zenn.dev/kondo_script/articles/217a9d5285e35f"/>
-        <updated>2021-07-09T01:16:00.000Z</updated>
-        <summary type="html"><![CDATA[要約
-
-amazon-chime-sdk を web + react-native で使う機会があって色々調べたのでまとめた
-API は素直で使いやすい。が、高機能な割にドキュメントがまとまりきっていない
-
-aws のコンソールに管理画面もなく準備しなくてはいけないことはそこそこある
-amazon-chime と amazon-chime-sdk は別物だが、ドキュメントは一つにまとまっている
-
-Amazon Chime Documentation
-
-
-
-
-とりあえず最初は web版/React版のサンプルを触って基本的なアーキテクチャを理解する。
-
-amazon-chime-sdk...]]></summary>
-        <author>
-            <name>kondo_script</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptプロジェクトのCIでやってること]]></title>
-        <id>https://zenn.dev/daikik/articles/b1a2061162ed83</id>
-        <link href="https://zenn.dev/daikik/articles/b1a2061162ed83"/>
-        <updated>2021-07-09T00:44:31.000Z</updated>
-        <summary type="html"><![CDATA[概要
-最近退職に伴いTypeScriptプロジェクトのCI/CDの見直しを行っているので主にプルリクに対するCIを中心に何をやっているのか(やっていた＆やろうとしているもの含む)紹介します。
-それぞれはさらっとした紹介のみです。
-
- tsc, prettier, eslint
-基本です。恐らく殆どのプロジェクトでやっているかと思います。
-tscは--noEmitオプションを付けて実行、eslintは--cacheと--quietオプションを付けて実行しています。
-prettierは--list-differentオプションを付けると差分があった場合(=prettierが適用されていな...]]></summary>
-        <author>
-            <name>daikik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue-toastedで処理成功時・エラー時の通知を楽に実装する（laravel×vue.js）]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/3c829d8669e188"/>
-        <updated>2021-07-08T23:56:57.000Z</updated>
-        <summary type="html"><![CDATA[vue-toastedは処理成功したときの「処理が完了しました」やエラーが発生したときの「エラーが発生しました」の実装がかんたんにできるライブラリです。
-そもそも、 真ん中の下や右上あたりからすっと通知が出てきて、すっと隠れるやつを「トースター」っていうんですね。
-ではさっそく使ってみます。
-
- vue-toastedをインストールする
-ささっとインストールしちゃいます。
-
-      
-        
-        npm install vue-toasted --save
-
-
-      
-      
- app.jsでインポートする
-このあたりはライブラリを使うときのルーティ...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub API v4 でページネーションを考慮したクエリの実装]]></title>
-        <id>https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation</id>
-        <link href="https://zenn.dev/ryo_kawamata/articles/github-api-v4-pagenation"/>
-        <updated>2021-07-08T23:05:36.000Z</updated>
-        <summary type="html"><![CDATA[GitHub API v4 でページネーションを考慮してクエリを投げる機会があったので、その作業メモです。
-
- GitHub API v4のページネーション
-GitHub API v4 で nodes や edges を持つリソースには、PageInfoというオブジェクトフィールドがあり、以下 4 つのフィールドを持ちます。
-
-endCursor
-hasNextPage
-hasPreviousPage
-startCursor
-
-ページングでは、このendCursorとhasNextPageのペア又はstartCursorとhasPreviousPageのペアを使います。
-endCurso...]]></summary>
-        <author>
-            <name>ryo_kawamata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript で「コンストラクタで渡さなかった引数だけ後で必須にする」の型制約を書く]]></title>
-        <id>https://zenn.dev/mpyw/articles/3c063143fe884a</id>
-        <link href="https://zenn.dev/mpyw/articles/3c063143fe884a"/>
-        <updated>2021-07-08T15:50:06.000Z</updated>
-        <summary type="html"><![CDATA[実装
-
-      
-        
-        /**
- * [α] T 型から undefined 不可キーの union を抽出
- */
-type RequiredKeys<T> = {
-  [K in keyof T]-?: Record<any, any> extends Pick<T, K>
-    ? never
-    : K;
-}[keyof T];
-
-/**
- * [β] α を利用し， Passed 型から Req 型の条件を満たさないものだけを抽出
- */
-type MissingKeys<Req, Passed...]]></summary>
-        <author>
-            <name>mpyw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[mdn expressJs local library website rebuilt with Strapi and NextJS]]></title>
-        <id>https://zenn.dev/okuninoshi/articles/a63131abf7d9ae</id>
-        <link href="https://zenn.dev/okuninoshi/articles/a63131abf7d9ae"/>
-        <updated>2021-07-08T13:02:52.000Z</updated>
-        <summary type="html"><![CDATA[How to Rebuild the mdn express local library website with strapi and nextjs
-
- 1-Intro
-Welcome to the "Local Library" Strapijs, Nextjs tutorial, in which we develop a web app that might be used to manage the catalog for a local library.
-this tutorial is a rebuild of the MDN "Local Library" Expre...]]></summary>
-        <author>
-            <name>okuninoshi</name>
         </author>
     </entry>
 </feed>
