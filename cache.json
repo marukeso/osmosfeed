@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/tomi/articles/2021-08-08-next-issue",
+          "author": "Tomiaki Matsumura",
+          "description": "next.jsで新しいプロジェクトを作っている際にハマってしまった問題に関しての解決策です。\nこの問題に関しては、バージョンに起因すると思われますので、2021年8月時点での話であり、新しいバージョンが出ている場合は、解決しているかもしれません。\nそれまでの参考までにご活用ください。\n\n 問題\nnext.jsをreact-markdownを使ってマークダウンからブログ記事を書くような利用は多いということは、関連記事の多さからも異論はないと思います。\n私も１年前からこの組み合わせでブログ書いたりしています。最近マークダウンを使用する別のサイトのプロジェクトを作成し、react-markdo...",
+          "link": "https://zenn.dev/tomi/articles/2021-08-08-next-issue",
+          "publishedOn": "2021-08-08T13:49:23.000Z",
+          "wordCount": 192,
+          "title": "react-markdownで詰まったのでメモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--_P0MedXt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Tomiaki%2520Matsumura%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:react-markdown%25E3%2581%25A7%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kxWmcwYWVJT0piX0hZNV9ISnJYMlpuU2FEY3BfaXBZM3BhMlZ3blE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/a_da_chi/articles/2128cecc29635a",
+          "author": "adachi",
+          "description": "はじめに\n※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。\nhttps://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入\n今回はNext.js+Chakra UIプロジェクトにStorybookを導入する手順を書いていきたい思います。\n\n 導入手順\n\n\nnpx sb initを実行\n設定ファイルを修正\nStoryを追加\n\n\n npx sb initを実行\n\n      \n        \n        npx sb init\n\n\n      \n  ...",
+          "link": "https://zenn.dev/a_da_chi/articles/2128cecc29635a",
+          "publishedOn": "2021-08-08T08:28:51.000Z",
+          "wordCount": 298,
+          "title": "Next.js+Chakra UIプロジェクトにStorybookを導入する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--45_Is1GM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:adachi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%252BChakra%2520UI%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25ABStorybook%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hvU1F2dTVtTFZ2WUdOVUt1bE5kVE9Gd2Q5Z3VlTFhCaWJ3LTRHS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ptpadan/articles/serverless-next-isr",
+          "author": "yasushi.kobayashi",
+          "description": "メディアを Next.js/Headless CMS でメディアを開発を行っているので、の技術選定やハマりどころをまとめていきます。\n使用している技術の概要は下記です。\n\nNext.js は Serverless Framework を使用して AWS 上にデプロイ\nHeadless CMS は、Prismic を使用\n\n\n Serverless frameworkの選定理由\nAWS からインフラを分離したくない事情があったため、Vercel や Firebase Hosting 等は選択肢外でした。\n別のプロダクトでは ecs を使用しているのですが、メディアはメインプロダクトではない...",
+          "link": "https://zenn.dev/ptpadan/articles/serverless-next-isr",
+          "publishedOn": "2021-08-08T05:17:42.000Z",
+          "wordCount": 439,
+          "title": "Next.js/Serverless Frameworkでisr対応サイトを立ち上げる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--3bTzd2wg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yasushi.kobayashi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%252FServerless%2520Framework%25E3%2581%25A7isr%25E5%25AF%25BE%25E5%25BF%259C%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E7%25AB%258B%25E3%2581%25A1%25E4%25B8%258A%25E3%2581%2592%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2paSXpCVVZFUTgtTXY4VG4xMzBoYXR4RmN6TXYzV1A3dWhzRFlka19RPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/dl10yr/articles/021c1b0fc2ec35",
           "author": "dl10yr",
           "description": "最重要なこと\nGA4ではなくユニバーサルアナリティクスのプロパティ（UA-始まりのID）を使うこと！ (2021年8月4日現在、私調べ）\n\n      \n        \n        [AmpAnalytics <unknown id>] No triggers were found in the config. No analytics data will be sent.\n\n\n      \n      GA4のIDでは動きませんでした...\nhttps://github.com/ampproject/amphtml/issues/30903\n\n 実装方針\nAMP対...",
@@ -1915,104 +1957,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/meijin/articles/vite-react-ts-vanilla-extract-playground",
-          "author": "Meijin",
-          "description": "概要\n以下のGitHubリポジトリに、Vite + React + TS + vanilla-extract +α が動作するサンプルリポジトリを作った。\nhttps://github.com/TeXmeijin/vite-react-playground\n本記事では動作させるための設定のポイントや、各利用技術、ライブラリの概要について説明する。\nリポジトリ名をplaygroundとしているとおり、今後このリポジトリには色々なライブラリ(react-hook-form, SWRなど)の検証内容を追記していく予定だが、ひとまず環境構築で一段落したので記事を書いた。\n\n\n 動作確認時のバ...",
-          "link": "https://zenn.dev/meijin/articles/vite-react-ts-vanilla-extract-playground",
-          "publishedOn": "2021-07-10T08:32:49.000Z",
-          "wordCount": 248,
-          "title": "Vite + React + TS + vanilla-extract +α が動作するサンプルリポジトリを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--TAfsEyLo--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Meijin%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Vite%2520%252B%2520React%2520%252B%2520TS%2520%252B%2520vanilla-extract%2520%252B%25CE%25B1%2520%25E3%2581%258C%25E5%258B%2595%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pPWmtyWk1nS3djRXl5a2w1X2lVTFZFVmtVVUpkNzkzcjlfejhERjRzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/garmi/articles/e761f112d9c48a",
-          "author": "がーみ",
-          "description": "JavaScriptで書かれたReact NativeアプリをTypeScriptへ変換しているのですが、その際にReactNavigation（v5）で画面遷移を実装している箇所に型を定義する際に躓いたのでその時の設定方法を載せておきます。\n以下は公式ドキュメントをなぞって実装しています。\nhttps://reactnavigation.org/docs/typescript/\n\n Navigator (Router)の設定\nまずは画面を管理しているファイルに型を定義します。（プロジェクトによって異なると思いますが、私の場合はRouter.tsx)\n\n      \n        \n ...",
-          "link": "https://zenn.dev/garmi/articles/e761f112d9c48a",
-          "publishedOn": "2021-07-10T07:38:49.000Z",
-          "wordCount": 89,
-          "title": "【React Native】React Navigationで遷移時に受け渡すパラメータに型を設定する方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wsV6aGp0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258C%25E3%2583%25BC%25E3%2581%25BF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590React%2520Native%25E3%2580%2591React%2520Navigation%25E3%2581%25A7%25E9%2581%25B7%25E7%25A7%25BB%25E6%2599%2582%25E3%2581%25AB%25E5%258F%2597%25E3%2581%2591%25E6%25B8%25A1%25E3%2581%2599%25E3%2583%2591%25E3%2583%25A9%25E3%2583%25A1%25E3%2583%25BC%25E3%2582%25BF%25E3%2581%25AB%25E5%259E%258B%25E3%2582%2592%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2E5OTdhOTUyZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yuki0410/articles/2ad97915768826",
-          "author": "らんす🍐",
-          "description": "はじめに\n最近、JESTとReact Testing Libraryを使ってテストを書く機会が増えてきました。\n最初は愚直にテストを書いていたのですが、以下のような課題が出てきたため、コンポーネント構成を見直してみました。\n\nコンポーネント外のパラメータ(Props や store, API など) と画面表示項目の間に複雑な変換ロジックが入っていてテストを書くのが大変\nUI の変更などによりテストが通らなくなる\n\n\n Before\n1 コンポーネントの中に表示値への変換ロジックが入っているコンポーネントになります。\n変換部分が複雑化するとテストを書くのがだんだん億劫になってきます。...",
-          "link": "https://zenn.dev/yuki0410/articles/2ad97915768826",
-          "publishedOn": "2021-07-10T06:35:05.000Z",
-          "wordCount": 371,
-          "title": "テスタブルなReact Componentの書き方",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--mY0FsmJ_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2589%25E3%2582%2593%25E3%2581%2599%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%2586%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2596%25E3%2583%25AB%25E3%2581%25AAReact%2520Component%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjQ2M2NjMGI0My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/garmi/articles/6bdab5527ca325",
-          "author": "がーみ",
-          "description": "React Nativeでアプリを開発している際に、スマートフォンの端末で文字サイズを大きく設定している場合に文字サイズによってはレイアウトが崩れてしまうことがありました。一旦文字サイズを端末に影響されないよう固定にしたいと思ったのでそのときの調査メモです。\n\n 結論\nTextコンポーネントのPropsに以下の項目を設定\n\n      \n        \n        allowFontScaling={false}\n\n\n      \n      \n コンポーネント共通化\nExpo環境で実装しているので、app.jsonにフォントサイズの固定の設定などはあるか調べてみましたが見当たらな...",
-          "link": "https://zenn.dev/garmi/articles/6bdab5527ca325",
-          "publishedOn": "2021-07-10T06:34:13.000Z",
-          "wordCount": 94,
-          "title": "【React Native】端末で設定している文字サイズによる影響を制限したい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--mChTTD78--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258C%25E3%2583%25BC%25E3%2581%25BF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590React%2520Native%25E3%2580%2591%25E7%25AB%25AF%25E6%259C%25AB%25E3%2581%25A7%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E6%2596%2587%25E5%25AD%2597%25E3%2582%25B5%25E3%2582%25A4%25E3%2582%25BA%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E5%25BD%25B1%25E9%259F%25BF%25E3%2582%2592%25E5%2588%25B6%25E9%2599%2590%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2E5OTdhOTUyZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/gamin/articles/796f8b643c8401",
-          "author": "gamine🍑",
-          "description": "これまでの経緯\njest で Unit Test 描けるようになった。\n次のステップ行ってみよう。\n「「 Component Test だ！」」\n\n 環境とか\n\nJest\nVue.js Composition API\n\n\n 環境を整える\n必要なものを import する。\n\n      \n        \n        import { createLocalVue, shallowMount } from '@vue/test-utils'\nimport VueCompositionApi from '@vue/composition-api'\nimport CalendarTe...",
-          "link": "https://zenn.dev/gamin/articles/796f8b643c8401",
-          "publishedOn": "2021-07-10T02:21:24.000Z",
-          "wordCount": 295,
-          "title": "Composition API で @vue/test-utils 使ってみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--PNTJLfiF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Composition%2520API%2520%25E3%2581%25A7%2520%2540vue%252Ftest-utils%2520%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72",
-          "author": "くぷまーる",
-          "description": "graphqL-code-generatorとは、GraphQLのスキーマからTypeScriptの型を自動生成してくれるライブラリです。便利です。\n普段、何気なく使ってたのですがセットアップ周りとか、あんま知らないなあ。。。\nと思ったのでセットアップしてみました。\n備忘録で残します。\n\n\n初期セットアップ\n\n\n      \n        \n        npx create-react-app graphql-codegen-github-app --template typescript\n\n\n      \n      でappを作成します。\n次に、パッケージをinstallします...",
-          "link": "https://zenn.dev/kupuma_ru21/articles/8003e5dd765b72",
-          "publishedOn": "2021-07-09T15:49:41.000Z",
-          "wordCount": 295,
-          "title": "graphqL-code-generatorをセットアップしますた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--owobexK3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258F%25E3%2581%25B7%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:graphqL-code-generator%25E3%2582%2592%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2599%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjFkZGYxMjM1My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/huequica/articles/first_npm_package",
-          "author": "Haru_Yakumo",
-          "description": "以前ヒカキンシンメトリーbotを書き直したという話をしたのですが一応まだメンテナンスを続けており、それなりに改善を続けています。\n今回はそのbotの新機能を入れるにあたりコードの分割の目的で自作パッケージをリリースした話をします。\n\n 内容\n\n既存の Array クラスに対し、最後の要素と引数が等しいかどうかを返す\n\n\n['hoge', fuga].lastItemIs('fuga') みたいに使いたい\n\n\n\nこれだけ。故に超軽量超簡単です。\nまあ今後なにか追加したいものを思いついたら追加していく感じの運用を考えているので、パッケージの名前としては @huequica/native_ex...",
-          "link": "https://zenn.dev/huequica/articles/first_npm_package",
-          "publishedOn": "2021-07-09T15:07:12.000Z",
-          "wordCount": 478,
-          "title": "npmのパッケージをリリースしてCI/CDさせるまでやってみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--99bimqUP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Haru_Yakumo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:npm%25E3%2581%25AE%25E3%2583%2591%25E3%2583%2583%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25A6CI%252FCD%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDRUNJM2xDR3ZjNWNrYWN6QVFIcm5QeTZTS2VsX3lZOFNKM05jMVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2132,20 +2076,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kawagh/articles/library2snippets",
-          "author": "kawagh",
-          "description": "はじめに\n\n筆者は競技プログラミングで使用頻度の高い処理を関数やクラスとしてライブラリ化しています。\nそのライブラリをコンテスト中に素早く確実に使用するためにスニペット(snippet)化しました。\nライブラリからsnippet化への作業をライブラリ更新の度に変更を手動で反映させるのは面倒かつ不確実なのでその作業を自動化するシェルスクリプトを作成しました。\n本記事ではsnippet化に伴い行った作業やスクリプト、感じたことをまとめておきます。\n\n\n 依存関係\n\nvim\ncoc.nvim(https://github.com/neoclide/coc.nvim)\ncoc-snippet...",
-          "link": "https://zenn.dev/kawagh/articles/library2snippets",
-          "publishedOn": "2021-07-10T00:12:52.000Z",
-          "wordCount": 210,
-          "title": "競プロライブラリのスニペット化作業の自動化",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--58y1BoXa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawagh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25AB%25B6%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%258B%25E3%2583%259A%25E3%2583%2583%25E3%2583%2588%25E5%258C%2596%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvay5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2154,6 +2084,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/tentel/articles/040a0251dab79f",
+          "author": "てんてる",
+          "description": "Ionicでリストの並び替えを実装する場合に利用可能な、Reorderコンポーネントの使い方まとめ\n\n 基本情報\n\n props\n\n\n\nprops名\n型\n初期値\n説明\n\n\n\n\ndisabled\nboolean\ntrue\n並び替えを禁止するかどうか。\n\n\n\n\n emit\n\n\n\nemit名\n戻り値\n説明\n\n\n\n\nionItemReorder\nEvent\n並び替えを完了させるために呼ぶ必要があるイベント。戻り値のEventの中にcompleteメソッドがあり、completeメソッドを呼び出すことで並び替えが完了する。呼び出さない場合は、並び替えが完了せずにフリーズする。\n\n\n\n戻り値の中身\n...",
+          "link": "https://zenn.dev/tentel/articles/040a0251dab79f",
+          "publishedOn": "2021-08-08T07:19:13.000Z",
+          "wordCount": 230,
+          "title": "【Ionic×Vue】並び替え(Reorder)リストの作り方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--tqJygrZ9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25A6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Ionic%25C3%2597Vue%25E3%2580%2591%25E4%25B8%25A6%25E3%2581%25B3%25E6%259B%25BF%25E3%2581%2588%2528Reorder%2529%25E3%2583%25AA%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzlhMGRmYzE4ZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/gaomar/articles/12c8664058638b",
           "author": "がおまる",
@@ -2556,34 +2500,6 @@
           "title": "【Vue.js】スライドアップダウン・ドロップダウン・アコーディオン",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--C1pLbYOA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ymkn8crz%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Vue.js%25E3%2580%2591%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2589%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%2580%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%25BB%25E3%2583%2589%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2597%25E3%2583%2580%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%25BB%25E3%2582%25A2%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2582%25AA%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODJlZmMzNWNmZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/lemonadern/articles/6194cc19b71d61",
-          "author": "Taishi",
-          "description": "チーム開発でVueを使っていると、突然$hoge(hogeは任意の文字列)とかいう変数や関数に遭遇することがある。\n中途半端にVueを知っていると、\n「知らない機能だな、$emit()みたいなやつかな？」\nと思ってGoogle検索をするも、何も結果が得られない...\n「じゃあ普通に関数とかかな？」\nと思ってコード内を検索しても、定義箇所が見当たらない...　　\nという状況に陥ることがある。\nかなり困惑したので調べた。\n\n $hogeとは？\nVueの場合、$hogeというのはすべてのコンポーネントからアクセスできるデータやメゾッドを示している可能性が高い。\nもしファイル内で宣言もなく、im...",
-          "link": "https://zenn.dev/lemonadern/articles/6194cc19b71d61",
-          "publishedOn": "2021-07-10T07:43:20.000Z",
-          "wordCount": 43,
-          "title": "Vueで「$」から始まる謎のモノに困惑した",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--L505w2oc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Taishi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25E3%2581%25A7%25E3%2580%258C%2524%25E3%2580%258D%25E3%2581%258B%25E3%2582%2589%25E5%25A7%258B%25E3%2581%25BE%25E3%2582%258B%25E8%25AC%258E%25E3%2581%25AE%25E3%2583%25A2%25E3%2583%258E%25E3%2581%25AB%25E5%259B%25B0%25E6%2583%2591%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTgwMmRmNmYzNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/gamin/articles/796f8b643c8401",
-          "author": "gamine🍑",
-          "description": "これまでの経緯\njest で Unit Test 描けるようになった。\n次のステップ行ってみよう。\n「「 Component Test だ！」」\n\n 環境とか\n\nJest\nVue.js Composition API\n\n\n 環境を整える\n必要なものを import する。\n\n      \n        \n        import { createLocalVue, shallowMount } from '@vue/test-utils'\nimport VueCompositionApi from '@vue/composition-api'\nimport CalendarTe...",
-          "link": "https://zenn.dev/gamin/articles/796f8b643c8401",
-          "publishedOn": "2021-07-10T02:21:24.000Z",
-          "wordCount": 295,
-          "title": "Composition API で @vue/test-utils 使ってみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--PNTJLfiF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Composition%2520API%2520%25E3%2581%25A7%2520%2540vue%252Ftest-utils%2520%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
