@@ -77,6 +77,64 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-09">2021-08-09</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Serverless Next.jsをAWS CDKで立ち上げるサンプル</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>できれば公式のExampleに持っていきたいので、PRたててリクエスト中。
+https://github.com/serverless-nextjs/serverless-next.js/pull/1522
+マージされたらそっちベースにちゃんとした記事書き直す予定。
+
+ Serverless Next.jsでAWS CDK
+Serverless Next.jsといえば、Serverless Componentを使う印象でした。が、最近CDK版も出たみたいです。
+
+ 定義イメージ
+
+      
+        
+        import * as cdk from &#x27;@aws-cdk...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">nextjs-auth0を使用時の、privateなページに対する簡単なテストの実装方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mongolyy/articles/b701d6c6184bb5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+最近、Next.js + Auth0の組み合わせでアプリケーションを開発することが多いのですが、
+要認証の非公開ページもあるため、withPageAuthRequiredやwithAPIAuthRequiredを使用しています。
+その場合のテストの実装について、公式ではSDKのインスタンスを作成する方法が紹介されているわけですが、単にwithPageAuthRequired withAPIAuthRequiredの中の挙動を確認したいだけならwithPageAuthRequired withAPIAuthRequiredをspy化して、テストを実装すればいいのでは？と、考え...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js関連</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gosutesu/books/a8b6320a9247a3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>自己学習用のNext.jsに関連するものをまとめるもの</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-08">2021-08-08</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -156,6 +214,56 @@ AWS からインフラを分離したくない事情があったため、Vercel 
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">再帰処理で入れ子のテーブルコンポーネントを作る（折りたたみ機能付き！）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kimizuy/articles/recursive-table">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+再帰的なデータ構造に従って入れ子の（ネストされた）コンポーネントを実装してみました。
+
+ ミニマルな再帰コンポーネント
+まずは、再帰処理の流れを掴むためにミニマルなコンポーネントの例を以下に示します。
+実態としては、繰り返し {data.name} を表示していくだけですね。
+
+      
+        
+        type Data &#x3D; { name: string; children?: Data[] };
+
+type Props &#x3D; {
+  data: Data;
+};
+
+const RecursiveComponent &#x3D; ({ data }: Props...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React PopOverコンテンツ内でTabのFocusをいい感じにするhook</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/remon/articles/9e2953d699368a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>OverlayやPopOverでコンテンツを表示するとき、タブでの操作性は以下のようになってると望ましいと思う。
+
+Overlayコンテンツが表示中の時にタブを押すと、コンテンツにフォーカスが当たる。
+タブを押した時Overlayコンテンツのフォーカス可能な最初の子要素にフォーカスが当たる
+Overlayコンテンツのフォーカス可能な最後の子要素がフォーカス中であれば、最初の子要素のフォーカスが当たる。
+
+react-popper等を使っていい感じのOverlayコンポーネントを作ったとしても、
+所詮座標を調整するライブラリなのでこの手のタブの操作性に関しては自前で実装する必要がありそうで...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -222,6 +330,26 @@ Event
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Cloud Functions for firebaseでPrismaを使ってみる[Dockerでローカル開発環境構築]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/masamichhhi/articles/cloudfuntions-prisma-docker">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>cloud functionsからfirestoreを使うのはとても便利ですが、cloud functionsからRDBを使いたいときがあると思います。
+そこで、prismaというtypescript向けのORMがとても使い心地がよく、これをcloud functionsで手軽に使いたいなと思ったので、dockerを使ってそれらをローカルで開発できる環境を構築してみます。
+
+ この記事でやること
+
+Cloud Functions for Firebaseとmysqlの環境をdockerで構築
+prismaでfunctionからmysqlにアクセスして、todoリストのAPIを作る。
+
+
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Docker で React + TypeScript の開発環境構築 2021</summary>
@@ -4523,66 +4651,6 @@ VSCode
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vercelを使わずにNext.jsするのはまだ早かった</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/makumattun/articles/c091602d3060d3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>こちらの記事の続きになります。
-https://zenn.dev/articles/6e260f3a5af117
-
- serverless-nextjs
-2021年7月11日現在
-https://www.serverless.com/plugins/serverless-nextjs-plugin/
-こちらを使うことによって、Next.jsの10系の機能をAWSにデプロイできると歓喜してそちらをつかいながら実装しておりました。
-
- ISRを設定したページで503エラーの頻発
-こちらエラーの全文を載せておきます。
-
-      
-        
-        503 ERROR
-The...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをする</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/a_da_chi/articles/7ba871c23c5510">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
-https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
-今回はNext.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをするまでの手順を書いていきたい思います。
-
- 前提
-
-Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること
-Vercelを使用しており、PRごとにPreview環境がデ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【簡単】Next.jsによるSSGの実装</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mo_ri_regen/articles/implement-ssg-article">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Next.jsではAPIを叩くときにgetStaticPropsを使うことで、ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことができます。ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことをSSGと呼びます。
-TypeScriptを使う場合はgetStaticPropsの型にGetStaticProps[1]を指定します。
-SSG(StaticSiteGeneration)とは
-Static Generationと呼ばれることもあります。
-ビルド時にデータを取得することでpre-renderされるため高速にデータを読むことができます。
-リアル...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4735,19 +4803,6 @@ VSCode
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">テスト駆動開発（TDD）でコードを書く</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/6d1882c2e00d0a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>テスト駆動開発の本を買って少し読みましたが、実際に自分でコードを書いて表現してみたく、TypeScriptとJestでテスト駆動開発を実践します。
-https://www.amazon.co.jp/-/en/Kent-Beck/dp/4274217884/ref&#x3D;sr_1_1?crid&#x3D;29A7GYVAMFT8E&amp;dchild&#x3D;1&amp;keywords&#x3D;テスト駆動開発&amp;language&#x3D;ja_JP&amp;qid&#x3D;1625801931&amp;sprefix&#x3D;テスト駆動%2Caps%2C282&amp;sr&#x3D;8-1
-この記事では簡単なコードをテスト駆動開発の手順に沿っ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4790,43 +4845,9 @@ Vue.use(VueClipboard)
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-10">2021-07-10</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Vue.js】スライドアップダウン・ドロップダウン・アコーディオン</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ymkn8crz/articles/25c7962dd20d54">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>以前実装に使ったVueのライブラリについてメモ。
-スライドアップダウンメニュー、ドロップダウンメニュー、アコーディオンメニューなど言い方がいろいろあるやつ。
-
- 今回の仕様
-「詳しくはこちら」と書いてある赤色ヘッダーをクリックすると、
-
-スライドがアニメーションで開き、詳細を表示する。周りの要素もスライドに合わせて移動する。
-
-もう一度クリックすると元に戻る。
-
- vue-slide-up-down
-Vue.jsの開発で、スライド機能を実装するならvue-slide-up-downを使うと簡単に実装できた。
-https://github.com/danieldiekmeier/vue-s...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-09T01:04:26.722Z">2021-08-09T01:04:26.722Z</time>
+    <time id="build-timestamp" datetime="2021-08-10T01:06:39.376Z">2021-08-10T01:06:39.376Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

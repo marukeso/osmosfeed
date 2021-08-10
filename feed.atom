@@ -2,10 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-09T01:04:26.752Z</updated>
+    <updated>2021-08-10T01:06:39.396Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Serverless Next.jsをAWS CDKで立ち上げるサンプル]]></title>
+        <id>https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6</id>
+        <link href="https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6"/>
+        <updated>2021-08-09T13:23:35.000Z</updated>
+        <summary type="html"><![CDATA[できれば公式のExampleに持っていきたいので、PRたててリクエスト中。
+https://github.com/serverless-nextjs/serverless-next.js/pull/1522
+マージされたらそっちベースにちゃんとした記事書き直す予定。
+
+ Serverless Next.jsでAWS CDK
+Serverless Next.jsといえば、Serverless Componentを使う印象でした。が、最近CDK版も出たみたいです。
+
+ 定義イメージ
+
+      
+        
+        import * as cdk from '@aws-cdk...]]></summary>
+        <author>
+            <name>hidetaka okamoto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nextjs-auth0を使用時の、privateなページに対する簡単なテストの実装方法]]></title>
+        <id>https://zenn.dev/mongolyy/articles/b701d6c6184bb5</id>
+        <link href="https://zenn.dev/mongolyy/articles/b701d6c6184bb5"/>
+        <updated>2021-08-09T04:04:14.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+最近、Next.js + Auth0の組み合わせでアプリケーションを開発することが多いのですが、
+要認証の非公開ページもあるため、withPageAuthRequiredやwithAPIAuthRequiredを使用しています。
+その場合のテストの実装について、公式ではSDKのインスタンスを作成する方法が紹介されているわけですが、単にwithPageAuthRequired withAPIAuthRequiredの中の挙動を確認したいだけならwithPageAuthRequired withAPIAuthRequiredをspy化して、テストを実装すればいいのでは？と、考え...]]></summary>
+        <author>
+            <name>mongolyy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js関連]]></title>
+        <id>https://zenn.dev/gosutesu/books/a8b6320a9247a3</id>
+        <link href="https://zenn.dev/gosutesu/books/a8b6320a9247a3"/>
+        <updated>2021-08-09T00:36:55.000Z</updated>
+        <summary type="html"><![CDATA[自己学習用のNext.jsに関連するものをまとめるもの]]></summary>
+        <author>
+            <name>渡部良輝</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[再帰処理で入れ子のテーブルコンポーネントを作る（折りたたみ機能付き！）]]></title>
+        <id>https://zenn.dev/kimizuy/articles/recursive-table</id>
+        <link href="https://zenn.dev/kimizuy/articles/recursive-table"/>
+        <updated>2021-08-08T14:48:24.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+再帰的なデータ構造に従って入れ子の（ネストされた）コンポーネントを実装してみました。
+
+ ミニマルな再帰コンポーネント
+まずは、再帰処理の流れを掴むためにミニマルなコンポーネントの例を以下に示します。
+実態としては、繰り返し {data.name} を表示していくだけですね。
+
+      
+        
+        type Data = { name: string; children?: Data[] };
+
+type Props = {
+  data: Data;
+};
+
+const RecursiveComponent = ({ data }: Props...]]></summary>
+        <author>
+            <name>kimizuy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[react-markdownで詰まったのでメモ]]></title>
         <id>https://zenn.dev/tomi/articles/2021-08-08-next-issue</id>
@@ -106,6 +175,23 @@ Event
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[React PopOverコンテンツ内でTabのFocusをいい感じにするhook]]></title>
+        <id>https://zenn.dev/remon/articles/9e2953d699368a</id>
+        <link href="https://zenn.dev/remon/articles/9e2953d699368a"/>
+        <updated>2021-08-08T06:03:58.000Z</updated>
+        <summary type="html"><![CDATA[OverlayやPopOverでコンテンツを表示するとき、タブでの操作性は以下のようになってると望ましいと思う。
+
+Overlayコンテンツが表示中の時にタブを押すと、コンテンツにフォーカスが当たる。
+タブを押した時Overlayコンテンツのフォーカス可能な最初の子要素にフォーカスが当たる
+Overlayコンテンツのフォーカス可能な最後の子要素がフォーカス中であれば、最初の子要素のフォーカスが当たる。
+
+react-popper等を使っていい感じのOverlayコンポーネントを作ったとしても、
+所詮座標を調整するライブラリなのでこの手のタブの操作性に関しては自前で実装する必要がありそうで...]]></summary>
+        <author>
+            <name>remon</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Next.js/Serverless Frameworkでisr対応サイトを立ち上げる]]></title>
         <id>https://zenn.dev/ptpadan/articles/serverless-next-isr</id>
         <link href="https://zenn.dev/ptpadan/articles/serverless-next-isr"/>
@@ -122,6 +208,25 @@ AWS からインフラを分離したくない事情があったため、Vercel 
 別のプロダクトでは ecs を使用しているのですが、メディアはメインプロダクトではない...]]></summary>
         <author>
             <name>yasushi.kobayashi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Functions for firebaseでPrismaを使ってみる[Dockerでローカル開発環境構築]]]></title>
+        <id>https://zenn.dev/masamichhhi/articles/cloudfuntions-prisma-docker</id>
+        <link href="https://zenn.dev/masamichhhi/articles/cloudfuntions-prisma-docker"/>
+        <updated>2021-08-07T15:05:51.000Z</updated>
+        <summary type="html"><![CDATA[cloud functionsからfirestoreを使うのはとても便利ですが、cloud functionsからRDBを使いたいときがあると思います。
+そこで、prismaというtypescript向けのORMがとても使い心地がよく、これをcloud functionsで手軽に使いたいなと思ったので、dockerを使ってそれらをローカルで開発できる環境を構築してみます。
+
+ この記事でやること
+
+Cloud Functions for Firebaseとmysqlの環境をdockerで構築
+prismaでfunctionからmysqlにアクセスして、todoリストのAPIを作る。
+
+
+...]]></summary>
+        <author>
+            <name>masamichhhi</name>
         </author>
     </entry>
     <entry>
@@ -3802,97 +3907,6 @@ VSCode
 まずWSLで下記コマンドを実行して、...]]></summary>
         <author>
             <name>din</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[テスト駆動開発（TDD）でコードを書く]]></title>
-        <id>https://zenn.dev/chida/articles/6d1882c2e00d0a</id>
-        <link href="https://zenn.dev/chida/articles/6d1882c2e00d0a"/>
-        <updated>2021-07-11T09:59:28.000Z</updated>
-        <summary type="html"><![CDATA[テスト駆動開発の本を買って少し読みましたが、実際に自分でコードを書いて表現してみたく、TypeScriptとJestでテスト駆動開発を実践します。
-https://www.amazon.co.jp/-/en/Kent-Beck/dp/4274217884/ref=sr_1_1?crid=29A7GYVAMFT8E&dchild=1&keywords=テスト駆動開発&language=ja_JP&qid=1625801931&sprefix=テスト駆動%2Caps%2C282&sr=8-1
-この記事では簡単なコードをテスト駆動開発の手順に沿っ...]]></summary>
-        <author>
-            <name>chida</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vercelを使わずにNext.jsするのはまだ早かった]]></title>
-        <id>https://zenn.dev/makumattun/articles/c091602d3060d3</id>
-        <link href="https://zenn.dev/makumattun/articles/c091602d3060d3"/>
-        <updated>2021-07-11T08:10:46.000Z</updated>
-        <summary type="html"><![CDATA[こちらの記事の続きになります。
-https://zenn.dev/articles/6e260f3a5af117
-
- serverless-nextjs
-2021年7月11日現在
-https://www.serverless.com/plugins/serverless-nextjs-plugin/
-こちらを使うことによって、Next.jsの10系の機能をAWSにデプロイできると歓喜してそちらをつかいながら実装しておりました。
-
- ISRを設定したページで503エラーの頻発
-こちらエラーの全文を載せておきます。
-
-      
-        
-        503 ERROR
-The...]]></summary>
-        <author>
-            <name>mattun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをする]]></title>
-        <id>https://zenn.dev/a_da_chi/articles/7ba871c23c5510</id>
-        <link href="https://zenn.dev/a_da_chi/articles/7ba871c23c5510"/>
-        <updated>2021-07-11T07:56:28.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。
-https://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入
-今回はNext.jsプロジェクトにCypressを導入してGitHub ActionsでVercelのPreview環境のE2Eテストをするまでの手順を書いていきたい思います。
-
- 前提
-
-Next.jsでsrcディレクトリ配下にアプリケーションコードを配置していること
-Vercelを使用しており、PRごとにPreview環境がデ...]]></summary>
-        <author>
-            <name>adachi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【簡単】Next.jsによるSSGの実装]]></title>
-        <id>https://zenn.dev/mo_ri_regen/articles/implement-ssg-article</id>
-        <link href="https://zenn.dev/mo_ri_regen/articles/implement-ssg-article"/>
-        <updated>2021-07-11T02:03:43.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsではAPIを叩くときにgetStaticPropsを使うことで、ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことができます。ビルド時にデータを取得して事前にHTMLファイルのレンダリングを行うことをSSGと呼びます。
-TypeScriptを使う場合はgetStaticPropsの型にGetStaticProps[1]を指定します。
-SSG(StaticSiteGeneration)とは
-Static Generationと呼ばれることもあります。
-ビルド時にデータを取得することでpre-renderされるため高速にデータを読むことができます。
-リアル...]]></summary>
-        <author>
-            <name>モーリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Vue.js】スライドアップダウン・ドロップダウン・アコーディオン]]></title>
-        <id>https://zenn.dev/ymkn8crz/articles/25c7962dd20d54</id>
-        <link href="https://zenn.dev/ymkn8crz/articles/25c7962dd20d54"/>
-        <updated>2021-07-10T15:20:44.000Z</updated>
-        <summary type="html"><![CDATA[以前実装に使ったVueのライブラリについてメモ。
-スライドアップダウンメニュー、ドロップダウンメニュー、アコーディオンメニューなど言い方がいろいろあるやつ。
-
- 今回の仕様
-「詳しくはこちら」と書いてある赤色ヘッダーをクリックすると、
-
-スライドがアニメーションで開き、詳細を表示する。周りの要素もスライドに合わせて移動する。
-
-もう一度クリックすると元に戻る。
-
- vue-slide-up-down
-Vue.jsの開発で、スライド機能を実装するならvue-slide-up-downを使うと簡単に実装できた。
-https://github.com/danieldiekmeier/vue-s...]]></summary>
-        <author>
-            <name>ymkn8crz</name>
         </author>
     </entry>
 </feed>
