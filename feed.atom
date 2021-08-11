@@ -2,10 +2,137 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-10T01:06:39.396Z</updated>
+    <updated>2021-08-11T01:04:40.901Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[next/imageをJestとStorybookで使うためにモックする方法]]></title>
+        <id>https://zenn.dev/yukishinonome/articles/0784517bff279b</id>
+        <link href="https://zenn.dev/yukishinonome/articles/0784517bff279b"/>
+        <updated>2021-08-10T09:55:14.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+オリジナルな要素があまり多くないので記事にするか迷ったのですが、next/imageをモックする方法について日本語で書いてあるものがほとんどなかったので記事にしました。Next.js関連は新しい技術なので、日本語のドキュメントも少ないですし、僕のような駆け出しエンジニアには日本語のドキュメントが少しでも多くあるととても助かるのでちょっとしたことでも書いていきたいですね。
+
+ モックする方法を調べていて困ったこと
+next/imageをJestでモックして使う方法は英語ドキュメントでちらほら見つかったのですが、それらをStorybookに対しても使うと、悲しいことにnext/...]]></summary>
+        <author>
+            <name>東雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-08-10のJS: pnpm 6.12.0、webpack 5.49.0(import http resource)、Vue 3.2]]></title>
+        <id>https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/</id>
+        <link href="https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/"/>
+        <updated>2021-08-10T03:10:09.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #552 - パッケージマネージャであるpnpm 6.12.9がリリースされました。
+Release v6.12.0 · pnpm/pnpm
+pnpm 6.12.0ではpnpm env use --global 16.5.0のように、Node.jsをインストールするコマンドが追加されています。
+single binaryとして配布した場合に、Node.jsがグローバルにインストールされていない環境でもpnpmが利用できるようになります。
+pnpm envが追加されています。
+Using pnpm as a Node.js version manager · Discussion #3434 · pnpm/pnpm
+webpack 5.49.0がリリースされました。
+Release v5.49.0 · webpack/webpack
+試験的な機能としてexperiments.buildHttpというオプションで、リモートのリソースをimportできるようになっています。次のようにimport文でhttpなURLを指定すると、そのリソースをダウンロードして、bundleできます。
+import pMap1 from "https://cdn.skypack.dev/p-map";
+
+
+ダウンロードしたリソースは、<name>.webpack.lock.dataディレクトリに保存され、リソースのロックファイルが<name>.webpack.lockに保存されます。
+Denoに近いものとなっています。
+webpack/examples/build-http at main · webpack/webpack
+add experiments.buildHttp by sokra · Pull Request #13925 · webpack/webpack
+Exp…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTMLコーディングでもReact+TypeScriptの開発体験を得る]]></title>
+        <id>https://zenn.dev/nanaki14/articles/html-template-react</id>
+        <link href="https://zenn.dev/nanaki14/articles/html-template-react"/>
+        <updated>2021-08-10T01:31:16.000Z</updated>
+        <summary type="html"><![CDATA[前置き
+HTMLを納品する形式の仕事の際にEJSやpugではなくReact+TypeScriptを使ってHTMLを生成しつつ開発体験を高めてほしい。
+ということで具体的にどのようなメリットがあるのかを伝えたくてまとめてみました。
+
+ 開発環境
+1から環境を作るのは大変なので今回はクラクさんのministaを拡張していきます。
+ministaの紹介記事はこちら
+https://www.npmjs.com/package/minista
+https://zenn.dev/qrac/articles/7537521afcd1bf
+必要な設定はTypeScript, ESLint, Pret...]]></summary>
+        <author>
+            <name>nanaki14</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[そのuseCallbackちゃんと効いていますか]]></title>
+        <id>https://zenn.dev/yuki0410/articles/9ef50554a0ac69</id>
+        <link href="https://zenn.dev/yuki0410/articles/9ef50554a0ac69"/>
+        <updated>2021-08-10T00:16:10.000Z</updated>
+        <summary type="html"><![CDATA[onChange に useCallback を使う場合、ちゃんと useCallback が効く書き方がひとクセあったのでその備忘録です。
+
+ #1.処理フロー
+今回は、よくある以下のような処理について考えていきます。
+
+
+ #2.Coding
+まずは処理フローを元に show/onChange の処理を実装します。
+※この段階ではまだ パフォーマンスは気にしません。
+
+      
+        ParentComponent.tsx
+        import { useState } from "react";
+import type { InputValue } from ...]]></summary>
+        <author>
+            <name>らんす🍐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新型コロナウイルス感染症対策サイトのステータスを確認できるサイトを作った話]]></title>
+        <id>https://zenn.dev/komisan19/articles/26ed97dd1dd068</id>
+        <link href="https://zenn.dev/komisan19/articles/26ed97dd1dd068"/>
+        <updated>2021-08-09T15:59:46.000Z</updated>
+        <summary type="html"><![CDATA[皆さんはこのページを知っていますか？
+https://stopcovid19.metro.tokyo.lg.jp/
+
+      
+        
+        この度、東京都は、新型コロナウイルス感染症対策に関する様々な情報やデータをワンストップで閲覧できるサイトを開設しました。
+
+
+      
+      ＊prtimes参照
+このような目的で作成されたようです。
+もちろん東京以外にもこのページから派生したものが多くあります。
+https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SI...]]></summary>
+        <author>
+            <name>komisan19</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nextjsでnode-pureimageを使ったJSオンリーな動的画像生成]]></title>
+        <id>https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js</id>
+        <link href="https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js"/>
+        <updated>2021-08-09T14:13:27.000Z</updated>
+        <summary type="html"><![CDATA[nextjsで動的画像生成をしたくなり、node-canvasだとnode以外の依存関係がちょっと困るケースがあったので、PureJSで実行できるnode-pureimageでなんとかならないか色々やってみた
+
+ 出来た結果
+
+      
+        
+        // /api/image/sample
+
+import { NextApiHandler, NextApiResponse } from "next"
+
+// @ts-ignore
+import { make, encodePNGToStream } from "pureimage"
+
+import getStre...]]></summary>
+        <author>
+            <name>terrierscript</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Serverless Next.jsをAWS CDKで立ち上げるサンプル]]></title>
         <id>https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6</id>
@@ -3645,268 +3772,6 @@ Jestには ModuleNameMapper なる、テスト対象のオブジェクトを imp
 ? Use ...]]></summary>
         <author>
             <name>Sho Fujimoto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt TypeScript（Composition API）、Django REST Framework で、・・・]]></title>
-        <id>https://zenn.dev/jqinglong/articles/e901ca698f2158</id>
-        <link href="https://zenn.dev/jqinglong/articles/e901ca698f2158"/>
-        <updated>2021-07-12T12:49:03.000Z</updated>
-        <summary type="html"><![CDATA[タイトル長すぎですね。途中で切れました。
-本当は
-
- Nuxt TypeScript（Composition API）、Django REST Framework で、Docker Compose上での開発基盤を作る
-こいつの続きというか。
-https://zenn.dev/jqinglong/scraps/168d1bb5dd4832
-この悪戦苦闘の結果、まあまあ良い構成ができたと思っており、それを使って、さらにもう一つアプリを作ってます。スッキリいくと思うので、そのスッキリした記録を残そうと思ったのですが、そうは問屋はおろさず・・・それでも、上記よりは落ち着いてできたので、こちらに残...]]></summary>
-        <author>
-            <name>JQinglong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt TypeScript（Composition API）、Django REST Framework で、・・・]]></title>
-        <id>https://zenn.dev/jqinglong/articles/e901ca698f2158</id>
-        <link href="https://zenn.dev/jqinglong/articles/e901ca698f2158"/>
-        <updated>2021-07-12T12:49:03.000Z</updated>
-        <summary type="html"><![CDATA[タイトル長すぎですね。途中で切れました。
-本当は
-
- Nuxt TypeScript（Composition API）、Django REST Framework で、Docker Compose上での開発基盤を作る
-こいつの続きというか。
-https://zenn.dev/jqinglong/scraps/168d1bb5dd4832
-この悪戦苦闘の結果、まあまあ良い構成ができたと思っており、それを使って、さらにもう一つアプリを作ってます。スッキリいくと思うので、そのスッキリした記録を残そうと思ったのですが、そうは問屋はおろさず・・・それでも、上記よりは落ち着いてできたので、こちらに残...]]></summary>
-        <author>
-            <name>JQinglong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[denopsでPaiza IOのwebAPIを実行するプラグインを作った]]></title>
-        <id>https://zenn.dev/omochice/articles/35e339fdfb5241</id>
-        <link href="https://zenn.dev/omochice/articles/35e339fdfb5241"/>
-        <updated>2021-07-12T03:16:14.000Z</updated>
-        <summary type="html"><![CDATA[denopsでPaiza IOのwebAPIを実行するプラグインを作った
-
-手元に特定の言語の実行環境がなくてもクラウドでコードを実行できるwebAPI(paiza.io)をvim上から実行するプラグインを作った。
-denopsについては以下を参照。
-
-
- 使い方
-
- インストール
-私がdein.vimを使ってるのでdeinの例で。
-
-      
-        
-        call dein#add("vim-denops/denops.vim")
-call dein#add("Omochice/dps-paiza-io-vim")
-
-
-      
-      
- 実行
-...]]></summary>
-        <author>
-            <name>Omochice</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue-clipboard2でクリップボードにコピーを簡単に実現する（laravel×vue.js）]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/af1723805deef4</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/af1723805deef4"/>
-        <updated>2021-07-11T23:35:18.000Z</updated>
-        <summary type="html"><![CDATA[vue-clipboardを使えば、vue.jsでクリップボードにコピーがめちゃくちゃ簡単に実現することができます！
-
- VueClipboard2をインストールする
-普通にインストールしていきます
-
-      
-        
-        npm install --save vue-clipboard2
-
-
-      
-      
- VueClipboard2をインポートする
-
-      
-        
-        import VueClipboard from 'vue-clipboard2'
-Vue.use(VueClipboard)
-
-
-      
- ...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AngularでRoutingしてもServiceが再作成されるときの原因]]></title>
-        <id>https://zenn.dev/hashito/articles/f24b066962f58d</id>
-        <link href="https://zenn.dev/hashito/articles/f24b066962f58d"/>
-        <updated>2021-07-11T23:32:45.000Z</updated>
-        <summary type="html"><![CDATA[背景
-AngularでServiceを作成して下記の一文を入れておくとクラスがシングルストン構成となるはずです。
-
-      
-        
-        @Injectable({
-  providedIn: 'root'
-})
-
-
-      
-      シングルストン構成とは、アプリケーション上単一のインスタンスしか持たいない構成で、通常のクラスは複数の実態を持つが、シングルストンなクラスはどこからアクセスしても単一な実態へアクセスすることになります。
-詳しくは下記。
-https://ja.wikipedia.org/wiki/Singleton_パターン
-これで構成...]]></summary>
-        <author>
-            <name>hashito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google App Script 開発 のための Templateリポジトリを作った]]></title>
-        <id>https://zenn.dev/ryo_kawamata/articles/2c6cc4e7c27210</id>
-        <link href="https://zenn.dev/ryo_kawamata/articles/2c6cc4e7c27210"/>
-        <updated>2021-07-11T23:15:22.000Z</updated>
-        <summary type="html"><![CDATA[GAS を書くたびに開発環境構築を調べている気がするので、GAS 開発用の Template リポジトリを作ってみました。
-
- Templateリポジトリ
-https://github.com/kawamataryo/google-app-script-starter-template
-機能はこちらです。
-
-
-claspによる App Script へのデプロイ
-TypeScript 対応
-Webpack5 でのビルド※
-
-ESLint / prettier でのコード整形
-
-husky / lint-stage でのプレコミットフック
-
-
-Clasp を使えば TypeScrip での...]]></summary>
-        <author>
-            <name>ryo_kawamata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptでFind型を作ってみた]]></title>
-        <id>https://zenn.dev/schrosis/articles/ec2e43e2bd72c2</id>
-        <link href="https://zenn.dev/schrosis/articles/ec2e43e2bd72c2"/>
-        <updated>2021-07-11T20:08:43.000Z</updated>
-        <summary type="html"><![CDATA[作ったもの
-以下のテストが通る Find 型
-
-型テストのための Equal ,  Expect は @type-challenges/utils の型
-
-
-      
-        
-        import { Equal, Expect } from '@type-challenges/utils'
-
-type Lang = 'TypeScript'|'PHP'|'Swift'|'Python'
-
-type cases = [
-  // 配列側が確定していて、探す要素が1通りしかないとき
-  // 探していた要素か undefined を明確に返す
-  Expect&l...]]></summary>
-        <author>
-            <name>シュレシス</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[warn(prisma-client) Already 10 Prisma Clients are actively runningの対処]]></title>
-        <id>https://zenn.dev/kanasugi/articles/368d0b39c94daf</id>
-        <link href="https://zenn.dev/kanasugi/articles/368d0b39c94daf"/>
-        <updated>2021-07-11T15:45:42.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR
-new PrismaClient() を複数回書いてる可能性があるので、
-root直下でlibのようなファイルを作り、そこで、PrsimaClientのインスタンスを１度だけ生成し、そこからimportする形で、PrismaClientのインスタンスを使用すれば解決。
-
- 概要
-Prismaを使用している時、
-warn(prisma-client) Already 10 Prisma Clients are actively runningというメッセージがコンソールに表示されることがある。
-本番Build時にこの箇所が原因で、DBのコネクション数の制限のエラーになること...]]></summary>
-        <author>
-            <name>Kanasugi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serverless FrameworkとTypeScriptでCQRSを実現する 概要編]]></title>
-        <id>https://zenn.dev/makumattun/articles/474fbe08a5111c</id>
-        <link href="https://zenn.dev/makumattun/articles/474fbe08a5111c"/>
-        <updated>2021-07-11T15:02:47.000Z</updated>
-        <summary type="html"><![CDATA[CQRS イベントソーシングやってますか？
-なかなかCQRSとイベントソーシングを個人でちゃんとやろうと思うと難しいですよね。
-そして本気でパフォーマンス考えるならスナップショットなども考慮してAkka一択な感じがありますよね。
-でもそれなりのパフォーマンスを実現するのであれば、
-それを実現できるデータベースはいくつかあります。そうDynamoDBもね！
-
- 参考
-https://zenn.dev/j5ik2o/articles/368e0ab78f105f2a0fae
-https://techblog.zozo.com/entry/zozomat-cqrs
-zozo technol...]]></summary>
-        <author>
-            <name>mattun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件]]></title>
-        <id>https://zenn.dev/din/articles/15d27a4bff3b5c</id>
-        <link href="https://zenn.dev/din/articles/15d27a4bff3b5c"/>
-        <updated>2021-07-11T15:01:45.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-なろう形式のタイトルってわかりやすいですね。
-初投稿です。
-Reactの学習のため、Todoアプリを作成しました。
-どうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。
-
- 環境
-Windows10 64bit(20H2)
-WSL(Ubuntu 18.) v1
-node v14.17.1
-yarn 1.22.5
-VSCode
-
- 完成図
-こんな感じの簡単なtodoアプリを作ってみました。
-見た目は完全に度外視しています。
-
-
- install
-まずWSLで下記コマンドを実行して、...]]></summary>
-        <author>
-            <name>din</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでtodoアプリ を作ろうとしたらRecoil + React Hook Form v7で楽ができた件]]></title>
-        <id>https://zenn.dev/din/articles/15d27a4bff3b5c</id>
-        <link href="https://zenn.dev/din/articles/15d27a4bff3b5c"/>
-        <updated>2021-07-11T15:01:45.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-なろう形式のタイトルってわかりやすいですね。
-初投稿です。
-Reactの学習のため、Todoアプリを作成しました。
-どうせなら最新のライブラリを使用しようとRecoil, React Hook Form v7を使ってみましたので、備忘録がてらその内容を紹介します。
-
- 環境
-Windows10 64bit(20H2)
-WSL(Ubuntu 18.) v1
-node v14.17.1
-yarn 1.22.5
-VSCode
-
- 完成図
-こんな感じの簡単なtodoアプリを作ってみました。
-見た目は完全に度外視しています。
-
-
- install
-まずWSLで下記コマンドを実行して、...]]></summary>
-        <author>
-            <name>din</name>
         </author>
     </entry>
 </feed>
