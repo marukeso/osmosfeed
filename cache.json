@@ -64,6 +64,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/meijin/articles/nextjs-linaria-cache-error",
+          "author": "Meijin",
+          "description": "Vercel上でNext.jsとlinariaを動かしているとき、ある時点を境に以下のようなエラーが表示されるようになってしまいました。\n\n      \n        \n        18:40:11.531  \tFailed to compile.\n18:40:11.531  \tModuleNotFoundError: Module not found: Error: Can't resolve '../.linaria-cache/pages/404.linaria.module.css' in '/vercel/path0/pages'\n18:40:11.532  \t> ...",
+          "link": "https://zenn.dev/meijin/articles/nextjs-linaria-cache-error",
+          "publishedOn": "2021-08-11T12:08:16.000Z",
+          "wordCount": 90,
+          "title": "Next.js × linariaでビルド時にキャッシュが見つからないエラーが出るときの対処法【暫定？】",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8huWqDbb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Meijin%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%25C3%2597%2520linaria%25E3%2581%25A7%25E3%2583%2593%25E3%2583%25AB%25E3%2583%2589%25E6%2599%2582%25E3%2581%25AB%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2581%258C%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%258B%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%258C%25E5%2587%25BA%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%25E6%25B3%2595%25E3%2580%2590%25E6%259A%25AB%25E5%25AE%259A%25EF%25BC%259F%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pPWmtyWk1nS3djRXl5a2w1X2lVTFZFVmtVVUpkNzkzcjlfejhERjRzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4",
+          "author": "ゆゆゆ",
+          "description": "Supabase（オープンソースのBaaS）のExample projectsのメモ\nこれは学習メモです！\n基本的にはREADME.mdを読めば良い。\n必要なコマンドなどまとめておきます。\nhttps://zenn.dev/uhyo/articles/technical-articles\n\n Exampleprojectsのソースコード\nhttps://github.com/supabase/supabase/tree/master/examples/nextjs-todo-list\n\n Supabase の JavaScript ⽤クライアントインストール\nhttps://supaba...",
+          "link": "https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4",
+          "publishedOn": "2021-08-11T02:58:50.000Z",
+          "wordCount": 672,
+          "title": "Supabase × Next.js　TodoAPP　学習メモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9bYVn8NS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2586%25E3%2582%2586%25E3%2582%2586%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Supabase%2520%25C3%2597%2520Next.js%25E3%2580%2580TodoAPP%25E3%2580%2580%25E5%25AD%25A6%25E7%25BF%2592%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2U3NDQzNzU4NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ojin/articles/cecb2ac822f134",
+          "author": "ofa-chan",
+          "description": "はじめに\n日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。\nアカウントは、 https://zenn.dev/ojin です。\n何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。\n\n 環境\n\nreact, react-dom v17.0.2\nnext v11.0.1\ntypescript v4.3.5\nsass v1.35.2\n\n\n この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。\nこの記事では、Componentを自分が作る時に気をつけているこ...",
+          "link": "https://zenn.dev/ojin/articles/cecb2ac822f134",
+          "publishedOn": "2021-08-11T01:54:01.000Z",
+          "wordCount": 238,
+          "title": "Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2e-AkJcl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ofa-chan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%25E3%2581%25A7%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258BTypography%25E3%2581%25AEComponent%25E3%2581%25AE%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%25E3%2582%2592%25E3%2581%25A1%25E3%2582%2587%25E3%2581%25A3%25E3%2581%25A8%25E4%25B8%2581%25E5%25AF%25A7%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2FkZDc5NWZiNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yukishinonome/articles/0784517bff279b",
           "author": "東雲",
           "description": "はじめに\nオリジナルな要素があまり多くないので記事にするか迷ったのですが、next/imageをモックする方法について日本語で書いてあるものがほとんどなかったので記事にしました。Next.js関連は新しい技術なので、日本語のドキュメントも少ないですし、僕のような駆け出しエンジニアには日本語のドキュメントが少しでも多くあるととても助かるのでちょっとしたことでも書いていきたいですね。\n\n モックする方法を調べていて困ったこと\nnext/imageをJestでモックして使う方法は英語ドキュメントでちらほら見つかったのですが、それらをStorybookに対しても使うと、悲しいことにnext/...",
@@ -833,6 +875,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9",
+          "author": "Yakumo Saki",
+          "description": "手順メモ\n\n 前提\n\n\n\nディレクトリ名\n用途\n\n\n\n\n./src\nソースディレクトリ\n\n\n./build\nts -> js にトランスパイルされたものを仮置きするディレクトリ\n\n\n./public/lib/\n実際にブラウザが読み込む js を置くディレクトリ\n\n\n\n\n 必要なものをインストール\n\nnpm i typescript -g\nnpm i webpack -g\nnpm i webpack-cli -g\n\n\n typescript→javascript 準備\n\n tsconfig.json 編集\n\n      \n        tsconfig.json\n       ...",
+          "link": "https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9",
+          "publishedOn": "2021-08-11T08:19:33.000Z",
+          "wordCount": 245,
+          "title": "TypeScriptをコンパイルしてwebpackで一つにまとめる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--i2bpRip2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yakumo%2520Saki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2582%2592%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2591%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%2597%25E3%2581%25A6webpack%25E3%2581%25A7%25E4%25B8%2580%25E3%2581%25A4%25E3%2581%25AB%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZmUwZDllYTFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4",
+          "author": "Katsuma Narisawa",
+          "description": "サマリ\n\n\nProject Referencesを使うと、1つの巨大なtypescriptプロジェクトを、複数のプロジェクトに分割し、プロジェクト間の依存関係を整理することができる。これにより、例えば以下のようなことができる\n\n\ntest/ ディレクトリで export しているテスト用の関数を、 src/ ディレクトリの本番用コードでは参照できなくする\nレイヤードアーキテクチャで設計しているとき、プレゼンテーション層で定義している関数を ドメイン層から参照できなくし、レイヤー間の依存関係を強制する\n\n\nまた、プロジェクトの分割によりビルド時のパフォーマンスが大幅に改善する。\n\n…と...",
+          "link": "https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4",
+          "publishedOn": "2021-08-11T03:56:10.000Z",
+          "wordCount": 322,
+          "title": "TypeScriptのProject Referencesを使ってソースコードを分割し、レイヤー間の依存関係を強制する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--w9-qVyJx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Katsuma%2520Narisawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:TypeScript%25E3%2581%25AEProject%2520References%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%25BD%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E5%2588%2586%25E5%2589%25B2%25E3%2581%2597%25E3%2580%2581%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25A4%25E3%2583%25BC%25E9%2596%2593%25E3%2581%25AE%25E4%25BE%259D%25E5%25AD%2598%25E9%2596%25A2%25E4%25BF%2582%25E3%2582%2592%25E5%25BC%25B7%25E5%2588%25B6%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dGd2NYR1FfN2V4bjdjdjY0OVh1cXBJMUZtcFF5ejQ1aTNIbE81Z3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ojin/articles/cecb2ac822f134",
+          "author": "ofa-chan",
+          "description": "はじめに\n日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。\nアカウントは、 https://zenn.dev/ojin です。\n何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。\n\n この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。\nこの記事では、Componentを自分が作る時に気をつけていることやその手順を書きます。参考になればと思います。\n\n 例えば、TypographyというComponentを作ってみます\n\n基本的にはテキストを表示した...",
+          "link": "https://zenn.dev/ojin/articles/cecb2ac822f134",
+          "publishedOn": "2021-08-11T01:54:01.000Z",
+          "wordCount": 238,
+          "title": "Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2e-AkJcl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ofa-chan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%25E3%2581%25A7%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258BTypography%25E3%2581%25AEComponent%25E3%2581%25AE%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%25E3%2582%2592%25E3%2581%25A1%25E3%2582%2587%25E3%2581%25A3%25E3%2581%25A8%25E4%25B8%2581%25E5%25AF%25A7%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2FkZDc5NWZiNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/nanaki14/articles/html-template-react",
           "author": "nanaki14",
@@ -1924,20 +2008,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode",
-          "author": "Haru_Yakumo",
-          "description": "悲しい時～～～～～悲し以下略\nJestには ModuleNameMapper なる、テスト対象のオブジェクトを import してくる際にパス名を特定の prefix で代用する機能があります。\n例えば、以下のようなディレクトリ構成のプロジェクトであると仮定します。\n\n      \n        \n        $ tree  -L 1\n.\n├── LICENSE\n├── README.md\n├── dist\n├── jest.config.js\n├── node_modules\n├── package.json\n├── src\n├── tests\n├── tsconfig.json...",
-          "link": "https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode",
-          "publishedOn": "2021-07-12T18:13:43.000Z",
-          "wordCount": 229,
-          "title": "JestでModuleNameMapperを使うとVSCodeくんがモジュール参照してくれない時～～",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--3M_W_Pp6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Haru_Yakumo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Jest%25E3%2581%25A7ModuleNameMapper%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25A8VSCode%25E3%2581%258F%25E3%2582%2593%25E3%2581%258C%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E5%258F%2582%25E7%2585%25A7%25E3%2581%2597%25E3%2581%25A6%25E3%2581%258F%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E6%2599%2582%25EF%25BD%259E%25EF%25BD%259E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDRUNJM2xDR3ZjNWNrYWN6QVFIcm5QeTZTS2VsX3lZOFNKM05jMVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2051,6 +2121,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/umatoma/articles/a819fd622d4743",
+          "author": "umatoma",
+          "description": "flutter-study.dev\n「Flutterで始めるアプリ開発」というWebサイトを公開している。\nもともとはGatsbyでSSGしていたが、Vueを使う必要が出てきたので、勉強がてらNuxtJSへと移行してみた。\nhttps://www.flutter-study.dev/\n\n Markdownで記事を書く\nGatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各記事を書いていた。\nhttps://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...",
+          "link": "https://zenn.dev/umatoma/articles/a819fd622d4743",
+          "publishedOn": "2021-08-11T15:08:33.000Z",
+          "wordCount": 206,
+          "title": "GatsbyからNuxtJSに移行してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zb42cUsd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umatoma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby%25E3%2581%258B%25E3%2582%2589NuxtJS%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lNVVdLY3dwaGFRMV91eUlQWWEwcy1udE1qeFVYQTNZYWFlLW5XPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kon_karin/articles/1b5f282ba64bd3",
+          "author": "こんかりん",
+          "description": "Nuxt.js の components プロパティとは\nNuxt.js v2.13から導入された components プロパティは、コンポーネントのスキャンと自動インポートをしてくれます。\ncomponents プロパティ - NuxtJS\nつまり、コンポーネントを使う時に import 文と components オプションを書く必要がなくなります。\n\n      \n        nuxt.config.js\n        export default {\n  components: true,\n}\n\n\n      \n      \n      \n        pages/...",
+          "link": "https://zenn.dev/kon_karin/articles/1b5f282ba64bd3",
+          "publishedOn": "2021-08-10T11:26:05.000Z",
+          "wordCount": 192,
+          "title": "Nuxtのcomponentsプロパティを使ったら単体テストでエラーになる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--bNc48V9r--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2582%2593%25E3%2581%258B%25E3%2582%258A%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25AEcomponents%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2591%25E3%2583%2586%25E3%2582%25A3%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25A7%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU5ZDU2M2Q0YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/tentel/articles/040a0251dab79f",
           "author": "てんてる",
@@ -2411,34 +2509,6 @@
           "title": "ViteをNuxtで試した",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--gLF2MdI9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25AB%25E3%2582%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vite%25E3%2582%2592Nuxt%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTllM2UwYWYxOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kendai/articles/b6a3467eafb7db",
-          "author": "Kendai",
-          "description": "先日、誰でも最短1分でYouTubeの切り抜きを作れるウェブサービスを公開しました。\n私はプログラミングの勉強を始めて1年半の初学者ですが、個人開発でサービスを公開するまでに、数多くの失敗と苦労をしてきました(そして今もしてます笑)。後ほど詳しく書きますが、以下のような経験をしました。\n\nハッキングを受けデータを盗まれる\nα版をリリースするも作り直しを決意する\n巻き返しのため海外フリーランサーを雇うも無駄金となる\n公開前に本家が同じ機能を発表し諦めかける\nβ版をリリースするも使われない\n\n同じようにプログラミングの勉強をし始めたばかりの方や、個人開発でいつかはサービスを公開したいと考えて...",
-          "link": "https://zenn.dev/kendai/articles/b6a3467eafb7db",
-          "publishedOn": "2021-07-13T03:19:32.000Z",
-          "wordCount": 133,
-          "title": "１００万円失いながらハッキングを乗り越え誰でも１分で切り抜きを作れるサービスを公開するまでの失敗と学び",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--GOZbN5Zh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kendai%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25EF%25BC%2591%25EF%25BC%2590%25EF%25BC%2590%25E4%25B8%2587%25E5%2586%2586%25E5%25A4%25B1%25E3%2581%2584%25E3%2581%25AA%25E3%2581%258C%25E3%2582%2589%25E3%2583%258F%25E3%2583%2583%25E3%2582%25AD%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%2592%25E4%25B9%2597%25E3%2582%258A%25E8%25B6%258A%25E3%2581%2588%25E8%25AA%25B0%25E3%2581%25A7%25E3%2582%2582%25EF%25BC%2591%25E5%2588%2586%25E3%2581%25A7%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258C%25E3%2582%258B%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%25E3%2581%25AE%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%25A8%25E5%25AD%25A6%25E3%2581%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjBiOTJmMTEyNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/fjsh/articles/aa17332a126162",
-          "author": "Sho Fujimoto",
-          "description": "Vue3 を使ってフォーム操作のサンプルを作ります。\n\n プロジェクトの作成\n\n      \n        \n        $ vue create form-handling\n\n? Please pick a preset: Manually select features\n? Check the features needed for your project: Choose Vue version, TS, Linter\n? Choose a version of Vue.js that you want to start the project with 3.x\n? Use ...",
-          "link": "https://zenn.dev/fjsh/articles/aa17332a126162",
-          "publishedOn": "2021-07-12T16:21:10.000Z",
-          "wordCount": 579,
-          "title": "Vue3 + Composition API でフォーム操作",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--v0-4WOsX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sho%2520Fujimoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue3%2520%252B%2520Composition%2520API%2520%25E3%2581%25A7%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25A0%25E6%2593%258D%25E4%25BD%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTk1ODEzMjk0NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

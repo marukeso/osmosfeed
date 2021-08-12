@@ -2,10 +2,203 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-11T01:04:40.901Z</updated>
+    <updated>2021-08-12T01:03:15.880Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GatsbyからNuxtJSに移行してみた]]></title>
+        <id>https://zenn.dev/umatoma/articles/a819fd622d4743</id>
+        <link href="https://zenn.dev/umatoma/articles/a819fd622d4743"/>
+        <updated>2021-08-11T15:08:33.000Z</updated>
+        <summary type="html"><![CDATA[flutter-study.dev
+「Flutterで始めるアプリ開発」というWebサイトを公開している。
+もともとはGatsbyでSSGしていたが、Vueを使う必要が出てきたので、勉強がてらNuxtJSへと移行してみた。
+https://www.flutter-study.dev/
+
+ Markdownで記事を書く
+Gatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各記事を書いていた。
+https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...]]></summary>
+        <author>
+            <name>umatoma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js × linariaでビルド時にキャッシュが見つからないエラーが出るときの対処法【暫定？】]]></title>
+        <id>https://zenn.dev/meijin/articles/nextjs-linaria-cache-error</id>
+        <link href="https://zenn.dev/meijin/articles/nextjs-linaria-cache-error"/>
+        <updated>2021-08-11T12:08:16.000Z</updated>
+        <summary type="html"><![CDATA[Vercel上でNext.jsとlinariaを動かしているとき、ある時点を境に以下のようなエラーが表示されるようになってしまいました。
+
+      
+        
+        18:40:11.531  	Failed to compile.
+18:40:11.531  	ModuleNotFoundError: Module not found: Error: Can't resolve '../.linaria-cache/pages/404.linaria.module.css' in '/vercel/path0/pages'
+18:40:11.532  	> ...]]></summary>
+        <author>
+            <name>Meijin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptをコンパイルしてwebpackで一つにまとめる]]></title>
+        <id>https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9</id>
+        <link href="https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9"/>
+        <updated>2021-08-11T08:19:33.000Z</updated>
+        <summary type="html"><![CDATA[手順メモ
+
+ 前提
+
+
+
+ディレクトリ名
+用途
+
+
+
+
+./src
+ソースディレクトリ
+
+
+./build
+ts -> js にトランスパイルされたものを仮置きするディレクトリ
+
+
+./public/lib/
+実際にブラウザが読み込む js を置くディレクトリ
+
+
+
+
+ 必要なものをインストール
+
+npm i typescript -g
+npm i webpack -g
+npm i webpack-cli -g
+
+
+ typescript→javascript 準備
+
+ tsconfig.json 編集
+
+      
+        tsconfig.json
+       ...]]></summary>
+        <author>
+            <name>Yakumo Saki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptのProject Referencesを使ってソースコードを分割し、レイヤー間の依存関係を強制する]]></title>
+        <id>https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4</id>
+        <link href="https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4"/>
+        <updated>2021-08-11T03:56:10.000Z</updated>
+        <summary type="html"><![CDATA[サマリ
+
+
+Project Referencesを使うと、1つの巨大なtypescriptプロジェクトを、複数のプロジェクトに分割し、プロジェクト間の依存関係を整理することができる。これにより、例えば以下のようなことができる
+
+
+test/ ディレクトリで export しているテスト用の関数を、 src/ ディレクトリの本番用コードでは参照できなくする
+レイヤードアーキテクチャで設計しているとき、プレゼンテーション層で定義している関数を ドメイン層から参照できなくし、レイヤー間の依存関係を強制する
+
+
+また、プロジェクトの分割によりビルド時のパフォーマンスが大幅に改善する。
+
+…と...]]></summary>
+        <author>
+            <name>Katsuma Narisawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supabase × Next.js　TodoAPP　学習メモ]]></title>
+        <id>https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4</id>
+        <link href="https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4"/>
+        <updated>2021-08-11T02:58:50.000Z</updated>
+        <summary type="html"><![CDATA[Supabase（オープンソースのBaaS）のExample projectsのメモ
+これは学習メモです！
+基本的にはREADME.mdを読めば良い。
+必要なコマンドなどまとめておきます。
+https://zenn.dev/uhyo/articles/technical-articles
+
+ Exampleprojectsのソースコード
+https://github.com/supabase/supabase/tree/master/examples/nextjs-todo-list
+
+ Supabase の JavaScript ⽤クライアントインストール
+https://supaba...]]></summary>
+        <author>
+            <name>ゆゆゆ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。]]></title>
+        <id>https://zenn.dev/ojin/articles/cecb2ac822f134</id>
+        <link href="https://zenn.dev/ojin/articles/cecb2ac822f134"/>
+        <updated>2021-08-11T01:54:01.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。
+アカウントは、 https://zenn.dev/ojin です。
+何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。
+
+ 環境
+
+react, react-dom v17.0.2
+next v11.0.1
+typescript v4.3.5
+sass v1.35.2
+
+
+ この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。
+この記事では、Componentを自分が作る時に気をつけているこ...]]></summary>
+        <author>
+            <name>ofa-chan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。]]></title>
+        <id>https://zenn.dev/ojin/articles/cecb2ac822f134</id>
+        <link href="https://zenn.dev/ojin/articles/cecb2ac822f134"/>
+        <updated>2021-08-11T01:54:01.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。
+アカウントは、 https://zenn.dev/ojin です。
+何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。
+
+ この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。
+この記事では、Componentを自分が作る時に気をつけていることやその手順を書きます。参考になればと思います。
+
+ 例えば、TypographyというComponentを作ってみます
+
+基本的にはテキストを表示した...]]></summary>
+        <author>
+            <name>ofa-chan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxtのcomponentsプロパティを使ったら単体テストでエラーになる]]></title>
+        <id>https://zenn.dev/kon_karin/articles/1b5f282ba64bd3</id>
+        <link href="https://zenn.dev/kon_karin/articles/1b5f282ba64bd3"/>
+        <updated>2021-08-10T11:26:05.000Z</updated>
+        <summary type="html"><![CDATA[Nuxt.js の components プロパティとは
+Nuxt.js v2.13から導入された components プロパティは、コンポーネントのスキャンと自動インポートをしてくれます。
+components プロパティ - NuxtJS
+つまり、コンポーネントを使う時に import 文と components オプションを書く必要がなくなります。
+
+      
+        nuxt.config.js
+        export default {
+  components: true,
+}
+
+
+      
+      
+      
+        pages/...]]></summary>
+        <author>
+            <name>こんかりん</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[next/imageをJestとStorybookで使うためにモックする方法]]></title>
         <id>https://zenn.dev/yukishinonome/articles/0784517bff279b</id>
@@ -3706,72 +3899,6 @@ https://zenn.dev/kupuma_ru21/articles/f56148ffcac7b0
 まず、普通にreact-tesing...]]></summary>
         <author>
             <name>くぷまーる</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[１００万円失いながらハッキングを乗り越え誰でも１分で切り抜きを作れるサービスを公開するまでの失敗と学び]]></title>
-        <id>https://zenn.dev/kendai/articles/b6a3467eafb7db</id>
-        <link href="https://zenn.dev/kendai/articles/b6a3467eafb7db"/>
-        <updated>2021-07-13T03:19:32.000Z</updated>
-        <summary type="html"><![CDATA[先日、誰でも最短1分でYouTubeの切り抜きを作れるウェブサービスを公開しました。
-私はプログラミングの勉強を始めて1年半の初学者ですが、個人開発でサービスを公開するまでに、数多くの失敗と苦労をしてきました(そして今もしてます笑)。後ほど詳しく書きますが、以下のような経験をしました。
-
-ハッキングを受けデータを盗まれる
-α版をリリースするも作り直しを決意する
-巻き返しのため海外フリーランサーを雇うも無駄金となる
-公開前に本家が同じ機能を発表し諦めかける
-β版をリリースするも使われない
-
-同じようにプログラミングの勉強をし始めたばかりの方や、個人開発でいつかはサービスを公開したいと考えて...]]></summary>
-        <author>
-            <name>Kendai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JestでModuleNameMapperを使うとVSCodeくんがモジュール参照してくれない時～～]]></title>
-        <id>https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode</id>
-        <link href="https://zenn.dev/huequica/articles/fix_module_decralation_in_vscode"/>
-        <updated>2021-07-12T18:13:43.000Z</updated>
-        <summary type="html"><![CDATA[悲しい時～～～～～悲し以下略
-Jestには ModuleNameMapper なる、テスト対象のオブジェクトを import してくる際にパス名を特定の prefix で代用する機能があります。
-例えば、以下のようなディレクトリ構成のプロジェクトであると仮定します。
-
-      
-        
-        $ tree  -L 1
-.
-├── LICENSE
-├── README.md
-├── dist
-├── jest.config.js
-├── node_modules
-├── package.json
-├── src
-├── tests
-├── tsconfig.json...]]></summary>
-        <author>
-            <name>Haru_Yakumo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue3 + Composition API でフォーム操作]]></title>
-        <id>https://zenn.dev/fjsh/articles/aa17332a126162</id>
-        <link href="https://zenn.dev/fjsh/articles/aa17332a126162"/>
-        <updated>2021-07-12T16:21:10.000Z</updated>
-        <summary type="html"><![CDATA[Vue3 を使ってフォーム操作のサンプルを作ります。
-
- プロジェクトの作成
-
-      
-        
-        $ vue create form-handling
-
-? Please pick a preset: Manually select features
-? Check the features needed for your project: Choose Vue version, TS, Linter
-? Choose a version of Vue.js that you want to start the project with 3.x
-? Use ...]]></summary>
-        <author>
-            <name>Sho Fujimoto</name>
         </author>
     </entry>
 </feed>
