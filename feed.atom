@@ -2,10 +2,171 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-12T01:03:15.880Z</updated>
+    <updated>2021-08-13T01:04:26.644Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vue.jsからローカルストレージの値を操作する]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e"/>
+        <updated>2021-08-13T00:41:44.000Z</updated>
+        <summary type="html"><![CDATA[ローカルストレージに値をセットしたり、ローカルストレージから値を取得したりしたいことがあったので、試して記事に残してみました。
+
+ はじめに
+通常ローカルストレージには機密情報は保存してはいけません。
+僕の場合は永続的に保存したい設定値を保存する際に用いる事が多いです。← 設定値は別に流出されても全然何の問題もないような情報です。
+ローカルストレージに機密情報を保存してはいけない理由はJavaScriptから参照できてしまうからです。XSS脆弱性を代表に、JavaScriptを用いてローカルストレージやCookieから情報を抜き取られる可能性がないとはいい切れません。安全の為にローカルス...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[expo + redux-toolkit + redux-persistでAsyncStorageにやる気を永続化させるアプリを作った]]></title>
+        <id>https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8</id>
+        <link href="https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8"/>
+        <updated>2021-08-12T18:31:54.000Z</updated>
+        <summary type="html"><![CDATA[誰向けの記事?
+
+react-nativeやexpo使って小さなアプリを作りたいけどバックエンド組むのは面倒くさい人
+redux toolkitってぶっちゃけどうなん？ というのが知りたい人
+expo + redux-toolkit + redux-persist のボイラープレートが欲しい人
+
+黙って動くボイラープレートよこせや、っていう人はこちら
+
+おれはそういう素直な人好きだよ
+
+
+
+
+
+
+ いきさつ
+
+何につけてもやる気が出なかったのでやる気を永続化させようと思った
+やる気がないのでexpoで楽して作りたかった
+やる気がないのでバックエンドは作りたくなかった
+
+AsyncSt...]]></summary>
+        <author>
+            <name>kondo_script</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React × Viteで新機能を開発した話(採用理由、実装、CI/CD)]]></title>
+        <id>https://zenn.dev/manalink/articles/manalink-react-vite</id>
+        <link href="https://zenn.dev/manalink/articles/manalink-react-vite"/>
+        <updated>2021-08-12T09:33:09.000Z</updated>
+        <summary type="html"><![CDATA[オンライン家庭教師マナリンク CTO の名人です。
+先日マナリンクでリリースした新機能でReactとViteの組み合わせを選定しました。
+https://vitejs.dev/
+本記事ではReactとViteについて、以下の順で解説させていただきます。気になるところから読んでいただければ幸いです。
+
+採用理由
+実装の内容（環境設定、ライブラリ選定、コンポーネント設計など）
+CI/CD（デプロイ、テスティング、Linterなど）
+
+
+ React×Viteの採用理由
+
+ マナリンクについて
+採用理由を説明するにあたって、簡単にマナリンクの事業背景を説明します。
+マナリンクは、オンライン家庭...]]></summary>
+        <author>
+            <name>マナリンク Tech Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【2021年8月】フロントエンドの学習に使用した教材一覧（React, TypeScript, NEXT.js, Firebase）]]></title>
+        <id>https://zenn.dev/nononono/articles/0255311126f88f</id>
+        <link href="https://zenn.dev/nononono/articles/0255311126f88f"/>
+        <updated>2021-08-12T07:26:17.000Z</updated>
+        <summary type="html"><![CDATA[どうもこんにちはノノです。
+今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。
+最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。
+特に初学者の方はどの教材を選べばいいか分からないですよね。
+（僕は分かりませんでした😇）
+少しでも参考になれば幸いです。
+前半に「使用した教材一覧」
+後半に「おすすめの教材」を紹介します。
+
+HTML,CSSの基礎知識はありました。
+
+
+ 使用した教材一覧
+
+ 本
+
+りあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】
+りあクト！ TypeScriptで始めるつらくない...]]></summary>
+        <author>
+            <name>ノノ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【2021年8月】フロントエンドの学習に使用した教材一覧（React, TypeScript, NEXT.js, Firebase）]]></title>
+        <id>https://zenn.dev/nononono/articles/0255311126f88f</id>
+        <link href="https://zenn.dev/nononono/articles/0255311126f88f"/>
+        <updated>2021-08-12T07:26:17.000Z</updated>
+        <summary type="html"><![CDATA[どうもこんにちはノノです。
+今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。
+最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。
+特に初学者の方はどの教材を選べばいいか分からないですよね。
+（僕は分かりませんでした😇）
+少しでも参考になれば幸いです。
+前半に「使用した教材一覧」
+後半に「おすすめの教材」を紹介します。
+
+HTML,CSSの基礎知識はありました。
+
+
+ 使用した教材一覧
+
+ 本
+
+りあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】
+りあクト！ TypeScriptで始めるつらくない...]]></summary>
+        <author>
+            <name>ノノ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno 1.13.0 がリリースされたので新機能や変更点の紹介]]></title>
+        <id>https://zenn.dev/magurotuna/articles/deno-release-note-1-13-0</id>
+        <link href="https://zenn.dev/magurotuna/articles/deno-release-note-1-13-0"/>
+        <updated>2021-08-11T15:56:40.000Z</updated>
+        <summary type="html"><![CDATA[Copyright (c) 2018-2021 the Deno authors. MIT License.
+日本時間の昨日（2021 年 8 月 11 日）に Deno の v1.13.0 がリリースされました。
+https://deno.com/blog/v1.13
+詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。
+
+ネイティブ HTTP サーバー実装の安定化
+
+self.structuredClone() のサポート
+TLSのためのシステム証明書ストアが利用可能になった
+テストのためTLS検証を無効にできるようになった
+Web Cr...]]></summary>
+        <author>
+            <name>magurotuna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GatsbyからNuxtJSに移行してみた]]></title>
+        <id>https://zenn.dev/umatoma/articles/a819fd622d4743</id>
+        <link href="https://zenn.dev/umatoma/articles/a819fd622d4743"/>
+        <updated>2021-08-11T15:08:33.000Z</updated>
+        <summary type="html"><![CDATA[flutter-study.dev
+「Flutterで始めるアプリ開発」というWebサイトを公開している。
+もともとはGatsbyでSSGしていたが、Vueを使う必要が出てきたので、勉強がてらNuxtJSへと移行してみた。
+https://www.flutter-study.dev/
+
+ Markdownで記事を書く
+Gatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各記事を書いていた。
+https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...]]></summary>
+        <author>
+            <name>umatoma</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GatsbyからNuxtJSに移行してみた]]></title>
         <id>https://zenn.dev/umatoma/articles/a819fd622d4743</id>
@@ -37,6 +198,36 @@ https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...]]></su
 18:40:11.532  	> ...]]></summary>
         <author>
             <name>Meijin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React×Typescript Eventの型まとめ]]></title>
+        <id>https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4</id>
+        <link href="https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4"/>
+        <updated>2021-08-11T09:13:59.000Z</updated>
+        <summary type="html"><![CDATA[event:any を避けたい！
+まずはダメな例です
+
+      
+        
+        const onClick = (event: any) => {
+    //処理
+  };
+
+
+      
+      tsを書くならany型は避けたいですよね
+
+ 便利な型推論
+なので、以下を使うのが便利です
+
+      
+        
+        type Props = {
+  onClick: (event: React.MouseEvent<HTMLInputElement>) => void
+  onChange: (event:...]]></summary>
+        <author>
+            <name>KenT</name>
         </author>
     </entry>
     <entry>
@@ -3663,242 +3854,6 @@ https://quocca-works.com/accela/
 Next.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...]]></summary>
         <author>
             <name>quocca</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsの環境を構築する（+TypeScript, Storybook, Hygen）]]></title>
-        <id>https://zenn.dev/nihashi/articles/f532d43bd52e6f</id>
-        <link href="https://zenn.dev/nihashi/articles/f532d43bd52e6f"/>
-        <updated>2021-07-14T11:48:49.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsの導入
-
-      
-        
-        npx create-next-app project-name
-
-
-      
-      typescriptを導入したい場合はオプションに--typescript（もしくは--ts）を追加するか、プロジェクト作成後に必要なファイルの作成およびパッケージのインストールを行います。
-
-      
-         プロジェクト作成時に導入
-        npx create-next-app project-name --typescript
-
-
-      
-      
-      
-        ...]]></summary>
-        <author>
-            <name>nihashi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小規模環境のi18nで、t("Hello","こんにちは")のように日本語をfallbackに入れる運用したら良かった話]]></title>
-        <id>https://zenn.dev/terrierscript/articles/2021-07-13-i18n</id>
-        <link href="https://zenn.dev/terrierscript/articles/2021-07-13-i18n"/>
-        <updated>2021-07-14T10:10:29.000Z</updated>
-        <summary type="html"><![CDATA[Reactアプリケーションをi18nをするにあたって、t("Hello", "こんにちは")のように日本語をfallback値として設定するようにしたらわりと良かったのでまとめる
-
- 前提
-あくまで今回の話は下記のような前提としている。
-
-小規模で、複雑な多言語化処理を要する部分が少ない
-日本語から他言語への変換である
-多言語化の種類は少なく、多言語化後も日本語が中心。
-組織のコミュニケーションパスが少なく、実装者がUIを変更する事が出来る環境である
-
-
- 準備
-本題に入る前の前提として、ライブラリと外部サービス選びについて。
-
- ライブラリ選び
-i18n自体はマッピングさえできれば十分...]]></summary>
-        <author>
-            <name>terrierscript</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deno 1.12.0 がリリースされたので新機能や変更点の紹介]]></title>
-        <id>https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0</id>
-        <link href="https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0"/>
-        <updated>2021-07-14T04:30:36.000Z</updated>
-        <summary type="html"><![CDATA[Copyright (c) 2018-2021 the Deno authors. MIT License.
-日本時間の昨日（2021 年 7 月 13 日）に Deno の v1.12.0 がリリースされました。
-https://deno.com/blog/v1.12
-詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。
-
-
-generateKey, sign, verify の3つの Web Crypto API がサポート
-ネイティブ HTTP サーバーでの WebSocket サポート
-REPL における TypeScript のサポ...]]></summary>
-        <author>
-            <name>magurotuna</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-07-14のJS: Firefox 90、npm auditの問題、Access Guide]]></title>
-        <id>https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/</id>
-        <link href="https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/"/>
-        <updated>2021-07-14T03:24:13.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #548 - Firefox 90がリリースされました。
-Firefox 90.0, See All New Features, Updates and Fixes
-Firefox 90 for developers - Mozilla | MDN
-Firefox 90ではECMAScript Proposal Stage 4のPrivate class fieldsをデフォルトでサポート、Stage 3のString/Arrayのat()をサポートしています。FTPサポートの削除、WheelEventの互換性を改善なども含まれています。
-また、Chromeでも実装されていたFetch metadata request headersが実装されています。
-Sec-Fetch-Site、Sec-Fetch-Mode、Sec-Fetch-User、Sec-Fetch-Destのリクエストヘッダがそれぞれのリクエストに追加され、サーバ側でのチェックに利用できます。
-Firefox 90 supports Fetch Metadata Request Headers - Mozilla Security Blog
-Protect your resources from web attacks with Fetch Metadata
-Fetch metadata request headersはSafariとIE以外のブラウザで実装されています。
-npm audit: Broken by Design — Overreactedという記事では、create-react-appを例に npm audit で報告される脆弱性の問題について書かれています。
-報告される脆弱性の殆どはReDOSとなっていて、devDependenciesとして扱うツールにおいてはfalse…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serverless FrameworkとTypeScriptでCQRSを実現する 実装編1]]></title>
-        <id>https://zenn.dev/makumattun/articles/e3e598ff8c6dd3</id>
-        <link href="https://zenn.dev/makumattun/articles/e3e598ff8c6dd3"/>
-        <updated>2021-07-14T01:20:29.000Z</updated>
-        <summary type="html"><![CDATA[こちらの記事の続きです。
-https://zenn.dev/makumattun/articles/474fbe08a5111c
-※この記事ではEventStoreとmain関数の流れまでを紹介します。
-この部分
-
-
- イベントソーシングでテーブル格納時にやりたいこと
-やりたいこと
-・一つのテーブルにすべてのイベントを格納したい
-・複数のドメインイベントをAcidに登録したい
-・整合性を持たせるために誤って２回登録のイベントが発火されたときは失敗させたい
-ここらへんを満たすようにテーブルの設計をする必要があります。
-
- DynamoDBのインデックス設計
-ごちゃごちゃ記載するよりも、Ev...]]></summary>
-        <author>
-            <name>mattun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ViteでReact17以降のJSXトランスフォームに対応する]]></title>
-        <id>https://zenn.dev/sykmhmh/articles/086eef9300ac2d</id>
-        <link href="https://zenn.dev/sykmhmh/articles/086eef9300ac2d"/>
-        <updated>2021-07-13T14:13:21.000Z</updated>
-        <summary type="html"><![CDATA[概要
-Viteで、React17以降のJSXトランスフォームに対応する方法です。
-https://ja.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
-
- 動機
-React16以前では、JSXを利用するには明示的にReactをインポートする必要がありましたが、React 17以降は新しいトランスフォームの方法が提供され(現在は16以前のバージョンでも提供されています)、babelやtsconfigの設定を変更することで明示的にReactをインポートせずともJSXが利用できるようになりました。
-しかし...]]></summary>
-        <author>
-            <name>sykmhmh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vueでドラムロールを実装する]]></title>
-        <id>https://zenn.dev/syuri/articles/ea7117bfb35a09</id>
-        <link href="https://zenn.dev/syuri/articles/ea7117bfb35a09"/>
-        <updated>2021-07-13T13:58:19.000Z</updated>
-        <summary type="html"><![CDATA[ドラムロールとは・・・
-数字がじゃかじゃか回るやつです。
-今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)
-
-
- 目次
-最初に考えた方法
-もうちょっと賢い方法
-最終型を見たい方はもうちょっと賢い方法から見てください。
-
- 最初に考えた方法
-まずはコードから。
-
-      
-        
-        <div data-destination="2000"　class="number">0</div>
-
-
-      
-   ...]]></summary>
-        <author>
-            <name>syuri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vueでドラムロールを実装する]]></title>
-        <id>https://zenn.dev/syuri/articles/ea7117bfb35a09</id>
-        <link href="https://zenn.dev/syuri/articles/ea7117bfb35a09"/>
-        <updated>2021-07-13T13:58:19.000Z</updated>
-        <summary type="html"><![CDATA[ドラムロールとは・・・
-数字がじゃかじゃか回るやつです。
-今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)
-
-
- 目次
-最初に考えた方法
-もうちょっと賢い方法
-最終型を見たい方はもうちょっと賢い方法から見てください。
-
- 最初に考えた方法
-まずはコードから。
-
-      
-        
-        <div data-destination="2000"　class="number">0</div>
-
-
-      
-   ...]]></summary>
-        <author>
-            <name>syuri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ViteをNuxtで試した]]></title>
-        <id>https://zenn.dev/kai/articles/try-nuxt-vite</id>
-        <link href="https://zenn.dev/kai/articles/try-nuxt-vite"/>
-        <updated>2021-07-13T13:36:11.000Z</updated>
-        <summary type="html"><![CDATA[最近話題となっている Vite を Nuxt で試してみました。
-Vite とは簡単に言ってしまうと、速い、フロントエンドのビルドツールです。
-調べてみると、Nuxt Vite というのがあるんですね。
-そちらで試したことを書いていきます。
-
- Nuxt に Vite を導入する
-
- Nuxt のプロジェクトを作成
-
-      
-        
-        $ yarn create nuxt-app vite-nuxt
-
-
-      
-      vite-nuxtのところは任意の名前で大丈夫です。
-Vite を試したいだけなので、とりあえず最小限の構成にしました。
-targ...]]></summary>
-        <author>
-            <name>カイ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[apollo graphqlアプリのUIテスト]]></title>
-        <id>https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102</id>
-        <link href="https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102"/>
-        <updated>2021-07-13T13:14:30.000Z</updated>
-        <summary type="html"><![CDATA[apollo graphqlを使ったUIテストのセットアップをしてみました。
-備忘録で残します。
-テストはreact-tesing-liblaryで行います。
-以下、テスト対象のアプリです。
-https://github.com/kupuma-ru21/apollo_relay_style_cursor_pagination
-(以前、書いた記事にテスト対象のアプリの作成方法を記載してます。読まなくてもできるように進めたいと思います。)
-https://zenn.dev/kupuma_ru21/articles/f56148ffcac7b0
-
-
- 前提
-まず、普通にreact-tesing...]]></summary>
-        <author>
-            <name>くぷまーる</name>
         </author>
     </entry>
 </feed>

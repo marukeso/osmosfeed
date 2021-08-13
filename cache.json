@@ -46,15 +46,6 @@
           "publishedOn": "2021-07-20T02:16:58.000Z",
           "wordCount": 460,
           "title": "2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(`npm pkg`)、Ember 4のロードマップ"
-        },
-        {
-          "id": "https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/",
-          "author": null,
-          "description": "JSer.info #548 - Firefox 90がリリースされました。\nFirefox 90.0, See All New Features, Updates and Fixes\nFirefox 90 for developers - Mozilla | MDN\nFirefox 90ではECMAScript Proposal Stage 4のPrivate class fieldsをデフォルトでサポート、Stage 3のString/Arrayのat()をサポートしています。FTPサポートの削除、WheelEventの互換性を改善なども含まれています。\nまた、Chromeでも実装されていたFetch metadata request headersが実装されています。\nSec-Fetch-Site、Sec-Fetch-Mode、Sec-Fetch-User、Sec-Fetch-Destのリクエストヘッダがそれぞれのリクエストに追加され、サーバ側でのチェックに利用できます。\nFirefox 90 supports Fetch Metadata Request Headers - Mozilla Security Blog\nProtect your resources from web attacks with Fetch Metadata\nFetch metadata request headersはSafariとIE以外のブラウザで実装されています。\nnpm audit: Broken by Design — Overreactedという記事では、create-react-appを例に npm audit で報告される脆弱性の問題について書かれています。\n報告される脆弱性の殆どはReDOSとなっていて、devDependenciesとして扱うツールにおいてはfalse…",
-          "link": "https://jser.info/2021/07/14/firefox-90-npm-audit-access-guide/",
-          "publishedOn": "2021-07-14T03:24:13.000Z",
-          "wordCount": 480,
-          "title": "2021-07-14のJS: Firefox 90、npm auditの問題、Access Guide"
         }
       ]
     },
@@ -63,6 +54,20 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/nononono/articles/0255311126f88f",
+          "author": "ノノ",
+          "description": "どうもこんにちはノノです。\n今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。\n最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。\n特に初学者の方はどの教材を選べばいいか分からないですよね。\n（僕は分かりませんでした😇）\n少しでも参考になれば幸いです。\n前半に「使用した教材一覧」\n後半に「おすすめの教材」を紹介します。\n\nHTML,CSSの基礎知識はありました。\n\n\n 使用した教材一覧\n\n 本\n\nりあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】\nりあクト！ TypeScriptで始めるつらくない...",
+          "link": "https://zenn.dev/nononono/articles/0255311126f88f",
+          "publishedOn": "2021-08-12T07:26:17.000Z",
+          "wordCount": 171,
+          "title": "【2021年8月】フロントエンドの学習に使用した教材一覧（React, TypeScript, NEXT.js, Firebase）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--72Nu41ZM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%258E%25E3%2583%258E%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%25902021%25E5%25B9%25B48%25E6%259C%2588%25E3%2580%2591%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%25AB%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2595%2599%25E6%259D%2590%25E4%25B8%2580%25E8%25A6%25A7%25EF%25BC%2588React%252C%2520TypeScript%252C%2520NEXT.js%252C%2520Firebase%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjVlNzg1YzFjNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/meijin/articles/nextjs-linaria-cache-error",
           "author": "Meijin",
@@ -664,20 +669,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/nihashi/articles/f532d43bd52e6f",
-          "author": "nihashi",
-          "description": "Next.jsの導入\n\n      \n        \n        npx create-next-app project-name\n\n\n      \n      typescriptを導入したい場合はオプションに--typescript（もしくは--ts）を追加するか、プロジェクト作成後に必要なファイルの作成およびパッケージのインストールを行います。\n\n      \n         プロジェクト作成時に導入\n        npx create-next-app project-name --typescript\n\n\n      \n      \n      \n        ...",
-          "link": "https://zenn.dev/nihashi/articles/f532d43bd52e6f",
-          "publishedOn": "2021-07-14T11:48:49.000Z",
-          "wordCount": 588,
-          "title": "Next.jsの環境を構築する（+TypeScript, Storybook, Hygen）",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--xeTR771G--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nihashi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588%252BTypeScript%252C%2520Storybook%252C%2520Hygen%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzczMzgyM2EwYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -686,6 +677,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/umatoma/articles/a819fd622d4743",
+          "author": "umatoma",
+          "description": "flutter-study.dev\n「Flutterで始めるアプリ開発」というWebサイトを公開している。\nもともとはGatsbyでSSGしていたが、Vueを使う必要が出てきたので、勉強がてらNuxtJSへと移行してみた。\nhttps://www.flutter-study.dev/\n\n Markdownで記事を書く\nGatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各記事を書いていた。\nhttps://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...",
+          "link": "https://zenn.dev/umatoma/articles/a819fd622d4743",
+          "publishedOn": "2021-08-11T15:08:33.000Z",
+          "wordCount": 206,
+          "title": "GatsbyからNuxtJSに移行してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zb42cUsd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umatoma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby%25E3%2581%258B%25E3%2582%2589NuxtJS%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lNVVdLY3dwaGFRMV91eUlQWWEwcy1udE1qeFVYQTNZYWFlLW5XPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/tanoken729/articles/6a96bff90b8e12",
           "author": "tanoken",
@@ -875,6 +880,76 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8",
+          "author": "kondo_script",
+          "description": "誰向けの記事?\n\nreact-nativeやexpo使って小さなアプリを作りたいけどバックエンド組むのは面倒くさい人\nredux toolkitってぶっちゃけどうなん？ というのが知りたい人\nexpo + redux-toolkit + redux-persist のボイラープレートが欲しい人\n\n黙って動くボイラープレートよこせや、っていう人はこちら\n\nおれはそういう素直な人好きだよ\n\n\n\n\n\n\n いきさつ\n\n何につけてもやる気が出なかったのでやる気を永続化させようと思った\nやる気がないのでexpoで楽して作りたかった\nやる気がないのでバックエンドは作りたくなかった\n\nAsyncSt...",
+          "link": "https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8",
+          "publishedOn": "2021-08-12T18:31:54.000Z",
+          "wordCount": 81,
+          "title": "expo + redux-toolkit + redux-persistでAsyncStorageにやる気を永続化させるアプリを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8wGEqvXX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kondo_script%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:expo%2520%252B%2520redux-toolkit%2520%252B%2520redux-persist%25E3%2581%25A7AsyncStorage%25E3%2581%25AB%25E3%2582%2584%25E3%2582%258B%25E6%25B0%2597%25E3%2582%2592%25E6%25B0%25B8%25E7%25B6%259A%25E5%258C%2596%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzdhYjk3MmU5Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/manalink/articles/manalink-react-vite",
+          "author": "マナリンク Tech Blog",
+          "description": "オンライン家庭教師マナリンク CTO の名人です。\n先日マナリンクでリリースした新機能でReactとViteの組み合わせを選定しました。\nhttps://vitejs.dev/\n本記事ではReactとViteについて、以下の順で解説させていただきます。気になるところから読んでいただければ幸いです。\n\n採用理由\n実装の内容（環境設定、ライブラリ選定、コンポーネント設計など）\nCI/CD（デプロイ、テスティング、Linterなど）\n\n\n React×Viteの採用理由\n\n マナリンクについて\n採用理由を説明するにあたって、簡単にマナリンクの事業背景を説明します。\nマナリンクは、オンライン家庭...",
+          "link": "https://zenn.dev/manalink/articles/manalink-react-vite",
+          "publishedOn": "2021-08-12T09:33:09.000Z",
+          "wordCount": 482,
+          "title": "React × Viteで新機能を開発した話(採用理由、実装、CI/CD)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4Sf1mz4J--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%2520Tech%2520Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%25C3%2597%2520Vite%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2528%25E6%258E%25A1%25E7%2594%25A8%25E7%2590%2586%25E7%2594%25B1%25E3%2580%2581%25E5%25AE%259F%25E8%25A3%2585%25E3%2580%2581CI%252FCD%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODNjZWUyZDUxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nononono/articles/0255311126f88f",
+          "author": "ノノ",
+          "description": "どうもこんにちはノノです。\n今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。\n最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。\n特に初学者の方はどの教材を選べばいいか分からないですよね。\n（僕は分かりませんでした😇）\n少しでも参考になれば幸いです。\n前半に「使用した教材一覧」\n後半に「おすすめの教材」を紹介します。\n\nHTML,CSSの基礎知識はありました。\n\n\n 使用した教材一覧\n\n 本\n\nりあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】\nりあクト！ TypeScriptで始めるつらくない...",
+          "link": "https://zenn.dev/nononono/articles/0255311126f88f",
+          "publishedOn": "2021-08-12T07:26:17.000Z",
+          "wordCount": 171,
+          "title": "【2021年8月】フロントエンドの学習に使用した教材一覧（React, TypeScript, NEXT.js, Firebase）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--72Nu41ZM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%258E%25E3%2583%258E%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%25902021%25E5%25B9%25B48%25E6%259C%2588%25E3%2580%2591%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%25AB%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2595%2599%25E6%259D%2590%25E4%25B8%2580%25E8%25A6%25A7%25EF%25BC%2588React%252C%2520TypeScript%252C%2520NEXT.js%252C%2520Firebase%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjVlNzg1YzFjNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/magurotuna/articles/deno-release-note-1-13-0",
+          "author": "magurotuna",
+          "description": "Copyright (c) 2018-2021 the Deno authors. MIT License.\n日本時間の昨日（2021 年 8 月 11 日）に Deno の v1.13.0 がリリースされました。\nhttps://deno.com/blog/v1.13\n詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。\n\nネイティブ HTTP サーバー実装の安定化\n\nself.structuredClone() のサポート\nTLSのためのシステム証明書ストアが利用可能になった\nテストのためTLS検証を無効にできるようになった\nWeb Cr...",
+          "link": "https://zenn.dev/magurotuna/articles/deno-release-note-1-13-0",
+          "publishedOn": "2021-08-11T15:56:40.000Z",
+          "wordCount": 980,
+          "title": "Deno 1.13.0 がリリースされたので新機能や変更点の紹介",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--FDW0vVf9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:magurotuna%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25201.13.0%2520%25E3%2581%258C%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2584%25E5%25A4%2589%25E6%259B%25B4%25E7%2582%25B9%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dNUGF0cWN1MUh1d1dEcG5uVzRETFVxZlI5aDlOM1NFc3FmaWdYZkE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4",
+          "author": "KenT",
+          "description": "event:any を避けたい！\nまずはダメな例です\n\n      \n        \n        const onClick = (event: any) => {\n    //処理\n  };\n\n\n      \n      tsを書くならany型は避けたいですよね\n\n 便利な型推論\nなので、以下を使うのが便利です\n\n      \n        \n        type Props = {\n  onClick: (event: React.MouseEvent<HTMLInputElement>) => void\n  onChange: (event:...",
+          "link": "https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4",
+          "publishedOn": "2021-08-11T09:13:59.000Z",
+          "wordCount": 73,
+          "title": "React×Typescript Eventの型まとめ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--or2wRmTc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenT%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25C3%2597Typescript%2520Event%25E3%2581%25AE%25E5%259E%258B%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjg4ZDAyMTI0NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9",
           "author": "Yakumo Saki",
@@ -1924,90 +1999,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/terrierscript/articles/2021-07-13-i18n",
-          "author": "terrierscript",
-          "description": "Reactアプリケーションをi18nをするにあたって、t(\"Hello\", \"こんにちは\")のように日本語をfallback値として設定するようにしたらわりと良かったのでまとめる\n\n 前提\nあくまで今回の話は下記のような前提としている。\n\n小規模で、複雑な多言語化処理を要する部分が少ない\n日本語から他言語への変換である\n多言語化の種類は少なく、多言語化後も日本語が中心。\n組織のコミュニケーションパスが少なく、実装者がUIを変更する事が出来る環境である\n\n\n 準備\n本題に入る前の前提として、ライブラリと外部サービス選びについて。\n\n ライブラリ選び\ni18n自体はマッピングさえできれば十分...",
-          "link": "https://zenn.dev/terrierscript/articles/2021-07-13-i18n",
-          "publishedOn": "2021-07-14T10:10:29.000Z",
-          "wordCount": 363,
-          "title": "小規模環境のi18nで、t(\"Hello\",\"こんにちは\")のように日本語をfallbackに入れる運用したら良かった話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--jFMxq2rh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:terrierscript%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E5%25B0%258F%25E8%25A6%258F%25E6%25A8%25A1%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25AEi18n%25E3%2581%25A7%25E3%2580%2581t%2528%2522Hello%2522%252C%2522%25E3%2581%2593%25E3%2582%2593%25E3%2581%25AB%25E3%2581%25A1%25E3%2581%25AF%2522%2529%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2582%2592fallback%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E8%2589%25AF%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTQwYmE4ZjQ3ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0",
-          "author": "magurotuna",
-          "description": "Copyright (c) 2018-2021 the Deno authors. MIT License.\n日本時間の昨日（2021 年 7 月 13 日）に Deno の v1.12.0 がリリースされました。\nhttps://deno.com/blog/v1.12\n詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。\n\n\ngenerateKey, sign, verify の3つの Web Crypto API がサポート\nネイティブ HTTP サーバーでの WebSocket サポート\nREPL における TypeScript のサポ...",
-          "link": "https://zenn.dev/magurotuna/articles/deno-release-note-1-12-0",
-          "publishedOn": "2021-07-14T04:30:36.000Z",
-          "wordCount": 1065,
-          "title": "Deno 1.12.0 がリリースされたので新機能や変更点の紹介",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--1058S3yy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:magurotuna%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25201.12.0%2520%25E3%2581%258C%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2584%25E5%25A4%2589%25E6%259B%25B4%25E7%2582%25B9%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dNUGF0cWN1MUh1d1dEcG5uVzRETFVxZlI5aDlOM1NFc3FmaWdYZkE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/makumattun/articles/e3e598ff8c6dd3",
-          "author": "mattun",
-          "description": "こちらの記事の続きです。\nhttps://zenn.dev/makumattun/articles/474fbe08a5111c\n※この記事ではEventStoreとmain関数の流れまでを紹介します。\nこの部分\n\n\n イベントソーシングでテーブル格納時にやりたいこと\nやりたいこと\n・一つのテーブルにすべてのイベントを格納したい\n・複数のドメインイベントをAcidに登録したい\n・整合性を持たせるために誤って２回登録のイベントが発火されたときは失敗させたい\nここらへんを満たすようにテーブルの設計をする必要があります。\n\n DynamoDBのインデックス設計\nごちゃごちゃ記載するよりも、Ev...",
-          "link": "https://zenn.dev/makumattun/articles/e3e598ff8c6dd3",
-          "publishedOn": "2021-07-14T01:20:29.000Z",
-          "wordCount": 334,
-          "title": "Serverless FrameworkとTypeScriptでCQRSを実現する 実装編1",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--nnaTDmGm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mattun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Serverless%2520Framework%25E3%2581%25A8TypeScript%25E3%2581%25A7CQRS%25E3%2582%2592%25E5%25AE%259F%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2520%25E5%25AE%259F%25E8%25A3%2585%25E7%25B7%25A81%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTkzOWQ3MzE0ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sykmhmh/articles/086eef9300ac2d",
-          "author": "sykmhmh",
-          "description": "概要\nViteで、React17以降のJSXトランスフォームに対応する方法です。\nhttps://ja.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html\n\n 動機\nReact16以前では、JSXを利用するには明示的にReactをインポートする必要がありましたが、React 17以降は新しいトランスフォームの方法が提供され(現在は16以前のバージョンでも提供されています)、babelやtsconfigの設定を変更することで明示的にReactをインポートせずともJSXが利用できるようになりました。\nしかし...",
-          "link": "https://zenn.dev/sykmhmh/articles/086eef9300ac2d",
-          "publishedOn": "2021-07-13T14:13:21.000Z",
-          "wordCount": 55,
-          "title": "ViteでReact17以降のJSXトランスフォームに対応する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--MHxN-etN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sykmhmh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vite%25E3%2581%25A7React17%25E4%25BB%25A5%25E9%2599%258D%25E3%2581%25AEJSX%25E3%2583%2588%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AB%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTAxZTBjZDM5OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
-          "author": "syuri",
-          "description": "ドラムロールとは・・・\n数字がじゃかじゃか回るやつです。\n今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)\n\n\n 目次\n最初に考えた方法\nもうちょっと賢い方法\n最終型を見たい方はもうちょっと賢い方法から見てください。\n\n 最初に考えた方法\nまずはコードから。\n\n      \n        \n        <div data-destination=\"2000\"　class=\"number\">0</div>\n\n\n      \n   ...",
-          "link": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
-          "publishedOn": "2021-07-13T13:58:19.000Z",
-          "wordCount": 626,
-          "title": "Vueでドラムロールを実装する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZEgqWODG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:syuri%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue%25E3%2581%25A7%25E3%2583%2589%25E3%2583%25A9%25E3%2583%25A0%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102",
-          "author": "くぷまーる",
-          "description": "apollo graphqlを使ったUIテストのセットアップをしてみました。\n備忘録で残します。\nテストはreact-tesing-liblaryで行います。\n以下、テスト対象のアプリです。\nhttps://github.com/kupuma-ru21/apollo_relay_style_cursor_pagination\n(以前、書いた記事にテスト対象のアプリの作成方法を記載してます。読まなくてもできるように進めたいと思います。)\nhttps://zenn.dev/kupuma_ru21/articles/f56148ffcac7b0\n\n\n 前提\nまず、普通にreact-tesing...",
-          "link": "https://zenn.dev/kupuma_ru21/articles/bb3d32e6e27102",
-          "publishedOn": "2021-07-13T13:14:30.000Z",
-          "wordCount": 352,
-          "title": "apollo graphqlアプリのUIテスト",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Sn0THC1Y--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258F%25E3%2581%25B7%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:apollo%2520graphql%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AEUI%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjFkZGYxMjM1My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2121,6 +2112,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e",
+          "author": "おしうみなおき",
+          "description": "ローカルストレージに値をセットしたり、ローカルストレージから値を取得したりしたいことがあったので、試して記事に残してみました。\n\n はじめに\n通常ローカルストレージには機密情報は保存してはいけません。\n僕の場合は永続的に保存したい設定値を保存する際に用いる事が多いです。← 設定値は別に流出されても全然何の問題もないような情報です。\nローカルストレージに機密情報を保存してはいけない理由はJavaScriptから参照できてしまうからです。XSS脆弱性を代表に、JavaScriptを用いてローカルストレージやCookieから情報を抜き取られる可能性がないとはいい切れません。安全の為にローカルス...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e",
+          "publishedOn": "2021-08-13T00:41:44.000Z",
+          "wordCount": 32,
+          "title": "vue.jsからローカルストレージの値を操作する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--FIkXMT5z--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue.js%25E3%2581%258B%25E3%2582%2589%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E5%2580%25A4%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/umatoma/articles/a819fd622d4743",
           "author": "umatoma",
@@ -2481,34 +2486,6 @@
           "title": "Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--k9JKkQCd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%258D%259A%25E3%2583%258E%25E5%258A%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Chart.js%25E3%2582%2592Nuxt.js%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E6%258A%2598%25E7%25B7%259A%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E5%2580%258B%25E4%25BA%25BA%25E7%259A%2584%25E3%2581%25AB%25E3%2583%25A1%25E3%2583%25A2%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmNjNzg4YzUzOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
-          "author": "syuri",
-          "description": "ドラムロールとは・・・\n数字がじゃかじゃか回るやつです。\n今回は数字が画面内に入ってきたら、数字のドラムロールが開始されるというアニメーションをプラグインを使わずに実装したいと思います。(Nuxt＋Typescriptで開発しています。)\n\n\n 目次\n最初に考えた方法\nもうちょっと賢い方法\n最終型を見たい方はもうちょっと賢い方法から見てください。\n\n 最初に考えた方法\nまずはコードから。\n\n      \n        \n        <div data-destination=\"2000\"　class=\"number\">0</div>\n\n\n      \n   ...",
-          "link": "https://zenn.dev/syuri/articles/ea7117bfb35a09",
-          "publishedOn": "2021-07-13T13:58:19.000Z",
-          "wordCount": 626,
-          "title": "Vueでドラムロールを実装する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZEgqWODG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:syuri%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue%25E3%2581%25A7%25E3%2583%2589%25E3%2583%25A9%25E3%2583%25A0%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kai/articles/try-nuxt-vite",
-          "author": "カイ",
-          "description": "最近話題となっている Vite を Nuxt で試してみました。\nVite とは簡単に言ってしまうと、速い、フロントエンドのビルドツールです。\n調べてみると、Nuxt Vite というのがあるんですね。\nそちらで試したことを書いていきます。\n\n Nuxt に Vite を導入する\n\n Nuxt のプロジェクトを作成\n\n      \n        \n        $ yarn create nuxt-app vite-nuxt\n\n\n      \n      vite-nuxtのところは任意の名前で大丈夫です。\nVite を試したいだけなので、とりあえず最小限の構成にしました。\ntarg...",
-          "link": "https://zenn.dev/kai/articles/try-nuxt-vite",
-          "publishedOn": "2021-07-13T13:36:11.000Z",
-          "wordCount": 111,
-          "title": "ViteをNuxtで試した",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--gLF2MdI9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25AB%25E3%2582%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vite%25E3%2582%2592Nuxt%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTllM2UwYWYxOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
