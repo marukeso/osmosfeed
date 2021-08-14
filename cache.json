@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/naoya_kuma/articles/fda80ba103ac41",
+          "author": "Naoya Kumasegawa",
+          "description": "表題の通りですが、Next.jsでShopifyのストアフロントをつくってみました。\nもともと業務でShopifyを使っていて、技術的にSSRやSSG・ISRなどの様々なレンダリング方法に対応したNext.jsに興味があったので、その二つを合わせるような形でストアを構築してみました。\nデザインはShopifyのデフォルトテーマであったDebutテーマ(いまはDawnになりましたね)を参考にしています。\n(gif貼ろうとしたけど重いのか失敗...)\n\n\n 使用技術など\nストア: https://nextjs-shopify-store.vercel.app\nリポジトリ: https://g...",
+          "link": "https://zenn.dev/naoya_kuma/articles/fda80ba103ac41",
+          "publishedOn": "2021-08-13T10:24:43.000Z",
+          "wordCount": 229,
+          "title": "Next.jsでShopifyのストアフロントをつくってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--CojtjyF5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Naoya%2520Kumasegawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Shopify%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDhhNmU1MmY4Zi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/95fa80e1489c28",
+          "author": "空雲",
+          "description": "Next.jsのインストール\n\n      \n        \n        yarn add next@11.1.1-canary.6\n\n\n      \n      \n Next.jsの設定\n\nnext.config.js\n\n\n      \n        \n        const config = {\n    experimental: { swcLoader: true }\n};\nmodule.exports = config;\n\n\n      \n      \n ビルド\n\n      \n        \n        yarn next build\n\n\n      \n ...",
+          "link": "https://zenn.dev/sora_kumo/articles/95fa80e1489c28",
+          "publishedOn": "2021-08-13T09:43:12.000Z",
+          "wordCount": 33,
+          "title": "Next.jsでビルドにswcを使う(2021/8/13版)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--yRfrrLUE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2583%2593%25E3%2583%25AB%25E3%2583%2589%25E3%2581%25ABswc%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25282021%252F8%252F13%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hirockysan/articles/c10deae91a0a18",
+          "author": "ひろっきー",
+          "description": "こんにちは。ひろっきーです。\n現在ITエンジニア転職を目指して現在、独学９ヶ月目で日々学習、現在はNext.js、TypeScript などを学習しており、ポートフォリオとしてSNSアプリケーションを作成しています。\n今回はこのSNSアプリの認証ページを作成するにあたって非同期処理で詰まった部分を共有したいと思います。\n\n 使用技術\n\nReact\nNext.js\nTypescript\nTailwindCSS\nFirebase Authentication\nMaterial UI\nReact-redux-toolkit\n...etc\n\n\n 実際のコード（長いので一部抜粋）\n\n      \n...",
+          "link": "https://zenn.dev/hirockysan/articles/c10deae91a0a18",
+          "publishedOn": "2021-08-13T06:30:39.000Z",
+          "wordCount": 317,
+          "title": "Next.jsで非同期処理が走らなくて困った話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--rCAIRL7I--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B2%25E3%2582%258D%25E3%2581%25A3%25E3%2581%258D%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2581%258C%25E8%25B5%25B0%25E3%2582%2589%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25A6%25E5%259B%25B0%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liZVZOYWZFUW1TcFIzZWhsWDdUVzZCV0ZsekJnTFpsRExFQ0NhUmc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/nononono/articles/0255311126f88f",
           "author": "ノノ",
           "description": "どうもこんにちはノノです。\n今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。\n最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。\n特に初学者の方はどの教材を選べばいいか分からないですよね。\n（僕は分かりませんでした😇）\n少しでも参考になれば幸いです。\n前半に「使用した教材一覧」\n後半に「おすすめの教材」を紹介します。\n\nHTML,CSSの基礎知識はありました。\n\n\n 使用した教材一覧\n\n 本\n\nりあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】\nりあクト！ TypeScriptで始めるつらくない...",
@@ -641,34 +683,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
-          "author": "リーナーテックブログ",
-          "description": "Leaner Technologies の黒曜(@kokuyouwind)です。\n以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。\nhttps://zenn.dev/leaner_tech/articles/20210608-leaner-techstack\nまた新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。\nこれらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...",
-          "link": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
-          "publishedOn": "2021-07-15T01:51:12.000Z",
-          "wordCount": 280,
-          "title": "Leaner の技術スタック紹介(2021年7月版)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--j47hoymn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Leaner%2520%25E3%2581%25AE%25E6%258A%2580%25E8%25A1%2593%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%25E7%25B4%25B9%25E4%25BB%258B%25282021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGZiYzhkYzg5MS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/quocca/articles/36182859d30b22",
-          "author": "quocca",
-          "description": "したかったので開発しました！\nhttps://quocca-works.com/accela/\nドキュメントはサイト内にあるので、この記事ではNext.jsとの対比や簡単なコードで、Accelaの特徴を紹介していきます。実際にどういった動作をするかは当サイトで確認することができ、サイトのデータ自体もダウンロードできるので、サンプルとしてお使いください。\n\n Next.jsを参考にした機能\nNext.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...",
-          "link": "https://zenn.dev/quocca/articles/36182859d30b22",
-          "publishedOn": "2021-07-14T13:36:47.000Z",
-          "wordCount": 144,
-          "title": "PHPでもNextしたい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--J0Ldggk3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:quocca%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:PHP%25E3%2581%25A7%25E3%2582%2582Next%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjZmODA0YjU1Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -858,20 +872,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
-          "author": "リーナーテックブログ",
-          "description": "Leaner Technologies の黒曜(@kokuyouwind)です。\n以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。\nhttps://zenn.dev/leaner_tech/articles/20210608-leaner-techstack\nまた新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。\nこれらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...",
-          "link": "https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107",
-          "publishedOn": "2021-07-15T01:51:12.000Z",
-          "wordCount": 280,
-          "title": "Leaner の技術スタック紹介(2021年7月版)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--j47hoymn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Leaner%2520%25E3%2581%25AE%25E6%258A%2580%25E8%25A1%2593%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%25E7%25B4%25B9%25E4%25BB%258B%25282021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGZiYzhkYzg5MS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -880,6 +880,62 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/himorishige/articles/de9593a77863e8",
+          "author": "Hi MORISHIGE",
+          "description": "はじめに\nReduxにはながーい歴史の中、非同期処理についてはいろいろと語られてきましたが、、🙈\nRedux Toolkit v1.6.0からは新たな非同期処理であるRTK Queryが組み込まれました。\nRTK Queryはswrやreact-queryと同じようなキャッシュ戦略を駆使したRedux Toolkitチーム謹製のQueryツールとなっています。\nhttps://redux-toolkit.js.org/rtk-query/overview\nいくつかのプロジェクトでも使い始めていたところですが、ちょうどRedux Thunk -> createSyncThunk ...",
+          "link": "https://zenn.dev/himorishige/articles/de9593a77863e8",
+          "publishedOn": "2021-08-13T10:00:01.000Z",
+          "wordCount": 746,
+          "title": "Redux Toolkit の非同期処理の変遷を試してみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--fTC1txNK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hi%2520MORISHIGE%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Redux%2520Toolkit%2520%25E3%2581%25AE%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTVmZmRmNGJjNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryo_kawamata/articles/38f7a866799414",
+          "author": "ryo_kawamata",
+          "description": "先日リリースした個人開発のアプリについて感想や技術スタックなど色々書きます。\n\n どんなアプリを公開した？\n以下ツイートで紹介している、 Slack の絵文字スタンプ用のアニ GIF を簡単につくれるアプリを公開しました。\nhttps://twitter.com/KawamataRyo/status/1425292135356682248\nタイミングが良かったのか数多く Retweet してもらえ、 Twitter を初めて初のバズの波動を感じました。アプリ自体はこちらです。とても簡単に試せるのでぜひ使ってもらえると嬉しいです。\nhttps://www.animated-emoji-ge...",
+          "link": "https://zenn.dev/ryo_kawamata/articles/38f7a866799414",
+          "publishedOn": "2021-08-13T08:35:22.000Z",
+          "wordCount": 390,
+          "title": "Vue3 で「動く」Slack絵文字ジェネレーターを作って公開した話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--iEV2x0Nc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue3%2520%25E3%2581%25A7%25E3%2580%258C%25E5%258B%2595%25E3%2581%258F%25E3%2580%258DSlack%25E7%25B5%25B5%25E6%2596%2587%25E5%25AD%2597%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%258D%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/beeeyan/articles/8493cfe83f775f",
+          "author": "beeeyan",
+          "description": "前回に引き続きTheme UIの話です。\n\n はじめに ~ Presetのデザインとは？ ~\nPresetとは「設定値などを前もって調整すること」であり、\nTheme UIではパッケージとしてあらかじめ用意されたデザイン（色など）の規定値が存在しています。\nたとえば、公式サイト右上のボタンは、Presetの種類を意味していて、\nこのボタンを押すことで、デザインを瞬時に変更できるようになっています。\nLightの場合（公式サイトのスクショ）\n\ndarkの場合（公式サイトのスクショ）\n\n今回の記事は、この「Preset」をどうやって導入するかって話になります！\n\n Presetの確認方法\n公...",
+          "link": "https://zenn.dev/beeeyan/articles/8493cfe83f775f",
+          "publishedOn": "2021-08-13T07:30:15.000Z",
+          "wordCount": 186,
+          "title": "Theme UIのPresetのデザインの導入方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xfznHFId--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:beeeyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Theme%2520UI%25E3%2581%25AEPreset%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25AE%25E5%25B0%258E%25E5%2585%25A5%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTg0NTA1OGQzYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/himorishige/articles/cfd7aedacc3083",
+          "author": "Hi MORISHIGE",
+          "description": "はじめに\n個人的には最近のバックエンドはサーバレスにNestJSが一択になりつつあります。明日の自分のために、NestJS v8でnest new直後に行っている開発前の下準備の備忘録になります。\nhttps://nestjs.com/\nhttps://github.com/himorishige/nestjs-template\n\n 1.NestJSのプロジェクトを作成\nCLIをまだ未インストールの場合はNestJSのCLIをグローバルにインストールします。\n\n      \n        \n        $ npm i -g @nestjs/cli\n\n\n      \n      ...",
+          "link": "https://zenn.dev/himorishige/articles/cfd7aedacc3083",
+          "publishedOn": "2021-08-13T07:04:03.000Z",
+          "wordCount": 306,
+          "title": "NestJSで新規プロジェクトを作るときの備忘録",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5PPo_g3q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hi%2520MORISHIGE%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:NestJS%25E3%2581%25A7%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%2582%2599%25E5%25BF%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTVmZmRmNGJjNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8",
           "author": "kondo_script",
@@ -1982,20 +2038,6 @@
           "title": "Angularで生のDOMを操作する",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ClAKpmku--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Angular%25E3%2581%25A7%25E7%2594%259F%25E3%2581%25AEDOM%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ibaraki/articles/7a6368bdfb890f",
-          "author": "いばらき",
-          "description": "やりたかったこと\nNode.jsでAPIを書いたら、OpenAPIドキュメントを自動生成して欲しい\n\n 背景\nAPIを書く場合に使うFrameworkにおいてPythonではDjangoやFlaskが有名ですが、最近注目されているFrameworkにFastAPIというものがあります。FastAPIは、動作がNode.js並に早いとか習得が容易といった特徴もありますが、コードを書くと自動でOpenAPIドキュメントを作ってくれてwebインターフェースも用意してくれる機能がとても便利です。\n詳しくは知りたい方は、ドキュメントを読んでください。\nhttps://fastapi.tiang...",
-          "link": "https://zenn.dev/ibaraki/articles/7a6368bdfb890f",
-          "publishedOn": "2021-07-15T12:17:44.000Z",
-          "wordCount": 228,
-          "title": "Node.js環境で、PythonのFastAPIみたいなOpenAPIドキュメント自動生成を求めて、Fastifyに手を出してみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s---YQTuKwp--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2584%25E3%2581%25B0%25E3%2582%2589%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Node.js%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25A7%25E3%2580%2581Python%25E3%2581%25AEFastAPI%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E3%2581%25AAOpenAPI%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E8%2587%25AA%25E5%258B%2595%25E7%2594%259F%25E6%2588%2590%25E3%2582%2592%25E6%25B1%2582%25E3%2582%2581%25E3%2581%25A6%25E3%2580%2581Fastify%25E3%2581%25AB%25E6%2589%258B%25E3%2582%2592%25E5%2587%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lXRjZXeUJCMTBrRDZNaV9Fa0tLQi13WFJSUC04eFlJbDV5eWljPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

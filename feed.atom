@@ -2,10 +2,178 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-13T01:04:26.644Z</updated>
+    <updated>2021-08-14T00:59:28.890Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでShopifyのストアフロントをつくってみた]]></title>
+        <id>https://zenn.dev/naoya_kuma/articles/fda80ba103ac41</id>
+        <link href="https://zenn.dev/naoya_kuma/articles/fda80ba103ac41"/>
+        <updated>2021-08-13T10:24:43.000Z</updated>
+        <summary type="html"><![CDATA[表題の通りですが、Next.jsでShopifyのストアフロントをつくってみました。
+もともと業務でShopifyを使っていて、技術的にSSRやSSG・ISRなどの様々なレンダリング方法に対応したNext.jsに興味があったので、その二つを合わせるような形でストアを構築してみました。
+デザインはShopifyのデフォルトテーマであったDebutテーマ(いまはDawnになりましたね)を参考にしています。
+(gif貼ろうとしたけど重いのか失敗...)
+
+
+ 使用技術など
+ストア: https://nextjs-shopify-store.vercel.app
+リポジトリ: https://g...]]></summary>
+        <author>
+            <name>Naoya Kumasegawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Redux Toolkit の非同期処理の変遷を試してみる]]></title>
+        <id>https://zenn.dev/himorishige/articles/de9593a77863e8</id>
+        <link href="https://zenn.dev/himorishige/articles/de9593a77863e8"/>
+        <updated>2021-08-13T10:00:01.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Reduxにはながーい歴史の中、非同期処理についてはいろいろと語られてきましたが、、🙈
+Redux Toolkit v1.6.0からは新たな非同期処理であるRTK Queryが組み込まれました。
+RTK Queryはswrやreact-queryと同じようなキャッシュ戦略を駆使したRedux Toolkitチーム謹製のQueryツールとなっています。
+https://redux-toolkit.js.org/rtk-query/overview
+いくつかのプロジェクトでも使い始めていたところですが、ちょうどRedux Thunk -> createSyncThunk ...]]></summary>
+        <author>
+            <name>Hi MORISHIGE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでビルドにswcを使う(2021/8/13版)]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/95fa80e1489c28</id>
+        <link href="https://zenn.dev/sora_kumo/articles/95fa80e1489c28"/>
+        <updated>2021-08-13T09:43:12.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsのインストール
+
+      
+        
+        yarn add next@11.1.1-canary.6
+
+
+      
+      
+ Next.jsの設定
+
+next.config.js
+
+
+      
+        
+        const config = {
+    experimental: { swcLoader: true }
+};
+module.exports = config;
+
+
+      
+      
+ ビルド
+
+      
+        
+        yarn next build
+
+
+      
+ ...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue3 で「動く」Slack絵文字ジェネレーターを作って公開した話]]></title>
+        <id>https://zenn.dev/ryo_kawamata/articles/38f7a866799414</id>
+        <link href="https://zenn.dev/ryo_kawamata/articles/38f7a866799414"/>
+        <updated>2021-08-13T08:35:22.000Z</updated>
+        <summary type="html"><![CDATA[先日リリースした個人開発のアプリについて感想や技術スタックなど色々書きます。
+
+ どんなアプリを公開した？
+以下ツイートで紹介している、 Slack の絵文字スタンプ用のアニ GIF を簡単につくれるアプリを公開しました。
+https://twitter.com/KawamataRyo/status/1425292135356682248
+タイミングが良かったのか数多く Retweet してもらえ、 Twitter を初めて初のバズの波動を感じました。アプリ自体はこちらです。とても簡単に試せるのでぜひ使ってもらえると嬉しいです。
+https://www.animated-emoji-ge...]]></summary>
+        <author>
+            <name>ryo_kawamata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Theme UIのPresetのデザインの導入方法]]></title>
+        <id>https://zenn.dev/beeeyan/articles/8493cfe83f775f</id>
+        <link href="https://zenn.dev/beeeyan/articles/8493cfe83f775f"/>
+        <updated>2021-08-13T07:30:15.000Z</updated>
+        <summary type="html"><![CDATA[前回に引き続きTheme UIの話です。
+
+ はじめに ~ Presetのデザインとは？ ~
+Presetとは「設定値などを前もって調整すること」であり、
+Theme UIではパッケージとしてあらかじめ用意されたデザイン（色など）の規定値が存在しています。
+たとえば、公式サイト右上のボタンは、Presetの種類を意味していて、
+このボタンを押すことで、デザインを瞬時に変更できるようになっています。
+Lightの場合（公式サイトのスクショ）
+
+darkの場合（公式サイトのスクショ）
+
+今回の記事は、この「Preset」をどうやって導入するかって話になります！
+
+ Presetの確認方法
+公...]]></summary>
+        <author>
+            <name>beeeyan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NestJSで新規プロジェクトを作るときの備忘録]]></title>
+        <id>https://zenn.dev/himorishige/articles/cfd7aedacc3083</id>
+        <link href="https://zenn.dev/himorishige/articles/cfd7aedacc3083"/>
+        <updated>2021-08-13T07:04:03.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+個人的には最近のバックエンドはサーバレスにNestJSが一択になりつつあります。明日の自分のために、NestJS v8でnest new直後に行っている開発前の下準備の備忘録になります。
+https://nestjs.com/
+https://github.com/himorishige/nestjs-template
+
+ 1.NestJSのプロジェクトを作成
+CLIをまだ未インストールの場合はNestJSのCLIをグローバルにインストールします。
+
+      
+        
+        $ npm i -g @nestjs/cli
+
+
+      
+      ...]]></summary>
+        <author>
+            <name>Hi MORISHIGE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsで非同期処理が走らなくて困った話]]></title>
+        <id>https://zenn.dev/hirockysan/articles/c10deae91a0a18</id>
+        <link href="https://zenn.dev/hirockysan/articles/c10deae91a0a18"/>
+        <updated>2021-08-13T06:30:39.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。ひろっきーです。
+現在ITエンジニア転職を目指して現在、独学９ヶ月目で日々学習、現在はNext.js、TypeScript などを学習しており、ポートフォリオとしてSNSアプリケーションを作成しています。
+今回はこのSNSアプリの認証ページを作成するにあたって非同期処理で詰まった部分を共有したいと思います。
+
+ 使用技術
+
+React
+Next.js
+Typescript
+TailwindCSS
+Firebase Authentication
+Material UI
+React-redux-toolkit
+...etc
+
+
+ 実際のコード（長いので一部抜粋）
+
+      
+...]]></summary>
+        <author>
+            <name>ひろっきー</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vue.jsからローカルストレージの値を操作する]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e</id>
@@ -3795,65 +3963,6 @@ vue-chartjsの導入を忘れないこと。
         $ np...]]></summary>
         <author>
             <name>博ノ助</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node.js環境で、PythonのFastAPIみたいなOpenAPIドキュメント自動生成を求めて、Fastifyに手を出してみる]]></title>
-        <id>https://zenn.dev/ibaraki/articles/7a6368bdfb890f</id>
-        <link href="https://zenn.dev/ibaraki/articles/7a6368bdfb890f"/>
-        <updated>2021-07-15T12:17:44.000Z</updated>
-        <summary type="html"><![CDATA[やりたかったこと
-Node.jsでAPIを書いたら、OpenAPIドキュメントを自動生成して欲しい
-
- 背景
-APIを書く場合に使うFrameworkにおいてPythonではDjangoやFlaskが有名ですが、最近注目されているFrameworkにFastAPIというものがあります。FastAPIは、動作がNode.js並に早いとか習得が容易といった特徴もありますが、コードを書くと自動でOpenAPIドキュメントを作ってくれてwebインターフェースも用意してくれる機能がとても便利です。
-詳しくは知りたい方は、ドキュメントを読んでください。
-https://fastapi.tiang...]]></summary>
-        <author>
-            <name>いばらき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leaner の技術スタック紹介(2021年7月版)]]></title>
-        <id>https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107</id>
-        <link href="https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107"/>
-        <updated>2021-07-15T01:51:12.000Z</updated>
-        <summary type="html"><![CDATA[Leaner Technologies の黒曜(@kokuyouwind)です。
-以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。
-https://zenn.dev/leaner_tech/articles/20210608-leaner-techstack
-また新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。
-これらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...]]></summary>
-        <author>
-            <name>リーナーテックブログ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leaner の技術スタック紹介(2021年7月版)]]></title>
-        <id>https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107</id>
-        <link href="https://zenn.dev/leaner_tech/articles/20210709-leaner-techstack-202107"/>
-        <updated>2021-07-15T01:51:12.000Z</updated>
-        <summary type="html"><![CDATA[Leaner Technologies の黒曜(@kokuyouwind)です。
-以前 Leaner の技術スタックを記事にまとめましたが、Copilot CLIでのコンテナ化やAmplify ConsoleでのSPA配信で技術スタックが更新されたことで少々古い内容になっています。
-https://zenn.dev/leaner_tech/articles/20210608-leaner-techstack
-また新規プロダクトの立ち上げが始まっており、そちらでは従前のプロダクトと異なる技術選定をした部分もあります。
-これらの点を踏まえ、本記事では Leaner で採用している現在の技術ス...]]></summary>
-        <author>
-            <name>リーナーテックブログ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PHPでもNextしたい]]></title>
-        <id>https://zenn.dev/quocca/articles/36182859d30b22</id>
-        <link href="https://zenn.dev/quocca/articles/36182859d30b22"/>
-        <updated>2021-07-14T13:36:47.000Z</updated>
-        <summary type="html"><![CDATA[したかったので開発しました！
-https://quocca-works.com/accela/
-ドキュメントはサイト内にあるので、この記事ではNext.jsとの対比や簡単なコードで、Accelaの特徴を紹介していきます。実際にどういった動作をするかは当サイトで確認することができ、サイトのデータ自体もダウンロードできるので、サンプルとしてお使いください。
-
- Next.jsを参考にした機能
-Next.js(React)の設計思想やNode.jsのエコシステムは素晴らしいものですが、Accelaはその全てを参考にして作っているわけではありません。主に以下の3点を踏襲した上で、別のコンセプトを...]]></summary>
-        <author>
-            <name>quocca</name>
         </author>
     </entry>
 </feed>
