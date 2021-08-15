@@ -2,10 +2,115 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-14T00:59:28.890Z</updated>
+    <updated>2021-08-15T01:04:12.375Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[nuxtでログイン処理後の動的リンク作成]]></title>
+        <id>https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975</id>
+        <link href="https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975"/>
+        <updated>2021-08-14T06:45:35.000Z</updated>
+        <summary type="html"><![CDATA[結論
+watchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。
+
+ 具体的に
+
+      
+        
+        computed: {
+    islogin(){
+      return this.$store.state.login.islogin
+    }
+  },
+  watch: {
+    islogin() {
+      this.$nextTick(() => {
+        this.items[0].link = `/${this.islogin.id}/top`;
+        this.ite...]]></summary>
+        <author>
+            <name>ryuji_cre8ive</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nuxtでログイン処理後の動的リンク作成]]></title>
+        <id>https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975</id>
+        <link href="https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975"/>
+        <updated>2021-08-14T06:45:35.000Z</updated>
+        <summary type="html"><![CDATA[結論
+watchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。
+
+ 具体的に
+
+      
+        
+        computed: {
+    islogin(){
+      return this.$store.state.login.islogin
+    }
+  },
+  watch: {
+    islogin() {
+      this.$nextTick(() => {
+        this.items[0].link = `/${this.islogin.id}/top`;
+        this.ite...]]></summary>
+        <author>
+            <name>ryuji_cre8ive</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでビルドにswcを使う(2021/8/14版)]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/09a1369e53e5d0</id>
+        <link href="https://zenn.dev/sora_kumo/articles/09a1369e53e5d0"/>
+        <updated>2021-08-14T06:08:03.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsの11.1系統からswc導入のアナウンス
+Next.jsの11.1系統からビルドにswcを導入するというアナウンスがありました
+このswcはネイティブアプリケーションなので、JavaScript製のビルドツールより高速に動作します
+ところが開発途上のものだけあって、実際にどうやって使うのかはアナウンス上に何も書かれていません
+ネット界隈でもアナウンスをそのまま垂れ流すだけで、実際に試してみる人がさっぱり見つかりませんでした
+ということで、実際に使ってみたいと思います
+
+ Next.jsのインストール
+
+      
+        
+        yarn add n...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue3.2のdefineCustomElementで子要素のSFCのstyleも含めてWebComponents化する]]></title>
+        <id>https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components</id>
+        <link href="https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components"/>
+        <updated>2021-08-14T04:49:01.000Z</updated>
+        <summary type="html"><![CDATA[何この記事？
+
+Vue3.2 で Vue Component を Web Components にする defineCustomElement が提供された。
+
+<style>を持つ SFC を子要素以下にもつ SFC を Web Components 化する場合、現行(v3.2.1)の機能では追加で作業が必要。
+
+
+
+ defineCustomElement
+ref. Vue and Web Components - Building Custom Elements with Vue
+Vue v3.2.0 の新機能として defineCustomElement が提供されま...]]></summary>
+        <author>
+            <name>Tatsuya Yamamoto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CDN版Vue.jsとオープンデータでお手軽マッシュアップ]]></title>
+        <id>https://zenn.dev/uedayou/articles/c1e76684d3d094</id>
+        <link href="https://zenn.dev/uedayou/articles/c1e76684d3d094"/>
+        <updated>2021-08-14T02:01:05.000Z</updated>
+        <summary type="html"><![CDATA[JavaScriptでWebアプリを開発する場合、最近は Node.js や Deno、各フレームワーク毎にCLIツール(create-react-app、Vue CLI、Vite、Angular CLI)を使って環境構築することが一般的かと思います。
+少し複雑なWebアプリを作るには必須ですが、本当にちょっとしたWebアプリを作りたい場合には面倒だったりします。
+そこで、これらの環境構築が必要のないWebアプリを作ってみることにしました。幸い、Vue.jsや、UIフレームワークのVuetifyなどは従来通りscriptタグでファイルをロードする形でも動いてくれるようなので、CDNからV...]]></summary>
+        <author>
+            <name>uedayou</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.jsでShopifyのストアフロントをつくってみた]]></title>
         <id>https://zenn.dev/naoya_kuma/articles/fda80ba103ac41</id>
@@ -3687,282 +3792,6 @@ TS2693: 'History' only refers to a type, but is being used as a value here.
 history:Histo...]]></summary>
         <author>
             <name>hashito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue.jsのcomputedとmethodsの使い分け]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/8c99581ca5bdd0"/>
-        <updated>2021-07-16T02:14:23.000Z</updated>
-        <summary type="html"><![CDATA[vue.jsには算出プロパティを意味する「computed」と関数を意味する「methods」があります。
-少しオブジェクト指向を知っている人ならプロパティ とメソッドは全然別物だということが分かりますが、Vue.jsのcomputedでは計算ができてしまうので、実際にできることととしてはほとんど変わらないのです。
-では、どういうときにプロパティを使って、どういうときにメソッドを使えば良いのでしょうか？
-
- computedとmethodsの大きな違いはキャッシュ機能があるかどうか
-computedにはキャッシュ機能がありページをリロードしてもキャッシュした値を表示するため、データが変わ...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[neovim+pyls+flake8でテキスト領域に警告内容が表示されないようにする]]></title>
-        <id>https://zenn.dev/hhatto/articles/38cc31b301ede3</id>
-        <link href="https://zenn.dev/hhatto/articles/38cc31b301ede3"/>
-        <updated>2021-07-16T00:16:17.000Z</updated>
-        <summary type="html"><![CDATA['sys' imported but unused はflake8による警告メッセージ
-
- 結論
-let g:lsp_diagnostics_virtual_text_enabled = 0 の設定にしておく
-
- 使用環境
-
-neovim(NVIM): v0.5.0
-
-
- 設定ファイル
-
-      
-        .config/nvim/init.vim
-        call plug#begin('~/.config/nvim/plugged')
-Plug 'prabirshrestha/vim-lsp'
-Plug 'mattn/vim-lsp-settings'
-call...]]></summary>
-        <author>
-            <name>hhatto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firebase: AppCheck 導入]]></title>
-        <id>https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031</id>
-        <link href="https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031"/>
-        <updated>2021-07-15T19:54:35.000Z</updated>
-        <summary type="html"><![CDATA[Firebase AppCheck 導入
-
- 対応サービス
-
-Realtime Database
-Cloud Storage
-Cloud Functions (callable functions)
-
-
- 前提
-Firebase のプロジェクト作成まで完了している
-
- 1. reCAPTCHA 登録
-https://www.google.com/recaptcha/admin/create
-
-以下の情報を登録
-
-ラベル
-reCAPTCHA タイプ: "reCAPTCHA v3" を選択
-ドメイン: ドメイン設定
-
-
- 2. コンソール画面からAppCheck登録
-https://co...]]></summary>
-        <author>
-            <name>Yuuya Miyamae</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firebase: AppCheck 導入]]></title>
-        <id>https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031</id>
-        <link href="https://zenn.dev/yuuyamiyamae/articles/83b4c6a5157031"/>
-        <updated>2021-07-15T19:54:35.000Z</updated>
-        <summary type="html"><![CDATA[Firebase AppCheck 導入
-
- 対応サービス
-
-Realtime Database
-Cloud Storage
-Cloud Functions (callable functions)
-
-
- 前提
-Firebase のプロジェクト作成まで完了している
-
- 1. reCAPTCHA 登録
-https://www.google.com/recaptcha/admin/create
-
-以下の情報を登録
-
-ラベル
-reCAPTCHA タイプ: "reCAPTCHA v3" を選択
-ドメイン: ドメイン設定
-
-
- 2. コンソール画面からAppCheck登録
-https://co...]]></summary>
-        <author>
-            <name>Yuuya Miyamae</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React+TypeScript+ESLint+Prettierをまとめて環境構築]]></title>
-        <id>https://zenn.dev/jpn_asane/articles/d7f44682b74fdc</id>
-        <link href="https://zenn.dev/jpn_asane/articles/d7f44682b74fdc"/>
-        <updated>2021-07-15T18:19:10.000Z</updated>
-        <summary type="html"><![CDATA[環境構築をしっかりするメリット
-正直な話、React+TypeScriptは公式にあるコマンドを一個打ち込めばプロジェクト自体は出来ます。
-環境構築がめんどくさくてそれだけで済ませていた人も多いと思いますが、今回紹介する環境構築をする事で、様々なメリットがあります。
-
-チーム制作などでコーディングルールを厳格化できる
-->チーム一人一人が我流のコーディングをすると誰も読み取る事が出来ないモノが完成します。
-初心者のうちからコーディングの変な癖をなくす
-->初心者のうちから変な癖がついてしまうと、修正するのが大変です。
-コーディングの穴をなくす
-->JavaScrip...]]></summary>
-        <author>
-            <name>Asane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ぼくのかんがえたさいきょうのデータフェッチ 2021Summer🏄‍♂️【Next.js / Hasura】]]></title>
-        <id>https://zenn.dev/eringiv3/articles/56f2b9f90a0632</id>
-        <link href="https://zenn.dev/eringiv3/articles/56f2b9f90a0632"/>
-        <updated>2021-07-15T15:16:24.000Z</updated>
-        <summary type="html"><![CDATA[フロントエンドアプリケーションの開発を行う上で避けては通れないデータフェッチの実装。
-REST APIを使うか、GraphQLを使うか、クライアントでキャッシュするか、APIレスポンスにどのようにして型を付けるか、状態管理はどうするのかなど、開発者の悩みが尽きないけれども、それに関しての設計を考えたり議論を行うのはフロントエンド開発の楽しいポイントだと僕は思っています。
-この記事では、バックエンドにHasura、フロントエンドにNext.jsを使用する場合に僕が最強だと感じたツールの組み合わせ・使い方を紹介します。
-
- モチベーション
-
-APIからのレスポンスにはTypeScriptの型...]]></summary>
-        <author>
-            <name>Eringi_V3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ぼくのかんがえたさいきょうのデータフェッチ 2021Summer🏄‍♂️【Next.js / Hasura】]]></title>
-        <id>https://zenn.dev/eringiv3/articles/56f2b9f90a0632</id>
-        <link href="https://zenn.dev/eringiv3/articles/56f2b9f90a0632"/>
-        <updated>2021-07-15T15:16:24.000Z</updated>
-        <summary type="html"><![CDATA[フロントエンドアプリケーションの開発を行う上で避けては通れないデータフェッチの実装。
-REST APIを使うか、GraphQLを使うか、クライアントでキャッシュするか、APIレスポンスにどのようにして型を付けるか、状態管理はどうするのかなど、開発者の悩みが尽きないけれども、それに関しての設計を考えたり議論を行うのはフロントエンド開発の楽しいポイントだと僕は思っています。
-この記事では、バックエンドにHasura、フロントエンドにNext.jsを使用する場合に僕が最強だと感じたツールの組み合わせ・使い方を紹介します。
-
- モチベーション
-
-APIからのレスポンスにはTypeScriptの型...]]></summary>
-        <author>
-            <name>Eringi_V3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angularでundefinedな可能性のある要素を表示する]]></title>
-        <id>https://zenn.dev/hashito/articles/f0c4c0441b4cd2</id>
-        <link href="https://zenn.dev/hashito/articles/f0c4c0441b4cd2"/>
-        <updated>2021-07-15T13:42:14.000Z</updated>
-        <summary type="html"><![CDATA[問題
-下記のように|undefinedなどがある場合に、HTML上で参照しようとすると、下記のようなエラーが出る。
-
-      
-        
-        import {
-  Component
-} from '@angular/core';
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  user: { name: string; a...]]></summary>
-        <author>
-            <name>hashito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angularで生のDOMを操作する]]></title>
-        <id>https://zenn.dev/hashito/articles/f9b9c2401e0318</id>
-        <link href="https://zenn.dev/hashito/articles/f9b9c2401e0318"/>
-        <updated>2021-07-15T13:19:13.000Z</updated>
-        <summary type="html"><![CDATA[結論
-下記のようにする。
-
-      
-        
-        import {
-  Component,
-  ViewChild,
-  AfterViewInit,
-  OnInit,
-  ElementRef
-} from '@angular/core';
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent implements AfterVi...]]></summary>
-        <author>
-            <name>hashito</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした]]></title>
-        <id>https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c</id>
-        <link href="https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c"/>
-        <updated>2021-07-15T13:00:42.000Z</updated>
-        <summary type="html"><![CDATA[ほんと適当ですみません。
-
- Install
-
-      
-        
-        $ npm install vue-chartjs@2 chart.js@2
-
-
-      
-      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。
-vue-chartjsの導入を忘れないこと。
-
-      
-        
-        $ npm install @nuxtjs/moment
-
-
-      
-      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。
-
-      
-        
-        $ np...]]></summary>
-        <author>
-            <name>博ノ助</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chart.jsをNuxt.jsで使って時間の折線を作ったので個人的にメモした]]></title>
-        <id>https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c</id>
-        <link href="https://zenn.dev/cyber_hacnosuke/articles/4ccb3451de8a9c"/>
-        <updated>2021-07-15T13:00:42.000Z</updated>
-        <summary type="html"><![CDATA[ほんと適当ですみません。
-
- Install
-
-      
-        
-        $ npm install vue-chartjs@2 chart.js@2
-
-
-      
-      なんかこのバージョンじゃないとだめだった。よくわかんないけど両方2にした。
-vue-chartjsの導入を忘れないこと。
-
-      
-        
-        $ npm install @nuxtjs/moment
-
-
-      
-      時間の管理しやすさのためにMoment.jsを。入らなくてもいいかも。
-
-      
-        
-        $ np...]]></summary>
-        <author>
-            <name>博ノ助</name>
         </author>
     </entry>
 </feed>
