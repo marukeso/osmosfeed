@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/maztak/articles/6dba8e02771c29",
+          "author": "Takuya Matsuda",
+          "description": "Next.js x TypeScript x TailwindCss の構成で開発をする人も増えていますよね。TailwindCssはBootStrapと違ってTemplateを与えるものではなくCSSコーディングを不要にモダンなWebサイトを作るCSSフレームワークと理解しています。そう入ってもTemplateが欲しいしなるべく公式っぽいものを使いたいので、公式ドキュメントでも推奨されている Tailwind UI を使います。\nhttps://tailwindui.com/preview\n\n HTMLではなくReactに切り替えてコードをコピーしよう\n\nこれのHeader Nav ...",
+          "link": "https://zenn.dev/maztak/articles/6dba8e02771c29",
+          "publishedOn": "2021-08-15T04:54:28.000Z",
+          "wordCount": 45,
+          "title": "Next.js で Tailwind UI を使用するときにハマった話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--SdOBMz9c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takuya%2520Matsuda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25A7%2520Tailwind%2520UI%2520%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E3%2583%258F%25E3%2583%259E%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pneVNwNkxqcEZSMEVzVXhmb2pzTVZHblBjYUVSNnRKRVhuY1NzNXc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yuyakato/articles/688efbc128eff6",
+          "author": "Yuya Kato",
+          "description": "目次\n\nInsightFaceとFastAPIで顔検出サーバを作ってみた\nInsightFaceの顔検出結果をNext.jsで可視化してみた\nInsightFaceで顔認証（特徴量抽出、比較）してみた\nInsightFaceをGPUで動かしてみた\nInsightFaceを使って動画から顔検出してみた\nInsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた（本記事）\n\n\n 初めに\n前回の記事では、InsightFaceによる顔検出の結果をOpenCVを使って可視化（オーバーレイ表示）し、動画ファイルとして出力しました。\n今回は、ウェブブラウザ上で動画にオーバーレ...",
+          "link": "https://zenn.dev/yuyakato/articles/688efbc128eff6",
+          "publishedOn": "2021-08-14T12:53:20.000Z",
+          "wordCount": 126,
+          "title": "InsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--20exEA0j--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuya%2520Kato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:InsightFace%25E3%2581%25AE%25E9%25A1%2594%25E6%25A4%259C%25E5%2587%25BA%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E4%25B8%258A%25E3%2581%25A7%25E5%258B%2595%25E7%2594%25BB%25E3%2581%25AB%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2583%25AC%25E3%2582%25A4%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUSUhmX2JGaE1tcVp0aDNYQUI2NFY0aGRnNlJWbE5CbjVhZmQzdXc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
+          "author": "Yosuke Tanaka",
+          "description": "何を作ったか\n2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。\nhttps://sofeap.vercel.app/\n\n 『エンジニア・プログラマにしか使えないSNS』とは\nhttps://qiita.com/HawkClaws/items/599d7666f55e79ef7f56\n\n本当のエンジニア・プログラマしか使えないSNSを作ってみました！\nつまり、WebApi提供のみのSNSです\n一般ピープルが使うようなフロントエンドなんてありません...",
+          "link": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
+          "publishedOn": "2021-08-14T12:34:23.000Z",
+          "wordCount": 143,
+          "title": "『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xK4AT_rS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yosuke%2520Tanaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%258E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25BB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2581%25AB%25E3%2581%2597%25E3%2581%258B%25E4%25BD%25BF%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584SNS%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%25E3%2580%258F%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25A2%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTRmMjNhMmNjNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/sora_kumo/articles/09a1369e53e5d0",
           "author": "空雲",
           "description": "Next.jsの11.1系統からswc導入のアナウンス\nNext.jsの11.1系統からビルドにswcを導入するというアナウンスがありました\nこのswcはネイティブアプリケーションなので、JavaScript製のビルドツールより高速に動作します\nところが開発途上のものだけあって、実際にどうやって使うのかはアナウンス上に何も書かれていません\nネット界隈でもアナウンスをそのまま垂れ流すだけで、実際に試してみる人がさっぱり見つかりませんでした\nということで、実際に使ってみたいと思います\n\n Next.jsのインストール\n\n      \n        \n        yarn add n...",
@@ -852,6 +894,104 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde",
+          "author": "ふんばりフロントエンジニア",
+          "description": "はじめに\ncreate-react-app（以下、cra）めちゃくちゃ便利ですよね。\nまた、TypeScriptでもサクッとテンプレートを作成できるのがグッドです。\nで、craでwebpackの設定いじりたいなーって時に私は「craco」というライブラリを使います。\nhttps://www.npmjs.com/package/@craco/craco\n今回はこのcracoを使って、上記のaliasの設定をしていきます。（厳密にはwebpackに定義するわけではないのですが...）\n\n 普通にaliasを設定する\nまず、cracoをVanillaなJSテンプレートで使う場合の、webp...",
+          "link": "https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde",
+          "publishedOn": "2021-08-15T13:30:18.000Z",
+          "wordCount": 190,
+          "title": "【create-react-app】webpackのaliasをTypeScriptでも有効にする方法は",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--IqiBRLH4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B5%25E3%2582%2593%25E3%2581%25B0%25E3%2582%258A%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590create-react-app%25E3%2580%2591webpack%25E3%2581%25AEalias%25E3%2582%2592TypeScript%25E3%2581%25A7%25E3%2582%2582%25E6%259C%2589%25E5%258A%25B9%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMmRjMDE3NmI1OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
+          "author": "ryo_kawamata",
+          "description": "先日初めて真面目に自分のコードを OSS として公開する機会があり、色々試行錯誤したのでまとめます。\n\n「真面目に」の基準は過去に自分が公開したリポジトリに比べてです 🙏\n\n\n 何を公開した？\nVue Word Highlighter という Vue.js のコンポーネントライブラリを公開しました。\n機能はとても単純で、文字列と検索クエリを渡すと検索クエリに合致した文字をハイライトする（<mark>タグ又は任意のタグ囲む）というものです。\nhttps://github.com/kawamataryo/vue-word-highlighter\n自分なりに良い感じに使えるコンポー...",
+          "link": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
+          "publishedOn": "2021-08-15T11:16:02.000Z",
+          "wordCount": 279,
+          "title": "真面目にOSSを公開する際にやってみたこと・意識したこと",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--JpAp0yXP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%259C%259F%25E9%259D%25A2%25E7%259B%25AE%25E3%2581%25ABOSS%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AB%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%25E3%2583%25BB%25E6%2584%258F%25E8%25AD%2598%25E3%2581%2597%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/altech/articles/3c868c41e64f94",
+          "author": "Altech",
+          "description": "Firebase と React の勉強を兼ねて、愛用しているタスク管理アプリ Todoist のクローンを作ってみた。途中で色々試行錯誤したのだが、「最初から最短の手順で作るならこういう手順になる」というのを備忘と Firebase の紹介も兼ねてまとめてみようと思う。\n\nアプリケーション: https://altech-todoist.web.app/\nソースコード： https://github.com/Altech/todoist-clone\n\n 0. はじめに\n\n 技術スタック\n\n言語： TypeScript\nUIライブラリ： React 17\nバックエンド：Firebase ...",
+          "link": "https://zenn.dev/altech/articles/3c868c41e64f94",
+          "publishedOn": "2021-08-15T03:23:25.000Z",
+          "wordCount": 1337,
+          "title": "Firebase + React で Todoist のクローンを作る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--PYEr3HS6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Altech%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Firebase%2520%252B%2520React%2520%25E3%2581%25A7%2520Todoist%2520%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lwM1lJX0QtdzRRWVpUamg0WHhFV2FNaE01SHgzcHdjRXhucG15PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/gebo/articles/react-ts-cat-1",
+          "author": "gebo",
+          "description": "フロントエンドのお勉強をしています。\nとりあえず React をやってみてるのですが react-redux、redux-thunk がめっちゃ難しくて全然理解できないということで簡単なコードを書いて実行しながら勉強したメモです。\nハンズオンぽく書いてます。\n結果だけ興味のある方は コチラ からどうぞ。\n\n はじめに\n\n 環境\n\nOS : macOS Big Sur\nエディタ : VSCODE\n言語 : React & TypeScript\nブラウザ : Chrome\n\n\n キーワード\n以下の内容を雰囲気レベルで使っています。\n\nReact Router( react-route...",
+          "link": "https://zenn.dev/gebo/articles/react-ts-cat-1",
+          "publishedOn": "2021-08-15T02:06:45.000Z",
+          "wordCount": 1328,
+          "title": "React&TypeScriptでのreact-redux、redux-thunkお勉強メモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5mcIuEFO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gebo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%2526TypeScript%25E3%2581%25A7%25E3%2581%25AEreact-redux%25E3%2580%2581redux-thunk%25E3%2581%258A%25E5%258B%2589%25E5%25BC%25B7%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzRjMDUyZDE0OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kawarimidoll/articles/4ea4219cf69225",
+          "author": "kawarimidoll",
+          "description": "先日、Deno標準ライブラリのバージョン0.104.0が公開されました。\nhttps://github.com/denoland/deno_std/releases/tag/0.104.0\nこちらで増強されたcollectionsというモジュールを紹介します。\nhttps://deno.land/std@0.104.0/collections\nその名の通り、集合の扱いを支援してくれるモジュールです。\n本記事では0.104.0のリリースで追加された関数を紹介します。\n既存のものはバージョン0.102.0の時点での記事で解説していますので、あわせてご覧ください。\nhttps://zenn.d...",
+          "link": "https://zenn.dev/kawarimidoll/articles/4ea4219cf69225",
+          "publishedOn": "2021-08-14T12:59:52.000Z",
+          "wordCount": 660,
+          "title": "Deno標準ライブラリ0.104.0で増強されたcollectionsの紹介",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--KFwAFqVd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E6%25A8%2599%25E6%25BA%2596%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA0.104.0%25E3%2581%25A7%25E5%25A2%2597%25E5%25BC%25B7%25E3%2581%2595%25E3%2582%258C%25E3%2581%259Fcollections%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
+          "author": "Yosuke Tanaka",
+          "description": "何を作ったか\n2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。\nhttps://sofeap.vercel.app/\n\n 『エンジニア・プログラマにしか使えないSNS』とは\nhttps://qiita.com/HawkClaws/items/599d7666f55e79ef7f56\n\n本当のエンジニア・プログラマしか使えないSNSを作ってみました！\nつまり、WebApi提供のみのSNSです\n一般ピープルが使うようなフロントエンドなんてありません...",
+          "link": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
+          "publishedOn": "2021-08-14T12:34:23.000Z",
+          "wordCount": 143,
+          "title": "『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xK4AT_rS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yosuke%2520Tanaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%258E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25BB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2581%25AB%25E3%2581%2597%25E3%2581%258B%25E4%25BD%25BF%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584SNS%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%25E3%2580%258F%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25A2%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTRmMjNhMmNjNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eagle/articles/ts-coproduct-introduction",
+          "author": "eagle",
+          "description": "代数的データ型とはなにか\n代数的データ型とは、要素の個数の足し算と掛け算のアナロジーで語ることができる型のことを指すというふわっとしたコンセンサスがありますが、\n厳密に「これが代数的データ型である」という定義はおそらくありません[1]。\nまた、代数的データ型はいわゆる関数型言語で実装されることが多い言語機能であり、\n代数的データ型を重用するプログラミングスタイルは関数型の一派としてみなされる傾向がある[2]と思っています。\n本記事では数学的な説明やアナロジーは用いず、なるべく具体的なコードを提示します。\nそして、代数的データ型という言葉を「かつ」と「または」を表すことができる型として...",
+          "link": "https://zenn.dev/eagle/articles/ts-coproduct-introduction",
+          "publishedOn": "2021-08-14T11:38:08.000Z",
+          "wordCount": 1719,
+          "title": "TypeScriptで学ぶ代数的データ型",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--KpEjgwH5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eagle%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E5%25AD%25A6%25E3%2581%25B6%25E4%25BB%25A3%25E6%2595%25B0%25E7%259A%2584%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E5%259E%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTFmZjAxNGQyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/himorishige/articles/de9593a77863e8",
           "author": "Hi MORISHIGE",
@@ -1929,34 +2069,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yukihirop/articles/b36c43014355fd",
-          "author": "yukihirop",
-          "description": "はじめに\nvue-i18nを使っている人なら一度や二度は翻訳のキーのつけ方に悩んだ人は多いかと思います。\nしかも複数人で開発していると人によってキーのつけ方の癖が違ったり、ルール化していてもそのルールを常に意識しながら開発するのは辛いです。そういう問題に対しての一つの解決策を提示してみようかと思います。\n「コンポーネント専用の翻訳ファイルでルートキーがユニークならそれに続くキーは適当でも大して問題ないのではないか？ キーのつけ方が適当になってしまったとしてもそれはそのコンポーネントの翻訳で閉じているし、影響範囲は明確なので大して問題ないのではなかろうか？」\nです。\n\n 環境\n\nvue...",
-          "link": "https://zenn.dev/yukihirop/articles/b36c43014355fd",
-          "publishedOn": "2021-07-17T11:27:48.000Z",
-          "wordCount": 476,
-          "title": "vue-i18nの翻訳をコンポーネント(SFC)毎にする普通ではない方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ctKAMofK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hashito/articles/54d9167e7b5624",
-          "author": "hashito",
-          "description": "現象\n\n      \n        \n        type History=Array<string>;\nhistory:History=new History();\n\n\n      \n      下記のようなエラーが出る。\n\nTS2693: 'History' only refers to a type, but is being used as a value here.\n\n\n 解決\n下記のように修正すれば解決される。\n\n      \n        \n        type History=Array<string>;\nhistory:Histo...",
-          "link": "https://zenn.dev/hashito/articles/54d9167e7b5624",
-          "publishedOn": "2021-07-17T00:31:52.000Z",
-          "wordCount": 39,
-          "title": "TypeScriptでベース配列型で新しい型を作って初期化するとエラーになる。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--8mGXOq_Q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E9%2585%258D%25E5%2588%2597%25E5%259E%258B%25E3%2581%25A7%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E5%259E%258B%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2588%259D%25E6%259C%259F%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1965,6 +2077,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/altair/articles/9238308d2432c6",
+          "author": "Altair",
+          "description": "初めに\n技術記事を書きたいと思いつつ、気づけば直前の投稿から随分と時間が経ってしまいました。\n投稿しないでだらだらしているよりも、当たり前のことでも良いから記事を書こう！ということで最近触っているneovimのプラグインを紹介していきます。\n他にも良いプラグインがあるよ、等アドバイスをいただけるとうれしいです。（まだまだneovim始めてからそんなに触れてないです。）\n自分の入れているプラグインの紹介が終わったら、コメントに寄せてくれたプラグインを試して良さそうなものがあったらまた記事にしたいと思います。\nでは、前置きが長くなりましたがその第一弾をどうぞ！\n\n コードにコメントすると...",
+          "link": "https://zenn.dev/altair/articles/9238308d2432c6",
+          "publishedOn": "2021-08-15T13:57:51.000Z",
+          "wordCount": 35,
+          "title": "自分で使っているvimのプラグインを紹介していくよ - 第一弾",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--6UcxX23H--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Altair%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258Bvim%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%258F%25E3%2582%2588%2520-%2520%25E7%25AC%25AC%25E4%25B8%2580%25E5%25BC%25BE%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/vampire_yuta/articles/c4703f4232f16b",
           "author": "vampire_yuta",
@@ -2056,6 +2182,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/ojk/books/intro-to-vue",
+          "author": "OJK",
+          "description": "文系学科の大学生を対象としたpetite-vueの入門書です。petite-vueはJavaScriptベースのウェブアプリ開発（フロントエンド開発）のフレームワークのひとつで、素のJavaScriptでコーディングするよりも完結に記述することができます。OJKの担当している授業テキストを公開しているものです。",
+          "link": "https://zenn.dev/ojk/books/intro-to-vue",
+          "publishedOn": "2021-08-15T12:08:25.000Z",
+          "wordCount": 9,
+          "title": "文型大学生のためのpetite-vue入門",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--e0FB1U6l--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9kMThjNzg1NDNkLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
+          "author": "ryo_kawamata",
+          "description": "先日初めて真面目に自分のコードを OSS として公開する機会があり、色々試行錯誤したのでまとめます。\n\n「真面目に」の基準は過去に自分が公開したリポジトリに比べてです 🙏\n\n\n 何を公開した？\nVue Word Highlighter という Vue.js のコンポーネントライブラリを公開しました。\n機能はとても単純で、文字列と検索クエリを渡すと検索クエリに合致した文字をハイライトする（<mark>タグ又は任意のタグ囲む）というものです。\nhttps://github.com/kawamataryo/vue-word-highlighter\n自分なりに良い感じに使えるコンポー...",
+          "link": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
+          "publishedOn": "2021-08-15T11:16:02.000Z",
+          "wordCount": 279,
+          "title": "真面目にOSSを公開する際にやってみたこと・意識したこと",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--JpAp0yXP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%259C%259F%25E9%259D%25A2%25E7%259B%25AE%25E3%2581%25ABOSS%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AB%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%25E3%2583%25BB%25E6%2584%258F%25E8%25AD%2598%25E3%2581%2597%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975",
           "author": "ryuji_cre8ive",
@@ -2430,20 +2584,6 @@
           "title": "vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4JjmdK_m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592yaml%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%258B%25E3%2581%25A4%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%255B%25E6%2594%25B9%25E8%2589%25AF%25E7%2589%2588%255D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nappa/articles/e7759c7e65df9a",
-          "author": "nappa",
-          "description": "ども、今月スタートアップ企業に転職した nappa です。現在新規事業の開発に携わっています。\n今日は転職後2週間でフロントエンドの環境を大工事 & React 導入した話を書きます。\n\n 面接まで\n面接では「新規事業では Vue.js を使っている」と言われて、ある程度フロントエンドの環境が整ってるだろうと思っていました。サーバサイドは Rails を使っているとのことだったので、技術的には前職の経験もあるので、大丈夫だろうと思っていました。\n\n 入社後、フタを開けてみたら...\n入社後、ソースコードを拝見して度肝を抜かれました。\n当初、面接から入社まで Vue.js を使って...",
-          "link": "https://zenn.dev/nappa/articles/e7759c7e65df9a",
-          "publishedOn": "2021-07-17T11:46:33.000Z",
-          "wordCount": 136,
-          "title": "転職後2週間でフロントエンドの開発環境を大工事して、React を導入した話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JAHoEoUl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nappa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%25BB%25A2%25E8%2581%25B7%25E5%25BE%258C2%25E9%2580%25B1%25E9%2596%2593%25E3%2581%25A7%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%25A4%25A7%25E5%25B7%25A5%25E4%25BA%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581React%2520%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTgzZjQ1NjcwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
