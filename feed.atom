@@ -2,10 +2,150 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-16T01:03:00.899Z</updated>
+    <updated>2021-08-17T01:02:22.756Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2021-08-17のJS: Next.js 11.1、Rails 7で予定されているimport mapsベースのJSライブラリの利用]]></title>
+        <id>https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/</id>
+        <link href="https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/"/>
+        <updated>2021-08-16T23:06:44.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #553 - Next.js 11.1 がリリースされました。
+Blog - Next.js 11.1 | Next.js
+オープンリダイレクタの脆弱性が修正されています。
+experimental.esmExternalsオプションでNode.jsのESMをサポートしています。
+node-fetchのkeepAliveをデフォルトで有効化、Source Map/ESLint/next/imageの改善なども含まれています。
+また、Rust製のJS/TS Compiler/BundlerであるSWCの作者であるDongYoon KangがVercelに入り、Next.jsでのコンパイルにSWCを利用できるように開発中とのことです。
+Rails 7.0では、現在のwebpacker(webpack)ではなく、Import mapsベースのJavaScriptライブラリをデフォルトする方針が提案されています。
+Modern web apps without JavaScript bundling or transpiling
+Replace webpack with importmapped Hotwire as default js by dhh · Pull Request #42999 · rails/rails
+Import mapsはES Modulesでimportする際に、importするモジュールの名前解決を定義するウェブ標準です。
+<script type="importmap">
+{
+  "imports": {
+    "app": "./src/app.js",
+    "md5": "https://cdn.skypack.dev/md5"
+  }
+}
+</script>
+
+
+Import mapsはChromeのみがサポートしてい…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptの配列でnullableなものを外す]]></title>
+        <id>https://zenn.dev/merutin/articles/16397b8a7f25f3</id>
+        <link href="https://zenn.dev/merutin/articles/16397b8a7f25f3"/>
+        <updated>2021-08-16T08:20:30.000Z</updated>
+        <summary type="html"><![CDATA[undefinedな値が入る可能性がある配列がある場合、filterを使ってnullableなものを排除しますが、typescriptではそのままではうまく認識されません。
+
+      
+        
+        const item = ['a', undefined, 'b', 'c', 'd'];
+
+const ret = item.filter(i => i !==  undefined && i !== null);
+// const ret: (string | undefined)[]
+
+
+      
+      TypeScript Pl...]]></summary>
+        <author>
+            <name>merutin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nextjs 🐕 next/imageのqualityの数値いじってみた！]]></title>
+        <id>https://zenn.dev/byanbyan/articles/baa0b53f8cef4d</id>
+        <link href="https://zenn.dev/byanbyan/articles/baa0b53f8cef4d"/>
+        <updated>2021-08-16T06:53:01.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsのnext/imageは、画質をコンポーネントごとに設定できる。
+詳しくは公式を！
+https://nextjs.org/docs/api-reference/next/image
+実際どんなもんか気になったので調べてみた。
+
+ コードの書き方
+quality={}に値を設定する。
+1〜100の間で設定する（100が最高画質）
+デフォルトは75
+
+      
+        
+        import Image from 'next/image'
+
+<Image src="..." quality={1} width={900} height={500} /&...]]></summary>
+        <author>
+            <name>ゆゆゆ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js × Relay でGraphQLフロントエンド環境を構築してGitHub APIにアクセスする]]></title>
+        <id>https://zenn.dev/snowwshiro/articles/e0386f9cb6743f</id>
+        <link href="https://zenn.dev/snowwshiro/articles/e0386f9cb6743f"/>
+        <updated>2021-08-16T05:04:17.000Z</updated>
+        <summary type="html"><![CDATA[私が開発・運営しているスノーアクティビティイベントマッチングサービス「snowwshiro」に、Next.js × Relayを使ったGraphQLフロントエンド環境を構築しようとしたところ、かなり手間取りましたので、記事にしました。
+最終的なコードについては、以下にて公開しています。
+https://github.com/snowwshiro/nextjs-relay-demo
+
+ 前提
+現在snowwshiroは、フロントエンド・バックエンド共にRuby on Railsにて開発しています。
+一方、私自身は現在他プロジェクトでフロントエンドはReact・Next.js、バックエンドは...]]></summary>
+        <author>
+            <name>snowwshiro中の人</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[fetch による Bing Custom Search API の叩き方]]></title>
+        <id>https://zenn.dev/maztak/articles/023ff810071d17</id>
+        <link href="https://zenn.dev/maztak/articles/023ff810071d17"/>
+        <updated>2021-08-16T03:39:44.000Z</updated>
+        <summary type="html"><![CDATA[まず Bing Search Services は Cognitive Services Bing Custom Search に移行中であるが、いずれの Bing Custom Search API（Bing Web Search API と混同しないように）のドキュメントにも非推奨となっているjsライブラリrequestによる記法しか書いてない（2021年8月16日現在）。
+https://docs.microsoft.com/ja-jp/bing/search-apis/bing-custom-search/quickstarts/rest/nodejs
+今回はNext.js（R...]]></summary>
+        <author>
+            <name>Takuya Matsuda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSDocで型を定義してTypeScriptの恩恵を受ける]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2</id>
+        <link href="https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2"/>
+        <updated>2021-08-15T22:08:09.000Z</updated>
+        <summary type="html"><![CDATA[普段からTypeScriptで開発されている方ならば、TypeScriptの恩恵を十分に堪能されていることと思います。
+特に私はVS Codeのインテリセンスには頼りっぱなしでこれがなければまともにコーディングができない体になってしまいました。
+しかし時には、TypeScriptという概念が存在しない退屈な世界で開発を行わなけらばならない状況はあるでしょう。私はもはやキーボードでタイピングすることすらままなりません。
+そんなJavaScriptしか利用できない状況で代替手段となるのが、JSDocです。JSDocのアノテーションによって型を付与することによって最低限の支援を受けることができ...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsとNode.jsでスキーマファーストなGraphQLの環境を構築する]]></title>
+        <id>https://zenn.dev/thetalemon/articles/20b1e5e11be545</id>
+        <link href="https://zenn.dev/thetalemon/articles/20b1e5e11be545"/>
+        <updated>2021-08-15T14:32:16.000Z</updated>
+        <summary type="html"><![CDATA[概要
+
+Next.js(ts) + Node.js(ts) + apollo + graphql-code-generatorでスキーマファーストなGraphQL環境を構築していくよ！
+
+完成物
+
+
+対象: ざっくりGraphQLでスキーマファーストな環境を構築する方法を知りたい人
+説明しないこと: .graphqlファイルの書き方とかGraphQLの設計とか、具体的なこと
+
+
+ GraphQLとは何か
+
+APIにクエリを投げてFE側から返却するレスポンスを制限できるAPIの形式
+有名どころだとNetflixとかで利用されていて、APIの返却をFEで制御できるので『画面やデバイスによ...]]></summary>
+        <author>
+            <name>まなさす</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[自分で使っているvimのプラグインを紹介していくよ - 第一弾]]></title>
         <id>https://zenn.dev/altair/articles/9238308d2432c6</id>
@@ -3665,307 +3805,6 @@ denops.vimの詳細に関してこれ以上触れないので、気になる方�
 本記事はdocker.vimをdenops.vimで書...]]></summary>
         <author>
             <name>シン・ゴリラ@上野動物園休園中</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VSCodeのTrigger Suggestionの紹介と、macOSで有効化するための工夫]]></title>
-        <id>https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos</id>
-        <link href="https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos"/>
-        <updated>2021-07-18T12:22:01.000Z</updated>
-        <summary type="html"><![CDATA[VSCodeでTypescriptを書くときに、「一文字も入力していないんだけど、予測変換が出てほしいな...」と思うことはありませんか？
-それ、Trigger Suggestion で可能です。macOSユーザーで「何それ？」って人は、私のようにOSのショートカットと衝突しているせいで見逃しているかもしれないです。
-
- デモ
-Ctrl + Spaceでショートカットを表示しています。
-
-
- Trigger Suggestionについて
-VSCodeには Trigger Suggestionというショートカットがあります。
-いまVSCodeを開いている人は、Cmd + Shift + P...]]></summary>
-        <author>
-            <name>hiroga</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NPM パッケージ作成講座]]></title>
-        <id>https://zenn.dev/sprout2000/books/9325fe6c9c1ba9</id>
-        <link href="https://zenn.dev/sprout2000/books/9325fe6c9c1ba9"/>
-        <updated>2021-07-18T08:17:52.000Z</updated>
-        <summary type="html"><![CDATA[TypeScript を使ってオリジナルの NPM パッケージを作ろう！]]></summary>
-        <author>
-            <name>sprout2000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Test Double】JestでMockとStubを確認する]]></title>
-        <id>https://zenn.dev/chida/articles/cec625e3b6aa7b</id>
-        <link href="https://zenn.dev/chida/articles/cec625e3b6aa7b"/>
-        <updated>2021-07-18T07:24:04.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-MockとStubの違いをソースコードレベルで理解出来ていないと思い、記事を書いて整理してみました。色々検索して調べましたが、もし間違えている箇所がありましたら、ご指摘いただけると有り難いです。
-
- Test Doubleとは
-Test Doubleは、テストの対象が他のモジュール（クラスや関数など）に依存している場合、その代役として使われるモジュールのことです。
-TestsDoublesの作成者であるGerardMeszarosによると、Test Doubleは5つのカテゴリに分類できます。その中でも今回は、JestでMockとStubについて書きます。
-
-http://...]]></summary>
-        <author>
-            <name>chida</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Svelte】on:clickで呼ばれる関数をpropsとして渡す方法]]></title>
-        <id>https://zenn.dev/ezryow/articles/08d8a7bf16ac1f</id>
-        <link href="https://zenn.dev/ezryow/articles/08d8a7bf16ac1f"/>
-        <updated>2021-07-18T06:18:48.000Z</updated>
-        <summary type="html"><![CDATA[いつも忘れてしまうので，書きます．
-HogeButton.svelteがあります．
-
-      
-        
-        <button on:click>ClickMe</button>
-
-
-      
-      on:clickは通常on:click={f}などの形式で，呼び出し関数を波括弧の中に書きますが，上記例では何も書いていません．
-そして，propsとして呼び出したい関数は次のような形式で渡します．
-
-      
-        
-        <script lang="ts">
-    import HogeButt...]]></summary>
-        <author>
-            <name>EZryow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]]]></title>
-        <id>https://zenn.dev/yukihirop/articles/20920804228834</id>
-        <link href="https://zenn.dev/yukihirop/articles/20920804228834"/>
-        <updated>2021-07-18T05:34:39.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
-https://zenn.dev/yukihirop/articles/b36c43014355fd
-前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
-前回のやり方には以下の問題がありました。
-
-      
-        
-        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
-- 生成物にファイル構造が分かってしまう情報が出てしまう
- - 翻訳のルートキーをSFCへの相対...]]></summary>
-        <author>
-            <name>yukihirop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]]]></title>
-        <id>https://zenn.dev/yukihirop/articles/20920804228834</id>
-        <link href="https://zenn.dev/yukihirop/articles/20920804228834"/>
-        <updated>2021-07-18T05:34:39.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
-https://zenn.dev/yukihirop/articles/b36c43014355fd
-前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
-前回のやり方には以下の問題がありました。
-
-      
-        
-        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
-- 生成物にファイル構造が分かってしまう情報が出てしまう
- - 翻訳のルートキーをSFCへの相対...]]></summary>
-        <author>
-            <name>yukihirop</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode]]></title>
-        <id>https://zenn.dev/15/articles/aa8c322c85d27f</id>
-        <link href="https://zenn.dev/15/articles/aa8c322c85d27f"/>
-        <updated>2021-07-18T04:27:20.000Z</updated>
-        <summary type="html"><![CDATA[まえがき
-このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
-詳しい手順の理解が必要であればリンク先を参照してほしい。
-https://zenn.dev/66ed3gs/articles/99aa613a86f21f
-https://zenn.dev/januswel/articles/402774d76424e71ac906
-
- create-next-app
-ts版で実行する。
-
-      
-        
-        npx create-next-app --ts sample-app
-cd samp...]]></summary>
-        <author>
-            <name>15</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode]]></title>
-        <id>https://zenn.dev/15/articles/aa8c322c85d27f</id>
-        <link href="https://zenn.dev/15/articles/aa8c322c85d27f"/>
-        <updated>2021-07-18T04:27:20.000Z</updated>
-        <summary type="html"><![CDATA[まえがき
-このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
-詳しい手順の理解が必要であればリンク先を参照してほしい。
-https://zenn.dev/66ed3gs/articles/99aa613a86f21f
-https://zenn.dev/januswel/articles/402774d76424e71ac906
-
- create-next-app
-ts版で実行する。
-
-      
-        
-        npx create-next-app --ts sample-app
-cd samp...]]></summary>
-        <author>
-            <name>15</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js（TypeScript）で Firebase を利用し, Google ログインを]]></title>
-        <id>https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth</id>
-        <link href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth"/>
-        <updated>2021-07-18T00:16:08.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
-JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
-この記事が他の人の参考になれば幸いです.
-また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
-
- 環境
-
-
-
-名前
-バージョン
-
-
-
-
-macOS Big Sur
-11.4
-
-
-Node.js
-16.4.1
-
-
-TypeScript
-4.3.5...]]></summary>
-        <author>
-            <name>minguu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js（TypeScript）で Firebase を利用し, Google ログインを]]></title>
-        <id>https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth</id>
-        <link href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth"/>
-        <updated>2021-07-18T00:16:08.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
-JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
-この記事が他の人の参考になれば幸いです.
-また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
-
- 環境
-
-
-
-名前
-バージョン
-
-
-
-
-macOS Big Sur
-11.4
-
-
-Node.js
-16.4.1
-
-
-TypeScript
-4.3.5...]]></summary>
-        <author>
-            <name>minguu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Next.js】みんな next.confing.js にどんなプラグイン入れてる？]]></title>
-        <id>https://zenn.dev/aiji42/articles/1de8f9ea7b8a10</id>
-        <link href="https://zenn.dev/aiji42/articles/1de8f9ea7b8a10"/>
-        <updated>2021-07-17T14:43:03.000Z</updated>
-        <summary type="html"><![CDATA[https://twitter.com/aiji42_dev/status/1415711986608795648?s=20
-
-
-Why Next.js
-私は、業務でもプライベートでも Next.js を使っています。
-Next.js は "Zero Config" をうたっているわけですが、実際業務で使うとなると、なかなか Zero とはいきません。IE11用にトランスパイルが必要になったり、ソースマップのアップロードのために webpack の拡張が必要なるケースにおいては、next.config.js のカスタマイズが必要になります。
-そういったカスタマイズをサポートし、設定のスト...]]></summary>
-        <author>
-            <name>aiji42</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順]]></title>
-        <id>https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel</id>
-        <link href="https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel"/>
-        <updated>2021-07-17T13:08:22.000Z</updated>
-        <summary type="html"><![CDATA[ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。
-
-最終更新: 2021年7月17日
-筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください
-
-
- 何をセットアップするか
-
-
-yarn create nuxt-appで以下を済ませる
-
-TypeScript化
-Prettier+ESLint
-TailwindCSS対応
-PWA対応
-
-
-コンフィグをTS化する
-
-srcディレクトリにまとめる
-OGPを設定する...]]></summary>
-        <author>
-            <name>sasigume</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順]]></title>
-        <id>https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel</id>
-        <link href="https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel"/>
-        <updated>2021-07-17T13:08:22.000Z</updated>
-        <summary type="html"><![CDATA[ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。
-
-最終更新: 2021年7月17日
-筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください
-
-
- 何をセットアップするか
-
-
-yarn create nuxt-appで以下を済ませる
-
-TypeScript化
-Prettier+ESLint
-TailwindCSS対応
-PWA対応
-
-
-コンフィグをTS化する
-
-srcディレクトリにまとめる
-OGPを設定する...]]></summary>
-        <author>
-            <name>sasigume</name>
         </author>
     </entry>
 </feed>

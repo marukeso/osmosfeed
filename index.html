@@ -77,12 +77,168 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-16">2021-08-16</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021-08-17のJS: Next.js 11.1、Rails 7で予定されているimport mapsベースのJSライブラリの利用</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>JSer.info #553 - Next.js 11.1 がリリースされました。
+Blog - Next.js 11.1 | Next.js
+オープンリダイレクタの脆弱性が修正されています。
+experimental.esmExternalsオプションでNode.jsのESMをサポートしています。
+node-fetchのkeepAliveをデフォルトで有効化、Source Map/ESLint/next/imageの改善なども含まれています。
+また、Rust製のJS/TS Compiler/BundlerであるSWCの作者であるDongYoon KangがVercelに入り、Next.jsでのコンパイルにSWCを利用できるように開発中とのことです。
+Rails 7.0では、現在のwebpacker(webpack)ではなく、Import mapsベースのJavaScriptライブラリをデフォルトする方針が提案されています。
+Modern web apps without JavaScript bundling or transpiling
+Replace webpack with importmapped Hotwire as default js by dhh · Pull Request #42999 · rails/rails
+Import mapsはES Modulesでimportする際に、importするモジュールの名前解決を定義するウェブ標準です。
+
+{
+  &quot;imports&quot;: {
+    &quot;app&quot;: &quot;./src/app.js&quot;,
+    &quot;md5&quot;: &quot;https://cdn.skypack.dev/md5&quot;
+  }
+}
+
+
+
+Import mapsはChromeのみがサポートしてい…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nextjs 🐕 next/imageのqualityの数値いじってみた！</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/byanbyan/articles/baa0b53f8cef4d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Next.jsのnext/imageは、画質をコンポーネントごとに設定できる。
+詳しくは公式を！
+https://nextjs.org/docs/api-reference/next/image
+実際どんなもんか気になったので調べてみた。
+
+ コードの書き方
+quality&#x3D;{}に値を設定する。
+1〜100の間で設定する（100が最高画質）
+デフォルトは75
+
+      
+        
+        import Image from &#x27;next/image&#x27;
+
+&lt;Image src&#x3D;&quot;...&quot; quality&#x3D;{1} width&#x3D;{900} height&#x3D;{500} /&amp;...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js × Relay でGraphQLフロントエンド環境を構築してGitHub APIにアクセスする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/snowwshiro/articles/e0386f9cb6743f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>私が開発・運営しているスノーアクティビティイベントマッチングサービス「snowwshiro」に、Next.js × Relayを使ったGraphQLフロントエンド環境を構築しようとしたところ、かなり手間取りましたので、記事にしました。
+最終的なコードについては、以下にて公開しています。
+https://github.com/snowwshiro/nextjs-relay-demo
+
+ 前提
+現在snowwshiroは、フロントエンド・バックエンド共にRuby on Railsにて開発しています。
+一方、私自身は現在他プロジェクトでフロントエンドはReact・Next.js、バックエンドは...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">fetch による Bing Custom Search API の叩き方</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/maztak/articles/023ff810071d17">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>まず Bing Search Services は Cognitive Services Bing Custom Search に移行中であるが、いずれの Bing Custom Search API（Bing Web Search API と混同しないように）のドキュメントにも非推奨となっているjsライブラリrequestによる記法しか書いてない（2021年8月16日現在）。
+https://docs.microsoft.com/ja-jp/bing/search-apis/bing-custom-search/quickstarts/rest/nodejs
+今回はNext.js（R...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptの配列でnullableなものを外す</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/merutin/articles/16397b8a7f25f3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>undefinedな値が入る可能性がある配列がある場合、filterを使ってnullableなものを排除しますが、typescriptではそのままではうまく認識されません。
+
+      
+        
+        const item &#x3D; [&#x27;a&#x27;, undefined, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;];
+
+const ret &#x3D; item.filter(i &#x3D;&gt; i !&#x3D;&#x3D;  undefined &amp;&amp; i !&#x3D;&#x3D; null);
+// const ret: (string | undefined)[]
+
+
+      
+      TypeScript Pl...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-15">2021-08-15</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsとNode.jsでスキーマファーストなGraphQLの環境を構築する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/thetalemon/articles/20b1e5e11be545">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>概要
+
+Next.js(ts) + Node.js(ts) + apollo + graphql-code-generatorでスキーマファーストなGraphQL環境を構築していくよ！
+
+完成物
+
+
+対象: ざっくりGraphQLでスキーマファーストな環境を構築する方法を知りたい人
+説明しないこと: .graphqlファイルの書き方とかGraphQLの設計とか、具体的なこと
+
+
+ GraphQLとは何か
+
+APIにクエリを投げてFE側から返却するレスポンスを制限できるAPIの形式
+有名どころだとNetflixとかで利用されていて、APIの返却をFEで制御できるので『画面やデバイスによ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Next.js で Tailwind UI を使用するときにハマった話</summary>
@@ -105,6 +261,20 @@ https://tailwindui.com/preview
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">JSDocで型を定義してTypeScriptの恩恵を受ける</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>普段からTypeScriptで開発されている方ならば、TypeScriptの恩恵を十分に堪能されていることと思います。
+特に私はVS Codeのインテリセンスには頼りっぱなしでこれがなければまともにコーディングができない体になってしまいました。
+しかし時には、TypeScriptという概念が存在しない退屈な世界で開発を行わなけらばならない状況はあるでしょう。私はもはやキーボードでタイピングすることすらままなりません。
+そんなJavaScriptしか利用できない状況で代替手段となるのが、JSDocです。JSDocのアノテーションによって型を付与することによって最低限の支援を受けることができ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">【create-react-app】webpackのaliasをTypeScriptでも有効にする方法は</summary>
@@ -4559,369 +4729,9 @@ denops.vimの詳細に関してこれ以上触れないので、気になる方�
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-18">2021-07-18</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/15/articles/aa8c322c85d27f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>まえがき
-このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
-詳しい手順の理解が必要であればリンク先を参照してほしい。
-https://zenn.dev/66ed3gs/articles/99aa613a86f21f
-https://zenn.dev/januswel/articles/402774d76424e71ac906
-
- create-next-app
-ts版で実行する。
-
-      
-        
-        npx create-next-app --ts sample-app
-cd samp...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js（TypeScript）で Firebase を利用し, Google ログインを</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>はじめに
-この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
-JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
-この記事が他の人の参考になれば幸いです.
-また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
-
- 環境
-
-
-
-名前
-バージョン
-
-
-
-
-macOS Big Sur
-11.4
-
-
-Node.js
-16.4.1
-
-
-TypeScript
-4.3.5...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">VSCodeのTrigger Suggestionの紹介と、macOSで有効化するための工夫</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>VSCodeでTypescriptを書くときに、「一文字も入力していないんだけど、予測変換が出てほしいな...」と思うことはありませんか？
-それ、Trigger Suggestion で可能です。macOSユーザーで「何それ？」って人は、私のようにOSのショートカットと衝突しているせいで見逃しているかもしれないです。
-
- デモ
-Ctrl + Spaceでショートカットを表示しています。
-
-
- Trigger Suggestionについて
-VSCodeには Trigger Suggestionというショートカットがあります。
-いまVSCodeを開いている人は、Cmd + Shift + P...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">NPM パッケージ作成講座</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sprout2000/books/9325fe6c9c1ba9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>TypeScript を使ってオリジナルの NPM パッケージを作ろう！</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Test Double】JestでMockとStubを確認する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/cec625e3b6aa7b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-MockとStubの違いをソースコードレベルで理解出来ていないと思い、記事を書いて整理してみました。色々検索して調べましたが、もし間違えている箇所がありましたら、ご指摘いただけると有り難いです。
-
- Test Doubleとは
-Test Doubleは、テストの対象が他のモジュール（クラスや関数など）に依存している場合、その代役として使われるモジュールのことです。
-TestsDoublesの作成者であるGerardMeszarosによると、Test Doubleは5つのカテゴリに分類できます。その中でも今回は、JestでMockとStubについて書きます。
-
-http://...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Svelte】on:clickで呼ばれる関数をpropsとして渡す方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ezryow/articles/08d8a7bf16ac1f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>いつも忘れてしまうので，書きます．
-HogeButton.svelteがあります．
-
-      
-        
-        ClickMe
-
-
-      
-      on:clickは通常on:click&#x3D;{f}などの形式で，呼び出し関数を波括弧の中に書きますが，上記例では何も書いていません．
-そして，propsとして呼び出したい関数は次のような形式で渡します．
-
-      
-        
-        
-    import HogeButt...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukihirop/articles/20920804228834">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
-https://zenn.dev/yukihirop/articles/b36c43014355fd
-前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
-前回のやり方には以下の問題がありました。
-
-      
-        
-        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
-- 生成物にファイル構造が分かってしまう情報が出てしまう
- - 翻訳のルートキーをSFCへの相対...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/15/articles/aa8c322c85d27f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>まえがき
-このあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。
-詳しい手順の理解が必要であればリンク先を参照してほしい。
-https://zenn.dev/66ed3gs/articles/99aa613a86f21f
-https://zenn.dev/januswel/articles/402774d76424e71ac906
-
- create-next-app
-ts版で実行する。
-
-      
-        
-        npx create-next-app --ts sample-app
-cd samp...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js（TypeScript）で Firebase を利用し, Google ログインを</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>はじめに
-この記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.
-JavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.
-この記事が他の人の参考になれば幸いです.
-また, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.
-
- 環境
-
-
-
-名前
-バージョン
-
-
-
-
-macOS Big Sur
-11.4
-
-
-Node.js
-16.4.1
-
-
-TypeScript
-4.3.5...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukihirop/articles/20920804228834">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-この記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。
-https://zenn.dev/yukihirop/articles/b36c43014355fd
-前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀
-前回のやり方には以下の問題がありました。
-
-      
-        
-        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった
-- 生成物にファイル構造が分かってしまう情報が出てしまう
- - 翻訳のルートキーをSFCへの相対...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-17">2021-07-17</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Next.js】みんな next.confing.js にどんなプラグイン入れてる？</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/aiji42/articles/1de8f9ea7b8a10">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>https://twitter.com/aiji42_dev/status/1415711986608795648?s&#x3D;20
-
-
-Why Next.js
-私は、業務でもプライベートでも Next.js を使っています。
-Next.js は &quot;Zero Config&quot; をうたっているわけですが、実際業務で使うとなると、なかなか Zero とはいきません。IE11用にトランスパイルが必要になったり、ソースマップのアップロードのために webpack の拡張が必要なるケースにおいては、next.config.js のカスタマイズが必要になります。
-そういったカスタマイズをサポートし、設定のスト...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。
-
-最終更新: 2021年7月17日
-筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください
-
-
- 何をセットアップするか
-
-
-yarn create nuxt-appで以下を済ませる
-
-TypeScript化
-Prettier+ESLint
-TailwindCSS対応
-PWA対応
-
-
-コンフィグをTS化する
-
-srcディレクトリにまとめる
-OGPを設定する...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。
-
-最終更新: 2021年7月17日
-筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください
-
-
- 何をセットアップするか
-
-
-yarn create nuxt-appで以下を済ませる
-
-TypeScript化
-Prettier+ESLint
-TailwindCSS対応
-PWA対応
-
-
-コンフィグをTS化する
-
-srcディレクトリにまとめる
-OGPを設定する...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-16T01:03:00.878Z">2021-08-16T01:03:00.878Z</time>
+    <time id="build-timestamp" datetime="2021-08-17T01:02:22.735Z">2021-08-17T01:02:22.735Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

@@ -12,6 +12,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/",
+          "author": null,
+          "description": "JSer.info #553 - Next.js 11.1 がリリースされました。\nBlog - Next.js 11.1 | Next.js\nオープンリダイレクタの脆弱性が修正されています。\nexperimental.esmExternalsオプションでNode.jsのESMをサポートしています。\nnode-fetchのkeepAliveをデフォルトで有効化、Source Map/ESLint/next/imageの改善なども含まれています。\nまた、Rust製のJS/TS Compiler/BundlerであるSWCの作者であるDongYoon KangがVercelに入り、Next.jsでのコンパイルにSWCを利用できるように開発中とのことです。\nRails 7.0では、現在のwebpacker(webpack)ではなく、Import mapsベースのJavaScriptライブラリをデフォルトする方針が提案されています。\nModern web apps without JavaScript bundling or transpiling\nReplace webpack with importmapped Hotwire as default js by dhh · Pull Request #42999 · rails/rails\nImport mapsはES Modulesでimportする際に、importするモジュールの名前解決を定義するウェブ標準です。\n<script type=\"importmap\">\n{\n  \"imports\": {\n    \"app\": \"./src/app.js\",\n    \"md5\": \"https://cdn.skypack.dev/md5\"\n  }\n}\n</script>\n\n\nImport mapsはChromeのみがサポートしてい…",
+          "link": "https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/",
+          "publishedOn": "2021-08-16T23:06:44.000Z",
+          "wordCount": 523,
+          "title": "2021-08-17のJS: Next.js 11.1、Rails 7で予定されているimport mapsベースのJSライブラリの利用"
+        },
+        {
           "id": "https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/",
           "author": null,
           "description": "JSer.info #552 - パッケージマネージャであるpnpm 6.12.9がリリースされました。\nRelease v6.12.0 · pnpm/pnpm\npnpm 6.12.0ではpnpm env use --global 16.5.0のように、Node.jsをインストールするコマンドが追加されています。\nsingle binaryとして配布した場合に、Node.jsがグローバルにインストールされていない環境でもpnpmが利用できるようになります。\npnpm envが追加されています。\nUsing pnpm as a Node.js version manager · Discussion #3434 · pnpm/pnpm\nwebpack 5.49.0がリリースされました。\nRelease v5.49.0 · webpack/webpack\n試験的な機能としてexperiments.buildHttpというオプションで、リモートのリソースをimportできるようになっています。次のようにimport文でhttpなURLを指定すると、そのリソースをダウンロードして、bundleできます。\nimport pMap1 from \"https://cdn.skypack.dev/p-map\";\n\n\nダウンロードしたリソースは、<name>.webpack.lock.dataディレクトリに保存され、リソースのロックファイルが<name>.webpack.lockに保存されます。\nDenoに近いものとなっています。\nwebpack/examples/build-http at main · webpack/webpack\nadd experiments.buildHttp by sokra · Pull Request #13925 · webpack/webpack\nExp…",
@@ -54,6 +63,62 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/byanbyan/articles/baa0b53f8cef4d",
+          "author": "ゆゆゆ",
+          "description": "Next.jsのnext/imageは、画質をコンポーネントごとに設定できる。\n詳しくは公式を！\nhttps://nextjs.org/docs/api-reference/next/image\n実際どんなもんか気になったので調べてみた。\n\n コードの書き方\nquality={}に値を設定する。\n1〜100の間で設定する（100が最高画質）\nデフォルトは75\n\n      \n        \n        import Image from 'next/image'\n\n<Image src=\"...\" quality={1} width={900} height={500} /&...",
+          "link": "https://zenn.dev/byanbyan/articles/baa0b53f8cef4d",
+          "publishedOn": "2021-08-16T06:53:01.000Z",
+          "wordCount": 143,
+          "title": "Nextjs 🐕 next/imageのqualityの数値いじってみた！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--sJ42cDmR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2586%25E3%2582%2586%25E3%2582%2586%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nextjs%2520%2520%2520next%252Fimage%25E3%2581%25AEquality%25E3%2581%25AE%25E6%2595%25B0%25E5%2580%25A4%25E3%2581%2584%25E3%2581%2598%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2U3NDQzNzU4NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/snowwshiro/articles/e0386f9cb6743f",
+          "author": "snowwshiro中の人",
+          "description": "私が開発・運営しているスノーアクティビティイベントマッチングサービス「snowwshiro」に、Next.js × Relayを使ったGraphQLフロントエンド環境を構築しようとしたところ、かなり手間取りましたので、記事にしました。\n最終的なコードについては、以下にて公開しています。\nhttps://github.com/snowwshiro/nextjs-relay-demo\n\n 前提\n現在snowwshiroは、フロントエンド・バックエンド共にRuby on Railsにて開発しています。\n一方、私自身は現在他プロジェクトでフロントエンドはReact・Next.js、バックエンドは...",
+          "link": "https://zenn.dev/snowwshiro/articles/e0386f9cb6743f",
+          "publishedOn": "2021-08-16T05:04:17.000Z",
+          "wordCount": 603,
+          "title": "Next.js × Relay でGraphQLフロントエンド環境を構築してGitHub APIにアクセスする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Mj0iOwJd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:snowwshiro%25E4%25B8%25AD%25E3%2581%25AE%25E4%25BA%25BA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%25C3%2597%2520Relay%2520%25E3%2581%25A7GraphQL%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2597%25E3%2581%25A6GitHub%2520API%25E3%2581%25AB%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTIzNjc5OTk4YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/maztak/articles/023ff810071d17",
+          "author": "Takuya Matsuda",
+          "description": "まず Bing Search Services は Cognitive Services Bing Custom Search に移行中であるが、いずれの Bing Custom Search API（Bing Web Search API と混同しないように）のドキュメントにも非推奨となっているjsライブラリrequestによる記法しか書いてない（2021年8月16日現在）。\nhttps://docs.microsoft.com/ja-jp/bing/search-apis/bing-custom-search/quickstarts/rest/nodejs\n今回はNext.js（R...",
+          "link": "https://zenn.dev/maztak/articles/023ff810071d17",
+          "publishedOn": "2021-08-16T03:39:44.000Z",
+          "wordCount": 118,
+          "title": "fetch による Bing Custom Search API の叩き方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--y1DMit1K--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takuya%2520Matsuda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:fetch%2520%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%2520Bing%2520Custom%2520Search%2520API%2520%25E3%2581%25AE%25E5%258F%25A9%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pneVNwNkxqcEZSMEVzVXhmb2pzTVZHblBjYUVSNnRKRVhuY1NzNXc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/thetalemon/articles/20b1e5e11be545",
+          "author": "まなさす",
+          "description": "概要\n\nNext.js(ts) + Node.js(ts) + apollo + graphql-code-generatorでスキーマファーストなGraphQL環境を構築していくよ！\n\n完成物\n\n\n対象: ざっくりGraphQLでスキーマファーストな環境を構築する方法を知りたい人\n説明しないこと: .graphqlファイルの書き方とかGraphQLの設計とか、具体的なこと\n\n\n GraphQLとは何か\n\nAPIにクエリを投げてFE側から返却するレスポンスを制限できるAPIの形式\n有名どころだとNetflixとかで利用されていて、APIの返却をFEで制御できるので『画面やデバイスによ...",
+          "link": "https://zenn.dev/thetalemon/articles/20b1e5e11be545",
+          "publishedOn": "2021-08-15T14:32:16.000Z",
+          "wordCount": 648,
+          "title": "Next.jsとNode.jsでスキーマファーストなGraphQLの環境を構築する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8NLQcjjD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BE%25E3%2581%25AA%25E3%2581%2595%25E3%2581%2599%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25A8Node.js%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%259E%25E3%2583%2595%25E3%2582%25A1%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AAGraphQL%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTYzY2I2MWY4MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/maztak/articles/6dba8e02771c29",
           "author": "Takuya Matsuda",
@@ -669,48 +734,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/15/articles/aa8c322c85d27f",
-          "author": "15",
-          "description": "まえがき\nこのあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。\n詳しい手順の理解が必要であればリンク先を参照してほしい。\nhttps://zenn.dev/66ed3gs/articles/99aa613a86f21f\nhttps://zenn.dev/januswel/articles/402774d76424e71ac906\n\n create-next-app\nts版で実行する。\n\n      \n        \n        npx create-next-app --ts sample-app\ncd samp...",
-          "link": "https://zenn.dev/15/articles/aa8c322c85d27f",
-          "publishedOn": "2021-07-18T04:27:20.000Z",
-          "wordCount": 104,
-          "title": "Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JOauVqs9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:15%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2520%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2583%25A1%25E3%2583%25A2%25202021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2520-%2520Yarn%252C%2520TypeScript%252C%2520ESLint%252C%2520Prettier%252C%2520VSCode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lCd2p5Q0htOUYzcmF6SW9SNU1jcXVidDc1cFdBUzdlQlRJYnpiYWc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
-          "author": "minguu",
-          "description": "はじめに\nこの記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.\nJavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.\n\n 環境\n\n\n\n名前\nバージョン\n\n\n\n\nmacOS Big Sur\n11.4\n\n\nNode.js\n16.4.1\n\n\nTypeScript\n4.3.5...",
-          "link": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
-          "publishedOn": "2021-07-18T00:16:08.000Z",
-          "wordCount": 542,
-          "title": "Next.js（TypeScript）で Firebase を利用し, Google ログインを",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZjMUES8F--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25EF%25BC%2588TypeScript%25EF%25BC%2589%25E3%2581%25A7%2520Firebase%2520%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%252C%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/aiji42/articles/1de8f9ea7b8a10",
-          "author": "aiji42",
-          "description": "https://twitter.com/aiji42_dev/status/1415711986608795648?s=20\n\n\nWhy Next.js\n私は、業務でもプライベートでも Next.js を使っています。\nNext.js は \"Zero Config\" をうたっているわけですが、実際業務で使うとなると、なかなか Zero とはいきません。IE11用にトランスパイルが必要になったり、ソースマップのアップロードのために webpack の拡張が必要なるケースにおいては、next.config.js のカスタマイズが必要になります。\nそういったカスタマイズをサポートし、設定のスト...",
-          "link": "https://zenn.dev/aiji42/articles/1de8f9ea7b8a10",
-          "publishedOn": "2021-07-17T14:43:03.000Z",
-          "wordCount": 364,
-          "title": "【Next.js】みんな next.confing.js にどんなプラグイン入れてる？",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--0yXqxaFf--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:aiji42%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E3%2580%2591%25E3%2581%25BF%25E3%2582%2593%25E3%2581%25AA%2520next.confing.js%2520%25E3%2581%25AB%25E3%2581%25A9%25E3%2582%2593%25E3%2581%25AA%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E3%2582%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTczOGQyOGQwMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -872,20 +895,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
-          "author": "sasigume",
-          "description": "ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。\n\n最終更新: 2021年7月17日\n筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください\n\n\n 何をセットアップするか\n\n\nyarn create nuxt-appで以下を済ませる\n\nTypeScript化\nPrettier+ESLint\nTailwindCSS対応\nPWA対応\n\n\nコンフィグをTS化する\n\nsrcディレクトリにまとめる\nOGPを設定する...",
-          "link": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
-          "publishedOn": "2021-07-17T13:08:22.000Z",
-          "wordCount": 689,
-          "title": "Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--I8cpjTY0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sasigume%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%252BTS%252BCompositionAPI%252BVercel%252BVSCode%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E6%2589%258B%25E9%25A0%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmMzZWY2ZjdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -894,6 +903,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/merutin/articles/16397b8a7f25f3",
+          "author": "merutin",
+          "description": "undefinedな値が入る可能性がある配列がある場合、filterを使ってnullableなものを排除しますが、typescriptではそのままではうまく認識されません。\n\n      \n        \n        const item = ['a', undefined, 'b', 'c', 'd'];\n\nconst ret = item.filter(i => i !==  undefined && i !== null);\n// const ret: (string | undefined)[]\n\n\n      \n      TypeScript Pl...",
+          "link": "https://zenn.dev/merutin/articles/16397b8a7f25f3",
+          "publishedOn": "2021-08-16T08:20:30.000Z",
+          "wordCount": 95,
+          "title": "TypeScriptの配列でnullableなものを外す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xcJCQ0OH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:merutin%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AE%25E9%2585%258D%25E5%2588%2597%25E3%2581%25A7nullable%25E3%2581%25AA%25E3%2582%2582%25E3%2581%25AE%25E3%2582%2592%25E5%25A4%2596%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmM4YmUzYmM5Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2",
+          "author": "azukiazusa",
+          "description": "普段からTypeScriptで開発されている方ならば、TypeScriptの恩恵を十分に堪能されていることと思います。\n特に私はVS Codeのインテリセンスには頼りっぱなしでこれがなければまともにコーディングができない体になってしまいました。\nしかし時には、TypeScriptという概念が存在しない退屈な世界で開発を行わなけらばならない状況はあるでしょう。私はもはやキーボードでタイピングすることすらままなりません。\nそんなJavaScriptしか利用できない状況で代替手段となるのが、JSDocです。JSDocのアノテーションによって型を付与することによって最低限の支援を受けることができ...",
+          "link": "https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2",
+          "publishedOn": "2021-08-15T22:08:09.000Z",
+          "wordCount": 634,
+          "title": "JSDocで型を定義してTypeScriptの恩恵を受ける",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Gd-9xjxd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:JSDoc%25E3%2581%25A7%25E5%259E%258B%25E3%2582%2592%25E5%25AE%259A%25E7%25BE%25A9%25E3%2581%2597%25E3%2581%25A6TypeScript%25E3%2581%25AE%25E6%2581%25A9%25E6%2581%25B5%25E3%2582%2592%25E5%258F%2597%25E3%2581%2591%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde",
           "author": "ふんばりフロントエンジニア",
@@ -1957,118 +1994,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos",
-          "author": "hiroga",
-          "description": "VSCodeでTypescriptを書くときに、「一文字も入力していないんだけど、予測変換が出てほしいな...」と思うことはありませんか？\nそれ、Trigger Suggestion で可能です。macOSユーザーで「何それ？」って人は、私のようにOSのショートカットと衝突しているせいで見逃しているかもしれないです。\n\n デモ\nCtrl + Spaceでショートカットを表示しています。\n\n\n Trigger Suggestionについて\nVSCodeには Trigger Suggestionというショートカットがあります。\nいまVSCodeを開いている人は、Cmd + Shift + P...",
-          "link": "https://zenn.dev/hiroga/articles/vscode-trigger-suggestion-macos",
-          "publishedOn": "2021-07-18T12:22:01.000Z",
-          "wordCount": 79,
-          "title": "VSCodeのTrigger Suggestionの紹介と、macOSで有効化するための工夫",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--KojUJ8-g--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hiroga%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:VSCode%25E3%2581%25AETrigger%2520Suggestion%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%25A8%25E3%2580%2581macOS%25E3%2581%25A7%25E6%259C%2589%25E5%258A%25B9%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E5%25B7%25A5%25E5%25A4%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pfZHF2VHk5OFdpTG1EZ1Q1Ry1jLVNmWjRwaEdCcGdncGVKSjhqUzhzPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sprout2000/books/9325fe6c9c1ba9",
-          "author": "sprout2000",
-          "description": "TypeScript を使ってオリジナルの NPM パッケージを作ろう！",
-          "link": "https://zenn.dev/sprout2000/books/9325fe6c9c1ba9",
-          "publishedOn": "2021-07-18T08:17:52.000Z",
-          "wordCount": 22,
-          "title": "NPM パッケージ作成講座",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--A6tGhsjn--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci8zZWQwMWM3Mjc1LmpwZw==%2Cw_200/v1604564438/og_book_base_ndpqis.jpg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://zenn.dev/chida/articles/cec625e3b6aa7b",
-          "author": "chida",
-          "description": "はじめに\nMockとStubの違いをソースコードレベルで理解出来ていないと思い、記事を書いて整理してみました。色々検索して調べましたが、もし間違えている箇所がありましたら、ご指摘いただけると有り難いです。\n\n Test Doubleとは\nTest Doubleは、テストの対象が他のモジュール（クラスや関数など）に依存している場合、その代役として使われるモジュールのことです。\nTestsDoublesの作成者であるGerardMeszarosによると、Test Doubleは5つのカテゴリに分類できます。その中でも今回は、JestでMockとStubについて書きます。\n\nhttp://...",
-          "link": "https://zenn.dev/chida/articles/cec625e3b6aa7b",
-          "publishedOn": "2021-07-18T07:24:04.000Z",
-          "wordCount": 248,
-          "title": "【Test Double】JestでMockとStubを確認する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--SEVL0QjM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Test%2520Double%25E3%2580%2591Jest%25E3%2581%25A7Mock%25E3%2581%25A8Stub%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ezryow/articles/08d8a7bf16ac1f",
-          "author": "EZryow",
-          "description": "いつも忘れてしまうので，書きます．\nHogeButton.svelteがあります．\n\n      \n        \n        <button on:click>ClickMe</button>\n\n\n      \n      on:clickは通常on:click={f}などの形式で，呼び出し関数を波括弧の中に書きますが，上記例では何も書いていません．\nそして，propsとして呼び出したい関数は次のような形式で渡します．\n\n      \n        \n        <script lang=\"ts\">\n    import HogeButt...",
-          "link": "https://zenn.dev/ezryow/articles/08d8a7bf16ac1f",
-          "publishedOn": "2021-07-18T06:18:48.000Z",
-          "wordCount": 30,
-          "title": "【Svelte】on:clickで呼ばれる関数をpropsとして渡す方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Dglz5Ye3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:EZryow%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Svelte%25E3%2580%2591on%253Aclick%25E3%2581%25A7%25E5%2591%25BC%25E3%2581%25B0%25E3%2582%258C%25E3%2582%258B%25E9%2596%25A2%25E6%2595%25B0%25E3%2582%2592props%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E6%25B8%25A1%25E3%2581%2599%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzVkYzllOWQ1NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yukihirop/articles/20920804228834",
-          "author": "yukihirop",
-          "description": "はじめに\nこの記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。\nhttps://zenn.dev/yukihirop/articles/b36c43014355fd\n前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀\n前回のやり方には以下の問題がありました。\n\n      \n        \n        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった\n- 生成物にファイル構造が分かってしまう情報が出てしまう\n - 翻訳のルートキーをSFCへの相対...",
-          "link": "https://zenn.dev/yukihirop/articles/20920804228834",
-          "publishedOn": "2021-07-18T05:34:39.000Z",
-          "wordCount": 397,
-          "title": "vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4JjmdK_m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592yaml%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%258B%25E3%2581%25A4%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%255B%25E6%2594%25B9%25E8%2589%25AF%25E7%2589%2588%255D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/15/articles/aa8c322c85d27f",
-          "author": "15",
-          "description": "まえがき\nこのあたりを参考に環境構築をしたが、そのままでは動かない or 好みに変えたい部分があったので自分の手順を作ってみた。\n詳しい手順の理解が必要であればリンク先を参照してほしい。\nhttps://zenn.dev/66ed3gs/articles/99aa613a86f21f\nhttps://zenn.dev/januswel/articles/402774d76424e71ac906\n\n create-next-app\nts版で実行する。\n\n      \n        \n        npx create-next-app --ts sample-app\ncd samp...",
-          "link": "https://zenn.dev/15/articles/aa8c322c85d27f",
-          "publishedOn": "2021-07-18T04:27:20.000Z",
-          "wordCount": 104,
-          "title": "Next.js 開発環境構築メモ 2021年7月版 - Yarn, TypeScript, ESLint, Prettier, VSCode",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--JOauVqs9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:15%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2520%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E3%2583%25A1%25E3%2583%25A2%25202021%25E5%25B9%25B47%25E6%259C%2588%25E7%2589%2588%2520-%2520Yarn%252C%2520TypeScript%252C%2520ESLint%252C%2520Prettier%252C%2520VSCode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lCd2p5Q0htOUYzcmF6SW9SNU1jcXVidDc1cFdBUzdlQlRJYnpiYWc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
-          "author": "minguu",
-          "description": "はじめに\nこの記事では, Firebase Authentication を使って TypeScript を使用した Next アプリに Google ログインを実装する方法を記述します.\nJavaScript を使用した Next アプリに Google ログインを実装する方法はこちらに記述しています.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘してもらえるとありがたいです.\n\n 環境\n\n\n\n名前\nバージョン\n\n\n\n\nmacOS Big Sur\n11.4\n\n\nNode.js\n16.4.1\n\n\nTypeScript\n4.3.5...",
-          "link": "https://zenn.dev/minguu42/articles/20210717-nextjs-typescript-auth",
-          "publishedOn": "2021-07-18T00:16:08.000Z",
-          "wordCount": 542,
-          "title": "Next.js（TypeScript）で Firebase を利用し, Google ログインを",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ZjMUES8F--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25EF%25BC%2588TypeScript%25EF%25BC%2589%25E3%2581%25A7%2520Firebase%2520%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%252C%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
-          "author": "sasigume",
-          "description": "ずっとNext.jsを使っていたんだが、Nuxt.jsに切り替えるにあたって何回も挫折したので、正直二度とやりたくないが 一応メモする。\n\n最終更新: 2021年7月17日\n筆者はNuxtに関しては初心者ですので、細かい説明が不正確かもしれません。また、Vue/Nuxtはすごい速度で進化しています。仕様変更に注意してください\n\n\n 何をセットアップするか\n\n\nyarn create nuxt-appで以下を済ませる\n\nTypeScript化\nPrettier+ESLint\nTailwindCSS対応\nPWA対応\n\n\nコンフィグをTS化する\n\nsrcディレクトリにまとめる\nOGPを設定する...",
-          "link": "https://zenn.dev/sasigume/articles/nuxt-ts-composition-vercel",
-          "publishedOn": "2021-07-17T13:08:22.000Z",
-          "wordCount": 689,
-          "title": "Nuxt+TS+CompositionAPI+Vercel+VSCodeのセットアップ手順",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--I8cpjTY0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sasigume%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%252BTS%252BCompositionAPI%252BVercel%252BVSCode%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E6%2589%258B%25E9%25A0%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmMzZWY2ZjdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2570,20 +2495,6 @@
           "title": "データの整形は末端で行うようにしている",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--i7RBx_TF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2581%25AE%25E6%2595%25B4%25E5%25BD%25A2%25E3%2581%25AF%25E6%259C%25AB%25E7%25AB%25AF%25E3%2581%25A7%25E8%25A1%258C%25E3%2581%2586%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yukihirop/articles/20920804228834",
-          "author": "yukihirop",
-          "description": "はじめに\nこの記事はvue-i18nの翻訳ファイルをコンポーネント毎に管理したいという思いで書いた前回の記事の改良版です。\nhttps://zenn.dev/yukihirop/articles/b36c43014355fd\n前回のやり方が「ほぼタラバガニ」なら今回のやり方は「タラバガニ」です。🦀\n前回のやり方には以下の問題がありました。\n\n      \n        \n        - $etという$tを拡張したグローバルなプロパティーをVueプラグインで用意しなくちゃいけなかった\n- 生成物にファイル構造が分かってしまう情報が出てしまう\n - 翻訳のルートキーをSFCへの相対...",
-          "link": "https://zenn.dev/yukihirop/articles/20920804228834",
-          "publishedOn": "2021-07-18T05:34:39.000Z",
-          "wordCount": 397,
-          "title": "vue-i18nの翻訳をyamlファイルかつコンポーネント(SFC)毎にする普通ではない方法[改良版]",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4JjmdK_m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukihirop%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:vue-i18n%25E3%2581%25AE%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2582%2592yaml%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%258B%25E3%2581%25A4%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2528SFC%2529%25E6%25AF%258E%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E6%2596%25B9%25E6%25B3%2595%255B%25E6%2594%25B9%25E8%2589%25AF%25E7%2589%2588%255D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWYxNzdlMjYzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
