@@ -720,20 +720,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
-          "author": "白雀",
-          "description": "Next + typescript で i18n 対応し、SSR、SSG を行う example\n本項では、Next を使用して i18n 対応(SSR, SSG)を方法を解説します。\n\n 記事の要約\n\n\nnext-i18nextを使うとi18nextを使用して、SSR、SSG を比較的手軽に行う事ができる\n\nreact-i18nextは typescript 対応を行っているので、.d.tsでネームスペースごとに追加の定義を行うと便利\n\n参考\n\n\ni18n 対応時はnext-seoが便利\n\ni18n 対応していない場合も便利\ni18n 対応時はalternatesの設定をきちんとす...",
-          "link": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
-          "publishedOn": "2021-07-19T10:11:01.000Z",
-          "wordCount": 801,
-          "title": "Next + typescript で i18n対応し、SSR、SSGを行うexample",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--w9oO3BM3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%2599%25BD%25E9%259B%2580%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next%2520%252B%2520typescript%2520%25E3%2581%25A7%2520i18n%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2597%25E3%2580%2581SSR%25E3%2580%2581SSG%25E3%2582%2592%25E8%25A1%258C%25E3%2581%2586example%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODcyNGZlMmIxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -903,6 +889,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kenta0313/articles/6a9cf3989aa443",
+          "author": "KenT",
+          "description": "コード全体\n\n      \n        \n        import type { NextPage } from 'next'\nimport { useForm, SubmitHandler } from \"react-hook-form\";\nimport { ErrorMessage } from \"@hookform/error-message\";\n\ntype Inputs = {\n  name: string;\n  phone_number: number;\n}\n\nconst Home: NextPage = () => {\n  const {\n    regis...",
+          "link": "https://zenn.dev/kenta0313/articles/6a9cf3989aa443",
+          "publishedOn": "2021-08-17T03:30:35.000Z",
+          "wordCount": 175,
+          "title": "React-Hook-Formがシンプルで使いやすい👍",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--NNzo0tr6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenT%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React-Hook-Form%25E3%2581%258C%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2584%25E3%2582%2584%25E3%2581%2599%25E3%2581%2584%2520%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3OWM0YjhkZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/wok/articles/0018_reduce-transfered-data-amazon-chime-sdk",
+          "author": "wok",
+          "description": "この記事は、こちらの記事を改変したものになります。\nhttps://cloud.flect.co.jp/entry/2021/08/17/064854\n\nこんにちは。\n前回の記事では、Amazon Chime SDK for javascript(Amazon Chime SDK JS)を用いて、\"Among usをAuto Muteする機能\"と\"ゲーム画面を配信する機能\"を持つゲーム実況システムを構築する方法についてご紹介しました。\n前回のシステムでは、最大15名のユーザのゲーム画面をリアルタイムに配信します。このため、映像を受信する側にはそれなりのネットワーク帯域が前提とされます。...",
+          "link": "https://zenn.dev/wok/articles/0018_reduce-transfered-data-amazon-chime-sdk",
+          "publishedOn": "2021-08-16T21:55:13.000Z",
+          "wordCount": 145,
+          "title": "Amazon Chime SDKアプリで映像データ転送量を削減するアイデア -Among Us Auto Mute-",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--EKGNDn3c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:wok%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Amazon%2520Chime%2520SDK%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A7%25E6%2598%25A0%25E5%2583%258F%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E8%25BB%25A2%25E9%2580%2581%25E9%2587%258F%25E3%2582%2592%25E5%2589%258A%25E6%25B8%259B%25E3%2581%2599%25E3%2582%258B%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2587%25E3%2582%25A2%2520-Among%2520Us%2520Auto%2520Mute-%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hZemxmeFk4WFJDTHJzM1VvRWI2YmI0cEVhem1kTDg5ejFXQnFZdVE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dyoshikawa/articles/b9b92d358f8f04",
+          "author": "d yoshikawa",
+          "description": "GraphQL入門としてAppSyncを触ってみました。\nAppSyncのデータソースとしてLambdaを選択した場合、\n\nLambda関数へ入力値はどんなふうに渡るのか\nどのような値を返せば良いのか\n\nについてイメージしづらかったため、実際に試してみました。\n\n 環境\n\n(端末の)node 15.11.0\naws-cdk 1.117.0\ntypescript 4.3.5\n@types/aws-lambda 8.10.81\n\n\n schema.graphql\n\n      \n        \n        type user {\n  id: String!\n  name: String...",
+          "link": "https://zenn.dev/dyoshikawa/articles/b9b92d358f8f04",
+          "publishedOn": "2021-08-16T16:12:19.000Z",
+          "wordCount": 238,
+          "title": "AWS AppSyncでLambdaをDataSoruceとした場合のLambda関数の入出力",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--j1-A5pmZ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:d%2520yoshikawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:AWS%2520AppSync%25E3%2581%25A7Lambda%25E3%2582%2592DataSoruce%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E5%25A0%25B4%25E5%2590%2588%25E3%2581%25AELambda%25E9%2596%25A2%25E6%2595%25B0%25E3%2581%25AE%25E5%2585%25A5%25E5%2587%25BA%25E5%258A%259B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2p1RUdBX0VEUzhuc2ExaDRCMldXUWVhcHE2OU5FRUFTcVRxbi1kSkE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/merutin/articles/16397b8a7f25f3",
           "author": "merutin",
@@ -1952,48 +1980,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/himenon/articles/4c6d7ed8b7df30",
-          "author": "Himenon",
-          "description": "配列操作を利用した検索機能を紹介します。UI化することで利便性が一気に向上する機能を紹介します。\n\n DEMO\nまずはデモです。入力欄に適当なアルファベットを入力することで、続くリストが増減します。\n\n※ DemoのサンプルデータはWikipediaのプログラミング言語を利用しています。\n\n 基本的な仕組み\n基本的な仕組みはfitlerを利用した配列操作です。\n\n      \n        \n        [\"a\", \"b\", \"c\"].filter((text) => {\n  return text === \"a\";\n});\n// #=> [\"a\"];\n\n\n      ...",
-          "link": "https://zenn.dev/himenon/articles/4c6d7ed8b7df30",
-          "publishedOn": "2021-07-19T12:36:13.000Z",
-          "wordCount": 169,
-          "title": "Reactで作る簡易検索機能",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s---kmYUMvB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Himenon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:React%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E7%25B0%25A1%25E6%2598%2593%25E6%25A4%259C%25E7%25B4%25A2%25E6%25A9%259F%25E8%2583%25BD%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDJhOTlkZTcwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
-          "author": "白雀",
-          "description": "Next + typescript で i18n 対応し、SSR、SSG を行う example\n本項では、Next を使用して i18n 対応(SSR, SSG)を方法を解説します。\n\n 記事の要約\n\n\nnext-i18nextを使うとi18nextを使用して、SSR、SSG を比較的手軽に行う事ができる\n\nreact-i18nextは typescript 対応を行っているので、.d.tsでネームスペースごとに追加の定義を行うと便利\n\n参考\n\n\ni18n 対応時はnext-seoが便利\n\ni18n 対応していない場合も便利\ni18n 対応時はalternatesの設定をきちんとす...",
-          "link": "https://zenn.dev/sirosuzume/articles/393b17b21034a7",
-          "publishedOn": "2021-07-19T10:11:01.000Z",
-          "wordCount": 801,
-          "title": "Next + typescript で i18n対応し、SSR、SSGを行うexample",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--w9oO3BM3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%2599%25BD%25E9%259B%2580%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next%2520%252B%2520typescript%2520%25E3%2581%25A7%2520i18n%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2597%25E3%2580%2581SSR%25E3%2580%2581SSG%25E3%2582%2592%25E8%25A1%258C%25E3%2581%2586example%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODcyNGZlMmIxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/eitches/articles/2021-0719-api-routes-http-request-type",
-          "author": "eitches",
-          "description": "前提\nNext.jsでAPI Routesを使用する際、以下のようなコードを書くと思います。\n\n      \n        \n        const handler = (req, res) => { \n  res.status(200).json({ ... })\n}\n\nexport default handler\n\n\n      \n      このreq, resに型をつける方法がわからなかったので調べました。\n\n Next.jsの公式ページを確認する\n公式ページのAPI Routesの部分にreq, resについての情報がありました。\nhttps://nextjs....",
-          "link": "https://zenn.dev/eitches/articles/2021-0719-api-routes-http-request-type",
-          "publishedOn": "2021-07-19T09:47:20.000Z",
-          "wordCount": 180,
-          "title": "[Next] API Routesのreq, resの型について",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--rkD4xzJB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eitches%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BNext%255D%2520API%2520Routes%25E3%2581%25AEreq%252C%2520res%25E3%2581%25AE%25E5%259E%258B%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzZkOTA5ZTVjNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2082,20 +2068,6 @@
           "title": "スマホでコード書く 環境構築編",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--ICQ7Uvci--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sigma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25A7%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E6%259B%25B8%25E3%2581%258F%2520%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E7%25B7%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZGZmYmRlM2I0Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/skanehira/articles/2021-07-18-vim-denops-docker",
-          "author": "シン・ゴリラ@上野動物園休園中",
-          "description": "初めに\n最近denops.vimを使ってプラグインを作るのが自分の中で流行っています。\ndenops.vimはTypeScriptメインでVim/Neovim対応のプラグインを書けるところが魅力的で、型システムがあることでデータ構造が明確にわかるためとても書きやすいので、\n今後プラグインを作るときは基本denops.vimで書こうと考えています。\ndenops.vimの詳細に関してこれ以上触れないので、気になる方はこちらの記事を参照してください。\n本題ですが、Vimを初めたころにdocker.vimというプラグインを作りました。\n本記事はdocker.vimをdenops.vimで書...",
-          "link": "https://zenn.dev/skanehira/articles/2021-07-18-vim-denops-docker",
-          "publishedOn": "2021-07-19T01:50:16.000Z",
-          "wordCount": 187,
-          "title": "Vim/Neovimでdockerを操作できるdenops-docker.vimを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--wUCkHOzF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%25BB%25E3%2582%25B4%25E3%2583%25AA%25E3%2583%25A9%2540%25E4%25B8%258A%25E9%2587%258E%25E5%258B%2595%25E7%2589%25A9%25E5%259C%2592%25E4%25BC%2591%25E5%259C%2592%25E4%25B8%25AD%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vim%252FNeovim%25E3%2581%25A7docker%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258Bdenops-docker.vim%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fY2VhMGI1MzMxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
