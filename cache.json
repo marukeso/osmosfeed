@@ -46,15 +46,6 @@
           "publishedOn": "2021-07-27T12:52:36.000Z",
           "wordCount": 447,
           "title": "2021-07-27のJS: vscode-js-debug、 Privacy Sandbox Timeline、小さなブラウザの作り方"
-        },
-        {
-          "id": "https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/",
-          "author": null,
-          "description": "JSer.info #549 - Node.js 16.5.0がリリースされました。\nNode v16.5.0 (Current) | Node.js\n16.5.0では試験的に、WHATWGで仕様策定されウェブブラウザに実装されているWHATWG Streams APIが実装されました。(stream/web)\nNode.js Stream APIがありますが、これとは異なる実装です。\nNode.js StreamとWHATWG Streamの違いについては次のドキュメントにも書かれています。\nstreams/FAQ.md at main · whatwg/streams\nNode.jsでWHATWG Streamを実装している理由としてはQUIC/HTTP3のサポートなどが挙げられています。\nHTTP/3 support · Issue #38478 · nodejs/node\nまた、Node.js StreamとWHATWG Streamの棲み分けや相互運用性については次のIssueで議論されています。\nFuture of streams · Issue #39093 · nodejs/node\nnpm 7.20.0がリリースされました。\nRelease v7.20.0 · npm/cli\nnpm 7.20.0では、package.jsonの任意のフィールドを読み書きできるnpm pkgコマンドが追加されています。\nfeat: npm pkg by ruyadorno · Pull Request #3487 · npm/cli\nThe Road to Ember 4.0という記事では、Ember 4のロードマップが公開されています。\nEmber 4は2021年9月20日にリリース予定としています。\nそれぞれのマイグレーションガイドも公開されています。\nEmber.js…",
-          "link": "https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/",
-          "publishedOn": "2021-07-20T02:16:58.000Z",
-          "wordCount": 460,
-          "title": "2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(`npm pkg`)、Ember 4のロードマップ"
         }
       ]
     },
@@ -63,6 +54,20 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
+          "author": "空雲",
+          "description": "Next.jsとWeb-Worker\nNext.jsは様々な機能を無設定で行えるように開発されています\nWeb-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます\nどのぐらい手軽に利用可能か、試してみたいと思います\n\n 初期作業\n\n      \n        \n        yarn add next react react-dom\nyarn add -D typescript @types/node @types/react\n\n\n      \n      \n ソースコード\n\nsrc/libs/sums.ts\n\n1からcountで与え...",
+          "link": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
+          "publishedOn": "2021-08-18T12:58:21.000Z",
+          "wordCount": 185,
+          "title": "Next.jsでWeb-Workerを呼び出す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--qqkuF2EI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/byanbyan/articles/baa0b53f8cef4d",
           "author": "ゆゆゆ",
@@ -706,20 +711,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/nshiro/articles/49b0c7b5fabef5",
-          "author": "nshiro",
-          "description": "Laravel 作成者の Taylor さんより、Next.js スターターキットがリリースされました。\nhttps://twitter.com/taylorotwell/status/1417148351506681859\nhttps://github.com/taylorotwell/next-example-frontend\nhttps://github.com/taylorotwell/next-example-backend\nTaylor さん個人のリポジトリなので、Laravel 公式という訳では無いですが、まぁ、Laravel 作成者の方ですからね。半分公式と言えなくはない...",
-          "link": "https://zenn.dev/nshiro/articles/49b0c7b5fabef5",
-          "publishedOn": "2021-07-20T07:16:47.000Z",
-          "wordCount": 41,
-          "title": "Laravel 非公式（半分公式？）な Next.js スターターキット登場",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--W-oCjHNV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nshiro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Laravel%2520%25E9%259D%259E%25E5%2585%25AC%25E5%25BC%258F%25EF%25BC%2588%25E5%258D%258A%25E5%2588%2586%25E5%2585%25AC%25E5%25BC%258F%25EF%25BC%259F%25EF%25BC%2589%25E3%2581%25AA%2520Next.js%2520%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%25AD%25E3%2583%2583%25E3%2583%2588%25E7%2599%25BB%25E5%25A0%25B4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODU5NTMxMmFlNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -889,6 +880,90 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/bonfireman/articles/1baea537219738",
+          "author": "Shota Nakano",
+          "description": "Strategyとは？\nGoF（Gang of Four）デザインパターンの一つであり、さまざまなビジネスルールやアルゴリズムの変更が発生した際に、使用する側には意識させる事なく、柔軟に変更を可能にするためのパターンです。\n\n コードを書いてみよう\n今回は、以下のようなにネットで購入できる「写真」があったとします。\n写真のサイズには「L」「2L」「DL（ダウンロード）」の３種類があり、それぞれの定価があります。\n\n Strategyを使わない場合\n\n      \n        \n        class Photo {\n// 種類\n  private _size: 'L' | '...",
+          "link": "https://zenn.dev/bonfireman/articles/1baea537219738",
+          "publishedOn": "2021-08-18T15:12:00.000Z",
+          "wordCount": 142,
+          "title": "デザインパターン ~Strategyパターン~",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8v68AlNz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Shota%2520Nakano%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%2520%7EStrategy%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%7E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h0c0tkOE1YUGFDbkJuNmdBY3Y3cWNwbzduYVE5T2ZabUZoUUR4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/1f7df8f2beb6b6",
+          "author": "chida",
+          "description": "DIとは\nDI（Dependency Injection）とは、日本語訳で依存性の注入です。依存性の注入と聞くと、依存性という抽象的な概念を何かに注入するような印象を与えますが、依存性という言葉自体は依存対象を表します。\nDIにおける依存対象は、オブジェクトのインスタンスです。つまり、Dependencyはオブジェクトのインスタンスを指します。そして、Injectionは外部から挿入するという意味を持つため、DIはオブジェクトのインスタンスを外部から挿入するという事になります。\n\n DIのコード\nDIの対応前後のサンプルコードで比較を確認します。次のコードは、ブラウザのコンソールに「...",
+          "link": "https://zenn.dev/chida/articles/1f7df8f2beb6b6",
+          "publishedOn": "2021-08-18T15:04:41.000Z",
+          "wordCount": 600,
+          "title": "TypeScriptでのDIと、Tsyringeについて",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--OOgbteQp--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E3%2581%25AEDI%25E3%2581%25A8%25E3%2580%2581Tsyringe%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owaDZCVkFGckw0ME1VT2pXVDFENG9xd2FDTU02dmFNSVNoT3F1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
+          "author": "空雲",
+          "description": "Next.jsとWeb-Worker\nNext.jsは様々な機能を無設定で行えるように開発されています\nWeb-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます\nどのぐらい手軽に利用可能か、試してみたいと思います\n\n 初期作業\n\n      \n        \n        yarn add next react react-dom\nyarn add -D typescript @types/node @types/react\n\n\n      \n      \n ソースコード\n\nsrc/libs/sums.ts\n\n1からcountで与え...",
+          "link": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
+          "publishedOn": "2021-08-18T12:58:21.000Z",
+          "wordCount": 185,
+          "title": "Next.jsでWeb-Workerを呼び出す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--qqkuF2EI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/amay077/articles/77b08c940decbe",
+          "author": "amay077",
+          "description": "AWS AppSync というと、私は「Google Firestore 対抗のオフライン対応リアルタイムデータベース、ただし API は GraphQL」という認識だったのですが、もう少し機能をブレークダウンしていくと、「単なるマネージドな WebSocket 的サービス」としても使えるな、と気付きまして、試しにチャットっぽいアプリを作ってみました。\nこんなやつ↓\n\n\n AppSync 側の設定\nデータソースは使用しません（＝ローカルリゾルバーを使用）。\nこれによりデータは永続化されずただの 「WebSocket的サーバー」 として動作します。\nデータを永続化したい場合は、Dynamo...",
+          "link": "https://zenn.dev/amay077/articles/77b08c940decbe",
+          "publishedOn": "2021-08-18T03:03:02.000Z",
+          "wordCount": 414,
+          "title": "AWS AppSync + Local Resolver でチャットっぽいものを作ってみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--weTmIUpy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:amay077%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:AWS%2520AppSync%2520%252B%2520Local%2520Resolver%2520%25E3%2581%25A7%25E3%2583%2581%25E3%2583%25A3%25E3%2583%2583%25E3%2583%2588%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjc1ZGNhOGM5Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dozo/articles/54f697ff41f100",
+          "author": "dozo",
+          "description": "rollup-plugin-esbuildでそれぞれのいいとこ取り\n------------------- ↓ 前書はここから ↓-------------------\nWebpack嫌いには光の速さで消えて欲しい筆者にとって、\nバンドラーはもっぱらrollup.jsだった。\nプラグインの豊富さからありとあらゆる場面で活用していたのだが、\n最近バンドラーのトレンドにビルド速度というのがあり、\nちょっと気になる今日この頃。\nesbuildやswcのようにGoやRustのようなハードウェアレイヤーの言語を使って、\nビルド実行をしてしまうアプローチ。\n(緩募: 低レベル言語に変わる用語)\n...",
+          "link": "https://zenn.dev/dozo/articles/54f697ff41f100",
+          "publishedOn": "2021-08-17T20:41:28.000Z",
+          "wordCount": 173,
+          "title": "rollup.jsに爆速esbuildを組み込む方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--CZVRE7f---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dozo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:rollup.js%25E3%2581%25AB%25E7%2588%2586%25E9%2580%259Fesbuild%25E3%2582%2592%25E7%25B5%2584%25E3%2581%25BF%25E8%25BE%25BC%25E3%2582%2580%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eagle/articles/where-is-simple-rpc-for-js",
+          "author": "eagle",
+          "description": "前提\n昔から、個人が思いつくようなことは\n\n既に方法が確立されている。自分が発見できていないだけ。\n既に試してみた先人たちがいるが、上手くいかないことが分かり頓挫したプロジェクトである。\n\nの2択だとよく言われます。\n私が今探しているのは超シンプルなWebサーバーとクライアント間のRPCです。\n特に、バックエンドはNodeJS限定とします。\nこれにより言語が統一されるのでバックエンドとフロントエンドでコード共有ができます。\nC#のMagicOnionのように、APIのインターフェースとその実装、および少々のコンフィギュレーションを定義するだけで済むはずです。\n超お手軽です。\n\n 現実...",
+          "link": "https://zenn.dev/eagle/articles/where-is-simple-rpc-for-js",
+          "publishedOn": "2021-08-17T13:09:08.000Z",
+          "wordCount": 616,
+          "title": "TypeScriptを使ってNode.jsとブラウザ間のRPC（情報求む）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--fZ1tKFHe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eagle%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6Node.js%25E3%2581%25A8%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E9%2596%2593%25E3%2581%25AERPC%25EF%25BC%2588%25E6%2583%2585%25E5%25A0%25B1%25E6%25B1%2582%25E3%2582%2580%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTFmZjAxNGQyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kenta0313/articles/6a9cf3989aa443",
           "author": "KenT",
@@ -1966,20 +2041,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1",
-          "author": "tak_iwamoto",
-          "description": "Ptera\n\nDenoのDateTimeライブラリであるPteraをリリースしたので、その紹介(宣伝)をします。\n素敵なロゴはDenoのイラストを数多く書いてらっしゃる hashrockさんにデザインしていただきました！\nこれまでNode.jsのライブラリはMoment.js、Day.js、Luxon、date-fns\nなどいくつか選択肢がありました。\nただ、Denoで書かれているThird Partyライブラリは自分が調査した限り見当たらなかったので、作ってみました。\n\n Getting Started\nメインで使用するAPIはdatetimeです。\n引数なしの場合、ローカルの現在...",
-          "link": "https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1",
-          "publishedOn": "2021-07-20T00:48:58.000Z",
-          "wordCount": 360,
-          "title": "DenoのDateTimeライブラリPteraをリリースしました",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--kw-t9byB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tak_iwamoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E3%2581%25AEDateTime%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AAPtera%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWZjMDRlNjU3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1988,6 +2049,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/bun913/articles/3c07695fe1474c",
+          "author": "bun",
+          "description": "何を作ったのか\nvimでTodo管理を便利にするための小さなプラグインです。\n\n新規タスクを作成する\nタスクの終了・未了をワンボタンで切り替えられる\n終了済みのタスクをまとめて、最終行に移動させる\n\nということをできるようにしました。\nhttps://github.com/bun913/min-todo.vim\n\n イメージ\nタスクの作成\n\nタスクの終了・未了を切り替え\n\n終了済みのタスクをまとめて移動\n\n\n 参考にしたサイト\n初めて作るvimプラグインですし、そもそもまともにvimスクリプトを書いたことがないためお作法がさっぱりわかりませんでした。\n以下のサイトを参考にさせていただ...",
+          "link": "https://zenn.dev/bun913/articles/3c07695fe1474c",
+          "publishedOn": "2021-08-18T12:34:06.000Z",
+          "wordCount": 56,
+          "title": "日常の作業改善のため超シンプルvimプラグインを作成した",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--EmKvRNNy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:bun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%2597%25A5%25E5%25B8%25B8%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E6%2594%25B9%25E5%2596%2584%25E3%2581%25AE%25E3%2581%259F%25E3%2582%2581%25E8%25B6%2585%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25ABvim%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzE0ZWEwMTIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/altair/articles/9238308d2432c6",
           "author": "Altair",

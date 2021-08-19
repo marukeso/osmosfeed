@@ -77,12 +77,229 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-18">2021-08-18</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsでWeb-Workerを呼び出す</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/65420761a0bec2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.jsとWeb-Worker
+Next.jsは様々な機能を無設定で行えるように開発されています
+Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
+どのぐらい手軽に利用可能か、試してみたいと思います
+
+ 初期作業
+
+      
+        
+        yarn add next react react-dom
+yarn add -D typescript @types/node @types/react
+
+
+      
+      
+ ソースコード
+
+src/libs/sums.ts
+
+1からcountで与え...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">デザインパターン ~Strategyパターン~</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bonfireman/articles/1baea537219738">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Strategyとは？
+GoF（Gang of Four）デザインパターンの一つであり、さまざまなビジネスルールやアルゴリズムの変更が発生した際に、使用する側には意識させる事なく、柔軟に変更を可能にするためのパターンです。
+
+ コードを書いてみよう
+今回は、以下のようなにネットで購入できる「写真」があったとします。
+写真のサイズには「L」「2L」「DL（ダウンロード）」の３種類があり、それぞれの定価があります。
+
+ Strategyを使わない場合
+
+      
+        
+        class Photo {
+// 種類
+  private _size: &#x27;L&#x27; | &#x27;...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptでのDIと、Tsyringeについて</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/1f7df8f2beb6b6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>DIとは
+DI（Dependency Injection）とは、日本語訳で依存性の注入です。依存性の注入と聞くと、依存性という抽象的な概念を何かに注入するような印象を与えますが、依存性という言葉自体は依存対象を表します。
+DIにおける依存対象は、オブジェクトのインスタンスです。つまり、Dependencyはオブジェクトのインスタンスを指します。そして、Injectionは外部から挿入するという意味を持つため、DIはオブジェクトのインスタンスを外部から挿入するという事になります。
+
+ DIのコード
+DIの対応前後のサンプルコードで比較を確認します。次のコードは、ブラウザのコンソールに「...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsでWeb-Workerを呼び出す</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/65420761a0bec2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.jsとWeb-Worker
+Next.jsは様々な機能を無設定で行えるように開発されています
+Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
+どのぐらい手軽に利用可能か、試してみたいと思います
+
+ 初期作業
+
+      
+        
+        yarn add next react react-dom
+yarn add -D typescript @types/node @types/react
+
+
+      
+      
+ ソースコード
+
+src/libs/sums.ts
+
+1からcountで与え...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AWS AppSync + Local Resolver でチャットっぽいものを作ってみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/amay077/articles/77b08c940decbe">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>AWS AppSync というと、私は「Google Firestore 対抗のオフライン対応リアルタイムデータベース、ただし API は GraphQL」という認識だったのですが、もう少し機能をブレークダウンしていくと、「単なるマネージドな WebSocket 的サービス」としても使えるな、と気付きまして、試しにチャットっぽいアプリを作ってみました。
+こんなやつ↓
+
+
+ AppSync 側の設定
+データソースは使用しません（＝ローカルリゾルバーを使用）。
+これによりデータは永続化されずただの 「WebSocket的サーバー」 として動作します。
+データを永続化したい場合は、Dynamo...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">日常の作業改善のため超シンプルvimプラグインを作成した</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bun913/articles/3c07695fe1474c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>何を作ったのか
+vimでTodo管理を便利にするための小さなプラグインです。
+
+新規タスクを作成する
+タスクの終了・未了をワンボタンで切り替えられる
+終了済みのタスクをまとめて、最終行に移動させる
+
+ということをできるようにしました。
+https://github.com/bun913/min-todo.vim
+
+ イメージ
+タスクの作成
+
+タスクの終了・未了を切り替え
+
+終了済みのタスクをまとめて移動
+
+
+ 参考にしたサイト
+初めて作るvimプラグインですし、そもそもまともにvimスクリプトを書いたことがないためお作法がさっぱりわかりませんでした。
+以下のサイトを参考にさせていただ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-17">2021-08-17</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">rollup.jsに爆速esbuildを組み込む方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dozo/articles/54f697ff41f100">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>rollup-plugin-esbuildでそれぞれのいいとこ取り
+------------------- ↓ 前書はここから ↓-------------------
+Webpack嫌いには光の速さで消えて欲しい筆者にとって、
+バンドラーはもっぱらrollup.jsだった。
+プラグインの豊富さからありとあらゆる場面で活用していたのだが、
+最近バンドラーのトレンドにビルド速度というのがあり、
+ちょっと気になる今日この頃。
+esbuildやswcのようにGoやRustのようなハードウェアレイヤーの言語を使って、
+ビルド実行をしてしまうアプローチ。
+(緩募: 低レベル言語に変わる用語)
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptを使ってNode.jsとブラウザ間のRPC（情報求む）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/eagle/articles/where-is-simple-rpc-for-js">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>前提
+昔から、個人が思いつくようなことは
+
+既に方法が確立されている。自分が発見できていないだけ。
+既に試してみた先人たちがいるが、上手くいかないことが分かり頓挫したプロジェクトである。
+
+の2択だとよく言われます。
+私が今探しているのは超シンプルなWebサーバーとクライアント間のRPCです。
+特に、バックエンドはNodeJS限定とします。
+これにより言語が統一されるのでバックエンドとフロントエンドでコード共有ができます。
+C#のMagicOnionのように、APIのインターフェースとその実装、および少々のコンフィギュレーションを定義するだけで済むはずです。
+超お手軽です。
+
+ 現実...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">React-Hook-Formがシンプルで使いやすい👍</summary>
@@ -4567,40 +4784,6 @@ https://cloud.flect.co.jp/entry/2021/07/21/113845
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(&#x60;npm pkg&#x60;)、Ember 4のロードマップ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>JSer.info #549 - Node.js 16.5.0がリリースされました。
-Node v16.5.0 (Current) | Node.js
-16.5.0では試験的に、WHATWGで仕様策定されウェブブラウザに実装されているWHATWG Streams APIが実装されました。(stream/web)
-Node.js Stream APIがありますが、これとは異なる実装です。
-Node.js StreamとWHATWG Streamの違いについては次のドキュメントにも書かれています。
-streams/FAQ.md at main · whatwg/streams
-Node.jsでWHATWG Streamを実装している理由としてはQUIC/HTTP3のサポートなどが挙げられています。
-HTTP/3 support · Issue #38478 · nodejs/node
-また、Node.js StreamとWHATWG Streamの棲み分けや相互運用性については次のIssueで議論されています。
-Future of streams · Issue #39093 · nodejs/node
-npm 7.20.0がリリースされました。
-Release v7.20.0 · npm/cli
-npm 7.20.0では、package.jsonの任意のフィールドを読み書きできるnpm pkgコマンドが追加されています。
-feat: npm pkg by ruyadorno · Pull Request #3487 · npm/cli
-The Road to Ember 4.0という記事では、Ember 4のロードマップが公開されています。
-Ember 4は2021年9月20日にリリース予定としています。
-それぞれのマイグレーションガイドも公開されています。
-Ember.js…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -4618,55 +4801,13 @@ Ember.js…</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Laravel 非公式（半分公式？）な Next.js スターターキット登場</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nshiro/articles/49b0c7b5fabef5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Laravel 作成者の Taylor さんより、Next.js スターターキットがリリースされました。
-https://twitter.com/taylorotwell/status/1417148351506681859
-https://github.com/taylorotwell/next-example-frontend
-https://github.com/taylorotwell/next-example-backend
-Taylor さん個人のリポジトリなので、Laravel 公式という訳では無いですが、まぁ、Laravel 作成者の方ですからね。半分公式と言えなくはない...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">DenoのDateTimeライブラリPteraをリリースしました</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Ptera
-
-DenoのDateTimeライブラリであるPteraをリリースしたので、その紹介(宣伝)をします。
-素敵なロゴはDenoのイラストを数多く書いてらっしゃる hashrockさんにデザインしていただきました！
-これまでNode.jsのライブラリはMoment.js、Day.js、Luxon、date-fns
-などいくつか選択肢がありました。
-ただ、Denoで書かれているThird Partyライブラリは自分が調査した限り見当たらなかったので、作ってみました。
-
- Getting Started
-メインで使用するAPIはdatetimeです。
-引数なしの場合、ローカルの現在...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-18T01:03:52.894Z">2021-08-18T01:03:52.894Z</time>
+    <time id="build-timestamp" datetime="2021-08-19T00:56:43.051Z">2021-08-19T00:56:43.051Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

@@ -2,10 +2,196 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-18T01:03:52.932Z</updated>
+    <updated>2021-08-19T00:56:43.083Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[デザインパターン ~Strategyパターン~]]></title>
+        <id>https://zenn.dev/bonfireman/articles/1baea537219738</id>
+        <link href="https://zenn.dev/bonfireman/articles/1baea537219738"/>
+        <updated>2021-08-18T15:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Strategyとは？
+GoF（Gang of Four）デザインパターンの一つであり、さまざまなビジネスルールやアルゴリズムの変更が発生した際に、使用する側には意識させる事なく、柔軟に変更を可能にするためのパターンです。
+
+ コードを書いてみよう
+今回は、以下のようなにネットで購入できる「写真」があったとします。
+写真のサイズには「L」「2L」「DL（ダウンロード）」の３種類があり、それぞれの定価があります。
+
+ Strategyを使わない場合
+
+      
+        
+        class Photo {
+// 種類
+  private _size: 'L' | '...]]></summary>
+        <author>
+            <name>Shota Nakano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでのDIと、Tsyringeについて]]></title>
+        <id>https://zenn.dev/chida/articles/1f7df8f2beb6b6</id>
+        <link href="https://zenn.dev/chida/articles/1f7df8f2beb6b6"/>
+        <updated>2021-08-18T15:04:41.000Z</updated>
+        <summary type="html"><![CDATA[DIとは
+DI（Dependency Injection）とは、日本語訳で依存性の注入です。依存性の注入と聞くと、依存性という抽象的な概念を何かに注入するような印象を与えますが、依存性という言葉自体は依存対象を表します。
+DIにおける依存対象は、オブジェクトのインスタンスです。つまり、Dependencyはオブジェクトのインスタンスを指します。そして、Injectionは外部から挿入するという意味を持つため、DIはオブジェクトのインスタンスを外部から挿入するという事になります。
+
+ DIのコード
+DIの対応前後のサンプルコードで比較を確認します。次のコードは、ブラウザのコンソールに「...]]></summary>
+        <author>
+            <name>chida</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでWeb-Workerを呼び出す]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/65420761a0bec2</id>
+        <link href="https://zenn.dev/sora_kumo/articles/65420761a0bec2"/>
+        <updated>2021-08-18T12:58:21.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsとWeb-Worker
+Next.jsは様々な機能を無設定で行えるように開発されています
+Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
+どのぐらい手軽に利用可能か、試してみたいと思います
+
+ 初期作業
+
+      
+        
+        yarn add next react react-dom
+yarn add -D typescript @types/node @types/react
+
+
+      
+      
+ ソースコード
+
+src/libs/sums.ts
+
+1からcountで与え...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでWeb-Workerを呼び出す]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/65420761a0bec2</id>
+        <link href="https://zenn.dev/sora_kumo/articles/65420761a0bec2"/>
+        <updated>2021-08-18T12:58:21.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsとWeb-Worker
+Next.jsは様々な機能を無設定で行えるように開発されています
+Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
+どのぐらい手軽に利用可能か、試してみたいと思います
+
+ 初期作業
+
+      
+        
+        yarn add next react react-dom
+yarn add -D typescript @types/node @types/react
+
+
+      
+      
+ ソースコード
+
+src/libs/sums.ts
+
+1からcountで与え...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日常の作業改善のため超シンプルvimプラグインを作成した]]></title>
+        <id>https://zenn.dev/bun913/articles/3c07695fe1474c</id>
+        <link href="https://zenn.dev/bun913/articles/3c07695fe1474c"/>
+        <updated>2021-08-18T12:34:06.000Z</updated>
+        <summary type="html"><![CDATA[何を作ったのか
+vimでTodo管理を便利にするための小さなプラグインです。
+
+新規タスクを作成する
+タスクの終了・未了をワンボタンで切り替えられる
+終了済みのタスクをまとめて、最終行に移動させる
+
+ということをできるようにしました。
+https://github.com/bun913/min-todo.vim
+
+ イメージ
+タスクの作成
+
+タスクの終了・未了を切り替え
+
+終了済みのタスクをまとめて移動
+
+
+ 参考にしたサイト
+初めて作るvimプラグインですし、そもそもまともにvimスクリプトを書いたことがないためお作法がさっぱりわかりませんでした。
+以下のサイトを参考にさせていただ...]]></summary>
+        <author>
+            <name>bun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS AppSync + Local Resolver でチャットっぽいものを作ってみる]]></title>
+        <id>https://zenn.dev/amay077/articles/77b08c940decbe</id>
+        <link href="https://zenn.dev/amay077/articles/77b08c940decbe"/>
+        <updated>2021-08-18T03:03:02.000Z</updated>
+        <summary type="html"><![CDATA[AWS AppSync というと、私は「Google Firestore 対抗のオフライン対応リアルタイムデータベース、ただし API は GraphQL」という認識だったのですが、もう少し機能をブレークダウンしていくと、「単なるマネージドな WebSocket 的サービス」としても使えるな、と気付きまして、試しにチャットっぽいアプリを作ってみました。
+こんなやつ↓
+
+
+ AppSync 側の設定
+データソースは使用しません（＝ローカルリゾルバーを使用）。
+これによりデータは永続化されずただの 「WebSocket的サーバー」 として動作します。
+データを永続化したい場合は、Dynamo...]]></summary>
+        <author>
+            <name>amay077</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rollup.jsに爆速esbuildを組み込む方法]]></title>
+        <id>https://zenn.dev/dozo/articles/54f697ff41f100</id>
+        <link href="https://zenn.dev/dozo/articles/54f697ff41f100"/>
+        <updated>2021-08-17T20:41:28.000Z</updated>
+        <summary type="html"><![CDATA[rollup-plugin-esbuildでそれぞれのいいとこ取り
+------------------- ↓ 前書はここから ↓-------------------
+Webpack嫌いには光の速さで消えて欲しい筆者にとって、
+バンドラーはもっぱらrollup.jsだった。
+プラグインの豊富さからありとあらゆる場面で活用していたのだが、
+最近バンドラーのトレンドにビルド速度というのがあり、
+ちょっと気になる今日この頃。
+esbuildやswcのようにGoやRustのようなハードウェアレイヤーの言語を使って、
+ビルド実行をしてしまうアプローチ。
+(緩募: 低レベル言語に変わる用語)
+...]]></summary>
+        <author>
+            <name>dozo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptを使ってNode.jsとブラウザ間のRPC（情報求む）]]></title>
+        <id>https://zenn.dev/eagle/articles/where-is-simple-rpc-for-js</id>
+        <link href="https://zenn.dev/eagle/articles/where-is-simple-rpc-for-js"/>
+        <updated>2021-08-17T13:09:08.000Z</updated>
+        <summary type="html"><![CDATA[前提
+昔から、個人が思いつくようなことは
+
+既に方法が確立されている。自分が発見できていないだけ。
+既に試してみた先人たちがいるが、上手くいかないことが分かり頓挫したプロジェクトである。
+
+の2択だとよく言われます。
+私が今探しているのは超シンプルなWebサーバーとクライアント間のRPCです。
+特に、バックエンドはNodeJS限定とします。
+これにより言語が統一されるのでバックエンドとフロントエンドでコード共有ができます。
+C#のMagicOnionのように、APIのインターフェースとその実装、および少々のコンフィギュレーションを定義するだけで済むはずです。
+超お手軽です。
+
+ 現実...]]></summary>
+        <author>
+            <name>eagle</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[React-Hook-Formがシンプルで使いやすい👍]]></title>
         <id>https://zenn.dev/kenta0313/articles/6a9cf3989aa443</id>
@@ -3693,67 +3879,6 @@ https://cloud.flect.co.jp/entry/2021/07/21/113845
 ベースに electron-next というのを使っていて、これがけっこうよくできていた。やっていることはシンプルで、レンダラプロセスに Next.js を使っていて、開発時は Next.js のサーバーを起動し、production build では next export ...]]></summary>
         <author>
             <name>hokaccha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laravel 非公式（半分公式？）な Next.js スターターキット登場]]></title>
-        <id>https://zenn.dev/nshiro/articles/49b0c7b5fabef5</id>
-        <link href="https://zenn.dev/nshiro/articles/49b0c7b5fabef5"/>
-        <updated>2021-07-20T07:16:47.000Z</updated>
-        <summary type="html"><![CDATA[Laravel 作成者の Taylor さんより、Next.js スターターキットがリリースされました。
-https://twitter.com/taylorotwell/status/1417148351506681859
-https://github.com/taylorotwell/next-example-frontend
-https://github.com/taylorotwell/next-example-backend
-Taylor さん個人のリポジトリなので、Laravel 公式という訳では無いですが、まぁ、Laravel 作成者の方ですからね。半分公式と言えなくはない...]]></summary>
-        <author>
-            <name>nshiro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-07-20のJS: Node.js 16.5.0(WHATWG Stream)、npm 7.20.0(`npm pkg`)、Ember 4のロードマップ]]></title>
-        <id>https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/</id>
-        <link href="https://jser.info/2021/07/20/node.js-16.5.0whatwg-stream-npm-7.20.0npm-pkg-ember-4/"/>
-        <updated>2021-07-20T02:16:58.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #549 - Node.js 16.5.0がリリースされました。
-Node v16.5.0 (Current) | Node.js
-16.5.0では試験的に、WHATWGで仕様策定されウェブブラウザに実装されているWHATWG Streams APIが実装されました。(stream/web)
-Node.js Stream APIがありますが、これとは異なる実装です。
-Node.js StreamとWHATWG Streamの違いについては次のドキュメントにも書かれています。
-streams/FAQ.md at main · whatwg/streams
-Node.jsでWHATWG Streamを実装している理由としてはQUIC/HTTP3のサポートなどが挙げられています。
-HTTP/3 support · Issue #38478 · nodejs/node
-また、Node.js StreamとWHATWG Streamの棲み分けや相互運用性については次のIssueで議論されています。
-Future of streams · Issue #39093 · nodejs/node
-npm 7.20.0がリリースされました。
-Release v7.20.0 · npm/cli
-npm 7.20.0では、package.jsonの任意のフィールドを読み書きできるnpm pkgコマンドが追加されています。
-feat: npm pkg by ruyadorno · Pull Request #3487 · npm/cli
-The Road to Ember 4.0という記事では、Ember 4のロードマップが公開されています。
-Ember 4は2021年9月20日にリリース予定としています。
-それぞれのマイグレーションガイドも公開されています。
-Ember.js…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DenoのDateTimeライブラリPteraをリリースしました]]></title>
-        <id>https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1</id>
-        <link href="https://zenn.dev/tak_iwamoto/articles/8b32b27bd577b1"/>
-        <updated>2021-07-20T00:48:58.000Z</updated>
-        <summary type="html"><![CDATA[Ptera
-
-DenoのDateTimeライブラリであるPteraをリリースしたので、その紹介(宣伝)をします。
-素敵なロゴはDenoのイラストを数多く書いてらっしゃる hashrockさんにデザインしていただきました！
-これまでNode.jsのライブラリはMoment.js、Day.js、Luxon、date-fns
-などいくつか選択肢がありました。
-ただ、Denoで書かれているThird Partyライブラリは自分が調査した限り見当たらなかったので、作ってみました。
-
- Getting Started
-メインで使用するAPIはdatetimeです。
-引数なしの場合、ローカルの現在...]]></summary>
-        <author>
-            <name>tak_iwamoto</name>
         </author>
     </entry>
 </feed>
