@@ -683,34 +683,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e",
-          "author": "かわみつ",
-          "description": "今回は認証サーバとしてLaravelを使った場合を想定したOAuth2の認可コードフローに基づいた認証機能の実装をしていきます。\nNext.jsでは認証を楽に作れるNextAuthというライブラリがあるので、今回はそれを使っていきますが、NextAuthはパスワードなしの認証(Passwordless Authentication)を推奨しているということもあり、OAuth2の認可コードフロー実装に関する情報が少ないように思えたので備忘録も兼ねて記事として残してみます。\n今回Laravel側で認証基盤を実装するためのものとしてLaravel Passportを使います。\nOAuthで定義...",
-          "link": "https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e",
-          "publishedOn": "2021-07-21T12:59:55.000Z",
-          "wordCount": 732,
-          "title": "Next.js + TypeScript + Laravel Passportで実装するOAuth2認証",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--HpUOSroa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258B%25E3%2582%258F%25E3%2581%25BF%25E3%2581%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%252B%2520TypeScript%2520%252B%2520Laravel%2520Passport%25E3%2581%25A7%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258BOAuth2%25E8%25AA%258D%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTk5NmU1N2I4OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hokaccha/articles/887e1af361faa8",
-          "author": "hokaccha",
-          "description": "https://github.com/hokaccha/electron-template-2021\n作ったので公開しておくが、こういうテンプレートはメンテしないとすぐ腐ってしまうけどメンテするモチベーションも特にないのでスナップショットという意味合いも込めて2021をつけている。\n\n electron-next\nベースに electron-next というのを使っていて、これがけっこうよくできていた。やっていることはシンプルで、レンダラプロセスに Next.js を使っていて、開発時は Next.js のサーバーを起動し、production build では next export ...",
-          "link": "https://zenn.dev/hokaccha/articles/887e1af361faa8",
-          "publishedOn": "2021-07-20T14:58:32.000Z",
-          "wordCount": 262,
-          "title": "Electron アプリのテンプレート 2021",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--4FBoJrGv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hokaccha%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Electron%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25202021%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lpYWctanVyZUl3Q21TY0ZpclkwaUo0eXppaGZYekxOc1RfejZNX3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -880,6 +852,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/yknight/articles/f0167dc5b0cceb",
+          "author": "y_Knight",
+          "description": "フロントエンド環境に実装をしたStorybookに、Sassを導入する\nStorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。\n原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）\nでも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。\n\n 実装リスト\n\ndocker\nNext.js/TypeScript\nSass\nStorybook\njest\nAtomic design\n\n※導入は個人の責任でおねがいします。（...",
+          "link": "https://zenn.dev/yknight/articles/f0167dc5b0cceb",
+          "publishedOn": "2021-08-19T18:54:15.000Z",
+          "wordCount": 600,
+          "title": "【2021-8】 Next.js + TypeScript + Storybook(Atomic Design) + Sass + jest",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9TfjLDht--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:y_Knight%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%25902021-8%25E3%2580%2591%2520Next.js%2520%252B%2520TypeScript%2520%252B%2520Storybook%2528Atomic%2520Design%2529%2520%252B%2520Sass%2520%252B%2520jest%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjk2NzljOWNhZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kingu/articles/c32dfd9ca28fe8",
+          "author": "kingu",
+          "description": "開発中だから見られたくない、特定の人にだけ見せたいなどで簡単に認証かけたいとなるとBasic認証である。\nFirebase HostingでもCloud Functionsと連携すれば実現できる。\n\n ググるといっぱい出てくるが...\nhttps://www.google.com/search?q=firebase+hosting+basic認証\nなぜかCloud FunctionsはJavaScriptベースしか出てこなかった。\nTypeScriptでやろうとしてちょっとハマったので共有していく。\n\n見つけられなかっただけかも...\n\n\n 手順\nとは言え特別にやることはない。\n\nFir...",
+          "link": "https://zenn.dev/kingu/articles/c32dfd9ca28fe8",
+          "publishedOn": "2021-08-19T09:32:59.000Z",
+          "wordCount": 165,
+          "title": "Firebase HostingでBasic認証をかける ~TypeScript編~",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--fOehZxye--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kingu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Firebase%2520Hosting%25E3%2581%25A7Basic%25E8%25AA%258D%25E8%25A8%25BC%25E3%2582%2592%25E3%2581%258B%25E3%2581%2591%25E3%2582%258B%2520%7ETypeScript%25E7%25B7%25A8%7E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l4VkhrM2JzdjU3U1RPdmF0QXlHUm84WmJvZTFhbzktM1ZpTVAwPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/bonfireman/articles/1baea537219738",
           "author": "Shota Nakano",
@@ -2013,34 +2013,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs",
-          "author": "Moriya Hiroyuki",
-          "description": "はじめに\nCloudFront のログを解析して、リクエストされたパスごとの転送容量を出したい、という場面があったので、その時にやったことのメモです。\n半分は備忘録として、半分は誰かやってみたい人もいるかも、と思ったので書き残しておこうと思った次第です。\n\n CloudFront のログ\nCloudFront で設定しておけば、S3バケットに出力されます。\n詳しくはこちらの公式ドキュメントをご覧ください。\nhttps://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html\n\n...",
-          "link": "https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs",
-          "publishedOn": "2021-07-21T09:55:56.000Z",
-          "wordCount": 473,
-          "title": "CloudFront のログを JS (TS) で分析する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--i5w7bVVI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Moriya%2520Hiroyuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:CloudFront%2520%25E3%2581%25AE%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592%2520JS%2520%2528TS%2529%2520%25E3%2581%25A7%25E5%2588%2586%25E6%259E%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pqUDk2YWdEUGQzSllKWi1DT0NlemZQcVVvOVVHRmR0Q3p3UTF3PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime",
-          "author": "wok",
-          "description": "この記事は、こちらの記事を改変したものになります。\nhttps://cloud.flect.co.jp/entry/2021/07/21/113845\n\nこんにちは。\nオリンピックの開催が間近になりましたが、最近はデジタルの界隈でもe-sportsがにわかに注目を集め始めていますね。これを後押しするというわけでもありませんが、今回はAmazon Chime SDK JSを用いてマルチプレイヤーゲームの実況配信システムを作ってみたいと思います。特に今回は、公式がファン創作についてポリシーを明確にしてくれているAmong Usを題材にしてみようと思います(ref)。\n具体的には下図のような...",
-          "link": "https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime",
-          "publishedOn": "2021-07-21T02:41:12.000Z",
-          "wordCount": 223,
-          "title": "マルチプレイヤーゲーム実況システムをAmazon Chime SDK JSで作る。 - Among Us Auto Mute -",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--nit7nRdd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:wok%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2583%259E%25E3%2583%25AB%25E3%2583%2581%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25A4%25E3%2583%25BC%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E5%25AE%259F%25E6%25B3%2581%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2582%2592Amazon%2520Chime%2520SDK%2520JS%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E3%2580%2582%2520-%2520Among%2520Us%2520Auto%2520Mute%2520-%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hZemxmeFk4WFJDTHJzM1VvRWI2YmI0cEVhem1kTDg5ejFXQnFZdVE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2154,6 +2126,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/gz/articles/378ed050719e75",
+          "author": "walking_on_ice",
+          "description": "答え：\nmenu-propsを利用します。\nサンプル：\n\n      \n        \n        :menu-props=\"{nudgeRight: 10, nudgeTop: 20}\"\n\n\n      \n      ポップアップメニューの正体はv-menuですので、詳細はv-menuのAPIをご参照ください。\n※注意点：APIのほうでnudge-rightと書かれているもの、nudgeRightのように書き換えてください。",
+          "link": "https://zenn.dev/gz/articles/378ed050719e75",
+          "publishedOn": "2021-08-19T08:41:12.000Z",
+          "wordCount": 12,
+          "title": "vuetify/v-autocompleteのポップアップメニューの位置ずれ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Ge3N-7D_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:walking_on_ice%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuetify%252Fv-autocomplete%25E3%2581%25AE%25E3%2583%259D%25E3%2583%2583%25E3%2583%2597%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25A1%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25AE%25E4%25BD%258D%25E7%25BD%25AE%25E3%2581%259A%25E3%2582%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTZhZjc2YmQ3Yy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/ojk/books/intro-to-vue",
           "author": "OJK",

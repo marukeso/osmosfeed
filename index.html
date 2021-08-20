@@ -77,6 +77,95 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-19">2021-08-19</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【2021-8】 Next.js + TypeScript + Storybook(Atomic Design) + Sass + jest</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yknight/articles/f0167dc5b0cceb">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>フロントエンド環境に実装をしたStorybookに、Sassを導入する
+StorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。
+原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）
+でも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。
+
+ 実装リスト
+
+docker
+Next.js/TypeScript
+Sass
+Storybook
+jest
+Atomic design
+
+※導入は個人の責任でおねがいします。（...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Firebase HostingでBasic認証をかける ~TypeScript編~</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kingu/articles/c32dfd9ca28fe8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>開発中だから見られたくない、特定の人にだけ見せたいなどで簡単に認証かけたいとなるとBasic認証である。
+Firebase HostingでもCloud Functionsと連携すれば実現できる。
+
+ ググるといっぱい出てくるが...
+https://www.google.com/search?q&#x3D;firebase+hosting+basic認証
+なぜかCloud FunctionsはJavaScriptベースしか出てこなかった。
+TypeScriptでやろうとしてちょっとハマったので共有していく。
+
+見つけられなかっただけかも...
+
+
+ 手順
+とは言え特別にやることはない。
+
+Fir...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vuetify/v-autocompleteのポップアップメニューの位置ずれ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gz/articles/378ed050719e75">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>答え：
+menu-propsを利用します。
+サンプル：
+
+      
+        
+        :menu-props&#x3D;&quot;{nudgeRight: 10, nudgeTop: 20}&quot;
+
+
+      
+      ポップアップメニューの正体はv-menuですので、詳細はv-menuのAPIをご参照ください。
+※注意点：APIのほうでnudge-rightと書かれているもの、nudgeRightのように書き換えてください。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-18">2021-08-18</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -4665,26 +4754,6 @@ mutation 処理で、親子コンポーネントでデータのやりとりを�
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js + TypeScript + Laravel Passportで実装するOAuth2認証</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kaibuki0315/articles/39fe0e38f6635e">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>今回は認証サーバとしてLaravelを使った場合を想定したOAuth2の認可コードフローに基づいた認証機能の実装をしていきます。
-Next.jsでは認証を楽に作れるNextAuthというライブラリがあるので、今回はそれを使っていきますが、NextAuthはパスワードなしの認証(Passwordless Authentication)を推奨しているということもあり、OAuth2の認可コードフロー実装に関する情報が少ないように思えたので備忘録も兼ねて記事として残してみます。
-今回Laravel側で認証基盤を実装するためのものとしてLaravel Passportを使います。
-OAuthで定義...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -4718,42 +4787,6 @@ ios/androidともにシミュレータだと動作に問題があるため開発
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">CloudFront のログを JS (TS) で分析する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mryhryki/articles/2021-07-21-parse-cloudfront-logs">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>はじめに
-CloudFront のログを解析して、リクエストされたパスごとの転送容量を出したい、という場面があったので、その時にやったことのメモです。
-半分は備忘録として、半分は誰かやってみたい人もいるかも、と思ったので書き残しておこうと思った次第です。
-
- CloudFront のログ
-CloudFront で設定しておけば、S3バケットに出力されます。
-詳しくはこちらの公式ドキュメントをご覧ください。
-https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html
-
-...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">マルチプレイヤーゲーム実況システムをAmazon Chime SDK JSで作る。 - Among Us Auto Mute -</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/wok/articles/0017_multi-players-gameplay-with-chime">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>この記事は、こちらの記事を改変したものになります。
-https://cloud.flect.co.jp/entry/2021/07/21/113845
-
-こんにちは。
-オリンピックの開催が間近になりましたが、最近はデジタルの界隈でもe-sportsがにわかに注目を集め始めていますね。これを後押しするというわけでもありませんが、今回はAmazon Chime SDK JSを用いてマルチプレイヤーゲームの実況配信システムを作ってみたいと思います。特に今回は、公式がファン創作についてポリシーを明確にしてくれているAmong Usを題材にしてみようと思います(ref)。
-具体的には下図のような...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4779,35 +4812,9 @@ https://cloud.flect.co.jp/entry/2021/07/21/113845
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-20">2021-07-20</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Electron アプリのテンプレート 2021</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hokaccha/articles/887e1af361faa8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>https://github.com/hokaccha/electron-template-2021
-作ったので公開しておくが、こういうテンプレートはメンテしないとすぐ腐ってしまうけどメンテするモチベーションも特にないのでスナップショットという意味合いも込めて2021をつけている。
-
- electron-next
-ベースに electron-next というのを使っていて、これがけっこうよくできていた。やっていることはシンプルで、レンダラプロセスに Next.js を使っていて、開発時は Next.js のサーバーを起動し、production build では next export ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-19T00:56:43.051Z">2021-08-19T00:56:43.051Z</time>
+    <time id="build-timestamp" datetime="2021-08-20T01:01:34.402Z">2021-08-20T01:01:34.402Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
