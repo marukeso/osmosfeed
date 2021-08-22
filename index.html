@@ -77,6 +77,154 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-21">2021-08-21</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nuxtのサードパーティ製Javascriptの読み込む方法を色々試してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sengosha/articles/54ec4c57194626">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>サードパーティ製Javascriptを読み込ませる方法
+Nuxtにサードパーティ製Javascript(以下外部ライブラリと称します）を読み込む方法は三つあります、headメソッドやnuxt.config.jsでの設定とpluginで読み込ませる方法です。
+今回は開発中に外部ライブラリの導入にあたってheadメソッドとnuxt.config.jsで設定する方法を試していくつかの問題が起きてしまいまして、最後はpluginで読み込ませる方法を選ぶ経緯をまとめました。
+
+ 方法１ headメソッド
+特定なページに外部ライブラリを読み込ませるには一番手軽な方法です。
+こんな感じで書けば外部...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Typescriptで計算した結果をGithub Actionsに渡して使用する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kinjosan/articles/26cff4f92b9453">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Github Actions 上で Typescript を実行して、その計算内容を Github Actions 上で使用したい時とかありますよね🎅
+
+ TL;DR
+
+Github Actions で Typescript 実行
+@actions/core の setOutput を使用
+
+
+ 例
+毎朝 10 時に aws のコストを取得して、aws のコストはドルなので、円に直して slack に通知
+※細かい取得方法はテーマではないので省略してます
+
+      
+        
+        const awsCost &#x3D; 100; // ドル
+const rate &#x3D; 10...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Javascriptで数字 → 文字に変換</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kinjosan/articles/04287460d854e4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>toStringを使う
+
+      
+        
+        const numToString &#x3D; (num: number): string &#x3D;&gt; num.toString();
+
+numToString(1234)
+// &quot;1234&quot;
+
+
+      
+      
+ String関数を使用する
+
+      
+        
+        const numToString &#x3D; (num: number): string &#x3D;&gt; String(num);
+numToString(1234)
+// &quot;1234&quot;
+
+
+      
+      undef...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">UTF-8対応のBase64を自作する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kota_yata/articles/89b10ac8c93b92">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>TypeScriptでBase64を自作します。Denoの場合標準ライブラリにBase64が実装されていますので実際に利用する際はそちらを使ってください。
+
+ 完成品
+一応Denoパッケージとしても公開しています。
+https://github.com/kota-yata/ky_base64
+
+ 処理の流れ
+
+ エンコーダー
+Base64エンコードの大まかな流れは、
+
+文字列のバイナリーを6bitsで区切る
+余ったビットは末尾に0を加えて6bitsにする
+予め定められている変換表に対応する文字に変換する
+文字数が4の整数倍に満たない場合は&#x3D;で埋め合わせる
+
+という、割と単純なアルゴリズム...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Neovim builtin LSP設定入門</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nazo6/articles/c2f16b07798bab">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Neovimには組み込みのLSPクライアントがあります。ちょっと前まではVSCode並の開発体験のためにはcocを使うのがベストな選択肢でしたが、neovim builtin lsp(以下nvim-lsp)でもエコシステムが整ってきており、かなりいい感じの支援機能が受けられます。この記事ではその設定などについて書いていこうと思います。
+
+ 環境
+
+Linux (Windowsだと後述のlspinstallというプラグインが使えないのでおすすめできません。LSPを使うこと自体はできます。)
+Neovim 0.5
+Vimscriptは使わずLuaで書きます
+
+
+ 基本的な設定
+
+ 必須プラグ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-20">2021-08-20</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -4527,35 +4675,6 @@ https://zenn.dev/dl10yr/articles/0e31819e983a28
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">「NEXTJS / S3 画像アップロード」画像を更新する時にこれやっちゃダメ！</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ihsan/articles/506510db3ba233">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>BEYONDMAGのマガジンサイトに連載と特集機能の画像アップロードを実装したときに、気づいたメモです。
-
-
- 前提🙇🏽‍♂️
-本記事は、コーディングの仕方を教えるよりかは、ベストプラクティスを教えます。
-画像アップロードのコーディングを学びたい人はこの記事を参考にしてください。
-
- 初めに🏁
-
-「画像を更新する時ってどうやるんだろう？」 という疑問持っている人いっぱいいますよね？
-僕もその一人です😅。
-
- 僕が知っている画像の更新方法🙋🏽
-僕が知っている画像の更新方法は二つあります🤔
-
- 1. 同じURLを使用し、画像の中身だけ変える方法
-
-
-つまり画像をS3に同じURLかつ違う画像の...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4578,53 +4697,6 @@ https://zenn.dev/dl10yr/articles/0e31819e983a28
       
         
          git clone -b not-i...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nest.js Version8がリリースされたので新機能についてまとめる : API Versioning編</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sojiro/articles/3d678492f1d94b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Nest.js Version 8が7月7日にリリース!
-https://trilon.io/blog/announcing-nestjs-8-whats-new
-
- 新機能: API Versioning
-Controller及び各Routesをバージョン管理できるようになりました。
-
- 1.URI Versioning
-URIの中にVersion情報を含める。
-
-      
-        
-        import { VersioningType } from &#x27;@nestjs/common&#x27;;
-
-const app &#x3D; await NestFactory.create...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">CamelCase な型と SnakeCase な型の変換</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>TypeScript で、(Lower)CamelCase な型を SnakeCase な型に、SnakeCase な型を(Lower)CamelCase な型に変換する型を作りました。
-具体的には、
-
-      
-        
-        type camelCase &#x3D; SnakeToCamel;
-// type camelCase &#x3D; &quot;camelCase&quot;
-
-type snakeCase &#x3D; CamelToSnake;
-// type snakeCase &#x3D; &quot;snake_case&quot;;
-
-
- ...</span>
                   </div>
                 </a>
               </details>
@@ -4665,115 +4737,13 @@ veita
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TailwindcssでMaterial UI風のカードデザイン作ってみました</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Tailwindcssとは、ユーティリティファーストのCSSフレームワークです。
-https://tailwindcss.com/
-ユーティリティファーストなのでCSS設計など考慮しなくてもいいので、個人的に好きです！
-
- Tailwindcssのカードデザイン
-codepenに残しておいたのでHTMLのコードはそこから拾って使ってみてください。
-
-
- できなかったこと
-
-当然ですがクリック時の「ripple efect」（波紋のアニメーション）の表現ができないのは残念ですね...。
-ボタンを押した後のアクションなどの指定をしたかったのですが、設定ファイルに記述が必要でCDNでは無理そ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">VueからGoogle OAuthを使用してログインする</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>僕の場合はLaravel×Vueを使っており本来であれば、Laravelの方でsocialiteというパッケージを使用してgoogle oauth認証を行うのが一般的なのですが、
-諸事情でVue側でgoogle oauth認証を行いアクセストークンを使用してから、バックエンドにリクエストを送るという方法をしたかったのです。
-そこで今回はvue側でgoogle認証を実装する方法をメモとして残しておきます。
-
- 1-1. Google Cloud Platformにアクセスし、プロジェクトを作成する
-Google Cloud Platformにアクセスしてプロジェクトを作成してください。
-こ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-22">2021-07-22</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">prisma と express でつくる REST API</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yamo/articles/prisma-express-rest-api">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>はじめに
-前から気になっていた Prisma を触ってみました。
-公式ドキュメントを読みながら、練習として Prisma + Express で REST API を作ってみました。
-自分と同じように入門してみたい人の参考になれば幸いです。
-ソースコードはこちらになります。
-https://github.com/yamosan/prisma-rest-api
-
- 環境構築
-
- プロジェクトの作成
-
-      
-        
-        $ npm init -y
-
-
-      
-      
- パッケージのインストール
-必要なパッケージを予めインストールしていきます。
-つ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScript で値が Union Type にマッチするかを検証したい</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hokaccha/articles/a665b7406b9773">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>TypeScript version: v4.3.5
-元々やりたかったのは以下のようなこと。外部入力の文字列を Union Type にマッチするか検証してマッチしなければデフォルト値を返すみたいなやつ。
-
-      
-        
-        const colors &#x3D; [&quot;red&quot;, &quot;blue&quot;, &quot;yellow&quot;] as const;
-type Color &#x3D; typeof colors[number];
-const defaultColor &#x3D; colors[0];
-
-function toColor(color: string): Color {
-  return...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-21T01:01:38.813Z">2021-08-21T01:01:38.813Z</time>
+    <time id="build-timestamp" datetime="2021-08-22T01:02:12.257Z">2021-08-22T01:02:12.257Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

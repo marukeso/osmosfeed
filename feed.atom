@@ -2,10 +2,130 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-21T01:01:38.856Z</updated>
+    <updated>2021-08-22T01:02:12.282Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Neovim builtin LSP設定入門]]></title>
+        <id>https://zenn.dev/nazo6/articles/c2f16b07798bab</id>
+        <link href="https://zenn.dev/nazo6/articles/c2f16b07798bab"/>
+        <updated>2021-08-21T14:33:34.000Z</updated>
+        <summary type="html"><![CDATA[Neovimには組み込みのLSPクライアントがあります。ちょっと前まではVSCode並の開発体験のためにはcocを使うのがベストな選択肢でしたが、neovim builtin lsp(以下nvim-lsp)でもエコシステムが整ってきており、かなりいい感じの支援機能が受けられます。この記事ではその設定などについて書いていこうと思います。
+
+ 環境
+
+Linux (Windowsだと後述のlspinstallというプラグインが使えないのでおすすめできません。LSPを使うこと自体はできます。)
+Neovim 0.5
+Vimscriptは使わずLuaで書きます
+
+
+ 基本的な設定
+
+ 必須プラグ...]]></summary>
+        <author>
+            <name>nz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxtのサードパーティ製Javascriptの読み込む方法を色々試してみた]]></title>
+        <id>https://zenn.dev/sengosha/articles/54ec4c57194626</id>
+        <link href="https://zenn.dev/sengosha/articles/54ec4c57194626"/>
+        <updated>2021-08-21T14:06:58.000Z</updated>
+        <summary type="html"><![CDATA[サードパーティ製Javascriptを読み込ませる方法
+Nuxtにサードパーティ製Javascript(以下外部ライブラリと称します）を読み込む方法は三つあります、headメソッドやnuxt.config.jsでの設定とpluginで読み込ませる方法です。
+今回は開発中に外部ライブラリの導入にあたってheadメソッドとnuxt.config.jsで設定する方法を試していくつかの問題が起きてしまいまして、最後はpluginで読み込ませる方法を選ぶ経緯をまとめました。
+
+ 方法１ headメソッド
+特定なページに外部ライブラリを読み込ませるには一番手軽な方法です。
+こんな感じで書けば外部...]]></summary>
+        <author>
+            <name>ユウ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescriptで計算した結果をGithub Actionsに渡して使用する]]></title>
+        <id>https://zenn.dev/kinjosan/articles/26cff4f92b9453</id>
+        <link href="https://zenn.dev/kinjosan/articles/26cff4f92b9453"/>
+        <updated>2021-08-21T08:25:26.000Z</updated>
+        <summary type="html"><![CDATA[Github Actions 上で Typescript を実行して、その計算内容を Github Actions 上で使用したい時とかありますよね🎅
+
+ TL;DR
+
+Github Actions で Typescript 実行
+@actions/core の setOutput を使用
+
+
+ 例
+毎朝 10 時に aws のコストを取得して、aws のコストはドルなので、円に直して slack に通知
+※細かい取得方法はテーマではないので省略してます
+
+      
+        
+        const awsCost = 100; // ドル
+const rate = 10...]]></summary>
+        <author>
+            <name>kinjo yuya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascriptで数字 → 文字に変換]]></title>
+        <id>https://zenn.dev/kinjosan/articles/04287460d854e4</id>
+        <link href="https://zenn.dev/kinjosan/articles/04287460d854e4"/>
+        <updated>2021-08-21T08:20:08.000Z</updated>
+        <summary type="html"><![CDATA[toStringを使う
+
+      
+        
+        const numToString = (num: number): string => num.toString();
+
+numToString(1234)
+// "1234"
+
+
+      
+      
+ String関数を使用する
+
+      
+        
+        const numToString = (num: number): string => String(num);
+numToString(1234)
+// "1234"
+
+
+      
+      undef...]]></summary>
+        <author>
+            <name>kinjo yuya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UTF-8対応のBase64を自作する]]></title>
+        <id>https://zenn.dev/kota_yata/articles/89b10ac8c93b92</id>
+        <link href="https://zenn.dev/kota_yata/articles/89b10ac8c93b92"/>
+        <updated>2021-08-21T05:29:11.000Z</updated>
+        <summary type="html"><![CDATA[TypeScriptでBase64を自作します。Denoの場合標準ライブラリにBase64が実装されていますので実際に利用する際はそちらを使ってください。
+
+ 完成品
+一応Denoパッケージとしても公開しています。
+https://github.com/kota-yata/ky_base64
+
+ 処理の流れ
+
+ エンコーダー
+Base64エンコードの大まかな流れは、
+
+文字列のバイナリーを6bitsで区切る
+余ったビットは末尾に0を加えて6bitsにする
+予め定められている変換表に対応する文字に変換する
+文字数が4の整数倍に満たない場合は=で埋め合わせる
+
+という、割と単純なアルゴリズム...]]></summary>
+        <author>
+            <name>kota-yata</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vuetify/v-listを縦スクロールできるように]]></title>
         <id>https://zenn.dev/gz/articles/491b324570703a</id>
@@ -3694,166 +3814,6 @@ https://zenn.dev/dl10yr/articles/0e31819e983a28
          git clone -b not-i...]]></summary>
         <author>
             <name>dl10yr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TailwindcssでMaterial UI風のカードデザイン作ってみました]]></title>
-        <id>https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8</id>
-        <link href="https://zenn.dev/yusuke_akiyama/articles/1c786c10a22fa8"/>
-        <updated>2021-07-23T12:23:07.000Z</updated>
-        <summary type="html"><![CDATA[Tailwindcssとは、ユーティリティファーストのCSSフレームワークです。
-https://tailwindcss.com/
-ユーティリティファーストなのでCSS設計など考慮しなくてもいいので、個人的に好きです！
-
- Tailwindcssのカードデザイン
-codepenに残しておいたのでHTMLのコードはそこから拾って使ってみてください。
-
-
- できなかったこと
-
-当然ですがクリック時の「ripple efect」（波紋のアニメーション）の表現ができないのは残念ですね...。
-ボタンを押した後のアクションなどの指定をしたかったのですが、設定ファイルに記述が必要でCDNでは無理そ...]]></summary>
-        <author>
-            <name>Yusuke Akiyama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「NEXTJS / S3 画像アップロード」画像を更新する時にこれやっちゃダメ！]]></title>
-        <id>https://zenn.dev/ihsan/articles/506510db3ba233</id>
-        <link href="https://zenn.dev/ihsan/articles/506510db3ba233"/>
-        <updated>2021-07-23T10:01:09.000Z</updated>
-        <summary type="html"><![CDATA[BEYONDMAGのマガジンサイトに連載と特集機能の画像アップロードを実装したときに、気づいたメモです。
-
-
- 前提🙇🏽‍♂️
-本記事は、コーディングの仕方を教えるよりかは、ベストプラクティスを教えます。
-画像アップロードのコーディングを学びたい人はこの記事を参考にしてください。
-
- 初めに🏁
-
-「画像を更新する時ってどうやるんだろう？」 という疑問持っている人いっぱいいますよね？
-僕もその一人です😅。
-
- 僕が知っている画像の更新方法🙋🏽
-僕が知っている画像の更新方法は二つあります🤔
-
- 1. 同じURLを使用し、画像の中身だけ変える方法
-
-
-つまり画像をS3に同じURLかつ違う画像の...]]></summary>
-        <author>
-            <name>マレーシア人のイサン</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nest.js Version8がリリースされたので新機能についてまとめる : API Versioning編]]></title>
-        <id>https://zenn.dev/sojiro/articles/3d678492f1d94b</id>
-        <link href="https://zenn.dev/sojiro/articles/3d678492f1d94b"/>
-        <updated>2021-07-23T06:52:48.000Z</updated>
-        <summary type="html"><![CDATA[Nest.js Version 8が7月7日にリリース!
-https://trilon.io/blog/announcing-nestjs-8-whats-new
-
- 新機能: API Versioning
-Controller及び各Routesをバージョン管理できるようになりました。
-
- 1.URI Versioning
-URIの中にVersion情報を含める。
-
-      
-        
-        import { VersioningType } from '@nestjs/common';
-
-const app = await NestFactory.create...]]></summary>
-        <author>
-            <name>So Koyama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CamelCase な型と SnakeCase な型の変換]]></title>
-        <id>https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types</id>
-        <link href="https://zenn.dev/ulcttku/articles/conversion-of-camel-case-and-snake-case-types"/>
-        <updated>2021-07-23T04:33:05.000Z</updated>
-        <summary type="html"><![CDATA[TypeScript で、(Lower)CamelCase な型を SnakeCase な型に、SnakeCase な型を(Lower)CamelCase な型に変換する型を作りました。
-具体的には、
-
-      
-        
-        type camelCase = SnakeToCamel<"camel_case">;
-// type camelCase = "camelCase"
-
-type snakeCase = CamelToSnake<"snakeCase">;
-// type snakeCase = "snake_case";
-
-
- ...]]></summary>
-        <author>
-            <name>ulcttku</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VueからGoogle OAuthを使用してログインする]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/0f463859b6b462"/>
-        <updated>2021-07-23T00:19:37.000Z</updated>
-        <summary type="html"><![CDATA[僕の場合はLaravel×Vueを使っており本来であれば、Laravelの方でsocialiteというパッケージを使用してgoogle oauth認証を行うのが一般的なのですが、
-諸事情でVue側でgoogle oauth認証を行いアクセストークンを使用してから、バックエンドにリクエストを送るという方法をしたかったのです。
-そこで今回はvue側でgoogle認証を実装する方法をメモとして残しておきます。
-
- 1-1. Google Cloud Platformにアクセスし、プロジェクトを作成する
-Google Cloud Platformにアクセスしてプロジェクトを作成してください。
-こ...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[prisma と express でつくる REST API]]></title>
-        <id>https://zenn.dev/yamo/articles/prisma-express-rest-api</id>
-        <link href="https://zenn.dev/yamo/articles/prisma-express-rest-api"/>
-        <updated>2021-07-22T16:45:04.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-前から気になっていた Prisma を触ってみました。
-公式ドキュメントを読みながら、練習として Prisma + Express で REST API を作ってみました。
-自分と同じように入門してみたい人の参考になれば幸いです。
-ソースコードはこちらになります。
-https://github.com/yamosan/prisma-rest-api
-
- 環境構築
-
- プロジェクトの作成
-
-      
-        
-        $ npm init -y
-
-
-      
-      
- パッケージのインストール
-必要なパッケージを予めインストールしていきます。
-つ...]]></summary>
-        <author>
-            <name>yamo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript で値が Union Type にマッチするかを検証したい]]></title>
-        <id>https://zenn.dev/hokaccha/articles/a665b7406b9773</id>
-        <link href="https://zenn.dev/hokaccha/articles/a665b7406b9773"/>
-        <updated>2021-07-22T13:58:02.000Z</updated>
-        <summary type="html"><![CDATA[TypeScript version: v4.3.5
-元々やりたかったのは以下のようなこと。外部入力の文字列を Union Type にマッチするか検証してマッチしなければデフォルト値を返すみたいなやつ。
-
-      
-        
-        const colors = ["red", "blue", "yellow"] as const;
-type Color = typeof colors[number];
-const defaultColor = colors[0];
-
-function toColor(color: string): Color {
-  return...]]></summary>
-        <author>
-            <name>hokaccha</name>
         </author>
     </entry>
 </feed>
