@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/takepepe/articles/testing-with-nextjs",
+          "author": "Takepepe",
+          "description": "先日、Next.js で開発するアプリケーションテスト手法について、公式ドキュメントが追加され話題になりました。\nhttps://twitter.com/delba_oliveira/status/1427307677709967362\n取り上げられている 2 者はよく知られており、いずれかに触れたことがある方も多いかと思います。この公式ドキュメントページでは「何を使って」を紹介しているのみなので、どちらを選ぶべきか悩んだ方もいるのではないでしょうか？\n\nCypress\nJest & React Testing Library\n\nこの判断についてはドキュメントに書かれていなかった...",
+          "link": "https://zenn.dev/takepepe/articles/testing-with-nextjs",
+          "publishedOn": "2021-08-22T13:29:53.000Z",
+          "wordCount": 355,
+          "title": "Testing with Next.js",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--6o_elqxP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takepepe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Testing%2520with%2520Next.js%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dpejh1QmdoVHJXUHhiRlRFdm9IVHJ5WDNhRkdmdlJCLUtVVTl6SUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kyo9bo/articles/e02fdaa36fa322",
+          "author": "kyo9bo",
+          "description": "クエリが取得できない\nNextのメリットの一つとしてdynamic routingが挙げられると思います。しかし、paramを取得する際に一点気になる部分が存在します。\n\nPages that are statically optimized by Automatic Static Optimization will be hydrated without their route parameters provided, i.e query will be an empty object ({}).\n\n\nAfter hydration, Next.js will trigger an...",
+          "link": "https://zenn.dev/kyo9bo/articles/e02fdaa36fa322",
+          "publishedOn": "2021-08-22T06:03:00.000Z",
+          "wordCount": 103,
+          "title": "【Next.js】dynamic routingで、paramsがundefinedになる問題解決方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ptVOH9Uu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kyo9bo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E3%2580%2591dynamic%2520routing%25E3%2581%25A7%25E3%2580%2581params%25E3%2581%258Cundefined%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E5%2595%258F%25E9%25A1%258C%25E8%25A7%25A3%25E6%25B1%25BA%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjc5YjJkN2JmNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
+          "author": "空雲",
+          "description": "Next.jsでWeb-Workerを簡単に使うには\n前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です\nしかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません\n機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります\n\n 前回の記事\nNext.jsでWeb-Workerを呼び出す\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker2\nhttps://n...",
+          "link": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
+          "publishedOn": "2021-08-22T04:16:21.000Z",
+          "wordCount": 519,
+          "title": "Next.jsでお手軽にWeb-Workerを呼び出す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--GigYvxg5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2581%25ABWeb-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yknight/articles/f0167dc5b0cceb",
           "author": "y_Knight",
           "description": "フロントエンド環境に実装をしたStorybookに、Sassを導入する\nStorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。\n原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）\nでも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。\n\n 実装リスト\n\ndocker\nNext.js/TypeScript\nSass\nStorybook\njest\nAtomic design\n\n※導入は個人の責任でおねがいします。（...",
@@ -683,20 +725,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/dl10yr/articles/582fd609078cea",
-          "author": "dl10yr",
-          "description": "こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。\nhttps://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp\n\n まずはNext.js × Tailwind.cssの環境構築\n以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。\nhttps://zenn.dev/dl10yr/articles/0e31819e983a28\n\n      \n        \n         git clone -b not-i...",
-          "link": "https://zenn.dev/dl10yr/articles/582fd609078cea",
-          "publishedOn": "2021-07-23T13:53:31.000Z",
-          "wordCount": 299,
-          "title": "Next.js × Tailwind.cssでAMP対応させてみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zK9HZAU_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25C3%2597%2520Tailwind.css%25E3%2581%25A7AMP%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -880,6 +908,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348",
+          "author": "daisuke sasaki",
+          "description": "前回のbackend編からの続きです\nbackend編\n正直、フロント側はさっぱりセンスが無い＋忘れまくってたりしたのでめちゃくちゃ調べ直した。\nあらためて両方できる皆さんすごいわぁ、、（ちなみに僕はバックエンド側もセンスないです）\nfrontend側に入る前に前回やった内容がちょっと半端だったのでまずはそこをサクッと修正してしまおうと思います。\n\n crud.py\n\n      \n        \n        # project/backend/app/api/crud.py\nfrom app.models.pydantic import SummaryPayloadSchem...",
+          "link": "https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348",
+          "publishedOn": "2021-08-22T14:14:08.000Z",
+          "wordCount": 1254,
+          "title": "Docker×FastAPI×React(TypeScript) on AWS ECS【frontend】",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--oBhPaJmk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:daisuke%2520sasaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Docker%25C3%2597FastAPI%25C3%2597React%2528TypeScript%2529%2520on%2520AWS%2520ECS%25E3%2580%2590frontend%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWZiMjI1NmFmZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
+          "author": "空雲",
+          "description": "Next.jsでWeb-Workerを簡単に使うには\n前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です\nしかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません\n機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります\n\n 前回の記事\nNext.jsでWeb-Workerを呼び出す\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker2\nhttps://n...",
+          "link": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
+          "publishedOn": "2021-08-22T04:16:21.000Z",
+          "wordCount": 519,
+          "title": "Next.jsでお手軽にWeb-Workerを呼び出す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--GigYvxg5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2581%25ABWeb-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kinjosan/articles/26cff4f92b9453",
           "author": "kinjo yuya",
@@ -1929,48 +1985,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538",
-          "author": "kawarimidoll",
-          "description": "先日、Deno標準ライブラリのバージョン0.102.0が公開されました。\nhttps://github.com/denoland/deno_std/releases/tag/0.102.0\nこちらで追加されたcollectionsというモジュールを紹介します。\nhttps://deno.land/std@0.102.0/collections\nその名の通り、集合の扱いを支援してくれるモジュールです。\nなお、READMEに載っているサンプルコードは記述にミスがあるのでそのままでは動作しません。\nPRが出ているのでそのうち解決されると思います。\nhttps://github.com/deno...",
-          "link": "https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538",
-          "publishedOn": "2021-07-24T06:54:18.000Z",
-          "wordCount": 808,
-          "title": "Deno標準ライブラリ0.102.0で追加されたcollectionsの紹介",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Mv03ujOO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E6%25A8%2599%25E6%25BA%2596%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA0.102.0%25E3%2581%25A7%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2595%25E3%2582%258C%25E3%2581%259Fcollections%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/mouritania/articles/0ea0412deb4256",
-          "author": "mouritania",
-          "description": "こんにちは。もうりです。\nwebエンジニアとしてフロントエンド(React + Typescript)およびバックエンド(Rails)の開発をしています。\n未経験からエンジニアになって2ヶ月目の振り返りをします。\nぜひ最後まで読んでいただけると嬉しいです。\n1ヶ月目の振り返りは下のリンクから御覧ください。\nhttps://zenn.dev/mouritania/articles/9821ee3457aa10\n\n 今月のトピック\n今月は主にこんなことがありました。\n\nはじめての社外開発\nはじめて触れる技術(React, Typescript, Cypress, ActionMailer.....",
-          "link": "https://zenn.dev/mouritania/articles/0ea0412deb4256",
-          "publishedOn": "2021-07-24T00:32:32.000Z",
-          "wordCount": 80,
-          "title": "エンジニア1年生、2ヶ月目の振り返り",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qTI9p-dM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mouritania%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A21%25E5%25B9%25B4%25E7%2594%259F%25E3%2580%25812%25E3%2583%25B6%25E6%259C%2588%25E7%259B%25AE%25E3%2581%25AE%25E6%258C%25AF%25E3%2582%258A%25E8%25BF%2594%25E3%2582%258A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOThiMmMzMDE1Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dl10yr/articles/582fd609078cea",
-          "author": "dl10yr",
-          "description": "こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。\nhttps://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp\n\n まずはNext.js × Tailwind.cssの環境構築\n以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。\nhttps://zenn.dev/dl10yr/articles/0e31819e983a28\n\n      \n        \n         git clone -b not-i...",
-          "link": "https://zenn.dev/dl10yr/articles/582fd609078cea",
-          "publishedOn": "2021-07-23T13:53:31.000Z",
-          "wordCount": 299,
-          "title": "Next.js × Tailwind.cssでAMP対応させてみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--zK9HZAU_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25C3%2597%2520Tailwind.css%25E3%2581%25A7AMP%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2084,6 +2098,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609",
+          "author": "おしうみなおき",
+          "description": "複数の画像を一度にアップロードしたい場合があると思います。\nLaravel×Vue.jsで実際に試してみたので、メモがてら残しておきたいと思います。\nまずは、画像をアップロードするところのHTMLです\n\n      \n        \n        <template>\n  <div v-for=\"(file, index) in files\">\n    <label>ファイルを選択する</label>\n    <input type=\"file\" @change=\"onFileChange($event, file, index)...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609",
+          "publishedOn": "2021-08-22T23:45:51.000Z",
+          "wordCount": 135,
+          "title": "Vue.jsから複数の画像をLaravelに送り保存する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--_ZtBkSnn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue.js%25E3%2581%258B%25E3%2582%2589%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592Laravel%25E3%2581%25AB%25E9%2580%2581%25E3%2582%258A%25E4%25BF%259D%25E5%25AD%2598%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/gz/articles/491b324570703a",
           "author": "walking_on_ice",
@@ -2458,20 +2486,6 @@
           "title": "東京フレンドパーク風ブロックゲームをVue.jsで作った話",
           "enclosure": {
             "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--skQgtiNE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Century%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%259D%25B1%25E4%25BA%25AC%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2589%25E3%2583%2591%25E3%2583%25BC%25E3%2582%25AF%25E9%25A2%25A8%25E3%2583%2596%25E3%2583%25AD%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592Vue.js%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTc4MTFjODcxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sakots/articles/fb6529ee401fd3",
-          "author": "sakots",
-          "description": "やあ、さこつです。\nこれは最初の記事だよ！　お手柔らかに。\n\n 今作ってるやつ\n\nこのお絵かき掲示板はSQLiteとさらにBladeを（以下略\nGithub\n\nphpとBladeでつくったお絵描き掲示板です。データベースにSQLiteを使用。\n\n なぜまた新しく作るのか\n\n 新技術のへの渇望\nとにかくいろいろできたほうが仕事が多い。んで、ReactとVueでどっちからやるか比べてたんですけども、どうもJSXに慣れるまで時間がかかりそうだったのでVueから勉強することに決定。\n\n というわけで\nGithubにページだけ作りました。こんごともよろしく。\nveita\n\nにゃー",
-          "link": "https://zenn.dev/sakots/articles/fb6529ee401fd3",
-          "publishedOn": "2021-07-23T17:48:15.000Z",
-          "wordCount": 22,
-          "title": "Vue3で掲示板（BBS）を作ろうという試み",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--qZdiimEB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sakots%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue3%25E3%2581%25A7%25E6%258E%25B2%25E7%25A4%25BA%25E6%259D%25BF%25EF%25BC%2588BBS%25EF%25BC%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2584%25E3%2581%2586%25E8%25A9%25A6%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lXQ3MycUNwUnFXdFJNZFFmRC1jR0ROSUVVVHpqZGJQWmdwUkxldHc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }

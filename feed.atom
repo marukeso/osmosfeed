@@ -2,10 +2,123 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-22T01:02:12.282Z</updated>
+    <updated>2021-08-23T00:58:39.670Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vue.jsから複数の画像をLaravelに送り保存する]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609"/>
+        <updated>2021-08-22T23:45:51.000Z</updated>
+        <summary type="html"><![CDATA[複数の画像を一度にアップロードしたい場合があると思います。
+Laravel×Vue.jsで実際に試してみたので、メモがてら残しておきたいと思います。
+まずは、画像をアップロードするところのHTMLです
+
+      
+        
+        <template>
+  <div v-for="(file, index) in files">
+    <label>ファイルを選択する</label>
+    <input type="file" @change="onFileChange($event, file, index)...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker×FastAPI×React(TypeScript) on AWS ECS【frontend】]]></title>
+        <id>https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348</id>
+        <link href="https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348"/>
+        <updated>2021-08-22T14:14:08.000Z</updated>
+        <summary type="html"><![CDATA[前回のbackend編からの続きです
+backend編
+正直、フロント側はさっぱりセンスが無い＋忘れまくってたりしたのでめちゃくちゃ調べ直した。
+あらためて両方できる皆さんすごいわぁ、、（ちなみに僕はバックエンド側もセンスないです）
+frontend側に入る前に前回やった内容がちょっと半端だったのでまずはそこをサクッと修正してしまおうと思います。
+
+ crud.py
+
+      
+        
+        # project/backend/app/api/crud.py
+from app.models.pydantic import SummaryPayloadSchem...]]></summary>
+        <author>
+            <name>daisuke sasaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Testing with Next.js]]></title>
+        <id>https://zenn.dev/takepepe/articles/testing-with-nextjs</id>
+        <link href="https://zenn.dev/takepepe/articles/testing-with-nextjs"/>
+        <updated>2021-08-22T13:29:53.000Z</updated>
+        <summary type="html"><![CDATA[先日、Next.js で開発するアプリケーションテスト手法について、公式ドキュメントが追加され話題になりました。
+https://twitter.com/delba_oliveira/status/1427307677709967362
+取り上げられている 2 者はよく知られており、いずれかに触れたことがある方も多いかと思います。この公式ドキュメントページでは「何を使って」を紹介しているのみなので、どちらを選ぶべきか悩んだ方もいるのではないでしょうか？
+
+Cypress
+Jest & React Testing Library
+
+この判断についてはドキュメントに書かれていなかった...]]></summary>
+        <author>
+            <name>Takepepe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】dynamic routingで、paramsがundefinedになる問題解決方法]]></title>
+        <id>https://zenn.dev/kyo9bo/articles/e02fdaa36fa322</id>
+        <link href="https://zenn.dev/kyo9bo/articles/e02fdaa36fa322"/>
+        <updated>2021-08-22T06:03:00.000Z</updated>
+        <summary type="html"><![CDATA[クエリが取得できない
+Nextのメリットの一つとしてdynamic routingが挙げられると思います。しかし、paramを取得する際に一点気になる部分が存在します。
+
+Pages that are statically optimized by Automatic Static Optimization will be hydrated without their route parameters provided, i.e query will be an empty object ({}).
+
+
+After hydration, Next.js will trigger an...]]></summary>
+        <author>
+            <name>kyo9bo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでお手軽にWeb-Workerを呼び出す]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/bb10104c12080e</id>
+        <link href="https://zenn.dev/sora_kumo/articles/bb10104c12080e"/>
+        <updated>2021-08-22T04:16:21.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsでWeb-Workerを簡単に使うには
+前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です
+しかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません
+機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります
+
+ 前回の記事
+Next.jsでWeb-Workerを呼び出す
+
+ サンプル置き場
+https://github.com/SoraKumo001/next-worker2
+https://n...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでお手軽にWeb-Workerを呼び出す]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/bb10104c12080e</id>
+        <link href="https://zenn.dev/sora_kumo/articles/bb10104c12080e"/>
+        <updated>2021-08-22T04:16:21.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsでWeb-Workerを簡単に使うには
+前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です
+しかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません
+機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります
+
+ 前回の記事
+Next.jsでWeb-Workerを呼び出す
+
+ サンプル置き場
+https://github.com/SoraKumo001/next-worker2
+https://n...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Neovim builtin LSP設定入門]]></title>
         <id>https://zenn.dev/nazo6/articles/c2f16b07798bab</id>
@@ -3709,111 +3822,6 @@ https://blog.35d.jp/2020-05-23-notion-blog-1
 Notion Blog とは、Notion（バックエンド）で作...]]></summary>
         <author>
             <name>だむは</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deno標準ライブラリ0.102.0で追加されたcollectionsの紹介]]></title>
-        <id>https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538</id>
-        <link href="https://zenn.dev/kawarimidoll/articles/7d1fc9f0fb6538"/>
-        <updated>2021-07-24T06:54:18.000Z</updated>
-        <summary type="html"><![CDATA[先日、Deno標準ライブラリのバージョン0.102.0が公開されました。
-https://github.com/denoland/deno_std/releases/tag/0.102.0
-こちらで追加されたcollectionsというモジュールを紹介します。
-https://deno.land/std@0.102.0/collections
-その名の通り、集合の扱いを支援してくれるモジュールです。
-なお、READMEに載っているサンプルコードは記述にミスがあるのでそのままでは動作しません。
-PRが出ているのでそのうち解決されると思います。
-https://github.com/deno...]]></summary>
-        <author>
-            <name>kawarimidoll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エンジニア1年生、2ヶ月目の振り返り]]></title>
-        <id>https://zenn.dev/mouritania/articles/0ea0412deb4256</id>
-        <link href="https://zenn.dev/mouritania/articles/0ea0412deb4256"/>
-        <updated>2021-07-24T00:32:32.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。もうりです。
-webエンジニアとしてフロントエンド(React + Typescript)およびバックエンド(Rails)の開発をしています。
-未経験からエンジニアになって2ヶ月目の振り返りをします。
-ぜひ最後まで読んでいただけると嬉しいです。
-1ヶ月目の振り返りは下のリンクから御覧ください。
-https://zenn.dev/mouritania/articles/9821ee3457aa10
-
- 今月のトピック
-今月は主にこんなことがありました。
-
-はじめての社外開発
-はじめて触れる技術(React, Typescript, Cypress, ActionMailer.....]]></summary>
-        <author>
-            <name>mouritania</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue3で掲示板（BBS）を作ろうという試み]]></title>
-        <id>https://zenn.dev/sakots/articles/fb6529ee401fd3</id>
-        <link href="https://zenn.dev/sakots/articles/fb6529ee401fd3"/>
-        <updated>2021-07-23T17:48:15.000Z</updated>
-        <summary type="html"><![CDATA[やあ、さこつです。
-これは最初の記事だよ！　お手柔らかに。
-
- 今作ってるやつ
-
-このお絵かき掲示板はSQLiteとさらにBladeを（以下略
-Github
-
-phpとBladeでつくったお絵描き掲示板です。データベースにSQLiteを使用。
-
- なぜまた新しく作るのか
-
- 新技術のへの渇望
-とにかくいろいろできたほうが仕事が多い。んで、ReactとVueでどっちからやるか比べてたんですけども、どうもJSXに慣れるまで時間がかかりそうだったのでVueから勉強することに決定。
-
- というわけで
-Githubにページだけ作りました。こんごともよろしく。
-veita
-
-にゃー]]></summary>
-        <author>
-            <name>sakots</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js × Tailwind.cssでAMP対応させてみる]]></title>
-        <id>https://zenn.dev/dl10yr/articles/582fd609078cea</id>
-        <link href="https://zenn.dev/dl10yr/articles/582fd609078cea"/>
-        <updated>2021-07-23T13:53:31.000Z</updated>
-        <summary type="html"><![CDATA[こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。
-https://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp
-
- まずはNext.js × Tailwind.cssの環境構築
-以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。
-https://zenn.dev/dl10yr/articles/0e31819e983a28
-
-      
-        
-         git clone -b not-i...]]></summary>
-        <author>
-            <name>dl10yr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js × Tailwind.cssでAMP対応させてみる]]></title>
-        <id>https://zenn.dev/dl10yr/articles/582fd609078cea</id>
-        <link href="https://zenn.dev/dl10yr/articles/582fd609078cea"/>
-        <updated>2021-07-23T13:53:31.000Z</updated>
-        <summary type="html"><![CDATA[こちらを参考にさせていただきながら（なぞりながら）やってみました。詳しい解説はこちらの方が良いです。
-https://sunday-morning.app/posts/2020-12-25-next-js-10-tailwind-2-hybrid-amp
-
- まずはNext.js × Tailwind.cssの環境構築
-以前自分が作ったコマンドを調整して（storybookを外して）環境構築を行いました。
-https://zenn.dev/dl10yr/articles/0e31819e983a28
-
-      
-        
-         git clone -b not-i...]]></summary>
-        <author>
-            <name>dl10yr</name>
         </author>
     </entry>
 </feed>
