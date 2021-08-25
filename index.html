@@ -77,6 +77,101 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-24">2021-08-24</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js で動的/静的ルーティングのサイトマップを生成する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/soberhiko/articles/aed491ed167bad">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>概要
+Next.js のアプリケーションで、CMS などから取得したコンテンツによって動的に生成される URL と、静的な URL の両方がある場合に、サイトマップをどのように自動生成させるかについての記事です。
+Zenn に投稿されている記事など、先行事例も見られますが、以下の要件を満たすサイトマップの生成方法については見当たらなかったため、その共有を目的としています。
+
+対象 URL は Next.js の動的/静的ルーティングの両方を含む
+
+動的 URL のページはコンテンツ追加のタイミングでビルドが走らない
+
+
+サイトマップファイルはいくつかに分割し、インデックスファイルも生...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">アトミックデザインにおけるコンポーネントのAuto importの問題について色々と調査した件</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sengosha/articles/95f3ec0d62fba8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Nuxt2.15.x以降のコンポーネントimportに関して
+
+
+@nuxt/components はバージョン 2 が使えるようになります
+コンポーネント名にディレクトリ名を付与したタグを使うことができるようになり、コンポーネントの import や宣言などの記述を省略することができます (記述の省略は 2.14 でも可能でしたが 2.15 で先の記述の使用が可能となりました)
+
+
+ ディレクト名付きのコンポーネント名
+例えば下記のフォルダー構造
+
+      
+        
+        | components/
+---| my/
+------| form/
+------...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">RailsでHelloVue3!!!</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/newburu/articles/7efb9d9f0658a8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>前回は、「rails new」のオプションでVueをインストールしました。
+https://zenn.dev/newburu/articles/e21629af475d69
+が・・・Vue2になるようで、Vue3を使うためには、手動でVue3のインストールが必要とのことでした。
+という事で、やり直します！！
+
+ rails newでWebアプリケーションを作成
+前回同様、まずは「rails new」します。
+
+      
+        
+        $ rails new -d mysql hello-vue3
+$ rails db:create
+$ rails s
+
+
+    ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-23">2021-08-23</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -115,6 +210,22 @@ postcss.config...</span>
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">OAS使ってなるべく楽にNuxtのテスト</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/okoha/articles/1f909a3af0ee0244fe40">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>はじめに
+composition apiの登場でVueもようやくテストしやすい感じになってきました。
+とはいえ実際AJAXが絡んだコンポーネントのテストをやろうとするとあれをモックしてこれもモックしてとなんだかんだ大量のモッキングが必要になって色々めんどくさい感じになりがちですし、ほとんどモックされてて実際のところどこがテストできてるのかわけがわからない感じになりがちです。
+前回の記事ではOASを利用することでスタブサーバーが用意できることを紹介しました。
+この記事ではそのスタブサーバーを利用して、フロントで再現性のあるAJAXテストを簡単に行える方法がないか模索してみます。
+スタブ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">GraphQL で N+1 問題を解決する 4 つのアプローチ</summary>
@@ -247,6 +358,21 @@ DBもMySQLを使うので、-d mysqlも一緒に指定します。※--database&
       
         
         rails db:creat...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue.jsをかじる本</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Vue.jsの導入からBMI計算機やTODOアプリの作り方までの手順をまとめていきます。
+この本を読むにあたり、下記の2点について経験がありますと、より理解しやすい内容と思います。
+
+1. HTMLとCSSを使った事がある方
+2. JavaScriptをそれなりに使った事がある方</span>
                   </div>
                 </a>
               </details>
@@ -4542,52 +4668,6 @@ https://hasura.io/docs/latest/graphql/cloud/projects/create.html
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&amp;1人でNext.jsに置き換えた話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuku/articles/a9edd53e13bb26">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。
-まだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。
-
-詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。
-
-
-Next.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&amp;1人でNext.jsに置き換えた話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuku/articles/a9edd53e13bb26">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。
-まだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。
-
-詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。
-
-
-Next.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -4623,174 +4703,13 @@ Prismaで複数のデータベースを同時に扱うには、Schemaを複数�
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">esa を CMS に VuePress v2 で管理しやすいドキュメントサイトを作る</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryo_kawamata/articles/4bf52f97165058">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>esa を CMS に VuePress v2 でサイトを作る機会があったので紹介します。
-
- 🛠 何を作った？
-こちらのツイートで紹介されている LAPRAS 組織ハンドブックというサイトの基盤を esa  と VuePress v2 で作りました。
-https://twitter.com/320KZCD/status/1417679812114616321
-
- 👨‍💻 システム構成
-基本構成はこちらです。
-
-esa の GitHub Webhook (β) を使い、esa 上の特定のディレクトリ配下に記事を追加したとき、Webhook で指定した GitHub リポジトリの特定のディ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&amp;1人でNext.jsに置き換えた話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuku/articles/a9edd53e13bb26">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。
-まだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。
-
-詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。
-
-
-Next.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">esa を CMS に VuePress v2 で管理しやすいドキュメントサイトを作る</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryo_kawamata/articles/4bf52f97165058">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>esa を CMS に VuePress v2 でサイトを作る機会があったので紹介します。
-
- 🛠 何を作った？
-こちらのツイートで紹介されている LAPRAS 組織ハンドブックというサイトの基盤を esa  と VuePress v2 で作りました。
-https://twitter.com/320KZCD/status/1417679812114616321
-
- 👨‍💻 システム構成
-基本構成はこちらです。
-
-esa の GitHub Webhook (β) を使い、esa 上の特定のディレクトリ配下に記事を追加したとき、Webhook で指定した GitHub リポジトリの特定のディ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-25">2021-07-25</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsで複数ツイートを埋め込みたい</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mktbsh/articles/376f4558bca196">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>CatNoseさんのJSでツイートを埋め込むときのベストプラクティスの記事を参考に複数ツイート読み込みを実現しようとしていました。
-
- 上記の記事からの変更点
-基本はCatNoseさんの記事にまとまってるので、どのように変更したかだけ記載します。
-（とりあえず、動くようにしただけなのでパフォーマンス最適化されてるか否かは未計測です...！）
-
-スニペットは利用せず、widgets.jsを読み込むように変更
-useEffectの利用をやめました
-next/scriptのScriptコンポーネントを使うようにしました
-
-というわけでこうなった。
-
- 実装
-
-      
-         p...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React Hooksのライブラリ開発(web向け)をしたい人のためのテンプレート</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/qsf/articles/247315832ac599">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>TL; DR
-https://github.com/Qs-F/hookskit
-React HooksのCustom Hooksをnpmのライブラリとして切り出して開発したい人用のGitHub Repository Templateです．スターもらえるとめっちゃ喜びます．
-対応してるもの
-
-TypeScript (.ts, .tsx)
-React v17+ (jsxの変換の都合上)
-Jestでのunit test
-その他諸々 (下記参照)
-
-
- 概要
-Reactを触ったことのある方なら，Hooksはご存知だと思います．
-一応めちゃくちゃざっくりとした解説をいれておくと，useXXX ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vue側でlaravelのenvファイルの値を使用する方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/0b8e8b7863b4f2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Vueのファイルの方で.envの値を使いたいことがあったので調べて実装してみました。
-
- 手順1. .envにMIX_という接頭辞を付けて環境設定を設定する
-例えば APP_ENVの値をvue側で使いたい場合、 MIX_APP_ENV という風に MIX」 というprefixをつけて.envに登録します。
-
-      
-        
-        APP_ENV&#x3D;local
-MIX_APP_ENV&#x3D;&quot;${APP_ENV}&quot;
-
-
-      
-      
- 手順2. ローカルサーバーを立ち上げなおし、再コンパイルする
-僕はこれをしていなかったので、なかなか値が反映されずしばらく困...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-24T01:01:57.557Z">2021-08-24T01:01:57.557Z</time>
+    <time id="build-timestamp" datetime="2021-08-25T01:02:29.561Z">2021-08-25T01:02:29.561Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

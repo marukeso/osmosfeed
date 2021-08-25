@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/soberhiko/articles/aed491ed167bad",
+          "author": "eyama",
+          "description": "概要\nNext.js のアプリケーションで、CMS などから取得したコンテンツによって動的に生成される URL と、静的な URL の両方がある場合に、サイトマップをどのように自動生成させるかについての記事です。\nZenn に投稿されている記事など、先行事例も見られますが、以下の要件を満たすサイトマップの生成方法については見当たらなかったため、その共有を目的としています。\n\n対象 URL は Next.js の動的/静的ルーティングの両方を含む\n\n動的 URL のページはコンテンツ追加のタイミングでビルドが走らない\n\n\nサイトマップファイルはいくつかに分割し、インデックスファイルも生...",
+          "link": "https://zenn.dev/soberhiko/articles/aed491ed167bad",
+          "publishedOn": "2021-08-24T05:47:46.000Z",
+          "wordCount": 524,
+          "title": "Next.js で動的/静的ルーティングのサイトマップを生成する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Em8s-QYB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eyama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25A7%25E5%258B%2595%25E7%259A%2584%252F%25E9%259D%2599%25E7%259A%2584%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2583%259E%25E3%2583%2583%25E3%2583%2597%25E3%2582%2592%25E7%2594%259F%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDIyMGM3YmU0MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/shimotaroo/articles/c8f2e751cd7877",
           "author": "ゆーたろー",
           "description": "概要\n以下の記事でNext.jsにESlint（JSのコードが正しいか検証してくれるツール）を導入した時に\n\n      \n        \n        Parsing error: Cannot find module 'next/babel'\n\n\n      \n      が出たので解決方法を残しておきます。\nhttps://fwywd.com/tech/next-eslint-prettier\n上記エラー出力が確認できたのは以下のファイル（Tailwind CSSを導入済み）\n\nnext.config.js\ntailwind.config.js\npostcss.config...",
@@ -655,34 +669,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
-          "author": "Yuku Kotani",
-          "description": "Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。\nまだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。\n\n詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。\n\n\nNext.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...",
-          "link": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
-          "publishedOn": "2021-07-26T10:08:53.000Z",
-          "wordCount": 312,
-          "title": "150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&1人でNext.jsに置き換えた話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DH5GJ0ks--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuku%2520Kotani%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:150%25E4%25B8%2587MAU%25E3%2581%25AENuxt.js%25E8%25A3%25BD%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2582%2592%25E6%25A9%259F%25E8%2583%25BD%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2581%259A%25E3%2581%25AB1%25E3%2583%25B6%25E6%259C%2588%25261%25E4%25BA%25BA%25E3%2581%25A7Next.js%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEQVVDNDRXNTlSbWgyMjVIR2ZycENZQmRlNUJNZ0VCaDl3TGY0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/mktbsh/articles/376f4558bca196",
-          "author": "mktbsh",
-          "description": "CatNoseさんのJSでツイートを埋め込むときのベストプラクティスの記事を参考に複数ツイート読み込みを実現しようとしていました。\n\n 上記の記事からの変更点\n基本はCatNoseさんの記事にまとまってるので、どのように変更したかだけ記載します。\n（とりあえず、動くようにしただけなのでパフォーマンス最適化されてるか否かは未計測です...！）\n\nスニペットは利用せず、widgets.jsを読み込むように変更\nuseEffectの利用をやめました\nnext/scriptのScriptコンポーネントを使うようにしました\n\nというわけでこうなった。\n\n 実装\n\n      \n         p...",
-          "link": "https://zenn.dev/mktbsh/articles/376f4558bca196",
-          "publishedOn": "2021-07-25T15:03:00.000Z",
-          "wordCount": 118,
-          "title": "Next.jsで複数ツイートを埋め込みたい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--HEbxR5bc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mktbsh%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%25E3%2583%2584%25E3%2582%25A4%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E5%259F%258B%25E3%2582%2581%25E8%25BE%25BC%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWY0MTVhNDA1OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -691,6 +677,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/sengosha/articles/95f3ec0d62fba8",
+          "author": "ユウ",
+          "description": "Nuxt2.15.x以降のコンポーネントimportに関して\n\n\n@nuxt/components はバージョン 2 が使えるようになります\nコンポーネント名にディレクトリ名を付与したタグを使うことができるようになり、コンポーネントの import や宣言などの記述を省略することができます (記述の省略は 2.14 でも可能でしたが 2.15 で先の記述の使用が可能となりました)\n\n\n ディレクト名付きのコンポーネント名\n例えば下記のフォルダー構造\n\n      \n        \n        | components/\n---| my/\n------| form/\n------...",
+          "link": "https://zenn.dev/sengosha/articles/95f3ec0d62fba8",
+          "publishedOn": "2021-08-24T08:37:01.000Z",
+          "wordCount": 223,
+          "title": "アトミックデザインにおけるコンポーネントのAuto importの問題について色々と調査した件",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LfcdNoL3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A6%25E3%2582%25A6%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2582%25A2%25E3%2583%2588%25E3%2583%259F%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AEAuto%2520import%25E3%2581%25AE%25E5%2595%258F%25E9%25A1%258C%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%25E8%2589%25B2%25E3%2580%2585%25E3%2581%25A8%25E8%25AA%25BF%25E6%259F%25BB%25E3%2581%2597%25E3%2581%259F%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sengosha/articles/54ec4c57194626",
           "author": "ユウ",
@@ -830,20 +830,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
-          "author": "Yuku Kotani",
-          "description": "Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。\nまだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。\n\n詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。\n\n\nNext.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...",
-          "link": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
-          "publishedOn": "2021-07-26T10:08:53.000Z",
-          "wordCount": 312,
-          "title": "150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&1人でNext.jsに置き換えた話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DH5GJ0ks--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuku%2520Kotani%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:150%25E4%25B8%2587MAU%25E3%2581%25AENuxt.js%25E8%25A3%25BD%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2582%2592%25E6%25A9%259F%25E8%2583%25BD%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2581%259A%25E3%2581%25AB1%25E3%2583%25B6%25E6%259C%2588%25261%25E4%25BA%25BA%25E3%2581%25A7Next.js%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEQVVDNDRXNTlSbWgyMjVIR2ZycENZQmRlNUJNZ0VCaDl3TGY0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -852,6 +838,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/okoha/articles/1f909a3af0ee0244fe40",
+          "author": "夕暮おこは",
+          "description": "はじめに\ncomposition apiの登場でVueもようやくテストしやすい感じになってきました。\nとはいえ実際AJAXが絡んだコンポーネントのテストをやろうとするとあれをモックしてこれもモックしてとなんだかんだ大量のモッキングが必要になって色々めんどくさい感じになりがちですし、ほとんどモックされてて実際のところどこがテストできてるのかわけがわからない感じになりがちです。\n前回の記事ではOASを利用することでスタブサーバーが用意できることを紹介しました。\nこの記事ではそのスタブサーバーを利用して、フロントで再現性のあるAJAXテストを簡単に行える方法がないか模索してみます。\nスタブ...",
+          "link": "https://zenn.dev/okoha/articles/1f909a3af0ee0244fe40",
+          "publishedOn": "2021-08-23T17:12:50.000Z",
+          "wordCount": 777,
+          "title": "OAS使ってなるべく楽にNuxtのテスト",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BrPMlQCA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%25A4%2595%25E6%259A%25AE%25E3%2581%258A%25E3%2581%2593%25E3%2581%25AF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:OAS%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25AA%25E3%2582%258B%25E3%2581%25B9%25E3%2581%258F%25E6%25A5%25BD%25E3%2581%25ABNuxt%25E3%2581%25AE%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTE0MjdiMjZmMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/alea12/articles/15d73282c3aacc",
           "author": "alea12",
@@ -1887,34 +1887,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/ryo_kawamata/articles/4bf52f97165058",
-          "author": "ryo_kawamata",
-          "description": "esa を CMS に VuePress v2 でサイトを作る機会があったので紹介します。\n\n 🛠 何を作った？\nこちらのツイートで紹介されている LAPRAS 組織ハンドブックというサイトの基盤を esa  と VuePress v2 で作りました。\nhttps://twitter.com/320KZCD/status/1417679812114616321\n\n 👨‍💻 システム構成\n基本構成はこちらです。\n\nesa の GitHub Webhook (β) を使い、esa 上の特定のディレクトリ配下に記事を追加したとき、Webhook で指定した GitHub リポジトリの特定のディ...",
-          "link": "https://zenn.dev/ryo_kawamata/articles/4bf52f97165058",
-          "publishedOn": "2021-07-26T03:52:40.000Z",
-          "wordCount": 726,
-          "title": "esa を CMS に VuePress v2 で管理しやすいドキュメントサイトを作る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--CgZCL2y2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:esa%2520%25E3%2582%2592%2520CMS%2520%25E3%2581%25AB%2520VuePress%2520v2%2520%25E3%2581%25A7%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%2597%25E3%2582%2584%25E3%2581%2599%25E3%2581%2584%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/qsf/articles/247315832ac599",
-          "author": "たふみ",
-          "description": "TL; DR\nhttps://github.com/Qs-F/hookskit\nReact HooksのCustom Hooksをnpmのライブラリとして切り出して開発したい人用のGitHub Repository Templateです．スターもらえるとめっちゃ喜びます．\n対応してるもの\n\nTypeScript (.ts, .tsx)\nReact v17+ (jsxの変換の都合上)\nJestでのunit test\nその他諸々 (下記参照)\n\n\n 概要\nReactを触ったことのある方なら，Hooksはご存知だと思います．\n一応めちゃくちゃざっくりとした解説をいれておくと，useXXX ...",
-          "link": "https://zenn.dev/qsf/articles/247315832ac599",
-          "publishedOn": "2021-07-25T17:52:43.000Z",
-          "wordCount": 183,
-          "title": "React Hooksのライブラリ開発(web向け)をしたい人のためのテンプレート",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--0m9nVnhi--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%259F%25E3%2581%25B5%25E3%2581%25BF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%2520Hooks%25E3%2581%25AE%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E9%2596%258B%25E7%2599%25BA%2528web%25E5%2590%2591%25E3%2581%2591%2529%25E3%2582%2592%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%25E4%25BA%25BA%25E3%2581%25AE%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g4ZUl0bk9kaXNIRnpLdjB4VG4wc2E0endabi1IZDZCWWowTHNMUkg0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2043,6 +2015,20 @@
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
         {
+          "id": "https://zenn.dev/newburu/articles/7efb9d9f0658a8",
+          "author": "にゅ〜ぶる",
+          "description": "前回は、「rails new」のオプションでVueをインストールしました。\nhttps://zenn.dev/newburu/articles/e21629af475d69\nが・・・Vue2になるようで、Vue3を使うためには、手動でVue3のインストールが必要とのことでした。\nという事で、やり直します！！\n\n rails newでWebアプリケーションを作成\n前回同様、まずは「rails new」します。\n\n      \n        \n        $ rails new -d mysql hello-vue3\n$ rails db:create\n$ rails s\n\n\n    ...",
+          "link": "https://zenn.dev/newburu/articles/7efb9d9f0658a8",
+          "publishedOn": "2021-08-24T13:54:05.000Z",
+          "wordCount": 176,
+          "title": "RailsでHelloVue3!!!",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ELpypaBV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2582%2585%25E3%2580%259C%25E3%2581%25B6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Rails%25E3%2581%25A7HelloVue3%2521%2521%2521%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lTZVE3RGdOWUEyQ0hQWUFJalp1dGpxSHJIVHhTTjVoMVhZQWN4a3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/nappa/articles/e201780237a81e",
           "author": "nappa",
           "description": "はじめに\n副業の開発で、決済システムに PAY.JP を導入することになり、クライアント向けのライブラリとして、カスタマイズがしやすい Payjp.js を使うことになった。\nしかし、副業の開発では Nuxt を使っており、良い感じに連携するドキュメントがなかったため、メモ代わりに残しておく。\n\n 使っている技術\n\nNuxt 2.15.3\n\nuniversal(ssr) モードを使用\n\n\n\n\n Payjp.js を読み込む\nPayjp.js は script タグで読み込ませるので nuxt.config.js に設定を追加する必要がある。\n下記の設定を追加して、<head&g...",
@@ -2066,6 +2052,20 @@
           "title": "Rails+VueでHello Vue！まで",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--1dN1a8ee--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2582%2585%25E3%2580%259C%25E3%2581%25B6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Rails%252BVue%25E3%2581%25A7Hello%2520Vue%25EF%25BC%2581%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lTZVE3RGdOWUEyQ0hQWUFJalp1dGpxSHJIVHhTTjVoMVhZQWN4a3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc",
+          "author": "しめじ",
+          "description": "Vue.jsの導入からBMI計算機やTODOアプリの作り方までの手順をまとめていきます。\nこの本を読むにあたり、下記の2点について経験がありますと、より理解しやすい内容と思います。\n\n1. HTMLとCSSを使った事がある方\n2. JavaScriptをそれなりに使った事がある方",
+          "link": "https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc",
+          "publishedOn": "2021-08-23T12:15:53.000Z",
+          "wordCount": 14,
+          "title": "Vue.jsをかじる本",
+          "enclosure": {
+            "url": "https://zenn.dev/images/logo-only-dark.png",
             "length": "0",
             "type": "image/png"
           }
@@ -2444,48 +2444,6 @@
           "title": "Nuxt x Composition API x Hasura x TypeScriptを実装する",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--0D0rDbAG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%2520x%2520Composition%2520API%2520x%2520Hasura%2520x%2520TypeScript%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
-          "author": "Yuku Kotani",
-          "description": "Nuxt.js で開発されていたAI受診相談ユビーのフロントエンドを Next.js で作り直しました。\nまだまだ仮説検証を繰り返すフェーズのスタートアップのため、機能開発を止めて一気に置き換えることはできず、機能ごとに少しずつ置き換えてリリースをしました。結果、5人のプロダクト開発チームによる機能開発と並走して、全体の移行を1人で1ヶ月の短期間で終わらせることができたので、その意思決定や過程、工夫を紹介します。\n\n詳細な設計を話すと長くなるため別の機会として、この記事では移行についてのみ書きます。\n\n\nNext.js と Nuxt.js が似ていて読みにくいので、区別のために Nuxt...",
-          "link": "https://zenn.dev/yuku/articles/a9edd53e13bb26",
-          "publishedOn": "2021-07-26T10:08:53.000Z",
-          "wordCount": 312,
-          "title": "150万MAUのNuxt.js製サービスを機能開発を止めずに1ヶ月&1人でNext.jsに置き換えた話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--DH5GJ0ks--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuku%2520Kotani%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:150%25E4%25B8%2587MAU%25E3%2581%25AENuxt.js%25E8%25A3%25BD%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2582%2592%25E6%25A9%259F%25E8%2583%25BD%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2581%259A%25E3%2581%25AB1%25E3%2583%25B6%25E6%259C%2588%25261%25E4%25BA%25BA%25E3%2581%25A7Next.js%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEQVVDNDRXNTlSbWgyMjVIR2ZycENZQmRlNUJNZ0VCaDl3TGY0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ryo_kawamata/articles/4bf52f97165058",
-          "author": "ryo_kawamata",
-          "description": "esa を CMS に VuePress v2 でサイトを作る機会があったので紹介します。\n\n 🛠 何を作った？\nこちらのツイートで紹介されている LAPRAS 組織ハンドブックというサイトの基盤を esa  と VuePress v2 で作りました。\nhttps://twitter.com/320KZCD/status/1417679812114616321\n\n 👨‍💻 システム構成\n基本構成はこちらです。\n\nesa の GitHub Webhook (β) を使い、esa 上の特定のディレクトリ配下に記事を追加したとき、Webhook で指定した GitHub リポジトリの特定のディ...",
-          "link": "https://zenn.dev/ryo_kawamata/articles/4bf52f97165058",
-          "publishedOn": "2021-07-26T03:52:40.000Z",
-          "wordCount": 726,
-          "title": "esa を CMS に VuePress v2 で管理しやすいドキュメントサイトを作る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--CgZCL2y2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:esa%2520%25E3%2582%2592%2520CMS%2520%25E3%2581%25AB%2520VuePress%2520v2%2520%25E3%2581%25A7%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%2597%25E3%2582%2584%25E3%2581%2599%25E3%2581%2584%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/naoki_oshiumi/articles/0b8e8b7863b4f2",
-          "author": "おしうみなおき",
-          "description": "Vueのファイルの方で.envの値を使いたいことがあったので調べて実装してみました。\n\n 手順1. .envにMIX_という接頭辞を付けて環境設定を設定する\n例えば APP_ENVの値をvue側で使いたい場合、 MIX_APP_ENV という風に MIX」 というprefixをつけて.envに登録します。\n\n      \n        \n        APP_ENV=local\nMIX_APP_ENV=\"${APP_ENV}\"\n\n\n      \n      \n 手順2. ローカルサーバーを立ち上げなおし、再コンパイルする\n僕はこれをしていなかったので、なかなか値が反映されずしばらく困...",
-          "link": "https://zenn.dev/naoki_oshiumi/articles/0b8e8b7863b4f2",
-          "publishedOn": "2021-07-25T23:12:37.000Z",
-          "wordCount": 35,
-          "title": "vue側でlaravelのenvファイルの値を使用する方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/dlhzyuewr/image/upload/s--Q6zchQZ6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue%25E5%2581%25B4%25E3%2581%25A7laravel%25E3%2581%25AEenv%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%25AE%25E5%2580%25A4%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1609308637/og/new_txlqub.png",
             "length": "0",
             "type": "image/png"
           }
