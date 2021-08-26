@@ -77,6 +77,110 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-25">2021-08-25</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021-08-25のJS: browser-compat-dataにDenoを追加、Mobile First and Desktop First、create-react-appからNext.jsに移行</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>JSer.info #554 - MDNなどが利用するブラウザ実装の互換データを管理している @mdn/browser-compat-data 4.0.0がリリースされました。
+Release v4.0.0 · mdn/browser-compat-data
+互換リストにDenoのデータが追加されています。
+Deno on MDN | Deno Blog
+スキーマにpreviewとaccepts_flagsの追加、XPathとXSLTのデータが不完全であるため削除などの変更も含まれています・
+The State Of Mobile First and Desktop First - Ahmad Shadeedという記事では、CSSを書くときにMobileとDesktop向けのどちらを先に書くかについて書かれています。
+MobileとDesktopのどちらかを先に書いて、もう一方をMedia Queryで上書きしたときのコード量や拡張性の違いについて比較しています。
+From Create-React-App to Next | Kitty Giraudelという記事ではCreate React App(CRA)からNext.jsへの移行をどのようにしたかについて書かれています。
+やスタイリングなどの項目ごとに、CRAからNext.jsにどのように移植したのかが書かれています。
+以外はどちらの環境でも実行できたため、移行の動作確認として両方の環境で動かしてテストする方法についても書かれています。
+ヘッドライン
+Announcing React Native 0.65 · React Native
+reactnative.dev/blog/2021/08/17/version-065
+React iOS Android
+
+
+React Native 0.…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">nvimでVSCodeみたいなファイル横断検索・置換がしたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bun913/articles/f18e0d37ece27b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>なんちゃってvimmerのbunです。
+私は普段 nvim と VSCode をエディターとして利用しております。
+VSCodeに関しては neovim 拡張を利用しています。
+（使い始めるための記事を以前書きました）
+https://zenn.dev/bun913/articles/02785aed0ba50e
+vimにおいてファイル横断検索や置換をするには vimgrepを利用すれば良いのですが
+VSCodeのように自分で対象のファイルを選んだりするのを楽にしたいなぁ と考えておりました。
+↓以下のような形で。また、vimなのでマウスを使わずに使用したい
+
+なお私の環境は以下の通りで...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vuepress でリンクの url に frontmatter を混ぜる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>なにがしたいのか
+同じ単語の複数の辞書へのリンクみたいなページを作る時に
+
+大概の辞書って検索 URL にパラメタで単語を渡す感じの API なので
+frontmatter で単語を宣言して
+
+      
+        
+        ---
+pv: get in
+---
+
+
+      
+      あとは {{$frontmatter.pv}} とかで使い回せれば楽です
+
+ ところが
+実際にやってみると、こんなリンクで
+
+[英辞郎](https://eow.alc.co.jp/search?q&#x3D;{{$frontmatter.pv}})
+
+一見、いい感じに見えるのですが
+
+全...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-24">2021-08-24</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -4399,64 +4503,6 @@ init.vim などの設定ファイルに以下を記述します。
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-07-27のJS: vscode-js-debug、 Privacy Sandbox Timeline、小さなブラウザの作り方</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>JSer.info #550 - vscode-js-debugはVSCodeからブラウザのデバッガーに接続し、JavaScriptをデバッグするVSCode拡張です。
-Easier browser debugging with Developer Tools integration in Visual Studio Code - Microsoft Edge Blog
-microsoft/vscode-js-debug: The VS Code JavaScript debugger
-vscode-js-debugは、ChromeやMSEdgeなどのブラウザのデバッガーに接続できます。
-Debug Adapter Protocol(DAP)という、開発ツール(VScodeなど)とデバッガー(ブラウザやNodeなど)を中継するAdapterを利用しています。
-DAPはLanguage Server Protocol(LSP)似た形のもので、開発ツールと各種言語の中継となるプロトコルを定めています。
-Privacy Sandbox TimelineというサイトでGoogleのPrivacy Sandboxと呼ばれるthird-party cookiesを廃止するためのProposal集に関するロードマップが公開されています。
-Privacy Sandboxの各Proposalごとにどのようなスケジュールで、実装やテストをしていくかの予定が公開されています。
-ちいさな Web ブラウザを作ってみようでは、Rustでウェブブラウザを作りつつ、ブラウザのレンダリングの仕組みやセキュリティについて学習する教材が公開されています。
-現時点ではWIP(Working In Progress)な章もありますが、小さなブラウザをつくりつつブラウザの内部構造について学ぶのが目的となっています。…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Amplify+Next.js 環境変数設定方法まとめ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/thim/articles/04775c68d796445f3c90">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Next.js アプリを Amplify にデプロイする際に環境変数の設定方法でつまづいたので記事にしておきます。
-
- クライアントサイドで扱う環境変数
-クライアントサイド、つまりはブラウザで実行されるソースから参照する環境変数は Amplify コンソールから設定します。
-
-ソースからは以下のように参照可能で非常に簡単です。
-
-      
-        
-        const TEST &#x3D; process.env.NEXT_PUBLIC_TEST;
-
-
-      
-      
- サーバーサイドで扱う環境変数
-サーバーサイド、つまりは SSR する場合に参照する環境変数はn...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -4494,35 +4540,6 @@ https://hasura.io/docs/latest/graphql/cloud/projects/create.html
 
       
       次に必要なライブラリ群をインストールしていきましょう（各ライ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">仮想オンライン作業スペースを作った</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>こんにちは、そらららいどです。
-今回はじめて、個人的に開発したWebサービス「オンライン作業部屋」をリリースしましたので紹介したいと思います。
-
-現在、後続の類似サービス「Youtube作業部屋」という24時間ライブ配信によるオンライン自習室も運営していますのでぜひご覧ください。
-Youtube作業部屋チャンネル
-Youtube作業部屋についても記事を準備中です。
-
-
-
- リンク
-
-Webアプリ
-Githubリポジトリ
-
-
- オンライン作業部屋とは？
-オンライン上の仮想的な作業部屋というコンセプトです。
-仕組みはシンプルで、好きな科目と座席を選び、ボタンを押して入室・退室するだけです。
-...</span>
                   </div>
                 </a>
               </details>
@@ -4582,54 +4599,6 @@ Currently only PostgreSQL is supp...</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">DenoでHTMLタグを楽に書けるモジュールを作ってレジストリに公開した感想</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/6022552f509b84">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>本記事の主題はDenoの自作モジュールの説明ではなく、Denoのモジュール公開に関する所感について述べるものです。したがってIdea記事です。
-
- markup-tagをリリースした
-先日、markup-tagというモジュールをリリースしました。
-https://github.com/kawarimidoll/deno-markup-tag
-https://deno.land/x/markup_tag
-https://nest.land/package/markup-tag
-
- 機能
-プログラム内でHTMLのソースを記述したいときに、
-
-      
-        
-        c...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Reactで任意のタグ名を設定できるコンポーネントを作る</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/andynuma/articles/c7f6d6587c116d">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>前書き
-as を受け取るコンポーネントはどういうコンポーネントかというと、Chakra UI の Box コンポーネント にいい例があるのですが、
-
-      
-        
-        
-  Button
-
-
-
-      
-      上記のようなコンポーネントです。
-このようなコンポーネントを自作する場合に、型をどう付与するかについて Generics を使用する書き方を学んだので備忘録も兼ねて記事にします。
-もっと良い方法などあれば教え...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4663,53 +4632,9 @@ https://hasura.io/docs/latest/graphql/cloud/projects/create.html
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-26">2021-07-26</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Prismaで複数のデータベースを同時に扱う</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/frog/articles/073af49880452f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-prismaについてはこちら
-参考資料
-
- 対象読者
-
-Prismaを使っている
-Node.jsを使っている(もしくは個別に変換して解釈できる)
-複数のデータベースを同じプロジェクトで扱う必要がある
-とりあえず動かしたい
-
-
- 手順
-
-Prisma schemaの作成
-Prisma clientの生成
-Clientのインポート&amp;初期化
-それぞれのクライアントを使う
-
-
- Prisma schemaの作成
-Prismaで複数のデータベースを同時に扱うには、Schemaを複数作成する必要があります。
-また、generatorの設定にoutputの項目を追加することで/p...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-25T01:02:29.561Z">2021-08-25T01:02:29.561Z</time>
+    <time id="build-timestamp" datetime="2021-08-26T01:00:37.124Z">2021-08-26T01:00:37.124Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

@@ -12,6 +12,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/",
+          "author": null,
+          "description": "JSer.info #554 - MDNなどが利用するブラウザ実装の互換データを管理している @mdn/browser-compat-data 4.0.0がリリースされました。\nRelease v4.0.0 · mdn/browser-compat-data\n互換リストにDenoのデータが追加されています。\nDeno on MDN | Deno Blog\nスキーマにpreviewとaccepts_flagsの追加、XPathとXSLTのデータが不完全であるため削除などの変更も含まれています・\nThe State Of Mobile First and Desktop First - Ahmad Shadeedという記事では、CSSを書くときにMobileとDesktop向けのどちらを先に書くかについて書かれています。\nMobileとDesktopのどちらかを先に書いて、もう一方をMedia Queryで上書きしたときのコード量や拡張性の違いについて比較しています。\nFrom Create-React-App to Next | Kitty Giraudelという記事ではCreate React App(CRA)からNext.jsへの移行をどのようにしたかについて書かれています。\n<head>やスタイリングなどの項目ごとに、CRAからNext.jsにどのように移植したのかが書かれています。\n<Link>以外はどちらの環境でも実行できたため、移行の動作確認として両方の環境で動かしてテストする方法についても書かれています。\nヘッドライン\nAnnouncing React Native 0.65 · React Native\nreactnative.dev/blog/2021/08/17/version-065\nReact iOS Android\n\n\nReact Native 0.…",
+          "link": "https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/",
+          "publishedOn": "2021-08-25T02:44:57.000Z",
+          "wordCount": 458,
+          "title": "2021-08-25のJS: browser-compat-dataにDenoを追加、Mobile First and Desktop First、create-react-appからNext.jsに移行"
+        },
+        {
           "id": "https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/",
           "author": null,
           "description": "JSer.info #553 - Next.js 11.1 がリリースされました。\nBlog - Next.js 11.1 | Next.js\nオープンリダイレクタの脆弱性が修正されています。\nexperimental.esmExternalsオプションでNode.jsのESMをサポートしています。\nnode-fetchのkeepAliveをデフォルトで有効化、Source Map/ESLint/next/imageの改善なども含まれています。\nまた、Rust製のJS/TS Compiler/BundlerであるSWCの作者であるDongYoon KangがVercelに入り、Next.jsでのコンパイルにSWCを利用できるように開発中とのことです。\nRails 7.0では、現在のwebpacker(webpack)ではなく、Import mapsベースのJavaScriptライブラリをデフォルトする方針が提案されています。\nModern web apps without JavaScript bundling or transpiling\nReplace webpack with importmapped Hotwire as default js by dhh · Pull Request #42999 · rails/rails\nImport mapsはES Modulesでimportする際に、importするモジュールの名前解決を定義するウェブ標準です。\n<script type=\"importmap\">\n{\n  \"imports\": {\n    \"app\": \"./src/app.js\",\n    \"md5\": \"https://cdn.skypack.dev/md5\"\n  }\n}\n</script>\n\n\nImport mapsはChromeのみがサポートしてい…",
@@ -37,15 +46,6 @@
           "publishedOn": "2021-08-03T03:38:52.000Z",
           "wordCount": 574,
           "title": "2021-08-03のJS: Yarn 3.0、Chrome 93 beta、cross origin iframeでのalert/prompt/confirmを削除"
-        },
-        {
-          "id": "https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/",
-          "author": null,
-          "description": "JSer.info #550 - vscode-js-debugはVSCodeからブラウザのデバッガーに接続し、JavaScriptをデバッグするVSCode拡張です。\nEasier browser debugging with Developer Tools integration in Visual Studio Code - Microsoft Edge Blog\nmicrosoft/vscode-js-debug: The VS Code JavaScript debugger\nvscode-js-debugは、ChromeやMSEdgeなどのブラウザのデバッガーに接続できます。\nDebug Adapter Protocol(DAP)という、開発ツール(VScodeなど)とデバッガー(ブラウザやNodeなど)を中継するAdapterを利用しています。\nDAPはLanguage Server Protocol(LSP)似た形のもので、開発ツールと各種言語の中継となるプロトコルを定めています。\nPrivacy Sandbox TimelineというサイトでGoogleのPrivacy Sandboxと呼ばれるthird-party cookiesを廃止するためのProposal集に関するロードマップが公開されています。\nPrivacy Sandboxの各Proposalごとにどのようなスケジュールで、実装やテストをしていくかの予定が公開されています。\nちいさな Web ブラウザを作ってみようでは、Rustでウェブブラウザを作りつつ、ブラウザのレンダリングの仕組みやセキュリティについて学習する教材が公開されています。\n現時点ではWIP(Working In Progress)な章もありますが、小さなブラウザをつくりつつブラウザの内部構造について学ぶのが目的となっています。…",
-          "link": "https://jser.info/2021/07/27/vscode-js-debug-privacy-sandbox-timeline/",
-          "publishedOn": "2021-07-27T12:52:36.000Z",
-          "wordCount": 447,
-          "title": "2021-07-27のJS: vscode-js-debug、 Privacy Sandbox Timeline、小さなブラウザの作り方"
         }
       ]
     },
@@ -655,20 +655,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/thim/articles/04775c68d796445f3c90",
-          "author": "thim",
-          "description": "Next.js アプリを Amplify にデプロイする際に環境変数の設定方法でつまづいたので記事にしておきます。\n\n クライアントサイドで扱う環境変数\nクライアントサイド、つまりはブラウザで実行されるソースから参照する環境変数は Amplify コンソールから設定します。\n\nソースからは以下のように参照可能で非常に簡単です。\n\n      \n        \n        const TEST = process.env.NEXT_PUBLIC_TEST;\n\n\n      \n      \n サーバーサイドで扱う環境変数\nサーバーサイド、つまりは SSR する場合に参照する環境変数はn...",
-          "link": "https://zenn.dev/thim/articles/04775c68d796445f3c90",
-          "publishedOn": "2021-07-27T12:47:14.000Z",
-          "wordCount": 62,
-          "title": "Amplify+Next.js 環境変数設定方法まとめ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--GOmg4J1w--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:thim%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Amplify%252BNext.js%2520%25E7%2592%25B0%25E5%25A2%2583%25E5%25A4%2589%25E6%2595%25B0%25E8%25A8%25AD%25E5%25AE%259A%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDQwMTY2ZjMyOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -813,20 +799,6 @@
           "title": "Nuxt x Composition API x Hasura x TypeScriptを実装する",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--0D0rDbAG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%2520x%2520Composition%2520API%2520x%2520Hasura%2520x%2520TypeScript%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3",
-          "author": "そららいど",
-          "description": "こんにちは、そらららいどです。\n今回はじめて、個人的に開発したWebサービス「オンライン作業部屋」をリリースしましたので紹介したいと思います。\n\n現在、後続の類似サービス「Youtube作業部屋」という24時間ライブ配信によるオンライン自習室も運営していますのでぜひご覧ください。\nYoutube作業部屋チャンネル\nYoutube作業部屋についても記事を準備中です。\n\n\n\n リンク\n\nWebアプリ\nGithubリポジトリ\n\n\n オンライン作業部屋とは？\nオンライン上の仮想的な作業部屋というコンセプトです。\n仕組みはシンプルで、好きな科目と座席を選び、ボタンを押して入室・退室するだけです。\n...",
-          "link": "https://zenn.dev/soraride/articles/89b6455ac62908ffb4d3",
-          "publishedOn": "2021-07-27T10:45:38.000Z",
-          "wordCount": 168,
-          "title": "仮想オンライン作業スペースを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--2T-4B11I--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%259D%25E3%2582%2589%25E3%2582%2589%25E3%2581%2584%25E3%2581%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E4%25BB%25AE%25E6%2583%25B3%25E3%2582%25AA%25E3%2583%25B3%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%25B9%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODk3MWVjNzI5Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
@@ -1845,48 +1817,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kawarimidoll/articles/6022552f509b84",
-          "author": "kawarimidoll",
-          "description": "本記事の主題はDenoの自作モジュールの説明ではなく、Denoのモジュール公開に関する所感について述べるものです。したがってIdea記事です。\n\n markup-tagをリリースした\n先日、markup-tagというモジュールをリリースしました。\nhttps://github.com/kawarimidoll/deno-markup-tag\nhttps://deno.land/x/markup_tag\nhttps://nest.land/package/markup-tag\n\n 機能\nプログラム内でHTMLのソースを記述したいときに、\n\n      \n        \n        c...",
-          "link": "https://zenn.dev/kawarimidoll/articles/6022552f509b84",
-          "publishedOn": "2021-07-27T11:24:13.000Z",
-          "wordCount": 124,
-          "title": "DenoでHTMLタグを楽に書けるモジュールを作ってレジストリに公開した感想",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--JRs6a7JL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E3%2581%25A7HTML%25E3%2582%25BF%25E3%2582%25B0%25E3%2582%2592%25E6%25A5%25BD%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%25AC%25E3%2582%25B8%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AA%25E3%2581%25AB%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E6%2584%259F%25E6%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/andynuma/articles/c7f6d6587c116d",
-          "author": "nu0ma",
-          "description": "前書き\nas を受け取るコンポーネントはどういうコンポーネントかというと、Chakra UI の Box コンポーネント にいい例があるのですが、\n\n      \n        \n        <Box as=\"button\" borderRadius=\"md\" px={4} h={8}>\n  Button\n</Box>\n\n\n      \n      上記のようなコンポーネントです。\nこのようなコンポーネントを自作する場合に、型をどう付与するかについて Generics を使用する書き方を学んだので備忘録も兼ねて記事にします。\nもっと良い方法などあれば教え...",
-          "link": "https://zenn.dev/andynuma/articles/c7f6d6587c116d",
-          "publishedOn": "2021-07-27T04:08:28.000Z",
-          "wordCount": 211,
-          "title": "Reactで任意のタグ名を設定できるコンポーネントを作る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--XcH9_UYL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nu0ma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25E3%2581%25A7%25E4%25BB%25BB%25E6%2584%258F%25E3%2581%25AE%25E3%2582%25BF%25E3%2582%25B0%25E5%2590%258D%25E3%2582%2592%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjcyM2MzY2VjNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/frog/articles/073af49880452f",
-          "author": "かえる",
-          "description": "はじめに\nprismaについてはこちら\n参考資料\n\n 対象読者\n\nPrismaを使っている\nNode.jsを使っている(もしくは個別に変換して解釈できる)\n複数のデータベースを同じプロジェクトで扱う必要がある\nとりあえず動かしたい\n\n\n 手順\n\nPrisma schemaの作成\nPrisma clientの生成\nClientのインポート&初期化\nそれぞれのクライアントを使う\n\n\n Prisma schemaの作成\nPrismaで複数のデータベースを同時に扱うには、Schemaを複数作成する必要があります。\nまた、generatorの設定にoutputの項目を追加することで/p...",
-          "link": "https://zenn.dev/frog/articles/073af49880452f",
-          "publishedOn": "2021-07-26T19:36:35.000Z",
-          "wordCount": 272,
-          "title": "Prismaで複数のデータベースを同時に扱う",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--IZi6RJFe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258B%25E3%2581%2588%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Prisma%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%2592%25E5%2590%258C%25E6%2599%2582%25E3%2581%25AB%25E6%2589%25B1%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmEyN2Y0OWEzOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1895,6 +1825,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/bun913/articles/f18e0d37ece27b",
+          "author": "bun",
+          "description": "なんちゃってvimmerのbunです。\n私は普段 nvim と VSCode をエディターとして利用しております。\nVSCodeに関しては neovim 拡張を利用しています。\n（使い始めるための記事を以前書きました）\nhttps://zenn.dev/bun913/articles/02785aed0ba50e\nvimにおいてファイル横断検索や置換をするには vimgrepを利用すれば良いのですが\nVSCodeのように自分で対象のファイルを選んだりするのを楽にしたいなぁ と考えておりました。\n↓以下のような形で。また、vimなのでマウスを使わずに使用したい\n\nなお私の環境は以下の通りで...",
+          "link": "https://zenn.dev/bun913/articles/f18e0d37ece27b",
+          "publishedOn": "2021-08-25T13:33:38.000Z",
+          "wordCount": 145,
+          "title": "nvimでVSCodeみたいなファイル横断検索・置換がしたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--gJsqSR3l--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:bun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nvim%25E3%2581%25A7VSCode%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E3%2581%25AA%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E6%25A8%25AA%25E6%2596%25AD%25E6%25A4%259C%25E7%25B4%25A2%25E3%2583%25BB%25E7%25BD%25AE%25E6%258F%259B%25E3%2581%258C%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzE0ZWEwMTIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yano/articles/vim_plugin_top_10",
           "author": "Yuki Yano",
@@ -2014,6 +1958,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525",
+          "author": "UedaTakeyuki",
+          "description": "なにがしたいのか\n同じ単語の複数の辞書へのリンクみたいなページを作る時に\n\n大概の辞書って検索 URL にパラメタで単語を渡す感じの API なので\nfrontmatter で単語を宣言して\n\n      \n        \n        ---\npv: get in\n---\n\n\n      \n      あとは {{$frontmatter.pv}} とかで使い回せれば楽です\n\n ところが\n実際にやってみると、こんなリンクで\n\n[英辞郎](https://eow.alc.co.jp/search?q={{$frontmatter.pv}})\n\n一見、いい感じに見えるのですが\n\n全...",
+          "link": "https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525",
+          "publishedOn": "2021-08-25T05:36:55.000Z",
+          "wordCount": 51,
+          "title": "vuepress でリンクの url に frontmatter を混ぜる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--O-IoV8CR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:UedaTakeyuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuepress%2520%25E3%2581%25A7%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2581%25AE%2520url%2520%25E3%2581%25AB%2520frontmatter%2520%25E3%2582%2592%25E6%25B7%25B7%25E3%2581%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o5Zzc0M0lsRjVqeVR6enRySTVUbHhqeTNqMzBFZlBaYmJCaEtoS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/newburu/articles/7efb9d9f0658a8",
           "author": "にゅ〜ぶる",
