@@ -2,10 +2,270 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-26T01:00:37.148Z</updated>
+    <updated>2021-08-27T01:08:19.143Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vueで非同期処理をまとめて処理する際のベストプラクティス]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40"/>
+        <updated>2021-08-26T23:52:48.000Z</updated>
+        <summary type="html"><![CDATA[vue.jsで非同期処理をまとめて処理したい場合があります。
+普通に1つ1つ処理を待つ場合は async - awaitで良いのですが、それだと1つずつしか処理できないので、どうしても処理が遅くなってしまいます。
+そんな時は、 Promise.all を使えば、複数の非同期処理をまとめて処理しつつ、全ての処理が完了したら次に行きますよー！というふうにできます。
+
+      
+        
+        // 非同期をまとめて処理する
+async process() {
+    await Promise.all([
+        this.methodA(),
+	this.me...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blitz.jsでSupabaseのデータベースに接続する]]></title>
+        <id>https://zenn.dev/kijikunnn/articles/0c06902611964d</id>
+        <link href="https://zenn.dev/kijikunnn/articles/0c06902611964d"/>
+        <updated>2021-08-26T15:48:36.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。
+普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。
+今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。
+
+過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...]]></summary>
+        <author>
+            <name>きじくん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blitz.jsでSupabaseのデータベースに接続する]]></title>
+        <id>https://zenn.dev/kijikunnn/articles/0c06902611964d</id>
+        <link href="https://zenn.dev/kijikunnn/articles/0c06902611964d"/>
+        <updated>2021-08-26T15:48:36.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。
+普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。
+今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。
+
+過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...]]></summary>
+        <author>
+            <name>きじくん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vuetify v2の環境をDockerで気軽に作る]]></title>
+        <id>https://zenn.dev/moroshi/articles/24a8bd494ee67c</id>
+        <link href="https://zenn.dev/moroshi/articles/24a8bd494ee67c"/>
+        <updated>2021-08-26T12:04:56.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+
+ 経緯
+SPA(single page application)をvue.js + vuetifyで作成し、Laravelを作成したAPIサーバーと連携する環境をよく構築する。
+それと関連して、ちょっとしたクリーンな検証環境をサクッと作りたくなることがあるため、dockerでそれらしい環境を作成しようと思ったのがことの始まり。
+以下、"それらしい環境"の作成手順を残す。
+
+ 前提
+環境や使うツールは以下のとおり
+
+ 環境
+
+Windows 10 Pro 64bit
+Docker Desktop for Windows (on Hyper-V), Version 3.6.0...]]></summary>
+        <author>
+            <name>moroshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ElementやEventに型をつけよう]]></title>
+        <id>https://zenn.dev/sqer/articles/d9d51bbd4b410418cde3</id>
+        <link href="https://zenn.dev/sqer/articles/d9d51bbd4b410418cde3"/>
+        <updated>2021-08-26T12:03:15.000Z</updated>
+        <summary type="html"><![CDATA[目次
+
+目次
+
+はじめに
+
+any使っていませんか？
+対象読者
+今回の目標
+
+
+Elementについて
+Eventについて
+
+実践！TypeScriptで型付けする
+
+typed-query-selectorを使う
+target.valueに型をつける
+
+
+まとめ
+リンク
+
+
+ はじめに
+
+ any使っていませんか？
+
+idが"xxx"のinput要素に入力された値を取得してみてください。
+
+この要件を w3schools のサンプルコードをコピペして実装しようとすると、
+
+      
+        
+        document.getElementById("xxx")....]]></summary>
+        <author>
+            <name>sqer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新世代の自動補完プラグイン ddc.vim]]></title>
+        <id>https://zenn.dev/shougo/articles/ddc-vim-beta</id>
+        <link href="https://zenn.dev/shougo/articles/ddc-vim-beta"/>
+        <updated>2021-08-26T11:19:39.000Z</updated>
+        <summary type="html"><![CDATA[始めに
+ここ数ヵ月力を入れてddc.vimの開発をしていて、ようやく一通りの機能がそろいました
+ので、広くユーザーに使ってもらうフェーズに進めたいと考えています。
+ユーザーからの要望やバグ報告に対応が終わってから正式版の1.0となりますのでよろし
+くお願いします。
+
+ ddc.vim の特徴
+
+ Vim8/neovim 両対応
+deoplete.nvimでもvim-hug-neovim-rpcを用いることによりVimに対応していました。
+しかしインストールが煩雑になる、neovimと比較してパフォーマンスに問題がある、安
+定性への問題がありました。
+ddc.vimではdenops.v...]]></summary>
+        <author>
+            <name>Shougo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsとFirebaseでCookieを使った認証処理を実装する]]></title>
+        <id>https://zenn.dev/uttk/articles/f48fc75120f018</id>
+        <link href="https://zenn.dev/uttk/articles/f48fc75120f018"/>
+        <updated>2021-08-26T08:41:39.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+Firebase AuthenticationとNext.jsのgetServerSideProps()を使って、Cookieを使ったセッション管理方法を、この場を借りて共有したいと思います💪
+また、この記事の内容は基本的に以下の記事の内容を踏襲したものとなっています。そのため、内容やソースコードに引用などが含まれますので、予めご了承ください🙇‍♂️
+https://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja
+それでは行きましょう🛴
+
+ 環境構築
+
+この記事ではFirebaseの環境構築については...]]></summary>
+        <author>
+            <name>uttk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsとFirebaseでCookieを使った認証処理を実装する]]></title>
+        <id>https://zenn.dev/uttk/articles/f48fc75120f018</id>
+        <link href="https://zenn.dev/uttk/articles/f48fc75120f018"/>
+        <updated>2021-08-26T08:41:39.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+Firebase AuthenticationとNext.jsのgetServerSideProps()を使って、Cookieを使ったセッション管理方法を、この場を借りて共有したいと思います💪
+また、この記事の内容は基本的に以下の記事の内容を踏襲したものとなっています。そのため、内容やソースコードに引用などが含まれますので、予めご了承ください🙇‍♂️
+https://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja
+それでは行きましょう🛴
+
+ 環境構築
+
+この記事ではFirebaseの環境構築については...]]></summary>
+        <author>
+            <name>uttk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[１つの文字列に、配列の文字列が全て含まれているか]]></title>
+        <id>https://zenn.dev/nitaking/articles/16a90535f3d535</id>
+        <link href="https://zenn.dev/nitaking/articles/16a90535f3d535"/>
+        <updated>2021-08-26T07:55:52.000Z</updated>
+        <summary type="html"><![CDATA[Answer
+
+      
+        
+        var str = 'apple_mango_banana';
+var arr = ['apple','banana'];
+
+var isEvery = arr.every(item => str.includes(item));
+
+console.log(isEvery);
+
+
+      
+      
+ Refs
+https://stackoverflow.com/a/40649736/8023331]]></summary>
+        <author>
+            <name>nitaking</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.jsにおけるモジュールシステム]]></title>
+        <id>https://zenn.dev/ichigo_dev/articles/540ebe464a6463674ea0</id>
+        <link href="https://zenn.dev/ichigo_dev/articles/540ebe464a6463674ea0"/>
+        <updated>2021-08-26T02:23:05.000Z</updated>
+        <summary type="html"><![CDATA[Node.jsにおけるモジュールシステム
+モジュールシステムとは外部ファイル（モジュール）を読み込むときの仕様である。
+Node.jsで使えるモジュールシステムとして、CJSとESMがある、現在はCJSがデフォルトになっている。
+拡張子が.cjsのものはCJS。
+拡張子が.mjsのものはECM。
+拡張子が.jsのファイルは、package.jsonのtypeフィールドの値によって判断される。
+具体的にはtypeがmoduleであれば.jsファイルがECMとして扱われる。commonjsにするとCJSとして扱われる。記述しない場合もCJSとして扱われる。
+
+ TypeScript
+ts...]]></summary>
+        <author>
+            <name>ichigo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptで書かれたJSをNode.js上で実行する方法]]></title>
+        <id>https://zenn.dev/mo_ri_regen/articles/nodejs-with-typescript</id>
+        <link href="https://zenn.dev/mo_ri_regen/articles/nodejs-with-typescript"/>
+        <updated>2021-08-25T23:45:47.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript で書かれている場合、一度 JS に変換(トランスパイル)してから 実行する必要があります。
+
+ 実行方法
+
+
+TypeScript のインストール
+
+      
+        
+        # npm
+npm i -D typescript
+
+# yarn
+yarn add typescript --dev
+
+
+      
+      
+
+コンパイル
+下記コマンドを入力することで(エラーがなければ) hoge.js が生成されます。
+
+      
+        
+        tsc hoge.ts
+
+
+      
+      
+
+実行
+hoge....]]></summary>
+        <author>
+            <name>モーリー</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[nvimでVSCodeみたいなファイル横断検索・置換がしたい]]></title>
         <id>https://zenn.dev/bun913/articles/f18e0d37ece27b</id>
@@ -3564,164 +3824,6 @@ Knex と非常に似た構文をしていますが、大きな違いは、 TypeS
         &l...]]></summary>
         <author>
             <name>はるのん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Vim/Neovim】fern.vim で隠しファイル("."などで始まるファイル）を表示する。]]></title>
-        <id>https://zenn.dev/purenium/articles/50facb02e93cbd</id>
-        <link href="https://zenn.dev/purenium/articles/50facb02e93cbd"/>
-        <updated>2021-07-28T11:02:24.000Z</updated>
-        <summary type="html"><![CDATA[Vim/Neovim のファイラープラグイン ferm.vim についての記事です。
-
- 環境
-Ubuntu 20.04 LTS(WSL2)
-Neovim 0.6.0
-
- 事象と解決
-.prettierrc、.gitignore などのドットで始まるファイルが含まれているフォルダがあるとします。
-
-これを fern.vim で表示します。すると、.prettierrc などは、表示されないようです。
-
-これを表示するにはどうすればよいでしょうか。
-init.vim などの設定ファイルに以下を記述します。
-
-      
-        init.vim
-        let g:fer...]]></summary>
-        <author>
-            <name>mumei</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[個人開発した賃貸物件検索サービスのシステム構成と使用技術]]></title>
-        <id>https://zenn.dev/choo/articles/84f41ad249c1dd</id>
-        <link href="https://zenn.dev/choo/articles/84f41ad249c1dd"/>
-        <updated>2021-07-28T09:27:04.000Z</updated>
-        <summary type="html"><![CDATA[個人開発で 賃貸物件検索サービス Comfy を作りました。
-先週、リリース後の告知ツイートをしたのですが、幸いなことに多くの人にリツイート・いいねの反響を頂きました（リアクションして頂いた方、本当にありがとうございます…!!!）
-
-この記事では、Comfy のシステム構成及び使用した技術・サービスを紹介します。
-
- システム構成
-
-図の通り、システムは大きく 3 つに分けられます。
-
-フロントエンド
-バックエンド
-スクレイピング基盤
-
-上記 3 つのサブシステムについて、使用している技術をそれぞれ述べます。
-
- フロントエンド
-Comfy は一切ページ遷移のない SPA（Single ...]]></summary>
-        <author>
-            <name>choo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Typescriptで空でない配列を型で表現する]]></title>
-        <id>https://zenn.dev/mura_chan/articles/e8c85262f54830</id>
-        <link href="https://zenn.dev/mura_chan/articles/e8c85262f54830"/>
-        <updated>2021-07-27T16:01:35.000Z</updated>
-        <summary type="html"><![CDATA[「空でない配列を表現する型」は需要がありそうで、ググってヒットする日本語の記事が少なかった（和訳されたサイトはあったが純粋な日本語の記事はすぐに出てこなかった）ため、ひとつくらいすぐにヒットする日本語の記事があればと思い、記事にします。
-いきなりですがコードは以下です。
-
-      
-        
-        type NonEmptyArray<T> = [T, ...T[]];
-
-
-      
-      
-      
-        
-        // コンパイルエラー
-const numbers: NonEmptyArray<number>...]]></summary>
-        <author>
-            <name>mura_chan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improve GraphQL server performance with knex-graphql-utils]]></title>
-        <id>https://zenn.dev/acro5piano/articles/32a71345ea35cd</id>
-        <link href="https://zenn.dev/acro5piano/articles/32a71345ea35cd"/>
-        <updated>2021-07-27T14:55:26.000Z</updated>
-        <summary type="html"><![CDATA[I've created a tiny library which improves performance for GraphQL + Knex.
-
- tl;dr
-
- Before
-
-
- After
-
-
-Filter select columns based on a query from clients
-Load relations without N+1 problem (pagination available!)
-
-https://github.com/acro5piano/knex-graphql-utils
-Currently only PostgreSQL is supp...]]></summary>
-        <author>
-            <name>五所和哉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Nuxtjs】Promise allでパフォーマンス改善について]]></title>
-        <id>https://zenn.dev/sengosha/articles/498398d82fb056</id>
-        <link href="https://zenn.dev/sengosha/articles/498398d82fb056"/>
-        <updated>2021-07-27T14:46:20.000Z</updated>
-        <summary type="html"><![CDATA[背景
-最近NuxtJSの公式オンラインコース を受講してパフォーマンス周りを改善する方法を勉強したので共有します。
-
- 概要
-NuxtのSSRモードでページにアクセス時にasyncDataやfetchで複数のAPIリクエストを投げるのはよくあることです。APIリクエストはasync/waitで非同期処理なので、例えばA、B、Cの３つのリクエストがある場合、BはAが完了してから処理され、CはBが完了してから処理されます。リクエストが多ければ多いほどパフォーマンスに悪影響を与えてしまいます。
-Promise.all でAPIリクエストを並列処理させることで、ページアクセスが早くなり、TT...]]></summary>
-        <author>
-            <name>ユウ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt x Composition API x Hasura x TypeScriptを実装する]]></title>
-        <id>https://zenn.dev/dialbird/articles/a63e9f1c838462</id>
-        <link href="https://zenn.dev/dialbird/articles/a63e9f1c838462"/>
-        <updated>2021-07-27T13:13:32.000Z</updated>
-        <summary type="html"><![CDATA[まずはHasura Cloudでプロジェクトを作っておきましょう
-https://hasura.io/docs/latest/graphql/cloud/projects/create.html
-接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます
-
-次にNuxtプロジェクトをnpxで作ります
-
-      
-        
-        $ npx create-nuxt-app nuxt-composable-hasura
-
-
-      
-      次に必要なライブラリ群をインストールしていきましょう（各ライ...]]></summary>
-        <author>
-            <name>dialbird</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt x Composition API x Hasura x TypeScriptを実装する]]></title>
-        <id>https://zenn.dev/dialbird/articles/a63e9f1c838462</id>
-        <link href="https://zenn.dev/dialbird/articles/a63e9f1c838462"/>
-        <updated>2021-07-27T13:13:32.000Z</updated>
-        <summary type="html"><![CDATA[まずはHasura Cloudでプロジェクトを作っておきましょう
-https://hasura.io/docs/latest/graphql/cloud/projects/create.html
-接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます
-
-次にNuxtプロジェクトをnpxで作ります
-
-      
-        
-        $ npx create-nuxt-app nuxt-composable-hasura
-
-
-      
-      次に必要なライブラリ群をインストールしていきましょう（各ライ...]]></summary>
-        <author>
-            <name>dialbird</name>
         </author>
     </entry>
 </feed>

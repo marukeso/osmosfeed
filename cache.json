@@ -55,6 +55,34 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
+          "author": "きじくん",
+          "description": "はじめに\n初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。\n普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。\n今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。\n\n過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...",
+          "link": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
+          "publishedOn": "2021-08-26T15:48:36.000Z",
+          "wordCount": 185,
+          "title": "Blitz.jsでSupabaseのデータベースに接続する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5_4Z5kyO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258D%25E3%2581%2598%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%25E3%2581%25A7Supabase%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjliOTM3ZWExNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uttk/articles/f48fc75120f018",
+          "author": "uttk",
+          "description": "この記事について\nFirebase AuthenticationとNext.jsのgetServerSideProps()を使って、Cookieを使ったセッション管理方法を、この場を借りて共有したいと思います💪\nまた、この記事の内容は基本的に以下の記事の内容を踏襲したものとなっています。そのため、内容やソースコードに引用などが含まれますので、予めご了承ください🙇‍♂️\nhttps://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja\nそれでは行きましょう🛴\n\n 環境構築\n\nこの記事ではFirebaseの環境構築については...",
+          "link": "https://zenn.dev/uttk/articles/f48fc75120f018",
+          "publishedOn": "2021-08-26T08:41:39.000Z",
+          "wordCount": 1088,
+          "title": "Next.jsとFirebaseでCookieを使った認証処理を実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--1XXPVF4i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uttk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A8Firebase%25E3%2581%25A7Cookie%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E8%25AA%258D%25E8%25A8%25BC%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzdkM2Q1NTAxNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/soberhiko/articles/aed491ed167bad",
           "author": "eyama",
           "description": "概要\nNext.js のアプリケーションで、CMS などから取得したコンテンツによって動的に生成される URL と、静的な URL の両方がある場合に、サイトマップをどのように自動生成させるかについての記事です。\nZenn に投稿されている記事など、先行事例も見られますが、以下の要件を満たすサイトマップの生成方法については見当たらなかったため、その共有を目的としています。\n\n対象 URL は Next.js の動的/静的ルーティングの両方を含む\n\n動的 URL のページはコンテンツ追加のタイミングでビルドが走らない\n\n\nサイトマップファイルはいくつかに分割し、インデックスファイルも生...",
@@ -641,20 +669,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/choo/articles/84f41ad249c1dd",
-          "author": "choo",
-          "description": "個人開発で 賃貸物件検索サービス Comfy を作りました。\n先週、リリース後の告知ツイートをしたのですが、幸いなことに多くの人にリツイート・いいねの反響を頂きました（リアクションして頂いた方、本当にありがとうございます…!!!）\n\nこの記事では、Comfy のシステム構成及び使用した技術・サービスを紹介します。\n\n システム構成\n\n図の通り、システムは大きく 3 つに分けられます。\n\nフロントエンド\nバックエンド\nスクレイピング基盤\n\n上記 3 つのサブシステムについて、使用している技術をそれぞれ述べます。\n\n フロントエンド\nComfy は一切ページ遷移のない SPA（Single ...",
-          "link": "https://zenn.dev/choo/articles/84f41ad249c1dd",
-          "publishedOn": "2021-07-28T09:27:04.000Z",
-          "wordCount": 248,
-          "title": "個人開発した賃貸物件検索サービスのシステム構成と使用技術",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--pNASw_Gv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:choo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2597%25E3%2581%259F%25E8%25B3%2583%25E8%25B2%25B8%25E7%2589%25A9%25E4%25BB%25B6%25E6%25A4%259C%25E7%25B4%25A2%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2581%25AE%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25A8%25E4%25BD%25BF%25E7%2594%25A8%25E6%258A%2580%25E8%25A1%2593%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjQ5NWI1MTMyNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -774,34 +788,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sengosha/articles/498398d82fb056",
-          "author": "ユウ",
-          "description": "背景\n最近NuxtJSの公式オンラインコース を受講してパフォーマンス周りを改善する方法を勉強したので共有します。\n\n 概要\nNuxtのSSRモードでページにアクセス時にasyncDataやfetchで複数のAPIリクエストを投げるのはよくあることです。APIリクエストはasync/waitで非同期処理なので、例えばA、B、Cの３つのリクエストがある場合、BはAが完了してから処理され、CはBが完了してから処理されます。リクエストが多ければ多いほどパフォーマンスに悪影響を与えてしまいます。\nPromise.all でAPIリクエストを並列処理させることで、ページアクセスが早くなり、TT...",
-          "link": "https://zenn.dev/sengosha/articles/498398d82fb056",
-          "publishedOn": "2021-07-27T14:46:20.000Z",
-          "wordCount": 187,
-          "title": "【Nuxtjs】Promise allでパフォーマンス改善について",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--uLFiQWsg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A6%25E3%2582%25A6%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Nuxtjs%25E3%2580%2591Promise%2520all%25E3%2581%25A7%25E3%2583%2591%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%259E%25E3%2583%25B3%25E3%2582%25B9%25E6%2594%25B9%25E5%2596%2584%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
-          "author": "dialbird",
-          "description": "まずはHasura Cloudでプロジェクトを作っておきましょう\nhttps://hasura.io/docs/latest/graphql/cloud/projects/create.html\n接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます\n\n次にNuxtプロジェクトをnpxで作ります\n\n      \n        \n        $ npx create-nuxt-app nuxt-composable-hasura\n\n\n      \n      次に必要なライブラリ群をインストールしていきましょう（各ライ...",
-          "link": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
-          "publishedOn": "2021-07-27T13:13:32.000Z",
-          "wordCount": 237,
-          "title": "Nuxt x Composition API x Hasura x TypeScriptを実装する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--0D0rDbAG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%2520x%2520Composition%2520API%2520x%2520Hasura%2520x%2520TypeScript%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -810,6 +796,90 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
+          "author": "きじくん",
+          "description": "はじめに\n初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。\n普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。\n今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。\n\n過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...",
+          "link": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
+          "publishedOn": "2021-08-26T15:48:36.000Z",
+          "wordCount": 185,
+          "title": "Blitz.jsでSupabaseのデータベースに接続する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5_4Z5kyO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258D%25E3%2581%2598%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%25E3%2581%25A7Supabase%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjliOTM3ZWExNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sqer/articles/d9d51bbd4b410418cde3",
+          "author": "sqer",
+          "description": "目次\n\n目次\n\nはじめに\n\nany使っていませんか？\n対象読者\n今回の目標\n\n\nElementについて\nEventについて\n\n実践！TypeScriptで型付けする\n\ntyped-query-selectorを使う\ntarget.valueに型をつける\n\n\nまとめ\nリンク\n\n\n はじめに\n\n any使っていませんか？\n\nidが\"xxx\"のinput要素に入力された値を取得してみてください。\n\nこの要件を w3schools のサンプルコードをコピペして実装しようとすると、\n\n      \n        \n        document.getElementById(\"xxx\")....",
+          "link": "https://zenn.dev/sqer/articles/d9d51bbd4b410418cde3",
+          "publishedOn": "2021-08-26T12:03:15.000Z",
+          "wordCount": 232,
+          "title": "ElementやEventに型をつけよう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--XBmn78hR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sqer%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Element%25E3%2582%2584Event%25E3%2581%25AB%25E5%259E%258B%25E3%2582%2592%25E3%2581%25A4%25E3%2581%2591%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWZmNzNmM2U4NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uttk/articles/f48fc75120f018",
+          "author": "uttk",
+          "description": "この記事について\nFirebase AuthenticationとNext.jsのgetServerSideProps()を使って、Cookieを使ったセッション管理方法を、この場を借りて共有したいと思います💪\nまた、この記事の内容は基本的に以下の記事の内容を踏襲したものとなっています。そのため、内容やソースコードに引用などが含まれますので、予めご了承ください🙇‍♂️\nhttps://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja\nそれでは行きましょう🛴\n\n 環境構築\n\nこの記事ではFirebaseの環境構築については...",
+          "link": "https://zenn.dev/uttk/articles/f48fc75120f018",
+          "publishedOn": "2021-08-26T08:41:39.000Z",
+          "wordCount": 1088,
+          "title": "Next.jsとFirebaseでCookieを使った認証処理を実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--1XXPVF4i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uttk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A8Firebase%25E3%2581%25A7Cookie%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E8%25AA%258D%25E8%25A8%25BC%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzdkM2Q1NTAxNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nitaking/articles/16a90535f3d535",
+          "author": "nitaking",
+          "description": "Answer\n\n      \n        \n        var str = 'apple_mango_banana';\nvar arr = ['apple','banana'];\n\nvar isEvery = arr.every(item => str.includes(item));\n\nconsole.log(isEvery);\n\n\n      \n      \n Refs\nhttps://stackoverflow.com/a/40649736/8023331",
+          "link": "https://zenn.dev/nitaking/articles/16a90535f3d535",
+          "publishedOn": "2021-08-26T07:55:52.000Z",
+          "wordCount": 23,
+          "title": "１つの文字列に、配列の文字列が全て含まれているか",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Zb2vPNrl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nitaking%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25EF%25BC%2591%25E3%2581%25A4%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2581%25AB%25E3%2580%2581%25E9%2585%258D%25E5%2588%2597%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2581%258C%25E5%2585%25A8%25E3%2581%25A6%25E5%2590%25AB%25E3%2581%25BE%25E3%2582%258C%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDTWQ2V3JtNEFxOTluQ2xBTXQ1NHVJZTBPdnVYX05Fd1BZNElLUnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ichigo_dev/articles/540ebe464a6463674ea0",
+          "author": "ichigo",
+          "description": "Node.jsにおけるモジュールシステム\nモジュールシステムとは外部ファイル（モジュール）を読み込むときの仕様である。\nNode.jsで使えるモジュールシステムとして、CJSとESMがある、現在はCJSがデフォルトになっている。\n拡張子が.cjsのものはCJS。\n拡張子が.mjsのものはECM。\n拡張子が.jsのファイルは、package.jsonのtypeフィールドの値によって判断される。\n具体的にはtypeがmoduleであれば.jsファイルがECMとして扱われる。commonjsにするとCJSとして扱われる。記述しない場合もCJSとして扱われる。\n\n TypeScript\nts...",
+          "link": "https://zenn.dev/ichigo_dev/articles/540ebe464a6463674ea0",
+          "publishedOn": "2021-08-26T02:23:05.000Z",
+          "wordCount": 104,
+          "title": "Node.jsにおけるモジュールシステム",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--PHEr3aVJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ichigo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Node.js%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dJbjVqVFhfRGlKc2tiUjVzUkxXVnNUby03dFRWTkpCcUFvMWlLPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mo_ri_regen/articles/nodejs-with-typescript",
+          "author": "モーリー",
+          "description": "TypeScript で書かれている場合、一度 JS に変換(トランスパイル)してから 実行する必要があります。\n\n 実行方法\n\n\nTypeScript のインストール\n\n      \n        \n        # npm\nnpm i -D typescript\n\n# yarn\nyarn add typescript --dev\n\n\n      \n      \n\nコンパイル\n下記コマンドを入力することで(エラーがなければ) hoge.js が生成されます。\n\n      \n        \n        tsc hoge.ts\n\n\n      \n      \n\n実行\nhoge....",
+          "link": "https://zenn.dev/mo_ri_regen/articles/nodejs-with-typescript",
+          "publishedOn": "2021-08-25T23:45:47.000Z",
+          "wordCount": 60,
+          "title": "TypeScriptで書かれたJSをNode.js上で実行する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--D0B0UNIM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AA%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258B%25E3%2582%258C%25E3%2581%259FJS%25E3%2582%2592Node.js%25E4%25B8%258A%25E3%2581%25A7%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTE4MDU3NTdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/okoha/articles/1f909a3af0ee0244fe40",
           "author": "夕暮おこは",
@@ -1789,34 +1859,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/mura_chan/articles/e8c85262f54830",
-          "author": "mura_chan",
-          "description": "「空でない配列を表現する型」は需要がありそうで、ググってヒットする日本語の記事が少なかった（和訳されたサイトはあったが純粋な日本語の記事はすぐに出てこなかった）ため、ひとつくらいすぐにヒットする日本語の記事があればと思い、記事にします。\nいきなりですがコードは以下です。\n\n      \n        \n        type NonEmptyArray<T> = [T, ...T[]];\n\n\n      \n      \n      \n        \n        // コンパイルエラー\nconst numbers: NonEmptyArray<number>...",
-          "link": "https://zenn.dev/mura_chan/articles/e8c85262f54830",
-          "publishedOn": "2021-07-27T16:01:35.000Z",
-          "wordCount": 67,
-          "title": "Typescriptで空でない配列を型で表現する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--AMyij0js--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mura_chan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Typescript%25E3%2581%25A7%25E7%25A9%25BA%25E3%2581%25A7%25E3%2581%25AA%25E3%2581%2584%25E9%2585%258D%25E5%2588%2597%25E3%2582%2592%25E5%259E%258B%25E3%2581%25A7%25E8%25A1%25A8%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dvRGRPZUxRTGV3TWRYYVg4c0RmelFtaXFVZFRPaThQQ3MxenMtZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/acro5piano/articles/32a71345ea35cd",
-          "author": "五所和哉",
-          "description": "I've created a tiny library which improves performance for GraphQL + Knex.\n\n tl;dr\n\n Before\n\n\n After\n\n\nFilter select columns based on a query from clients\nLoad relations without N+1 problem (pagination available!)\n\nhttps://github.com/acro5piano/knex-graphql-utils\nCurrently only PostgreSQL is supp...",
-          "link": "https://zenn.dev/acro5piano/articles/32a71345ea35cd",
-          "publishedOn": "2021-07-27T14:55:26.000Z",
-          "wordCount": 163,
-          "title": "Improve GraphQL server performance with knex-graphql-utils",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--0qhWtteP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E4%25BA%2594%25E6%2589%2580%25E5%2592%258C%25E5%2593%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Improve%2520GraphQL%2520server%2520performance%2520with%2520knex-graphql-utils%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPdDhnaDhYVEJ3VjFmU0FGTG5kMU9WTExTaGc4dUpiaml3Y2FILWFZPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1825,6 +1867,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/shougo/articles/ddc-vim-beta",
+          "author": "Shougo",
+          "description": "始めに\nここ数ヵ月力を入れてddc.vimの開発をしていて、ようやく一通りの機能がそろいました\nので、広くユーザーに使ってもらうフェーズに進めたいと考えています。\nユーザーからの要望やバグ報告に対応が終わってから正式版の1.0となりますのでよろし\nくお願いします。\n\n ddc.vim の特徴\n\n Vim8/neovim 両対応\ndeoplete.nvimでもvim-hug-neovim-rpcを用いることによりVimに対応していました。\nしかしインストールが煩雑になる、neovimと比較してパフォーマンスに問題がある、安\n定性への問題がありました。\nddc.vimではdenops.v...",
+          "link": "https://zenn.dev/shougo/articles/ddc-vim-beta",
+          "publishedOn": "2021-08-26T11:19:39.000Z",
+          "wordCount": 392,
+          "title": "新世代の自動補完プラグイン ddc.vim",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0Cdb6vk0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Shougo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%2596%25B0%25E4%25B8%2596%25E4%25BB%25A3%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E8%25A3%259C%25E5%25AE%258C%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%2520ddc.vim%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2llTXlqT3huMG12REN6SFFNMWZNeGlYd3Z4dmw5cVk1ZzVBN2lWPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/bun913/articles/f18e0d37ece27b",
           "author": "bun",
@@ -1936,20 +1992,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/purenium/articles/50facb02e93cbd",
-          "author": "mumei",
-          "description": "Vim/Neovim のファイラープラグイン ferm.vim についての記事です。\n\n 環境\nUbuntu 20.04 LTS(WSL2)\nNeovim 0.6.0\n\n 事象と解決\n.prettierrc、.gitignore などのドットで始まるファイルが含まれているフォルダがあるとします。\n\nこれを fern.vim で表示します。すると、.prettierrc などは、表示されないようです。\n\nこれを表示するにはどうすればよいでしょうか。\ninit.vim などの設定ファイルに以下を記述します。\n\n      \n        init.vim\n        let g:fer...",
-          "link": "https://zenn.dev/purenium/articles/50facb02e93cbd",
-          "publishedOn": "2021-07-28T11:02:24.000Z",
-          "wordCount": 50,
-          "title": "【Vim/Neovim】fern.vim で隠しファイル(\".\"などで始まるファイル）を表示する。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--VOIWpWFe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mumei%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Vim%252FNeovim%25E3%2580%2591fern.vim%2520%25E3%2581%25A7%25E9%259A%25A0%25E3%2581%2597%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%2528%2522.%2522%25E3%2581%25AA%25E3%2581%25A9%25E3%2581%25A7%25E5%25A7%258B%25E3%2581%25BE%25E3%2582%258B%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25EF%25BC%2589%25E3%2582%2592%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDgwNTdlNWJlNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1958,6 +2000,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40",
+          "author": "おしうみなおき",
+          "description": "vue.jsで非同期処理をまとめて処理したい場合があります。\n普通に1つ1つ処理を待つ場合は async - awaitで良いのですが、それだと1つずつしか処理できないので、どうしても処理が遅くなってしまいます。\nそんな時は、 Promise.all を使えば、複数の非同期処理をまとめて処理しつつ、全ての処理が完了したら次に行きますよー！というふうにできます。\n\n      \n        \n        // 非同期をまとめて処理する\nasync process() {\n    await Promise.all([\n        this.methodA(),\n\tthis.me...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40",
+          "publishedOn": "2021-08-26T23:52:48.000Z",
+          "wordCount": 38,
+          "title": "vueで非同期処理をまとめて処理する際のベストプラクティス",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LfUlgPWb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue%25E3%2581%25A7%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E5%2587%25A6%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AE%25E3%2583%2599%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/moroshi/articles/24a8bd494ee67c",
+          "author": "moroshi",
+          "description": "はじめに\n\n 経緯\nSPA(single page application)をvue.js + vuetifyで作成し、Laravelを作成したAPIサーバーと連携する環境をよく構築する。\nそれと関連して、ちょっとしたクリーンな検証環境をサクッと作りたくなることがあるため、dockerでそれらしい環境を作成しようと思ったのがことの始まり。\n以下、\"それらしい環境\"の作成手順を残す。\n\n 前提\n環境や使うツールは以下のとおり\n\n 環境\n\nWindows 10 Pro 64bit\nDocker Desktop for Windows (on Hyper-V), Version 3.6.0...",
+          "link": "https://zenn.dev/moroshi/articles/24a8bd494ee67c",
+          "publishedOn": "2021-08-26T12:04:56.000Z",
+          "wordCount": 844,
+          "title": "vuetify v2の環境をDockerで気軽に作る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--11VzaZxP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:moroshi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuetify%2520v2%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592Docker%25E3%2581%25A7%25E6%25B0%2597%25E8%25BB%25BD%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWYyODk0MjM2Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525",
           "author": "UedaTakeyuki",
@@ -2388,20 +2458,6 @@
           "title": "住所で検索可能な周辺情報 GraphQL/SPARQL API",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--2BTgW-GJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uedayou%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E4%25BD%258F%25E6%2589%2580%25E3%2581%25A7%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AA%25E5%2591%25A8%25E8%25BE%25BA%25E6%2583%2585%25E5%25A0%25B1%2520GraphQL%252FSPARQL%2520API%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjE1ODQxMjJlMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
-          "author": "dialbird",
-          "description": "まずはHasura Cloudでプロジェクトを作っておきましょう\nhttps://hasura.io/docs/latest/graphql/cloud/projects/create.html\n接続に必要なGraphQLのAPIエンドポイントと、アクセス時にヘッダーに必要なAdmin Secretを控えておきます\n\n次にNuxtプロジェクトをnpxで作ります\n\n      \n        \n        $ npx create-nuxt-app nuxt-composable-hasura\n\n\n      \n      次に必要なライブラリ群をインストールしていきましょう（各ライ...",
-          "link": "https://zenn.dev/dialbird/articles/a63e9f1c838462",
-          "publishedOn": "2021-07-27T13:13:32.000Z",
-          "wordCount": 237,
-          "title": "Nuxt x Composition API x Hasura x TypeScriptを実装する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--0D0rDbAG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dialbird%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Nuxt%2520x%2520Composition%2520API%2520x%2520Hasura%2520x%2520TypeScript%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lYZl96c2pGMDVnZlVCaUJYR1NwVlB3aXFYZlJKTElqWFlHYkVPdGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
