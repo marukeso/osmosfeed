@@ -55,6 +55,34 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
+          "author": "空雲",
+          "description": "Web-WorkerとWeb-Assemblyの連携に関して\nWeb-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます\n対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます\nならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう\nしかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます\nその辺りを簡単に実現するための方法を紹介します\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker3\nhttps://next-wo...",
+          "link": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
+          "publishedOn": "2021-08-27T12:32:02.000Z",
+          "wordCount": 391,
+          "title": "Next.jsでWeb-WorkerからWeb-Assembly呼び出す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s---mG3_wf---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2581%258B%25E3%2582%2589Web-Assembly%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/catnose99/articles/49c12f84182bdf",
+          "author": "CatNose",
+          "description": "前提: TypeScript + Next.js + svgrでSVGをインポートする\n自分の関わっているNext.js製アプリケーションでは、svgrを導入することによりSVGを他のReactコンポーネントと同じ形でimportできるようにしています。\nこの記事の本筋からそれますが、svgrは以下のようにNext.jsへの導入できます。\n↓ インストール\n\n      \n        \n        $ npm install --save-dev @svgr/webpack\n\n\n      \n      ↓ @svgr/webpackをWebpackのloaderとして設定し...",
+          "link": "https://zenn.dev/catnose99/articles/49c12f84182bdf",
+          "publishedOn": "2021-08-27T06:12:13.000Z",
+          "wordCount": 225,
+          "title": "Next.js + TypeScriptでimportしたSVGの型がanyになってしまう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--s4l7BZUT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:CatNose%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%2520%252B%2520TypeScript%25E3%2581%25A7import%25E3%2581%2597%25E3%2581%259FSVG%25E3%2581%25AE%25E5%259E%258B%25E3%2581%258Cany%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzZjNjE0YTFmYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
           "author": "きじくん",
           "description": "はじめに\n初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。\n普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。\n今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。\n\n過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...",
@@ -655,20 +683,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yuyakato/articles/e96b9d8ec289cc",
-          "author": "Yuya Kato",
-          "description": "初めに\n先日、InsightFaceとFastAPIを使った顔検出サーバを実装し、「InsightFaceとFastAPIで顔検出サーバを作ってみた」という記事を書きました。\n先の記事の中では検出結果として数値が出力されているだけで、どのような結果なのかが確認しづらい状態でした。\n今回はその結果を、Next.jsを使って可視化してみたいと思います。\nなお本記事には、Next.js自体に関する説明は一切ありません。ご了承ください。\n\n 実行例\n文章で説明するよりも実行例を見た方が早いと思うので、女性1人、男女2人ずつが写った画像の認識結果を以下に示します。\nなお、画像はぱくたそから以下...",
-          "link": "https://zenn.dev/yuyakato/articles/e96b9d8ec289cc",
-          "publishedOn": "2021-07-28T17:07:20.000Z",
-          "wordCount": 117,
-          "title": "InsightFaceの顔検出結果をNext.jsで可視化してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--o6yX6bk3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuya%2520Kato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:InsightFace%25E3%2581%25AE%25E9%25A1%2594%25E6%25A4%259C%25E5%2587%25BA%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592Next.js%25E3%2581%25A7%25E5%258F%25AF%25E8%25A6%2596%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUSUhmX2JGaE1tcVp0aDNYQUI2NFY0aGRnNlJWbE5CbjVhZmQzdXc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -774,20 +788,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer",
-          "author": "はるのん",
-          "description": "VuetifyのDialogを使ってv-cardを表示させたときにFooterを画面内に固定させる方法を備忘録程度に。\n\n 完成形\nせっかちめな人はこちらを参考に。\n\n\n Buttonを用意してダイアログを作成\n\n      \n         sample.vue\n           <v-dialog\n      v-model=\"dialog\"\n      scrollable\n      max-width=\"300px\"\n    >\n      <template v-slot:activator=\"{ on, attrs }\">\n        &l...",
-          "link": "https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer",
-          "publishedOn": "2021-07-28T14:05:45.000Z",
-          "wordCount": 189,
-          "title": "v-dialogでv-cardを開いたときにFooterを固定させてスクロールする方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--UvhGSu8W--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AF%25E3%2582%258B%25E3%2581%25AE%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:v-dialog%25E3%2581%25A7v-card%25E3%2582%2592%25E9%2596%258B%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25ABFooter%25E3%2582%2592%25E5%259B%25BA%25E5%25AE%259A%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hFQzVyNG9mYTlYSDVYWnJoSGVmRkFEZGhWcVU2aV9vX3ljV3UyeUlJPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -796,6 +796,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
+          "author": "空雲",
+          "description": "Web-WorkerとWeb-Assemblyの連携に関して\nWeb-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます\n対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます\nならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう\nしかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます\nその辺りを簡単に実現するための方法を紹介します\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker3\nhttps://next-wo...",
+          "link": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
+          "publishedOn": "2021-08-27T12:32:02.000Z",
+          "wordCount": 391,
+          "title": "Next.jsでWeb-WorkerからWeb-Assembly呼び出す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s---mG3_wf---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2581%258B%25E3%2582%2589Web-Assembly%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
           "author": "きじくん",
@@ -1817,48 +1831,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe",
-          "author": "shin",
-          "description": "趣旨\nChrome の WebRTC で使える代表的なコーデックの RTP Payload をパースして RTP パケットのキーフレーム判定を行う方法についてまとめます。\n\n RTP Payload とは\n\n      \n        \n              0                   1                   2                   3\n      0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1\n     +-+-+-+-+-+-+-+-+-+-+-+-...",
-          "link": "https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe",
-          "publishedOn": "2021-07-29T11:35:37.000Z",
-          "wordCount": 1455,
-          "title": "RTP Payloadのキーフレーム判定方法 VP8/VP9/H264/AV1 編",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--OtlEO3Sk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shin%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:RTP%2520Payload%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E5%2588%25A4%25E5%25AE%259A%25E6%2596%25B9%25E6%25B3%2595%2520VP8%252FVP9%252FH264%252FAV1%2520%25E7%25B7%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dlQ0NSdmkyZDMwY2loVUYybjZEbEJ5SERIRzQ5SlBLU1pqa1NhaEE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact",
-          "author": "shztmk",
-          "description": "動機\nJavaScript ( や TypeScript などの AltJS ) で記述されたプロジェクトをデプロイするとき、対象となるサービスに設定されたデプロイパッケージの容量制限を意識せねばならない場合があります。 そういった目的のために、この記事では node_modules パッケージの容量を減らす方法についてまとめます。\nnode_modules のサイズについては、以下のコマンドなどで確認できます。\n\n      \n        \n        $ du -d 1 -kh ./node_modules | sort -hr | head -50\n\n\n      \n ...",
-          "link": "https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact",
-          "publishedOn": "2021-07-29T11:08:36.000Z",
-          "wordCount": 276,
-          "title": "Node.js/成果物に含まれる node_modules を減量する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--5lSwd4_8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shztmk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Node.js%252F%25E6%2588%2590%25E6%259E%259C%25E7%2589%25A9%25E3%2581%25AB%25E5%2590%25AB%25E3%2581%25BE%25E3%2582%258C%25E3%2582%258B%2520node_modules%2520%25E3%2582%2592%25E6%25B8%259B%25E9%2587%258F%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODZiMTI4NjZkYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/acro5piano/articles/388b504289ccaa",
-          "author": "五所和哉",
-          "description": "Node.js の RDB 向けの Query Builder は Knex が有名ですが、 Kysely というのが台頭しそうな予感がします。\nhttps://github.com/koskimas/kysely\nKnex と非常に似た構文をしていますが、大きな違いは、 TypeScript で書かれている ことです。 TS 4.1 で導入された Template Literal Type を駆使し、複雑な Join や As を使ったエイリアスでも可能な限り型推論できるようになっています。\n作者の Koskimas 氏は Knex を利用した ORM である Objection.js...",
-          "link": "https://zenn.dev/acro5piano/articles/388b504289ccaa",
-          "publishedOn": "2021-07-29T08:40:08.000Z",
-          "wordCount": 120,
-          "title": "Kysely が Knex をリプレイスする日も近いかもしれない",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--vjYSpsgB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E4%25BA%2594%25E6%2589%2580%25E5%2592%258C%25E5%2593%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Kysely%2520%25E3%2581%258C%2520Knex%2520%25E3%2582%2592%25E3%2583%25AA%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%25E6%2597%25A5%25E3%2582%2582%25E8%25BF%2591%25E3%2581%2584%25E3%2581%258B%25E3%2582%2582%25E3%2581%2597%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPdDhnaDhYVEJ3VjFmU0FGTG5kMU9WTExTaGc4dUpiaml3Y2FILWFZPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2000,6 +1972,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/5a69cbcca75113",
+          "author": "azukiazusa",
+          "description": "結論\nオプションとしてcustomProperties:trueを渡します。\n\n      \n        \n        import Vue from 'vue'\nimport Vuetify from 'vuetify/lib'\n\nVue.use(Vuetify)\n\nexport default new Vuetify({\n  theme: {\n    themes: {\n      light: {\n        main: '#D7F9F1',\n        secondary: '#7AA095',\n      }\n    },\n    options: { cu...",
+          "link": "https://zenn.dev/azukiazusa/articles/5a69cbcca75113",
+          "publishedOn": "2021-08-27T09:54:35.000Z",
+          "wordCount": 241,
+          "title": "VuetifyのテーマをCSS変数として使用する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ka3j8SfY--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vuetify%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25BC%25E3%2583%259E%25E3%2582%2592CSS%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/compiled_oz/articles/a8edecc6c39713",
+          "author": "Oz",
+          "description": "Vue.js is 何？\nVue.jsはシンプルなMVVM構造のプログレッシブフレームワークで、\nModel、View、ViewModelの３つでアプリケーションを構築する。\n\n データバインディング\nデータバインディングを行うにはテンプレートで使用する全てのデータはリアクティブデータとして定義する必要がある\n\n ディレクティブ\nvから始まるViewの要素に付加できる独自の属性のこと。\nv-if、v-show、v-for、v-model、v-bind、v-onなどがある。\nHTMLのクラスを動的に制御したり、イベントをハンドルできる。\n\nv-on:イベントハンドラ\nv-model:双...",
+          "link": "https://zenn.dev/compiled_oz/articles/a8edecc6c39713",
+          "publishedOn": "2021-08-27T05:53:53.000Z",
+          "wordCount": 397,
+          "title": "Vue.js入門",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s---X8noaM3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Oz%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue.js%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2gxLTQ4QzBya1c5T3FFMHhJSHJvYU1MUGR6NTNwQUtBV0lNWmJnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40",
           "author": "おしうみなおき",

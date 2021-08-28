@@ -2,10 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-27T01:08:19.143Z</updated>
+    <updated>2021-08-28T00:59:52.305Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでWeb-WorkerからWeb-Assembly呼び出す]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/5b031d682d3fe2</id>
+        <link href="https://zenn.dev/sora_kumo/articles/5b031d682d3fe2"/>
+        <updated>2021-08-27T12:32:02.000Z</updated>
+        <summary type="html"><![CDATA[Web-WorkerとWeb-Assemblyの連携に関して
+Web-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます
+対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます
+ならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう
+しかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます
+その辺りを簡単に実現するための方法を紹介します
+
+ サンプル置き場
+https://github.com/SoraKumo001/next-worker3
+https://next-wo...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでWeb-WorkerからWeb-Assembly呼び出す]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/5b031d682d3fe2</id>
+        <link href="https://zenn.dev/sora_kumo/articles/5b031d682d3fe2"/>
+        <updated>2021-08-27T12:32:02.000Z</updated>
+        <summary type="html"><![CDATA[Web-WorkerとWeb-Assemblyの連携に関して
+Web-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます
+対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます
+ならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう
+しかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます
+その辺りを簡単に実現するための方法を紹介します
+
+ サンプル置き場
+https://github.com/SoraKumo001/next-worker3
+https://next-wo...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VuetifyのテーマをCSS変数として使用する]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/5a69cbcca75113</id>
+        <link href="https://zenn.dev/azukiazusa/articles/5a69cbcca75113"/>
+        <updated>2021-08-27T09:54:35.000Z</updated>
+        <summary type="html"><![CDATA[結論
+オプションとしてcustomProperties:trueを渡します。
+
+      
+        
+        import Vue from 'vue'
+import Vuetify from 'vuetify/lib'
+
+Vue.use(Vuetify)
+
+export default new Vuetify({
+  theme: {
+    themes: {
+      light: {
+        main: '#D7F9F1',
+        secondary: '#7AA095',
+      }
+    },
+    options: { cu...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + TypeScriptでimportしたSVGの型がanyになってしまう]]></title>
+        <id>https://zenn.dev/catnose99/articles/49c12f84182bdf</id>
+        <link href="https://zenn.dev/catnose99/articles/49c12f84182bdf"/>
+        <updated>2021-08-27T06:12:13.000Z</updated>
+        <summary type="html"><![CDATA[前提: TypeScript + Next.js + svgrでSVGをインポートする
+自分の関わっているNext.js製アプリケーションでは、svgrを導入することによりSVGを他のReactコンポーネントと同じ形でimportできるようにしています。
+この記事の本筋からそれますが、svgrは以下のようにNext.jsへの導入できます。
+↓ インストール
+
+      
+        
+        $ npm install --save-dev @svgr/webpack
+
+
+      
+      ↓ @svgr/webpackをWebpackのloaderとして設定し...]]></summary>
+        <author>
+            <name>CatNose</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue.js入門]]></title>
+        <id>https://zenn.dev/compiled_oz/articles/a8edecc6c39713</id>
+        <link href="https://zenn.dev/compiled_oz/articles/a8edecc6c39713"/>
+        <updated>2021-08-27T05:53:53.000Z</updated>
+        <summary type="html"><![CDATA[Vue.js is 何？
+Vue.jsはシンプルなMVVM構造のプログレッシブフレームワークで、
+Model、View、ViewModelの３つでアプリケーションを構築する。
+
+ データバインディング
+データバインディングを行うにはテンプレートで使用する全てのデータはリアクティブデータとして定義する必要がある
+
+ ディレクティブ
+vから始まるViewの要素に付加できる独自の属性のこと。
+v-if、v-show、v-for、v-model、v-bind、v-onなどがある。
+HTMLのクラスを動的に制御したり、イベントをハンドルできる。
+
+v-on:イベントハンドラ
+v-model:双...]]></summary>
+        <author>
+            <name>Oz</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vueで非同期処理をまとめて処理する際のベストプラクティス]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40</id>
@@ -3728,102 +3838,6 @@ https://www.youtube.com/watch?v=IWcUbVnQxkw
         impo...]]></summary>
         <author>
             <name>Hiro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RTP Payloadのキーフレーム判定方法 VP8/VP9/H264/AV1 編]]></title>
-        <id>https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe</id>
-        <link href="https://zenn.dev/shinyoshiaki/articles/rtp-payload-keyframe"/>
-        <updated>2021-07-29T11:35:37.000Z</updated>
-        <summary type="html"><![CDATA[趣旨
-Chrome の WebRTC で使える代表的なコーデックの RTP Payload をパースして RTP パケットのキーフレーム判定を行う方法についてまとめます。
-
- RTP Payload とは
-
-      
-        
-              0                   1                   2                   3
-      0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
-     +-+-+-+-+-+-+-+-+-+-+-+-...]]></summary>
-        <author>
-            <name>shin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node.js/成果物に含まれる node_modules を減量する]]></title>
-        <id>https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact</id>
-        <link href="https://zenn.dev/shztmk/articles/04_reduce_dependency_of_artefact"/>
-        <updated>2021-07-29T11:08:36.000Z</updated>
-        <summary type="html"><![CDATA[動機
-JavaScript ( や TypeScript などの AltJS ) で記述されたプロジェクトをデプロイするとき、対象となるサービスに設定されたデプロイパッケージの容量制限を意識せねばならない場合があります。 そういった目的のために、この記事では node_modules パッケージの容量を減らす方法についてまとめます。
-node_modules のサイズについては、以下のコマンドなどで確認できます。
-
-      
-        
-        $ du -d 1 -kh ./node_modules | sort -hr | head -50
-
-
-      
- ...]]></summary>
-        <author>
-            <name>shztmk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kysely が Knex をリプレイスする日も近いかもしれない]]></title>
-        <id>https://zenn.dev/acro5piano/articles/388b504289ccaa</id>
-        <link href="https://zenn.dev/acro5piano/articles/388b504289ccaa"/>
-        <updated>2021-07-29T08:40:08.000Z</updated>
-        <summary type="html"><![CDATA[Node.js の RDB 向けの Query Builder は Knex が有名ですが、 Kysely というのが台頭しそうな予感がします。
-https://github.com/koskimas/kysely
-Knex と非常に似た構文をしていますが、大きな違いは、 TypeScript で書かれている ことです。 TS 4.1 で導入された Template Literal Type を駆使し、複雑な Join や As を使ったエイリアスでも可能な限り型推論できるようになっています。
-作者の Koskimas 氏は Knex を利用した ORM である Objection.js...]]></summary>
-        <author>
-            <name>五所和哉</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[InsightFaceの顔検出結果をNext.jsで可視化してみた]]></title>
-        <id>https://zenn.dev/yuyakato/articles/e96b9d8ec289cc</id>
-        <link href="https://zenn.dev/yuyakato/articles/e96b9d8ec289cc"/>
-        <updated>2021-07-28T17:07:20.000Z</updated>
-        <summary type="html"><![CDATA[初めに
-先日、InsightFaceとFastAPIを使った顔検出サーバを実装し、「InsightFaceとFastAPIで顔検出サーバを作ってみた」という記事を書きました。
-先の記事の中では検出結果として数値が出力されているだけで、どのような結果なのかが確認しづらい状態でした。
-今回はその結果を、Next.jsを使って可視化してみたいと思います。
-なお本記事には、Next.js自体に関する説明は一切ありません。ご了承ください。
-
- 実行例
-文章で説明するよりも実行例を見た方が早いと思うので、女性1人、男女2人ずつが写った画像の認識結果を以下に示します。
-なお、画像はぱくたそから以下...]]></summary>
-        <author>
-            <name>Yuya Kato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v-dialogでv-cardを開いたときにFooterを固定させてスクロールする方法]]></title>
-        <id>https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer</id>
-        <link href="https://zenn.dev/harunonsystem/articles/vuetify_v_card_and_footer"/>
-        <updated>2021-07-28T14:05:45.000Z</updated>
-        <summary type="html"><![CDATA[VuetifyのDialogを使ってv-cardを表示させたときにFooterを画面内に固定させる方法を備忘録程度に。
-
- 完成形
-せっかちめな人はこちらを参考に。
-
-
- Buttonを用意してダイアログを作成
-
-      
-         sample.vue
-           <v-dialog
-      v-model="dialog"
-      scrollable
-      max-width="300px"
-    >
-      <template v-slot:activator="{ on, attrs }">
-        &l...]]></summary>
-        <author>
-            <name>はるのん</name>
         </author>
     </entry>
 </feed>
