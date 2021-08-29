@@ -2,10 +2,166 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-28T00:59:52.305Z</updated>
+    <updated>2021-08-29T01:05:59.918Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[fish, neovim, starshipあたりでめっかわ❤️ターミナルを用意する]]></title>
+        <id>https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab</id>
+        <link href="https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab"/>
+        <updated>2021-08-28T02:41:59.000Z</updated>
+        <summary type="html"><![CDATA[デフォルトのシェルだと色があまりついていないし、可愛くもなくてつらい気持ちになったのでかわいくします。dotfilesの存在は知っていたが何から触ればいいのやらな人向け。
+
+ だいたい導入するもの
+
+
+fish
+
+bashとかzshの変わりに使う
+historyをGUIで見ることができたり、シンタックスハイライトをデフォルトでしてくれたり、入力補完をデフォルトでしてくれたりする
+なので設定めんどくさい人でも入れるだけでちょっとハッピー
+
+
+
+tmux
+
+ターミナルのペインとか良い感じに分割したりセッション保存してくれたり
+
+
+
+neovim
+
+vimのすごいやつ
+いれなくても良い気はした...]]></summary>
+        <author>
+            <name>ぴよまる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yupで配列内のオブジェクトのプロパティがユニークであることを検証する方法]]></title>
+        <id>https://zenn.dev/rince/articles/4e35e52e0e158d</id>
+        <link href="https://zenn.dev/rince/articles/4e35e52e0e158d"/>
+        <updated>2021-08-28T01:49:17.000Z</updated>
+        <summary type="html"><![CDATA[バリデーション用ライブラリ Yup で、配列内のオブジェクトのプロパティが重複していないことを検証する方法。
+READMEには重複チェックについて書かれていなかったのでまとめておく。
+例えば、url と caption を持つオブジェクトの配列で url がユニークであることを検証する場合、こんな感じに書ける。
+
+      
+        
+        import * as yup from "yup";
+
+const objectSchema = yup.object().shape({
+  url: yup.string().url(),
+  caption: yup.st...]]></summary>
+        <author>
+            <name>rince</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[firebase v9でupdateが(少し)型安全になりました]]></title>
+        <id>https://zenn.dev/arark/articles/60927323db8697</id>
+        <link href="https://zenn.dev/arark/articles/60927323db8697"/>
+        <updated>2021-08-27T16:05:00.000Z</updated>
+        <summary type="html"><![CDATA[先日ついにfirebase v9が リリースされました
+知っている限り、v9ではモジュール式(ESM?)になっただけで、バンドルサイズの最適化以外の機能はないのですが、updateに関しては型定義での更新があったので紹介します。
+
+ v9の使い方
+少しv9の使い方を紹介します。v8までのようにクラスで実装するとtree shakeしづらいので、全て関数になりました。
+
+      
+        
+        import { initializeApp } from "firebase/app";
+const app = initializeApp({ projectId: "....]]></summary>
+        <author>
+            <name>arark</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blitz.js 学習記録 #1 - blitz generate]]></title>
+        <id>https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9</id>
+        <link href="https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9"/>
+        <updated>2021-08-27T14:59:06.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。
+
+ 1. blitz generate
+
+      
+        
+        blitz generate [type] [model]
+
+
+      
+      もしくは
+
+      
+        
+        blitz g [type] [model]
+
+
+    ...]]></summary>
+        <author>
+            <name>きじくん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blitz.js 学習記録 #1 - blitz generate]]></title>
+        <id>https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9</id>
+        <link href="https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9"/>
+        <updated>2021-08-27T14:59:06.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。
+
+ 1. blitz generate
+
+      
+        
+        blitz generate [type] [model]
+
+
+      
+      もしくは
+
+      
+        
+        blitz g [type] [model]
+
+
+    ...]]></summary>
+        <author>
+            <name>きじくん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + Emotion(css関数) でスタイリングする]]></title>
+        <id>https://zenn.dev/rabbit/articles/e7376c9fce90db</id>
+        <link href="https://zenn.dev/rabbit/articles/e7376c9fce90db"/>
+        <updated>2021-08-27T14:02:12.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsの環境でEmotionのcss関数でスタイリングを行う際に少し手間取ったのでその忘備録。
+
+ 設定する
+
+ emotionを追加
+
+      
+        
+        yarn add @emotion/react
+
+
+      
+      https://emotion.sh/docs/@emotion/react
+tsconfig.jsonにjsxImportSourceパラメーターを追加する。
+※ これが設定できていないとcss属性をpropできないので詰む。
+
+      
+        
+        {
+  "compilerOptions"...]]></summary>
+        <author>
+            <name>hanetsuki</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.jsでWeb-WorkerからWeb-Assembly呼び出す]]></title>
         <id>https://zenn.dev/sora_kumo/articles/5b031d682d3fe2</id>
@@ -3762,82 +3918,6 @@ console.log(password(9));
 第2引数に文字配列を指定すると、生成時に使用する文字を変更出...]]></summary>
         <author>
             <name>Karibash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AmplifyでNext.js11系がサポート対象となりました]]></title>
-        <id>https://zenn.dev/thim/articles/e16dd195fdee816a868c</id>
-        <link href="https://zenn.dev/thim/articles/e16dd195fdee816a868c"/>
-        <updated>2021-07-30T10:40:41.000Z</updated>
-        <summary type="html"><![CDATA[https://docs.aws.amazon.com/amplify/latest/userguide/server-side-rendering-amplify.html
-以下、公式ドキュメントより引用
-
-When you deploy a new Next.js app with Amplify, by default Amplify uses the most recent supported version of Next.js. Currently, Amplify supports Next.js version 11.
-
-
-Amplify で新しい Next.js アプリ...]]></summary>
-        <author>
-            <name>thim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「JupyterNotebookを一瞬で記事にするプラットフォーム」Noteboxの現在の技術スタック]]></title>
-        <id>https://zenn.dev/fasdfas/articles/839bfc5160a81e</id>
-        <link href="https://zenn.dev/fasdfas/articles/839bfc5160a81e"/>
-        <updated>2021-07-30T06:22:29.000Z</updated>
-        <summary type="html"><![CDATA[Noteboxとは
-Noteboxは、「Jupyter Notebookを一瞬でブログ化」がコンセントのサービスです。それ以外はこちらのZennやQiitaと同じようなブログサービスですが、Jupyter Notebookを使う人、つまりデータサイエンスなどのサイエンス領域に特化したプラットフォームです。→https://notebox.jp
-動画は↓
-https://www.youtube.com/watch?v=IWcUbVnQxkw
-
- Noteboxができたきっかけ
-実は最初はまったく別のプロダクトを作っていました。そのプロダクト上で、Djangoで作ったCMSがあり、「Ju...]]></summary>
-        <author>
-            <name>Naoya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript & Context APIのdefaultValueの書き方]]></title>
-        <id>https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab</id>
-        <link href="https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab"/>
-        <updated>2021-07-29T17:54:22.000Z</updated>
-        <summary type="html"><![CDATA[TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。
-なぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！
-初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。
-
- エラーの内容
-
-与えられた型にcountプロパティが存在しません！
-
- as をつかって型を与える方法
-
-      
-        CountProvider.tsx
-        impo...]]></summary>
-        <author>
-            <name>Hiro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript & Context APIのdefaultValueの書き方]]></title>
-        <id>https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab</id>
-        <link href="https://zenn.dev/hiro4hiro4/articles/a19d1f5c9b6eab"/>
-        <updated>2021-07-29T17:54:22.000Z</updated>
-        <summary type="html"><![CDATA[TypeScriptを書くようになって約6ヶ月経ちました。以前は下記のような書き方をしていましたが、最近新たにプロジェクトを作るとこの書き方では ts(2339) エラーが発生するようになりました。
-なぜそのエラーが発生するかの原因はまだ掴めていないのですが、取り急ぎこちらを解決する方法を調べたのでまとめます！
-初投稿＆走り書きとなるので今後新たな知見を得たらカイゼンしていこうと思います。
-
- エラーの内容
-
-与えられた型にcountプロパティが存在しません！
-
- as をつかって型を与える方法
-
-      
-        CountProvider.tsx
-        impo...]]></summary>
-        <author>
-            <name>Hiro</name>
         </author>
     </entry>
 </feed>
