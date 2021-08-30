@@ -55,6 +55,76 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
+          "author": "otanu",
+          "description": "先日、Next.js 11.1がリリースされました。\nhttps://nextjs.org/blog/next-11-1\nStorybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。\n構成は以下のようになっています。\n\nyarn\nNext.js v11.1.0\nESLint v7.32.0(Next.js v11.1から含まれるように)\nTypeScript v4.4.2\nTailwind v2.2.8\nStorybook v6.3\nPrettier v2.3.2\nJest v27.1.0\n\nコー...",
+          "link": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
+          "publishedOn": "2021-08-29T10:19:30.000Z",
+          "wordCount": 540,
+          "title": "Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--yxWEstlL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:otanu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2528v11.1%2529%252BTypeScript%252BTailwind%252BSASS%252BStorybook%252BJest%25E3%2581%25AE%25E3%2583%259C%25E3%2582%25A4%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzM0ZjNjYTg5OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/crea7/articles/5b2fde4be6b6f3",
+          "author": "Crea7",
+          "description": "以前Crea7というタイムラインとブログ機能を持ったサイトを作成した時に、Next.js + microCMS + Tailwind CSSで実装を行いました。\n\n 問題点\n記事の詳細画面では、microCMSのリッチエディタで作成した記事を、HTML形式で取得しinnerHTMLで表示を行なっています。\n\n      \n        \n        <div\nclassName=\"text-black pt-7\"\ndangerouslySetInnerHTML={{ __html: `${article.body}` }}\n></div>\n\n\n      \n...",
+          "link": "https://zenn.dev/crea7/articles/5b2fde4be6b6f3",
+          "publishedOn": "2021-08-29T09:57:18.000Z",
+          "wordCount": 80,
+          "title": "microCMS + TailwindCSSでのHTMLコンテンツに対するスタイル適用",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--EPjxoynv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Crea7%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:microCMS%2520%252B%2520TailwindCSS%25E3%2581%25A7%25E3%2581%25AEHTML%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2584%25E3%2581%25AB%25E5%25AF%25BE%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B9%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%25AB%25E9%2581%25A9%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGU2MjZkZDdmNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/peg/articles/bca7b0ba13bce3",
+          "author": "ぺい",
+          "description": "https://qiita.com/G-awa/items/639f4f83aa4d97bc1f0d\nこちらのサンプルプロジェクトを利用。\nserveパッケージで静的ファイルをホスティングするローカルサーバーを立ち上げる。\n\n      \n        \n        yarn add -D serve\n\n\n      \n      \nhttps://qiita.com/Nossa/items/bdc6a9705e89ea8fc250\nhttps://rennnosukesann.hatenablog.com/entry/2018/03/19/233245\n\nexport, serv...",
+          "link": "https://zenn.dev/peg/articles/bca7b0ba13bce3",
+          "publishedOn": "2021-08-28T14:20:08.000Z",
+          "wordCount": 470,
+          "title": "NextJSでSSR/SSGの挙動を確認する。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zepKBlqG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BA%25E3%2581%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:NextJS%25E3%2581%25A7SSR%252FSSG%25E3%2581%25AE%25E6%258C%2599%25E5%258B%2595%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjU2OGRmNDg3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/thirosue/books/13ac92fc34ae22",
+          "author": "Thirosue",
+          "description": "Next.jsで管理画面のボイラーテンプレートを作成してみました。\n本書では、利用した技術などを紹介していきます。\n\n1. はじめに\n2. プロジェクトセットアップ\n3. 自動デプロイ（CI/CD）\n4. バックエンドの準備\n5. コンポーネント作成（Atomic Design）\n6. 共通処理\n7. 入力フォーム\n8. 状態管理\n9. 非同期処理（react-query）\n10. レンダリングオプション（CSR/SSG/SSR/ISR）\n11. 単体テスト",
+          "link": "https://zenn.dev/thirosue/books/13ac92fc34ae22",
+          "publishedOn": "2021-08-28T12:44:02.000Z",
+          "wordCount": 38,
+          "title": "Next.jsで作成する管理画面作成チュートリアル",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2s_F8f3P--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9mNDkxYzEwMGQxLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/shuri/articles/d63c5d242859d9",
+          "author": "ヴィジュアル系エンジニア",
+          "description": "問題\nNext.js初心者です\nyarn dev後、Google Chromeで Next.jsの開発サーバーを動かしていると、\n\n      \n        \n        ・ リンクを押しても動作しない\n・ リロードすると永遠にページの読み込み中になる\n・ HMRも動いてない\n\n\n      \n      の問題が起きてました\n\n 解決方法\n\n      \n        \n        ・ Google chromeで chrome://serviceworker-internals/ を開く\n・ Scope: localhost:3000 の記載があるサービスワーカーを...",
+          "link": "https://zenn.dev/shuri/articles/d63c5d242859d9",
+          "publishedOn": "2021-08-28T07:49:22.000Z",
+          "wordCount": 47,
+          "title": "Next.jsの開発サーバー（dev server）が動かなくなる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--rKs1YUzq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25B4%25E3%2582%25A3%25E3%2582%25B8%25E3%2583%25A5%25E3%2582%25A2%25E3%2583%25AB%25E7%25B3%25BB%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25EF%25BC%2588dev%2520server%25EF%25BC%2589%25E3%2581%258C%25E5%258B%2595%25E3%2581%258B%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTAyYmE5M2RlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9",
           "author": "きじくん",
           "description": "はじめに\n普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。\n\n 1. blitz generate\n\n      \n        \n        blitz generate [type] [model]\n\n\n      \n      もしくは\n\n      \n        \n        blitz g [type] [model]\n\n\n    ...",
@@ -655,20 +725,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/umireon/articles/2e6add9aa34dbb",
-          "author": "Kaito Udagawa",
-          "description": "たった一つの理由\nnext start （npm run start） の実装にNode.jsでHTTPサーバーを提供される場合に標準的に使用されるexpressが使用されていないからです。（httpモジュールは実装が低レベルすぎるので直接使用するべきではありません）\n\n 長い理由\n\n Next.jsのドキュメントに書いてあるよ？\nNext.jsのドキュメントにはnext startが（一応）プロダクションデプロイに使えるよと書いてあります。\nhttps://nextjs.org/docs/deployment#nodejs-server\nだから、next startを本番で使うこと...",
-          "link": "https://zenn.dev/umireon/articles/2e6add9aa34dbb",
-          "publishedOn": "2021-07-31T01:59:53.000Z",
-          "wordCount": 60,
-          "title": "next startを本番に使用すべきではないたった一つの理由",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--tzboDPTv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kaito%2520Udagawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:next%2520start%25E3%2582%2592%25E6%259C%25AC%25E7%2595%25AA%25E3%2581%25AB%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2581%25B9%25E3%2581%258D%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A3%25E3%2581%259F%25E4%25B8%2580%25E3%2581%25A4%25E3%2581%25AE%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lJR21KSDFPTjlGd28wMTczcnE3bU1xWmNSZVpScEU0YkVSa1dwPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -760,20 +816,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kata_n/articles/2d4744d1bb6ab6",
-          "author": "kata",
-          "description": "Tailwind CSSとは\nユーティリティが用意されているCSSフレームワーク。\nCSSでいうユーティリティとは、あらかじめ用意されたクラスを利用してStyleを当てていくことで、CSSを書く事なくスタイルを当てていく手法です。\n具体的には、クラスを定義した別ファイル（ユーティリティファイル）を用意しておいて、使いたい時にクラス名を書くイメージです。\n\n      \n        ユーティリティファイル\n        .p-10 { padding:10px }\n\n\n      \n      使うときは、\n\n      \n        \n        <h2 clas...",
-          "link": "https://zenn.dev/kata_n/articles/2d4744d1bb6ab6",
-          "publishedOn": "2021-07-31T11:10:31.000Z",
-          "wordCount": 375,
-          "title": "Nuxt.jsにTailwindを初めて使ってみるときのTips",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Q6v2ht8p--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt.js%25E3%2581%25ABTailwind%25E3%2582%2592%25E5%2588%259D%25E3%2582%2581%25E3%2581%25A6%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AETips%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU4MTg1MWM4MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -782,6 +824,62 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/eagle/articles/ts-maybe-introduction",
+          "author": "eagle",
+          "description": "本記事はこの記事の続きです。\nhttps://zenn.dev/eagle/articles/ts-coproduct-introduction\n実用性の観点から割愛したMaybeを改めて紹介します。\n代数的データ型をコードで表現するために次のコード群を使用します。\n\n      \n        \n        type Coproduct<T> = {\n  [K in keyof T]: Record<\"type\", K> & T[K];\n}[keyof T];\n\ntype Individual<TCoproduct extends Recor...",
+          "link": "https://zenn.dev/eagle/articles/ts-maybe-introduction",
+          "publishedOn": "2021-08-29T10:42:49.000Z",
+          "wordCount": 1906,
+          "title": "TypeScriptで学ぶ古典的ADT - Maybe",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--mfDKKF2c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eagle%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E5%25AD%25A6%25E3%2581%25B6%25E5%258F%25A4%25E5%2585%25B8%25E7%259A%2584ADT%2520-%2520Maybe%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTFmZjAxNGQyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
+          "author": "otanu",
+          "description": "先日、Next.js 11.1がリリースされました。\nhttps://nextjs.org/blog/next-11-1\nStorybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。\n構成は以下のようになっています。\n\nyarn\nNext.js v11.1.0\nESLint v7.32.0(Next.js v11.1から含まれるように)\nTypeScript v4.4.2\nTailwind v2.2.8\nStorybook v6.3\nPrettier v2.3.2\nJest v27.1.0\n\nコー...",
+          "link": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
+          "publishedOn": "2021-08-29T10:19:30.000Z",
+          "wordCount": 540,
+          "title": "Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--yxWEstlL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:otanu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2528v11.1%2529%252BTypeScript%252BTailwind%252BSASS%252BStorybook%252BJest%25E3%2581%25AE%25E3%2583%259C%25E3%2582%25A4%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzM0ZjNjYTg5OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/shimapon3/articles/13e3d4b147742c",
+          "author": "shimapon",
+          "description": "はじめに\n初めて記事のようなものを書きます．よろしくお願いします．\n今回は2020年のインターンシップ選考で私が開発した，都道府県ごとの人口を表示するアプリについて開発した手順を書いていきたいと思います．\n至らない点があれば、遠慮なくご指摘いただければとも思います。\n\n Demo\n県名にチェックを入れると，その県の人口推移が表示されます．\n複数選択すると、まとめて表示されます。\n\nhttps://react-highcharts-resas.web.app/\n\n 環境\n\nmacOS Catalina (v10.15.6)\nNode.js (v14.8.0)\n\n\n 使用技術\n\nReac...",
+          "link": "https://zenn.dev/shimapon3/articles/13e3d4b147742c",
+          "publishedOn": "2021-08-28T23:43:44.000Z",
+          "wordCount": 684,
+          "title": "React + Highcharts で都道府県の人口をグラフで表示するアプリ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--fwDS_XM2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shimapon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%252B%2520Highcharts%2520%25E3%2581%25A7%25E9%2583%25BD%25E9%2581%2593%25E5%25BA%259C%25E7%259C%258C%25E3%2581%25AE%25E4%25BA%25BA%25E5%258F%25A3%25E3%2582%2592%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%2595%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/arark/articles/0ee7d75dd200db",
+          "author": "arark",
+          "description": "firebaseってtypescriptと相性わるいな～～～～～～～～～とまじで思ってたので超型安全firestore作ってみたらできました。パスまで型安全でやってくれます。これです。\nhttps://github.com/Hagihara-A/fire-fuse\nnpm i firefuse\nで使えます\nfirestore-v9を想定しています。\n\n 特徴/出来ること\n\nただのユーティリティパッケージなので、一切の独自実装がない。ただし型安全。\nパスの型付け\nパスを解析してReferenceを型付けできる\n\n\n なにができるか\n\n      \n        \n        // /...",
+          "link": "https://zenn.dev/arark/articles/0ee7d75dd200db",
+          "publishedOn": "2021-08-28T16:04:02.000Z",
+          "wordCount": 447,
+          "title": "超型安全firestoreができた(更新)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4-HrrYUM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:arark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%25B6%2585%25E5%259E%258B%25E5%25AE%2589%25E5%2585%25A8firestore%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%259F%2528%25E6%259B%25B4%25E6%2596%25B0%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWQ5ODQ2MjJmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/rince/articles/4e35e52e0e158d",
           "author": "rince",
@@ -1803,48 +1901,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195",
-          "author": "にー兄さん",
-          "description": "はじめに\n\n TL;DR\nDiscord の Slash Command を TypeScript を使って開発し、\nAzure Functions にデプロイすることで簡単なボットのようなアプリをサーバーレスに作ることできる。\n\n 扱う内容・対象読者\nこの記事では、Azure Functions にデプロイした関数を\nDiscord Slash Command の Interaction Endpoint に指定して使うまでを目標とします。\nしたがって次のような項目を扱います。\n\nSlash Command の概要と作成方法\nAzure Function アプリを TypeScri...",
-          "link": "https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195",
-          "publishedOn": "2021-07-31T12:38:37.000Z",
-          "wordCount": 924,
-          "title": "Discord Slash CommandのInteractionをAzure Functionsにデプロイしてみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ZR_W4lXX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2583%25BC%25E5%2585%2584%25E3%2581%2595%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Discord%2520Slash%2520Command%25E3%2581%25AEInteraction%25E3%2582%2592Azure%2520Functions%25E3%2581%25AB%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUQndtd2ZiTmM3Nzg0SmxRZWdlX3BSc09RdmdvX2hxNlg5MTJKT3VZPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tnzk/articles/27b72f6b7ce982",
-          "author": "tnzk",
-          "description": "先日 Daniel North の記事を訳していて、この記事がドラフトのままになっているのを思い出したので、加筆して公開することにしました。\n\n 概要\nGauge のように受け入れテストを日本語で書いて、 Jest を採用しているプロジェクトで受け入れテスト駆動開発 (ATDD) を実現できる Jest 拡張 \"jest-gauge\" を公開しました。\nhttps://github.com/tnzk/jest-gauge\n\n 受け入れテスト駆動開発 (ATDD) とは\n受け入れテスト駆動開発 (ATDD) とは、テスト駆動開発 (TDD) の延長線上にあるソフトウェア開発技法のひとつで、...",
-          "link": "https://zenn.dev/tnzk/articles/27b72f6b7ce982",
-          "publishedOn": "2021-07-31T10:14:31.000Z",
-          "wordCount": 214,
-          "title": "Gauge のように受け入れテストを日本語で書ける Jest 拡張 \"Jest-gauge\" を公開しました",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--N0FCDFvV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tnzk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Gauge%2520%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E5%258F%2597%25E3%2581%2591%25E5%2585%25A5%25E3%2582%258C%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%2520Jest%2520%25E6%258B%25A1%25E5%25BC%25B5%2520%2522Jest-gauge%2522%2520%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2djejlyS2ZfMDZoUDNVZFB5MWxGay0xUDM3OHFGTlpQel9sNEdPbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/karibash/articles/3f18b3a77e1792",
-          "author": "Karibash",
-          "description": "https://github.com/Karibash/password-generator\n\n 使い方\n\n      \n        \n        import password from '@karibash/password-generator';\n\nconsole.log(password(9));\n// -> C_Tpmf45L\n\n\n      \n      これだけで大文字、小文字、数字、記号を各1文字以上含む文字列を生成できます\n探しても無かったので作っちゃいました\n\n 生成時に使用する文字を変更する\n第2引数に文字配列を指定すると、生成時に使用する文字を変更出...",
-          "link": "https://zenn.dev/karibash/articles/3f18b3a77e1792",
-          "publishedOn": "2021-07-30T13:45:55.000Z",
-          "wordCount": 309,
-          "title": "パスワードを生成するライブラリを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--o_oxPD6C--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Karibash%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2583%2591%25E3%2582%25B9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E7%2594%259F%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dPMW45d0ZmU3FpV21hNW9HWlAzczc4YnRIN0VBUXE5aDdaOU5VZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1853,6 +1909,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/e4exp/articles/ee523772afa0e5",
+          "author": "e4exp",
+          "description": "前提\n\nColabはproプランでターミナルが使える\nブラウザ(Chrome)にVimiumという拡張が入っている\n普段はEscキーでvimのinsertモードから抜けているが，Vimiumが有効だとEscキーを押すとターミナル領域ごと閉じてしまう\n\n\n 解決方法\n\n\nctrl + cでinsertモードから抜けられる\n\nまたは\n\nVimiumを無効化する(特定urlのみ無効化もできる)\n\n\n 参考\n\n\nExit insert mode in Google Colab 2020",
+          "link": "https://zenn.dev/e4exp/articles/ee523772afa0e5",
+          "publishedOn": "2021-08-29T03:04:42.000Z",
+          "wordCount": 25,
+          "title": "Google Colabのターミナルでvimから抜けられないとき",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Amq6vPgd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:e4exp%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Google%2520Colab%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%259F%25E3%2583%258A%25E3%2583%25AB%25E3%2581%25A7vim%25E3%2581%258B%25E3%2582%2589%25E6%258A%259C%25E3%2581%2591%25E3%2582%2589%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTk3MzRhZDA0Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab",
           "author": "ぴよまる",
@@ -1975,20 +2045,6 @@
           "title": "Vim script. カーソル下のリンクの<title>を取得して、テキストリンクに置き換える。",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--scIfxkx8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kis9a%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vim%2520script.%2520%25E3%2582%25AB%25E3%2583%25BC%25E3%2582%25BD%25E3%2583%25AB%25E4%25B8%258B%25E3%2581%25AE%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2581%25AE%253Ctitle%253E%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzkwNDg0MmI2My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing",
-          "author": "notomo",
-          "description": "Vimで:tabeditすると新しいタブが右側に開くが、\n:tabcloseすると元々いたタブの右側のタブが開く。\nこれを閉じたタブの左にあったタブが開かれるようにしたい。\nつまり| 1 | 2 | 3 |のようにタブがあって、2を閉じたら3ではなく1を開く。\n1で作業中に2を開いて閉じたら1の作業に戻りたいことが多い。\n\n 実装\n以下のようにautocmdで実現できる。\n\n      \n        \n        let s:after_tab_leave = v:false\naugroup activate_left_tab\n  autocmd!\n  autocmd TabEn...",
-          "link": "https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing",
-          "publishedOn": "2021-07-30T23:52:51.000Z",
-          "wordCount": 76,
-          "title": "Vimでタブを閉じたときに左側のタブを開く",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--cm-J9pWA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:notomo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vim%25E3%2581%25A7%25E3%2582%25BF%25E3%2583%2596%25E3%2582%2592%25E9%2596%2589%25E3%2581%2598%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E5%25B7%25A6%25E5%2581%25B4%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%2596%25E3%2582%2592%25E9%2596%258B%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmZlOTlhMDUxYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
@@ -2472,20 +2528,6 @@
           "title": "画像の切り抜きライブラリVue Cropperを使ってみた。",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--fwBQYB8i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AA%25E3%2581%25AA%25E3%2581%25AA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2594%25BB%25E5%2583%258F%25E3%2581%25AE%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AAVue%2520Cropper%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTc4ZDExMWNiZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a",
-          "author": "uedayou",
-          "description": "Linked Open Addresses Japan という住所オープンデータ提供サイトで使用している周辺情報データを検索できる Web API を公開しました。\nhttps://uedayou.net/loa/\n実際には以下で使用しているものになります。\n\nAPI には GraphQL と SPARQLエンドポイントの2種類があります。GraphQL は簡易、SPARQLエンドポイントはより詳細に検索ができます。用途によって使い分けてください。\n\n 特徴\n一般的に、位置情報を持つ情報を検索する場合、緯度経度で範囲を絞り込んで検索することが一般的だと思います。今回公開する周辺情報 AP...",
-          "link": "https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a",
-          "publishedOn": "2021-07-31T03:22:27.000Z",
-          "wordCount": 1065,
-          "title": "住所で検索可能な周辺情報 GraphQL/SPARQL API",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--2BTgW-GJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uedayou%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E4%25BD%258F%25E6%2589%2580%25E3%2581%25A7%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AA%25E5%2591%25A8%25E8%25BE%25BA%25E6%2583%2585%25E5%25A0%25B1%2520GraphQL%252FSPARQL%2520API%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjE1ODQxMjJlMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

@@ -77,12 +77,304 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-28">2021-08-28</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-08-29">2021-08-29</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/otanu/articles/f0a0b2bd0d9c44">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>先日、Next.js 11.1がリリースされました。
+https://nextjs.org/blog/next-11-1
+Storybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。
+構成は以下のようになっています。
+
+yarn
+Next.js v11.1.0
+ESLint v7.32.0(Next.js v11.1から含まれるように)
+TypeScript v4.4.2
+Tailwind v2.2.8
+Storybook v6.3
+Prettier v2.3.2
+Jest v27.1.0
+
+コー...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">microCMS + TailwindCSSでのHTMLコンテンツに対するスタイル適用</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/crea7/articles/5b2fde4be6b6f3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>以前Crea7というタイムラインとブログ機能を持ったサイトを作成した時に、Next.js + microCMS + Tailwind CSSで実装を行いました。
+
+ 問題点
+記事の詳細画面では、microCMSのリッチエディタで作成した記事を、HTML形式で取得しinnerHTMLで表示を行なっています。
+
+      
+        
+        
+
+
+
+      
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptで学ぶ古典的ADT - Maybe</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/eagle/articles/ts-maybe-introduction">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>本記事はこの記事の続きです。
+https://zenn.dev/eagle/articles/ts-coproduct-introduction
+実用性の観点から割愛したMaybeを改めて紹介します。
+代数的データ型をコードで表現するために次のコード群を使用します。
+
+      
+        
+        type Coproduct &#x3D; {
+  [K in keyof T]: Record &amp; T[K];
+}[keyof T];
+
+type Individual&lt;TCoproduct extends Recor...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/otanu/articles/f0a0b2bd0d9c44">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>先日、Next.js 11.1がリリースされました。
+https://nextjs.org/blog/next-11-1
+Storybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。
+構成は以下のようになっています。
+
+yarn
+Next.js v11.1.0
+ESLint v7.32.0(Next.js v11.1から含まれるように)
+TypeScript v4.4.2
+Tailwind v2.2.8
+Storybook v6.3
+Prettier v2.3.2
+Jest v27.1.0
+
+コー...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Google Colabのターミナルでvimから抜けられないとき</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/e4exp/articles/ee523772afa0e5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>前提
+
+Colabはproプランでターミナルが使える
+ブラウザ(Chrome)にVimiumという拡張が入っている
+普段はEscキーでvimのinsertモードから抜けているが，Vimiumが有効だとEscキーを押すとターミナル領域ごと閉じてしまう
+
+
+ 解決方法
+
+
+ctrl + cでinsertモードから抜けられる
+
+または
+
+Vimiumを無効化する(特定urlのみ無効化もできる)
+
+
+ 参考
+
+
+Exit insert mode in Google Colab 2020</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-28">2021-08-28</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">NextJSでSSR/SSGの挙動を確認する。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/peg/articles/bca7b0ba13bce3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>https://qiita.com/G-awa/items/639f4f83aa4d97bc1f0d
+こちらのサンプルプロジェクトを利用。
+serveパッケージで静的ファイルをホスティングするローカルサーバーを立ち上げる。
+
+      
+        
+        yarn add -D serve
+
+
+      
+      
+https://qiita.com/Nossa/items/bdc6a9705e89ea8fc250
+https://rennnosukesann.hatenablog.com/entry/2018/03/19/233245
+
+export, serv...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsで作成する管理画面作成チュートリアル</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/thirosue/books/13ac92fc34ae22">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Next.jsで管理画面のボイラーテンプレートを作成してみました。
+本書では、利用した技術などを紹介していきます。
+
+1. はじめに
+2. プロジェクトセットアップ
+3. 自動デプロイ（CI/CD）
+4. バックエンドの準備
+5. コンポーネント作成（Atomic Design）
+6. 共通処理
+7. 入力フォーム
+8. 状態管理
+9. 非同期処理（react-query）
+10. レンダリングオプション（CSR/SSG/SSR/ISR）
+11. 単体テスト</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsの開発サーバー（dev server）が動かなくなる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shuri/articles/d63c5d242859d9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>問題
+Next.js初心者です
+yarn dev後、Google Chromeで Next.jsの開発サーバーを動かしていると、
+
+      
+        
+        ・ リンクを押しても動作しない
+・ リロードすると永遠にページの読み込み中になる
+・ HMRも動いてない
+
+
+      
+      の問題が起きてました
+
+ 解決方法
+
+      
+        
+        ・ Google chromeで chrome://serviceworker-internals/ を開く
+・ Scope: localhost:3000 の記載があるサービスワーカーを...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React + Highcharts で都道府県の人口をグラフで表示するアプリ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shimapon3/articles/13e3d4b147742c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+初めて記事のようなものを書きます．よろしくお願いします．
+今回は2020年のインターンシップ選考で私が開発した，都道府県ごとの人口を表示するアプリについて開発した手順を書いていきたいと思います．
+至らない点があれば、遠慮なくご指摘いただければとも思います。
+
+ Demo
+県名にチェックを入れると，その県の人口推移が表示されます．
+複数選択すると、まとめて表示されます。
+
+https://react-highcharts-resas.web.app/
+
+ 環境
+
+macOS Catalina (v10.15.6)
+Node.js (v14.8.0)
+
+
+ 使用技術
+
+Reac...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">超型安全firestoreができた(更新)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/arark/articles/0ee7d75dd200db">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>firebaseってtypescriptと相性わるいな～～～～～～～～～とまじで思ってたので超型安全firestore作ってみたらできました。パスまで型安全でやってくれます。これです。
+https://github.com/Hagihara-A/fire-fuse
+npm i firefuse
+で使えます
+firestore-v9を想定しています。
+
+ 特徴/出来ること
+
+ただのユーティリティパッケージなので、一切の独自実装がない。ただし型安全。
+パスの型付け
+パスを解析してReferenceを型付けできる
+
+
+ なにができるか
+
+      
+        
+        // /...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Yupで配列内のオブジェクトのプロパティがユニークであることを検証する方法</summary>
@@ -4626,110 +4918,6 @@ Vue.js から Nuxt.js へ移行するモチベーションは色々あります
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">next startを本番に使用すべきではないたった一つの理由</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/umireon/articles/2e6add9aa34dbb">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>たった一つの理由
-next start （npm run start） の実装にNode.jsでHTTPサーバーを提供される場合に標準的に使用されるexpressが使用されていないからです。（httpモジュールは実装が低レベルすぎるので直接使用するべきではありません）
-
- 長い理由
-
- Next.jsのドキュメントに書いてあるよ？
-Next.jsのドキュメントにはnext startが（一応）プロダクションデプロイに使えるよと書いてあります。
-https://nextjs.org/docs/deployment#nodejs-server
-だから、next startを本番で使うこと...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nuxt.jsにTailwindを初めて使ってみるときのTips</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kata_n/articles/2d4744d1bb6ab6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Tailwind CSSとは
-ユーティリティが用意されているCSSフレームワーク。
-CSSでいうユーティリティとは、あらかじめ用意されたクラスを利用してStyleを当てていくことで、CSSを書く事なくスタイルを当てていく手法です。
-具体的には、クラスを定義した別ファイル（ユーティリティファイル）を用意しておいて、使いたい時にクラス名を書くイメージです。
-
-      
-        ユーティリティファイル
-        .p-10 { padding:10px }
-
-
-      
-      使うときは、
-
-      
-        
-        &lt;h2 clas...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Discord Slash CommandのInteractionをAzure Functionsにデプロイしてみる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>はじめに
-
- TL;DR
-Discord の Slash Command を TypeScript を使って開発し、
-Azure Functions にデプロイすることで簡単なボットのようなアプリをサーバーレスに作ることできる。
-
- 扱う内容・対象読者
-この記事では、Azure Functions にデプロイした関数を
-Discord Slash Command の Interaction Endpoint に指定して使うまでを目標とします。
-したがって次のような項目を扱います。
-
-Slash Command の概要と作成方法
-Azure Function アプリを TypeScri...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Gauge のように受け入れテストを日本語で書ける Jest 拡張 &quot;Jest-gauge&quot; を公開しました</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tnzk/articles/27b72f6b7ce982">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>先日 Daniel North の記事を訳していて、この記事がドラフトのままになっているのを思い出したので、加筆して公開することにしました。
-
- 概要
-Gauge のように受け入れテストを日本語で書いて、 Jest を採用しているプロジェクトで受け入れテスト駆動開発 (ATDD) を実現できる Jest 拡張 &quot;jest-gauge&quot; を公開しました。
-https://github.com/tnzk/jest-gauge
-
- 受け入れテスト駆動開発 (ATDD) とは
-受け入れテスト駆動開発 (ATDD) とは、テスト駆動開発 (TDD) の延長線上にあるソフトウェア開発技法のひとつで、...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -4752,101 +4940,13 @@ Cropper.jsはかなり老舗のライブラリのようで
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">住所で検索可能な周辺情報 GraphQL/SPARQL API</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Linked Open Addresses Japan という住所オープンデータ提供サイトで使用している周辺情報データを検索できる Web API を公開しました。
-https://uedayou.net/loa/
-実際には以下で使用しているものになります。
-
-API には GraphQL と SPARQLエンドポイントの2種類があります。GraphQL は簡易、SPARQLエンドポイントはより詳細に検索ができます。用途によって使い分けてください。
-
- 特徴
-一般的に、位置情報を持つ情報を検索する場合、緯度経度で範囲を絞り込んで検索することが一般的だと思います。今回公開する周辺情報 AP...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-30">2021-07-30</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">パスワードを生成するライブラリを作った</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/karibash/articles/3f18b3a77e1792">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>https://github.com/Karibash/password-generator
-
- 使い方
-
-      
-        
-        import password from &#x27;@karibash/password-generator&#x27;;
-
-console.log(password(9));
-// -&gt; C_Tpmf45L
-
-
-      
-      これだけで大文字、小文字、数字、記号を各1文字以上含む文字列を生成できます
-探しても無かったので作っちゃいました
-
- 生成時に使用する文字を変更する
-第2引数に文字配列を指定すると、生成時に使用する文字を変更出...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vimでタブを閉じたときに左側のタブを開く</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Vimで:tabeditすると新しいタブが右側に開くが、
-:tabcloseすると元々いたタブの右側のタブが開く。
-これを閉じたタブの左にあったタブが開かれるようにしたい。
-つまり| 1 | 2 | 3 |のようにタブがあって、2を閉じたら3ではなく1を開く。
-1で作業中に2を開いて閉じたら1の作業に戻りたいことが多い。
-
- 実装
-以下のようにautocmdで実現できる。
-
-      
-        
-        let s:after_tab_leave &#x3D; v:false
-augroup activate_left_tab
-  autocmd!
-  autocmd TabEn...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-29T01:05:59.890Z">2021-08-29T01:05:59.890Z</time>
+    <time id="build-timestamp" datetime="2021-08-30T01:03:19.265Z">2021-08-30T01:03:19.265Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

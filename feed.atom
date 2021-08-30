@@ -2,10 +2,265 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-29T01:05:59.918Z</updated>
+    <updated>2021-08-30T01:03:19.288Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptで学ぶ古典的ADT - Maybe]]></title>
+        <id>https://zenn.dev/eagle/articles/ts-maybe-introduction</id>
+        <link href="https://zenn.dev/eagle/articles/ts-maybe-introduction"/>
+        <updated>2021-08-29T10:42:49.000Z</updated>
+        <summary type="html"><![CDATA[本記事はこの記事の続きです。
+https://zenn.dev/eagle/articles/ts-coproduct-introduction
+実用性の観点から割愛したMaybeを改めて紹介します。
+代数的データ型をコードで表現するために次のコード群を使用します。
+
+      
+        
+        type Coproduct<T> = {
+  [K in keyof T]: Record<"type", K> & T[K];
+}[keyof T];
+
+type Individual<TCoproduct extends Recor...]]></summary>
+        <author>
+            <name>eagle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート]]></title>
+        <id>https://zenn.dev/otanu/articles/f0a0b2bd0d9c44</id>
+        <link href="https://zenn.dev/otanu/articles/f0a0b2bd0d9c44"/>
+        <updated>2021-08-29T10:19:30.000Z</updated>
+        <summary type="html"><![CDATA[先日、Next.js 11.1がリリースされました。
+https://nextjs.org/blog/next-11-1
+Storybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。
+構成は以下のようになっています。
+
+yarn
+Next.js v11.1.0
+ESLint v7.32.0(Next.js v11.1から含まれるように)
+TypeScript v4.4.2
+Tailwind v2.2.8
+Storybook v6.3
+Prettier v2.3.2
+Jest v27.1.0
+
+コー...]]></summary>
+        <author>
+            <name>otanu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート]]></title>
+        <id>https://zenn.dev/otanu/articles/f0a0b2bd0d9c44</id>
+        <link href="https://zenn.dev/otanu/articles/f0a0b2bd0d9c44"/>
+        <updated>2021-08-29T10:19:30.000Z</updated>
+        <summary type="html"><![CDATA[先日、Next.js 11.1がリリースされました。
+https://nextjs.org/blog/next-11-1
+Storybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。
+構成は以下のようになっています。
+
+yarn
+Next.js v11.1.0
+ESLint v7.32.0(Next.js v11.1から含まれるように)
+TypeScript v4.4.2
+Tailwind v2.2.8
+Storybook v6.3
+Prettier v2.3.2
+Jest v27.1.0
+
+コー...]]></summary>
+        <author>
+            <name>otanu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[microCMS + TailwindCSSでのHTMLコンテンツに対するスタイル適用]]></title>
+        <id>https://zenn.dev/crea7/articles/5b2fde4be6b6f3</id>
+        <link href="https://zenn.dev/crea7/articles/5b2fde4be6b6f3"/>
+        <updated>2021-08-29T09:57:18.000Z</updated>
+        <summary type="html"><![CDATA[以前Crea7というタイムラインとブログ機能を持ったサイトを作成した時に、Next.js + microCMS + Tailwind CSSで実装を行いました。
+
+ 問題点
+記事の詳細画面では、microCMSのリッチエディタで作成した記事を、HTML形式で取得しinnerHTMLで表示を行なっています。
+
+      
+        
+        <div
+className="text-black pt-7"
+dangerouslySetInnerHTML={{ __html: `${article.body}` }}
+></div>
+
+
+      
+...]]></summary>
+        <author>
+            <name>Crea7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Colabのターミナルでvimから抜けられないとき]]></title>
+        <id>https://zenn.dev/e4exp/articles/ee523772afa0e5</id>
+        <link href="https://zenn.dev/e4exp/articles/ee523772afa0e5"/>
+        <updated>2021-08-29T03:04:42.000Z</updated>
+        <summary type="html"><![CDATA[前提
+
+Colabはproプランでターミナルが使える
+ブラウザ(Chrome)にVimiumという拡張が入っている
+普段はEscキーでvimのinsertモードから抜けているが，Vimiumが有効だとEscキーを押すとターミナル領域ごと閉じてしまう
+
+
+ 解決方法
+
+
+ctrl + cでinsertモードから抜けられる
+
+または
+
+Vimiumを無効化する(特定urlのみ無効化もできる)
+
+
+ 参考
+
+
+Exit insert mode in Google Colab 2020]]></summary>
+        <author>
+            <name>e4exp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React + Highcharts で都道府県の人口をグラフで表示するアプリ]]></title>
+        <id>https://zenn.dev/shimapon3/articles/13e3d4b147742c</id>
+        <link href="https://zenn.dev/shimapon3/articles/13e3d4b147742c"/>
+        <updated>2021-08-28T23:43:44.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+初めて記事のようなものを書きます．よろしくお願いします．
+今回は2020年のインターンシップ選考で私が開発した，都道府県ごとの人口を表示するアプリについて開発した手順を書いていきたいと思います．
+至らない点があれば、遠慮なくご指摘いただければとも思います。
+
+ Demo
+県名にチェックを入れると，その県の人口推移が表示されます．
+複数選択すると、まとめて表示されます。
+
+https://react-highcharts-resas.web.app/
+
+ 環境
+
+macOS Catalina (v10.15.6)
+Node.js (v14.8.0)
+
+
+ 使用技術
+
+Reac...]]></summary>
+        <author>
+            <name>shimapon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[超型安全firestoreができた(更新)]]></title>
+        <id>https://zenn.dev/arark/articles/0ee7d75dd200db</id>
+        <link href="https://zenn.dev/arark/articles/0ee7d75dd200db"/>
+        <updated>2021-08-28T16:04:02.000Z</updated>
+        <summary type="html"><![CDATA[firebaseってtypescriptと相性わるいな～～～～～～～～～とまじで思ってたので超型安全firestore作ってみたらできました。パスまで型安全でやってくれます。これです。
+https://github.com/Hagihara-A/fire-fuse
+npm i firefuse
+で使えます
+firestore-v9を想定しています。
+
+ 特徴/出来ること
+
+ただのユーティリティパッケージなので、一切の独自実装がない。ただし型安全。
+パスの型付け
+パスを解析してReferenceを型付けできる
+
+
+ なにができるか
+
+      
+        
+        // /...]]></summary>
+        <author>
+            <name>arark</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NextJSでSSR/SSGの挙動を確認する。]]></title>
+        <id>https://zenn.dev/peg/articles/bca7b0ba13bce3</id>
+        <link href="https://zenn.dev/peg/articles/bca7b0ba13bce3"/>
+        <updated>2021-08-28T14:20:08.000Z</updated>
+        <summary type="html"><![CDATA[https://qiita.com/G-awa/items/639f4f83aa4d97bc1f0d
+こちらのサンプルプロジェクトを利用。
+serveパッケージで静的ファイルをホスティングするローカルサーバーを立ち上げる。
+
+      
+        
+        yarn add -D serve
+
+
+      
+      
+https://qiita.com/Nossa/items/bdc6a9705e89ea8fc250
+https://rennnosukesann.hatenablog.com/entry/2018/03/19/233245
+
+export, serv...]]></summary>
+        <author>
+            <name>ぺい</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsで作成する管理画面作成チュートリアル]]></title>
+        <id>https://zenn.dev/thirosue/books/13ac92fc34ae22</id>
+        <link href="https://zenn.dev/thirosue/books/13ac92fc34ae22"/>
+        <updated>2021-08-28T12:44:02.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsで管理画面のボイラーテンプレートを作成してみました。
+本書では、利用した技術などを紹介していきます。
+
+1. はじめに
+2. プロジェクトセットアップ
+3. 自動デプロイ（CI/CD）
+4. バックエンドの準備
+5. コンポーネント作成（Atomic Design）
+6. 共通処理
+7. 入力フォーム
+8. 状態管理
+9. 非同期処理（react-query）
+10. レンダリングオプション（CSR/SSG/SSR/ISR）
+11. 単体テスト]]></summary>
+        <author>
+            <name>Thirosue</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsの開発サーバー（dev server）が動かなくなる]]></title>
+        <id>https://zenn.dev/shuri/articles/d63c5d242859d9</id>
+        <link href="https://zenn.dev/shuri/articles/d63c5d242859d9"/>
+        <updated>2021-08-28T07:49:22.000Z</updated>
+        <summary type="html"><![CDATA[問題
+Next.js初心者です
+yarn dev後、Google Chromeで Next.jsの開発サーバーを動かしていると、
+
+      
+        
+        ・ リンクを押しても動作しない
+・ リロードすると永遠にページの読み込み中になる
+・ HMRも動いてない
+
+
+      
+      の問題が起きてました
+
+ 解決方法
+
+      
+        
+        ・ Google chromeで chrome://serviceworker-internals/ を開く
+・ Scope: localhost:3000 の記載があるサービスワーカーを...]]></summary>
+        <author>
+            <name>ヴィジュアル系エンジニア</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[fish, neovim, starshipあたりでめっかわ❤️ターミナルを用意する]]></title>
         <id>https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab</id>
@@ -3768,156 +4023,6 @@ Cropper.jsはかなり老舗のライブラリのようで
 今回紹介するもの以外にも以下のようなCropperをメインにしているライブラリは多数存在...]]></summary>
         <author>
             <name>ななな</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discord Slash CommandのInteractionをAzure Functionsにデプロイしてみる]]></title>
-        <id>https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195</id>
-        <link href="https://zenn.dev/drumath2237/articles/112fd0bfa7ea4f836195"/>
-        <updated>2021-07-31T12:38:37.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-
- TL;DR
-Discord の Slash Command を TypeScript を使って開発し、
-Azure Functions にデプロイすることで簡単なボットのようなアプリをサーバーレスに作ることできる。
-
- 扱う内容・対象読者
-この記事では、Azure Functions にデプロイした関数を
-Discord Slash Command の Interaction Endpoint に指定して使うまでを目標とします。
-したがって次のような項目を扱います。
-
-Slash Command の概要と作成方法
-Azure Function アプリを TypeScri...]]></summary>
-        <author>
-            <name>にー兄さん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt.jsにTailwindを初めて使ってみるときのTips]]></title>
-        <id>https://zenn.dev/kata_n/articles/2d4744d1bb6ab6</id>
-        <link href="https://zenn.dev/kata_n/articles/2d4744d1bb6ab6"/>
-        <updated>2021-07-31T11:10:31.000Z</updated>
-        <summary type="html"><![CDATA[Tailwind CSSとは
-ユーティリティが用意されているCSSフレームワーク。
-CSSでいうユーティリティとは、あらかじめ用意されたクラスを利用してStyleを当てていくことで、CSSを書く事なくスタイルを当てていく手法です。
-具体的には、クラスを定義した別ファイル（ユーティリティファイル）を用意しておいて、使いたい時にクラス名を書くイメージです。
-
-      
-        ユーティリティファイル
-        .p-10 { padding:10px }
-
-
-      
-      使うときは、
-
-      
-        
-        <h2 clas...]]></summary>
-        <author>
-            <name>kata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gauge のように受け入れテストを日本語で書ける Jest 拡張 "Jest-gauge" を公開しました]]></title>
-        <id>https://zenn.dev/tnzk/articles/27b72f6b7ce982</id>
-        <link href="https://zenn.dev/tnzk/articles/27b72f6b7ce982"/>
-        <updated>2021-07-31T10:14:31.000Z</updated>
-        <summary type="html"><![CDATA[先日 Daniel North の記事を訳していて、この記事がドラフトのままになっているのを思い出したので、加筆して公開することにしました。
-
- 概要
-Gauge のように受け入れテストを日本語で書いて、 Jest を採用しているプロジェクトで受け入れテスト駆動開発 (ATDD) を実現できる Jest 拡張 "jest-gauge" を公開しました。
-https://github.com/tnzk/jest-gauge
-
- 受け入れテスト駆動開発 (ATDD) とは
-受け入れテスト駆動開発 (ATDD) とは、テスト駆動開発 (TDD) の延長線上にあるソフトウェア開発技法のひとつで、...]]></summary>
-        <author>
-            <name>tnzk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[住所で検索可能な周辺情報 GraphQL/SPARQL API]]></title>
-        <id>https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a</id>
-        <link href="https://zenn.dev/uedayou/articles/ee4a2ba1b5bd0a"/>
-        <updated>2021-07-31T03:22:27.000Z</updated>
-        <summary type="html"><![CDATA[Linked Open Addresses Japan という住所オープンデータ提供サイトで使用している周辺情報データを検索できる Web API を公開しました。
-https://uedayou.net/loa/
-実際には以下で使用しているものになります。
-
-API には GraphQL と SPARQLエンドポイントの2種類があります。GraphQL は簡易、SPARQLエンドポイントはより詳細に検索ができます。用途によって使い分けてください。
-
- 特徴
-一般的に、位置情報を持つ情報を検索する場合、緯度経度で範囲を絞り込んで検索することが一般的だと思います。今回公開する周辺情報 AP...]]></summary>
-        <author>
-            <name>uedayou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[next startを本番に使用すべきではないたった一つの理由]]></title>
-        <id>https://zenn.dev/umireon/articles/2e6add9aa34dbb</id>
-        <link href="https://zenn.dev/umireon/articles/2e6add9aa34dbb"/>
-        <updated>2021-07-31T01:59:53.000Z</updated>
-        <summary type="html"><![CDATA[たった一つの理由
-next start （npm run start） の実装にNode.jsでHTTPサーバーを提供される場合に標準的に使用されるexpressが使用されていないからです。（httpモジュールは実装が低レベルすぎるので直接使用するべきではありません）
-
- 長い理由
-
- Next.jsのドキュメントに書いてあるよ？
-Next.jsのドキュメントにはnext startが（一応）プロダクションデプロイに使えるよと書いてあります。
-https://nextjs.org/docs/deployment#nodejs-server
-だから、next startを本番で使うこと...]]></summary>
-        <author>
-            <name>Kaito Udagawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vimでタブを閉じたときに左側のタブを開く]]></title>
-        <id>https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing</id>
-        <link href="https://zenn.dev/notomo/articles/vim-open-left-tab-after-closing"/>
-        <updated>2021-07-30T23:52:51.000Z</updated>
-        <summary type="html"><![CDATA[Vimで:tabeditすると新しいタブが右側に開くが、
-:tabcloseすると元々いたタブの右側のタブが開く。
-これを閉じたタブの左にあったタブが開かれるようにしたい。
-つまり| 1 | 2 | 3 |のようにタブがあって、2を閉じたら3ではなく1を開く。
-1で作業中に2を開いて閉じたら1の作業に戻りたいことが多い。
-
- 実装
-以下のようにautocmdで実現できる。
-
-      
-        
-        let s:after_tab_leave = v:false
-augroup activate_left_tab
-  autocmd!
-  autocmd TabEn...]]></summary>
-        <author>
-            <name>notomo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パスワードを生成するライブラリを作った]]></title>
-        <id>https://zenn.dev/karibash/articles/3f18b3a77e1792</id>
-        <link href="https://zenn.dev/karibash/articles/3f18b3a77e1792"/>
-        <updated>2021-07-30T13:45:55.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/Karibash/password-generator
-
- 使い方
-
-      
-        
-        import password from '@karibash/password-generator';
-
-console.log(password(9));
-// -> C_Tpmf45L
-
-
-      
-      これだけで大文字、小文字、数字、記号を各1文字以上含む文字列を生成できます
-探しても無かったので作っちゃいました
-
- 生成時に使用する文字を変更する
-第2引数に文字配列を指定すると、生成時に使用する文字を変更出...]]></summary>
-        <author>
-            <name>Karibash</name>
         </author>
     </entry>
 </feed>
