@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/peg/articles/1878a6d6661295",
+          "author": "ぺい",
+          "description": "Next.jsにExpressを使うという記事を見かけて???となったので調べた。\nまずこの記事をコピペしてやってみた。\nhttps://www.forcia.com/blog/001559.html\n\nNext.jsはデフォルトではパスと一致するpagesディレクトリ配下の各ファイルにルーティングされます。 このルーティングに独自実装を組み込みたい場合にカスタムサーバを利用します。 例えば、特定のパスの場合のCookie操作やリダイレクト処理の実装などが挙げられます。\n参考: https://nextjs-ja-translation-docs.vercel.app/docs/adva...",
+          "link": "https://zenn.dev/peg/articles/1878a6d6661295",
+          "publishedOn": "2021-08-30T08:06:42.000Z",
+          "wordCount": 563,
+          "title": "Next.js BFFとかExpress記事",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Q79fDVk6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BA%25E3%2581%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520BFF%25E3%2581%25A8%25E3%2581%258BExpress%25E8%25A8%2598%25E4%25BA%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjU2OGRmNDg3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
           "author": "otanu",
           "description": "先日、Next.js 11.1がリリースされました。\nhttps://nextjs.org/blog/next-11-1\nStorybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。\n構成は以下のようになっています。\n\nyarn\nNext.js v11.1.0\nESLint v7.32.0(Next.js v11.1から含まれるように)\nTypeScript v4.4.2\nTailwind v2.2.8\nStorybook v6.3\nPrettier v2.3.2\nJest v27.1.0\n\nコー...",
@@ -711,20 +725,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84",
-          "author": "sota_yamaguchi",
-          "description": "Next.js の Layout 周りのドキュメントが新しく追加されました。\nhttps://nextjs.org/docs/basic-features/layouts\n\n 単一のレイアウトを扱う場合\n単一のレイアウトで十分な場合はカスタマイズした <Layout/> で <Component /> タグを囲むだけで実装できます。\n\n      \n        \n        // pages/_app.js\n\nimport Layout from '../components/layout'\n\nexport default function MyApp({...",
-          "link": "https://zenn.dev/sota_yamaguchi/articles/b0e8aa63b4bb84",
-          "publishedOn": "2021-08-01T08:05:54.000Z",
-          "wordCount": 132,
-          "title": "Next.js にレイアウトに関するドキュメントが追加されました",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--0wpd0ew4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sota_yamaguchi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25AB%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25A2%25E3%2582%25A6%25E3%2583%2588%25E3%2581%25AB%25E9%2596%25A2%25E3%2581%2599%25E3%2582%258B%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2595%25E3%2582%258C%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjBjYWExZWI3Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -824,6 +824,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/ryo_kawamata/articles/82871052dad5ff",
+          "author": "ryo_kawamata",
+          "description": "最近公開した Chrome 拡張の紹介と技術的なポイントの解説です。\n\n ✨ 何を作った？\n実際の挙手と Google Meet 上の挙手ボタンが連動する Chrome 拡張を作りました。\nhttps://twitter.com/KawamataRyo/status/1430730469260234756\nhttps://chrome.google.com/webstore/detail/sync-raise-hand/pimhkdcdgmedijjnjeagagnnddgbcnkm\n大人数のミーティングで挙手ボタンを使う機会があるのですが、ボタンを押すという動作が億劫 & 挙手...",
+          "link": "https://zenn.dev/ryo_kawamata/articles/82871052dad5ff",
+          "publishedOn": "2021-08-30T03:16:03.000Z",
+          "wordCount": 407,
+          "title": "実際の挙手と Google Meet 上の挙手ボタンが連動する Chrome 拡張を作ったのでコード全公開&解説",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--iM60Uquc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E5%25AE%259F%25E9%259A%259B%25E3%2581%25AE%25E6%258C%2599%25E6%2589%258B%25E3%2581%25A8%2520Google%2520Meet%2520%25E4%25B8%258A%25E3%2581%25AE%25E6%258C%2599%25E6%2589%258B%25E3%2583%259C%25E3%2582%25BF%25E3%2583%25B3%25E3%2581%258C%25E9%2580%25A3%25E5%258B%2595%25E3%2581%2599%25E3%2582%258B%2520Chrome%2520%25E6%258B%25A1%25E5%25BC%25B5%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E5%2585%25A8%25E5%2585%25AC%25E9%2596%258B%2526%25E8%25A7%25A3%25E8%25AA%25AC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/eagle/articles/ts-maybe-introduction",
           "author": "eagle",
@@ -1845,62 +1859,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7",
-          "author": "azukiazusa",
-          "description": "JavaScriptには、以下のような時間に関する関数が用意されています。\n\nsetTimeout\nsetInterval\nclearTimeout\nclearInterval\n\n例えば、setTimeoutは第1引数で渡したコールバック関数を第2引数で渡したミリ秒後に実行します。\n標準で用意されている非常に便利な関数群ですが、ユニットテストを記述するときには少々困りものです。setTimeoutのコールバック関数に渡した処理が正しく呼び出されているかどうか調べたいようない場合には、setTimeoutのコールバックが呼び出されるまで待機する処理を挟む必要があります。\nsetTimeou...",
-          "link": "https://zenn.dev/azukiazusa/articles/67e059d7b7f3c7",
-          "publishedOn": "2021-08-01T13:04:25.000Z",
-          "wordCount": 334,
-          "title": "Jest setTimeout()のようなでタイマー関数をテストする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--cDz5U3m2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Jest%2520setTimeout%2528%2529%25E3%2581%25AE%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AA%25E3%2581%25A7%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%259E%25E3%2583%25BC%25E9%2596%25A2%25E6%2595%25B0%25E3%2582%2592%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ababup1192/articles/a5f5c232b502d6",
-          "author": "ABAB↑↓BA",
-          "description": "先日、関数型プログラミングはまずは純粋関数型言語を用いて、考え方から理解しよう\nと言う記事を書かせていただきました。納得の声をたくさん頂きましたが、それでは純粋関数型プログラミング言語を闇雲に初めて勘所がわかった！とはすぐにはならないと思い、順調にステップアップするための記事を書こうと思いました。また、考え方が違うだけで関数型プログラミング言語を学んだり使用する理由は特にないとの意見をいただいたので、改めて実例と共に関数型プログラミング言語を確認していただければなと思います。\n今回の記事ではFizzBuzzとElmを利用して解説をしていきたいと思います。FizzBuzzは使い古された例で...",
-          "link": "https://zenn.dev/ababup1192/articles/a5f5c232b502d6",
-          "publishedOn": "2021-08-01T12:03:48.000Z",
-          "wordCount": 876,
-          "title": "[超入門] FizzBuzzで考える関数型プログラミング学習を純粋関数型言語でやる理由",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--GGAfgfo3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ABAB%25E2%2586%2591%25E2%2586%2593BA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%255B%25E8%25B6%2585%25E5%2585%25A5%25E9%2596%2580%255D%2520FizzBuzz%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%25E9%2596%25A2%25E6%2595%25B0%25E5%259E%258B%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0%25E5%25AD%25A6%25E7%25BF%2592%25E3%2582%2592%25E7%25B4%2594%25E7%25B2%258B%25E9%2596%25A2%25E6%2595%25B0%25E5%259E%258B%25E8%25A8%2580%25E8%25AA%259E%25E3%2581%25A7%25E3%2582%2584%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqRm84X2NSbjU2WlRqUEpXQmNzQTVCMmZ0c1l6czFnUnAyRUZ5PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/katzumi/articles/58354fb4d05038",
-          "author": "katzumi",
-          "description": "Motivation\n個人的にいくつかのSlackボットをGoogle Apps Script（以下GAS）で実装していますが、3秒ルールの壁があってイベント処理がタイムアウトしてしまうという課題がありました。\nSlackの公式ドキュメントには3秒以内にレスポンスできない処理は、一旦レスポンスして非同期処理でイベントのペイロードにあるレスポンスURLに書き込めとありました。\nGAS内で非同期処理を行うには、トリガー処理を組み合わせして実現できそうでした。\nhttps://developers.google.com/apps-script/guides/triggers\n使えるトリガー...",
-          "link": "https://zenn.dev/katzumi/articles/58354fb4d05038",
-          "publishedOn": "2021-08-01T08:46:58.000Z",
-          "wordCount": 191,
-          "title": "Google Apps Script向け簡易job-queueを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Vqd8Yk_a--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:katzumi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Google%2520Apps%2520Script%25E5%2590%2591%25E3%2581%2591%25E7%25B0%25A1%25E6%2598%2593job-queue%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGZiMGM4OGU2Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hashito/articles/f23af092957bf5",
-          "author": "hashito",
-          "description": "momentjsを利用したやり方\nコマンドでmomenjsをプロジェクトにインストールする。\nnpm install moment --save\nimportして下記のように利用できる。\n\n      \n        \n        import * as moment from 'moment';\nlet unixtime:number=moment().unix();\n\n\n      \n      \n Dateを利用したやり方\nDate.now()というコードでunix timeのミリ秒版が取得できる。\nなのでDate.now()/1000で単位を秒にすれば小数点付きだがun...",
-          "link": "https://zenn.dev/hashito/articles/f23af092957bf5",
-          "publishedOn": "2021-08-01T07:07:16.000Z",
-          "wordCount": 92,
-          "title": "Angularでunix timeを取得する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--rj0vHw-o--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hashito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Angular%25E3%2581%25A7unix%2520time%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWYyZGE5MTQwYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1909,6 +1867,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/nyarla/articles/0a171145604993",
+          "author": "にゃるら（テック系）",
+          "description": "お前が思うんならそうなんだろう。お前ん中ではな\n\n\n 話の前提\n私は普段プログラミングやテキスト管理に NeoVim を使っていて、.vimrc （NeoVim だと init.vim）に色々な場面で必要になる設定や関数、あるいは機能拡張などを記述していました。\nしかし最初は機能ごとにファイルを分けたり init.vim を一つに統一したりと、色々と調整していたものの、どの方法も上手くファイルを整理するに至らず、\n\nさてどうしたもんかな……これは……\n\nと考え込んでいたところで、\n\nあ！ 試しに vim 組み込みのパッケージ管理機能を使ってみるか！\n\nと思いつき、実際にやってみたら結構...",
+          "link": "https://zenn.dev/nyarla/articles/0a171145604993",
+          "publishedOn": "2021-08-30T02:34:07.000Z",
+          "wordCount": 120,
+          "title": ".vimrc  を packadd で整理するとめっちゃ便利だった！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zMnd6yXQ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2582%2583%25E3%2582%258B%25E3%2582%2589%25EF%25BC%2588%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E7%25B3%25BB%25EF%25BC%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:.vimrc%2520%2520%25E3%2582%2592%2520packadd%2520%25E3%2581%25A7%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A3%25E3%2581%25A1%25E3%2582%2583%25E4%25BE%25BF%25E5%2588%25A9%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzk1NTc4MDJjOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/e4exp/articles/ee523772afa0e5",
           "author": "e4exp",
@@ -2514,20 +2486,6 @@
           "title": "簡単にVue.jsからNuxt.js(SPA)へ移行する手引き",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--4qxtVlKh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2597%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25ABVue.js%25E3%2581%258B%25E3%2582%2589Nuxt.js%2528SPA%2529%25E3%2581%25B8%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%25E6%2589%258B%25E5%25BC%2595%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3NGxmTkQ2aHRMeml1NUFUUXNLR3RMVzFoMWE1R0tNT3lRU1RfVUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nana/articles/c6e27ded863a95",
-          "author": "ななな",
-          "description": "Vue Cropperについて\n今回使用したのは以下のライブラリになります。\nVue製なのでVue環境であれば使えると思います。\nhttps://github.com/xyxiao001/vue-cropper\nCropper.jsというライブラリがあり、こちらはJSのものになるので、JS環境であれば使う事ができます。\nhttps://github.com/fengyuanchen/cropperjs\nデモ\nCropper.jsはかなり老舗のライブラリのようで\n画像の切り抜きに使う形になります。\n今回紹介するもの以外にも以下のようなCropperをメインにしているライブラリは多数存在...",
-          "link": "https://zenn.dev/nana/articles/c6e27ded863a95",
-          "publishedOn": "2021-07-31T13:59:54.000Z",
-          "wordCount": 209,
-          "title": "画像の切り抜きライブラリVue Cropperを使ってみた。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--fwBQYB8i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AA%25E3%2581%25AA%25E3%2581%25AA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2594%25BB%25E5%2583%258F%25E3%2581%25AE%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AAVue%2520Cropper%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTc4ZDExMWNiZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
