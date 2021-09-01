@@ -2,10 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-31T01:04:54.003Z</updated>
+    <updated>2021-09-01T01:10:55.910Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vue.jsで郵便番号自動入力機能を作成する]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/0cd78360bcaf15</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/0cd78360bcaf15"/>
+        <updated>2021-09-01T00:38:19.000Z</updated>
+        <summary type="html"><![CDATA[Vue.jsだけで郵便番号自動入力機能を作成します。
+CORSのエラーが発生してしまうので、jsonpを使用してCORSのエラーが出ないようにしていきます。
+
+ jsonpインストール
+
+      
+        
+        npm install axios-jsonp
+
+
+      
+      
+ 郵便番号から住所を取得してセットする取得実装
+jsonpのaxiosを使用して、郵便局dが出している郵便番号取得APiを叩きに行きます。
+
+      
+        
+        <div class="form-group">
+  <label&g...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React hooksでfactoryパターンっぽいことをしたいときは結局コンポーネントを分離するのが妥当]]></title>
+        <id>https://zenn.dev/terrierscript/articles/2021-08-31-react-hooks-factory</id>
+        <link href="https://zenn.dev/terrierscript/articles/2021-08-31-react-hooks-factory"/>
+        <updated>2021-08-31T14:49:44.000Z</updated>
+        <summary type="html"><![CDATA[Reactでhooksを切り替えしたい時について考えたケースがあったので書き残し。
+中盤は悪例を挟みます。悪例については利用しないことをおすすめします
+結論だけ知りたい方向け -> 結論へ
+
+ 前提
+React hooksで例えばパターンA、パターンBを切り替える、factoryパターンっぽいことをやりたくなることがある。
+コンポーネントより外側で切り替えることが可能であればこちらの記事などのようなことが可能だが、コンポーネントの内部で切り替えたいケースだとこのやり方だと処理出来ない
+例えばこのようなカウンターを考えてみたい。
+
+      
+        
+        
+/...]]></summary>
+        <author>
+            <name>terrierscript</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Symbol x Angular その1 Angularでsymbol-sdkを使うための環境構築]]></title>
+        <id>https://zenn.dev/nemtus/articles/blockchain-symbol-angular-1st-symbol-sdk</id>
+        <link href="https://zenn.dev/nemtus/articles/blockchain-symbol-angular-1st-symbol-sdk"/>
+        <updated>2021-08-31T03:08:26.000Z</updated>
+        <summary type="html"><![CDATA[Angularでsymbol-sdkを使うための環境構築
+
+ 概要
+この記事では、Angularで作成されたWebアプリ上でsymbol-sdkというnpmパッケージを用いてSymbolというブロックチェーンを利用するための第一歩となる環境構築について説明します。Angularのデフォルトの設定のままsymbol-sdkをインストールするといくつかのエラーが発生します。それを修正するための方法について説明し、同時にsymbol-sdkをAngularプロジェクトで使う際のサンプルコードを紹介します。
+以下URLでサンプルコードを実際に動かしているので、必要に応じてご参照ください。
+
+...]]></summary>
+        <author>
+            <name>NEMTUS公式</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-08-31のJS: TypeScript 4.4、PageSpeed InsightsのLab/Field data、Packemon(ライブラリ向けビルドツール)]]></title>
+        <id>https://jser.info/2021/08/31/typescript-4.4-pagespeed-insightslabfield-data-packemon/</id>
+        <link href="https://jser.info/2021/08/31/typescript-4.4-pagespeed-insightslabfield-data-packemon/"/>
+        <updated>2021-08-30T22:46:59.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #555 - TypeScript 4.4が正式にリリースされました。
+Announcing TypeScript 4.4 | TypeScript
+Control Flow Analysisの改善、Index SignaturesにSymbolやTemplate Stringを利用できるようになっています。
+unknown型にするuseUnknownInCatchVariablesオプションと
+undefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。
+useUnknownInCatchVariablesはstrictオプションが有効の場合は自動的にONとなります。
+exactOptionalPropertyTypesはstrictオプションとは別途設定が必要になります。
+また、ES Proposal Stage 3のclass static blockがサポートされています。
+tsc --helpの表示を改善、ビルドパフォーマンスの改善も含まれています。
+Why lab and field data can be different (and what to do about it)という記事では、PageSpeed Insightsなどに表示される"lab data"と"field data"の違いについて解説しています。
+Lab dataは、ネットワークは実行環境を固定したSynthetic モニタリングのデータとなっています。
+Chrome User Experience Reportで収集されたChromeユーザーのRUMデータを元にしています。
+この2つのデータの違い、どのようなケースで値に違いがでるかなどを解説しています。
+Packemonはnpmで公開するパッケージ向けのビルドツー…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.js BFFとかExpress記事]]></title>
         <id>https://zenn.dev/peg/articles/1878a6d6661295</id>
@@ -3752,219 +3841,6 @@ Image Lambda@Edge for Next CloudFront distribution
 Next.js Regen...]]></summary>
         <author>
             <name>laiso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた]]></title>
-        <id>https://zenn.dev/kenta0313/articles/eb1c38209aa30e</id>
-        <link href="https://zenn.dev/kenta0313/articles/eb1c38209aa30e"/>
-        <updated>2021-08-02T08:31:47.000Z</updated>
-        <summary type="html"><![CDATA[今回作ったもの
-作品はこちら
-コードはこちら
-
- 作った経緯
-ContextAPIを使ってみたかった為
-
- コードの解説
-
- コンポーネントをAppContextに接続する
-
-      
-        
-        import React, { useContext } from 'react';
-import { AppContext } from '../context/AppContext';
-
-const Budget = () => {
-	const { budget } = useContext(AppContext);
-	return (
-		<d...]]></summary>
-        <author>
-            <name>KenT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js+Typescript+ContextAPIで予算トラッカーを作ってみた]]></title>
-        <id>https://zenn.dev/kenta0313/articles/eb1c38209aa30e</id>
-        <link href="https://zenn.dev/kenta0313/articles/eb1c38209aa30e"/>
-        <updated>2021-08-02T08:31:47.000Z</updated>
-        <summary type="html"><![CDATA[今回作ったもの
-作品はこちら
-コードはこちら
-
- 作った経緯
-ContextAPIを使ってみたかった為
-
- コードの解説
-
- コンポーネントをAppContextに接続する
-
-      
-        
-        import React, { useContext } from 'react';
-import { AppContext } from '../context/AppContext';
-
-const Budget = () => {
-	const { budget } = useContext(AppContext);
-	return (
-		<d...]]></summary>
-        <author>
-            <name>KenT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する]]></title>
-        <id>https://zenn.dev/yukination/articles/e854062cea4920</id>
-        <link href="https://zenn.dev/yukination/articles/e854062cea4920"/>
-        <updated>2021-08-02T06:26:46.000Z</updated>
-        <summary type="html"><![CDATA[npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。
-こちら に公式が発表しているベンチマークの結果があります。
-npm や yarn との違いはこちらの記事が分かりやすくてオススメです。
-
- node.js のバージョンを確認
-現在使用している Node.js のバージョンが 12 以上か？の確認を行います。
-
-      
-        
-        > node -v
-v16.4.2
-
-
-      
-      
- pnpm を新規インストール
-npm を使用し pnpm のインストールを行います。
-
-      
- ...]]></summary>
-        <author>
-            <name>Yukination</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[pnpm + Vite + Vue + TypeScript で新規プロジェクトを作成する]]></title>
-        <id>https://zenn.dev/yukination/articles/e854062cea4920</id>
-        <link href="https://zenn.dev/yukination/articles/e854062cea4920"/>
-        <updated>2021-08-02T06:26:46.000Z</updated>
-        <summary type="html"><![CDATA[npm と比べて早いと話題の pnpm を使用してプロジェクトを新規作成したので備忘録として残します。
-こちら に公式が発表しているベンチマークの結果があります。
-npm や yarn との違いはこちらの記事が分かりやすくてオススメです。
-
- node.js のバージョンを確認
-現在使用している Node.js のバージョンが 12 以上か？の確認を行います。
-
-      
-        
-        > node -v
-v16.4.2
-
-
-      
-      
- pnpm を新規インストール
-npm を使用し pnpm のインストールを行います。
-
-      
- ...]]></summary>
-        <author>
-            <name>Yukination</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node.js/JST で時刻をやりとりするにあたって]]></title>
-        <id>https://zenn.dev/shztmk/articles/05_javascript-timezone</id>
-        <link href="https://zenn.dev/shztmk/articles/05_javascript-timezone"/>
-        <updated>2021-08-02T06:12:37.000Z</updated>
-        <summary type="html"><![CDATA[予備知識
-JavaScript の Date オブジェクトは、時刻を実行環境のタイムゾーンで保持している、とみなすことができます。
-すなわち new Date('2020-01-01T09:00:00+09:00') としたとき
-
-実行環境が JST ならば 2020-01-01T09:00:00+09:00
-
-実行環境が UTC ならば 2020-01-01T00:00:00Z
-
-実行環境が EST ならば 2019-12-31T19:00:00-05:00
-
-
-として保持していることになります。
-
- 懸念点
-2020-01-01T00:00:00+09:00 という文字列を受け取...]]></summary>
-        <author>
-            <name>shztmk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vim script. カーソル下のリンクの<title>を取得して、テキストリンクに置き換える。]]></title>
-        <id>https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link</id>
-        <link href="https://zenn.dev/kis9a/articles/vim-expand-link-to-text-link"/>
-        <updated>2021-08-02T01:24:44.000Z</updated>
-        <summary type="html"><![CDATA[初めに
-Vim では、リンクの上でgxをタイプすることで、ブラウザーでそのリンクを開くことができます。それを参考に、今回はカーソル下のリンクの<title>を取得して、テキストリンクに置き換える関数を書いてみました。単純ですが、個人的に markdown でメモを取る時や、参考 URL を書く時などに便利に使用しています。
-
- イメージ
-
-vim-expand-link-to-text-link
-
- 1.カーソル下のリンクを取得する。
-これが、結構難しいと思っていましたが、案外簡単でした。
-
-      
-        
-        expand('<cfil...]]></summary>
-        <author>
-            <name>kis9a</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
-        <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
-        <link href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0"/>
-        <updated>2021-08-01T17:07:28.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ しっぽくんです
-Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
-本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
-
- はじめに
-Vue.js から Nuxt.js へ移行するモチベーションは色々あります
-例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
-「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...]]></summary>
-        <author>
-            <name>しっぽくん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
-        <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
-        <link href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0"/>
-        <updated>2021-08-01T17:07:28.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ しっぽくんです
-Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
-本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
-
- はじめに
-Vue.js から Nuxt.js へ移行するモチベーションは色々あります
-例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
-「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...]]></summary>
-        <author>
-            <name>しっぽくん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[簡単にVue.jsからNuxt.js(SPA)へ移行する手引き]]></title>
-        <id>https://zenn.dev/shippokun/articles/8f9d13d7b05ed0</id>
-        <link href="https://zenn.dev/shippokun/articles/8f9d13d7b05ed0"/>
-        <updated>2021-08-01T17:07:28.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ しっぽくんです
-Vue.js をずっとやってきましたが、社内で Vue.js から Nuxt.js へ移行するプロジェクトが出てきたので参考程度に記事を書くことにしました
-本記事では Vue.js から　Nuxt.js（SPA）　へ移行する手順を説明します
-
- はじめに
-Vue.js から Nuxt.js へ移行するモチベーションは色々あります
-例えばSEO対策、SSR・SSGをやりたい、 middleware や plugin を使って楽をしたい、 Nuxt.js 特有の機能を使いたいなどなど…
-「Vue.js Nuxt.js 移行」と検索すると様々な記事がヒットしますが...]]></summary>
-        <author>
-            <name>しっぽくん</name>
         </author>
     </entry>
 </feed>
