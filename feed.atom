@@ -2,10 +2,94 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-01T01:10:55.910Z</updated>
+    <updated>2021-09-02T01:04:44.878Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Sass】Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル (2021/09)]]></title>
+        <id>https://zenn.dev/yknight/articles/1e46d3754e7f3b</id>
+        <link href="https://zenn.dev/yknight/articles/1e46d3754e7f3b"/>
+        <updated>2021-09-01T07:40:37.000Z</updated>
+        <summary type="html"><![CDATA[node-sassの終了アナウンスから、dart-sassを使う
+Sass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。
+
+ node-sassの終了に関してはこちらの記事を参照
+
+
+前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。
+
+
+ sass-loaderに依存するNext.js（v11系）と、Storybook（v6.3.7）へ、「dart-sassの導入」...]]></summary>
+        <author>
+            <name>y_Knight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Sass】node-sassの終了アナウンスから、dart-sassを使う (2021/09)]]></title>
+        <id>https://zenn.dev/yknight/articles/1e46d3754e7f3b</id>
+        <link href="https://zenn.dev/yknight/articles/1e46d3754e7f3b"/>
+        <updated>2021-09-01T07:40:37.000Z</updated>
+        <summary type="html"><![CDATA[Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル
+Sass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。
+
+ node-sassの終了に関してはこちらの記事を参照
+
+
+前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。
+
+
+ sass-loaderに依存するNext.js（v11系）と、Storybook（v...]]></summary>
+        <author>
+            <name>y_Knight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Material-UIのDate Pickerをカスタマイズしよう]]></title>
+        <id>https://zenn.dev/ryoryo16/articles/7a62ca4634685f</id>
+        <link href="https://zenn.dev/ryoryo16/articles/7a62ca4634685f"/>
+        <updated>2021-09-01T07:18:52.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Material-UIのDate Pickerって見た目もシンプルでかなりいい感じですよね～
+
+デフォルトのDate Picker
+しかし、やはりデフォルで使用するには表示が日本人向けではない...
+英語というだけでかなりの拒否反応を起こしてしまう方もいたりいなかったりしますよね。
+ここはしっかりと日本人向けにカスタマイズしていこうじゃないかという趣旨の記事となっております。
+
+ 基本の使い方
+ここはドキュメントをサラッと読むだけでも分かる部分なので読み飛ばしていただいても OK
+
+ インストール
+Date Pickerですがcoreパッケージではなく「Material-U...]]></summary>
+        <author>
+            <name>ryoryo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Material-UIのwithStylesでカスタマイズ]]></title>
+        <id>https://zenn.dev/ryoryo16/articles/076cc7e7391467</id>
+        <link href="https://zenn.dev/ryoryo16/articles/076cc7e7391467"/>
+        <updated>2021-09-01T00:39:13.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Material-UI のコンポーネントのスタイルを変更したいなーと思った際に、公式ドキュメントだけでは"withStyles"の利用方法が分かりづらかったので。
+色々と使い方はあるみたいだが、とりあえず基本の基本をピックアップ。
+
+ withStyles の基本
+下記のように withStyles によってコンポーネントを作成し配置する。
+
+      
+        
+        const CustomComponent = withStyles({
+  root: {
+    // ここにスタイルを書いたり
+  },
+  label: {},
+  // etc...]]></summary>
+        <author>
+            <name>ryoryo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vue.jsで郵便番号自動入力機能を作成する]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/0cd78360bcaf15</id>
@@ -32,6 +116,18 @@ jsonpのaxiosを使用して、郵便局dが出している郵便番号取得APi
   <label&g...]]></summary>
         <author>
             <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Auth0 の onContinuePostLogin を理解して Actions を柔軟に実装する]]></title>
+        <id>https://zenn.dev/okunokentaro/articles/01fee7f2chzps2s0zpbfd48fbd</id>
+        <link href="https://zenn.dev/okunokentaro/articles/01fee7f2chzps2s0zpbfd48fbd"/>
+        <updated>2021-09-01T00:07:02.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、クレスウェア株式会社の奥野賢太郎 ( @okunokentaro ) です。
+今回はAuth0が提供する、ログインフローを拡張する仕組みであるActionsと、さらに強力な機能であるonContinuePostLogin()について紹介します。Auth0は認証認可の機能を扱うIDaaSのひとつで、サービス自体の詳解は省略します。
+Auth0 Actionsは2021年5月にGAされた比較的新しい機能であるため、日本語情報どころか英語圏の情報がそもそも少ないため、頼りになるのは公式ドキュメント、及び試行錯誤の結果となります。今回紹介するonContinuePostLogin()...]]></summary>
+        <author>
+            <name>okunokentaro</name>
         </author>
     </entry>
     <entry>
@@ -3732,115 +3828,6 @@ InsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）
 みたいなことを調べる...]]></summary>
         <author>
             <name>Yuya Kato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-08-03のJS: Yarn 3.0、Chrome 93 beta、cross origin iframeでのalert/prompt/confirmを削除]]></title>
-        <id>https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/</id>
-        <link href="https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/"/>
-        <updated>2021-08-03T03:38:52.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #551 - Yarn 3.0がリリースされました。
-Yarn 3.0 🚀🤖 Performances, ESBuild, Better Patches, ... - DEV Community 👩‍💻👨‍💻
-berry/CHANGELOG.md at master · yarnpkg/berry
-Node.js 10のサポート終了、.pnp.cjsにリネーム、@yarnpkg/pnpifyを3つのパッケージに分解などの変更を含んでいます。
-@yarnpkg/sdks: Editor SDKs
-@yarnpkg/pnpify: PnPと互換性のないツールを実行するツール
-@yarnpkg/nm: node_modules linker
-また、 exportsフィールドのサポート、pnpmライクなハードリンクのサポート、シェル構文のサポート改善、 ESBuildでのbundleをサポートする@yarnpkg/esbuild-plugin-pnpの追加なども含まれています。
-Chrome 93 betaがリリースされました。
-Chromium Blog: Chrome 93: Multi-Screen Window Placement, PWAs as URL Handlers, and More
-Origin TrialとしてCOEPの導入をより手軽にするためのCross-Origin-Embedder-Policy：credentialless、URL Handlersの追加などが含まれています。
-AbortSignal.abort()メソッドのサポート、Stage 3のError causeとObject.hasOwnのサポートも含まれています。
-ダークモード対応などではCSSのprefers-color-scheme media quer…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue packages version mismatch:   エラーを確認 -> 解消する]]></title>
-        <id>https://zenn.dev/koushikagawa/articles/d253bb1afc591f</id>
-        <link href="https://zenn.dev/koushikagawa/articles/d253bb1afc591f"/>
-        <updated>2021-08-03T03:14:35.000Z</updated>
-        <summary type="html"><![CDATA[vue と vue-server-renderer で version mismatch
-先日Nuxtプロジェクトで npm run dev を実行した際に、下記エラーが表示されました。
-
-      
-        
-         ✖ Nuxt Fatal Error  
- Error:    
- Vue packages version mismatch:   
- - vue@2.6.11    
- - vue-server-renderer@2.6.14    
- This may cause things to work incorrectly. Make sure t...]]></summary>
-        <author>
-            <name>koushikagawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker×FastAPI×React(TypeScript) on AWS ECS【backend】]]></title>
-        <id>https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3</id>
-        <link href="https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3"/>
-        <updated>2021-08-02T20:31:44.000Z</updated>
-        <summary type="html"><![CDATA[はい、やってみた系です。
-最近ずーっとInputばっかりだったのでやったこと書くか。。となった次第です。
-ECSとか使ったことなかったので。（高いし。。）
-※お金は知らんうちに全然可愛くない金額になってるのでご利用は計画的に（RDSとかも使ってたけど１週で3000円弱くらいになってた。。）
-
- 最終構築のイメージ
-何章かに分けて作成していきますが、全部終わったらこうなるイメージ
-（今回はbackend編）
-
-
- 動作環境
-
-BigSur ver11.4
-MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)
-1.4 GHz クアッドコ...]]></summary>
-        <author>
-            <name>daisuke sasaki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptで型駆動開発]]></title>
-        <id>https://zenn.dev/kazuhe/articles/type-driven-development-typescript</id>
-        <link href="https://zenn.dev/kazuhe/articles/type-driven-development-typescript"/>
-        <updated>2021-08-02T15:54:16.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。
-2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。
-自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。
-また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...]]></summary>
-        <author>
-            <name>kazuhe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptで型駆動開発]]></title>
-        <id>https://zenn.dev/kazuhe/articles/type-driven-development-typescript</id>
-        <link href="https://zenn.dev/kazuhe/articles/type-driven-development-typescript"/>
-        <updated>2021-08-02T15:54:16.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。
-2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。
-自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。
-また、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...]]></summary>
-        <author>
-            <name>kazuhe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serverless Next.js Component のISR実装を読み解く]]></title>
-        <id>https://zenn.dev/laiso/articles/8c619c38bd7b7b</id>
-        <link href="https://zenn.dev/laiso/articles/8c619c38bd7b7b"/>
-        <updated>2021-08-02T15:13:59.000Z</updated>
-        <summary type="html"><![CDATA[AWS Amplify ConsoleでNext.jsのプロジェクトをデプロイすると Serverless Next.js Component のインテグレーションによってAWS Lambda リソースが最大4つ作成される(ソースコードはエクスポートできる)
-
-Default Lambda@Edge for Next CloudFront distribution
-API Lambda@Edge for Next CloudFront distribution
-Image Lambda@Edge for Next CloudFront distribution
-Next.js Regen...]]></summary>
-        <author>
-            <name>laiso</name>
         </author>
     </entry>
 </feed>

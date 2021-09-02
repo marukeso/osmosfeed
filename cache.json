@@ -46,15 +46,6 @@
           "publishedOn": "2021-08-10T03:10:09.000Z",
           "wordCount": 422,
           "title": "2021-08-10のJS: pnpm 6.12.0、webpack 5.49.0(import http resource)、Vue 3.2"
-        },
-        {
-          "id": "https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/",
-          "author": null,
-          "description": "JSer.info #551 - Yarn 3.0がリリースされました。\nYarn 3.0 🚀🤖 Performances, ESBuild, Better Patches, ... - DEV Community 👩‍💻👨‍💻\nberry/CHANGELOG.md at master · yarnpkg/berry\nNode.js 10のサポート終了、.pnp.cjsにリネーム、@yarnpkg/pnpifyを3つのパッケージに分解などの変更を含んでいます。\n@yarnpkg/sdks: Editor SDKs\n@yarnpkg/pnpify: PnPと互換性のないツールを実行するツール\n@yarnpkg/nm: node_modules linker\nまた、 exportsフィールドのサポート、pnpmライクなハードリンクのサポート、シェル構文のサポート改善、 ESBuildでのbundleをサポートする@yarnpkg/esbuild-plugin-pnpの追加なども含まれています。\nChrome 93 betaがリリースされました。\nChromium Blog: Chrome 93: Multi-Screen Window Placement, PWAs as URL Handlers, and More\nOrigin TrialとしてCOEPの導入をより手軽にするためのCross-Origin-Embedder-Policy：credentialless、URL Handlersの追加などが含まれています。\nAbortSignal.abort()メソッドのサポート、Stage 3のError causeとObject.hasOwnのサポートも含まれています。\nダークモード対応などではCSSのprefers-color-scheme media quer…",
-          "link": "https://jser.info/2021/08/03/yarn3-chrome93-beta-deprecate-alert/",
-          "publishedOn": "2021-08-03T03:38:52.000Z",
-          "wordCount": 574,
-          "title": "2021-08-03のJS: Yarn 3.0、Chrome 93 beta、cross origin iframeでのalert/prompt/confirmを削除"
         }
       ]
     },
@@ -63,6 +54,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/yknight/articles/1e46d3754e7f3b",
+          "author": "y_Knight",
+          "description": "node-sassの終了アナウンスから、dart-sassを使う\nSass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。\n\n node-sassの終了に関してはこちらの記事を参照\n\n\n前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。\n\n\n sass-loaderに依存するNext.js（v11系）と、Storybook（v6.3.7）へ、「dart-sassの導入」...",
+          "link": "https://zenn.dev/yknight/articles/1e46d3754e7f3b",
+          "publishedOn": "2021-09-01T07:40:37.000Z",
+          "wordCount": 887,
+          "title": "【Sass】Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル (2021/09)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--DskL2IEH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:y_Knight%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%2590Sass%25E3%2580%2591Next.js%2528v11%2529%2520%252FTypescript%25E3%2581%25A8Storybook%25E3%2581%25A7sass%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%25A8%2540use%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%2520%25282021%252F09%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjk2NzljOWNhZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/okunokentaro/articles/01fee7f2chzps2s0zpbfd48fbd",
+          "author": "okunokentaro",
+          "description": "こんにちは、クレスウェア株式会社の奥野賢太郎 ( @okunokentaro ) です。\n今回はAuth0が提供する、ログインフローを拡張する仕組みであるActionsと、さらに強力な機能であるonContinuePostLogin()について紹介します。Auth0は認証認可の機能を扱うIDaaSのひとつで、サービス自体の詳解は省略します。\nAuth0 Actionsは2021年5月にGAされた比較的新しい機能であるため、日本語情報どころか英語圏の情報がそもそも少ないため、頼りになるのは公式ドキュメント、及び試行錯誤の結果となります。今回紹介するonContinuePostLogin()...",
+          "link": "https://zenn.dev/okunokentaro/articles/01fee7f2chzps2s0zpbfd48fbd",
+          "publishedOn": "2021-09-01T00:07:02.000Z",
+          "wordCount": 518,
+          "title": "Auth0 の onContinuePostLogin を理解して Actions を柔軟に実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--iQHgEsPJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:okunokentaro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Auth0%2520%25E3%2581%25AE%2520onContinuePostLogin%2520%25E3%2582%2592%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2597%25E3%2581%25A6%2520Actions%2520%25E3%2582%2592%25E6%259F%2594%25E8%25BB%259F%25E3%2581%25AB%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzU1MThkNWFjNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/peg/articles/1878a6d6661295",
           "author": "ぺい",
@@ -706,20 +725,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/laiso/articles/8c619c38bd7b7b",
-          "author": "laiso",
-          "description": "AWS Amplify ConsoleでNext.jsのプロジェクトをデプロイすると Serverless Next.js Component のインテグレーションによってAWS Lambda リソースが最大4つ作成される(ソースコードはエクスポートできる)\n\nDefault Lambda@Edge for Next CloudFront distribution\nAPI Lambda@Edge for Next CloudFront distribution\nImage Lambda@Edge for Next CloudFront distribution\nNext.js Regen...",
-          "link": "https://zenn.dev/laiso/articles/8c619c38bd7b7b",
-          "publishedOn": "2021-08-02T15:13:59.000Z",
-          "wordCount": 130,
-          "title": "Serverless Next.js Component のISR実装を読み解く",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--oGF5KW1F--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:laiso%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Serverless%2520Next.js%2520Component%2520%25E3%2581%25AEISR%25E5%25AE%259F%25E8%25A3%2585%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BF%25E8%25A7%25A3%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDhlOThiNTFhNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -805,6 +810,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/yknight/articles/1e46d3754e7f3b",
+          "author": "y_Knight",
+          "description": "Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル\nSass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。\n\n node-sassの終了に関してはこちらの記事を参照\n\n\n前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。\n\n\n sass-loaderに依存するNext.js（v11系）と、Storybook（v...",
+          "link": "https://zenn.dev/yknight/articles/1e46d3754e7f3b",
+          "publishedOn": "2021-09-01T07:40:37.000Z",
+          "wordCount": 887,
+          "title": "【Sass】node-sassの終了アナウンスから、dart-sassを使う (2021/09)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--eO7NQ7Qt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:y_Knight%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Sass%25E3%2580%2591node-sass%25E3%2581%25AE%25E7%25B5%2582%25E4%25BA%2586%25E3%2582%25A2%25E3%2583%258A%25E3%2582%25A6%25E3%2583%25B3%25E3%2582%25B9%25E3%2581%258B%25E3%2582%2589%25E3%2580%2581dart-sass%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2520%25282021%252F09%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjk2NzljOWNhZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryoryo16/articles/7a62ca4634685f",
+          "author": "ryoryo",
+          "description": "はじめに\nMaterial-UIのDate Pickerって見た目もシンプルでかなりいい感じですよね～\n\nデフォルトのDate Picker\nしかし、やはりデフォルで使用するには表示が日本人向けではない...\n英語というだけでかなりの拒否反応を起こしてしまう方もいたりいなかったりしますよね。\nここはしっかりと日本人向けにカスタマイズしていこうじゃないかという趣旨の記事となっております。\n\n 基本の使い方\nここはドキュメントをサラッと読むだけでも分かる部分なので読み飛ばしていただいても OK\n\n インストール\nDate Pickerですがcoreパッケージではなく「Material-U...",
+          "link": "https://zenn.dev/ryoryo16/articles/7a62ca4634685f",
+          "publishedOn": "2021-09-01T07:18:52.000Z",
+          "wordCount": 430,
+          "title": "Material-UIのDate Pickerをカスタマイズしよう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--G4CAAFC5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryoryo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Material-UI%25E3%2581%25AEDate%2520Picker%25E3%2582%2592%25E3%2582%25AB%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25BA%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZGVhNThjOTA4NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryoryo16/articles/076cc7e7391467",
+          "author": "ryoryo",
+          "description": "はじめに\nMaterial-UI のコンポーネントのスタイルを変更したいなーと思った際に、公式ドキュメントだけでは\"withStyles\"の利用方法が分かりづらかったので。\n色々と使い方はあるみたいだが、とりあえず基本の基本をピックアップ。\n\n withStyles の基本\n下記のように withStyles によってコンポーネントを作成し配置する。\n\n      \n        \n        const CustomComponent = withStyles({\n  root: {\n    // ここにスタイルを書いたり\n  },\n  label: {},\n  // etc...",
+          "link": "https://zenn.dev/ryoryo16/articles/076cc7e7391467",
+          "publishedOn": "2021-09-01T00:39:13.000Z",
+          "wordCount": 330,
+          "title": "Material-UIのwithStylesでカスタマイズ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xvVmuEoq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryoryo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Material-UI%25E3%2581%25AEwithStyles%25E3%2581%25A7%25E3%2582%25AB%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZGVhNThjOTA4NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/terrierscript/articles/2021-08-31-react-hooks-factory",
           "author": "terrierscript",
@@ -1784,34 +1831,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3",
-          "author": "daisuke sasaki",
-          "description": "はい、やってみた系です。\n最近ずーっとInputばっかりだったのでやったこと書くか。。となった次第です。\nECSとか使ったことなかったので。（高いし。。）\n※お金は知らんうちに全然可愛くない金額になってるのでご利用は計画的に（RDSとかも使ってたけど１週で3000円弱くらいになってた。。）\n\n 最終構築のイメージ\n何章かに分けて作成していきますが、全部終わったらこうなるイメージ\n（今回はbackend編）\n\n\n 動作環境\n\nBigSur ver11.4\nMacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)\n1.4 GHz クアッドコ...",
-          "link": "https://zenn.dev/daisukesasaki/articles/f18dd6554f94e3",
-          "publishedOn": "2021-08-02T20:31:44.000Z",
-          "wordCount": 912,
-          "title": "Docker×FastAPI×React(TypeScript) on AWS ECS【backend】",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Nz-MNjC0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:daisuke%2520sasaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Docker%25C3%2597FastAPI%25C3%2597React%2528TypeScript%2529%2520on%2520AWS%2520ECS%25E3%2580%2590backend%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWZiMjI1NmFmZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
-          "author": "kazuhe",
-          "description": "はじめに\n型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。\n2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。\n自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。\nまた、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...",
-          "link": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
-          "publishedOn": "2021-08-02T15:54:16.000Z",
-          "wordCount": 643,
-          "title": "TypeScriptで型駆動開発",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--56npAWpa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kazuhe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:TypeScript%25E3%2581%25A7%25E5%259E%258B%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGEwMmEwNWExZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2383,34 +2402,6 @@
           "title": "VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--EP4hHJAt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yoshixj%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Vue%25E3%2581%25AECompositionAPI%25E3%2581%25A8graphql-code-generator%25E3%2581%25AE%25E4%25BD%2593%25E9%25A8%2593%25E3%2581%258C%25E8%2589%25AF%25E3%2581%2584%25E3%2581%25AE%25E3%2581%25A7%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OTRkNTdlOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/koushikagawa/articles/d253bb1afc591f",
-          "author": "koushikagawa",
-          "description": "vue と vue-server-renderer で version mismatch\n先日Nuxtプロジェクトで npm run dev を実行した際に、下記エラーが表示されました。\n\n      \n        \n         ✖ Nuxt Fatal Error  \n Error:    \n Vue packages version mismatch:   \n - vue@2.6.11    \n - vue-server-renderer@2.6.14    \n This may cause things to work incorrectly. Make sure t...",
-          "link": "https://zenn.dev/koushikagawa/articles/d253bb1afc591f",
-          "publishedOn": "2021-08-03T03:14:35.000Z",
-          "wordCount": 182,
-          "title": "Vue packages version mismatch:   エラーを確認 -> 解消する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s---yMDuN-M--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:koushikagawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Vue%2520packages%2520version%2520mismatch%253A%2520%2520%2520%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%2520-%253E%2520%25E8%25A7%25A3%25E6%25B6%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEUWtHdVNnSnE4dEdNUzFOY2tESTl2dHZkLXdvYU5SYlpLazM1c3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
-          "author": "kazuhe",
-          "description": "はじめに\n型駆動開発とはどんなもので実践すると何が嬉しいのかを自分なりに理解するためにこの記事を書きます。\n2021年8月時点では「型駆動開発」でググっても意図した内容がヒットせず、「Type-Driven Development」と検索して英語の記事が何件かヒットする程度です。\n自分の「型駆動開発」に対しての理解・認識が世間一般のそれと相違がある場合もありますので、何か思うところがあればご指摘いただければ大変嬉しく思います。\nまた、この記事ではTypeScriptとVue.jsでフロントエンドのコードを書いていきます。TypeScriptは必須の前提ですがReactでも同じような考...",
-          "link": "https://zenn.dev/kazuhe/articles/type-driven-development-typescript",
-          "publishedOn": "2021-08-02T15:54:16.000Z",
-          "wordCount": 643,
-          "title": "TypeScriptで型駆動開発",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--56npAWpa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kazuhe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:TypeScript%25E3%2581%25A7%25E5%259E%258B%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGEwMmEwNWExZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
