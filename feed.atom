@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-02T01:04:44.878Z</updated>
+    <updated>2021-09-03T01:03:58.109Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vimにeskkをインストールする]]></title>
+        <id>https://zenn.dev/kato_k/articles/753b36262b3213</id>
+        <link href="https://zenn.dev/kato_k/articles/753b36262b3213"/>
+        <updated>2021-09-02T15:04:12.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Vim上での日本語入力の手段としてeskk.vimを導入しましたので自分用のメモも兼ねて残します。
+SKK・eskk.vim共にこれまで使ったことがないので、参考程度に見てください。
+
+ インストール
+
+ eskk.vim
+https://github.com/tyru/eskk.vim
+好みのプラグインマネージャでeskkを導入してください。
+
+ 辞書
+skkを使うには読みとの対応が列挙された辞書が必要になるので、ダウンロードしてeskkに教えてあげる必要があります。
+辞書ファイルはこちら↓などで公開されている物を利用しましょう。
+https://skk-dev.gith...]]></summary>
+        <author>
+            <name>kato-k</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース]]></title>
+        <id>https://zenn.dev/hiro__dev/articles/605161cd5a7875</id>
+        <link href="https://zenn.dev/hiro__dev/articles/605161cd5a7875"/>
+        <updated>2021-09-02T01:01:39.000Z</updated>
+        <summary type="html"><![CDATA[環境
+・MacOS BigSur（11.5.2）
+・VScode（1.59.1）
+・Node.js   (16.1.1）
+・Firebase （9.0.0）←New!
+・yarn (1.22.11)
+・TypeScript(4.4.2)
+
+ 対象
+・これからFirebaseでプロジェクトを始めようとする人
+✍️8月25日以前に出された教材やチュートリアル、記事、そして現時点での日本語の公式ドキュメントを参考にしようとしている人は特に！
+・教材や記事、ハンズオン通りにFirebaseでプロジェクトを始めたのに原因不明のエラーぶつかった人
+・8月25日以前にFirebaseプロジェクト作って...]]></summary>
+        <author>
+            <name>Hiro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SWRとReact hooksで条件を満たすまで定期的にデータフェッチする処理を実現]]></title>
+        <id>https://zenn.dev/creamstew/articles/674a0e2208a2befc131f</id>
+        <link href="https://zenn.dev/creamstew/articles/674a0e2208a2befc131f"/>
+        <updated>2021-09-01T14:52:24.000Z</updated>
+        <summary type="html"><![CDATA[ある特定の条件を満たすまで、定期的にデータフェッチしたかった。
+SWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。
+例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。
+
+ 完成形
+これで条件を満たすまで、定期的なデータフェッチを実現しています。
+
+      
+        
+        import useSWR from 'swr'
+import { useEffect, useState } from 'react';
+
+functio...]]></summary>
+        <author>
+            <name>creamstew</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【Sass】Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル (2021/09)]]></title>
         <id>https://zenn.dev/yknight/articles/1e46d3754e7f3b</id>
@@ -3760,74 +3827,6 @@ B → 区切り文字なしで前の文字に移動
 Ctrl + r → 一つ前の操...]]></summary>
         <author>
             <name>vampire_yuta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dockerで立てたNode.js, TypeScript環境にESLintとprettierを導入して、VSCode保存でコード整形も行う]]></title>
-        <id>https://zenn.dev/unemployed/articles/prettier-eslint</id>
-        <link href="https://zenn.dev/unemployed/articles/prettier-eslint"/>
-        <updated>2021-08-04T06:11:36.000Z</updated>
-        <summary type="html"><![CDATA[最初に
-綺麗なコードを書きたいという事で、Stripe の API を試す環境（TypeScript と Express）に ESLint と Prettier を導入してコードを静的解析、整形出来る環境を作ろうと思う。
-
- node.js の環境構築
-今回も docker-compose を使ってサクッと作ろうと思う。docker じゃなく docker-compose を使う理由はポートをルーティングしたコンテナの起動等が docker-compose.yml に記述出来るので起動時のコマンドを省略出来るので使用している。単一のコンテナを利用する際でも便利だと思う。
-軽量な no...]]></summary>
-        <author>
-            <name>大学生だった.</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい]]></title>
-        <id>https://zenn.dev/tanoken729/articles/6a96bff90b8e12</id>
-        <link href="https://zenn.dev/tanoken729/articles/6a96bff90b8e12"/>
-        <updated>2021-08-03T15:32:50.000Z</updated>
-        <summary type="html"><![CDATA[成功
-store/musicFiles.js
-
-      
-        
-        export const state = () => ({
-  musicFileData: [],
-})
-
-export const getters = {
-  musicFileData: state => state.musicFileData
-}
-
-export const mutations = {
-  setMusicFileDataMutations(state, musicFileData) {
-    // console.log(musicFileData)
- ...]]></summary>
-        <author>
-            <name>tanoken</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[InsightFaceで顔認証（特徴量抽出、比較）してみた]]></title>
-        <id>https://zenn.dev/yuyakato/articles/d35b185d36a33b</id>
-        <link href="https://zenn.dev/yuyakato/articles/d35b185d36a33b"/>
-        <updated>2021-08-03T13:48:56.000Z</updated>
-        <summary type="html"><![CDATA[目次
-
-InsightFaceとFastAPIで顔検出サーバを作ってみた
-InsightFaceの顔検出結果をNext.jsで可視化してみた
-InsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）
-
-
- 初めに
-前回、前々回と、InsightFaceを使った顔検出の例を紹介しました。
-今回は、InsightFaceを使って顔認証（Face Recognition）を試してみたいと思います。
-
- 顔認証とは
-顔認証とは:
-
-提示された画像に含まれている顔が、事前に登録されているどの顔に一番近いか？
-2つの顔画像、顔Aと顔Bはどれだけ類似しているか？
-
-みたいなことを調べる...]]></summary>
-        <author>
-            <name>Yuya Kato</name>
         </author>
     </entry>
 </feed>

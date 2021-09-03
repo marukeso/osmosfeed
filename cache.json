@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/creamstew/articles/674a0e2208a2befc131f",
+          "author": "creamstew",
+          "description": "ある特定の条件を満たすまで、定期的にデータフェッチしたかった。\nSWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。\n例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。\n\n 完成形\nこれで条件を満たすまで、定期的なデータフェッチを実現しています。\n\n      \n        \n        import useSWR from 'swr'\nimport { useEffect, useState } from 'react';\n\nfunctio...",
+          "link": "https://zenn.dev/creamstew/articles/674a0e2208a2befc131f",
+          "publishedOn": "2021-09-01T14:52:24.000Z",
+          "wordCount": 100,
+          "title": "SWRとReact hooksで条件を満たすまで定期的にデータフェッチする処理を実現",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--XEL2Q6U0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:creamstew%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:SWR%25E3%2581%25A8React%2520hooks%25E3%2581%25A7%25E6%259D%25A1%25E4%25BB%25B6%25E3%2582%2592%25E6%25BA%2580%25E3%2581%259F%25E3%2581%2599%25E3%2581%25BE%25E3%2581%25A7%25E5%25AE%259A%25E6%259C%259F%25E7%259A%2584%25E3%2581%25AB%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2595%25E3%2582%25A7%25E3%2583%2583%25E3%2583%2581%25E3%2581%2599%25E3%2582%258B%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E7%258F%25BE%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/yknight/articles/1e46d3754e7f3b",
           "author": "y_Knight",
           "description": "node-sassの終了アナウンスから、dart-sassを使う\nSass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。\n\n node-sassの終了に関してはこちらの記事を参照\n\n\n前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。\n\n\n sass-loaderに依存するNext.js（v11系）と、Storybook（v6.3.7）へ、「dart-sassの導入」...",
@@ -711,20 +725,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yuyakato/articles/d35b185d36a33b",
-          "author": "Yuya Kato",
-          "description": "目次\n\nInsightFaceとFastAPIで顔検出サーバを作ってみた\nInsightFaceの顔検出結果をNext.jsで可視化してみた\nInsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）\n\n\n 初めに\n前回、前々回と、InsightFaceを使った顔検出の例を紹介しました。\n今回は、InsightFaceを使って顔認証（Face Recognition）を試してみたいと思います。\n\n 顔認証とは\n顔認証とは:\n\n提示された画像に含まれている顔が、事前に登録されているどの顔に一番近いか？\n2つの顔画像、顔Aと顔Bはどれだけ類似しているか？\n\nみたいなことを調べる...",
-          "link": "https://zenn.dev/yuyakato/articles/d35b185d36a33b",
-          "publishedOn": "2021-08-03T13:48:56.000Z",
-          "wordCount": 185,
-          "title": "InsightFaceで顔認証（特徴量抽出、比較）してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--wRi6u_dX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuya%2520Kato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:InsightFace%25E3%2581%25A7%25E9%25A1%2594%25E8%25AA%258D%25E8%25A8%25BC%25EF%25BC%2588%25E7%2589%25B9%25E5%25BE%25B4%25E9%2587%258F%25E6%258A%25BD%25E5%2587%25BA%25E3%2580%2581%25E6%25AF%2594%25E8%25BC%2583%25EF%25BC%2589%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUSUhmX2JGaE1tcVp0aDNYQUI2NFY0aGRnNlJWbE5CbjVhZmQzdXc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -788,20 +788,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/tanoken729/articles/6a96bff90b8e12",
-          "author": "tanoken",
-          "description": "成功\nstore/musicFiles.js\n\n      \n        \n        export const state = () => ({\n  musicFileData: [],\n})\n\nexport const getters = {\n  musicFileData: state => state.musicFileData\n}\n\nexport const mutations = {\n  setMusicFileDataMutations(state, musicFileData) {\n    // console.log(musicFileData)\n ...",
-          "link": "https://zenn.dev/tanoken729/articles/6a96bff90b8e12",
-          "publishedOn": "2021-08-03T15:32:50.000Z",
-          "wordCount": 155,
-          "title": "wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--qVmDL7ti--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tanoken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:wip%2520%25E3%2580%2590%25E9%259F%25B3%25E6%25A5%25BD%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E8%25A9%25B3%25E7%25B4%25B0%25E8%25A1%25A8%25E7%25A4%25BA%25E6%25A9%259F%25E8%2583%25BD%25E3%2580%2591store%25E3%2582%2592%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581getter%25E3%2582%2592%25E5%258F%2582%25E7%2585%25A7%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dzSWFrN3BqZU13dW9saWduTXdqRHpoeFI5NTQyb2Fvb0w5cVJ1PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -810,6 +796,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/hiro__dev/articles/605161cd5a7875",
+          "author": "Hiro",
+          "description": "環境\n・MacOS BigSur（11.5.2）\n・VScode（1.59.1）\n・Node.js   (16.1.1）\n・Firebase （9.0.0）←New!\n・yarn (1.22.11)\n・TypeScript(4.4.2)\n\n 対象\n・これからFirebaseでプロジェクトを始めようとする人\n✍️8月25日以前に出された教材やチュートリアル、記事、そして現時点での日本語の公式ドキュメントを参考にしようとしている人は特に！\n・教材や記事、ハンズオン通りにFirebaseでプロジェクトを始めたのに原因不明のエラーぶつかった人\n・8月25日以前にFirebaseプロジェクト作って...",
+          "link": "https://zenn.dev/hiro__dev/articles/605161cd5a7875",
+          "publishedOn": "2021-09-02T01:01:39.000Z",
+          "wordCount": 464,
+          "title": "これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cN2qHcGL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hiro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2581%2593%25E3%2582%258C%25E3%2581%258B%25E3%2582%2589Firebase%25E3%2581%25A7%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%2588%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2599%25E3%2582%258B%25E5%2585%25A8%25E3%2581%25A6%25E3%2581%25AE%25E4%25BA%25BA%25E3%2581%258C%25E7%259F%25A5%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258A%25E3%2581%258F%25E3%2581%25B9%25E3%2581%258D%25E3%2581%2593%25E3%2581%25A8%2520v8%25E2%2586%2592v9%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptT1MtaXJhZ2RXSHJTRkNPTzcwdVV4TkVaTnh0S29HcVpaUjNObDVNPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yknight/articles/1e46d3754e7f3b",
           "author": "y_Knight",
@@ -1817,20 +1817,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/unemployed/articles/prettier-eslint",
-          "author": "大学生だった.",
-          "description": "最初に\n綺麗なコードを書きたいという事で、Stripe の API を試す環境（TypeScript と Express）に ESLint と Prettier を導入してコードを静的解析、整形出来る環境を作ろうと思う。\n\n node.js の環境構築\n今回も docker-compose を使ってサクッと作ろうと思う。docker じゃなく docker-compose を使う理由はポートをルーティングしたコンテナの起動等が docker-compose.yml に記述出来るので起動時のコマンドを省略出来るので使用している。単一のコンテナを利用する際でも便利だと思う。\n軽量な no...",
-          "link": "https://zenn.dev/unemployed/articles/prettier-eslint",
-          "publishedOn": "2021-08-04T06:11:36.000Z",
-          "wordCount": 696,
-          "title": "Dockerで立てたNode.js, TypeScript環境にESLintとprettierを導入して、VSCode保存でコード整形も行う",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Ad-uJwRg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%25A4%25A7%25E5%25AD%25A6%25E7%2594%259F%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F.%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Docker%25E3%2581%25A7%25E7%25AB%258B%25E3%2581%25A6%25E3%2581%259FNode.js%252C%2520TypeScript%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25ABESLint%25E3%2581%25A8prettier%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581VSCode%25E4%25BF%259D%25E5%25AD%2598%25E3%2581%25A7%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E6%2595%25B4%25E5%25BD%25A2%25E3%2582%2582%25E8%25A1%258C%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzQ2NGViNWVkYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1839,6 +1825,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/kato_k/articles/753b36262b3213",
+          "author": "kato-k",
+          "description": "はじめに\nVim上での日本語入力の手段としてeskk.vimを導入しましたので自分用のメモも兼ねて残します。\nSKK・eskk.vim共にこれまで使ったことがないので、参考程度に見てください。\n\n インストール\n\n eskk.vim\nhttps://github.com/tyru/eskk.vim\n好みのプラグインマネージャでeskkを導入してください。\n\n 辞書\nskkを使うには読みとの対応が列挙された辞書が必要になるので、ダウンロードしてeskkに教えてあげる必要があります。\n辞書ファイルはこちら↓などで公開されている物を利用しましょう。\nhttps://skk-dev.gith...",
+          "link": "https://zenn.dev/kato_k/articles/753b36262b3213",
+          "publishedOn": "2021-09-02T15:04:12.000Z",
+          "wordCount": 168,
+          "title": "Vimにeskkをインストールする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--_sBVbMm1--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kato-k%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vim%25E3%2581%25ABeskk%25E3%2582%2592%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDA1MWRmMmFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/nyarla/articles/0a171145604993",
           "author": "にゃるら（テック系）",

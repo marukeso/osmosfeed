@@ -77,12 +77,99 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-02">2021-09-02</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hiro__dev/articles/605161cd5a7875">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>環境
+・MacOS BigSur（11.5.2）
+・VScode（1.59.1）
+・Node.js   (16.1.1）
+・Firebase （9.0.0）←New!
+・yarn (1.22.11)
+・TypeScript(4.4.2)
+
+ 対象
+・これからFirebaseでプロジェクトを始めようとする人
+✍️8月25日以前に出された教材やチュートリアル、記事、そして現時点での日本語の公式ドキュメントを参考にしようとしている人は特に！
+・教材や記事、ハンズオン通りにFirebaseでプロジェクトを始めたのに原因不明のエラーぶつかった人
+・8月25日以前にFirebaseプロジェクト作って...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vimにeskkをインストールする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kato_k/articles/753b36262b3213">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+Vim上での日本語入力の手段としてeskk.vimを導入しましたので自分用のメモも兼ねて残します。
+SKK・eskk.vim共にこれまで使ったことがないので、参考程度に見てください。
+
+ インストール
+
+ eskk.vim
+https://github.com/tyru/eskk.vim
+好みのプラグインマネージャでeskkを導入してください。
+
+ 辞書
+skkを使うには読みとの対応が列挙された辞書が必要になるので、ダウンロードしてeskkに教えてあげる必要があります。
+辞書ファイルはこちら↓などで公開されている物を利用しましょう。
+https://skk-dev.gith...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-01">2021-09-01</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">SWRとReact hooksで条件を満たすまで定期的にデータフェッチする処理を実現</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/creamstew/articles/674a0e2208a2befc131f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ある特定の条件を満たすまで、定期的にデータフェッチしたかった。
+SWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。
+例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。
+
+ 完成形
+これで条件を満たすまで、定期的なデータフェッチを実現しています。
+
+      
+        
+        import useSWR from &#x27;swr&#x27;
+import { useEffect, useState } from &#x27;react&#x27;;
+
+functio...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">【Sass】Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル (2021/09)</summary>
@@ -4568,22 +4655,6 @@ CompositionAPIと以前からあるOption APIの違いを説明するとなっ�
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Dockerで立てたNode.js, TypeScript環境にESLintとprettierを導入して、VSCode保存でコード整形も行う</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/unemployed/articles/prettier-eslint">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>最初に
-綺麗なコードを書きたいという事で、Stripe の API を試す環境（TypeScript と Express）に ESLint と Prettier を導入してコードを静的解析、整形出来る環境を作ろうと思う。
-
- node.js の環境構築
-今回も docker-compose を使ってサクッと作ろうと思う。docker じゃなく docker-compose を使う理由はポートをルーティングしたコンテナの起動等が docker-compose.yml に記述出来るので起動時のコマンドを省略出来るので使用している。単一のコンテナを利用する際でも便利だと思う。
-軽量な no...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -4650,81 +4721,9 @@ CompositionAPIと以前からあるOption APIの違いを説明するとなっ�
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-03">2021-08-03</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">InsightFaceで顔認証（特徴量抽出、比較）してみた</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuyakato/articles/d35b185d36a33b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>目次
-
-InsightFaceとFastAPIで顔検出サーバを作ってみた
-InsightFaceの顔検出結果をNext.jsで可視化してみた
-InsightFaceで顔認証（特徴量抽出、比較）してみた（本記事）
-
-
- 初めに
-前回、前々回と、InsightFaceを使った顔検出の例を紹介しました。
-今回は、InsightFaceを使って顔認証（Face Recognition）を試してみたいと思います。
-
- 顔認証とは
-顔認証とは:
-
-提示された画像に含まれている顔が、事前に登録されているどの顔に一番近いか？
-2つの顔画像、顔Aと顔Bはどれだけ類似しているか？
-
-みたいなことを調べる...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">wip 【音楽ファイル詳細表示機能】storeをモジュール化して、getterを参照したい</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tanoken729/articles/6a96bff90b8e12">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>成功
-store/musicFiles.js
-
-      
-        
-        export const state &#x3D; () &#x3D;&gt; ({
-  musicFileData: [],
-})
-
-export const getters &#x3D; {
-  musicFileData: state &#x3D;&gt; state.musicFileData
-}
-
-export const mutations &#x3D; {
-  setMusicFileDataMutations(state, musicFileData) {
-    // console.log(musicFileData)
- ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-02T01:04:44.858Z">2021-09-02T01:04:44.858Z</time>
+    <time id="build-timestamp" datetime="2021-09-03T01:03:58.084Z">2021-09-03T01:03:58.084Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
