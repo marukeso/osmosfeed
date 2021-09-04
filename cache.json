@@ -55,6 +55,20 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
+          "author": "Ren Shimosawa",
+          "description": "ページ内の文字列を検索して、それだけ残す\n\n こんなかんじに検索して、絞り込むものを作ります。\n\n\n前提として、環境は\n・Next.js\n・TypeScript\nとなっています。\n※アイコンとかは違うコンポーネントなので省略して書きます。\n\n      \n        index.tsx\n        import styles from './SearchForm.module.scss'\nimport cn from 'classnames'\n\nexport interface Props = {\n  placeholder?: string\n  className?: st...",
+          "link": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
+          "publishedOn": "2021-09-03T13:05:34.000Z",
+          "wordCount": 141,
+          "title": "ページ内の文字列を検索してフィルタリングするコンポーネント",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--go-MzjS5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Ren%2520Shimosawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E5%2586%2585%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2595%25E3%2582%25A3%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptcmlXRGR5UjRXLUdpUHd4eUZHbGphX1Q0cUVRS3hqcXhNU1NPPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/creamstew/articles/674a0e2208a2befc131f",
           "author": "creamstew",
           "description": "ある特定の条件を満たすまで、定期的にデータフェッチしたかった。\nSWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。\n例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。\n\n 完成形\nこれで条件を満たすまで、定期的なデータフェッチを実現しています。\n\n      \n        \n        import useSWR from 'swr'\nimport { useEffect, useState } from 'react';\n\nfunctio...",
@@ -711,20 +725,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/dl10yr/articles/021c1b0fc2ec35",
-          "author": "dl10yr",
-          "description": "最重要なこと\nGA4ではなくユニバーサルアナリティクスのプロパティ（UA-始まりのID）を使うこと！ (2021年8月4日現在、私調べ）\n\n      \n        \n        [AmpAnalytics <unknown id>] No triggers were found in the config. No analytics data will be sent.\n\n\n      \n      GA4のIDでは動きませんでした...\nhttps://github.com/ampproject/amphtml/issues/30903\n\n 実装方針\nAMP対...",
-          "link": "https://zenn.dev/dl10yr/articles/021c1b0fc2ec35",
-          "publishedOn": "2021-08-05T12:11:57.000Z",
-          "wordCount": 349,
-          "title": "Nextjs AMPモードで Google Analyticsを動かしたい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--icwAepSq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dl10yr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nextjs%2520AMP%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25A7%2520Google%2520Analytics%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -796,6 +796,118 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
+          "author": "Ren Shimosawa",
+          "description": "ページ内の文字列を検索して、それだけ残す\n\n こんなかんじに検索して、絞り込むものを作ります。\n\n\n前提として、環境は\n・Next.js\n・TypeScript\nとなっています。\n※アイコンとかは違うコンポーネントなので省略して書きます。\n\n      \n        index.tsx\n        import styles from './SearchForm.module.scss'\nimport cn from 'classnames'\n\nexport interface Props = {\n  placeholder?: string\n  className?: st...",
+          "link": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
+          "publishedOn": "2021-09-03T13:05:34.000Z",
+          "wordCount": 141,
+          "title": "ページ内の文字列を検索してフィルタリングするコンポーネント",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--go-MzjS5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Ren%2520Shimosawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E5%2586%2585%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2595%25E3%2582%25A3%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptcmlXRGR5UjRXLUdpUHd4eUZHbGphX1Q0cUVRS3hqcXhNU1NPPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb",
+          "author": "k_touge",
+          "description": "サマリー\nDocker Desktop （docker デーモン）を起動させておいて…\n\n      \n        zsh\n        % git clone https://github.com/sprout2000/cra.git\n% cd cra\n% docker-compose up\n\n\n      \n      localhost:3000 を開きましょう。これだけです。\nhttps://github.com/sprout2000/cra\n\nこのコンテナの実行を停止するには以下のようにしてください。\n\n      \n        bash\n        ^C  ...",
+          "link": "https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb",
+          "publishedOn": "2021-09-03T09:08:44.000Z",
+          "wordCount": 485,
+          "title": "Docker で React + TypeScript の開発環境【入門編】",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--t5X1G3Zg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:k_touge%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Docker%2520%25E3%2581%25A7%2520React%2520%252B%2520TypeScript%2520%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2580%2590%25E5%2585%25A5%25E9%2596%2580%25E7%25B7%25A8%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTkyNDAwNGE0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/umezo/articles/dc452d9a1a24f2",
+          "author": "umezo",
+          "description": "やりたいこと\n\n      \n        \n        type T1 = {\n    a: {\n        a1: string;\n\ta2: number;\n    };\n    b: {\n        b1: string;\n        b2: number;\n    }[];\n};\n\ntype T2: DeepPartial<T1>;\n\nconst t2: T2 = {\n    a: {\n        a2: \"1\",\n    },\n    b: [\n        {\n\t    b2: 1\n\t}\n    ],\n};\n\n\n      \n     ...",
+          "link": "https://zenn.dev/umezo/articles/dc452d9a1a24f2",
+          "publishedOn": "2021-09-03T07:14:04.000Z",
+          "wordCount": 72,
+          "title": "TypeScriptのPartialを再帰的にするやつ。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9mXxMU1P--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umezo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AEPartial%25E3%2582%2592%25E5%2586%258D%25E5%25B8%25B0%25E7%259A%2584%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2582%2584%25E3%2581%25A4%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hmRUZCbmZtcERXLXlGRUtmOUR0MUF0MDZJR3lNdlJWY0pGYnV4Q0E9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/umezo/articles/06bd73b3a02be3",
+          "author": "umezo",
+          "description": "やりたいこと\nこういうことをしたい。\n\n      \n        \n        type T1 = {\n    a: number,\n    b: string,\n};\n\ntype T2 = PickUpByType<T1, number>;\n\nconst t2: T2 = {\n    a: 1,\n};\n\n\n      \n      \n 解決\n実装はこう\n\n      \n        \n        type KeysByType<T, Type> = {\n  [key in keyof T]: T[key] extends Type ? key ...",
+          "link": "https://zenn.dev/umezo/articles/06bd73b3a02be3",
+          "publishedOn": "2021-09-03T06:42:39.000Z",
+          "wordCount": 119,
+          "title": "TypeScriptのPickをTypeで指定できるやつ。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--kIATZRjC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umezo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AEPick%25E3%2582%2592Type%25E3%2581%25A7%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2584%25E3%2581%25A4%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hmRUZCbmZtcERXLXlGRUtmOUR0MUF0MDZJR3lNdlJWY0pGYnV4Q0E9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/rgbkids/articles/3ab4c91b3b028c",
+          "author": "vteacher",
+          "description": "原文を元に、会話風（入門編によくある感じ）にしたてあげました。\nわかりにくいところは説明を足しています。\n原文：\nhttps://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html\n\n あいさつ\n🙍‍♀️「TypeScriptを使用して簡単なWebアプリケーションを構築することから始めましょう」\n🙂「うう…TypeScriptって、使っていないとなんとなくマウントを取られた感じがするあれですね」\n🙍‍♀️「そうですね。小さいストレスでもバグの元。フロントエンドの開発にTypeScriptは必須...",
+          "link": "https://zenn.dev/rgbkids/articles/3ab4c91b3b028c",
+          "publishedOn": "2021-09-03T03:50:41.000Z",
+          "wordCount": 346,
+          "title": "「5分でTypeScript」を会話風に説明してみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--W2-24eUx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:vteacher%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%258C5%25E5%2588%2586%25E3%2581%25A7TypeScript%25E3%2580%258D%25E3%2582%2592%25E4%25BC%259A%25E8%25A9%25B1%25E9%25A2%25A8%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dZZXAwYXhYZ084ZHlWVVJsbndsanVacFlaRmF4ZU14YV92Z3JDSHc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nekoniki/articles/26dfda35b90377",
+          "author": "nekoniki",
+          "description": "はじめに\n今回はReactNativeアプリから端末のカレンダーへイベントを登録する方法について紹介します。\n会議やイベント情報などを表示するようなタイプのアプリでは、OSのカレンダーと同期を行いたいケースも多いので役立つかと思います。\n\n 使用するライブラリ\n使用するライブラリはreact-native-calendar-eventsです。\n端末内のカレンダー情報の取得から、そこにイベントを追加するまでを行うことができます。\nhttps://github.com/wmcmahan/react-native-calendar-events\n\n インストール\n以下コマンドでインストール...",
+          "link": "https://zenn.dev/nekoniki/articles/26dfda35b90377",
+          "publishedOn": "2021-09-03T01:20:02.000Z",
+          "wordCount": 209,
+          "title": "【RN】端末のカレンダーにイベントを追加する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--gmAljGGz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590RN%25E3%2580%2591%25E7%25AB%25AF%25E6%259C%25AB%25E3%2581%25AE%25E3%2582%25AB%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2580%25E3%2583%25BC%25E3%2581%25AB%25E3%2582%25A4%25E3%2583%2599%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/heavenosk/articles/headless-ui-drawer",
+          "author": "へぶん",
+          "description": "Headless UI + Tailwind CSS を組み合わせてドロワーを楽に実装できたので紹介します。\n以下のような Twitter っぽいのドロワーを作成しました。\nhttps://twitter.com/heavenOSK/status/1433431433146605571?s=20\n\n Headless UI とは\nHeadless UI はスタイルを排除したコンポーネント集で、Tailwind CSS と相性がいいとのことです。\nhttps://headlessui.dev/\n\n スタイルを排除した設計\n各コンポーネントのスタイルを切り替えるタイミングを抽象化してくれてい...",
+          "link": "https://zenn.dev/heavenosk/articles/headless-ui-drawer",
+          "publishedOn": "2021-09-02T17:40:36.000Z",
+          "wordCount": 444,
+          "title": "Headless UI + Tailwind CSS で Twitter 風のドロワーを作ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--wxOlXCoD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B8%25E3%2581%25B6%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Headless%2520UI%2520%252B%2520Tailwind%2520CSS%2520%25E3%2581%25A7%2520Twitter%2520%25E9%25A2%25A8%25E3%2581%25AE%25E3%2583%2589%25E3%2583%25AD%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hoMWZIZ0JrazVrQ3N2c2dQYS10azVkMG0yTk02ZHBDM3BBWXdKPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/koki_tech/articles/361bb8f2278764",
+          "author": "Koki Nagai",
+          "description": "こんにちは、株式会社スタメンでオンラインサロンFANTSのフロントエンドエンジニアをしている@0906kokiです。\n今回はSOLID原則の5つの設計原則を、Reactのコードをベースにして解説できればと思います。\n\n SOLID原則とは？\nSOLID原則とは、ソフトウェアを柔軟に、メンテナンス性を高く設計するための5つの原則となります。\nRobert C. Martinによって、5つの原則の頭文字をとってSOLIDという名前が付けられました。5つの原則とは以下の通りです。\n\nSRP: 単一責任の原則\nOCP: 開放閉鎖の原則\nLSP: リスコフの置換原則\nISP: インタフェース分離の...",
+          "link": "https://zenn.dev/koki_tech/articles/361bb8f2278764",
+          "publishedOn": "2021-09-02T07:49:17.000Z",
+          "wordCount": 1123,
+          "title": "SOLID原則で考えるReact設計",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--YFq6E64w--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Koki%2520Nagai%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:SOLID%25E5%258E%259F%25E5%2589%2587%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258BReact%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h2X19mQldpYWVVeFVsZjVxaHZPSGpfMk1uZTIwdGpBdW9rV2hnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/hiro__dev/articles/605161cd5a7875",
           "author": "Hiro",
@@ -1803,20 +1915,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yoshixj/articles/d460f4d9cfb299",
-          "author": "yoshixj",
-          "description": "vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。\nそのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。\n\n CompositionAPIのメリット\nCompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。\n\n記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...",
-          "link": "https://zenn.dev/yoshixj/articles/d460f4d9cfb299",
-          "publishedOn": "2021-08-04T23:09:36.000Z",
-          "wordCount": 147,
-          "title": "VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--EP4hHJAt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yoshixj%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Vue%25E3%2581%25AECompositionAPI%25E3%2581%25A8graphql-code-generator%25E3%2581%25AE%25E4%25BD%2593%25E9%25A8%2593%25E3%2581%258C%25E8%2589%25AF%25E3%2581%2584%25E3%2581%25AE%25E3%2581%25A7%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OTRkNTdlOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1961,20 +2059,6 @@
           "title": "自分で使っているvimのプラグインを紹介していくよ - 第一弾",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--6UcxX23H--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Altair%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258Bvim%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%258F%25E3%2582%2588%2520-%2520%25E7%25AC%25AC%25E4%25B8%2580%25E5%25BC%25BE%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/vampire_yuta/articles/c4703f4232f16b",
-          "author": "vampire_yuta",
-          "description": "基本操作\n\n参照（https://knowledge.sakura.ad.jp/21687/）\n\n カーソル移動\nh → 左に移動\nj → 下に移動\nk → 上に移動\nl → 右に移動\ngg → 最初の行へ移動\nGG → 最後の行へ移動\nCtrl+f → 上へページスクロール\nCtrl+b → 下へページスクロール\nzz → カーソル位置を中央へ\n{ → 前の空行まで移動\n} → 次の空行まで移動\nw → 文字単位で次に移動\nW → 区切り文字なしで次の文字に移動\nb → 文字単位で前の文字に移動\nB → 区切り文字なしで前の文字に移動\n\n 進む戻る\nCtrl + r → 一つ前の操...",
-          "link": "https://zenn.dev/vampire_yuta/articles/c4703f4232f16b",
-          "publishedOn": "2021-08-04T16:28:43.000Z",
-          "wordCount": 173,
-          "title": "vim戦記 Part1",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--9fxunlOK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:vampire_yuta%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:vim%25E6%2588%25A6%25E8%25A8%2598%2520Part1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lmSGhYa3lqY2lHd2o1UzhPajZlNG9ydlVUUFFWRWtrVGtoSmJ4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
@@ -2360,48 +2444,6 @@
           "title": "パスワードレス認証サービスGAZEPASSを使ってみた",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--zO5WVjPA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258C%25E3%2581%258A%25E3%2581%25BE%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%2591%25E3%2582%25B9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589%25E3%2583%25AC%25E3%2582%25B9%25E8%25AA%258D%25E8%25A8%25BC%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9GAZEPASS%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hQR0w0Ml90M2dMSDhRS3hoVVBWR2VrWXdmZW9aSF9ueS1Za3lGTHlvPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/masakitm/articles/6b5e31549c03d9",
-          "author": "masakitm",
-          "description": "この資料について\nこの資料はVue2.0で動くプロダクトでVue Composition APIについて簡単に解説し、関心をもってもらうために用いた際のものです。\n対象読者は以下を想定しています。\n\nVueのOption API（今までの書き方）をさわったことがある\nReact Hooksの経験がない\n\nより詳細な知識は公式ドキュメントよりご参照ください。\n\n Vue 3系のコンポジションapi について\n\n ってなんですか\n\n今までとは違う書式でvueを書ける記法\n今後主流になりそう\nreactのhooks apiに強く影響をうけている\nhttps://ja.reactjs.org...",
-          "link": "https://zenn.dev/masakitm/articles/6b5e31549c03d9",
-          "publishedOn": "2021-08-05T03:18:54.000Z",
-          "wordCount": 505,
-          "title": "最低限わかるVue Composition API",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--0sYnjhnO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:masakitm%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%259C%2580%25E4%25BD%258E%25E9%2599%2590%25E3%2582%258F%25E3%2581%258B%25E3%2582%258BVue%2520Composition%2520API%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvbS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/toshimarnie/articles/c7cb99994075a3",
-          "author": "Toshifumi Imanishi",
-          "description": "はじめに\nSass の公式ドキュメントで 2020 年 10 月に LibSass の利用は非推奨 になり、Dart Sass の利用を推奨しています。そんな折、筆者が所属するフロントエンド開発チームでは LibSass を利用しており Dart Sass へ移行を進めました。本稿は LibSass から Dart Sass の移行についてご紹介します。本移行時の Dart Sass のバージョンは 1.32.7 になります。\n\nLibSass の非推奨は『継続的にメンテナンスをするが、将来的に追加予定の CSS および Sass の新機能の互換性を担保しない』という意味になります。...",
-          "link": "https://zenn.dev/toshimarnie/articles/c7cb99994075a3",
-          "publishedOn": "2021-08-05T02:49:11.000Z",
-          "wordCount": 284,
-          "title": "現場のフロントエンド開発環境を Dart Sass へマイグレーションする覚書",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--HJ5UN6Qt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Toshifumi%2520Imanishi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%258F%25BE%25E5%25A0%25B4%25E3%2581%25AE%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%2520Dart%2520Sass%2520%25E3%2581%25B8%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25B0%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%2599%25E3%2582%258B%25E8%25A6%259A%25E6%259B%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZmI0NDQwYjgxNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yoshixj/articles/d460f4d9cfb299",
-          "author": "yoshixj",
-          "description": "vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。\nそのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。\n\n CompositionAPIのメリット\nCompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。\n\n記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...",
-          "link": "https://zenn.dev/yoshixj/articles/d460f4d9cfb299",
-          "publishedOn": "2021-08-04T23:09:36.000Z",
-          "wordCount": 147,
-          "title": "VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--EP4hHJAt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yoshixj%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Vue%25E3%2581%25AECompositionAPI%25E3%2581%25A8graphql-code-generator%25E3%2581%25AE%25E4%25BD%2593%25E9%25A8%2593%25E3%2581%258C%25E8%2589%25AF%25E3%2581%2584%25E3%2581%25AE%25E3%2581%25A7%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OTRkNTdlOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

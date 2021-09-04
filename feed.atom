@@ -2,10 +2,226 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-03T01:03:58.109Z</updated>
+    <updated>2021-09-04T01:05:48.567Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ページ内の文字列を検索してフィルタリングするコンポーネント]]></title>
+        <id>https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1</id>
+        <link href="https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1"/>
+        <updated>2021-09-03T13:05:34.000Z</updated>
+        <summary type="html"><![CDATA[ページ内の文字列を検索して、それだけ残す
+
+ こんなかんじに検索して、絞り込むものを作ります。
+
+
+前提として、環境は
+・Next.js
+・TypeScript
+となっています。
+※アイコンとかは違うコンポーネントなので省略して書きます。
+
+      
+        index.tsx
+        import styles from './SearchForm.module.scss'
+import cn from 'classnames'
+
+export interface Props = {
+  placeholder?: string
+  className?: st...]]></summary>
+        <author>
+            <name>Ren Shimosawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ページ内の文字列を検索してフィルタリングするコンポーネント]]></title>
+        <id>https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1</id>
+        <link href="https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1"/>
+        <updated>2021-09-03T13:05:34.000Z</updated>
+        <summary type="html"><![CDATA[ページ内の文字列を検索して、それだけ残す
+
+ こんなかんじに検索して、絞り込むものを作ります。
+
+
+前提として、環境は
+・Next.js
+・TypeScript
+となっています。
+※アイコンとかは違うコンポーネントなので省略して書きます。
+
+      
+        index.tsx
+        import styles from './SearchForm.module.scss'
+import cn from 'classnames'
+
+export interface Props = {
+  placeholder?: string
+  className?: st...]]></summary>
+        <author>
+            <name>Ren Shimosawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker で React + TypeScript の開発環境【入門編】]]></title>
+        <id>https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb</id>
+        <link href="https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb"/>
+        <updated>2021-09-03T09:08:44.000Z</updated>
+        <summary type="html"><![CDATA[サマリー
+Docker Desktop （docker デーモン）を起動させておいて…
+
+      
+        zsh
+        % git clone https://github.com/sprout2000/cra.git
+% cd cra
+% docker-compose up
+
+
+      
+      localhost:3000 を開きましょう。これだけです。
+https://github.com/sprout2000/cra
+
+このコンテナの実行を停止するには以下のようにしてください。
+
+      
+        bash
+        ^C  ...]]></summary>
+        <author>
+            <name>k_touge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptのPartialを再帰的にするやつ。]]></title>
+        <id>https://zenn.dev/umezo/articles/dc452d9a1a24f2</id>
+        <link href="https://zenn.dev/umezo/articles/dc452d9a1a24f2"/>
+        <updated>2021-09-03T07:14:04.000Z</updated>
+        <summary type="html"><![CDATA[やりたいこと
+
+      
+        
+        type T1 = {
+    a: {
+        a1: string;
+	a2: number;
+    };
+    b: {
+        b1: string;
+        b2: number;
+    }[];
+};
+
+type T2: DeepPartial<T1>;
+
+const t2: T2 = {
+    a: {
+        a2: "1",
+    },
+    b: [
+        {
+	    b2: 1
+	}
+    ],
+};
+
+
+      
+     ...]]></summary>
+        <author>
+            <name>umezo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptのPickをTypeで指定できるやつ。]]></title>
+        <id>https://zenn.dev/umezo/articles/06bd73b3a02be3</id>
+        <link href="https://zenn.dev/umezo/articles/06bd73b3a02be3"/>
+        <updated>2021-09-03T06:42:39.000Z</updated>
+        <summary type="html"><![CDATA[やりたいこと
+こういうことをしたい。
+
+      
+        
+        type T1 = {
+    a: number,
+    b: string,
+};
+
+type T2 = PickUpByType<T1, number>;
+
+const t2: T2 = {
+    a: 1,
+};
+
+
+      
+      
+ 解決
+実装はこう
+
+      
+        
+        type KeysByType<T, Type> = {
+  [key in keyof T]: T[key] extends Type ? key ...]]></summary>
+        <author>
+            <name>umezo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「5分でTypeScript」を会話風に説明してみる]]></title>
+        <id>https://zenn.dev/rgbkids/articles/3ab4c91b3b028c</id>
+        <link href="https://zenn.dev/rgbkids/articles/3ab4c91b3b028c"/>
+        <updated>2021-09-03T03:50:41.000Z</updated>
+        <summary type="html"><![CDATA[原文を元に、会話風（入門編によくある感じ）にしたてあげました。
+わかりにくいところは説明を足しています。
+原文：
+https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
+
+ あいさつ
+🙍‍♀️「TypeScriptを使用して簡単なWebアプリケーションを構築することから始めましょう」
+🙂「うう…TypeScriptって、使っていないとなんとなくマウントを取られた感じがするあれですね」
+🙍‍♀️「そうですね。小さいストレスでもバグの元。フロントエンドの開発にTypeScriptは必須...]]></summary>
+        <author>
+            <name>vteacher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【RN】端末のカレンダーにイベントを追加する]]></title>
+        <id>https://zenn.dev/nekoniki/articles/26dfda35b90377</id>
+        <link href="https://zenn.dev/nekoniki/articles/26dfda35b90377"/>
+        <updated>2021-09-03T01:20:02.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+今回はReactNativeアプリから端末のカレンダーへイベントを登録する方法について紹介します。
+会議やイベント情報などを表示するようなタイプのアプリでは、OSのカレンダーと同期を行いたいケースも多いので役立つかと思います。
+
+ 使用するライブラリ
+使用するライブラリはreact-native-calendar-eventsです。
+端末内のカレンダー情報の取得から、そこにイベントを追加するまでを行うことができます。
+https://github.com/wmcmahan/react-native-calendar-events
+
+ インストール
+以下コマンドでインストール...]]></summary>
+        <author>
+            <name>nekoniki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Headless UI + Tailwind CSS で Twitter 風のドロワーを作ってみた]]></title>
+        <id>https://zenn.dev/heavenosk/articles/headless-ui-drawer</id>
+        <link href="https://zenn.dev/heavenosk/articles/headless-ui-drawer"/>
+        <updated>2021-09-02T17:40:36.000Z</updated>
+        <summary type="html"><![CDATA[Headless UI + Tailwind CSS を組み合わせてドロワーを楽に実装できたので紹介します。
+以下のような Twitter っぽいのドロワーを作成しました。
+https://twitter.com/heavenOSK/status/1433431433146605571?s=20
+
+ Headless UI とは
+Headless UI はスタイルを排除したコンポーネント集で、Tailwind CSS と相性がいいとのことです。
+https://headlessui.dev/
+
+ スタイルを排除した設計
+各コンポーネントのスタイルを切り替えるタイミングを抽象化してくれてい...]]></summary>
+        <author>
+            <name>へぶん</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vimにeskkをインストールする]]></title>
         <id>https://zenn.dev/kato_k/articles/753b36262b3213</id>
@@ -27,6 +243,26 @@ skkを使うには読みとの対応が列挙された辞書が必要になる�
 https://skk-dev.gith...]]></summary>
         <author>
             <name>kato-k</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOLID原則で考えるReact設計]]></title>
+        <id>https://zenn.dev/koki_tech/articles/361bb8f2278764</id>
+        <link href="https://zenn.dev/koki_tech/articles/361bb8f2278764"/>
+        <updated>2021-09-02T07:49:17.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、株式会社スタメンでオンラインサロンFANTSのフロントエンドエンジニアをしている@0906kokiです。
+今回はSOLID原則の5つの設計原則を、Reactのコードをベースにして解説できればと思います。
+
+ SOLID原則とは？
+SOLID原則とは、ソフトウェアを柔軟に、メンテナンス性を高く設計するための5つの原則となります。
+Robert C. Martinによって、5つの原則の頭文字をとってSOLIDという名前が付けられました。5つの原則とは以下の通りです。
+
+SRP: 単一責任の原則
+OCP: 開放閉鎖の原則
+LSP: リスコフの置換原則
+ISP: インタフェース分離の...]]></summary>
+        <author>
+            <name>Koki Nagai</name>
         </author>
     </entry>
     <entry>
@@ -3701,132 +3937,6 @@ GAZEPASSサイトにアクセスしてアカウントを発行します。
  ...]]></summary>
         <author>
             <name>がおまる</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nextjs AMPモードで Google Analyticsを動かしたい]]></title>
-        <id>https://zenn.dev/dl10yr/articles/021c1b0fc2ec35</id>
-        <link href="https://zenn.dev/dl10yr/articles/021c1b0fc2ec35"/>
-        <updated>2021-08-05T12:11:57.000Z</updated>
-        <summary type="html"><![CDATA[最重要なこと
-GA4ではなくユニバーサルアナリティクスのプロパティ（UA-始まりのID）を使うこと！ (2021年8月4日現在、私調べ）
-
-      
-        
-        [AmpAnalytics <unknown id>] No triggers were found in the config. No analytics data will be sent.
-
-
-      
-      GA4のIDでは動きませんでした...
-https://github.com/ampproject/amphtml/issues/30903
-
- 実装方針
-AMP対...]]></summary>
-        <author>
-            <name>dl10yr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[最低限わかるVue Composition API]]></title>
-        <id>https://zenn.dev/masakitm/articles/6b5e31549c03d9</id>
-        <link href="https://zenn.dev/masakitm/articles/6b5e31549c03d9"/>
-        <updated>2021-08-05T03:18:54.000Z</updated>
-        <summary type="html"><![CDATA[この資料について
-この資料はVue2.0で動くプロダクトでVue Composition APIについて簡単に解説し、関心をもってもらうために用いた際のものです。
-対象読者は以下を想定しています。
-
-VueのOption API（今までの書き方）をさわったことがある
-React Hooksの経験がない
-
-より詳細な知識は公式ドキュメントよりご参照ください。
-
- Vue 3系のコンポジションapi について
-
- ってなんですか
-
-今までとは違う書式でvueを書ける記法
-今後主流になりそう
-reactのhooks apiに強く影響をうけている
-https://ja.reactjs.org...]]></summary>
-        <author>
-            <name>masakitm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[現場のフロントエンド開発環境を Dart Sass へマイグレーションする覚書]]></title>
-        <id>https://zenn.dev/toshimarnie/articles/c7cb99994075a3</id>
-        <link href="https://zenn.dev/toshimarnie/articles/c7cb99994075a3"/>
-        <updated>2021-08-05T02:49:11.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-Sass の公式ドキュメントで 2020 年 10 月に LibSass の利用は非推奨 になり、Dart Sass の利用を推奨しています。そんな折、筆者が所属するフロントエンド開発チームでは LibSass を利用しており Dart Sass へ移行を進めました。本稿は LibSass から Dart Sass の移行についてご紹介します。本移行時の Dart Sass のバージョンは 1.32.7 になります。
-
-LibSass の非推奨は『継続的にメンテナンスをするが、将来的に追加予定の CSS および Sass の新機能の互換性を担保しない』という意味になります。...]]></summary>
-        <author>
-            <name>Toshifumi Imanishi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。]]></title>
-        <id>https://zenn.dev/yoshixj/articles/d460f4d9cfb299</id>
-        <link href="https://zenn.dev/yoshixj/articles/d460f4d9cfb299"/>
-        <updated>2021-08-04T23:09:36.000Z</updated>
-        <summary type="html"><![CDATA[vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。
-そのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。
-
- CompositionAPIのメリット
-CompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。
-
-記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...]]></summary>
-        <author>
-            <name>yoshixj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。]]></title>
-        <id>https://zenn.dev/yoshixj/articles/d460f4d9cfb299</id>
-        <link href="https://zenn.dev/yoshixj/articles/d460f4d9cfb299"/>
-        <updated>2021-08-04T23:09:36.000Z</updated>
-        <summary type="html"><![CDATA[vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。
-そのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。
-
- CompositionAPIのメリット
-CompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。
-
-記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...]]></summary>
-        <author>
-            <name>yoshixj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vim戦記 Part1]]></title>
-        <id>https://zenn.dev/vampire_yuta/articles/c4703f4232f16b</id>
-        <link href="https://zenn.dev/vampire_yuta/articles/c4703f4232f16b"/>
-        <updated>2021-08-04T16:28:43.000Z</updated>
-        <summary type="html"><![CDATA[基本操作
-
-参照（https://knowledge.sakura.ad.jp/21687/）
-
- カーソル移動
-h → 左に移動
-j → 下に移動
-k → 上に移動
-l → 右に移動
-gg → 最初の行へ移動
-GG → 最後の行へ移動
-Ctrl+f → 上へページスクロール
-Ctrl+b → 下へページスクロール
-zz → カーソル位置を中央へ
-{ → 前の空行まで移動
-} → 次の空行まで移動
-w → 文字単位で次に移動
-W → 区切り文字なしで次の文字に移動
-b → 文字単位で前の文字に移動
-B → 区切り文字なしで前の文字に移動
-
- 進む戻る
-Ctrl + r → 一つ前の操...]]></summary>
-        <author>
-            <name>vampire_yuta</name>
         </author>
     </entry>
 </feed>

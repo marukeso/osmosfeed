@@ -77,12 +77,274 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-03">2021-09-03</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ページ内の文字列を検索してフィルタリングするコンポーネント</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ページ内の文字列を検索して、それだけ残す
+
+ こんなかんじに検索して、絞り込むものを作ります。
+
+
+前提として、環境は
+・Next.js
+・TypeScript
+となっています。
+※アイコンとかは違うコンポーネントなので省略して書きます。
+
+      
+        index.tsx
+        import styles from &#x27;./SearchForm.module.scss&#x27;
+import cn from &#x27;classnames&#x27;
+
+export interface Props &#x3D; {
+  placeholder?: string
+  className?: st...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ページ内の文字列を検索してフィルタリングするコンポーネント</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ページ内の文字列を検索して、それだけ残す
+
+ こんなかんじに検索して、絞り込むものを作ります。
+
+
+前提として、環境は
+・Next.js
+・TypeScript
+となっています。
+※アイコンとかは違うコンポーネントなので省略して書きます。
+
+      
+        index.tsx
+        import styles from &#x27;./SearchForm.module.scss&#x27;
+import cn from &#x27;classnames&#x27;
+
+export interface Props &#x3D; {
+  placeholder?: string
+  className?: st...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Docker で React + TypeScript の開発環境【入門編】</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>サマリー
+Docker Desktop （docker デーモン）を起動させておいて…
+
+      
+        zsh
+        % git clone https://github.com/sprout2000/cra.git
+% cd cra
+% docker-compose up
+
+
+      
+      localhost:3000 を開きましょう。これだけです。
+https://github.com/sprout2000/cra
+
+このコンテナの実行を停止するには以下のようにしてください。
+
+      
+        bash
+        ^C  ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptのPartialを再帰的にするやつ。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/umezo/articles/dc452d9a1a24f2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>やりたいこと
+
+      
+        
+        type T1 &#x3D; {
+    a: {
+        a1: string;
+	a2: number;
+    };
+    b: {
+        b1: string;
+        b2: number;
+    }[];
+};
+
+type T2: DeepPartial;
+
+const t2: T2 &#x3D; {
+    a: {
+        a2: &quot;1&quot;,
+    },
+    b: [
+        {
+	    b2: 1
+	}
+    ],
+};
+
+
+      
+     ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptのPickをTypeで指定できるやつ。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/umezo/articles/06bd73b3a02be3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>やりたいこと
+こういうことをしたい。
+
+      
+        
+        type T1 &#x3D; {
+    a: number,
+    b: string,
+};
+
+type T2 &#x3D; PickUpByType;
+
+const t2: T2 &#x3D; {
+    a: 1,
+};
+
+
+      
+      
+ 解決
+実装はこう
+
+      
+        
+        type KeysByType &#x3D; {
+  [key in keyof T]: T[key] extends Type ? key ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">「5分でTypeScript」を会話風に説明してみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rgbkids/articles/3ab4c91b3b028c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>原文を元に、会話風（入門編によくある感じ）にしたてあげました。
+わかりにくいところは説明を足しています。
+原文：
+https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
+
+ あいさつ
+🙍‍♀️「TypeScriptを使用して簡単なWebアプリケーションを構築することから始めましょう」
+🙂「うう…TypeScriptって、使っていないとなんとなくマウントを取られた感じがするあれですね」
+🙍‍♀️「そうですね。小さいストレスでもバグの元。フロントエンドの開発にTypeScriptは必須...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【RN】端末のカレンダーにイベントを追加する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nekoniki/articles/26dfda35b90377">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+今回はReactNativeアプリから端末のカレンダーへイベントを登録する方法について紹介します。
+会議やイベント情報などを表示するようなタイプのアプリでは、OSのカレンダーと同期を行いたいケースも多いので役立つかと思います。
+
+ 使用するライブラリ
+使用するライブラリはreact-native-calendar-eventsです。
+端末内のカレンダー情報の取得から、そこにイベントを追加するまでを行うことができます。
+https://github.com/wmcmahan/react-native-calendar-events
+
+ インストール
+以下コマンドでインストール...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-02">2021-09-02</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Headless UI + Tailwind CSS で Twitter 風のドロワーを作ってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/heavenosk/articles/headless-ui-drawer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Headless UI + Tailwind CSS を組み合わせてドロワーを楽に実装できたので紹介します。
+以下のような Twitter っぽいのドロワーを作成しました。
+https://twitter.com/heavenOSK/status/1433431433146605571?s&#x3D;20
+
+ Headless UI とは
+Headless UI はスタイルを排除したコンポーネント集で、Tailwind CSS と相性がいいとのことです。
+https://headlessui.dev/
+
+ スタイルを排除した設計
+各コンポーネントのスタイルを切り替えるタイミングを抽象化してくれてい...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">SOLID原則で考えるReact設計</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/koki_tech/articles/361bb8f2278764">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>こんにちは、株式会社スタメンでオンラインサロンFANTSのフロントエンドエンジニアをしている@0906kokiです。
+今回はSOLID原則の5つの設計原則を、Reactのコードをベースにして解説できればと思います。
+
+ SOLID原則とは？
+SOLID原則とは、ソフトウェアを柔軟に、メンテナンス性を高く設計するための5つの原則となります。
+Robert C. Martinによって、5つの原則の頭文字をとってSOLIDという名前が付けられました。5つの原則とは以下の通りです。
+
+SRP: 単一責任の原則
+OCP: 開放閉鎖の原則
+LSP: リスコフの置換原則
+ISP: インタフェース分離の...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース</summary>
@@ -4549,181 +4811,9 @@ GAZEPASSサイトにアクセスしてアカウントを発行します。
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-05">2021-08-05</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nextjs AMPモードで Google Analyticsを動かしたい</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dl10yr/articles/021c1b0fc2ec35">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>最重要なこと
-GA4ではなくユニバーサルアナリティクスのプロパティ（UA-始まりのID）を使うこと！ (2021年8月4日現在、私調べ）
-
-      
-        
-        [AmpAnalytics ] No triggers were found in the config. No analytics data will be sent.
-
-
-      
-      GA4のIDでは動きませんでした...
-https://github.com/ampproject/amphtml/issues/30903
-
- 実装方針
-AMP対...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">最低限わかるVue Composition API</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/masakitm/articles/6b5e31549c03d9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>この資料について
-この資料はVue2.0で動くプロダクトでVue Composition APIについて簡単に解説し、関心をもってもらうために用いた際のものです。
-対象読者は以下を想定しています。
-
-VueのOption API（今までの書き方）をさわったことがある
-React Hooksの経験がない
-
-より詳細な知識は公式ドキュメントよりご参照ください。
-
- Vue 3系のコンポジションapi について
-
- ってなんですか
-
-今までとは違う書式でvueを書ける記法
-今後主流になりそう
-reactのhooks apiに強く影響をうけている
-https://ja.reactjs.org...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">現場のフロントエンド開発環境を Dart Sass へマイグレーションする覚書</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/toshimarnie/articles/c7cb99994075a3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-Sass の公式ドキュメントで 2020 年 10 月に LibSass の利用は非推奨 になり、Dart Sass の利用を推奨しています。そんな折、筆者が所属するフロントエンド開発チームでは LibSass を利用しており Dart Sass へ移行を進めました。本稿は LibSass から Dart Sass の移行についてご紹介します。本移行時の Dart Sass のバージョンは 1.32.7 になります。
-
-LibSass の非推奨は『継続的にメンテナンスをするが、将来的に追加予定の CSS および Sass の新機能の互換性を担保しない』という意味になります。...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-04">2021-08-04</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yoshixj/articles/d460f4d9cfb299">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。
-そのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。
-
- CompositionAPIのメリット
-CompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。
-
-記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vim戦記 Part1</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/vampire_yuta/articles/c4703f4232f16b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>基本操作
-
-参照（https://knowledge.sakura.ad.jp/21687/）
-
- カーソル移動
-h → 左に移動
-j → 下に移動
-k → 上に移動
-l → 右に移動
-gg → 最初の行へ移動
-GG → 最後の行へ移動
-Ctrl+f → 上へページスクロール
-Ctrl+b → 下へページスクロール
-zz → カーソル位置を中央へ
-{ → 前の空行まで移動
-} → 次の空行まで移動
-w → 文字単位で次に移動
-W → 区切り文字なしで次の文字に移動
-b → 文字単位で前の文字に移動
-B → 区切り文字なしで前の文字に移動
-
- 進む戻る
-Ctrl + r → 一つ前の操...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">VueのCompositionAPIとgraphql-code-generatorの体験が良いので紹介したい。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yoshixj/articles/d460f4d9cfb299">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>vue3がリリースされてから、時間が立ちました。CompositionAPIはどれくらい使用されているのでしょうか。自分は新規開発をすることが多いので、小さいLPなども含めると5つくらいのプロジェクトをNuxt × CompositionAPIで作ってきました。
-そのなかで、CompositionAPIの体験がよいと思ったので軽く紹介します。
-
- CompositionAPIのメリット
-CompositionAPIと以前からあるOption APIの違いを説明するとなった時に以下のような図が用いられます。
-
-記述がまとまるということを示しているのですが、これがまとまったことで読みやすくな...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-03T01:03:58.084Z">2021-09-03T01:03:58.084Z</time>
+    <time id="build-timestamp" datetime="2021-09-04T01:05:48.534Z">2021-09-04T01:05:48.534Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
