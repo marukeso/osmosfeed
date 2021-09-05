@@ -2,10 +2,295 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-04T01:05:48.567Z</updated>
+    <updated>2021-09-05T01:07:37.217Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[正確なCamelCaseのTemplate Literal Type定義を目指した]]></title>
+        <id>https://zenn.dev/stomita/articles/9d1408c3447cd3</id>
+        <link href="https://zenn.dev/stomita/articles/9d1408c3447cd3"/>
+        <updated>2021-09-04T23:09:06.000Z</updated>
+        <summary type="html"><![CDATA[概要
+CamelCase<S>を TypeScriptのtemplate literal typesで実装するのは、ネット上にいくつかサンプルコードであがっているのを見たが、見つけたものはすべて不完全だった。types-festに含まれているCamelCase<S>もやはりおかしい。
+とはいえ正確なCamelizationの定義というものがあるのかどうかもよく知らない。なので、npmで公開されているcamelcase の動作に近づけたCamelCase<S>の型定義を作成してみた。
+ポイントは以下
+
+複数区切り文字('-', '_', '.')に対...]]></summary>
+        <author>
+            <name>Shinichi Tomita</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Vue3】Vueで宣言した変数の値をCSSで読み込む]]></title>
+        <id>https://zenn.dev/tentel/articles/736bfeaaa60ab3</id>
+        <link href="https://zenn.dev/tentel/articles/736bfeaaa60ab3"/>
+        <updated>2021-09-04T21:47:11.000Z</updated>
+        <summary type="html"><![CDATA[Vue3.2からSFCの<style>内でのv-bind利用が実験的機能では無くなり、正式に導入されました。
+
+ 概要
+SFCのdataもしくはsetup内で宣言した値を<style>で利用できます。
+
+実際の値はハッシュ化されたCSS変数として書き出されるため、CSSは静的な状態です。
+また、値が変更された場合はハッシュ化されたCSS変数が書き換えられるため、リアクティブです。
+
+
+ 書き方
+書き方はシンプルで、<script>内で宣言した変数名を以下のようにv-bind()に渡すことで、<style>内で利用可能です。
+
+      
+...]]></summary>
+        <author>
+            <name>てんてる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[neovim luaのパフォーマンス計測方法]]></title>
+        <id>https://zenn.dev/nazo6/articles/410be6ec751f9e</id>
+        <link href="https://zenn.dev/nazo6/articles/410be6ec751f9e"/>
+        <updated>2021-09-04T16:09:37.000Z</updated>
+        <summary type="html"><![CDATA[やり方
+plenary.nvimのprofilerを使います
+plenary.nvimがインストールしてあれば使いかたは簡単で、計測したい範囲を
+
+      
+        
+        require'plenary.profile'.start("profile.log")
+
+-- code to be profiled
+
+require'plenary.profile'.stop()
+
+
+      
+      のように囲むだけです。
+これでinit.luaであれば~/.config/nvim以下にprofile.logができます。
+
+ グラフにする
+が、このログは超...]]></summary>
+        <author>
+            <name>nz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescript + React + Jikan API で練習プロジェクト]]></title>
+        <id>https://zenn.dev/kyohei1212/articles/4318cba26e9885</id>
+        <link href="https://zenn.dev/kyohei1212/articles/4318cba26e9885"/>
+        <updated>2021-09-04T16:04:27.000Z</updated>
+        <summary type="html"><![CDATA[Jikan API(public API)を使ってTypescriptを勉強します。
+基本は検索機能を使ってAnime Objectを取得します。
+検索はカスタムフックを作ります。(importは省略してます。)
+
+      
+        
+        export default function useSearchAnime(query: string, numberToReturn: number): basicAnimeInfo[] {
+    const [baiList, setBaiList] = useState<basicAnimeInfo[]>(...]]></summary>
+        <author>
+            <name>Kyohei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescript + React + Jikan API で練習プロジェクト]]></title>
+        <id>https://zenn.dev/kyohei1212/articles/4318cba26e9885</id>
+        <link href="https://zenn.dev/kyohei1212/articles/4318cba26e9885"/>
+        <updated>2021-09-04T16:04:27.000Z</updated>
+        <summary type="html"><![CDATA[Jikan API(public API)を使ってTypescriptを勉強します。
+基本は検索機能を使ってAnime Objectを取得します。
+検索はカスタムフックを作ります。(importは省略してます。)
+
+      
+        
+        export default function useSearchAnime(query: string, numberToReturn: number): basicAnimeInfo[] {
+    const [baiList, setBaiList] = useState<basicAnimeInfo[]>(...]]></summary>
+        <author>
+            <name>Kyohei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでの状態管理]]></title>
+        <id>https://zenn.dev/peg/articles/f13b2608f682aa</id>
+        <link href="https://zenn.dev/peg/articles/f13b2608f682aa"/>
+        <updated>2021-09-04T13:05:11.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsでの状態管理が気になったのでメモ。
+
+Next.js の状態管理 2020
+
+によく纏まっていた
+
+ Context API
+https://robinvdvleuten.nl/blog/how-to-use-react-context/
+
+ Redux
+
+Redux 入門 〜Reduxの基礎を理解する〜
+
+
+
+ サンプル実装
+サンプルの実装は公式のがわかりやすい
+
+https://github.com/reduxjs/redux/blob/master/docs/introduction/Examples.md
+
+
+ Recoil
+Facebook製
+
+Recoilは20...]]></summary>
+        <author>
+            <name>ぺい</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PhpStormでReact開発環境を整える]]></title>
+        <id>https://zenn.dev/nimusuke6/articles/fa95a17c5d5f87</id>
+        <link href="https://zenn.dev/nimusuke6/articles/fa95a17c5d5f87"/>
+        <updated>2021-09-04T12:44:25.000Z</updated>
+        <summary type="html"><![CDATA[Node.js（+Yarn）のインストール
+
+
+anyenvをインストール
+anyenvでnodenvをインストール
+nodenvでNode.jsをインストール
+
+Yarnをインストール
+
+
+      
+        
+        npm install -g yarn
+
+
+      
+      
+ Reactプロジェクトの作成
+
+      
+        
+        npx create-react-app my-app --template typescript
+cd my-app
+yarn start
+
+
+      
+      
+      
+    ...]]></summary>
+        <author>
+            <name>nimusuke6</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[URLを解析するQsを丁寧に説明してみた]]></title>
+        <id>https://zenn.dev/fujiyama/articles/bf26790ed81964</id>
+        <link href="https://zenn.dev/fujiyama/articles/bf26790ed81964"/>
+        <updated>2021-09-04T12:30:58.000Z</updated>
+        <summary type="html"><![CDATA[Qsって何？
+
+npm公式
+
+クエリの解析，文字列化をするライブラリです．
+使っていて非常に便利なので一旦まとめようと思います．
+
+ 基本的な使い方
+
+      
+        
+        import qs from 'qs';  // (以下省略)
+
+const obj = qs.parse('a=c');  // { a: 'c' }
+
+const str = qs.stringify(obj);  // 'a=c'
+
+
+      
+      簡単に言うと，parseはURLなどの文字列をオブジェクトに変換するメソッドで， stringifyはオブジェクトをURL...]]></summary>
+        <author>
+            <name>Fujiyamayama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ddc.vimのlsp機能を強くする with nvim-lsp]]></title>
+        <id>https://zenn.dev/matsui54/articles/2021-09-03-ddc-lsp</id>
+        <link href="https://zenn.dev/matsui54/articles/2021-09-03-ddc-lsp"/>
+        <updated>2021-09-04T09:04:12.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+ddc.vimのLSPまわりの設定が良い感じになってきたので共有します。
+前提として、補完ソースに関してはこちらを入れてください。
+https://github.com/Shougo/ddc-nvim-lsp
+最終的にはこんな感じで使えるようになります。
+
+
+ 補完候補のプレビュー & signature help
+以下のgifにあるような機能で、前者は、補完候補を選択したときにその詳細情報をfloating windowに表示します。signature helpは、補完候補を選択して関数の中身を書いているときに、引数などの情報を表示する機能です。
+
+vim-lsp...]]></summary>
+        <author>
+            <name>matsui54</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする]]></title>
+        <id>https://zenn.dev/gomi_ningen/articles/f1c285f586215b</id>
+        <link href="https://zenn.dev/gomi_ningen/articles/f1c285f586215b"/>
+        <updated>2021-09-04T07:30:17.000Z</updated>
+        <summary type="html"><![CDATA[Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする際の記述方法がわからなくて 30 分くらい溶けたのでメモっておきます。
+
+ 配列
+
+      
+        
+        export interface AppParameters {
+    items: string[]
+}
+
+const AppParametersSchema: JTDSchemaType<AppParameters> = {
+    properties: {
+        items: { elements: { type: 'string' }...]]></summary>
+        <author>
+            <name>ゴミ人間</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Vue3】v-memoディレクティブでレンダリングを最適化する]]></title>
+        <id>https://zenn.dev/tentel/articles/886dc6b615528f</id>
+        <link href="https://zenn.dev/tentel/articles/886dc6b615528f"/>
+        <updated>2021-09-04T06:27:40.000Z</updated>
+        <summary type="html"><![CDATA[Vue3.2からv-memoディレクティブが追加されました。
+v-memoディレクティブを利用することで、不要な再レンダリングを省略することができるので、パフォーマンスの向上につながります。
+
+ 概要
+v-memoディレクティブは、指定したすべての値が最後のレンダリング結果と同じであれば、サブツリー全体の再レンダリングをスキップします。
+
+DOMの更新だけでなく、仮想DOMのVNodeの作成もスキップされます。
+
+
+ v-memoディレクティブの書き方
+以下のように、コンポーネントが再レンダリングされた際に、配列に指定したvalueA及びvalueBが、最後のレンダリング時と同じ値の場合...]]></summary>
+        <author>
+            <name>てんてる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue 3のエッセンシャルガイドを会話風に説明してみる]]></title>
+        <id>https://zenn.dev/rgbkids/articles/694a5a491494b8</id>
+        <link href="https://zenn.dev/rgbkids/articles/694a5a491494b8"/>
+        <updated>2021-09-04T03:03:55.000Z</updated>
+        <summary type="html"><![CDATA[原文を元に、会話風（入門編によくある感じ）にしたてあげました。
+わかりにくいところは説明を足しています。
+原文：
+https://v3.ja.vuejs.org/guide/introduction.html
+
+ Vue.js とは？
+🙍‍♀️「Vue (発音はビュー) は、ユーザーインターフェイスを構築するためのプログレッシブフレームワークです。Vue は少しずつ適用していけるように設計されています」
+🙂「SPAだから、Reactと類似の技術ってことですね」
+🙍‍♀️「その通りです。Vueの最新バージョンは3です。Vue3の説明をしていきます」
+
+ はじめに
+🙍‍♀️「Vue.js を...]]></summary>
+        <author>
+            <name>vteacher</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ページ内の文字列を検索してフィルタリングするコンポーネント]]></title>
         <id>https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1</id>
@@ -3880,63 +4165,6 @@ prismaのMongoDB対応はPreviewFeature
 Cascading delete（リレーションを張った親モデル...]]></summary>
         <author>
             <name>yuiseki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[内部モジュールでは TypeScript をコンパイルせずに配る]]></title>
-        <id>https://zenn.dev/mizchi/articles/no-traspiled-typescript</id>
-        <link href="https://zenn.dev/mizchi/articles/no-traspiled-typescript"/>
-        <updated>2021-08-06T08:23:18.000Z</updated>
-        <summary type="html"><![CDATA[主張
-現代では、 npm に publish するものを除けば TypeScript をコンパイルして配布する必要はほぼないと考えています。
-TypeScript のコンパイルをしない環境、例えば deno や rome を使うと、コンパイルをするというステップが省くことで開発体験が大きく向上する、という肌感があり、ローカル環境ならこのメリットを優先するべきと考えています。
-基本的に、ビルドはフロントエンド/サーバーともに配布前の最後の一回だけでいいはず、というのが自分の主張です。
-https://github.com/denoland/deno
-
-Rome Toolchain
-De...]]></summary>
-        <author>
-            <name>mizchi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React コンポーネントの書き方をチームで統一する]]></title>
-        <id>https://zenn.dev/januswel/articles/a54aedc09fe7bc</id>
-        <link href="https://zenn.dev/januswel/articles/a54aedc09fe7bc"/>
-        <updated>2021-08-06T05:05:29.000Z</updated>
-        <summary type="html"><![CDATA[次の記事を見てなるほどと思ったものの、コンポーネント集作成の視点で書かれている。我々はアプリを作る機会が多いので、その際はどういう書き方が楽なのか、チームで共有するために類型を洗い出し、比較した。
-https://kray.jp/blog/dont-have-to-use-react-fc-and-react-vfc/
-
- TL;DR
-関数での書き方を覚えれば良いと判断した。
-
-      
-        
-        function MyComponent(props: React.PropsWithChildren<Props>) {
-  if (props.ti...]]></summary>
-        <author>
-            <name>januswel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パスワードレス認証サービスGAZEPASSを使ってみた]]></title>
-        <id>https://zenn.dev/gaomar/articles/12c8664058638b</id>
-        <link href="https://zenn.dev/gaomar/articles/12c8664058638b"/>
-        <updated>2021-08-06T01:39:20.000Z</updated>
-        <summary type="html"><![CDATA[GAZEPASSというパスワードレスでログイン認証するシステムを使ってみました。
-端末にある生体認証機能を使って認証する仕組みです。生体認証が無いデバイスは顔認証することができます。
-※現在はbeta版なので無料で使えますが、今後は 有料化 になる可能性がありますのでご注意ください。
-
- お試し環境
-下記からどういうものか動かすことができます。
-https://www.katacoda.com/gaomar/scenarios/gazepass-handson-playground
-
- 1. API Keysを作成しよう
-GAZEPASSサイトにアクセスしてアカウントを発行します。
-
- ...]]></summary>
-        <author>
-            <name>がおまる</name>
         </author>
     </entry>
 </feed>
