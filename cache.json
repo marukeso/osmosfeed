@@ -825,6 +825,146 @@
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
         {
+          "id": "https://zenn.dev/dozo/articles/14bc23b488c95a",
+          "author": "dozo",
+          "description": "load_from_memoryを迂回すればなんとかなる\n関連記事\n\nWSL2で作るWindows開発環境: Rustが征く(1)\nwasmerでWebAssemblyの門を叩く: Rustが征く(2)\nJavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)\nTypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)\n\n\nこんな記事がある\nhttps://qiita.com/yokra9/items/f9e98a9b47fe2d1234b0\n(^_^;)煽ってんなぁ。。。\nVanillaJS(素のJSのこと), WA...",
+          "link": "https://zenn.dev/dozo/articles/14bc23b488c95a",
+          "publishedOn": "2021-09-05T23:55:11.000Z",
+          "wordCount": 326,
+          "title": "Rustのimage::load_from_memory遅すぎ問題",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--H2Uu7Js7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dozo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Rust%25E3%2581%25AEimage%253A%253Aload_from_memory%25E9%2581%2585%25E3%2581%2599%25E3%2581%258E%25E5%2595%258F%25E9%25A1%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/296u/articles/7175641f1c4492",
+          "author": "296u",
+          "description": "この記事について\nReactをtypescriptで始めたはいいものの、テストを書こうとすると、どういったテストを書けば良いのか、書いてもtypeエラーになることがままある。\nその度にドキュメントを読みに行ったり、エラー文を検索したりするのだが、毎回解決に時間がかかっていた。（特に最初の頃はJestの構文を間違えているのが問題なのか、enzymeの構文を間違えているのが問題なのかもわからず）\nそこで一度Jest側を体系的に勉強しなおそうと思い至った。\nせっかくなので、ドキュメンのうち「はじめに」部分の内容について、若干コードを付け足しながら記事にしてみようと思う。\n\n はじめに\n対象...",
+          "link": "https://zenn.dev/296u/articles/7175641f1c4492",
+          "publishedOn": "2021-09-05T23:48:26.000Z",
+          "wordCount": 2308,
+          "title": "[Typescript]Jest入門を進めてみる（前半）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--UZHUGvdq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:296u%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BTypescript%255DJest%25E5%2585%25A5%25E9%2596%2580%25E3%2582%2592%25E9%2580%25B2%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%25EF%25BC%2588%25E5%2589%258D%25E5%258D%258A%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTM5YzBkZWU0Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eagle/articles/functor-in-ts",
+          "author": "eagle",
+          "description": "本記事について\nIMappableというインターフェースを定義することを動機として\n型レベル関数という概念を導入します。\n後半では型レベル関数を用いてApplicativeやMonadに相当するインターフェースの定義や、\n2引数以上の型レベル関数の定義を行ってその実用可能性を示します。\n\n IMappable導入の動機と障害\n次の2つの関数を考えます。\n\n      \n        \n        const mapArray: <A, B>(f: (a: A) => B) => (fa: A[]) => B[] =\n  (f) => (fa)...",
+          "link": "https://zenn.dev/eagle/articles/functor-in-ts",
+          "publishedOn": "2021-09-05T10:53:35.000Z",
+          "wordCount": 1350,
+          "title": "TypeScriptでIMappable(Functor)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--pUJ5asaT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eagle%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7IMappable%2528Functor%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTFmZjAxNGQyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mizuneko4345/articles/d7ba5603dba1c3",
+          "author": "みずねこ",
+          "description": "この記事について\nNext.js+TypeScript+firebaseの構成で、推しのTWICEミナに関連した「ポモドーロタイマー」を開発しています。\nこの記事では、Cloud Firestoreからデータフェッチとレンダリングを行いApexchartsでグラフ化する方法を解説していきます。\n何か間違っている点などありましたらご指摘いただけると幸いです。🙏\n\n 解説すること\n\nApexChartsをNext.jsで使う方法\nデータをべた書きしてグラフ化\nデータをFirestoreから取得してグラフ化\n\n\n 参考にした記事\n\nhttps://qiita.com/IchiLab/ite...",
+          "link": "https://zenn.dev/mizuneko4345/articles/d7ba5603dba1c3",
+          "publishedOn": "2021-09-05T10:10:46.000Z",
+          "wordCount": 760,
+          "title": "Cloud Firestore×Apexchartsでグラフ描画する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--vcRhejeS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BF%25E3%2581%259A%25E3%2581%25AD%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Cloud%2520Firestore%25C3%2597Apexcharts%25E3%2581%25A7%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%2595%25E6%258F%258F%25E7%2594%25BB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3TXVGSTk3c0gtcFhHZWc3VEI4TjRLbzl5YW1vNzdLdjhQeHZMPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sterashima78/books/9dd0db90a6e532",
+          "author": "sterashima78",
+          "description": "Typescript での開発を普段行っている方向けに関数型プログラミングの要素の一部を紹介するものです。\n関数型言語やその背景にある理論を紹介することは意図していません。\nそのあたりのポリシーは『はじめに』に記載しているので御覧ください。\n\n有料設定にしていますが基本的にはすべての章を無料で公開するつもりです。\n気が向いた方や内容の充実を希望する方は支援いただけると幸いです。",
+          "link": "https://zenn.dev/sterashima78/books/9dd0db90a6e532",
+          "publishedOn": "2021-09-05T09:09:21.000Z",
+          "wordCount": 18,
+          "title": "[WIP] Typescriptで書く関数型プログラミング",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--NwVWwFv1--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci8yMmE4OTg5OGMwLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/rabbit/articles/2dea91c4949604",
+          "author": "hanetsuki",
+          "description": "以前まで、Emotion を用いてGatsby.jsを使っていたのですが、\niricoさんの「ReactのCSSの選択肢を比較してみた」という記事を読んで、Linariaに興味を持ち始めました。\nzero runtimeとのことで、パフォーマンス向上が期待できるのは嬉しい点です。\nhttps://linaria.dev/\n今回は、LinariaとGatsbyの組み合わせでの記事が少なかったので忘備録としてこの記事を残します。\n今回のコードは、下記リポジトリに保存してあります。何かあった時には参考になればと思います。\nhttps://github.com/tsuki-lab/gatsby-...",
+          "link": "https://zenn.dev/rabbit/articles/2dea91c4949604",
+          "publishedOn": "2021-09-05T08:36:45.000Z",
+          "wordCount": 402,
+          "title": "Gatsby.js + TypeScript + Linaria で環境構築",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zT421Ur1--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hanetsuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby.js%2520%252B%2520TypeScript%2520%252B%2520Linaria%2520%25E3%2581%25A7%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqcUw3akdtc1E3STZUTUtMcDBzUXVhd0FNUzNvcHBWNFVCRGZzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/arark/articles/b5dc5e642e8d4e",
+          "author": "arark",
+          "description": "以前超型安全firestoreができたと言った者なんですが、クエリも型安全にできたので紹介します。\n例えばfirestoreでクエリするとき、where(age, ==, 30)したからtypescriptでもage:30で型ついてくんねえかな〜〜〜〜〜〜〜〜〜〜って思ったことある人人いませんか。これができます。さらに、firestore特有のクエリの制限、例えばage > 30とheight < 150を同時にできないみたいなそういうのも検知します。\n\n 準備\n\n      \n        \n        npm i firefuse firebase@9\n\n\n    ...",
+          "link": "https://zenn.dev/arark/articles/b5dc5e642e8d4e",
+          "publishedOn": "2021-09-05T07:44:14.000Z",
+          "wordCount": 403,
+          "title": "firestoreの型安全クエリができた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--u_LHo7hL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:arark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:firestore%25E3%2581%25AE%25E5%259E%258B%25E5%25AE%2589%25E5%2585%25A8%25E3%2582%25AF%25E3%2582%25A8%25E3%2583%25AA%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWQ5ODQ2MjJmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mizuneko4345/articles/f5a7c5c0eeba1d",
+          "author": "みずねこ",
+          "description": "この記事について\n初めまして、みずねこです。\nNext.js+TypeScript+firebaseの構成で、推しのTWICEミナに関連した「ポモドーロタイマー」を開発しています。\nこの記事では、Next.jsとFirebase Authenticationを使ったメール・パスワード認証機能の実装とログイン画面のデザインの解説をしていきます。\n何か間違っている点などありましたらご指摘いただけると幸いです。🙏\n\n 解説すること\n\nFirebaseのアプリ作成と初期設定\nFirebase Authenticationで認証機能を実装\nMateria-UIで認証画面のデザイン\n\n\n 参考に...",
+          "link": "https://zenn.dev/mizuneko4345/articles/f5a7c5c0eeba1d",
+          "publishedOn": "2021-09-05T04:36:15.000Z",
+          "wordCount": 400,
+          "title": "Next.jsとFirebase  Authenticationでメール・パスワード認証(Cookie)を実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9s_NIaOG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BF%25E3%2581%259A%25E3%2581%25AD%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%25E3%2581%25A8Firebase%2520%2520Authentication%25E3%2581%25A7%25E3%2583%25A1%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%25BB%25E3%2583%2591%25E3%2582%25B9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589%25E8%25AA%258D%25E8%25A8%25BC%2528Cookie%2529%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3TXVGSTk3c0gtcFhHZWc3VEI4TjRLbzl5YW1vNzdLdjhQeHZMPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/arark/articles/356a13c38a612b",
+          "author": "arark",
+          "description": "準備\n\n      \n        \n        export type Extends<E, A> = A extends E ? true : false;\nexport type NotExtends<E, A> = A extends E ? false : true;\nexport type Exact<A, B> = Extends<A, B> extends true\n  ? Extends<B, A> extends true\n    ? true\n    : false\n  : false;\nexpo...",
+          "link": "https://zenn.dev/arark/articles/356a13c38a612b",
+          "publishedOn": "2021-09-05T03:19:16.000Z",
+          "wordCount": 533,
+          "title": "型レベルユニットテストのススメ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ixRNN1X3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:arark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E5%259E%258B%25E3%2583%25AC%25E3%2583%2599%25E3%2583%25AB%25E3%2583%25A6%25E3%2583%258B%25E3%2583%2583%25E3%2583%2588%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25B9%25E3%2583%25A1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWQ5ODQ2MjJmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/matsuei/articles/908278e0c22eec",
+          "author": "matsuei",
+          "description": "FirestoreではDocumentのSnapShotから、そのDocumentに紐づくSubCollectionを取得出来ないようになっています。\nクエリで特定のDocumentのSnapShotを取得した後にSubCollectionを取得するには一手間必要なので、その方法を紹介します。\n\n 例に使うデータ構造\nルートにUsersコレクションを持ち、各ユーザードキュメントがSubCollectionでPetsを持つデータ構造を考えます。\n\n\n\nCollection\nDocument\nData(key)\nData(value)\nSubCollection\nDocument\nData(...",
+          "link": "https://zenn.dev/matsuei/articles/908278e0c22eec",
+          "publishedOn": "2021-09-05T02:30:12.000Z",
+          "wordCount": 92,
+          "title": "FirestoreでDocumentのSnapShotからSubCollectionを取得する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--VUDl2dn0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:matsuei%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Firestore%25E3%2581%25A7Document%25E3%2581%25AESnapShot%25E3%2581%258B%25E3%2582%2589SubCollection%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzAxNzlhNjMwYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/stomita/articles/9d1408c3447cd3",
           "author": "Shinichi Tomita",
           "description": "概要\nCamelCase<S>を TypeScriptのtemplate literal typesで実装するのは、ネット上にいくつかサンプルコードであがっているのを見たが、見つけたものはすべて不完全だった。types-festに含まれているCamelCase<S>もやはりおかしい。\nとはいえ正確なCamelizationの定義というものがあるのかどうかもよく知らない。なので、npmで公開されているcamelcase の動作に近づけたCamelCase<S>の型定義を作成してみた。\nポイントは以下\n\n複数区切り文字('-', '_', '.')に対...",
@@ -1943,48 +2083,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sprout2000/articles/1ee32fa0181870",
-          "author": "sprout2000",
-          "description": "TL;DR\nDocker Desktop （docker デーモン）を起動させておいて…\n\n      \n        zsh\n        % git clone git@github.com:sprout2000/cra.git\n% cd cra\n% docker-compose up cra\n\n\n      \n      localhost:3000 を開きましょう。これだけです。\n\n 手順\n\n 1. Docker のインストール\n公式ドキュメントに従ってインストールしましょう。\nhttps://docs.docker.com/docker-for-windows/inst...",
-          "link": "https://zenn.dev/sprout2000/articles/1ee32fa0181870",
-          "publishedOn": "2021-08-07T07:27:01.000Z",
-          "wordCount": 803,
-          "title": "Docker で React + TypeScript の開発環境構築 2021",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s---LCMfgtW--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sprout2000%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Docker%2520%25E3%2581%25A7%2520React%2520%252B%2520TypeScript%2520%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25202021%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTJmNmE2NTNmMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sqer/articles/2d4def0f07bf04c5cc47",
-          "author": "sqer",
-          "description": "DOM, Node, Elementについてそれぞれの違いを説明できますか？\nDOM\nNode\nElement\n実践！NodeをElementに変換する\nまとめ\nリンク\n\n\n DOM, Node, Elementについてそれぞれの違いを説明できますか？\nWeb開発において、これらをすべて「要素」として呼んで曖昧にしていると型定義などで詰まることがあります。\nこの３つの名称、実は明確な違いがあると知っていましたか？\nこれを期にマスターしましょう。\n\n DOM\nDOMは、「Document Object Model、つまりドキュメントを物として扱うモデル」のことを言います。\nDOMツリーと...",
-          "link": "https://zenn.dev/sqer/articles/2d4def0f07bf04c5cc47",
-          "publishedOn": "2021-08-07T06:05:15.000Z",
-          "wordCount": 111,
-          "title": "DOM, Node, Elementの違い",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--YuNCwLMu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sqer%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:DOM%252C%2520Node%252C%2520Element%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWZmNzNmM2U4NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yuiseki/articles/5a3b418ca06581",
-          "author": "yuiseki",
-          "description": "Blitz.jsをインストールしてプロジェクトを生成する\n\n      \n        \n        npm install -g blitz --legacy-peer-deps\ncd blitz-hoge\n\n\n      \n      参考文献\n\nhttps://blitzjs.com/docs/get-started\nhttps://blitzjs.com/docs/tutorial\n\n\n\n db/schema.prisma を編集する\n注意点\n\nprismaのMongoDB対応はPreviewFeature\nCascading delete（リレーションを張った親モデル...",
-          "link": "https://zenn.dev/yuiseki/articles/5a3b418ca06581",
-          "publishedOn": "2021-08-07T02:18:30.000Z",
-          "wordCount": 278,
-          "title": "Blitz.js の prisma で MongoDB を使う！！！！",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--kUqn1-m7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuiseki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%2520%25E3%2581%25AE%2520prisma%2520%25E3%2581%25A7%2520MongoDB%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25EF%25BC%2581%25EF%25BC%2581%25EF%25BC%2581%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g1akVIUkdJUFhyR0diNU8xMzdsMDZBT21lYUxIZ3gyWlE5RGpuUHdvPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2168,6 +2266,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/crayfisher_zari/articles/ed0a69e45f1057",
+          "author": "にしはら",
+          "description": "Nuxtの動的ルーティングの静的サイトジェネレート（SSG）と静的サイトホスティングサービス（Netlify、Vercel、GitHub Pages）の404ページの挙動について調べました。\n結論からすると、存在しない動的ルーティングで404ページを表示させたい場合はvalidate関数()を設置する必要があります。\n\nデモはこちら\nコードはこちら\n\n\n やりたいこと\n静的ジェネレート後、存在しないIDのURL（例：/blog/9999）の場合は404ページに飛ばしたいです。\n\n 前提\n/blog/以下が動的ルーティングになっています。動的ルーティングのID番号を拾ってAPIから該当デー...",
+          "link": "https://zenn.dev/crayfisher_zari/articles/ed0a69e45f1057",
+          "publishedOn": "2021-09-05T14:44:24.000Z",
+          "wordCount": 43,
+          "title": "Nuxtの動的ルーティングのSSGと静的サイトホスティングの404",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Zh7wglab--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25AF%25E3%2582%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25AE%25E5%258B%2595%25E7%259A%2584%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25AESSG%25E3%2581%25A8%25E9%259D%2599%25E7%259A%2584%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2583%259B%25E3%2582%25B9%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25AE404%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWY3YjY0NWRlOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/tentel/articles/736bfeaaa60ab3",
           "author": "てんてる",
