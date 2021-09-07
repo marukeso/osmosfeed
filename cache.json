@@ -55,6 +55,90 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/matsutoba/articles/fba1e8a7c41181",
+          "author": "matsutoba",
+          "description": "nextjs + typescript + jest + enzyme の組み合わせで、UIを操作したテストを動かしたいと思います。\n先人の詳しい記事がたくさんあるのですが、リッチなサンプルが多かったので、さらっと動かして確認したいときのための最小サンプルをメモしておきたいと思います。\n\n やりたいこと\n\nボタンを押したらテキストが変わるコンポーネントを作る。\nボタンを押す前、押した後のテキストの内容を、自動テストするサンプルを、Jest + enzyme で作りたい\n\n\n 動かした環境\n\nmacOS 11.5.2\nNode.js 14.17.0\nyarn 1.22.10\n\n後述の cr...",
+          "link": "https://zenn.dev/matsutoba/articles/fba1e8a7c41181",
+          "publishedOn": "2021-09-06T11:24:10.000Z",
+          "wordCount": 636,
+          "title": "nextjs + typescript + jest + enzyme の最小サンプルを動かしたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--gNRMktEh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:matsutoba%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:nextjs%2520%252B%2520typescript%2520%252B%2520jest%2520%252B%2520enzyme%2520%25E3%2581%25AE%25E6%259C%2580%25E5%25B0%258F%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM5ZDk0NGY4My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mochi/articles/dc0cd0d6567f21f98377",
+          "author": "mochi",
+          "description": "状況\nNextjs のプロジェクトで GitHub Pages にデプロイし 下のようなコードを書いた時に https://aaaaaaaaaaaaaa.github.io/bbbbbbbbbbbb/page1に遷移してほしいのに https://aaaaaaaaaaaaaa.github.io/page1に遷移してしまう。\n\n      \n        \n        <Link href=\"/page1\">\n  <a>リンク</a>\n</Link>\n\n\n      \n      \n 解決策\n\n GitHub 側\nGitHub の...",
+          "link": "https://zenn.dev/mochi/articles/dc0cd0d6567f21f98377",
+          "publishedOn": "2021-09-06T09:06:53.000Z",
+          "wordCount": 63,
+          "title": "Next jsをGitHub Pageにデプロイしたときにnext/linkが正しく遷移するようにする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--SWKNprER--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mochi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next%2520js%25E3%2582%2592GitHub%2520Page%25E3%2581%25AB%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2597%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25ABnext%252Flink%25E3%2581%258C%25E6%25AD%25A3%25E3%2581%2597%25E3%2581%258F%25E9%2581%25B7%25E7%25A7%25BB%25E3%2581%2599%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2ZhMTczNDliYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kamy112/articles/67ea5fca437d05",
+          "author": "Kamy",
+          "description": "Incremental Static Regeneration とは\nIncremental Static Regeneration（ISR）はNext.jsのビルドパターンの内の１つです。\n直訳すると\"段階的な静的再生成\"ですね。簡単に説明すると、\n\nクライアント側のリクエストに対し静的にビルドされたページを返す\n有効期限を越えた後にアクセスがあった場合、バックグラウンドで静的ページを再生成する\n次回のアクセス時に、再生成されたページを表示する\n\nという流れとなります。\n俗に言うstale-while-revalidateというキャッシュ戦略をNext.js上で実現可能にしたもので...",
+          "link": "https://zenn.dev/kamy112/articles/67ea5fca437d05",
+          "publishedOn": "2021-09-06T01:46:54.000Z",
+          "wordCount": 137,
+          "title": "Next.jsの Incremental Static Regenerationを試してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8jhm1sKN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kamy%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25AE%2520Incremental%2520Static%2520Regeneration%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGEzMmIwOGQ2Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kimura141899/articles/ad3bfa42f25724",
+          "author": "taku",
+          "description": "React Hook Formとは？\n公式\n\nhttps://react-hook-form.com/jp/\n\nReact Hookを利用した柔軟かつ拡張可能な使いやすいフォームバリデーションライブラリ。\n\n 導入するメリット\n\nバリデーションが比較的簡単に実装できる\nレンダリングが抑えられる⇒パフォーマンス向上\n依存性が少ない\n軽量なパッケージ\n公式のドキュメントが豊富&日本語\nなどがあげられるようです。\n\n\n 環境構築\n\nNext.js\nTypeScript\nreact-hook-form \"^7.14.2\"\nMaterialUI(別記事予定)\n\n今回はreact-hoo...",
+          "link": "https://zenn.dev/kimura141899/articles/ad3bfa42f25724",
+          "publishedOn": "2021-09-05T11:24:40.000Z",
+          "wordCount": 531,
+          "title": "React Hook Form使ってみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--KafOcDaI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:taku%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520Hook%2520Form%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKekh4b2laRnZsajhoaDgyTkFZYko0NFdPaS0wVkVEeUR1NVQ2a1E9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mizuneko4345/articles/d7ba5603dba1c3",
+          "author": "みずねこ",
+          "description": "この記事について\nNext.js+TypeScript+firebaseの構成で、推しのTWICEミナに関連した「ポモドーロタイマー」を開発しています。\nこの記事では、Cloud Firestoreからデータフェッチとレンダリングを行いApexchartsでグラフ化する方法を解説していきます。\n何か間違っている点などありましたらご指摘いただけると幸いです。🙏\n\n 解説すること\n\nApexChartsをNext.jsで使う方法\nデータをべた書きしてグラフ化\nデータをFirestoreから取得してグラフ化\n\n\n 参考にした記事\n\nhttps://qiita.com/IchiLab/ite...",
+          "link": "https://zenn.dev/mizuneko4345/articles/d7ba5603dba1c3",
+          "publishedOn": "2021-09-05T10:10:46.000Z",
+          "wordCount": 760,
+          "title": "Cloud Firestore×Apexchartsでグラフ描画する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--vcRhejeS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BF%25E3%2581%259A%25E3%2581%25AD%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Cloud%2520Firestore%25C3%2597Apexcharts%25E3%2581%25A7%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%2595%25E6%258F%258F%25E7%2594%25BB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3TXVGSTk3c0gtcFhHZWc3VEI4TjRLbzl5YW1vNzdLdjhQeHZMPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mizuneko4345/articles/f5a7c5c0eeba1d",
+          "author": "みずねこ",
+          "description": "この記事について\n初めまして、みずねこです。\nNext.js+TypeScript+firebaseの構成で、推しのTWICEミナに関連した「ポモドーロタイマー」を開発しています。\nこの記事では、Next.jsとFirebase Authenticationを使ったメール・パスワード認証機能の実装とログイン画面のデザインの解説をしていきます。\n何か間違っている点などありましたらご指摘いただけると幸いです。🙏\n\n 解説すること\n\nFirebaseのアプリ作成と初期設定\nFirebase Authenticationで認証機能を実装\nMateria-UIで認証画面のデザイン\n\n\n 参考に...",
+          "link": "https://zenn.dev/mizuneko4345/articles/f5a7c5c0eeba1d",
+          "publishedOn": "2021-09-05T04:36:15.000Z",
+          "wordCount": 400,
+          "title": "Next.jsとFirebase  Authenticationでメール・パスワード認証(Cookie)を実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9s_NIaOG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BF%25E3%2581%259A%25E3%2581%25AD%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%25E3%2581%25A8Firebase%2520%2520Authentication%25E3%2581%25A7%25E3%2583%25A1%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%25BB%25E3%2583%2591%25E3%2582%25B9%25E3%2583%25AF%25E3%2583%25BC%25E3%2583%2589%25E8%25AA%258D%25E8%25A8%25BC%2528Cookie%2529%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3TXVGSTk3c0gtcFhHZWc3VEI4TjRLbzl5YW1vNzdLdjhQeHZMPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/kyohei1212/articles/4318cba26e9885",
           "author": "Kyohei",
           "description": "Jikan API(public API)を使ってTypescriptを勉強します。\n基本は検索機能を使ってAnime Objectを取得します。\n検索はカスタムフックを作ります。(importは省略してます。)\n\n      \n        \n        export default function useSearchAnime(query: string, numberToReturn: number): basicAnimeInfo[] {\n    const [baiList, setBaiList] = useState<basicAnimeInfo[]>(...",
@@ -725,34 +809,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/a_da_chi/articles/2128cecc29635a",
-          "author": "adachi",
-          "description": "はじめに\n※この記事は下記記事の延長です。下記記事を読まなくても問題ないように書いていますが、ご興味ありましたらご一読ください。\nhttps://zenn.dev/a_da_chi/articles/181ea4ccc39580#スナップショットテスト導入\n今回はNext.js+Chakra UIプロジェクトにStorybookを導入する手順を書いていきたい思います。\n\n 導入手順\n\n\nnpx sb initを実行\n設定ファイルを修正\nStoryを追加\n\n\n npx sb initを実行\n\n      \n        \n        npx sb init\n\n\n      \n  ...",
-          "link": "https://zenn.dev/a_da_chi/articles/2128cecc29635a",
-          "publishedOn": "2021-08-08T08:28:51.000Z",
-          "wordCount": 298,
-          "title": "Next.js+Chakra UIプロジェクトにStorybookを導入する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--45_Is1GM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:adachi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%252BChakra%2520UI%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25ABStorybook%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hvU1F2dTVtTFZ2WUdOVUt1bE5kVE9Gd2Q5Z3VlTFhCaWJ3LTRHS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ptpadan/articles/serverless-next-isr",
-          "author": "yasushi.kobayashi",
-          "description": "メディアを Next.js/Headless CMS でメディアを開発を行っているので、の技術選定やハマりどころをまとめていきます。\n使用している技術の概要は下記です。\n\nNext.js は Serverless Framework を使用して AWS 上にデプロイ\nHeadless CMS は、Prismic を使用\n\n\n Serverless frameworkの選定理由\nAWS からインフラを分離したくない事情があったため、Vercel や Firebase Hosting 等は選択肢外でした。\n別のプロダクトでは ecs を使用しているのですが、メディアはメインプロダクトではない...",
-          "link": "https://zenn.dev/ptpadan/articles/serverless-next-isr",
-          "publishedOn": "2021-08-08T05:17:42.000Z",
-          "wordCount": 439,
-          "title": "Next.js/Serverless Frameworkでisr対応サイトを立ち上げる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--3bTzd2wg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yasushi.kobayashi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%252FServerless%2520Framework%25E3%2581%25A7isr%25E5%25AF%25BE%25E5%25BF%259C%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E7%25AB%258B%25E3%2581%25A1%25E4%25B8%258A%25E3%2581%2592%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2paSXpCVVZFUTgtTXY4VG4xMzBoYXR4RmN6TXYzV1A3dWhzRFlka19RPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -824,6 +880,62 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/bull/articles/8f1d28c8cfcdf1",
+          "author": "bull",
+          "description": "基地局の位置情報を取得できる API を公開しました！\nに記載されているAPIを利用して位置情報を取得してみます。\n\n はじめに\n\n Soracom APIの使い方\nリファレンスが公開されているのでこちらから使い方を試してみることが可能です\nhttps://users.soracom.io/ja-jp/tools/api/reference/\n\n SoracomのAPIから基地局情報を取得するために必要なAPI\n少なくとも以下の3つのAPIを実行する必要がありました。\n\nAPIトークンの取得(認証キーを利用してAPIを実行してトークンを取得します)\n3G の場合： MCC（Mobile ...",
+          "link": "https://zenn.dev/bull/articles/8f1d28c8cfcdf1",
+          "publishedOn": "2021-09-06T14:02:36.000Z",
+          "wordCount": 405,
+          "title": "TypeScriptでSoracomの基地局の位置情報を取得できるAPIを実行する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Dl5gJF6l--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:bull%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%25E3%2581%25A7Soracom%25E3%2581%25AE%25E5%259F%25BA%25E5%259C%25B0%25E5%25B1%2580%25E3%2581%25AE%25E4%25BD%258D%25E7%25BD%25AE%25E6%2583%2585%25E5%25A0%25B1%25E3%2582%2592%25E5%258F%2596%25E5%25BE%2597%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258BAPI%25E3%2582%2592%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g2MllRUHZOMXdGR25zMmFxNEpvOWI0VW96UTY4b3NfdlBOOFFqZUE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/matsutoba/articles/fba1e8a7c41181",
+          "author": "matsutoba",
+          "description": "nextjs + typescript + jest + enzyme の組み合わせで、UIを操作したテストを動かしたいと思います。\n先人の詳しい記事がたくさんあるのですが、リッチなサンプルが多かったので、さらっと動かして確認したいときのための最小サンプルをメモしておきたいと思います。\n\n やりたいこと\n\nボタンを押したらテキストが変わるコンポーネントを作る。\nボタンを押す前、押した後のテキストの内容を、自動テストするサンプルを、Jest + enzyme で作りたい\n\n\n 動かした環境\n\nmacOS 11.5.2\nNode.js 14.17.0\nyarn 1.22.10\n\n後述の cr...",
+          "link": "https://zenn.dev/matsutoba/articles/fba1e8a7c41181",
+          "publishedOn": "2021-09-06T11:24:10.000Z",
+          "wordCount": 636,
+          "title": "nextjs + typescript + jest + enzyme の最小サンプルを動かしたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--gNRMktEh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:matsutoba%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:nextjs%2520%252B%2520typescript%2520%252B%2520jest%2520%252B%2520enzyme%2520%25E3%2581%25AE%25E6%259C%2580%25E5%25B0%258F%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM5ZDk0NGY4My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/rabbit/articles/9b439fb4278ab9",
+          "author": "hanetsuki",
+          "description": "Gatsby.jsにEmotionを導入した際の忘備録です。\n今回のコードは、下記リポジトリに保存してあります。何かあった時には参考になればと思います。\nhttps://github.com/tsuki-lab/gatsby-emotion-sample\n\nEmotionの導入以降を参照したい場合は 1.Emotionをインストール から読み進めてください。\n\n\n本記事は、javascriptベースのGatsby.jsを対象としていますが、typescriptの環境でも同様に導入可能です。最後に、typescript対応の追記をしてあります。\n\nこの記事は以下のバージョン時点の情報です。...",
+          "link": "https://zenn.dev/rabbit/articles/9b439fb4278ab9",
+          "publishedOn": "2021-09-06T04:19:33.000Z",
+          "wordCount": 276,
+          "title": "Gatsby.js + Emotion で環境構築",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ri-yVb_q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hanetsuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby.js%2520%252B%2520Emotion%2520%25E3%2581%25A7%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqcUw3akdtc1E3STZUTUtMcDBzUXVhd0FNUzNvcHBWNFVCRGZzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sprout2000/articles/a4c59a294dcbae",
+          "author": "k_touge",
+          "description": "サマリー\nDocker Desktop （docker デーモン）を起動させておいて…\n\n      \n        zsh\n        % git clone https://github.com/sprout2000/react-ts.git\n% cd react-ts\n% docker-compose up\n\n\n      \n      localhost:3000 を開きましょう。これだけです。\nローカルに Node.js がインストールされていなかったり、インストールされていてもこのコンテナで利用されているバージョンとは異なっていたりしても同じ（仮想）環境でプロジェク...",
+          "link": "https://zenn.dev/sprout2000/articles/a4c59a294dcbae",
+          "publishedOn": "2021-09-06T03:23:34.000Z",
+          "wordCount": 1054,
+          "title": "Docker で React + TypeScript の開発環境",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LHKCVT0m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:k_touge%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Docker%2520%25E3%2581%25A7%2520React%2520%252B%2520TypeScript%2520%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTkyNDAwNGE0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/dozo/articles/14bc23b488c95a",
           "author": "dozo",
@@ -2055,34 +2167,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/remon/articles/9e2953d699368a",
-          "author": "remon",
-          "description": "OverlayやPopOverでコンテンツを表示するとき、タブでの操作性は以下のようになってると望ましいと思う。\n\nOverlayコンテンツが表示中の時にタブを押すと、コンテンツにフォーカスが当たる。\nタブを押した時Overlayコンテンツのフォーカス可能な最初の子要素にフォーカスが当たる\nOverlayコンテンツのフォーカス可能な最後の子要素がフォーカス中であれば、最初の子要素のフォーカスが当たる。\n\nreact-popper等を使っていい感じのOverlayコンポーネントを作ったとしても、\n所詮座標を調整するライブラリなのでこの手のタブの操作性に関しては自前で実装する必要がありそうで...",
-          "link": "https://zenn.dev/remon/articles/9e2953d699368a",
-          "publishedOn": "2021-08-08T06:03:58.000Z",
-          "wordCount": 220,
-          "title": "React PopOverコンテンツ内でTabのFocusをいい感じにするhook",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--LxmoZhqx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:remon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%2520PopOver%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2584%25E5%2586%2585%25E3%2581%25A7Tab%25E3%2581%25AEFocus%25E3%2582%2592%25E3%2581%2584%25E3%2581%2584%25E6%2584%259F%25E3%2581%2598%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258Bhook%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvci5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/masamichhhi/articles/cloudfuntions-prisma-docker",
-          "author": "masamichhhi",
-          "description": "cloud functionsからfirestoreを使うのはとても便利ですが、cloud functionsからRDBを使いたいときがあると思います。\nそこで、prismaというtypescript向けのORMがとても使い心地がよく、これをcloud functionsで手軽に使いたいなと思ったので、dockerを使ってそれらをローカルで開発できる環境を構築してみます。\n\n この記事でやること\n\nCloud Functions for Firebaseとmysqlの環境をdockerで構築\nprismaでfunctionからmysqlにアクセスして、todoリストのAPIを作る。\n\n\n...",
-          "link": "https://zenn.dev/masamichhhi/articles/cloudfuntions-prisma-docker",
-          "publishedOn": "2021-08-07T15:05:51.000Z",
-          "wordCount": 983,
-          "title": "Cloud Functions for firebaseでPrismaを使ってみる[Dockerでローカル開発環境構築]",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--_97IJAvA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:masamichhhi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Cloud%2520Functions%2520for%2520firebase%25E3%2581%25A7Prisma%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%255BDocker%25E3%2581%25A7%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%255D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjY4YjIwNzc2Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2668,20 +2752,6 @@
           "title": "Nuxtのcomponentsプロパティを使ったら単体テストでエラーになる",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--bNc48V9r--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2582%2593%25E3%2581%258B%25E3%2582%258A%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25AEcomponents%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2591%25E3%2583%2586%25E3%2582%25A3%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25A7%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU5ZDU2M2Q0YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tentel/articles/040a0251dab79f",
-          "author": "てんてる",
-          "description": "Ionicでリストの並び替えを実装する場合に利用可能な、Reorderコンポーネントの使い方まとめ\n\n 基本情報\n\n props\n\n\n\nprops名\n型\n初期値\n説明\n\n\n\n\ndisabled\nboolean\ntrue\n並び替えを禁止するかどうか。\n\n\n\n\n emit\n\n\n\nemit名\n戻り値\n説明\n\n\n\n\nionItemReorder\nEvent\n並び替えを完了させるために呼ぶ必要があるイベント。戻り値のEventの中にcompleteメソッドがあり、completeメソッドを呼び出すことで並び替えが完了する。呼び出さない場合は、並び替えが完了せずにフリーズする。\n\n\n\n戻り値の中身\n...",
-          "link": "https://zenn.dev/tentel/articles/040a0251dab79f",
-          "publishedOn": "2021-08-08T07:19:13.000Z",
-          "wordCount": 230,
-          "title": "【Ionic×Vue】並び替え(Reorder)リストの作り方",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--tqJygrZ9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25A6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Ionic%25C3%2597Vue%25E3%2580%2591%25E4%25B8%25A6%25E3%2581%25B3%25E6%259B%25BF%25E3%2581%2588%2528Reorder%2529%25E3%2583%25AA%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzlhMGRmYzE4ZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
