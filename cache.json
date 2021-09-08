@@ -12,6 +12,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/09/07/electron-14.0.0-node-fetch-3.0.0-replace-jquery/",
+          "author": null,
+          "description": "JSer.info #556 - Electron 14.0.0がリリースされました。\nElectron 14.0.0 | Electron Blog\n依存がそれぞれChromium 93、Node.js 14.17.0、V8 9.3へとアップデートされています。\napp.allowRendererProcessReuseオプションの削除、worldSafeExecuteJavaScriptオプションを削除(trueがデフォルト)されています。\nまた、Electron 12でDeprecatedとなっていたremoteモジュールを削除し、@electron/remoteという外部モジュールへと変更されています。\ncontextBridgeを使っていく方向になっています。\nElectron（v.14.0.0 現在）の IPC 通信入門 - よりセキュアな方法への変遷 - Qiita\nNode.jsでのFetch APIのpolyfillライブラリであるnode-fetch 3.0.0がリリースされました。\nRelease v3.0.0 · node-fetch/node-fetch\n破壊的な変更として、Node.jsのESMのサポート、Node.js 12未満のサポート終了されています。\ntimeoutオプションは不要となったため削除されています。\nShould we deprecate timeout in favor of AbortController? · Issue #523 · node-fetch/node-fetch\n一方で、非標準なhighWaterMarkオプションの追加されています。\nWhen users clone(), automatically create streams with custom highWaterMark · Issue #38…",
+          "link": "https://jser.info/2021/09/07/electron-14.0.0-node-fetch-3.0.0-replace-jquery/",
+          "publishedOn": "2021-09-07T01:36:56.000Z",
+          "wordCount": 417,
+          "title": "2021-09-07のJS: Electron 14.0.0、node-fetch 3.0.0、replace-jquery"
+        },
+        {
           "id": "https://jser.info/2021/08/31/typescript-4.4-pagespeed-insightslabfield-data-packemon/",
           "author": null,
           "description": "JSer.info #555 - TypeScript 4.4が正式にリリースされました。\nAnnouncing TypeScript 4.4 | TypeScript\nControl Flow Analysisの改善、Index SignaturesにSymbolやTemplate Stringを利用できるようになっています。\nunknown型にするuseUnknownInCatchVariablesオプションと\nundefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。\nuseUnknownInCatchVariablesはstrictオプションが有効の場合は自動的にONとなります。\nexactOptionalPropertyTypesはstrictオプションとは別途設定が必要になります。\nまた、ES Proposal Stage 3のclass static blockがサポートされています。\ntsc --helpの表示を改善、ビルドパフォーマンスの改善も含まれています。\nWhy lab and field data can be different (and what to do about it)という記事では、PageSpeed Insightsなどに表示される\"lab data\"と\"field data\"の違いについて解説しています。\nLab dataは、ネットワークは実行環境を固定したSynthetic モニタリングのデータとなっています。\nChrome User Experience Reportで収集されたChromeユーザーのRUMデータを元にしています。\nこの2つのデータの違い、どのようなケースで値に違いがでるかなどを解説しています。\nPackemonはnpmで公開するパッケージ向けのビルドツー…",
@@ -767,48 +776,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/mongolyy/articles/b701d6c6184bb5",
-          "author": "mongolyy",
-          "description": "はじめに\n最近、Next.js + Auth0の組み合わせでアプリケーションを開発することが多いのですが、\n要認証の非公開ページもあるため、withPageAuthRequiredやwithAPIAuthRequiredを使用しています。\nその場合のテストの実装について、公式ではSDKのインスタンスを作成する方法が紹介されているわけですが、単にwithPageAuthRequired withAPIAuthRequiredの中の挙動を確認したいだけならwithPageAuthRequired withAPIAuthRequiredをspy化して、テストを実装すればいいのでは？と、考え...",
-          "link": "https://zenn.dev/mongolyy/articles/b701d6c6184bb5",
-          "publishedOn": "2021-08-09T04:04:14.000Z",
-          "wordCount": 524,
-          "title": "nextjs-auth0を使用時の、privateなページに対する簡単なテストの実装方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--jRSc2TwS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mongolyy%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:nextjs-auth0%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E6%2599%2582%25E3%2581%25AE%25E3%2580%2581private%25E3%2581%25AA%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AB%25E5%25AF%25BE%25E3%2581%2599%25E3%2582%258B%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25AA%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E5%25AE%259F%25E8%25A3%2585%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hveUpld0pWaGhieEtrZUMtWWFxN1d6X1BQdHBkTWxnSEkwZlBXPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/gosutesu/books/a8b6320a9247a3",
-          "author": "渡部良輝",
-          "description": "自己学習用のNext.jsに関連するものをまとめるもの",
-          "link": "https://zenn.dev/gosutesu/books/a8b6320a9247a3",
-          "publishedOn": "2021-08-09T00:36:55.000Z",
-          "wordCount": 3,
-          "title": "Next.js関連",
-          "enclosure": {
-            "url": "https://zenn.dev/images/logo-only-dark.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tomi/articles/2021-08-08-next-issue",
-          "author": "Tomiaki Matsumura",
-          "description": "next.jsで新しいプロジェクトを作っている際にハマってしまった問題に関しての解決策です。\nこの問題に関しては、バージョンに起因すると思われますので、2021年8月時点での話であり、新しいバージョンが出ている場合は、解決しているかもしれません。\nそれまでの参考までにご活用ください。\n\n 問題\nnext.jsをreact-markdownを使ってマークダウンからブログ記事を書くような利用は多いということは、関連記事の多さからも異論はないと思います。\n私も１年前からこの組み合わせでブログ書いたりしています。最近マークダウンを使用する別のサイトのプロジェクトを作成し、react-markdo...",
-          "link": "https://zenn.dev/tomi/articles/2021-08-08-next-issue",
-          "publishedOn": "2021-08-08T13:49:23.000Z",
-          "wordCount": 192,
-          "title": "react-markdownで詰まったのでメモ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--_P0MedXt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Tomiaki%2520Matsumura%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:react-markdown%25E3%2581%25A7%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kxWmcwYWVJT0piX0hZNV9ISnJYMlpuU2FEY3BfaXBZM3BhMlZ3blE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -880,6 +847,34 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/qsf/articles/65afdf6a71bbc6",
+          "author": "たふみ",
+          "description": "TL;DR\nNoInfer のような物があればいいのだが，ないのでこれを使う\nhttps://github.com/microsoft/TypeScript/issues/14829#issuecomment-322267089\n\n      \n        \n        export type NoInfer<T> = T & {[K in keyof T]: T[K]}\n\n\n      \n      \n Background\nものは違いますが，ReactのCustom Hooksを作っていて詰まりました．\n以下の例を見てください．\n\n      \n   ...",
+          "link": "https://zenn.dev/qsf/articles/65afdf6a71bbc6",
+          "publishedOn": "2021-09-07T18:25:35.000Z",
+          "wordCount": 332,
+          "title": "TypeScriptで型変数に期待していない型推論がきいてしまうとき",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cfeklSC---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%259F%25E3%2581%25B5%25E3%2581%25BF%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E5%259E%258B%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25AB%25E6%259C%259F%25E5%25BE%2585%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%25E5%259E%258B%25E6%258E%25A8%25E8%25AB%2596%25E3%2581%258C%25E3%2581%258D%25E3%2581%2584%25E3%2581%25A6%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2586%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g4ZUl0bk9kaXNIRnpLdjB4VG4wc2E0endabi1IZDZCWWowTHNMUkg0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yuhr/articles/668dba202726bf",
+          "author": "yuhr",
+          "description": "TypeScriptの話です。default exportを使うことが有害であるかのような言説に異議を唱えるためにこの記事を書きました。\nあらかじめ断っておきますが、この記事はTypeScriptを使っているプロジェクトのモジュール構成に関する話です。npmに上げられているようなNode.jsパッケージ間でのimport/exportはまた別のエコシステムが関わってくる話なので、分けて考えてください。Denoにおけるimport/exportに関しては、この記事での議論がそのまま通用します。\n\n 基本的にdefault exportのみを使うべき\n筆者の考えでは、named export...",
+          "link": "https://zenn.dev/yuhr/articles/668dba202726bf",
+          "publishedOn": "2021-09-07T16:22:44.000Z",
+          "wordCount": 361,
+          "title": "named exportは有害だと考えられます",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--YFMhcexC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yuhr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:named%2520export%25E3%2581%25AF%25E6%259C%2589%25E5%25AE%25B3%25E3%2581%25A0%25E3%2581%25A8%25E8%2580%2583%25E3%2581%2588%25E3%2582%2589%25E3%2582%258C%25E3%2581%25BE%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l2U2lnclBGSkhIOTRLRnhjWDk1d3Z1d3pMZnVKc091MUI4Nkg2PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/bull/articles/8f1d28c8cfcdf1",
           "author": "bull",
@@ -2153,20 +2148,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kimizuy/articles/recursive-table",
-          "author": "kimizuy",
-          "description": "はじめに\n再帰的なデータ構造に従って入れ子の（ネストされた）コンポーネントを実装してみました。\n\n ミニマルな再帰コンポーネント\nまずは、再帰処理の流れを掴むためにミニマルなコンポーネントの例を以下に示します。\n実態としては、繰り返し {data.name} を表示していくだけですね。\n\n      \n        \n        type Data = { name: string; children?: Data[] };\n\ntype Props = {\n  data: Data;\n};\n\nconst RecursiveComponent = ({ data }: Props...",
-          "link": "https://zenn.dev/kimizuy/articles/recursive-table",
-          "publishedOn": "2021-08-08T14:48:24.000Z",
-          "wordCount": 256,
-          "title": "再帰処理で入れ子のテーブルコンポーネントを作る（折りたたみ機能付き！）",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ESVqNCZ0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kimizuy%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E5%2586%258D%25E5%25B8%25B0%25E5%2587%25A6%25E7%2590%2586%25E3%2581%25A7%25E5%2585%25A5%25E3%2582%258C%25E5%25AD%2590%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25BC%25E3%2583%2596%25E3%2583%25AB%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25EF%25BC%2588%25E6%258A%2598%25E3%2582%258A%25E3%2581%259F%25E3%2581%259F%25E3%2581%25BF%25E6%25A9%259F%25E8%2583%25BD%25E4%25BB%2598%25E3%2581%258D%25EF%25BC%2581%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2gwRWNwbHZnOXltdHdZbFBYWnVFUGl4aW5KcEkzMEUxX3pYNjBaSFE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2350,6 +2331,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/shlia/articles/a6c2fb22ab7c6e",
+          "author": "shira79",
+          "description": "概要\n業務で触れる技術はバックエンド関連が主で、フロントエンドを関連の技術に触れることが少ないのですが、勉強を兼ねてVue.jsとContentfulで作成したブログをSPAで、Netlifyにホスティングしていました。\nその後、パフォーマンスの向上+OGPの設定を目的として、Nuxt.jsのSSG機能を使って書き換えてみました。\n\n リンク\n\n リプレイス後\nhttps://github.com/shira79/MyBlog\nhttps://shira-nuxt-static.netlify.app/\n使用技術は以下です。\nNuxt.js or Next.js + Contenfu...",
+          "link": "https://zenn.dev/shlia/articles/a6c2fb22ab7c6e",
+          "publishedOn": "2021-09-07T10:16:24.000Z",
+          "wordCount": 205,
+          "title": "フロントエンド初心者がVueで作ったブログをNuxtのSSGで作り直した時につまずいたこと",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--FkZykG9c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shira79%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E5%2588%259D%25E5%25BF%2583%25E8%2580%2585%25E3%2581%258CVue%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592Nuxt%25E3%2581%25AESSG%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E6%2599%2582%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%25BE%25E3%2581%259A%25E3%2581%2584%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzhmMmVhYTkzNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nice2have/articles/aa15eccd13a23c",
+          "author": "Nakajima",
+          "description": "はじめに\n今回初めて個人開発で作ったサービスを公開します。今までも何回かトライしていたのですが、なかなか公開までに至らないうちに、なにか問題にぶちあたったり、時間がかかりすぎて情熱が冷めてしまったりしていたので、今回はまずはスモールスタートで公開して改善していくことを心がけました。大体今回の公開まで、開発を始めてから1ヶ月程度になります。毎日朝4時半に起きて、子どもたちが起きる7時過ぎまでを開発時間として取り組んできました。\n\n\n どんな人向け？\n自分で作っているサービスの開発ロードマップをユーザーに公開するために、都度ブログを書いたりするのも大変ですよね。もし、自分のサービスのソー...",
+          "link": "https://zenn.dev/nice2have/articles/aa15eccd13a23c",
+          "publishedOn": "2021-09-07T07:58:36.000Z",
+          "wordCount": 52,
+          "title": "Github Issuesをキレイに外部公開するサービス「2go」作ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--OclLDDjr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Nakajima%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Github%2520Issues%25E3%2582%2592%25E3%2582%25AD%25E3%2583%25AC%25E3%2582%25A4%25E3%2581%25AB%25E5%25A4%2596%25E9%2583%25A8%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2580%258C2go%25E3%2580%258D%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTM5ZjY5NDZlNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/crayfisher_zari/articles/ed0a69e45f1057",
           "author": "にしはら",

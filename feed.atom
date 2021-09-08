@@ -2,10 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-07T01:02:52.615Z</updated>
+    <updated>2021-09-08T01:03:19.619Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptで型変数に期待していない型推論がきいてしまうとき]]></title>
+        <id>https://zenn.dev/qsf/articles/65afdf6a71bbc6</id>
+        <link href="https://zenn.dev/qsf/articles/65afdf6a71bbc6"/>
+        <updated>2021-09-07T18:25:35.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+NoInfer のような物があればいいのだが，ないのでこれを使う
+https://github.com/microsoft/TypeScript/issues/14829#issuecomment-322267089
+
+      
+        
+        export type NoInfer<T> = T & {[K in keyof T]: T[K]}
+
+
+      
+      
+ Background
+ものは違いますが，ReactのCustom Hooksを作っていて詰まりました．
+以下の例を見てください．
+
+      
+   ...]]></summary>
+        <author>
+            <name>たふみ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[named exportは有害だと考えられます]]></title>
+        <id>https://zenn.dev/yuhr/articles/668dba202726bf</id>
+        <link href="https://zenn.dev/yuhr/articles/668dba202726bf"/>
+        <updated>2021-09-07T16:22:44.000Z</updated>
+        <summary type="html"><![CDATA[TypeScriptの話です。default exportを使うことが有害であるかのような言説に異議を唱えるためにこの記事を書きました。
+あらかじめ断っておきますが、この記事はTypeScriptを使っているプロジェクトのモジュール構成に関する話です。npmに上げられているようなNode.jsパッケージ間でのimport/exportはまた別のエコシステムが関わってくる話なので、分けて考えてください。Denoにおけるimport/exportに関しては、この記事での議論がそのまま通用します。
+
+ 基本的にdefault exportのみを使うべき
+筆者の考えでは、named export...]]></summary>
+        <author>
+            <name>yuhr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[フロントエンド初心者がVueで作ったブログをNuxtのSSGで作り直した時につまずいたこと]]></title>
+        <id>https://zenn.dev/shlia/articles/a6c2fb22ab7c6e</id>
+        <link href="https://zenn.dev/shlia/articles/a6c2fb22ab7c6e"/>
+        <updated>2021-09-07T10:16:24.000Z</updated>
+        <summary type="html"><![CDATA[概要
+業務で触れる技術はバックエンド関連が主で、フロントエンドを関連の技術に触れることが少ないのですが、勉強を兼ねてVue.jsとContentfulで作成したブログをSPAで、Netlifyにホスティングしていました。
+その後、パフォーマンスの向上+OGPの設定を目的として、Nuxt.jsのSSG機能を使って書き換えてみました。
+
+ リンク
+
+ リプレイス後
+https://github.com/shira79/MyBlog
+https://shira-nuxt-static.netlify.app/
+使用技術は以下です。
+Nuxt.js or Next.js + Contenfu...]]></summary>
+        <author>
+            <name>shira79</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Github Issuesをキレイに外部公開するサービス「2go」作ってみた]]></title>
+        <id>https://zenn.dev/nice2have/articles/aa15eccd13a23c</id>
+        <link href="https://zenn.dev/nice2have/articles/aa15eccd13a23c"/>
+        <updated>2021-09-07T07:58:36.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+今回初めて個人開発で作ったサービスを公開します。今までも何回かトライしていたのですが、なかなか公開までに至らないうちに、なにか問題にぶちあたったり、時間がかかりすぎて情熱が冷めてしまったりしていたので、今回はまずはスモールスタートで公開して改善していくことを心がけました。大体今回の公開まで、開発を始めてから1ヶ月程度になります。毎日朝4時半に起きて、子どもたちが起きる7時過ぎまでを開発時間として取り組んできました。
+
+
+ どんな人向け？
+自分で作っているサービスの開発ロードマップをユーザーに公開するために、都度ブログを書いたりするのも大変ですよね。もし、自分のサービスのソー...]]></summary>
+        <author>
+            <name>Nakajima</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-09-07のJS: Electron 14.0.0、node-fetch 3.0.0、replace-jquery]]></title>
+        <id>https://jser.info/2021/09/07/electron-14.0.0-node-fetch-3.0.0-replace-jquery/</id>
+        <link href="https://jser.info/2021/09/07/electron-14.0.0-node-fetch-3.0.0-replace-jquery/"/>
+        <updated>2021-09-07T01:36:56.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #556 - Electron 14.0.0がリリースされました。
+Electron 14.0.0 | Electron Blog
+依存がそれぞれChromium 93、Node.js 14.17.0、V8 9.3へとアップデートされています。
+app.allowRendererProcessReuseオプションの削除、worldSafeExecuteJavaScriptオプションを削除(trueがデフォルト)されています。
+また、Electron 12でDeprecatedとなっていたremoteモジュールを削除し、@electron/remoteという外部モジュールへと変更されています。
+contextBridgeを使っていく方向になっています。
+Electron（v.14.0.0 現在）の IPC 通信入門 - よりセキュアな方法への変遷 - Qiita
+Node.jsでのFetch APIのpolyfillライブラリであるnode-fetch 3.0.0がリリースされました。
+Release v3.0.0 · node-fetch/node-fetch
+破壊的な変更として、Node.jsのESMのサポート、Node.js 12未満のサポート終了されています。
+timeoutオプションは不要となったため削除されています。
+Should we deprecate timeout in favor of AbortController? · Issue #523 · node-fetch/node-fetch
+一方で、非標準なhighWaterMarkオプションの追加されています。
+When users clone(), automatically create streams with custom highWaterMark · Issue #38…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScriptでSoracomの基地局の位置情報を取得できるAPIを実行する]]></title>
         <id>https://zenn.dev/bull/articles/8f1d28c8cfcdf1</id>
@@ -4344,70 +4442,6 @@ Serverless Next.jsといえば、Serverless Componentを使う印象でした。
         import * as cdk from '@aws-cdk...]]></summary>
         <author>
             <name>hidetaka okamoto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nextjs-auth0を使用時の、privateなページに対する簡単なテストの実装方法]]></title>
-        <id>https://zenn.dev/mongolyy/articles/b701d6c6184bb5</id>
-        <link href="https://zenn.dev/mongolyy/articles/b701d6c6184bb5"/>
-        <updated>2021-08-09T04:04:14.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-最近、Next.js + Auth0の組み合わせでアプリケーションを開発することが多いのですが、
-要認証の非公開ページもあるため、withPageAuthRequiredやwithAPIAuthRequiredを使用しています。
-その場合のテストの実装について、公式ではSDKのインスタンスを作成する方法が紹介されているわけですが、単にwithPageAuthRequired withAPIAuthRequiredの中の挙動を確認したいだけならwithPageAuthRequired withAPIAuthRequiredをspy化して、テストを実装すればいいのでは？と、考え...]]></summary>
-        <author>
-            <name>mongolyy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js関連]]></title>
-        <id>https://zenn.dev/gosutesu/books/a8b6320a9247a3</id>
-        <link href="https://zenn.dev/gosutesu/books/a8b6320a9247a3"/>
-        <updated>2021-08-09T00:36:55.000Z</updated>
-        <summary type="html"><![CDATA[自己学習用のNext.jsに関連するものをまとめるもの]]></summary>
-        <author>
-            <name>渡部良輝</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[再帰処理で入れ子のテーブルコンポーネントを作る（折りたたみ機能付き！）]]></title>
-        <id>https://zenn.dev/kimizuy/articles/recursive-table</id>
-        <link href="https://zenn.dev/kimizuy/articles/recursive-table"/>
-        <updated>2021-08-08T14:48:24.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-再帰的なデータ構造に従って入れ子の（ネストされた）コンポーネントを実装してみました。
-
- ミニマルな再帰コンポーネント
-まずは、再帰処理の流れを掴むためにミニマルなコンポーネントの例を以下に示します。
-実態としては、繰り返し {data.name} を表示していくだけですね。
-
-      
-        
-        type Data = { name: string; children?: Data[] };
-
-type Props = {
-  data: Data;
-};
-
-const RecursiveComponent = ({ data }: Props...]]></summary>
-        <author>
-            <name>kimizuy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[react-markdownで詰まったのでメモ]]></title>
-        <id>https://zenn.dev/tomi/articles/2021-08-08-next-issue</id>
-        <link href="https://zenn.dev/tomi/articles/2021-08-08-next-issue"/>
-        <updated>2021-08-08T13:49:23.000Z</updated>
-        <summary type="html"><![CDATA[next.jsで新しいプロジェクトを作っている際にハマってしまった問題に関しての解決策です。
-この問題に関しては、バージョンに起因すると思われますので、2021年8月時点での話であり、新しいバージョンが出ている場合は、解決しているかもしれません。
-それまでの参考までにご活用ください。
-
- 問題
-next.jsをreact-markdownを使ってマークダウンからブログ記事を書くような利用は多いということは、関連記事の多さからも異論はないと思います。
-私も１年前からこの組み合わせでブログ書いたりしています。最近マークダウンを使用する別のサイトのプロジェクトを作成し、react-markdo...]]></summary>
-        <author>
-            <name>Tomiaki Matsumura</name>
         </author>
     </entry>
 </feed>
