@@ -2,10 +2,148 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-08T01:03:19.619Z</updated>
+    <updated>2021-09-09T01:08:23.341Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[無名関数内でNuxt.jsのthisを利用したい。]]></title>
+        <id>https://zenn.dev/cyber_hacnosuke/articles/311184ad511764</id>
+        <link href="https://zenn.dev/cyber_hacnosuke/articles/311184ad511764"/>
+        <updated>2021-09-08T12:56:33.000Z</updated>
+        <summary type="html"><![CDATA[これって正しいのでしょうかという疑問もかねて。むりやりthisを使ってますがいいんでしょうか。詳しい方、ご教授願います。また、アロー関数だったらどうするのっていう。（アロー関数にいまだになれないから使ってない人）
+
+ これダメ
+
+      
+        sample.vue
+        <script>
+  setTimeout(function() {
+    this.data = false;
+  }, 1000);
+</script>
+
+
+      
+      
+ JavaScriptだったら
+
+      
+        sample.v...]]></summary>
+        <author>
+            <name>博ノ助</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[無名関数内でNuxt.jsのthisを利用したい。]]></title>
+        <id>https://zenn.dev/cyber_hacnosuke/articles/311184ad511764</id>
+        <link href="https://zenn.dev/cyber_hacnosuke/articles/311184ad511764"/>
+        <updated>2021-09-08T12:56:33.000Z</updated>
+        <summary type="html"><![CDATA[これって正しいのでしょうかという疑問もかねて。むりやりthisを使ってますがいいんでしょうか。詳しい方、ご教授願います。また、アロー関数だったらどうするのっていう。（アロー関数にいまだになれないから使ってない人）
+
+ これダメ
+
+      
+        sample.vue
+        <script>
+  setTimeout(function() {
+    this.data = false;
+  }, 1000);
+</script>
+
+
+      
+      
+ JavaScriptだったら
+
+      
+        sample.v...]]></summary>
+        <author>
+            <name>博ノ助</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt.js+TypeScriptにjQueryを導入するルーティン]]></title>
+        <id>https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450</id>
+        <link href="https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450"/>
+        <updated>2021-09-08T12:44:09.000Z</updated>
+        <summary type="html"><![CDATA[触れる回数は多いけどいまだに覚えられないのでメモ
+これよりいい方法いっぱいあると思います
+
+ コマンド
+
+      
+        コマンドライン
+        $ npm install --save-dev jquery @types/jquery
+
+
+      
+      
+ nuxt.config.js
+
+      
+        nuxt.config.js
+        + const webpack = require('webpack')
+
+export default {
+// ...省略...
+// Build Configuration: https...]]></summary>
+        <author>
+            <name>博ノ助</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BashのParameter expansionの一部について整理]]></title>
+        <id>https://zenn.dev/takasing/articles/parameter-extensions</id>
+        <link href="https://zenn.dev/takasing/articles/parameter-extensions"/>
+        <updated>2021-09-08T06:12:38.000Z</updated>
+        <summary type="html"><![CDATA[シェル芸をする際にいつも何でググればよいかわからなくなるあれのことを Parameter expansion というらしい。
+変数が存在しない際にデフォルト値設定したり、変数が存在する場合に変わりの文字を入れたりするあれ。
+Next.js のアプリケーションを Vercel にデプロイする際に.env.localをうまく拡張する際に必要になったので一部だけ整理しとく。 .env.localでうまく展開されませんでした。。。
+
+      
+        
+        #!/bin/bash
+
+NO_VARIABLES=
+VARIABLES=var
+
+echo "- operator...]]></summary>
+        <author>
+            <name>Takashi Toyofuku</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Trendingを定期的につぶやくTwitter BotをFirebaseで作ってみた]]></title>
+        <id>https://zenn.dev/ryo_kawamata/articles/github-trending-bot</id>
+        <link href="https://zenn.dev/ryo_kawamata/articles/github-trending-bot"/>
+        <updated>2021-09-08T03:35:07.000Z</updated>
+        <summary type="html"><![CDATA[📦 作ったもの
+GitHub Trendingに掲載されたリポジトリを定期的につぶやく Twitter Bot を作りました。
+全体のトレンドをつぶやく@gh_trending_と、JavaScript・TypeScript のトレンドをつぶやく@gh_trending_jsの 2 種類があります。
+
+
+
+@gh_trending_
+@gh_trending_js
+
+
+
+
+
+
+
+
+
+仕様はこちらです。
+
+30 分から 1 時間おきに GitHub Trending に掲載されているリポジトリをツイート
+一度ツイートたリポジトリは再度掲載されていても 1 週間はつぶやかない
+投稿内容は...]]></summary>
+        <author>
+            <name>ryo_kawamata</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScriptで型変数に期待していない型推論がきいてしまうとき]]></title>
         <id>https://zenn.dev/qsf/articles/65afdf6a71bbc6</id>
@@ -64,6 +202,35 @@ https://shira-nuxt-static.netlify.app/
 Nuxt.js or Next.js + Contenfu...]]></summary>
         <author>
             <name>shira79</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supabaseでuseswrを使ってみる。]]></title>
+        <id>https://zenn.dev/byanbyan/articles/supabase_swr</id>
+        <link href="https://zenn.dev/byanbyan/articles/supabase_swr"/>
+        <updated>2021-09-07T08:07:18.000Z</updated>
+        <summary type="html"><![CDATA[Supabase で swr 使えるのだろうか、、、
+やってみたのでまとめ。
+参考 🐈 Github
+https://github.com/supabase/supabase/discussions/764
+SWR
+https://swr.vercel.app/ja
+Supabase
+https://app.supabase.io/
+
+
+プロジェクト内に
+pages/apiフォルダを作成し、supabase からデータ取得する処理を書く。
+
+
+useSWR を使って、pages/apiからデータを取得する。
+
+
+
+ 0.supabase のクライアントの設定
+https://supaba...]]></summary>
+        <author>
+            <name>ゆゆゆ</name>
         </author>
     </entry>
     <entry>
@@ -4269,179 +4436,6 @@ sass v1.35.2
 基本的にはテキストを表示した...]]></summary>
         <author>
             <name>ofa-chan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxtのcomponentsプロパティを使ったら単体テストでエラーになる]]></title>
-        <id>https://zenn.dev/kon_karin/articles/1b5f282ba64bd3</id>
-        <link href="https://zenn.dev/kon_karin/articles/1b5f282ba64bd3"/>
-        <updated>2021-08-10T11:26:05.000Z</updated>
-        <summary type="html"><![CDATA[Nuxt.js の components プロパティとは
-Nuxt.js v2.13から導入された components プロパティは、コンポーネントのスキャンと自動インポートをしてくれます。
-components プロパティ - NuxtJS
-つまり、コンポーネントを使う時に import 文と components オプションを書く必要がなくなります。
-
-      
-        nuxt.config.js
-        export default {
-  components: true,
-}
-
-
-      
-      
-      
-        pages/...]]></summary>
-        <author>
-            <name>こんかりん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[next/imageをJestとStorybookで使うためにモックする方法]]></title>
-        <id>https://zenn.dev/yukishinonome/articles/0784517bff279b</id>
-        <link href="https://zenn.dev/yukishinonome/articles/0784517bff279b"/>
-        <updated>2021-08-10T09:55:14.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-オリジナルな要素があまり多くないので記事にするか迷ったのですが、next/imageをモックする方法について日本語で書いてあるものがほとんどなかったので記事にしました。Next.js関連は新しい技術なので、日本語のドキュメントも少ないですし、僕のような駆け出しエンジニアには日本語のドキュメントが少しでも多くあるととても助かるのでちょっとしたことでも書いていきたいですね。
-
- モックする方法を調べていて困ったこと
-next/imageをJestでモックして使う方法は英語ドキュメントでちらほら見つかったのですが、それらをStorybookに対しても使うと、悲しいことにnext/...]]></summary>
-        <author>
-            <name>東雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-08-10のJS: pnpm 6.12.0、webpack 5.49.0(import http resource)、Vue 3.2]]></title>
-        <id>https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/</id>
-        <link href="https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/"/>
-        <updated>2021-08-10T03:10:09.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #552 - パッケージマネージャであるpnpm 6.12.9がリリースされました。
-Release v6.12.0 · pnpm/pnpm
-pnpm 6.12.0ではpnpm env use --global 16.5.0のように、Node.jsをインストールするコマンドが追加されています。
-single binaryとして配布した場合に、Node.jsがグローバルにインストールされていない環境でもpnpmが利用できるようになります。
-pnpm envが追加されています。
-Using pnpm as a Node.js version manager · Discussion #3434 · pnpm/pnpm
-webpack 5.49.0がリリースされました。
-Release v5.49.0 · webpack/webpack
-試験的な機能としてexperiments.buildHttpというオプションで、リモートのリソースをimportできるようになっています。次のようにimport文でhttpなURLを指定すると、そのリソースをダウンロードして、bundleできます。
-import pMap1 from "https://cdn.skypack.dev/p-map";
-
-
-ダウンロードしたリソースは、<name>.webpack.lock.dataディレクトリに保存され、リソースのロックファイルが<name>.webpack.lockに保存されます。
-Denoに近いものとなっています。
-webpack/examples/build-http at main · webpack/webpack
-add experiments.buildHttp by sokra · Pull Request #13925 · webpack/webpack
-Exp…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTMLコーディングでもReact+TypeScriptの開発体験を得る]]></title>
-        <id>https://zenn.dev/nanaki14/articles/html-template-react</id>
-        <link href="https://zenn.dev/nanaki14/articles/html-template-react"/>
-        <updated>2021-08-10T01:31:16.000Z</updated>
-        <summary type="html"><![CDATA[前置き
-HTMLを納品する形式の仕事の際にEJSやpugではなくReact+TypeScriptを使ってHTMLを生成しつつ開発体験を高めてほしい。
-ということで具体的にどのようなメリットがあるのかを伝えたくてまとめてみました。
-
- 開発環境
-1から環境を作るのは大変なので今回はクラクさんのministaを拡張していきます。
-ministaの紹介記事はこちら
-https://www.npmjs.com/package/minista
-https://zenn.dev/qrac/articles/7537521afcd1bf
-必要な設定はTypeScript, ESLint, Pret...]]></summary>
-        <author>
-            <name>nanaki14</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[そのuseCallbackちゃんと効いていますか]]></title>
-        <id>https://zenn.dev/yuki0410/articles/9ef50554a0ac69</id>
-        <link href="https://zenn.dev/yuki0410/articles/9ef50554a0ac69"/>
-        <updated>2021-08-10T00:16:10.000Z</updated>
-        <summary type="html"><![CDATA[onChange に useCallback を使う場合、ちゃんと useCallback が効く書き方がひとクセあったのでその備忘録です。
-
- #1.処理フロー
-今回は、よくある以下のような処理について考えていきます。
-
-
- #2.Coding
-まずは処理フローを元に show/onChange の処理を実装します。
-※この段階ではまだ パフォーマンスは気にしません。
-
-      
-        ParentComponent.tsx
-        import { useState } from "react";
-import type { InputValue } from ...]]></summary>
-        <author>
-            <name>らんす🍐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新型コロナウイルス感染症対策サイトのステータスを確認できるサイトを作った話]]></title>
-        <id>https://zenn.dev/komisan19/articles/26ed97dd1dd068</id>
-        <link href="https://zenn.dev/komisan19/articles/26ed97dd1dd068"/>
-        <updated>2021-08-09T15:59:46.000Z</updated>
-        <summary type="html"><![CDATA[皆さんはこのページを知っていますか？
-https://stopcovid19.metro.tokyo.lg.jp/
-
-      
-        
-        この度、東京都は、新型コロナウイルス感染症対策に関する様々な情報やデータをワンストップで閲覧できるサイトを開設しました。
-
-
-      
-      ＊prtimes参照
-このような目的で作成されたようです。
-もちろん東京以外にもこのページから派生したものが多くあります。
-https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SI...]]></summary>
-        <author>
-            <name>komisan19</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nextjsでnode-pureimageを使ったJSオンリーな動的画像生成]]></title>
-        <id>https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js</id>
-        <link href="https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js"/>
-        <updated>2021-08-09T14:13:27.000Z</updated>
-        <summary type="html"><![CDATA[nextjsで動的画像生成をしたくなり、node-canvasだとnode以外の依存関係がちょっと困るケースがあったので、PureJSで実行できるnode-pureimageでなんとかならないか色々やってみた
-
- 出来た結果
-
-      
-        
-        // /api/image/sample
-
-import { NextApiHandler, NextApiResponse } from "next"
-
-// @ts-ignore
-import { make, encodePNGToStream } from "pureimage"
-
-import getStre...]]></summary>
-        <author>
-            <name>terrierscript</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serverless Next.jsをAWS CDKで立ち上げるサンプル]]></title>
-        <id>https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6</id>
-        <link href="https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6"/>
-        <updated>2021-08-09T13:23:35.000Z</updated>
-        <summary type="html"><![CDATA[できれば公式のExampleに持っていきたいので、PRたててリクエスト中。
-https://github.com/serverless-nextjs/serverless-next.js/pull/1522
-マージされたらそっちベースにちゃんとした記事書き直す予定。
-
- Serverless Next.jsでAWS CDK
-Serverless Next.jsといえば、Serverless Componentを使う印象でした。が、最近CDK版も出たみたいです。
-
- 定義イメージ
-
-      
-        
-        import * as cdk from '@aws-cdk...]]></summary>
-        <author>
-            <name>hidetaka okamoto</name>
         </author>
     </entry>
 </feed>

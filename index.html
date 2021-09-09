@@ -77,6 +77,178 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-08">2021-09-08</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">BashのParameter expansionの一部について整理</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/takasing/articles/parameter-extensions">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>シェル芸をする際にいつも何でググればよいかわからなくなるあれのことを Parameter expansion というらしい。
+変数が存在しない際にデフォルト値設定したり、変数が存在する場合に変わりの文字を入れたりするあれ。
+Next.js のアプリケーションを Vercel にデプロイする際に.env.localをうまく拡張する際に必要になったので一部だけ整理しとく。 .env.localでうまく展開されませんでした。。。
+
+      
+        
+        #!/bin/bash
+
+NO_VARIABLES&#x3D;
+VARIABLES&#x3D;var
+
+echo &quot;- operator...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">無名関数内でNuxt.jsのthisを利用したい。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/cyber_hacnosuke/articles/311184ad511764">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>これって正しいのでしょうかという疑問もかねて。むりやりthisを使ってますがいいんでしょうか。詳しい方、ご教授願います。また、アロー関数だったらどうするのっていう。（アロー関数にいまだになれないから使ってない人）
+
+ これダメ
+
+      
+        sample.vue
+        
+  setTimeout(function() {
+    this.data &#x3D; false;
+  }, 1000);
+
+
+
+      
+      
+ JavaScriptだったら
+
+      
+        sample.v...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nuxt.js+TypeScriptにjQueryを導入するルーティン</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>触れる回数は多いけどいまだに覚えられないのでメモ
+これよりいい方法いっぱいあると思います
+
+ コマンド
+
+      
+        コマンドライン
+        $ npm install --save-dev jquery @types/jquery
+
+
+      
+      
+ nuxt.config.js
+
+      
+        nuxt.config.js
+        + const webpack &#x3D; require(&#x27;webpack&#x27;)
+
+export default {
+// ...省略...
+// Build Configuration: https...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitHub Trendingを定期的につぶやくTwitter BotをFirebaseで作ってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryo_kawamata/articles/github-trending-bot">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>📦 作ったもの
+GitHub Trendingに掲載されたリポジトリを定期的につぶやく Twitter Bot を作りました。
+全体のトレンドをつぶやく@gh_trending_と、JavaScript・TypeScript のトレンドをつぶやく@gh_trending_jsの 2 種類があります。
+
+
+
+@gh_trending_
+@gh_trending_js
+
+
+
+
+
+
+
+
+
+仕様はこちらです。
+
+30 分から 1 時間おきに GitHub Trending に掲載されているリポジトリをツイート
+一度ツイートたリポジトリは再度掲載されていても 1 週間はつぶやかない
+投稿内容は...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">無名関数内でNuxt.jsのthisを利用したい。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/cyber_hacnosuke/articles/311184ad511764">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>これって正しいのでしょうかという疑問もかねて。むりやりthisを使ってますがいいんでしょうか。詳しい方、ご教授願います。また、アロー関数だったらどうするのっていう。（アロー関数にいまだになれないから使ってない人）
+
+ これダメ
+
+      
+        sample.vue
+        
+  setTimeout(function() {
+    this.data &#x3D; false;
+  }, 1000);
+
+
+
+      
+      
+ JavaScriptだったら
+
+      
+        sample.v...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-07">2021-09-07</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -103,6 +275,42 @@ timeoutオプションは不要となったため削除されています。
 Should we deprecate timeout in favor of AbortController? · Issue #523 · node-fetch/node-fetch
 一方で、非標準なhighWaterMarkオプションの追加されています。
 When users clone(), automatically create streams with custom highWaterMark · Issue #38…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Supabaseでuseswrを使ってみる。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/byanbyan/articles/supabase_swr">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Supabase で swr 使えるのだろうか、、、
+やってみたのでまとめ。
+参考 🐈 Github
+https://github.com/supabase/supabase/discussions/764
+SWR
+https://swr.vercel.app/ja
+Supabase
+https://app.supabase.io/
+
+
+プロジェクト内に
+pages/apiフォルダを作成し、supabase からデータ取得する処理を書く。
+
+
+useSWR を使って、pages/apiからデータを取得する。
+
+
+
+ 0.supabase のクライアントの設定
+https://supaba...</span>
                   </div>
                 </a>
               </details>
@@ -5159,230 +5367,9 @@ https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-10">2021-08-10</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-08-10のJS: pnpm 6.12.0、webpack 5.49.0(import http resource)、Vue 3.2</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>JSer.info #552 - パッケージマネージャであるpnpm 6.12.9がリリースされました。
-Release v6.12.0 · pnpm/pnpm
-pnpm 6.12.0ではpnpm env use --global 16.5.0のように、Node.jsをインストールするコマンドが追加されています。
-single binaryとして配布した場合に、Node.jsがグローバルにインストールされていない環境でもpnpmが利用できるようになります。
-pnpm envが追加されています。
-Using pnpm as a Node.js version manager · Discussion #3434 · pnpm/pnpm
-webpack 5.49.0がリリースされました。
-Release v5.49.0 · webpack/webpack
-試験的な機能としてexperiments.buildHttpというオプションで、リモートのリソースをimportできるようになっています。次のようにimport文でhttpなURLを指定すると、そのリソースをダウンロードして、bundleできます。
-import pMap1 from &quot;https://cdn.skypack.dev/p-map&quot;;
-
-
-ダウンロードしたリソースは、.webpack.lock.dataディレクトリに保存され、リソースのロックファイルが.webpack.lockに保存されます。
-Denoに近いものとなっています。
-webpack/examples/build-http at main · webpack/webpack
-add experiments.buildHttp by sokra · Pull Request #13925 · webpack/webpack
-Exp…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">next/imageをJestとStorybookで使うためにモックする方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukishinonome/articles/0784517bff279b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>はじめに
-オリジナルな要素があまり多くないので記事にするか迷ったのですが、next/imageをモックする方法について日本語で書いてあるものがほとんどなかったので記事にしました。Next.js関連は新しい技術なので、日本語のドキュメントも少ないですし、僕のような駆け出しエンジニアには日本語のドキュメントが少しでも多くあるととても助かるのでちょっとしたことでも書いていきたいですね。
-
- モックする方法を調べていて困ったこと
-next/imageをJestでモックして使う方法は英語ドキュメントでちらほら見つかったのですが、それらをStorybookに対しても使うと、悲しいことにnext/...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">HTMLコーディングでもReact+TypeScriptの開発体験を得る</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nanaki14/articles/html-template-react">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>前置き
-HTMLを納品する形式の仕事の際にEJSやpugではなくReact+TypeScriptを使ってHTMLを生成しつつ開発体験を高めてほしい。
-ということで具体的にどのようなメリットがあるのかを伝えたくてまとめてみました。
-
- 開発環境
-1から環境を作るのは大変なので今回はクラクさんのministaを拡張していきます。
-ministaの紹介記事はこちら
-https://www.npmjs.com/package/minista
-https://zenn.dev/qrac/articles/7537521afcd1bf
-必要な設定はTypeScript, ESLint, Pret...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">そのuseCallbackちゃんと効いていますか</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuki0410/articles/9ef50554a0ac69">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>onChange に useCallback を使う場合、ちゃんと useCallback が効く書き方がひとクセあったのでその備忘録です。
-
- #1.処理フロー
-今回は、よくある以下のような処理について考えていきます。
-
-
- #2.Coding
-まずは処理フローを元に show/onChange の処理を実装します。
-※この段階ではまだ パフォーマンスは気にしません。
-
-      
-        ParentComponent.tsx
-        import { useState } from &quot;react&quot;;
-import type { InputValue } from ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nuxtのcomponentsプロパティを使ったら単体テストでエラーになる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kon_karin/articles/1b5f282ba64bd3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Nuxt.js の components プロパティとは
-Nuxt.js v2.13から導入された components プロパティは、コンポーネントのスキャンと自動インポートをしてくれます。
-components プロパティ - NuxtJS
-つまり、コンポーネントを使う時に import 文と components オプションを書く必要がなくなります。
-
-      
-        nuxt.config.js
-        export default {
-  components: true,
-}
-
-
-      
-      
-      
-        pages/...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-09">2021-08-09</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">新型コロナウイルス感染症対策サイトのステータスを確認できるサイトを作った話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/komisan19/articles/26ed97dd1dd068">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>皆さんはこのページを知っていますか？
-https://stopcovid19.metro.tokyo.lg.jp/
-
-      
-        
-        この度、東京都は、新型コロナウイルス感染症対策に関する様々な情報やデータをワンストップで閲覧できるサイトを開設しました。
-
-
-      
-      ＊prtimes参照
-このような目的で作成されたようです。
-もちろん東京以外にもこのページから派生したものが多くあります。
-https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SI...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">nextjsでnode-pureimageを使ったJSオンリーな動的画像生成</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>nextjsで動的画像生成をしたくなり、node-canvasだとnode以外の依存関係がちょっと困るケースがあったので、PureJSで実行できるnode-pureimageでなんとかならないか色々やってみた
-
- 出来た結果
-
-      
-        
-        // /api/image/sample
-
-import { NextApiHandler, NextApiResponse } from &quot;next&quot;
-
-// @ts-ignore
-import { make, encodePNGToStream } from &quot;pureimage&quot;
-
-import getStre...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Serverless Next.jsをAWS CDKで立ち上げるサンプル</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>できれば公式のExampleに持っていきたいので、PRたててリクエスト中。
-https://github.com/serverless-nextjs/serverless-next.js/pull/1522
-マージされたらそっちベースにちゃんとした記事書き直す予定。
-
- Serverless Next.jsでAWS CDK
-Serverless Next.jsといえば、Serverless Componentを使う印象でした。が、最近CDK版も出たみたいです。
-
- 定義イメージ
-
-      
-        
-        import * as cdk from &#x27;@aws-cdk...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-08T01:03:19.593Z">2021-09-08T01:03:19.593Z</time>
+    <time id="build-timestamp" datetime="2021-09-09T01:08:23.312Z">2021-09-09T01:08:23.312Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

@@ -46,15 +46,6 @@
           "publishedOn": "2021-08-16T23:06:44.000Z",
           "wordCount": 523,
           "title": "2021-08-17のJS: Next.js 11.1、Rails 7で予定されているimport mapsベースのJSライブラリの利用"
-        },
-        {
-          "id": "https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/",
-          "author": null,
-          "description": "JSer.info #552 - パッケージマネージャであるpnpm 6.12.9がリリースされました。\nRelease v6.12.0 · pnpm/pnpm\npnpm 6.12.0ではpnpm env use --global 16.5.0のように、Node.jsをインストールするコマンドが追加されています。\nsingle binaryとして配布した場合に、Node.jsがグローバルにインストールされていない環境でもpnpmが利用できるようになります。\npnpm envが追加されています。\nUsing pnpm as a Node.js version manager · Discussion #3434 · pnpm/pnpm\nwebpack 5.49.0がリリースされました。\nRelease v5.49.0 · webpack/webpack\n試験的な機能としてexperiments.buildHttpというオプションで、リモートのリソースをimportできるようになっています。次のようにimport文でhttpなURLを指定すると、そのリソースをダウンロードして、bundleできます。\nimport pMap1 from \"https://cdn.skypack.dev/p-map\";\n\n\nダウンロードしたリソースは、<name>.webpack.lock.dataディレクトリに保存され、リソースのロックファイルが<name>.webpack.lockに保存されます。\nDenoに近いものとなっています。\nwebpack/examples/build-http at main · webpack/webpack\nadd experiments.buildHttp by sokra · Pull Request #13925 · webpack/webpack\nExp…",
-          "link": "https://jser.info/2021/08/10/pnpm-6.12.0-webpack-5.49.0import-http-resource-vue-3.2/",
-          "publishedOn": "2021-08-10T03:10:09.000Z",
-          "wordCount": 422,
-          "title": "2021-08-10のJS: pnpm 6.12.0、webpack 5.49.0(import http resource)、Vue 3.2"
         }
       ]
     },
@@ -63,6 +54,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/takasing/articles/parameter-extensions",
+          "author": "Takashi Toyofuku",
+          "description": "シェル芸をする際にいつも何でググればよいかわからなくなるあれのことを Parameter expansion というらしい。\n変数が存在しない際にデフォルト値設定したり、変数が存在する場合に変わりの文字を入れたりするあれ。\nNext.js のアプリケーションを Vercel にデプロイする際に.env.localをうまく拡張する際に必要になったので一部だけ整理しとく。 .env.localでうまく展開されませんでした。。。\n\n      \n        \n        #!/bin/bash\n\nNO_VARIABLES=\nVARIABLES=var\n\necho \"- operator...",
+          "link": "https://zenn.dev/takasing/articles/parameter-extensions",
+          "publishedOn": "2021-09-08T06:12:38.000Z",
+          "wordCount": 158,
+          "title": "BashのParameter expansionの一部について整理",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--pv1rcV-V--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takashi%2520Toyofuku%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Bash%25E3%2581%25AEParameter%2520expansion%25E3%2581%25AE%25E4%25B8%2580%25E9%2583%25A8%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%25E6%2595%25B4%25E7%2590%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDE5M2Y3MTBiOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/byanbyan/articles/supabase_swr",
+          "author": "ゆゆゆ",
+          "description": "Supabase で swr 使えるのだろうか、、、\nやってみたのでまとめ。\n参考 🐈 Github\nhttps://github.com/supabase/supabase/discussions/764\nSWR\nhttps://swr.vercel.app/ja\nSupabase\nhttps://app.supabase.io/\n\n\nプロジェクト内に\npages/apiフォルダを作成し、supabase からデータ取得する処理を書く。\n\n\nuseSWR を使って、pages/apiからデータを取得する。\n\n\n\n 0.supabase のクライアントの設定\nhttps://supaba...",
+          "link": "https://zenn.dev/byanbyan/articles/supabase_swr",
+          "publishedOn": "2021-09-07T08:07:18.000Z",
+          "wordCount": 227,
+          "title": "Supabaseでuseswrを使ってみる。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2usexuJs--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2586%25E3%2582%2586%25E3%2582%2586%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Supabase%25E3%2581%25A7useswr%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2U3NDQzNzU4NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/matsutoba/articles/fba1e8a7c41181",
           "author": "matsutoba",
@@ -720,62 +739,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yukishinonome/articles/0784517bff279b",
-          "author": "東雲",
-          "description": "はじめに\nオリジナルな要素があまり多くないので記事にするか迷ったのですが、next/imageをモックする方法について日本語で書いてあるものがほとんどなかったので記事にしました。Next.js関連は新しい技術なので、日本語のドキュメントも少ないですし、僕のような駆け出しエンジニアには日本語のドキュメントが少しでも多くあるととても助かるのでちょっとしたことでも書いていきたいですね。\n\n モックする方法を調べていて困ったこと\nnext/imageをJestでモックして使う方法は英語ドキュメントでちらほら見つかったのですが、それらをStorybookに対しても使うと、悲しいことにnext/...",
-          "link": "https://zenn.dev/yukishinonome/articles/0784517bff279b",
-          "publishedOn": "2021-08-10T09:55:14.000Z",
-          "wordCount": 137,
-          "title": "next/imageをJestとStorybookで使うためにモックする方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--yJ38iYnY--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%259D%25B1%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:next%252Fimage%25E3%2582%2592Jest%25E3%2581%25A8Storybook%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%25E3%2583%25A2%25E3%2583%2583%25E3%2582%25AF%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZmVmNGY0M2IwMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/komisan19/articles/26ed97dd1dd068",
-          "author": "komisan19",
-          "description": "皆さんはこのページを知っていますか？\nhttps://stopcovid19.metro.tokyo.lg.jp/\n\n      \n        \n        この度、東京都は、新型コロナウイルス感染症対策に関する様々な情報やデータをワンストップで閲覧できるサイトを開設しました。\n\n\n      \n      ＊prtimes参照\nこのような目的で作成されたようです。\nもちろん東京以外にもこのページから派生したものが多くあります。\nhttps://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SI...",
-          "link": "https://zenn.dev/komisan19/articles/26ed97dd1dd068",
-          "publishedOn": "2021-08-09T15:59:46.000Z",
-          "wordCount": 82,
-          "title": "新型コロナウイルス感染症対策サイトのステータスを確認できるサイトを作った話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--L0nEYNnc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:komisan19%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%2596%25B0%25E5%259E%258B%25E3%2582%25B3%25E3%2583%25AD%25E3%2583%258A%25E3%2582%25A6%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%25B9%25E6%2584%259F%25E6%259F%2593%25E7%2597%2587%25E5%25AF%25BE%25E7%25AD%2596%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGNjMGQ3ZmQwOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js",
-          "author": "terrierscript",
-          "description": "nextjsで動的画像生成をしたくなり、node-canvasだとnode以外の依存関係がちょっと困るケースがあったので、PureJSで実行できるnode-pureimageでなんとかならないか色々やってみた\n\n 出来た結果\n\n      \n        \n        // /api/image/sample\n\nimport { NextApiHandler, NextApiResponse } from \"next\"\n\n// @ts-ignore\nimport { make, encodePNGToStream } from \"pureimage\"\n\nimport getStre...",
-          "link": "https://zenn.dev/terrierscript/articles/2021-08-09-nextjs-node-pureimage-js",
-          "publishedOn": "2021-08-09T14:13:27.000Z",
-          "wordCount": 179,
-          "title": "nextjsでnode-pureimageを使ったJSオンリーな動的画像生成",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--kZYOPiIT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:terrierscript%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nextjs%25E3%2581%25A7node-pureimage%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259FJS%25E3%2582%25AA%25E3%2583%25B3%25E3%2583%25AA%25E3%2583%25BC%25E3%2581%25AA%25E5%258B%2595%25E7%259A%2584%25E7%2594%25BB%25E5%2583%258F%25E7%2594%259F%25E6%2588%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTQwYmE4ZjQ3ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6",
-          "author": "hidetaka okamoto",
-          "description": "できれば公式のExampleに持っていきたいので、PRたててリクエスト中。\nhttps://github.com/serverless-nextjs/serverless-next.js/pull/1522\nマージされたらそっちベースにちゃんとした記事書き直す予定。\n\n Serverless Next.jsでAWS CDK\nServerless Next.jsといえば、Serverless Componentを使う印象でした。が、最近CDK版も出たみたいです。\n\n 定義イメージ\n\n      \n        \n        import * as cdk from '@aws-cdk...",
-          "link": "https://zenn.dev/hideokamoto/articles/5a4b6992a1c8e6",
-          "publishedOn": "2021-08-09T13:23:35.000Z",
-          "wordCount": 117,
-          "title": "Serverless Next.jsをAWS CDKで立ち上げるサンプル",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ev1CdzSY--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hidetaka%2520okamoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Serverless%2520Next.js%25E3%2582%2592AWS%2520CDK%25E3%2581%25A7%25E7%25AB%258B%25E3%2581%25A1%25E4%25B8%258A%25E3%2581%2592%25E3%2582%258B%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pBNDNNV05WYlQ5Y2ZKeDJTRElqbDMxZGZGV1RDa252NnI5dm11ZWpvPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -784,6 +747,34 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/cyber_hacnosuke/articles/311184ad511764",
+          "author": "博ノ助",
+          "description": "これって正しいのでしょうかという疑問もかねて。むりやりthisを使ってますがいいんでしょうか。詳しい方、ご教授願います。また、アロー関数だったらどうするのっていう。（アロー関数にいまだになれないから使ってない人）\n\n これダメ\n\n      \n        sample.vue\n        <script>\n  setTimeout(function() {\n    this.data = false;\n  }, 1000);\n</script>\n\n\n      \n      \n JavaScriptだったら\n\n      \n        sample.v...",
+          "link": "https://zenn.dev/cyber_hacnosuke/articles/311184ad511764",
+          "publishedOn": "2021-09-08T12:56:33.000Z",
+          "wordCount": 46,
+          "title": "無名関数内でNuxt.jsのthisを利用したい。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ENKkN4M0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%258D%259A%25E3%2583%258E%25E5%258A%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2584%25A1%25E5%2590%258D%25E9%2596%25A2%25E6%2595%25B0%25E5%2586%2585%25E3%2581%25A7Nuxt.js%25E3%2581%25AEthis%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmNjNzg4YzUzOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450",
+          "author": "博ノ助",
+          "description": "触れる回数は多いけどいまだに覚えられないのでメモ\nこれよりいい方法いっぱいあると思います\n\n コマンド\n\n      \n        コマンドライン\n        $ npm install --save-dev jquery @types/jquery\n\n\n      \n      \n nuxt.config.js\n\n      \n        nuxt.config.js\n        + const webpack = require('webpack')\n\nexport default {\n// ...省略...\n// Build Configuration: https...",
+          "link": "https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450",
+          "publishedOn": "2021-09-08T12:44:09.000Z",
+          "wordCount": 75,
+          "title": "Nuxt.js+TypeScriptにjQueryを導入するルーティン",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--eRmbKyyh--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%258D%259A%25E3%2583%258E%25E5%258A%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt.js%252BTypeScript%25E3%2581%25ABjQuery%25E3%2582%2592%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%2599%25E3%2582%258B%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmNjNzg4YzUzOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sengosha/articles/95f3ec0d62fba8",
           "author": "ユウ",
@@ -847,6 +838,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/ryo_kawamata/articles/github-trending-bot",
+          "author": "ryo_kawamata",
+          "description": "📦 作ったもの\nGitHub Trendingに掲載されたリポジトリを定期的につぶやく Twitter Bot を作りました。\n全体のトレンドをつぶやく@gh_trending_と、JavaScript・TypeScript のトレンドをつぶやく@gh_trending_jsの 2 種類があります。\n\n\n\n@gh_trending_\n@gh_trending_js\n\n\n\n\n\n\n\n\n\n仕様はこちらです。\n\n30 分から 1 時間おきに GitHub Trending に掲載されているリポジトリをツイート\n一度ツイートたリポジトリは再度掲載されていても 1 週間はつぶやかない\n投稿内容は...",
+          "link": "https://zenn.dev/ryo_kawamata/articles/github-trending-bot",
+          "publishedOn": "2021-09-08T03:35:07.000Z",
+          "wordCount": 668,
+          "title": "GitHub Trendingを定期的につぶやくTwitter BotをFirebaseで作ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0-72P1Us--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:GitHub%2520Trending%25E3%2582%2592%25E5%25AE%259A%25E6%259C%259F%25E7%259A%2584%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%25B6%25E3%2582%2584%25E3%2581%258FTwitter%2520Bot%25E3%2582%2592Firebase%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/qsf/articles/65afdf6a71bbc6",
           "author": "たふみ",
@@ -2120,34 +2125,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/nanaki14/articles/html-template-react",
-          "author": "nanaki14",
-          "description": "前置き\nHTMLを納品する形式の仕事の際にEJSやpugではなくReact+TypeScriptを使ってHTMLを生成しつつ開発体験を高めてほしい。\nということで具体的にどのようなメリットがあるのかを伝えたくてまとめてみました。\n\n 開発環境\n1から環境を作るのは大変なので今回はクラクさんのministaを拡張していきます。\nministaの紹介記事はこちら\nhttps://www.npmjs.com/package/minista\nhttps://zenn.dev/qrac/articles/7537521afcd1bf\n必要な設定はTypeScript, ESLint, Pret...",
-          "link": "https://zenn.dev/nanaki14/articles/html-template-react",
-          "publishedOn": "2021-08-10T01:31:16.000Z",
-          "wordCount": 286,
-          "title": "HTMLコーディングでもReact+TypeScriptの開発体験を得る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--8n9mGGdp--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nanaki14%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:HTML%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E3%2582%2582React%252BTypeScript%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E4%25BD%2593%25E9%25A8%2593%25E3%2582%2592%25E5%25BE%2597%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pnRjhLNkJ2WVoxMEM4TTluckhGektic1EyZVdXVXZZSHIzREJLPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yuki0410/articles/9ef50554a0ac69",
-          "author": "らんす🍐",
-          "description": "onChange に useCallback を使う場合、ちゃんと useCallback が効く書き方がひとクセあったのでその備忘録です。\n\n #1.処理フロー\n今回は、よくある以下のような処理について考えていきます。\n\n\n #2.Coding\nまずは処理フローを元に show/onChange の処理を実装します。\n※この段階ではまだ パフォーマンスは気にしません。\n\n      \n        ParentComponent.tsx\n        import { useState } from \"react\";\nimport type { InputValue } from ...",
-          "link": "https://zenn.dev/yuki0410/articles/9ef50554a0ac69",
-          "publishedOn": "2021-08-10T00:16:10.000Z",
-          "wordCount": 744,
-          "title": "そのuseCallbackちゃんと効いていますか",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--l1s2zQsj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2589%25E3%2582%2593%25E3%2581%2599%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2581%259D%25E3%2581%25AEuseCallback%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E3%2581%25A8%25E5%258A%25B9%25E3%2581%2584%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25BE%25E3%2581%2599%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjQ2M2NjMGI0My5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2331,6 +2308,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/cyber_hacnosuke/articles/311184ad511764",
+          "author": "博ノ助",
+          "description": "これって正しいのでしょうかという疑問もかねて。むりやりthisを使ってますがいいんでしょうか。詳しい方、ご教授願います。また、アロー関数だったらどうするのっていう。（アロー関数にいまだになれないから使ってない人）\n\n これダメ\n\n      \n        sample.vue\n        <script>\n  setTimeout(function() {\n    this.data = false;\n  }, 1000);\n</script>\n\n\n      \n      \n JavaScriptだったら\n\n      \n        sample.v...",
+          "link": "https://zenn.dev/cyber_hacnosuke/articles/311184ad511764",
+          "publishedOn": "2021-09-08T12:56:33.000Z",
+          "wordCount": 46,
+          "title": "無名関数内でNuxt.jsのthisを利用したい。",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ENKkN4M0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E5%258D%259A%25E3%2583%258E%25E5%258A%25A9%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2584%25A1%25E5%2590%258D%25E9%2596%25A2%25E6%2595%25B0%25E5%2586%2585%25E3%2581%25A7Nuxt.js%25E3%2581%25AEthis%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmNjNzg4YzUzOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/shlia/articles/a6c2fb22ab7c6e",
           "author": "shira79",
@@ -2747,20 +2738,6 @@
           "title": "GatsbyからNuxtJSに移行してみた",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--zb42cUsd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umatoma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby%25E3%2581%258B%25E3%2582%2589NuxtJS%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lNVVdLY3dwaGFRMV91eUlQWWEwcy1udE1qeFVYQTNZYWFlLW5XPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kon_karin/articles/1b5f282ba64bd3",
-          "author": "こんかりん",
-          "description": "Nuxt.js の components プロパティとは\nNuxt.js v2.13から導入された components プロパティは、コンポーネントのスキャンと自動インポートをしてくれます。\ncomponents プロパティ - NuxtJS\nつまり、コンポーネントを使う時に import 文と components オプションを書く必要がなくなります。\n\n      \n        nuxt.config.js\n        export default {\n  components: true,\n}\n\n\n      \n      \n      \n        pages/...",
-          "link": "https://zenn.dev/kon_karin/articles/1b5f282ba64bd3",
-          "publishedOn": "2021-08-10T11:26:05.000Z",
-          "wordCount": 192,
-          "title": "Nuxtのcomponentsプロパティを使ったら単体テストでエラーになる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--bNc48V9r--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2582%2593%25E3%2581%258B%25E3%2582%258A%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25AEcomponents%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2591%25E3%2583%2586%25E3%2582%25A3%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E5%258D%2598%25E4%25BD%2593%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25A7%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU5ZDU2M2Q0YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
