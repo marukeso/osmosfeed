@@ -77,6 +77,215 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-09">2021-09-09</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Next.js】dynamic-pathでindex.tsxのComponentが一瞬表示される</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nitaking/articles/9ff4fca3e8e62e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>何がおきたか
+
+
+pages/index.tsxの内容が、pages/[hoge].tsxに一瞬表示される
+
+
+ なぜか
+
+SPAはWEBサーバーからindex.html受け取る
+
+これがデフォルトの表示に関係している？？？
+
+
+
+
+ どうしたか
+
+      
+        
+          /**
+   * dynamic-pathなどの場合、&#x60;pages/index.tsx&#x60;がSSRのデフォルトとして読み込まれるため、
+   * SSRではそのまま、CSRではリダイレクトする.
+   *
+   *  SSR: Rootがレンダリング -&gt; Contentがレンダリン...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js + TypeScript 環境構築 v11.1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rabbit/articles/d7175e62dc56a5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>2021/09/時点での Next.js + TypeScript の環境構築忘備録です。
+主な環境のバージョン
+
+next: v11.1.0
+typescript: v4.3.5
+eslint: v7.32.0
+@emotion/react: v11.4.1
+
+
+ 1.Next.jsの環境を作成
+https://nextjs.org/docs#setup
+tpescript用の環境作成コマンドよしなにやってくれる便利なやつ。
+
+      
+        
+        yarn create next-app --typescript
+
+
+      
+      
+ ディレクト...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[まとめ] Jest について</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/azu369yu/articles/a9989d73b4d19d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Jest とは
+https://jestjs.io/ja/
+Jestは、Facebook社がOSSとして開発を進めている、JavaScriptのユニットテストのためのツール
+Jest には
+
+テストランナー
+カバレッジ計測
+モック
+アサーション
+
+など テストの実行を含めた 様々な機能がオールインワンで提供されているため
+今後のプロジェクトの展開において、Jest だけでunitテストを作成することができる
+vueファイルからなる components に対するテストだけでなく BFF側のテストも作成できる
+
+ Jest の設定について
+
+実行環境設定
+
+どの環境で テストを動作させ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js + TypeScript 環境構築 v11.1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rabbit/articles/d7175e62dc56a5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>2021/09/時点での Next.js + TypeScript の環境構築忘備録です。
+主な環境のバージョン
+
+next: v11.1.0
+typescript: v4.3.5
+eslint: v7.32.0
+@emotion/react: v11.4.1
+
+
+ 1.Next.jsの環境を作成
+https://nextjs.org/docs#setup
+tpescript用の環境作成コマンドよしなにやってくれる便利なやつ。
+
+      
+        
+        yarn create next-app --typescript
+
+
+      
+      
+ ディレクト...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">StorybookでuseSelectorのモックを追加</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/takayuri/articles/af583f251ed64d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Storybook、React初心者です。
+Storyook内でuseSelector部分をモックにして表示パターンを作成した時のメモです。
+(そもそもStorybookでそんなことするのが適切でないかもしれません。)
+
+ 前提
+
+&quot;react&quot;: 16.13.1
+&quot;storybook&quot;: 5.3.19
+&quot;react-redux&quot;: 7.2.0
+
+
+      
+        Fooコンポーネント(一部抜粋)
+        import * as selectors from &quot;src/selectors&quot;; // Stateのデータを加工してる関数がまとまっている
+
+export ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[まとめ] Jest について</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/azu369yu/articles/a9989d73b4d19d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Jest とは
+https://jestjs.io/ja/
+Jestは、Facebook社がOSSとして開発を進めている、JavaScriptのユニットテストのためのツール
+Jest には
+
+テストランナー
+カバレッジ計測
+モック
+アサーション
+
+など テストの実行を含めた 様々な機能がオールインワンで提供されているため
+今後のプロジェクトの展開において、Jest だけでunitテストを作成することができる
+vueファイルからなる components に対するテストだけでなく BFF側のテストも作成できる
+
+ Jest の設定について
+
+実行環境設定
+
+どの環境で テストを動作させ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-08">2021-09-08</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -177,6 +386,37 @@ export default {
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nuxt.js+TypeScriptにjQueryを導入するルーティン</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>触れる回数は多いけどいまだに覚えられないのでメモ
+これよりいい方法いっぱいあると思います
+
+ コマンド
+
+      
+        コマンドライン
+        $ npm install --save-dev jquery @types/jquery
+
+
+      
+      
+ nuxt.config.js
+
+      
+        nuxt.config.js
+        + const webpack &#x3D; require(&#x27;webpack&#x27;)
+
+export default {
+// ...省略...
+// Build Configuration: https...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">GitHub Trendingを定期的につぶやくTwitter BotをFirebaseで作ってみた</summary>
@@ -5098,75 +5338,6 @@ HTML,CSSの基礎知識はありました。
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js × linariaでビルド時にキャッシュが見つからないエラーが出るときの対処法【暫定？】</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/meijin/articles/nextjs-linaria-cache-error">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Vercel上でNext.jsとlinariaを動かしているとき、ある時点を境に以下のようなエラーが表示されるようになってしまいました。
-
-      
-        
-        18:40:11.531  	Failed to compile.
-18:40:11.531  	ModuleNotFoundError: Module not found: Error: Can&#x27;t resolve &#x27;../.linaria-cache/pages/404.linaria.module.css&#x27; in &#x27;/vercel/path0/pages&#x27;
-18:40:11.532  	&gt; ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Supabase × Next.js　TodoAPP　学習メモ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Supabase（オープンソースのBaaS）のExample projectsのメモ
-これは学習メモです！
-基本的にはREADME.mdを読めば良い。
-必要なコマンドなどまとめておきます。
-https://zenn.dev/uhyo/articles/technical-articles
-
- Exampleprojectsのソースコード
-https://github.com/supabase/supabase/tree/master/examples/nextjs-todo-list
-
- Supabase の JavaScript ⽤クライアントインストール
-https://supaba...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ojin/articles/cecb2ac822f134">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。
-アカウントは、 https://zenn.dev/ojin です。
-何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。
-
- 環境
-
-react, react-dom v17.0.2
-next v11.0.1
-typescript v4.3.5
-sass v1.35.2
-
-
- この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。
-この記事では、Componentを自分が作る時に気をつけているこ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -5214,131 +5385,6 @@ Web Cr...</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React×Typescript Eventの型まとめ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>event:any を避けたい！
-まずはダメな例です
-
-      
-        
-        const onClick &#x3D; (event: any) &#x3D;&gt; {
-    //処理
-  };
-
-
-      
-      tsを書くならany型は避けたいですよね
-
- 便利な型推論
-なので、以下を使うのが便利です
-
-      
-        
-        type Props &#x3D; {
-  onClick: (event: React.MouseEvent) &#x3D;&gt; void
-  onChange: (event:...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScriptをコンパイルしてwebpackで一つにまとめる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>手順メモ
-
- 前提
-
-
-
-ディレクトリ名
-用途
-
-
-
-
-./src
-ソースディレクトリ
-
-
-./build
-ts -&gt; js にトランスパイルされたものを仮置きするディレクトリ
-
-
-./public/lib/
-実際にブラウザが読み込む js を置くディレクトリ
-
-
-
-
- 必要なものをインストール
-
-npm i typescript -g
-npm i webpack -g
-npm i webpack-cli -g
-
-
- typescript→javascript 準備
-
- tsconfig.json 編集
-
-      
-        tsconfig.json
-       ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScriptのProject Referencesを使ってソースコードを分割し、レイヤー間の依存関係を強制する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>サマリ
-
-
-Project Referencesを使うと、1つの巨大なtypescriptプロジェクトを、複数のプロジェクトに分割し、プロジェクト間の依存関係を整理することができる。これにより、例えば以下のようなことができる
-
-
-test/ ディレクトリで export しているテスト用の関数を、 src/ ディレクトリの本番用コードでは参照できなくする
-レイヤードアーキテクチャで設計しているとき、プレゼンテーション層で定義している関数を ドメイン層から参照できなくし、レイヤー間の依存関係を強制する
-
-
-また、プロジェクトの分割によりビルド時のパフォーマンスが大幅に改善する。
-
-…と...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ojin/articles/cecb2ac822f134">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。
-アカウントは、 https://zenn.dev/ojin です。
-何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。
-
- この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。
-この記事では、Componentを自分が作る時に気をつけていることやその手順を書きます。参考になればと思います。
-
- 例えば、TypographyというComponentを作ってみます
-
-基本的にはテキストを表示した...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -5369,7 +5415,7 @@ https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-09T01:08:23.312Z">2021-09-09T01:08:23.312Z</time>
+    <time id="build-timestamp" datetime="2021-09-10T01:08:58.269Z">2021-09-10T01:08:58.269Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

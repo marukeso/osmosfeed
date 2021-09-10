@@ -2,10 +2,184 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-09T01:08:23.341Z</updated>
+    <updated>2021-09-10T01:08:58.294Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】dynamic-pathでindex.tsxのComponentが一瞬表示される]]></title>
+        <id>https://zenn.dev/nitaking/articles/9ff4fca3e8e62e</id>
+        <link href="https://zenn.dev/nitaking/articles/9ff4fca3e8e62e"/>
+        <updated>2021-09-09T14:24:03.000Z</updated>
+        <summary type="html"><![CDATA[何がおきたか
+
+
+pages/index.tsxの内容が、pages/[hoge].tsxに一瞬表示される
+
+
+ なぜか
+
+SPAはWEBサーバーからindex.html受け取る
+
+これがデフォルトの表示に関係している？？？
+
+
+
+
+ どうしたか
+
+      
+        
+          /**
+   * dynamic-pathなどの場合、`pages/index.tsx`がSSRのデフォルトとして読み込まれるため、
+   * SSRではそのまま、CSRではリダイレクトする.
+   *
+   *  SSR: Rootがレンダリング -> Contentがレンダリン...]]></summary>
+        <author>
+            <name>nitaking</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + TypeScript 環境構築 v11.1]]></title>
+        <id>https://zenn.dev/rabbit/articles/d7175e62dc56a5</id>
+        <link href="https://zenn.dev/rabbit/articles/d7175e62dc56a5"/>
+        <updated>2021-09-09T10:47:54.000Z</updated>
+        <summary type="html"><![CDATA[2021/09/時点での Next.js + TypeScript の環境構築忘備録です。
+主な環境のバージョン
+
+next: v11.1.0
+typescript: v4.3.5
+eslint: v7.32.0
+@emotion/react: v11.4.1
+
+
+ 1.Next.jsの環境を作成
+https://nextjs.org/docs#setup
+tpescript用の環境作成コマンドよしなにやってくれる便利なやつ。
+
+      
+        
+        yarn create next-app --typescript
+
+
+      
+      
+ ディレクト...]]></summary>
+        <author>
+            <name>hanetsuki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + TypeScript 環境構築 v11.1]]></title>
+        <id>https://zenn.dev/rabbit/articles/d7175e62dc56a5</id>
+        <link href="https://zenn.dev/rabbit/articles/d7175e62dc56a5"/>
+        <updated>2021-09-09T10:47:54.000Z</updated>
+        <summary type="html"><![CDATA[2021/09/時点での Next.js + TypeScript の環境構築忘備録です。
+主な環境のバージョン
+
+next: v11.1.0
+typescript: v4.3.5
+eslint: v7.32.0
+@emotion/react: v11.4.1
+
+
+ 1.Next.jsの環境を作成
+https://nextjs.org/docs#setup
+tpescript用の環境作成コマンドよしなにやってくれる便利なやつ。
+
+      
+        
+        yarn create next-app --typescript
+
+
+      
+      
+ ディレクト...]]></summary>
+        <author>
+            <name>hanetsuki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StorybookでuseSelectorのモックを追加]]></title>
+        <id>https://zenn.dev/takayuri/articles/af583f251ed64d</id>
+        <link href="https://zenn.dev/takayuri/articles/af583f251ed64d"/>
+        <updated>2021-09-09T08:49:27.000Z</updated>
+        <summary type="html"><![CDATA[Storybook、React初心者です。
+Storyook内でuseSelector部分をモックにして表示パターンを作成した時のメモです。
+(そもそもStorybookでそんなことするのが適切でないかもしれません。)
+
+ 前提
+
+"react": 16.13.1
+"storybook": 5.3.19
+"react-redux": 7.2.0
+
+
+      
+        Fooコンポーネント(一部抜粋)
+        import * as selectors from "src/selectors"; // Stateのデータを加工してる関数がまとまっている
+
+export ...]]></summary>
+        <author>
+            <name>Take</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[まとめ] Jest について]]></title>
+        <id>https://zenn.dev/azu369yu/articles/a9989d73b4d19d</id>
+        <link href="https://zenn.dev/azu369yu/articles/a9989d73b4d19d"/>
+        <updated>2021-09-09T06:18:50.000Z</updated>
+        <summary type="html"><![CDATA[Jest とは
+https://jestjs.io/ja/
+Jestは、Facebook社がOSSとして開発を進めている、JavaScriptのユニットテストのためのツール
+Jest には
+
+テストランナー
+カバレッジ計測
+モック
+アサーション
+
+など テストの実行を含めた 様々な機能がオールインワンで提供されているため
+今後のプロジェクトの展開において、Jest だけでunitテストを作成することができる
+vueファイルからなる components に対するテストだけでなく BFF側のテストも作成できる
+
+ Jest の設定について
+
+実行環境設定
+
+どの環境で テストを動作させ...]]></summary>
+        <author>
+            <name>Yu Watanabe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[まとめ] Jest について]]></title>
+        <id>https://zenn.dev/azu369yu/articles/a9989d73b4d19d</id>
+        <link href="https://zenn.dev/azu369yu/articles/a9989d73b4d19d"/>
+        <updated>2021-09-09T06:18:50.000Z</updated>
+        <summary type="html"><![CDATA[Jest とは
+https://jestjs.io/ja/
+Jestは、Facebook社がOSSとして開発を進めている、JavaScriptのユニットテストのためのツール
+Jest には
+
+テストランナー
+カバレッジ計測
+モック
+アサーション
+
+など テストの実行を含めた 様々な機能がオールインワンで提供されているため
+今後のプロジェクトの展開において、Jest だけでunitテストを作成することができる
+vueファイルからなる components に対するテストだけでなく BFF側のテストも作成できる
+
+ Jest の設定について
+
+実行環境設定
+
+どの環境で テストを動作させ...]]></summary>
+        <author>
+            <name>Yu Watanabe</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[無名関数内でNuxt.jsのthisを利用したい。]]></title>
         <id>https://zenn.dev/cyber_hacnosuke/articles/311184ad511764</id>
@@ -58,6 +232,36 @@
 
       
         sample.v...]]></summary>
+        <author>
+            <name>博ノ助</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt.js+TypeScriptにjQueryを導入するルーティン]]></title>
+        <id>https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450</id>
+        <link href="https://zenn.dev/cyber_hacnosuke/articles/0b72c2e996e450"/>
+        <updated>2021-09-08T12:44:09.000Z</updated>
+        <summary type="html"><![CDATA[触れる回数は多いけどいまだに覚えられないのでメモ
+これよりいい方法いっぱいあると思います
+
+ コマンド
+
+      
+        コマンドライン
+        $ npm install --save-dev jquery @types/jquery
+
+
+      
+      
+ nuxt.config.js
+
+      
+        nuxt.config.js
+        + const webpack = require('webpack')
+
+export default {
+// ...省略...
+// Build Configuration: https...]]></summary>
         <author>
             <name>博ノ助</name>
         </author>
@@ -4255,187 +4459,6 @@ Gatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各�
 https://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...]]></summary>
         <author>
             <name>umatoma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js × linariaでビルド時にキャッシュが見つからないエラーが出るときの対処法【暫定？】]]></title>
-        <id>https://zenn.dev/meijin/articles/nextjs-linaria-cache-error</id>
-        <link href="https://zenn.dev/meijin/articles/nextjs-linaria-cache-error"/>
-        <updated>2021-08-11T12:08:16.000Z</updated>
-        <summary type="html"><![CDATA[Vercel上でNext.jsとlinariaを動かしているとき、ある時点を境に以下のようなエラーが表示されるようになってしまいました。
-
-      
-        
-        18:40:11.531  	Failed to compile.
-18:40:11.531  	ModuleNotFoundError: Module not found: Error: Can't resolve '../.linaria-cache/pages/404.linaria.module.css' in '/vercel/path0/pages'
-18:40:11.532  	> ...]]></summary>
-        <author>
-            <name>Meijin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React×Typescript Eventの型まとめ]]></title>
-        <id>https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4</id>
-        <link href="https://zenn.dev/kenta0313/articles/a39fb1d8edc3a4"/>
-        <updated>2021-08-11T09:13:59.000Z</updated>
-        <summary type="html"><![CDATA[event:any を避けたい！
-まずはダメな例です
-
-      
-        
-        const onClick = (event: any) => {
-    //処理
-  };
-
-
-      
-      tsを書くならany型は避けたいですよね
-
- 便利な型推論
-なので、以下を使うのが便利です
-
-      
-        
-        type Props = {
-  onClick: (event: React.MouseEvent<HTMLInputElement>) => void
-  onChange: (event:...]]></summary>
-        <author>
-            <name>KenT</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptをコンパイルしてwebpackで一つにまとめる]]></title>
-        <id>https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9</id>
-        <link href="https://zenn.dev/yakumo/articles/65840a14a6e04f668f42b49d4814c9e9"/>
-        <updated>2021-08-11T08:19:33.000Z</updated>
-        <summary type="html"><![CDATA[手順メモ
-
- 前提
-
-
-
-ディレクトリ名
-用途
-
-
-
-
-./src
-ソースディレクトリ
-
-
-./build
-ts -> js にトランスパイルされたものを仮置きするディレクトリ
-
-
-./public/lib/
-実際にブラウザが読み込む js を置くディレクトリ
-
-
-
-
- 必要なものをインストール
-
-npm i typescript -g
-npm i webpack -g
-npm i webpack-cli -g
-
-
- typescript→javascript 準備
-
- tsconfig.json 編集
-
-      
-        tsconfig.json
-       ...]]></summary>
-        <author>
-            <name>Yakumo Saki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptのProject Referencesを使ってソースコードを分割し、レイヤー間の依存関係を強制する]]></title>
-        <id>https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4</id>
-        <link href="https://zenn.dev/katsumanarisawa/articles/58103deb4f12b4"/>
-        <updated>2021-08-11T03:56:10.000Z</updated>
-        <summary type="html"><![CDATA[サマリ
-
-
-Project Referencesを使うと、1つの巨大なtypescriptプロジェクトを、複数のプロジェクトに分割し、プロジェクト間の依存関係を整理することができる。これにより、例えば以下のようなことができる
-
-
-test/ ディレクトリで export しているテスト用の関数を、 src/ ディレクトリの本番用コードでは参照できなくする
-レイヤードアーキテクチャで設計しているとき、プレゼンテーション層で定義している関数を ドメイン層から参照できなくし、レイヤー間の依存関係を強制する
-
-
-また、プロジェクトの分割によりビルド時のパフォーマンスが大幅に改善する。
-
-…と...]]></summary>
-        <author>
-            <name>Katsuma Narisawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supabase × Next.js　TodoAPP　学習メモ]]></title>
-        <id>https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4</id>
-        <link href="https://zenn.dev/byanbyan/articles/0e7d4c1e0d9fa4"/>
-        <updated>2021-08-11T02:58:50.000Z</updated>
-        <summary type="html"><![CDATA[Supabase（オープンソースのBaaS）のExample projectsのメモ
-これは学習メモです！
-基本的にはREADME.mdを読めば良い。
-必要なコマンドなどまとめておきます。
-https://zenn.dev/uhyo/articles/technical-articles
-
- Exampleprojectsのソースコード
-https://github.com/supabase/supabase/tree/master/examples/nextjs-todo-list
-
- Supabase の JavaScript ⽤クライアントインストール
-https://supaba...]]></summary>
-        <author>
-            <name>ゆゆゆ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。]]></title>
-        <id>https://zenn.dev/ojin/articles/cecb2ac822f134</id>
-        <link href="https://zenn.dev/ojin/articles/cecb2ac822f134"/>
-        <updated>2021-08-11T01:54:01.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。
-アカウントは、 https://zenn.dev/ojin です。
-何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。
-
- 環境
-
-react, react-dom v17.0.2
-next v11.0.1
-typescript v4.3.5
-sass v1.35.2
-
-
- この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。
-この記事では、Componentを自分が作る時に気をつけているこ...]]></summary>
-        <author>
-            <name>ofa-chan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reactで最初に作るTypographyのComponentの作り方をちょっと丁寧に説明してみる。]]></title>
-        <id>https://zenn.dev/ojin/articles/cecb2ac822f134</id>
-        <link href="https://zenn.dev/ojin/articles/cecb2ac822f134"/>
-        <updated>2021-08-11T01:54:01.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-日々答えがないものをGitHubをあさりながらやっている系のエンジニアです。好きなものはひぐらしとTypeScriptです。
-アカウントは、 https://zenn.dev/ojin です。
-何かおかしい所などありましたら遠慮なくコメントしていただければ幸いです。
-
- この記事では、Componentを作る時に自分が意識していることを書いておこうと思います。
-この記事では、Componentを自分が作る時に気をつけていることやその手順を書きます。参考になればと思います。
-
- 例えば、TypographyというComponentを作ってみます
-
-基本的にはテキストを表示した...]]></summary>
-        <author>
-            <name>ofa-chan</name>
         </author>
     </entry>
 </feed>
