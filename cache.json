@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/052hide/articles/e1b9f90013c7f2",
+          "author": "Hidetoshi Ota",
+          "description": "Next.jsアプリ作成\n\n      \n        \n        npx create-next-app --ts\n\n# What is your project named?\nnextjs-ssr-amplify-sample\n\n\n      \n      コードが生成されるまで待つ！\n\n GitHubにあげる\n省略\nhttps://github.com/052hide/nextjs-ssr-amplify-sample\n\n Amplifyにデプロイ\n\n AWSにログインしてAmplify Consoleを開く\nhttps://ap-northeast-1.console...",
+          "link": "https://zenn.dev/052hide/articles/e1b9f90013c7f2",
+          "publishedOn": "2021-09-10T16:15:21.000Z",
+          "wordCount": 46,
+          "title": "[Next.js] AmplifyでSSRデプロイする方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--JtM3lLeG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hidetoshi%2520Ota%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BNext.js%255D%2520Amplify%25E3%2581%25A7SSR%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjFlZjgxZDE0NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ichigo_dev/articles/2b8c0b05cc6f74a5a507",
+          "author": "ichigo",
+          "description": "Next.jsにおけるSPA的遷移の考え方\n\n 背景\nインターン先で既存SSR(React)プロジェクトをNext.jsに移行する際に、プロフィールページのタブやモーダルといった箇所でコンポーネントの切り替えと共にURLも変わるようなSPA的遷移の実装を移行するのに苦労した\n具体的にはreact-routerのhistory.push()にあたる機能が Next.js ですぐに見つけられなかった\n今まではタブなどの切り替え時にhistory.push()をすることで実装していたが、\nそれがNext.jsではどのようにすれば実装できるかについて議論する\n\n 単語定義\n\n SPA的遷移\n...",
+          "link": "https://zenn.dev/ichigo_dev/articles/2b8c0b05cc6f74a5a507",
+          "publishedOn": "2021-09-10T10:28:59.000Z",
+          "wordCount": 101,
+          "title": "Next.jsにおけるSPA的遷移の考え方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--p6q_SUpF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ichigo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258BSPA%25E7%259A%2584%25E9%2581%25B7%25E7%25A7%25BB%25E3%2581%25AE%25E8%2580%2583%25E3%2581%2588%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dJbjVqVFhfRGlKc2tiUjVzUkxXVnNUby03dFRWTkpCcUFvMWlLPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/stacklive/articles/bccf6d9a6d0806",
+          "author": "StackLive",
+          "description": "配信を予約して事前に告知することが可能になりました\n今回のアップデートでは配信をする日時を予約することが可能になり、視聴者に事前にお知らせできるようになりました。予約配信機能により、「いきなり配信をしても視聴者が集まらない」「配信内容に需要があるかわからない」などの不安も軽減されより気軽に配信していただければと思います。\n\n\n 配信予約をする方法\n\n右上のLIVEボタンをクリック\n通常の配信通りにタイトルと概要を記入\n配信予約をONにする\n配信予約日時を設定して予約する\n\n\n配信を予約すると、ホーム画面にある予約配信の箇所に表示されるようになります。\nまた、自分が予約している配信はマ...",
+          "link": "https://zenn.dev/stacklive/articles/bccf6d9a6d0806",
+          "publishedOn": "2021-09-10T03:40:19.000Z",
+          "wordCount": 25,
+          "title": "エンジニア向けライブ配信サービスに配信予約機能が追加されました！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--dEbxJXQn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:StackLive%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E5%2590%2591%25E3%2581%2591%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E9%2585%258D%25E4%25BF%25A1%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2581%25AB%25E9%2585%258D%25E4%25BF%25A1%25E4%25BA%2588%25E7%25B4%2584%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%258C%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2595%25E3%2582%258C%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWFkOGFlNzRmMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/nitaking/articles/9ff4fca3e8e62e",
           "author": "nitaking",
           "description": "何がおきたか\n\n\npages/index.tsxの内容が、pages/[hoge].tsxに一瞬表示される\n\n\n なぜか\n\nSPAはWEBサーバーからindex.html受け取る\n\nこれがデフォルトの表示に関係している？？？\n\n\n\n\n どうしたか\n\n      \n        \n          /**\n   * dynamic-pathなどの場合、`pages/index.tsx`がSSRのデフォルトとして読み込まれるため、\n   * SSRではそのまま、CSRではリダイレクトする.\n   *\n   *  SSR: Rootがレンダリング -> Contentがレンダリン...",
@@ -711,20 +753,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/nononono/articles/0255311126f88f",
-          "author": "ノノ",
-          "description": "どうもこんにちはノノです。\n今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。\n最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。\n特に初学者の方はどの教材を選べばいいか分からないですよね。\n（僕は分かりませんでした😇）\n少しでも参考になれば幸いです。\n前半に「使用した教材一覧」\n後半に「おすすめの教材」を紹介します。\n\nHTML,CSSの基礎知識はありました。\n\n\n 使用した教材一覧\n\n 本\n\nりあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】\nりあクト！ TypeScriptで始めるつらくない...",
-          "link": "https://zenn.dev/nononono/articles/0255311126f88f",
-          "publishedOn": "2021-08-12T07:26:17.000Z",
-          "wordCount": 171,
-          "title": "【2021年8月】フロントエンドの学習に使用した教材一覧（React, TypeScript, NEXT.js, Firebase）",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--72Nu41ZM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%258E%25E3%2583%258E%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%25902021%25E5%25B9%25B48%25E6%259C%2588%25E3%2580%2591%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%25AB%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2595%2599%25E6%259D%2590%25E4%25B8%2580%25E8%25A6%25A7%25EF%25BC%2588React%252C%2520TypeScript%252C%2520NEXT.js%252C%2520Firebase%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjVlNzg1YzFjNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -816,20 +844,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/umatoma/articles/a819fd622d4743",
-          "author": "umatoma",
-          "description": "flutter-study.dev\n「Flutterで始めるアプリ開発」というWebサイトを公開している。\nもともとはGatsbyでSSGしていたが、Vueを使う必要が出てきたので、勉強がてらNuxtJSへと移行してみた。\nhttps://www.flutter-study.dev/\n\n Markdownで記事を書く\nGatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各記事を書いていた。\nhttps://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...",
-          "link": "https://zenn.dev/umatoma/articles/a819fd622d4743",
-          "publishedOn": "2021-08-11T15:08:33.000Z",
-          "wordCount": 206,
-          "title": "GatsbyからNuxtJSに移行してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--zb42cUsd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umatoma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby%25E3%2581%258B%25E3%2582%2589NuxtJS%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lNVVdLY3dwaGFRMV91eUlQWWEwcy1udE1qeFVYQTNZYWFlLW5XPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -838,6 +852,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/yuku/articles/4d2f665cf42385",
+          "author": "Yuku Kotani",
+          "description": "Namespace Import に補完を効かせる TypeScript Language Service Plugin[1]、typescript-plugin-namespace-import を作りました。\nそのモチベーションと使い方を紹介します。\n\n\nこの記事・製作物は Named Export と Default Export の是非について主張をするものではなく、それらの話題に関連して作ったものでもありません\n\n\n TL;DR\n\n普通のオブジェクトを名前空間として用いると Tree Shaking が効かずバンドルサイズが膨らむ\nNamespace Import を用いれば ...",
+          "link": "https://zenn.dev/yuku/articles/4d2f665cf42385",
+          "publishedOn": "2021-09-10T02:27:35.000Z",
+          "wordCount": 280,
+          "title": "Namespace Import に補完を効かせる TypeScript プラグインを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--smq8RmXo--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuku%2520Kotani%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Namespace%2520Import%2520%25E3%2581%25AB%25E8%25A3%259C%25E5%25AE%258C%25E3%2582%2592%25E5%258A%25B9%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%2520TypeScript%2520%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEQVVDNDRXNTlSbWgyMjVIR2ZycENZQmRlNUJNZ0VCaDl3TGY0PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/rabbit/articles/d7175e62dc56a5",
           "author": "hanetsuki",
@@ -2069,48 +2097,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/manalink/articles/manalink-react-vite",
-          "author": "マナリンク Tech Blog",
-          "description": "オンライン家庭教師マナリンク CTO の名人です。\n先日マナリンクでリリースした新機能でReactとViteの組み合わせを選定しました。\nhttps://vitejs.dev/\n本記事ではReactとViteについて、以下の順で解説させていただきます。気になるところから読んでいただければ幸いです。\n\n採用理由\n実装の内容（環境設定、ライブラリ選定、コンポーネント設計など）\nCI/CD（デプロイ、テスティング、Linterなど）\n\n\n React×Viteの採用理由\n\n マナリンクについて\n採用理由を説明するにあたって、簡単にマナリンクの事業背景を説明します。\nマナリンクは、オンライン家庭...",
-          "link": "https://zenn.dev/manalink/articles/manalink-react-vite",
-          "publishedOn": "2021-08-12T09:33:09.000Z",
-          "wordCount": 482,
-          "title": "React × Viteで新機能を開発した話(採用理由、実装、CI/CD)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--4Sf1mz4J--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%2520Tech%2520Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%25C3%2597%2520Vite%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2528%25E6%258E%25A1%25E7%2594%25A8%25E7%2590%2586%25E7%2594%25B1%25E3%2580%2581%25E5%25AE%259F%25E8%25A3%2585%25E3%2580%2581CI%252FCD%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODNjZWUyZDUxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nononono/articles/0255311126f88f",
-          "author": "ノノ",
-          "description": "どうもこんにちはノノです。\n今回は、僕がフロントエンドを独学する際に使用した教材を紹介していきたいと思います。\n最近のフロントエンドは技術の移り変わりが激しくて大変ですよね。\n特に初学者の方はどの教材を選べばいいか分からないですよね。\n（僕は分かりませんでした😇）\n少しでも参考になれば幸いです。\n前半に「使用した教材一覧」\n後半に「おすすめの教材」を紹介します。\n\nHTML,CSSの基礎知識はありました。\n\n\n 使用した教材一覧\n\n 本\n\nりあクト！ TypeScriptで始めるつらくないReact開発 第3.1版【Ⅰ. 言語・環境編】\nりあクト！ TypeScriptで始めるつらくない...",
-          "link": "https://zenn.dev/nononono/articles/0255311126f88f",
-          "publishedOn": "2021-08-12T07:26:17.000Z",
-          "wordCount": 171,
-          "title": "【2021年8月】フロントエンドの学習に使用した教材一覧（React, TypeScript, NEXT.js, Firebase）",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--72Nu41ZM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%258E%25E3%2583%258E%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%25E3%2580%25902021%25E5%25B9%25B48%25E6%259C%2588%25E3%2580%2591%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%25AB%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2595%2599%25E6%259D%2590%25E4%25B8%2580%25E8%25A6%25A7%25EF%25BC%2588React%252C%2520TypeScript%252C%2520NEXT.js%252C%2520Firebase%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjVlNzg1YzFjNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/magurotuna/articles/deno-release-note-1-13-0",
-          "author": "magurotuna",
-          "description": "Copyright (c) 2018-2021 the Deno authors. MIT License.\n日本時間の昨日（2021 年 8 月 11 日）に Deno の v1.13.0 がリリースされました。\nhttps://deno.com/blog/v1.13\n詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。\n\nネイティブ HTTP サーバー実装の安定化\n\nself.structuredClone() のサポート\nTLSのためのシステム証明書ストアが利用可能になった\nテストのためTLS検証を無効にできるようになった\nWeb Cr...",
-          "link": "https://zenn.dev/magurotuna/articles/deno-release-note-1-13-0",
-          "publishedOn": "2021-08-11T15:56:40.000Z",
-          "wordCount": 980,
-          "title": "Deno 1.13.0 がリリースされたので新機能や変更点の紹介",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--FDW0vVf9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:magurotuna%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25201.13.0%2520%25E3%2581%258C%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2584%25E5%25A4%2589%25E6%259B%25B4%25E7%2582%25B9%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dNUGF0cWN1MUh1d1dEcG5uVzRETFVxZlI5aDlOM1NFc3FmaWdYZkE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2724,20 +2710,6 @@
           "title": "vue.jsからローカルストレージの値を操作する",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--FIkXMT5z--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue.js%25E3%2581%258B%25E3%2582%2589%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E5%2580%25A4%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/umatoma/articles/a819fd622d4743",
-          "author": "umatoma",
-          "description": "flutter-study.dev\n「Flutterで始めるアプリ開発」というWebサイトを公開している。\nもともとはGatsbyでSSGしていたが、Vueを使う必要が出てきたので、勉強がてらNuxtJSへと移行してみた。\nhttps://www.flutter-study.dev/\n\n Markdownで記事を書く\nGatsbyの時は@rocketseat/gatsby-theme-docsを使っていて、Markdownで各記事を書いていた。\nhttps://github.com/Rocketseat/gatsby-themes/tree/main/@rocketseat/gats...",
-          "link": "https://zenn.dev/umatoma/articles/a819fd622d4743",
-          "publishedOn": "2021-08-11T15:08:33.000Z",
-          "wordCount": 206,
-          "title": "GatsbyからNuxtJSに移行してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--zb42cUsd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umatoma%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Gatsby%25E3%2581%258B%25E3%2582%2589NuxtJS%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lNVVdLY3dwaGFRMV91eUlQWWEwcy1udE1qeFVYQTNZYWFlLW5XPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
