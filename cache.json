@@ -55,6 +55,34 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/kyo9bo/articles/9909ba89c42a77",
+          "author": "kyosuke kubo",
+          "description": "やったこと\nstorybook + chromatic + githubActionでUIのテストを自動化させました。\n今回mainとdevelopブランチにpull requestが行われた場合に実行させるようにしたので、手順を記事にします。\n\n 手順\n\n chromaticのセットアップ\nchromaticとは、storybookのメンテナーが作っているstorybookをホスティングするサービスです。加えてgithubと連携することで、PRと連携してUIのreviewを効率化してくれます。\n現状、似たようなサービスとしてNetlifyがよく使われているように思われますが、sto...",
+          "link": "https://zenn.dev/kyo9bo/articles/9909ba89c42a77",
+          "publishedOn": "2021-09-11T09:02:23.000Z",
+          "wordCount": 140,
+          "title": "ChromaticとstorybookでUIのテストを自動化してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Nixvpepg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kyosuke%2520kubo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Chromatic%25E3%2581%25A8storybook%25E3%2581%25A7UI%25E3%2581%25AE%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNmY1Nzk1ZDI3OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/itomise/articles/72ab332bb8f506",
+          "author": "itomise",
+          "description": "本記事の構成は、CIなどは使わずにすべてローカルで完結することを前提としています。\n\n\n モチベーション\n自分の前回の記事で、Next.jsの画像最適化モジュール「next-optimized-images」を使った環境などについて書いたのですが、\n実際に使っていていくつか問題があったため結局実務では使っていません...。\n問題としては、\n\nほぼ空のプロジェクトでも、next-optimized-imagesを使っただけで生成ファイルのサイズが200kbほど増えてしまっていた（詳しくは調べていませんが）\nビルド毎に画像生成を行うので毎回ビルドが遅い\n\nということがありました。\n画像最適...",
+          "link": "https://zenn.dev/itomise/articles/72ab332bb8f506",
+          "publishedOn": "2021-09-11T07:31:24.000Z",
+          "wordCount": 243,
+          "title": "ディレクトリ構造を保ったままwebp生成するNode.js/webp対応について",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BpMkflje--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:itomise%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%25E6%25A7%258B%25E9%2580%25A0%25E3%2582%2592%25E4%25BF%259D%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25BE%25E3%2581%25BEwebp%25E7%2594%259F%25E6%2588%2590%25E3%2581%2599%25E3%2582%258BNode.js%252Fwebp%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2E1Y2RlZmViYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/052hide/articles/e1b9f90013c7f2",
           "author": "Hidetoshi Ota",
           "description": "Next.jsアプリ作成\n\n      \n        \n        npx create-next-app --ts\n\n# What is your project named?\nnextjs-ssr-amplify-sample\n\n\n      \n      コードが生成されるまで待つ！\n\n GitHubにあげる\n省略\nhttps://github.com/052hide/nextjs-ssr-amplify-sample\n\n Amplifyにデプロイ\n\n AWSにログインしてAmplify Consoleを開く\nhttps://ap-northeast-1.console...",
@@ -711,48 +739,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/naoya_kuma/articles/fda80ba103ac41",
-          "author": "Naoya Kumasegawa",
-          "description": "表題の通りですが、Next.jsでShopifyのストアフロントをつくってみました。\nもともと業務でShopifyを使っていて、技術的にSSRやSSG・ISRなどの様々なレンダリング方法に対応したNext.jsに興味があったので、その二つを合わせるような形でストアを構築してみました。\nデザインはShopifyのデフォルトテーマであったDebutテーマ(いまはDawnになりましたね)を参考にしています。\n(gif貼ろうとしたけど重いのか失敗...)\n\n\n 使用技術など\nストア: https://nextjs-shopify-store.vercel.app\nリポジトリ: https://g...",
-          "link": "https://zenn.dev/naoya_kuma/articles/fda80ba103ac41",
-          "publishedOn": "2021-08-13T10:24:43.000Z",
-          "wordCount": 229,
-          "title": "Next.jsでShopifyのストアフロントをつくってみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--CojtjyF5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Naoya%2520Kumasegawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Shopify%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDhhNmU1MmY4Zi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/95fa80e1489c28",
-          "author": "空雲",
-          "description": "Next.jsのインストール\n\n      \n        \n        yarn add next@11.1.1-canary.6\n\n\n      \n      \n Next.jsの設定\n\nnext.config.js\n\n\n      \n        \n        const config = {\n    experimental: { swcLoader: true }\n};\nmodule.exports = config;\n\n\n      \n      \n ビルド\n\n      \n        \n        yarn next build\n\n\n      \n ...",
-          "link": "https://zenn.dev/sora_kumo/articles/95fa80e1489c28",
-          "publishedOn": "2021-08-13T09:43:12.000Z",
-          "wordCount": 33,
-          "title": "Next.jsでビルドにswcを使う(2021/8/13版)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--yRfrrLUE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2583%2593%25E3%2583%25AB%25E3%2583%2589%25E3%2581%25ABswc%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25282021%252F8%252F13%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hirockysan/articles/c10deae91a0a18",
-          "author": "ひろっきー",
-          "description": "こんにちは。ひろっきーです。\n現在ITエンジニア転職を目指して現在、独学９ヶ月目で日々学習、現在はNext.js、TypeScript などを学習しており、ポートフォリオとしてSNSアプリケーションを作成しています。\n今回はこのSNSアプリの認証ページを作成するにあたって非同期処理で詰まった部分を共有したいと思います。\n\n 使用技術\n\nReact\nNext.js\nTypescript\nTailwindCSS\nFirebase Authentication\nMaterial UI\nReact-redux-toolkit\n...etc\n\n\n 実際のコード（長いので一部抜粋）\n\n      \n...",
-          "link": "https://zenn.dev/hirockysan/articles/c10deae91a0a18",
-          "publishedOn": "2021-08-13T06:30:39.000Z",
-          "wordCount": 317,
-          "title": "Next.jsで非同期処理が走らなくて困った話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--rCAIRL7I--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B2%25E3%2582%258D%25E3%2581%25A3%25E3%2581%258D%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2581%258C%25E8%25B5%25B0%25E3%2582%2589%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25A6%25E5%259B%25B0%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liZVZOYWZFUW1TcFIzZWhsWDdUVzZCV0ZsekJnTFpsRExFQ0NhUmc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -852,6 +838,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/yuitosato/articles/fdbc464f31c292",
+          "author": "Yuito Sato",
+          "description": "はじめに\nas-safelyというライブラリを作成しました。\nこのライブラリを使うと、型判定に失敗したときはその場で例外を投げてくれます。\n危険なas(型Assertion)を撲滅し、真にタイプセーフなType Script環境を手に入れましょう。\nhttps://github.com/YuitoSato/as-safely\n\n      \n        \n        const str1: string = asSafely('1' as unknown, isString);\n// => OK\n\nconst str2: string = asSafely(1 as u...",
+          "link": "https://zenn.dev/yuitosato/articles/fdbc464f31c292",
+          "publishedOn": "2021-09-11T08:02:46.000Z",
+          "wordCount": 458,
+          "title": "TypeScriptの全てのasを撲滅するas-safelyというOSSを作ったゾォォ〜",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--mG3T6XoH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuito%2520Sato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%25E3%2581%25AE%25E5%2585%25A8%25E3%2581%25A6%25E3%2581%25AEas%25E3%2582%2592%25E6%2592%25B2%25E6%25BB%2585%25E3%2581%2599%25E3%2582%258Bas-safely%25E3%2581%25A8%25E3%2581%2584%25E3%2581%2586OSS%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2582%25BE%25E3%2582%25A9%25E3%2582%25A9%25E3%2580%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDk1YjBmYTViNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/rpf_nob/articles/vscode-extension-js-console",
+          "author": "のふのふ🀄",
+          "description": "はじめに\nこの記事は以下を目的としています。\n\nVSCodeの拡張機能を作って公開する方法の簡単な説明\n作った拡張機能の宣伝\n\n\n どういうものを作ったのか❓\nJavaScript(TypeScript)でconsole.logなどの構文を簡単に挿入できるものを作りました。今まで使用していたほぼ同じような拡張機能があり、ちょっと機能追加したかったのですが、しばらく更新されていないようだったので自身で作り直して公開してみることにしました。\nここからインストールできますのでよかったらインストールして試してみてください🙇‍♂️\nhttps://marketplace.visualstudi...",
+          "link": "https://zenn.dev/rpf_nob/articles/vscode-extension-js-console",
+          "publishedOn": "2021-09-11T06:41:27.000Z",
+          "wordCount": 252,
+          "title": "【VSCode Extension】JavaScriptのconsoleを簡単に挿入できる拡張機能を作って公開してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ATKpl1pd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AE%25E3%2581%25B5%25E3%2581%25AE%25E3%2581%25B5%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590VSCode%2520Extension%25E3%2580%2591JavaScript%25E3%2581%25AEconsole%25E3%2582%2592%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25AB%25E6%258C%25BF%25E5%2585%25A5%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ljOVRTTU5ma1RXM2dfTTdFWFFwQ2kteFlLT2ZhcEVJZjhHazJmSWc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mamushi/articles/multiple_transfer",
+          "author": "Daigo Wakabayashi",
+          "description": "こんにちは、ダイゴと申します。\n先日、StripeAPI を使った山分けの決済（ 顧客：送金先 = １：n ）を実装する機会があったので、\nインプットした情報を忘れないうちに整理しておきたい、と思い記事にしました。\nどなたかの参考になれば幸いです。\n\n 実装する機能\nプラットフォーム型サービスで、以下のような決済要件を持つものとします。\n\n決済総額のうち、10%をプラットフォーム手数料として徴収\n残り 90%を複数の送金先へ均等に山分けする\n\n\n サービス全体のイメージ\n\n\n Customer\n顧客。購入者でありお金を支払うユーザー。上の図で緑。\n\n Platform\nその名の通りプラッ...",
+          "link": "https://zenn.dev/mamushi/articles/multiple_transfer",
+          "publishedOn": "2021-09-11T04:31:02.000Z",
+          "wordCount": 423,
+          "title": "【StripeAPI】複数の送金先への山分けを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--1qy0BDms--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Daigo%2520Wakabayashi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590StripeAPI%25E3%2580%2591%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E9%2580%2581%25E9%2587%2591%25E5%2585%2588%25E3%2581%25B8%25E3%2581%25AE%25E5%25B1%25B1%25E5%2588%2586%25E3%2581%2591%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dBM3BNMUQyWl85LXpWcWx5NVp6ci1mbldzQUpSWGY5M3FjZWxtPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yuku/articles/4d2f665cf42385",
           "author": "Yuku Kotani",
@@ -2027,76 +2055,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/himorishige/articles/de9593a77863e8",
-          "author": "Hi MORISHIGE",
-          "description": "はじめに\nReduxにはながーい歴史の中、非同期処理についてはいろいろと語られてきましたが、、🙈\nRedux Toolkit v1.6.0からは新たな非同期処理であるRTK Queryが組み込まれました。\nRTK Queryはswrやreact-queryと同じようなキャッシュ戦略を駆使したRedux Toolkitチーム謹製のQueryツールとなっています。\nhttps://redux-toolkit.js.org/rtk-query/overview\nいくつかのプロジェクトでも使い始めていたところですが、ちょうどRedux Thunk -> createSyncThunk ...",
-          "link": "https://zenn.dev/himorishige/articles/de9593a77863e8",
-          "publishedOn": "2021-08-13T10:00:01.000Z",
-          "wordCount": 746,
-          "title": "Redux Toolkit の非同期処理の変遷を試してみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--fTC1txNK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hi%2520MORISHIGE%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Redux%2520Toolkit%2520%25E3%2581%25AE%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTVmZmRmNGJjNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ryo_kawamata/articles/38f7a866799414",
-          "author": "ryo_kawamata",
-          "description": "先日リリースした個人開発のアプリについて感想や技術スタックなど色々書きます。\n\n どんなアプリを公開した？\n以下ツイートで紹介している、 Slack の絵文字スタンプ用のアニ GIF を簡単につくれるアプリを公開しました。\nhttps://twitter.com/KawamataRyo/status/1425292135356682248\nタイミングが良かったのか数多く Retweet してもらえ、 Twitter を初めて初のバズの波動を感じました。アプリ自体はこちらです。とても簡単に試せるのでぜひ使ってもらえると嬉しいです。\nhttps://www.animated-emoji-ge...",
-          "link": "https://zenn.dev/ryo_kawamata/articles/38f7a866799414",
-          "publishedOn": "2021-08-13T08:35:22.000Z",
-          "wordCount": 390,
-          "title": "Vue3 で「動く」Slack絵文字ジェネレーターを作って公開した話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--iEV2x0Nc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue3%2520%25E3%2581%25A7%25E3%2580%258C%25E5%258B%2595%25E3%2581%258F%25E3%2580%258DSlack%25E7%25B5%25B5%25E6%2596%2587%25E5%25AD%2597%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%258D%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/beeeyan/articles/8493cfe83f775f",
-          "author": "beeeyan",
-          "description": "前回に引き続きTheme UIの話です。\n\n はじめに ~ Presetのデザインとは？ ~\nPresetとは「設定値などを前もって調整すること」であり、\nTheme UIではパッケージとしてあらかじめ用意されたデザイン（色など）の規定値が存在しています。\nたとえば、公式サイト右上のボタンは、Presetの種類を意味していて、\nこのボタンを押すことで、デザインを瞬時に変更できるようになっています。\nLightの場合（公式サイトのスクショ）\n\ndarkの場合（公式サイトのスクショ）\n\n今回の記事は、この「Preset」をどうやって導入するかって話になります！\n\n Presetの確認方法\n公...",
-          "link": "https://zenn.dev/beeeyan/articles/8493cfe83f775f",
-          "publishedOn": "2021-08-13T07:30:15.000Z",
-          "wordCount": 186,
-          "title": "Theme UIのPresetのデザインの導入方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--xfznHFId--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:beeeyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Theme%2520UI%25E3%2581%25AEPreset%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25AE%25E5%25B0%258E%25E5%2585%25A5%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTg0NTA1OGQzYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/himorishige/articles/cfd7aedacc3083",
-          "author": "Hi MORISHIGE",
-          "description": "はじめに\n個人的には最近のバックエンドはサーバレスにNestJSが一択になりつつあります。明日の自分のために、NestJS v8でnest new直後に行っている開発前の下準備の備忘録になります。\nhttps://nestjs.com/\nhttps://github.com/himorishige/nestjs-template\n\n 1.NestJSのプロジェクトを作成\nCLIをまだ未インストールの場合はNestJSのCLIをグローバルにインストールします。\n\n      \n        \n        $ npm i -g @nestjs/cli\n\n\n      \n      ...",
-          "link": "https://zenn.dev/himorishige/articles/cfd7aedacc3083",
-          "publishedOn": "2021-08-13T07:04:03.000Z",
-          "wordCount": 306,
-          "title": "NestJSで新規プロジェクトを作るときの備忘録",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--5PPo_g3q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hi%2520MORISHIGE%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:NestJS%25E3%2581%25A7%25E6%2596%25B0%25E8%25A6%258F%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E5%2582%2599%25E5%25BF%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTVmZmRmNGJjNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8",
-          "author": "kondo_script",
-          "description": "誰向けの記事?\n\nreact-nativeやexpo使って小さなアプリを作りたいけどバックエンド組むのは面倒くさい人\nredux toolkitってぶっちゃけどうなん？ というのが知りたい人\nexpo + redux-toolkit + redux-persist のボイラープレートが欲しい人\n\n黙って動くボイラープレートよこせや、っていう人はこちら\n\nおれはそういう素直な人好きだよ\n\n\n\n\n\n\n いきさつ\n\n何につけてもやる気が出なかったのでやる気を永続化させようと思った\nやる気がないのでexpoで楽して作りたかった\nやる気がないのでバックエンドは作りたくなかった\n\nAsyncSt...",
-          "link": "https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8",
-          "publishedOn": "2021-08-12T18:31:54.000Z",
-          "wordCount": 81,
-          "title": "expo + redux-toolkit + redux-persistでAsyncStorageにやる気を永続化させるアプリを作った",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--8wGEqvXX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kondo_script%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:expo%2520%252B%2520redux-toolkit%2520%252B%2520redux-persist%25E3%2581%25A7AsyncStorage%25E3%2581%25AB%25E3%2582%2584%25E3%2582%258B%25E6%25B0%2597%25E3%2582%2592%25E6%25B0%25B8%25E7%25B6%259A%25E5%258C%2596%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzdhYjk3MmU5Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2280,6 +2238,48 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/chabatake_i/articles/headlessui_introduction",
+          "author": "k-shigehito",
+          "description": "はじめに\nHeadless UIはTailwind CSSを開発しているTailwind Labsを中心に開発されているUIライブラリです。特徴として、スタイルは実装者側で自由に制御できること、アクセシビリティはライブラリ側で確保してくれること等が上げられます。React用とVue.js用がそれぞれ用意されていますが、今回はVue.jsでUIコンポーネントを作成してみました。\n全体のコードは以下のリポジトリに公開しています。\nhttps://github.com/K-shigehito/headlessui-example\n\n本記事は学習ノートとして投稿させて頂きます。\n内容に誤り等...",
+          "link": "https://zenn.dev/chabatake_i/articles/headlessui_introduction",
+          "publishedOn": "2021-09-11T16:53:36.000Z",
+          "wordCount": 762,
+          "title": "Headless UI + Vue3で作るUIコンポーネント",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--H_vOJv96--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:k-shigehito%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Headless%2520UI%2520%252B%2520Vue3%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258BUI%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGFhMjNkMjE5ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/satohjohn/articles/b064cf966a9e20",
+          "author": "佐藤慧太",
+          "description": "前提\nNuxt.jsでVuexを使っているのでそのときに\nhttps://github.com/ktsn/vuex-type-helper\n以下を利用させてもらっていました\nただ、モジュールのstore場合利用時にtypeがうまくはまらないから、どうするんだろうとか色々見てたのですがあんまりいい手段が見つからなく、自分で型定義でテンプレートリテラル部分書いたらどうなんだろうとおもってやってみました。\n正直もっと良い手段があると思いますが、今回は自分の勉強踏まえの備忘録。\nそして、多分Vue3対応とかが入ったらちゃんと動いていくんだと思うので、後で書き換えればいいし、現状型の問題だけな...",
+          "link": "https://zenn.dev/satohjohn/articles/b064cf966a9e20",
+          "publishedOn": "2021-09-11T04:37:38.000Z",
+          "wordCount": 199,
+          "title": "Vuexの型定義でモジュールでの型解決してくれるようにしてみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--EpVXGSET--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E4%25BD%2590%25E8%2597%25A4%25E6%2585%25A7%25E5%25A4%25AA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vuex%25E3%2581%25AE%25E5%259E%258B%25E5%25AE%259A%25E7%25BE%25A9%25E3%2581%25A7%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25A7%25E3%2581%25AE%25E5%259E%258B%25E8%25A7%25A3%25E6%25B1%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%258F%25E3%2582%258C%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDlkNTdlODEyNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/open_sesame/articles/2f6442ccdddb1b",
+          "author": "open sesame",
+          "description": "ゲーム\n世の中的には、プログラミングする人＝ゲーマー という方程式があるようで(思い込みか?)\n長いことプログラミングをしていますが、パソコンは購入しますが、ゲーム機なるものを購入したこともパソコンやスマホでゲームをすることもありません。\n\n ゲームと脳\n何かを獲得したときや何かをやっつけたときに脳が快楽物質であるドーパミンを大量に分泌するらしいですね。\nどうも自分には、これが不要なようで...\nゲームをすることに興味がありませヌ。\n\n 本題に\n小学生低学年に算数を楽しんで憶えてしかもドーパミンを大量にあびてもらおうと思い。\n1995年ころ京都の幼稚園で実際に使われていたアプリをVu...",
+          "link": "https://zenn.dev/open_sesame/articles/2f6442ccdddb1b",
+          "publishedOn": "2021-09-11T01:10:07.000Z",
+          "wordCount": 35,
+          "title": "算数インベーダー(1)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--sdnjjIHH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:open%2520sesame%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E7%25AE%2597%25E6%2595%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2599%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%25281%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2Y3OGJlZDlkOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/azu369yu/articles/a9989d73b4d19d",
           "author": "Yu Watanabe",
@@ -2696,20 +2696,6 @@
           "title": "CDN版Vue.jsとオープンデータでお手軽マッシュアップ",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--BMEjhtvW--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uedayou%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:CDN%25E7%2589%2588Vue.js%25E3%2581%25A8%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25B3%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2581%25A7%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2583%259E%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjE1ODQxMjJlMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e",
-          "author": "おしうみなおき",
-          "description": "ローカルストレージに値をセットしたり、ローカルストレージから値を取得したりしたいことがあったので、試して記事に残してみました。\n\n はじめに\n通常ローカルストレージには機密情報は保存してはいけません。\n僕の場合は永続的に保存したい設定値を保存する際に用いる事が多いです。← 設定値は別に流出されても全然何の問題もないような情報です。\nローカルストレージに機密情報を保存してはいけない理由はJavaScriptから参照できてしまうからです。XSS脆弱性を代表に、JavaScriptを用いてローカルストレージやCookieから情報を抜き取られる可能性がないとはいい切れません。安全の為にローカルス...",
-          "link": "https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e",
-          "publishedOn": "2021-08-13T00:41:44.000Z",
-          "wordCount": 32,
-          "title": "vue.jsからローカルストレージの値を操作する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--FIkXMT5z--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue.js%25E3%2581%258B%25E3%2582%2589%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E5%2580%25A4%25E3%2582%2592%25E6%2593%258D%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

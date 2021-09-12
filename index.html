@@ -77,6 +77,200 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-11">2021-09-11</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ChromaticとstorybookでUIのテストを自動化してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kyo9bo/articles/9909ba89c42a77">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>やったこと
+storybook + chromatic + githubActionでUIのテストを自動化させました。
+今回mainとdevelopブランチにpull requestが行われた場合に実行させるようにしたので、手順を記事にします。
+
+ 手順
+
+ chromaticのセットアップ
+chromaticとは、storybookのメンテナーが作っているstorybookをホスティングするサービスです。加えてgithubと連携することで、PRと連携してUIのreviewを効率化してくれます。
+現状、似たようなサービスとしてNetlifyがよく使われているように思われますが、sto...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ディレクトリ構造を保ったままwebp生成するNode.js/webp対応について</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/itomise/articles/72ab332bb8f506">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>本記事の構成は、CIなどは使わずにすべてローカルで完結することを前提としています。
+
+
+ モチベーション
+自分の前回の記事で、Next.jsの画像最適化モジュール「next-optimized-images」を使った環境などについて書いたのですが、
+実際に使っていていくつか問題があったため結局実務では使っていません...。
+問題としては、
+
+ほぼ空のプロジェクトでも、next-optimized-imagesを使っただけで生成ファイルのサイズが200kbほど増えてしまっていた（詳しくは調べていませんが）
+ビルド毎に画像生成を行うので毎回ビルドが遅い
+
+ということがありました。
+画像最適...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptの全てのasを撲滅するas-safelyというOSSを作ったゾォォ〜</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuitosato/articles/fdbc464f31c292">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+as-safelyというライブラリを作成しました。
+このライブラリを使うと、型判定に失敗したときはその場で例外を投げてくれます。
+危険なas(型Assertion)を撲滅し、真にタイプセーフなType Script環境を手に入れましょう。
+https://github.com/YuitoSato/as-safely
+
+      
+        
+        const str1: string &#x3D; asSafely(&#x27;1&#x27; as unknown, isString);
+// &#x3D;&gt; OK
+
+const str2: string &#x3D; asSafely(1 as u...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【VSCode Extension】JavaScriptのconsoleを簡単に挿入できる拡張機能を作って公開してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rpf_nob/articles/vscode-extension-js-console">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+この記事は以下を目的としています。
+
+VSCodeの拡張機能を作って公開する方法の簡単な説明
+作った拡張機能の宣伝
+
+
+ どういうものを作ったのか❓
+JavaScript(TypeScript)でconsole.logなどの構文を簡単に挿入できるものを作りました。今まで使用していたほぼ同じような拡張機能があり、ちょっと機能追加したかったのですが、しばらく更新されていないようだったので自身で作り直して公開してみることにしました。
+ここからインストールできますのでよかったらインストールして試してみてください🙇‍♂️
+https://marketplace.visualstudi...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【StripeAPI】複数の送金先への山分けを実装する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mamushi/articles/multiple_transfer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは、ダイゴと申します。
+先日、StripeAPI を使った山分けの決済（ 顧客：送金先 &#x3D; １：n ）を実装する機会があったので、
+インプットした情報を忘れないうちに整理しておきたい、と思い記事にしました。
+どなたかの参考になれば幸いです。
+
+ 実装する機能
+プラットフォーム型サービスで、以下のような決済要件を持つものとします。
+
+決済総額のうち、10%をプラットフォーム手数料として徴収
+残り 90%を複数の送金先へ均等に山分けする
+
+
+ サービス全体のイメージ
+
+
+ Customer
+顧客。購入者でありお金を支払うユーザー。上の図で緑。
+
+ Platform
+その名の通りプラッ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Headless UI + Vue3で作るUIコンポーネント</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chabatake_i/articles/headlessui_introduction">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>はじめに
+Headless UIはTailwind CSSを開発しているTailwind Labsを中心に開発されているUIライブラリです。特徴として、スタイルは実装者側で自由に制御できること、アクセシビリティはライブラリ側で確保してくれること等が上げられます。React用とVue.js用がそれぞれ用意されていますが、今回はVue.jsでUIコンポーネントを作成してみました。
+全体のコードは以下のリポジトリに公開しています。
+https://github.com/K-shigehito/headlessui-example
+
+本記事は学習ノートとして投稿させて頂きます。
+内容に誤り等...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vuexの型定義でモジュールでの型解決してくれるようにしてみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/satohjohn/articles/b064cf966a9e20">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>前提
+Nuxt.jsでVuexを使っているのでそのときに
+https://github.com/ktsn/vuex-type-helper
+以下を利用させてもらっていました
+ただ、モジュールのstore場合利用時にtypeがうまくはまらないから、どうするんだろうとか色々見てたのですがあんまりいい手段が見つからなく、自分で型定義でテンプレートリテラル部分書いたらどうなんだろうとおもってやってみました。
+正直もっと良い手段があると思いますが、今回は自分の勉強踏まえの備忘録。
+そして、多分Vue3対応とかが入ったらちゃんと動いていくんだと思うので、後で書き換えればいいし、現状型の問題だけな...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">算数インベーダー(1)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/open_sesame/articles/2f6442ccdddb1b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ゲーム
+世の中的には、プログラミングする人＝ゲーマー という方程式があるようで(思い込みか?)
+長いことプログラミングをしていますが、パソコンは購入しますが、ゲーム機なるものを購入したこともパソコンやスマホでゲームをすることもありません。
+
+ ゲームと脳
+何かを獲得したときや何かをやっつけたときに脳が快楽物質であるドーパミンを大量に分泌するらしいですね。
+どうも自分には、これが不要なようで...
+ゲームをすることに興味がありませヌ。
+
+ 本題に
+小学生低学年に算数を楽しんで憶えてしかもドーパミンを大量にあびてもらおうと思い。
+1995年ころ京都の幼稚園で実際に使われていたアプリをVu...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-10">2021-09-10</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -5104,266 +5298,9 @@ Vue v3.2.0 の新機能として defineCustomElement が提供されま...</span
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-13">2021-08-13</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでShopifyのストアフロントをつくってみた</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoya_kuma/articles/fda80ba103ac41">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>表題の通りですが、Next.jsでShopifyのストアフロントをつくってみました。
-もともと業務でShopifyを使っていて、技術的にSSRやSSG・ISRなどの様々なレンダリング方法に対応したNext.jsに興味があったので、その二つを合わせるような形でストアを構築してみました。
-デザインはShopifyのデフォルトテーマであったDebutテーマ(いまはDawnになりましたね)を参考にしています。
-(gif貼ろうとしたけど重いのか失敗...)
-
-
- 使用技術など
-ストア: https://nextjs-shopify-store.vercel.app
-リポジトリ: https://g...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでビルドにswcを使う(2021/8/13版)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/95fa80e1489c28">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Next.jsのインストール
-
-      
-        
-        yarn add next@11.1.1-canary.6
-
-
-      
-      
- Next.jsの設定
-
-next.config.js
-
-
-      
-        
-        const config &#x3D; {
-    experimental: { swcLoader: true }
-};
-module.exports &#x3D; config;
-
-
-      
-      
- ビルド
-
-      
-        
-        yarn next build
-
-
-      
- ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsで非同期処理が走らなくて困った話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hirockysan/articles/c10deae91a0a18">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>こんにちは。ひろっきーです。
-現在ITエンジニア転職を目指して現在、独学９ヶ月目で日々学習、現在はNext.js、TypeScript などを学習しており、ポートフォリオとしてSNSアプリケーションを作成しています。
-今回はこのSNSアプリの認証ページを作成するにあたって非同期処理で詰まった部分を共有したいと思います。
-
- 使用技術
-
-React
-Next.js
-Typescript
-TailwindCSS
-Firebase Authentication
-Material UI
-React-redux-toolkit
-...etc
-
-
- 実際のコード（長いので一部抜粋）
-
-      
-...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Redux Toolkit の非同期処理の変遷を試してみる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/himorishige/articles/de9593a77863e8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>はじめに
-Reduxにはながーい歴史の中、非同期処理についてはいろいろと語られてきましたが、、🙈
-Redux Toolkit v1.6.0からは新たな非同期処理であるRTK Queryが組み込まれました。
-RTK Queryはswrやreact-queryと同じようなキャッシュ戦略を駆使したRedux Toolkitチーム謹製のQueryツールとなっています。
-https://redux-toolkit.js.org/rtk-query/overview
-いくつかのプロジェクトでも使い始めていたところですが、ちょうどRedux Thunk -&gt; createSyncThunk ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vue3 で「動く」Slack絵文字ジェネレーターを作って公開した話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryo_kawamata/articles/38f7a866799414">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>先日リリースした個人開発のアプリについて感想や技術スタックなど色々書きます。
-
- どんなアプリを公開した？
-以下ツイートで紹介している、 Slack の絵文字スタンプ用のアニ GIF を簡単につくれるアプリを公開しました。
-https://twitter.com/KawamataRyo/status/1425292135356682248
-タイミングが良かったのか数多く Retweet してもらえ、 Twitter を初めて初のバズの波動を感じました。アプリ自体はこちらです。とても簡単に試せるのでぜひ使ってもらえると嬉しいです。
-https://www.animated-emoji-ge...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Theme UIのPresetのデザインの導入方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/beeeyan/articles/8493cfe83f775f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>前回に引き続きTheme UIの話です。
-
- はじめに ~ Presetのデザインとは？ ~
-Presetとは「設定値などを前もって調整すること」であり、
-Theme UIではパッケージとしてあらかじめ用意されたデザイン（色など）の規定値が存在しています。
-たとえば、公式サイト右上のボタンは、Presetの種類を意味していて、
-このボタンを押すことで、デザインを瞬時に変更できるようになっています。
-Lightの場合（公式サイトのスクショ）
-
-darkの場合（公式サイトのスクショ）
-
-今回の記事は、この「Preset」をどうやって導入するかって話になります！
-
- Presetの確認方法
-公...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">NestJSで新規プロジェクトを作るときの備忘録</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/himorishige/articles/cfd7aedacc3083">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-個人的には最近のバックエンドはサーバレスにNestJSが一択になりつつあります。明日の自分のために、NestJS v8でnest new直後に行っている開発前の下準備の備忘録になります。
-https://nestjs.com/
-https://github.com/himorishige/nestjs-template
-
- 1.NestJSのプロジェクトを作成
-CLIをまだ未インストールの場合はNestJSのCLIをグローバルにインストールします。
-
-      
-        
-        $ npm i -g @nestjs/cli
-
-
-      
-      ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vue.jsからローカルストレージの値を操作する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/0f0e5d0224439e">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>ローカルストレージに値をセットしたり、ローカルストレージから値を取得したりしたいことがあったので、試して記事に残してみました。
-
- はじめに
-通常ローカルストレージには機密情報は保存してはいけません。
-僕の場合は永続的に保存したい設定値を保存する際に用いる事が多いです。← 設定値は別に流出されても全然何の問題もないような情報です。
-ローカルストレージに機密情報を保存してはいけない理由はJavaScriptから参照できてしまうからです。XSS脆弱性を代表に、JavaScriptを用いてローカルストレージやCookieから情報を抜き取られる可能性がないとはいい切れません。安全の為にローカルス...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-12">2021-08-12</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">expo + redux-toolkit + redux-persistでAsyncStorageにやる気を永続化させるアプリを作った</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kondo_script/articles/a61aebbcd6d4a8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>誰向けの記事?
-
-react-nativeやexpo使って小さなアプリを作りたいけどバックエンド組むのは面倒くさい人
-redux toolkitってぶっちゃけどうなん？ というのが知りたい人
-expo + redux-toolkit + redux-persist のボイラープレートが欲しい人
-
-黙って動くボイラープレートよこせや、っていう人はこちら
-
-おれはそういう素直な人好きだよ
-
-
-
-
-
-
- いきさつ
-
-何につけてもやる気が出なかったのでやる気を永続化させようと思った
-やる気がないのでexpoで楽して作りたかった
-やる気がないのでバックエンドは作りたくなかった
-
-AsyncSt...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-11T01:03:53.714Z">2021-09-11T01:03:53.714Z</time>
+    <time id="build-timestamp" datetime="2021-09-12T01:07:55.046Z">2021-09-12T01:07:55.046Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
