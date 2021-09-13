@@ -55,6 +55,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/peg/articles/dff5c97e5c41b0",
+          "author": "ぺい",
+          "description": "課題としては、SPAでのアクセス制御。\n\nユーザーがログインしたら特定の画面にアクセスできる\nログインしてない場合はアクセスできないようにする。\nログインしている時はログイン画面からリダイレクトする\n\nなどなど。\nhttps://zenn.dev/nus3/scraps/d04f5026bab361\nhttps://zenn.dev/catnose99/articles/2169dae14b58b6\n\n リダイレクトする前に画面が見えてしまう。\nfunctional componentでuseEffectで制御しようとすると、見せたくない画面が一瞬表示される。\nhttps://davec...",
+          "link": "https://zenn.dev/peg/articles/dff5c97e5c41b0",
+          "publishedOn": "2021-09-12T07:00:06.000Z",
+          "wordCount": 67,
+          "title": "ReactとかNext.jsのアクセス制御",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Eu3tSa_Y--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BA%25E3%2581%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25E3%2581%25A8%25E3%2581%258BNext.js%25E3%2581%25AE%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2582%25B9%25E5%2588%25B6%25E5%25BE%25A1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjU2OGRmNDg3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/peg/articles/61440985120417",
+          "author": "ぺい",
+          "description": "Nextjsでの認証のタイミングがどうなのか調べた。\n\n 記事1\nhttps://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries\n\nIn this way, if you don’t check for authentication on the server, you can prevent adding getServerSideProps to your pages.\n\n\nAnd if your pages ...",
+          "link": "https://zenn.dev/peg/articles/61440985120417",
+          "publishedOn": "2021-09-12T06:59:39.000Z",
+          "wordCount": 135,
+          "title": "Nextjsでの認証の記事を読んだ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--OVaHN1zx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BA%25E3%2581%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Nextjs%25E3%2581%25A7%25E3%2581%25AE%25E8%25AA%258D%25E8%25A8%25BC%25E3%2581%25AE%25E8%25A8%2598%25E4%25BA%258B%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjU2OGRmNDg3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/maztak/articles/0a59c556ce4b83",
+          "author": "Takuya Matsuda",
+          "description": "Llike this👇\n\n      \n        \n        {router.pathname !== '/' && (\n    <div className=''>\n\t...\n    </div>\n)}\n\n\n      \n      \n Properties of router\nHere is a example that shows what are propeties of router. This url is /search?q=aaa, not / so that we can understand. So don't us...",
+          "link": "https://zenn.dev/maztak/articles/0a59c556ce4b83",
+          "publishedOn": "2021-09-12T05:14:41.000Z",
+          "wordCount": 91,
+          "title": "How to chechk is home with useRouter in Next.js(React)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--k2B5V_bM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takuya%2520Matsuda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:How%2520to%2520chechk%2520is%2520home%2520with%2520useRouter%2520in%2520Next.js%2528React%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pneVNwNkxqcEZSMEVzVXhmb2pzTVZHblBjYUVSNnRKRVhuY1NzNXc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/kyo9bo/articles/9909ba89c42a77",
           "author": "kyosuke kubo",
           "description": "やったこと\nstorybook + chromatic + githubActionでUIのテストを自動化させました。\n今回mainとdevelopブランチにpull requestが行われた場合に実行させるようにしたので、手順を記事にします。\n\n 手順\n\n chromaticのセットアップ\nchromaticとは、storybookのメンテナーが作っているstorybookをホスティングするサービスです。加えてgithubと連携することで、PRと連携してUIのreviewを効率化してくれます。\n現状、似たようなサービスとしてNetlifyがよく使われているように思われますが、sto...",
@@ -697,48 +739,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yuyakato/articles/688efbc128eff6",
-          "author": "Yuya Kato",
-          "description": "目次\n\nInsightFaceとFastAPIで顔検出サーバを作ってみた\nInsightFaceの顔検出結果をNext.jsで可視化してみた\nInsightFaceで顔認証（特徴量抽出、比較）してみた\nInsightFaceをGPUで動かしてみた\nInsightFaceを使って動画から顔検出してみた\nInsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた（本記事）\n\n\n 初めに\n前回の記事では、InsightFaceによる顔検出の結果をOpenCVを使って可視化（オーバーレイ表示）し、動画ファイルとして出力しました。\n今回は、ウェブブラウザ上で動画にオーバーレ...",
-          "link": "https://zenn.dev/yuyakato/articles/688efbc128eff6",
-          "publishedOn": "2021-08-14T12:53:20.000Z",
-          "wordCount": 126,
-          "title": "InsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--20exEA0j--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuya%2520Kato%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:InsightFace%25E3%2581%25AE%25E9%25A1%2594%25E6%25A4%259C%25E5%2587%25BA%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E4%25B8%258A%25E3%2581%25A7%25E5%258B%2595%25E7%2594%25BB%25E3%2581%25AB%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2583%25AC%25E3%2582%25A4%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dUSUhmX2JGaE1tcVp0aDNYQUI2NFY0aGRnNlJWbE5CbjVhZmQzdXc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
-          "author": "Yosuke Tanaka",
-          "description": "何を作ったか\n2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。\nhttps://sofeap.vercel.app/\n\n 『エンジニア・プログラマにしか使えないSNS』とは\nhttps://qiita.com/HawkClaws/items/599d7666f55e79ef7f56\n\n本当のエンジニア・プログラマしか使えないSNSを作ってみました！\nつまり、WebApi提供のみのSNSです\n一般ピープルが使うようなフロントエンドなんてありません...",
-          "link": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
-          "publishedOn": "2021-08-14T12:34:23.000Z",
-          "wordCount": 143,
-          "title": "『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--xK4AT_rS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yosuke%2520Tanaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%258E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25BB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2581%25AB%25E3%2581%2597%25E3%2581%258B%25E4%25BD%25BF%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584SNS%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%25E3%2580%258F%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25A2%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTRmMjNhMmNjNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/09a1369e53e5d0",
-          "author": "空雲",
-          "description": "Next.jsの11.1系統からswc導入のアナウンス\nNext.jsの11.1系統からビルドにswcを導入するというアナウンスがありました\nこのswcはネイティブアプリケーションなので、JavaScript製のビルドツールより高速に動作します\nところが開発途上のものだけあって、実際にどうやって使うのかはアナウンス上に何も書かれていません\nネット界隈でもアナウンスをそのまま垂れ流すだけで、実際に試してみる人がさっぱり見つかりませんでした\nということで、実際に使ってみたいと思います\n\n Next.jsのインストール\n\n      \n        \n        yarn add n...",
-          "link": "https://zenn.dev/sora_kumo/articles/09a1369e53e5d0",
-          "publishedOn": "2021-08-14T06:08:03.000Z",
-          "wordCount": 71,
-          "title": "Next.jsでビルドにswcを使う(2021/8/14版)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--KCGgURP9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2583%2593%25E3%2583%25AB%25E3%2583%2589%25E3%2581%25ABswc%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25282021%252F8%252F14%25E7%2589%2588%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -816,20 +816,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975",
-          "author": "ryuji_cre8ive",
-          "description": "結論\nwatchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。\n\n 具体的に\n\n      \n        \n        computed: {\n    islogin(){\n      return this.$store.state.login.islogin\n    }\n  },\n  watch: {\n    islogin() {\n      this.$nextTick(() => {\n        this.items[0].link = `/${this.islogin.id}/top`;\n        this.ite...",
-          "link": "https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975",
-          "publishedOn": "2021-08-14T06:45:35.000Z",
-          "wordCount": 46,
-          "title": "nuxtでログイン処理後の動的リンク作成",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--AHWh0rTR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryuji_cre8ive%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nuxt%25E3%2581%25A7%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E5%2587%25A6%25E7%2590%2586%25E5%25BE%258C%25E3%2581%25AE%25E5%258B%2595%25E7%259A%2584%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E4%25BD%259C%25E6%2588%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hKUHROdS15cGNUUERTNUdxMnB0M09YeXpDbDZmdVlBMmF4bjFoTnc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -838,6 +824,104 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b",
+          "author": "Katsuma Narisawa",
+          "description": "最近開発しているBtoB SaaSサービスの技術スタックを、RailsからNode.jsに移行した。\nこれにより、フロントエンドもバックエンドも全てをTypeScriptで統一することができた。\n特にNode.jsのWebバックエンドの構成について、まだまだ世の中に知見が少ない気がしているので記事にしておく。\n\n Webバックエンド - Node.js(TypeScript)\n\n Nexus/Apollo Server (Webサーバー)\nGraphQLサーバーとして、コードファーストなアプローチのApollo ServerラッパーであるNexusを使っている。\nhttps://nexu...",
+          "link": "https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b",
+          "publishedOn": "2021-09-13T01:01:28.000Z",
+          "wordCount": 282,
+          "title": "TypeScriptでWebサービス開発（Apollo Server/Prisma/Next.js etc...)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--bymI1cDo--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Katsuma%2520Narisawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:TypeScript%25E3%2581%25A7Web%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E9%2596%258B%25E7%2599%25BA%25EF%25BC%2588Apollo%2520Server%252FPrisma%252FNext.js%2520etc...%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dGd2NYR1FfN2V4bjdjdjY0OVh1cXBJMUZtcFF5ejQ1aTNIbE81Z3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mitsuyoshi/articles/f94b89ec17d117",
+          "author": "みつよし",
+          "description": "type UniqueId = string\ntype Obj = ...\n\nconst numberKeyMap = new Map<number, UniqueId>()\nconst stringKeyMap = new Map<string, UniqueId>()\nconst map = new Map<UniqueId, Obj>()\n\nfunction getObjByNumberKey(key: number): Obj | undefined {\n  const id = numberK...",
+          "link": "https://zenn.dev/mitsuyoshi/articles/f94b89ec17d117",
+          "publishedOn": "2021-09-12T12:36:27.000Z",
+          "wordCount": 70,
+          "title": "[TypeScript] 複数のKeyから引くMap",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9B4jl2rx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BF%25E3%2581%25A4%25E3%2582%2588%25E3%2581%2597%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BTypeScript%255D%2520%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AEKey%25E3%2581%258B%25E3%2582%2589%25E5%25BC%2595%25E3%2581%258FMap%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvbS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/539d7f6e7f3c63",
+          "author": "空雲",
+          "description": "非同期処理の並列実行数に関して\n大量の処理をAPIに投げるような場合、非同期処理が行われているとすぐに次の処理の実行が可能になります。そのためDoS攻撃のようなリクエストを投げてしまう場合があります。かといって一件ずつ処理待ちをしていると、待機時間が馬鹿になりません。\nこういう場合に必要になってくるのが並列実行回数の制限です。\n\n よくある非同期待ちに関して\n最大並列実行数を制御する場合、よくある処理としては実行処理そのものをキューに積んで、最大数を制限しながらキューの中の処理を実行していく方式です。この方法の問題点は、処理内容が10万件とか大規模な処理が必要な場合に、10万件の実行...",
+          "link": "https://zenn.dev/sora_kumo/articles/539d7f6e7f3c63",
+          "publishedOn": "2021-09-12T01:55:08.000Z",
+          "wordCount": 141,
+          "title": "[TypeScript]非同期処理(promise)の最大並列実行数を5行で制限",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--44Pko8Ur--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BTypeScript%255D%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%2528promise%2529%25E3%2581%25AE%25E6%259C%2580%25E5%25A4%25A7%25E4%25B8%25A6%25E5%2588%2597%25E5%25AE%259F%25E8%25A1%258C%25E6%2595%25B0%25E3%2582%25925%25E8%25A1%258C%25E3%2581%25A7%25E5%2588%25B6%25E9%2599%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/mackay/articles/1e8fcce329336d",
+          "author": "マッケイ",
+          "description": "こんにちは\nマッケイです。\nまとめまで書き終わった後に突如ページが消えて、まっさらのページを見ながら、それでもなお不屈の精神で書き上げた記事になります。\n\n はじめに\n僕が運営するReact Bootcampというコミュニティにて、useEffect has amissing dependencyというwarningを解消したいという声を聞きました。\n僕自身も体系だった情報がないかと探したところ、見当たらなかったのでこの記事を執筆しました。\n\n なぜwarningが発生する？\nそもそもなぜこのwarningが発生しているのでしょうか？\nこのwarningを出している本体は、ESLintで...",
+          "link": "https://zenn.dev/mackay/articles/1e8fcce329336d",
+          "publishedOn": "2021-09-11T16:20:49.000Z",
+          "wordCount": 126,
+          "title": "useEffect has amissing dependencyのwarningを解消する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--IiiEdGiV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%2583%25E3%2582%25B1%25E3%2582%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:useEffect%2520has%2520amissing%2520dependency%25E3%2581%25AEwarning%25E3%2582%2592%25E8%25A7%25A3%25E6%25B6%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTI3Mjk1ZGZiZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/laiso/articles/715543d2cd5552",
+          "author": "laiso",
+          "description": "概要\nLaravel標準のフロントエンド環境を自分好みにカスタマイズします\n\n 方針\n\nReact+TypeScriptで画面を書く\nLaravel Jetstream、Breezeを使わない(Livewire/Inertia.jsやAlpine.js、Blade Componentsが付属して入ってくるので)\nBladeテンプレートは画面構成に使わない\nSPAにする\nSSRはしない\nLaravel Mixでアセットを管理する\n\nなぜこうするかというとフロントエンドの環境だけ分離できる状態を維持しておいて、あとで複数人開発への移行やデプロイ分割をしたいためです。\n\n NPMモジュール...",
+          "link": "https://zenn.dev/laiso/articles/715543d2cd5552",
+          "publishedOn": "2021-09-11T15:56:43.000Z",
+          "wordCount": 218,
+          "title": "Laravel 8のフロントエンド環境をReact+TypeScriptにする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--dRH23dpK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:laiso%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Laravel%25208%25E3%2581%25AE%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592React%252BTypeScript%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDhlOThiNTFhNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/gakuzzzz/articles/1fa87342be1f82",
+          "author": "gakuzzzz",
+          "description": "はじめに\n世のプログラミング言語には「分割代入(Destructuring Assignment)」と呼ばれる機構を持つものがあります。\nメジャーな所では ECMAScript/TypeScript や Python, PHP, Ruby などでしょうか。\n実のところ Scala と Kotlin はこの分割代入という言語機構を持っていません。代わりに別の機構によって似たような目的を達成しています。\nこの記事では両者がとったアプローチを比較してそれぞれの違いについて紹介します。\n使用する言語のバージョンは以下の通りです。\n\nTypeScript 4.4\n\nScala 3.0.2\n\nK...",
+          "link": "https://zenn.dev/gakuzzzz/articles/1fa87342be1f82",
+          "publishedOn": "2021-09-11T15:48:18.000Z",
+          "wordCount": 461,
+          "title": "ScalaとKotlinの分割代入(っぽい機構)の比較",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--XAb7PGOE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gakuzzzz%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Scala%25E3%2581%25A8Kotlin%25E3%2581%25AE%25E5%2588%2586%25E5%2589%25B2%25E4%25BB%25A3%25E5%2585%25A5%2528%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%2584%25E6%25A9%259F%25E6%25A7%258B%2529%25E3%2581%25AE%25E6%25AF%2594%25E8%25BC%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDI3ZDVkOWZjMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/bokutano26/articles/442f11f4ec69bf",
+          "author": "bokutano26",
+          "description": "こんにちは。この記事ではjavaScriptにおける等価演算子（==）と厳密等価演算子（===）の違いについて解説していきます。実際の現場では、等価演算子は非推奨としているところが多い印象です。その理由も以下の解説を読むことで理解できるかと思います。\n\n 等価演算子（==）と厳密等価演算子（===）の違い\nまず初めにMDNを見てみましょう。\nMDNには、等価演算子と厳密等価演算子の説明が以下のようにされています。\n\n 等価演算子(==)\n\n等価演算子 (==) は、二つのオペランドが等しいことを検査し、論理値で結果を返します。厳密等価演算子とは異なり、オペランドの型が異なる場合には型の変...",
+          "link": "https://zenn.dev/bokutano26/articles/442f11f4ec69bf",
+          "publishedOn": "2021-09-11T13:56:16.000Z",
+          "wordCount": 62,
+          "title": "==（等価演算子）と===（厳密等価演算子）の違い",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--p90GwqT4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:bokutano26%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%253D%253D%25EF%25BC%2588%25E7%25AD%2589%25E4%25BE%25A1%25E6%25BC%2594%25E7%25AE%2597%25E5%25AD%2590%25EF%25BC%2589%25E3%2581%25A8%253D%253D%253D%25EF%25BC%2588%25E5%258E%25B3%25E5%25AF%2586%25E7%25AD%2589%25E4%25BE%25A1%25E6%25BC%2594%25E7%25AE%2597%25E5%25AD%2590%25EF%25BC%2589%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDdjYzVlNTc4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/yuitosato/articles/fdbc464f31c292",
           "author": "Yuito Sato",
@@ -2013,48 +2097,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kawarimidoll/articles/4ea4219cf69225",
-          "author": "kawarimidoll",
-          "description": "先日、Deno標準ライブラリのバージョン0.104.0が公開されました。\nhttps://github.com/denoland/deno_std/releases/tag/0.104.0\nこちらで増強されたcollectionsというモジュールを紹介します。\nhttps://deno.land/std@0.104.0/collections\nその名の通り、集合の扱いを支援してくれるモジュールです。\n本記事では0.104.0のリリースで追加された関数を紹介します。\n既存のものはバージョン0.102.0の時点での記事で解説していますので、あわせてご覧ください。\nhttps://zenn.d...",
-          "link": "https://zenn.dev/kawarimidoll/articles/4ea4219cf69225",
-          "publishedOn": "2021-08-14T12:59:52.000Z",
-          "wordCount": 660,
-          "title": "Deno標準ライブラリ0.104.0で増強されたcollectionsの紹介",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--KFwAFqVd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kawarimidoll%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Deno%25E6%25A8%2599%25E6%25BA%2596%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA0.104.0%25E3%2581%25A7%25E5%25A2%2597%25E5%25BC%25B7%25E3%2581%2595%25E3%2582%258C%25E3%2581%259Fcollections%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjM3OWFjOGQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
-          "author": "Yosuke Tanaka",
-          "description": "何を作ったか\n2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。\nhttps://sofeap.vercel.app/\n\n 『エンジニア・プログラマにしか使えないSNS』とは\nhttps://qiita.com/HawkClaws/items/599d7666f55e79ef7f56\n\n本当のエンジニア・プログラマしか使えないSNSを作ってみました！\nつまり、WebApi提供のみのSNSです\n一般ピープルが使うようなフロントエンドなんてありません...",
-          "link": "https://zenn.dev/yosket/articles/a4402ffa2a12e4",
-          "publishedOn": "2021-08-14T12:34:23.000Z",
-          "wordCount": 143,
-          "title": "『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--xK4AT_rS--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yosuke%2520Tanaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%258E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25BB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2581%25AB%25E3%2581%2597%25E3%2581%258B%25E4%25BD%25BF%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584SNS%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%25E3%2580%258F%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25A2%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOTRmMjNhMmNjNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/eagle/articles/ts-coproduct-introduction",
-          "author": "eagle",
-          "description": "代数的データ型とはなにか\n代数的データ型とは、要素の個数の足し算と掛け算のアナロジーで語ることができる型のことを指すというふわっとしたコンセンサスがありますが、\n厳密に「これが代数的データ型である」という定義はおそらくありません[1]。\nまた、代数的データ型はいわゆる関数型言語で実装されることが多い言語機能であり、\n代数的データ型を重用するプログラミングスタイルは関数型の一派としてみなされる傾向がある[2]と思っています。\n本記事では数学的な説明やアナロジーは用いず、なるべく具体的なコードを提示します。\nそして、代数的データ型という言葉を「かつ」と「または」を表すことができる型として...",
-          "link": "https://zenn.dev/eagle/articles/ts-coproduct-introduction",
-          "publishedOn": "2021-08-14T11:38:08.000Z",
-          "wordCount": 1719,
-          "title": "TypeScriptで学ぶ代数的データ型",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--KpEjgwH5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eagle%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E5%25AD%25A6%25E3%2581%25B6%25E4%25BB%25A3%25E6%2595%25B0%25E7%259A%2584%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E5%259E%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTFmZjAxNGQyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2654,48 +2696,6 @@
           "title": "真面目にOSSを公開する際にやってみたこと・意識したこと",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--JpAp0yXP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%259C%259F%25E9%259D%25A2%25E7%259B%25AE%25E3%2581%25ABOSS%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AB%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%25E3%2583%25BB%25E6%2584%258F%25E8%25AD%2598%25E3%2581%2597%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975",
-          "author": "ryuji_cre8ive",
-          "description": "結論\nwatchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。\n\n 具体的に\n\n      \n        \n        computed: {\n    islogin(){\n      return this.$store.state.login.islogin\n    }\n  },\n  watch: {\n    islogin() {\n      this.$nextTick(() => {\n        this.items[0].link = `/${this.islogin.id}/top`;\n        this.ite...",
-          "link": "https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975",
-          "publishedOn": "2021-08-14T06:45:35.000Z",
-          "wordCount": 46,
-          "title": "nuxtでログイン処理後の動的リンク作成",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--AHWh0rTR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryuji_cre8ive%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nuxt%25E3%2581%25A7%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E5%2587%25A6%25E7%2590%2586%25E5%25BE%258C%25E3%2581%25AE%25E5%258B%2595%25E7%259A%2584%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E4%25BD%259C%25E6%2588%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hKUHROdS15cGNUUERTNUdxMnB0M09YeXpDbDZmdVlBMmF4bjFoTnc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components",
-          "author": "Tatsuya Yamamoto",
-          "description": "何この記事？\n\nVue3.2 で Vue Component を Web Components にする defineCustomElement が提供された。\n\n<style>を持つ SFC を子要素以下にもつ SFC を Web Components 化する場合、現行(v3.2.1)の機能では追加で作業が必要。\n\n\n\n defineCustomElement\nref. Vue and Web Components - Building Custom Elements with Vue\nVue v3.2.0 の新機能として defineCustomElement が提供されま...",
-          "link": "https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components",
-          "publishedOn": "2021-08-14T04:49:01.000Z",
-          "wordCount": 376,
-          "title": "Vue3.2のdefineCustomElementで子要素のSFCのstyleも含めてWebComponents化する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Qzj-7Yj5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Tatsuya%2520Yamamoto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Vue3.2%25E3%2581%25AEdefineCustomElement%25E3%2581%25A7%25E5%25AD%2590%25E8%25A6%2581%25E7%25B4%25A0%25E3%2581%25AESFC%25E3%2581%25AEstyle%25E3%2582%2582%25E5%2590%25AB%25E3%2582%2581%25E3%2581%25A6WebComponents%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dBa3ZyVG8tZTFKR0Z2NFY5X0JKTnNDSnVXMi1pZ2F3Y1pqZFExPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uedayou/articles/c1e76684d3d094",
-          "author": "uedayou",
-          "description": "JavaScriptでWebアプリを開発する場合、最近は Node.js や Deno、各フレームワーク毎にCLIツール(create-react-app、Vue CLI、Vite、Angular CLI)を使って環境構築することが一般的かと思います。\n少し複雑なWebアプリを作るには必須ですが、本当にちょっとしたWebアプリを作りたい場合には面倒だったりします。\nそこで、これらの環境構築が必要のないWebアプリを作ってみることにしました。幸い、Vue.jsや、UIフレームワークのVuetifyなどは従来通りscriptタグでファイルをロードする形でも動いてくれるようなので、CDNからV...",
-          "link": "https://zenn.dev/uedayou/articles/c1e76684d3d094",
-          "publishedOn": "2021-08-14T02:01:05.000Z",
-          "wordCount": 1305,
-          "title": "CDN版Vue.jsとオープンデータでお手軽マッシュアップ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--BMEjhtvW--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uedayou%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:CDN%25E7%2589%2588Vue.js%25E3%2581%25A8%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25B3%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2581%25A7%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2583%259E%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjE1ODQxMjJlMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

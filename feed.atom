@@ -2,10 +2,125 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-12T01:07:55.067Z</updated>
+    <updated>2021-09-13T01:07:38.606Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでWebサービス開発（Apollo Server/Prisma/Next.js etc...)]]></title>
+        <id>https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b</id>
+        <link href="https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b"/>
+        <updated>2021-09-13T01:01:28.000Z</updated>
+        <summary type="html"><![CDATA[最近開発しているBtoB SaaSサービスの技術スタックを、RailsからNode.jsに移行した。
+これにより、フロントエンドもバックエンドも全てをTypeScriptで統一することができた。
+特にNode.jsのWebバックエンドの構成について、まだまだ世の中に知見が少ない気がしているので記事にしておく。
+
+ Webバックエンド - Node.js(TypeScript)
+
+ Nexus/Apollo Server (Webサーバー)
+GraphQLサーバーとして、コードファーストなアプローチのApollo ServerラッパーであるNexusを使っている。
+https://nexu...]]></summary>
+        <author>
+            <name>Katsuma Narisawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[TypeScript] 複数のKeyから引くMap]]></title>
+        <id>https://zenn.dev/mitsuyoshi/articles/f94b89ec17d117</id>
+        <link href="https://zenn.dev/mitsuyoshi/articles/f94b89ec17d117"/>
+        <updated>2021-09-12T12:36:27.000Z</updated>
+        <summary type="html"><![CDATA[type UniqueId = string
+type Obj = ...
+
+const numberKeyMap = new Map<number, UniqueId>()
+const stringKeyMap = new Map<string, UniqueId>()
+const map = new Map<UniqueId, Obj>()
+
+function getObjByNumberKey(key: number): Obj | undefined {
+  const id = numberK...]]></summary>
+        <author>
+            <name>みつよし</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReactとかNext.jsのアクセス制御]]></title>
+        <id>https://zenn.dev/peg/articles/dff5c97e5c41b0</id>
+        <link href="https://zenn.dev/peg/articles/dff5c97e5c41b0"/>
+        <updated>2021-09-12T07:00:06.000Z</updated>
+        <summary type="html"><![CDATA[課題としては、SPAでのアクセス制御。
+
+ユーザーがログインしたら特定の画面にアクセスできる
+ログインしてない場合はアクセスできないようにする。
+ログインしている時はログイン画面からリダイレクトする
+
+などなど。
+https://zenn.dev/nus3/scraps/d04f5026bab361
+https://zenn.dev/catnose99/articles/2169dae14b58b6
+
+ リダイレクトする前に画面が見えてしまう。
+functional componentでuseEffectで制御しようとすると、見せたくない画面が一瞬表示される。
+https://davec...]]></summary>
+        <author>
+            <name>ぺい</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nextjsでの認証の記事を読んだ]]></title>
+        <id>https://zenn.dev/peg/articles/61440985120417</id>
+        <link href="https://zenn.dev/peg/articles/61440985120417"/>
+        <updated>2021-09-12T06:59:39.000Z</updated>
+        <summary type="html"><![CDATA[Nextjsでの認証のタイミングがどうなのか調べた。
+
+ 記事1
+https://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries
+
+In this way, if you don’t check for authentication on the server, you can prevent adding getServerSideProps to your pages.
+
+
+And if your pages ...]]></summary>
+        <author>
+            <name>ぺい</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to chechk is home with useRouter in Next.js(React)]]></title>
+        <id>https://zenn.dev/maztak/articles/0a59c556ce4b83</id>
+        <link href="https://zenn.dev/maztak/articles/0a59c556ce4b83"/>
+        <updated>2021-09-12T05:14:41.000Z</updated>
+        <summary type="html"><![CDATA[Llike this👇
+
+      
+        
+        {router.pathname !== '/' && (
+    <div className=''>
+	...
+    </div>
+)}
+
+
+      
+      
+ Properties of router
+Here is a example that shows what are propeties of router. This url is /search?q=aaa, not / so that we can understand. So don't us...]]></summary>
+        <author>
+            <name>Takuya Matsuda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[TypeScript]非同期処理(promise)の最大並列実行数を5行で制限]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/539d7f6e7f3c63</id>
+        <link href="https://zenn.dev/sora_kumo/articles/539d7f6e7f3c63"/>
+        <updated>2021-09-12T01:55:08.000Z</updated>
+        <summary type="html"><![CDATA[非同期処理の並列実行数に関して
+大量の処理をAPIに投げるような場合、非同期処理が行われているとすぐに次の処理の実行が可能になります。そのためDoS攻撃のようなリクエストを投げてしまう場合があります。かといって一件ずつ処理待ちをしていると、待機時間が馬鹿になりません。
+こういう場合に必要になってくるのが並列実行回数の制限です。
+
+ よくある非同期待ちに関して
+最大並列実行数を制御する場合、よくある処理としては実行処理そのものをキューに積んで、最大数を制限しながらキューの中の処理を実行していく方式です。この方法の問題点は、処理内容が10万件とか大規模な処理が必要な場合に、10万件の実行...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Headless UI + Vue3で作るUIコンポーネント]]></title>
         <id>https://zenn.dev/chabatake_i/articles/headlessui_introduction</id>
@@ -20,6 +135,89 @@ https://github.com/K-shigehito/headlessui-example
 内容に誤り等...]]></summary>
         <author>
             <name>k-shigehito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[useEffect has amissing dependencyのwarningを解消する]]></title>
+        <id>https://zenn.dev/mackay/articles/1e8fcce329336d</id>
+        <link href="https://zenn.dev/mackay/articles/1e8fcce329336d"/>
+        <updated>2021-09-11T16:20:49.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは
+マッケイです。
+まとめまで書き終わった後に突如ページが消えて、まっさらのページを見ながら、それでもなお不屈の精神で書き上げた記事になります。
+
+ はじめに
+僕が運営するReact Bootcampというコミュニティにて、useEffect has amissing dependencyというwarningを解消したいという声を聞きました。
+僕自身も体系だった情報がないかと探したところ、見当たらなかったのでこの記事を執筆しました。
+
+ なぜwarningが発生する？
+そもそもなぜこのwarningが発生しているのでしょうか？
+このwarningを出している本体は、ESLintで...]]></summary>
+        <author>
+            <name>マッケイ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravel 8のフロントエンド環境をReact+TypeScriptにする]]></title>
+        <id>https://zenn.dev/laiso/articles/715543d2cd5552</id>
+        <link href="https://zenn.dev/laiso/articles/715543d2cd5552"/>
+        <updated>2021-09-11T15:56:43.000Z</updated>
+        <summary type="html"><![CDATA[概要
+Laravel標準のフロントエンド環境を自分好みにカスタマイズします
+
+ 方針
+
+React+TypeScriptで画面を書く
+Laravel Jetstream、Breezeを使わない(Livewire/Inertia.jsやAlpine.js、Blade Componentsが付属して入ってくるので)
+Bladeテンプレートは画面構成に使わない
+SPAにする
+SSRはしない
+Laravel Mixでアセットを管理する
+
+なぜこうするかというとフロントエンドの環境だけ分離できる状態を維持しておいて、あとで複数人開発への移行やデプロイ分割をしたいためです。
+
+ NPMモジュール...]]></summary>
+        <author>
+            <name>laiso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ScalaとKotlinの分割代入(っぽい機構)の比較]]></title>
+        <id>https://zenn.dev/gakuzzzz/articles/1fa87342be1f82</id>
+        <link href="https://zenn.dev/gakuzzzz/articles/1fa87342be1f82"/>
+        <updated>2021-09-11T15:48:18.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+世のプログラミング言語には「分割代入(Destructuring Assignment)」と呼ばれる機構を持つものがあります。
+メジャーな所では ECMAScript/TypeScript や Python, PHP, Ruby などでしょうか。
+実のところ Scala と Kotlin はこの分割代入という言語機構を持っていません。代わりに別の機構によって似たような目的を達成しています。
+この記事では両者がとったアプローチを比較してそれぞれの違いについて紹介します。
+使用する言語のバージョンは以下の通りです。
+
+TypeScript 4.4
+
+Scala 3.0.2
+
+K...]]></summary>
+        <author>
+            <name>gakuzzzz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[==（等価演算子）と===（厳密等価演算子）の違い]]></title>
+        <id>https://zenn.dev/bokutano26/articles/442f11f4ec69bf</id>
+        <link href="https://zenn.dev/bokutano26/articles/442f11f4ec69bf"/>
+        <updated>2021-09-11T13:56:16.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。この記事ではjavaScriptにおける等価演算子（==）と厳密等価演算子（===）の違いについて解説していきます。実際の現場では、等価演算子は非推奨としているところが多い印象です。その理由も以下の解説を読むことで理解できるかと思います。
+
+ 等価演算子（==）と厳密等価演算子（===）の違い
+まず初めにMDNを見てみましょう。
+MDNには、等価演算子と厳密等価演算子の説明が以下のようにされています。
+
+ 等価演算子(==)
+
+等価演算子 (==) は、二つのオペランドが等しいことを検査し、論理値で結果を返します。厳密等価演算子とは異なり、オペランドの型が異なる場合には型の変...]]></summary>
+        <author>
+            <name>bokutano26</name>
         </author>
     </entry>
     <entry>
@@ -4172,204 +4370,6 @@ OS : macOS Big Sur
 React Router( react-route...]]></summary>
         <author>
             <name>gebo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deno標準ライブラリ0.104.0で増強されたcollectionsの紹介]]></title>
-        <id>https://zenn.dev/kawarimidoll/articles/4ea4219cf69225</id>
-        <link href="https://zenn.dev/kawarimidoll/articles/4ea4219cf69225"/>
-        <updated>2021-08-14T12:59:52.000Z</updated>
-        <summary type="html"><![CDATA[先日、Deno標準ライブラリのバージョン0.104.0が公開されました。
-https://github.com/denoland/deno_std/releases/tag/0.104.0
-こちらで増強されたcollectionsというモジュールを紹介します。
-https://deno.land/std@0.104.0/collections
-その名の通り、集合の扱いを支援してくれるモジュールです。
-本記事では0.104.0のリリースで追加された関数を紹介します。
-既存のものはバージョン0.102.0の時点での記事で解説していますので、あわせてご覧ください。
-https://zenn.d...]]></summary>
-        <author>
-            <name>kawarimidoll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[InsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた]]></title>
-        <id>https://zenn.dev/yuyakato/articles/688efbc128eff6</id>
-        <link href="https://zenn.dev/yuyakato/articles/688efbc128eff6"/>
-        <updated>2021-08-14T12:53:20.000Z</updated>
-        <summary type="html"><![CDATA[目次
-
-InsightFaceとFastAPIで顔検出サーバを作ってみた
-InsightFaceの顔検出結果をNext.jsで可視化してみた
-InsightFaceで顔認証（特徴量抽出、比較）してみた
-InsightFaceをGPUで動かしてみた
-InsightFaceを使って動画から顔検出してみた
-InsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた（本記事）
-
-
- 初めに
-前回の記事では、InsightFaceによる顔検出の結果をOpenCVを使って可視化（オーバーレイ表示）し、動画ファイルとして出力しました。
-今回は、ウェブブラウザ上で動画にオーバーレ...]]></summary>
-        <author>
-            <name>Yuya Kato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話]]></title>
-        <id>https://zenn.dev/yosket/articles/a4402ffa2a12e4</id>
-        <link href="https://zenn.dev/yosket/articles/a4402ffa2a12e4"/>
-        <updated>2021-08-14T12:34:23.000Z</updated>
-        <summary type="html"><![CDATA[何を作ったか
-2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。
-https://sofeap.vercel.app/
-
- 『エンジニア・プログラマにしか使えないSNS』とは
-https://qiita.com/HawkClaws/items/599d7666f55e79ef7f56
-
-本当のエンジニア・プログラマしか使えないSNSを作ってみました！
-つまり、WebApi提供のみのSNSです
-一般ピープルが使うようなフロントエンドなんてありません...]]></summary>
-        <author>
-            <name>Yosuke Tanaka</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話]]></title>
-        <id>https://zenn.dev/yosket/articles/a4402ffa2a12e4</id>
-        <link href="https://zenn.dev/yosket/articles/a4402ffa2a12e4"/>
-        <updated>2021-08-14T12:34:23.000Z</updated>
-        <summary type="html"><![CDATA[何を作ったか
-2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。
-https://sofeap.vercel.app/
-
- 『エンジニア・プログラマにしか使えないSNS』とは
-https://qiita.com/HawkClaws/items/599d7666f55e79ef7f56
-
-本当のエンジニア・プログラマしか使えないSNSを作ってみました！
-つまり、WebApi提供のみのSNSです
-一般ピープルが使うようなフロントエンドなんてありません...]]></summary>
-        <author>
-            <name>Yosuke Tanaka</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptで学ぶ代数的データ型]]></title>
-        <id>https://zenn.dev/eagle/articles/ts-coproduct-introduction</id>
-        <link href="https://zenn.dev/eagle/articles/ts-coproduct-introduction"/>
-        <updated>2021-08-14T11:38:08.000Z</updated>
-        <summary type="html"><![CDATA[代数的データ型とはなにか
-代数的データ型とは、要素の個数の足し算と掛け算のアナロジーで語ることができる型のことを指すというふわっとしたコンセンサスがありますが、
-厳密に「これが代数的データ型である」という定義はおそらくありません[1]。
-また、代数的データ型はいわゆる関数型言語で実装されることが多い言語機能であり、
-代数的データ型を重用するプログラミングスタイルは関数型の一派としてみなされる傾向がある[2]と思っています。
-本記事では数学的な説明やアナロジーは用いず、なるべく具体的なコードを提示します。
-そして、代数的データ型という言葉を「かつ」と「または」を表すことができる型として...]]></summary>
-        <author>
-            <name>eagle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nuxtでログイン処理後の動的リンク作成]]></title>
-        <id>https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975</id>
-        <link href="https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975"/>
-        <updated>2021-08-14T06:45:35.000Z</updated>
-        <summary type="html"><![CDATA[結論
-watchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。
-
- 具体的に
-
-      
-        
-        computed: {
-    islogin(){
-      return this.$store.state.login.islogin
-    }
-  },
-  watch: {
-    islogin() {
-      this.$nextTick(() => {
-        this.items[0].link = `/${this.islogin.id}/top`;
-        this.ite...]]></summary>
-        <author>
-            <name>ryuji_cre8ive</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nuxtでログイン処理後の動的リンク作成]]></title>
-        <id>https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975</id>
-        <link href="https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975"/>
-        <updated>2021-08-14T06:45:35.000Z</updated>
-        <summary type="html"><![CDATA[結論
-watchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。
-
- 具体的に
-
-      
-        
-        computed: {
-    islogin(){
-      return this.$store.state.login.islogin
-    }
-  },
-  watch: {
-    islogin() {
-      this.$nextTick(() => {
-        this.items[0].link = `/${this.islogin.id}/top`;
-        this.ite...]]></summary>
-        <author>
-            <name>ryuji_cre8ive</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでビルドにswcを使う(2021/8/14版)]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/09a1369e53e5d0</id>
-        <link href="https://zenn.dev/sora_kumo/articles/09a1369e53e5d0"/>
-        <updated>2021-08-14T06:08:03.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsの11.1系統からswc導入のアナウンス
-Next.jsの11.1系統からビルドにswcを導入するというアナウンスがありました
-このswcはネイティブアプリケーションなので、JavaScript製のビルドツールより高速に動作します
-ところが開発途上のものだけあって、実際にどうやって使うのかはアナウンス上に何も書かれていません
-ネット界隈でもアナウンスをそのまま垂れ流すだけで、実際に試してみる人がさっぱり見つかりませんでした
-ということで、実際に使ってみたいと思います
-
- Next.jsのインストール
-
-      
-        
-        yarn add n...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue3.2のdefineCustomElementで子要素のSFCのstyleも含めてWebComponents化する]]></title>
-        <id>https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components</id>
-        <link href="https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components"/>
-        <updated>2021-08-14T04:49:01.000Z</updated>
-        <summary type="html"><![CDATA[何この記事？
-
-Vue3.2 で Vue Component を Web Components にする defineCustomElement が提供された。
-
-<style>を持つ SFC を子要素以下にもつ SFC を Web Components 化する場合、現行(v3.2.1)の機能では追加で作業が必要。
-
-
-
- defineCustomElement
-ref. Vue and Web Components - Building Custom Elements with Vue
-Vue v3.2.0 の新機能として defineCustomElement が提供されま...]]></summary>
-        <author>
-            <name>Tatsuya Yamamoto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CDN版Vue.jsとオープンデータでお手軽マッシュアップ]]></title>
-        <id>https://zenn.dev/uedayou/articles/c1e76684d3d094</id>
-        <link href="https://zenn.dev/uedayou/articles/c1e76684d3d094"/>
-        <updated>2021-08-14T02:01:05.000Z</updated>
-        <summary type="html"><![CDATA[JavaScriptでWebアプリを開発する場合、最近は Node.js や Deno、各フレームワーク毎にCLIツール(create-react-app、Vue CLI、Vite、Angular CLI)を使って環境構築することが一般的かと思います。
-少し複雑なWebアプリを作るには必須ですが、本当にちょっとしたWebアプリを作りたい場合には面倒だったりします。
-そこで、これらの環境構築が必要のないWebアプリを作ってみることにしました。幸い、Vue.jsや、UIフレームワークのVuetifyなどは従来通りscriptタグでファイルをロードする形でも動いてくれるようなので、CDNからV...]]></summary>
-        <author>
-            <name>uedayou</name>
         </author>
     </entry>
 </feed>

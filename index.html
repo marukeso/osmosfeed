@@ -77,6 +77,155 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-13">2021-09-13</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptでWebサービス開発（Apollo Server/Prisma/Next.js etc...)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>最近開発しているBtoB SaaSサービスの技術スタックを、RailsからNode.jsに移行した。
+これにより、フロントエンドもバックエンドも全てをTypeScriptで統一することができた。
+特にNode.jsのWebバックエンドの構成について、まだまだ世の中に知見が少ない気がしているので記事にしておく。
+
+ Webバックエンド - Node.js(TypeScript)
+
+ Nexus/Apollo Server (Webサーバー)
+GraphQLサーバーとして、コードファーストなアプローチのApollo ServerラッパーであるNexusを使っている。
+https://nexu...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-12">2021-09-12</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ReactとかNext.jsのアクセス制御</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/peg/articles/dff5c97e5c41b0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>課題としては、SPAでのアクセス制御。
+
+ユーザーがログインしたら特定の画面にアクセスできる
+ログインしてない場合はアクセスできないようにする。
+ログインしている時はログイン画面からリダイレクトする
+
+などなど。
+https://zenn.dev/nus3/scraps/d04f5026bab361
+https://zenn.dev/catnose99/articles/2169dae14b58b6
+
+ リダイレクトする前に画面が見えてしまう。
+functional componentでuseEffectで制御しようとすると、見せたくない画面が一瞬表示される。
+https://davec...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nextjsでの認証の記事を読んだ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/peg/articles/61440985120417">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Nextjsでの認証のタイミングがどうなのか調べた。
+
+ 記事1
+https://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries
+
+In this way, if you don’t check for authentication on the server, you can prevent adding getServerSideProps to your pages.
+
+
+And if your pages ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to chechk is home with useRouter in Next.js(React)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/maztak/articles/0a59c556ce4b83">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Llike this👇
+
+      
+        
+        {router.pathname !&#x3D;&#x3D; &#x27;/&#x27; &amp;&amp; (
+    
+	...
+    
+)}
+
+
+      
+      
+ Properties of router
+Here is a example that shows what are propeties of router. This url is /search?q&#x3D;aaa, not / so that we can understand. So don&#x27;t us...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[TypeScript] 複数のKeyから引くMap</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mitsuyoshi/articles/f94b89ec17d117">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>type UniqueId &#x3D; string
+type Obj &#x3D; ...
+
+const numberKeyMap &#x3D; new Map()
+const stringKeyMap &#x3D; new Map()
+const map &#x3D; new Map()
+
+function getObjByNumberKey(key: number): Obj | undefined {
+  const id &#x3D; numberK...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[TypeScript]非同期処理(promise)の最大並列実行数を5行で制限</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/539d7f6e7f3c63">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>非同期処理の並列実行数に関して
+大量の処理をAPIに投げるような場合、非同期処理が行われているとすぐに次の処理の実行が可能になります。そのためDoS攻撃のようなリクエストを投げてしまう場合があります。かといって一件ずつ処理待ちをしていると、待機時間が馬鹿になりません。
+こういう場合に必要になってくるのが並列実行回数の制限です。
+
+ よくある非同期待ちに関して
+最大並列実行数を制御する場合、よくある処理としては実行処理そのものをキューに積んで、最大数を制限しながらキューの中の処理を実行していく方式です。この方法の問題点は、処理内容が10万件とか大規模な処理が必要な場合に、10万件の実行...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-11">2021-09-11</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -131,6 +280,93 @@ chromaticとは、storybookのメンテナーが作っているstorybookをホ�
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">useEffect has amissing dependencyのwarningを解消する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mackay/articles/1e8fcce329336d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>こんにちは
+マッケイです。
+まとめまで書き終わった後に突如ページが消えて、まっさらのページを見ながら、それでもなお不屈の精神で書き上げた記事になります。
+
+ はじめに
+僕が運営するReact Bootcampというコミュニティにて、useEffect has amissing dependencyというwarningを解消したいという声を聞きました。
+僕自身も体系だった情報がないかと探したところ、見当たらなかったのでこの記事を執筆しました。
+
+ なぜwarningが発生する？
+そもそもなぜこのwarningが発生しているのでしょうか？
+このwarningを出している本体は、ESLintで...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Laravel 8のフロントエンド環境をReact+TypeScriptにする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/laiso/articles/715543d2cd5552">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>概要
+Laravel標準のフロントエンド環境を自分好みにカスタマイズします
+
+ 方針
+
+React+TypeScriptで画面を書く
+Laravel Jetstream、Breezeを使わない(Livewire/Inertia.jsやAlpine.js、Blade Componentsが付属して入ってくるので)
+Bladeテンプレートは画面構成に使わない
+SPAにする
+SSRはしない
+Laravel Mixでアセットを管理する
+
+なぜこうするかというとフロントエンドの環境だけ分離できる状態を維持しておいて、あとで複数人開発への移行やデプロイ分割をしたいためです。
+
+ NPMモジュール...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ScalaとKotlinの分割代入(っぽい機構)の比較</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gakuzzzz/articles/1fa87342be1f82">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+世のプログラミング言語には「分割代入(Destructuring Assignment)」と呼ばれる機構を持つものがあります。
+メジャーな所では ECMAScript/TypeScript や Python, PHP, Ruby などでしょうか。
+実のところ Scala と Kotlin はこの分割代入という言語機構を持っていません。代わりに別の機構によって似たような目的を達成しています。
+この記事では両者がとったアプローチを比較してそれぞれの違いについて紹介します。
+使用する言語のバージョンは以下の通りです。
+
+TypeScript 4.4
+
+Scala 3.0.2
+
+K...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">&#x3D;&#x3D;（等価演算子）と&#x3D;&#x3D;&#x3D;（厳密等価演算子）の違い</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bokutano26/articles/442f11f4ec69bf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>こんにちは。この記事ではjavaScriptにおける等価演算子（&#x3D;&#x3D;）と厳密等価演算子（&#x3D;&#x3D;&#x3D;）の違いについて解説していきます。実際の現場では、等価演算子は非推奨としているところが多い印象です。その理由も以下の解説を読むことで理解できるかと思います。
+
+ 等価演算子（&#x3D;&#x3D;）と厳密等価演算子（&#x3D;&#x3D;&#x3D;）の違い
+まず初めにMDNを見てみましょう。
+MDNには、等価演算子と厳密等価演算子の説明が以下のようにされています。
+
+ 等価演算子(&#x3D;&#x3D;)
+
+等価演算子 (&#x3D;&#x3D;) は、二つのオペランドが等しいことを検査し、論理値で結果を返します。厳密等価演算子とは異なり、オペランドの型が異なる場合には型の変...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">TypeScriptの全てのasを撲滅するas-safelyというOSSを作ったゾォォ〜</summary>
@@ -5061,246 +5297,9 @@ https://github.com/kawamataryo/vue-word-highlighter
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-14">2021-08-14</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">InsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuyakato/articles/688efbc128eff6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>目次
-
-InsightFaceとFastAPIで顔検出サーバを作ってみた
-InsightFaceの顔検出結果をNext.jsで可視化してみた
-InsightFaceで顔認証（特徴量抽出、比較）してみた
-InsightFaceをGPUで動かしてみた
-InsightFaceを使って動画から顔検出してみた
-InsightFaceの顔検出結果をブラウザ上で動画にオーバーレイ表示してみた（本記事）
-
-
- 初めに
-前回の記事では、InsightFaceによる顔検出の結果をOpenCVを使って可視化（オーバーレイ表示）し、動画ファイルとして出力しました。
-今回は、ウェブブラウザ上で動画にオーバーレ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yosket/articles/a4402ffa2a12e4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>何を作ったか
-2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。
-https://sofeap.vercel.app/
-
- 『エンジニア・プログラマにしか使えないSNS』とは
-https://qiita.com/HawkClaws/items/599d7666f55e79ef7f56
-
-本当のエンジニア・プログラマしか使えないSNSを作ってみました！
-つまり、WebApi提供のみのSNSです
-一般ピープルが使うようなフロントエンドなんてありません...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでビルドにswcを使う(2021/8/14版)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/09a1369e53e5d0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Next.jsの11.1系統からswc導入のアナウンス
-Next.jsの11.1系統からビルドにswcを導入するというアナウンスがありました
-このswcはネイティブアプリケーションなので、JavaScript製のビルドツールより高速に動作します
-ところが開発途上のものだけあって、実際にどうやって使うのかはアナウンス上に何も書かれていません
-ネット界隈でもアナウンスをそのまま垂れ流すだけで、実際に試してみる人がさっぱり見つかりませんでした
-ということで、実際に使ってみたいと思います
-
- Next.jsのインストール
-
-      
-        
-        yarn add n...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">nuxtでログイン処理後の動的リンク作成</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>結論
-watchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。
-
- 具体的に
-
-      
-        
-        computed: {
-    islogin(){
-      return this.$store.state.login.islogin
-    }
-  },
-  watch: {
-    islogin() {
-      this.$nextTick(() &#x3D;&gt; {
-        this.items[0].link &#x3D; &#x60;/${this.islogin.id}/top&#x60;;
-        this.ite...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Deno標準ライブラリ0.104.0で増強されたcollectionsの紹介</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/4ea4219cf69225">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>先日、Deno標準ライブラリのバージョン0.104.0が公開されました。
-https://github.com/denoland/deno_std/releases/tag/0.104.0
-こちらで増強されたcollectionsというモジュールを紹介します。
-https://deno.land/std@0.104.0/collections
-その名の通り、集合の扱いを支援してくれるモジュールです。
-本記事では0.104.0のリリースで追加された関数を紹介します。
-既存のものはバージョン0.102.0の時点での記事で解説していますので、あわせてご覧ください。
-https://zenn.d...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">『エンジニア・プログラマにしか使えないSNSを作ってみた話』のクライアントを作ってみた話</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yosket/articles/a4402ffa2a12e4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>何を作ったか
-2021年7月にQiitaに投稿された『エンジニア・プログラマにしか使えないSNSを作ってみた話』という記事で紹介されているSNSのウェブクライアントを、7月の4連休を使って作ってみました。
-https://sofeap.vercel.app/
-
- 『エンジニア・プログラマにしか使えないSNS』とは
-https://qiita.com/HawkClaws/items/599d7666f55e79ef7f56
-
-本当のエンジニア・プログラマしか使えないSNSを作ってみました！
-つまり、WebApi提供のみのSNSです
-一般ピープルが使うようなフロントエンドなんてありません...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScriptで学ぶ代数的データ型</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/eagle/articles/ts-coproduct-introduction">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>代数的データ型とはなにか
-代数的データ型とは、要素の個数の足し算と掛け算のアナロジーで語ることができる型のことを指すというふわっとしたコンセンサスがありますが、
-厳密に「これが代数的データ型である」という定義はおそらくありません[1]。
-また、代数的データ型はいわゆる関数型言語で実装されることが多い言語機能であり、
-代数的データ型を重用するプログラミングスタイルは関数型の一派としてみなされる傾向がある[2]と思っています。
-本記事では数学的な説明やアナロジーは用いず、なるべく具体的なコードを提示します。
-そして、代数的データ型という言葉を「かつ」と「または」を表すことができる型として...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">nuxtでログイン処理後の動的リンク作成</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryuji_cre8ive/articles/2c998bc7010975">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>結論
-watchを使用してstoreのloginを監視して変更があった段階でリンクを書き換える。
-
- 具体的に
-
-      
-        
-        computed: {
-    islogin(){
-      return this.$store.state.login.islogin
-    }
-  },
-  watch: {
-    islogin() {
-      this.$nextTick(() &#x3D;&gt; {
-        this.items[0].link &#x3D; &#x60;/${this.islogin.id}/top&#x60;;
-        this.ite...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vue3.2のdefineCustomElementで子要素のSFCのstyleも含めてWebComponents化する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/t28_tatsuya/articles/define-custom-element-with-nested-vue-components">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>何この記事？
-
-Vue3.2 で Vue Component を Web Components にする defineCustomElement が提供された。
-
-を持つ SFC を子要素以下にもつ SFC を Web Components 化する場合、現行(v3.2.1)の機能では追加で作業が必要。
-
-
-
- defineCustomElement
-ref. Vue and Web Components - Building Custom Elements with Vue
-Vue v3.2.0 の新機能として defineCustomElement が提供されま...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">CDN版Vue.jsとオープンデータでお手軽マッシュアップ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uedayou/articles/c1e76684d3d094">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>JavaScriptでWebアプリを開発する場合、最近は Node.js や Deno、各フレームワーク毎にCLIツール(create-react-app、Vue CLI、Vite、Angular CLI)を使って環境構築することが一般的かと思います。
-少し複雑なWebアプリを作るには必須ですが、本当にちょっとしたWebアプリを作りたい場合には面倒だったりします。
-そこで、これらの環境構築が必要のないWebアプリを作ってみることにしました。幸い、Vue.jsや、UIフレームワークのVuetifyなどは従来通りscriptタグでファイルをロードする形でも動いてくれるようなので、CDNからV...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-12T01:07:55.046Z">2021-09-12T01:07:55.046Z</time>
+    <time id="build-timestamp" datetime="2021-09-13T01:07:38.582Z">2021-09-13T01:07:38.582Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
