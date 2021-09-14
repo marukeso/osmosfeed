@@ -2,10 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-13T01:07:38.606Z</updated>
+    <updated>2021-09-14T01:09:02.264Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでFirebase経由でGoogle認証を利用する]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40</id>
+        <link href="https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40"/>
+        <updated>2021-09-14T00:01:35.000Z</updated>
+        <summary type="html"><![CDATA[Firebaseを使えるようにするまで
+
+ Firebaseでプロジェクトを作成
+Firebaseを利用すると、無料で以下のサービスに対応した認証を行えます。
+自力で一つ一つ対応するより遙かに簡単です。
+
+上記の一覧はFirebaseにプロジェクトを作成し、Authenticationを選ぶと表示されます。
+
+ Google認証の有効化
+Firebaseの中でも最も認証が簡単に実装できるのが、Googleアカウントの認証です。
+先ほどのメニューからGoogleを選んで有効にするを押すだけで、ほぼ設定が完了します。
+
+
+ アプリケーションの登録
+歯車ボタンからプロジェクトを設定を選びま...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SvelteでWebAssemblyでTypeScriptでRollupで: Rustが征く(5)]]></title>
+        <id>https://zenn.dev/dozo/articles/918416f96ee652</id>
+        <link href="https://zenn.dev/dozo/articles/918416f96ee652"/>
+        <updated>2021-09-13T21:52:39.000Z</updated>
+        <summary type="html"><![CDATA[要素多過ぎ問題
+関連記事:
+Rustが征くシリーズ過去記事
+
+WSL2で作るWindows開発環境: Rustが征く(1)
+wasmerでWebAssemblyの門を叩く: Rustが征く(2)
+JavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)
+TypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)
+SvelteでWebAssemblyでTypeScriptでRollupで: Rustが征く(5)  ← イマココ
+
+
+前回の記事でTypeScriptとrollup.js、WebAssemblyを繋いだ。
+次...]]></summary>
+        <author>
+            <name>dozo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue2のプロジェクトをVue3へマイグレーションする]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8</id>
+        <link href="https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8"/>
+        <updated>2021-09-13T12:25:39.000Z</updated>
+        <summary type="html"><![CDATA[Vue 3が正式リリースされてから約1年が経過しました。
+Vuetifyのリリース目標である2021年Q3も近づく中でそろそろVue3へのアップデートを検討されている方もいらっしゃることでしょうか？
+この記事ではVue 2からVue 3への移行手順を記述していきます。
+参考用のプロジェクトとして以下レポジトリを用意しました。
+https://github.com/azukiazusa1/vue3-migrate-test
+Vue 2からの移行を体験してみたい場合には、vue2-todo-appのタグにチェックアウトしてください。
+
+ 移行ビルドを使用する
+Vue 2からVue 3へ移行す...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue2のプロジェクトをVue3へマイグレーションする]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8</id>
+        <link href="https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8"/>
+        <updated>2021-09-13T12:25:39.000Z</updated>
+        <summary type="html"><![CDATA[Vue 3が正式リリースされてから約1年が経過しました。
+Vuetifyのリリース目標である2021年Q3も近づく中でそろそろVue3へのアップデートを検討されている方もいらっしゃることでしょうか？
+この記事ではVue 2からVue 3への移行手順を記述していきます。
+参考用のプロジェクトとして以下レポジトリを用意しました。
+https://github.com/azukiazusa1/vue3-migrate-test
+Vue 2からの移行を体験してみたい場合には、vue2-todo-appのタグにチェックアウトしてください。
+
+ 移行ビルドを使用する
+Vue 2からVue 3へ移行す...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【個人開発】CtoCのコードレビューサービス Kanon Code]]></title>
+        <id>https://zenn.dev/kanon_code/articles/b3019ec509d6f5</id>
+        <link href="https://zenn.dev/kanon_code/articles/b3019ec509d6f5"/>
+        <updated>2021-09-13T10:38:44.000Z</updated>
+        <summary type="html"><![CDATA[CtoCのコードレビューサービス Kanon Codeをリリースしました
+
+本サイト
+Kanon Code
+
+ どんなサービス？
+レビューして欲しい人がコードを投稿し、自由にレビューしてもらえるサービスです。
+ユーザー登録でレビュイーにもレビュワーにもなれます。
+また、レビューは販売することも可能で、販売システムはnoteを参考にしています。
+もちろん無料でのレビューも可能です。
+
+ 技術スタック
+
+Next.js
+Lambda(node.js)
+DynamoDB
+vercel
+SAM
+Material UI
+styled-component
+
+
+ 実際の画面
+
+トップ画面はこのよう...]]></summary>
+        <author>
+            <name>kanon_code</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScriptでWebサービス開発（Apollo Server/Prisma/Next.js etc...)]]></title>
         <id>https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b</id>
@@ -22,6 +138,55 @@ GraphQLサーバーとして、コードファーストなアプローチのApol
 https://nexu...]]></summary>
         <author>
             <name>Katsuma Narisawa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでreact-pdf + react-konvaを使う]]></title>
+        <id>https://zenn.dev/kin/articles/658b06a3233e60</id>
+        <link href="https://zenn.dev/kin/articles/658b06a3233e60"/>
+        <updated>2021-09-12T23:56:42.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+ミチビク株式会社で開発に携わっております、Fiddler25と申します。
+最近業務でreact-pdf, react-konvaを使う機会がありました。
+画面上にPDFを表示し、PDF上で画像をドラッグ & ドロップする機能が必要だったのですが、Next.jsではインポートして利用できるようにするまでいくつかハマりポイントがあったため、解決方法を記したいと思います。
+記事の最後にreact-pdf + react-konvaの簡単なサンプルコードを載せました。
+こちらのコードで以下のような機能を作ることができます。
+
+PDFはpdf.jsのExamplesにあるhe...]]></summary>
+        <author>
+            <name>Fiddler25</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js の Error を丁寧に扱う]]></title>
+        <id>https://zenn.dev/takepepe/articles/nextjs-error-handling</id>
+        <link href="https://zenn.dev/takepepe/articles/nextjs-error-handling"/>
+        <updated>2021-09-12T16:39:51.000Z</updated>
+        <summary type="html"><![CDATA[Next.js には組み込みのエラーフォールバック機構が存在します。pages/404.tsxとpages/500.tsx、Unhandled Error を捉えるpages/_error.tsxが組み込みフォールバックです。https://nextjs.org/docs/advanced-features/custom-error-page
+実アプリケーションにおいてはこれだけでは不十分なケースが多く、意図的なもの・そうでないものをハンドリングしログ収集に繋げるなど、きちんとエラー設計をしたいところです。
+
+ TypeScript 4.4 で try catch の推論が変更になった
+...]]></summary>
+        <author>
+            <name>Takepepe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.JSでページ遷移する前にbeforeunloadはさみたい時]]></title>
+        <id>https://zenn.dev/qaynam/articles/c4794537a163d2</id>
+        <link href="https://zenn.dev/qaynam/articles/c4794537a163d2"/>
+        <updated>2021-09-12T14:30:16.000Z</updated>
+        <summary type="html"><![CDATA[フォームに入力中のデータがの残っていて、ページ遷移する前に注意(window.confirm())を出したくて、色々ハマりましたので、書き残しておきます。
+結論から言う、beforeunloadはwindow.location.hrefやF5ようなページの再読み込むが発生する時には発火しますが、Next.jsのRouterのような ブラウザーのhistory APIでの画面遷移の場合は発火しないようです。
+解決策をいくつか見つかったので、全部書いておきます。
+
+ 解決策1
+
+      
+        
+        import SingletonRouter, { Router ...]]></summary>
+        <author>
+            <name>qaynam</name>
         </author>
     </entry>
     <entry>
@@ -4258,118 +4423,6 @@ https://www.npmjs.com/package/@craco/craco
 まず、cracoをVanillaなJSテンプレートで使う場合の、webp...]]></summary>
         <author>
             <name>ふんばりフロントエンジニア</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文型大学生のためのpetite-vue入門]]></title>
-        <id>https://zenn.dev/ojk/books/intro-to-vue</id>
-        <link href="https://zenn.dev/ojk/books/intro-to-vue"/>
-        <updated>2021-08-15T12:08:25.000Z</updated>
-        <summary type="html"><![CDATA[文系学科の大学生を対象としたpetite-vueの入門書です。petite-vueはJavaScriptベースのウェブアプリ開発（フロントエンド開発）のフレームワークのひとつで、素のJavaScriptでコーディングするよりも完結に記述することができます。OJKの担当している授業テキストを公開しているものです。]]></summary>
-        <author>
-            <name>OJK</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[真面目にOSSを公開する際にやってみたこと・意識したこと]]></title>
-        <id>https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261</id>
-        <link href="https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261"/>
-        <updated>2021-08-15T11:16:02.000Z</updated>
-        <summary type="html"><![CDATA[先日初めて真面目に自分のコードを OSS として公開する機会があり、色々試行錯誤したのでまとめます。
-
-「真面目に」の基準は過去に自分が公開したリポジトリに比べてです 🙏
-
-
- 何を公開した？
-Vue Word Highlighter という Vue.js のコンポーネントライブラリを公開しました。
-機能はとても単純で、文字列と検索クエリを渡すと検索クエリに合致した文字をハイライトする（<mark>タグ又は任意のタグ囲む）というものです。
-https://github.com/kawamataryo/vue-word-highlighter
-自分なりに良い感じに使えるコンポー...]]></summary>
-        <author>
-            <name>ryo_kawamata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[真面目にOSSを公開する際にやってみたこと・意識したこと]]></title>
-        <id>https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261</id>
-        <link href="https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261"/>
-        <updated>2021-08-15T11:16:02.000Z</updated>
-        <summary type="html"><![CDATA[先日初めて真面目に自分のコードを OSS として公開する機会があり、色々試行錯誤したのでまとめます。
-
-「真面目に」の基準は過去に自分が公開したリポジトリに比べてです 🙏
-
-
- 何を公開した？
-Vue Word Highlighter という Vue.js のコンポーネントライブラリを公開しました。
-機能はとても単純で、文字列と検索クエリを渡すと検索クエリに合致した文字をハイライトする（<mark>タグ又は任意のタグ囲む）というものです。
-https://github.com/kawamataryo/vue-word-highlighter
-自分なりに良い感じに使えるコンポー...]]></summary>
-        <author>
-            <name>ryo_kawamata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js で Tailwind UI を使用するときにハマった話]]></title>
-        <id>https://zenn.dev/maztak/articles/6dba8e02771c29</id>
-        <link href="https://zenn.dev/maztak/articles/6dba8e02771c29"/>
-        <updated>2021-08-15T04:54:28.000Z</updated>
-        <summary type="html"><![CDATA[Next.js x TypeScript x TailwindCss の構成で開発をする人も増えていますよね。TailwindCssはBootStrapと違ってTemplateを与えるものではなくCSSコーディングを不要にモダンなWebサイトを作るCSSフレームワークと理解しています。そう入ってもTemplateが欲しいしなるべく公式っぽいものを使いたいので、公式ドキュメントでも推奨されている Tailwind UI を使います。
-https://tailwindui.com/preview
-
- HTMLではなくReactに切り替えてコードをコピーしよう
-
-これのHeader Nav ...]]></summary>
-        <author>
-            <name>Takuya Matsuda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firebase + React で Todoist のクローンを作る]]></title>
-        <id>https://zenn.dev/altech/articles/3c868c41e64f94</id>
-        <link href="https://zenn.dev/altech/articles/3c868c41e64f94"/>
-        <updated>2021-08-15T03:23:25.000Z</updated>
-        <summary type="html"><![CDATA[Firebase と React の勉強を兼ねて、愛用しているタスク管理アプリ Todoist のクローンを作ってみた。途中で色々試行錯誤したのだが、「最初から最短の手順で作るならこういう手順になる」というのを備忘と Firebase の紹介も兼ねてまとめてみようと思う。
-
-アプリケーション: https://altech-todoist.web.app/
-ソースコード： https://github.com/Altech/todoist-clone
-
- 0. はじめに
-
- 技術スタック
-
-言語： TypeScript
-UIライブラリ： React 17
-バックエンド：Firebase ...]]></summary>
-        <author>
-            <name>Altech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React&TypeScriptでのreact-redux、redux-thunkお勉強メモ]]></title>
-        <id>https://zenn.dev/gebo/articles/react-ts-cat-1</id>
-        <link href="https://zenn.dev/gebo/articles/react-ts-cat-1"/>
-        <updated>2021-08-15T02:06:45.000Z</updated>
-        <summary type="html"><![CDATA[フロントエンドのお勉強をしています。
-とりあえず React をやってみてるのですが react-redux、redux-thunk がめっちゃ難しくて全然理解できないということで簡単なコードを書いて実行しながら勉強したメモです。
-ハンズオンぽく書いてます。
-結果だけ興味のある方は コチラ からどうぞ。
-
- はじめに
-
- 環境
-
-OS : macOS Big Sur
-エディタ : VSCODE
-言語 : React & TypeScript
-ブラウザ : Chrome
-
-
- キーワード
-以下の内容を雰囲気レベルで使っています。
-
-React Router( react-route...]]></summary>
-        <author>
-            <name>gebo</name>
         </author>
     </entry>
 </feed>

@@ -55,6 +55,62 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/kanon_code/articles/b3019ec509d6f5",
+          "author": "kanon_code",
+          "description": "CtoCのコードレビューサービス Kanon Codeをリリースしました\n\n本サイト\nKanon Code\n\n どんなサービス？\nレビューして欲しい人がコードを投稿し、自由にレビューしてもらえるサービスです。\nユーザー登録でレビュイーにもレビュワーにもなれます。\nまた、レビューは販売することも可能で、販売システムはnoteを参考にしています。\nもちろん無料でのレビューも可能です。\n\n 技術スタック\n\nNext.js\nLambda(node.js)\nDynamoDB\nvercel\nSAM\nMaterial UI\nstyled-component\n\n\n 実際の画面\n\nトップ画面はこのよう...",
+          "link": "https://zenn.dev/kanon_code/articles/b3019ec509d6f5",
+          "publishedOn": "2021-09-13T10:38:44.000Z",
+          "wordCount": 97,
+          "title": "【個人開発】CtoCのコードレビューサービス Kanon Code",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--NXm7AVhq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kanon_code%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2580%2591CtoC%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520Kanon%2520Code%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzRjMjEwNDA1Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kin/articles/658b06a3233e60",
+          "author": "Fiddler25",
+          "description": "はじめに\nミチビク株式会社で開発に携わっております、Fiddler25と申します。\n最近業務でreact-pdf, react-konvaを使う機会がありました。\n画面上にPDFを表示し、PDF上で画像をドラッグ & ドロップする機能が必要だったのですが、Next.jsではインポートして利用できるようにするまでいくつかハマりポイントがあったため、解決方法を記したいと思います。\n記事の最後にreact-pdf + react-konvaの簡単なサンプルコードを載せました。\nこちらのコードで以下のような機能を作ることができます。\n\nPDFはpdf.jsのExamplesにあるhe...",
+          "link": "https://zenn.dev/kin/articles/658b06a3233e60",
+          "publishedOn": "2021-09-12T23:56:42.000Z",
+          "wordCount": 669,
+          "title": "Next.jsでreact-pdf + react-konvaを使う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--YYbo1p0q--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Fiddler25%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7react-pdf%2520%252B%2520react-konva%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dyYjQzRUh6NGhkbmxLTmZyclduaE43Z0M3V1hPMUQtRW5oVTh3PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/takepepe/articles/nextjs-error-handling",
+          "author": "Takepepe",
+          "description": "Next.js には組み込みのエラーフォールバック機構が存在します。pages/404.tsxとpages/500.tsx、Unhandled Error を捉えるpages/_error.tsxが組み込みフォールバックです。https://nextjs.org/docs/advanced-features/custom-error-page\n実アプリケーションにおいてはこれだけでは不十分なケースが多く、意図的なもの・そうでないものをハンドリングしログ収集に繋げるなど、きちんとエラー設計をしたいところです。\n\n TypeScript 4.4 で try catch の推論が変更になった\n...",
+          "link": "https://zenn.dev/takepepe/articles/nextjs-error-handling",
+          "publishedOn": "2021-09-12T16:39:51.000Z",
+          "wordCount": 569,
+          "title": "Next.js の Error を丁寧に扱う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--hq9pZrJB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takepepe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25AE%2520Error%2520%25E3%2582%2592%25E4%25B8%2581%25E5%25AF%25A7%25E3%2581%25AB%25E6%2589%25B1%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dpejh1QmdoVHJXUHhiRlRFdm9IVHJ5WDNhRkdmdlJCLUtVVTl6SUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/qaynam/articles/c4794537a163d2",
+          "author": "qaynam",
+          "description": "フォームに入力中のデータがの残っていて、ページ遷移する前に注意(window.confirm())を出したくて、色々ハマりましたので、書き残しておきます。\n結論から言う、beforeunloadはwindow.location.hrefやF5ようなページの再読み込むが発生する時には発火しますが、Next.jsのRouterのような ブラウザーのhistory APIでの画面遷移の場合は発火しないようです。\n解決策をいくつか見つかったので、全部書いておきます。\n\n 解決策1\n\n      \n        \n        import SingletonRouter, { Router ...",
+          "link": "https://zenn.dev/qaynam/articles/c4794537a163d2",
+          "publishedOn": "2021-09-12T14:30:16.000Z",
+          "wordCount": 160,
+          "title": "Next.JSでページ遷移する前にbeforeunloadはさみたい時",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--SjaSIAcI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:qaynam%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.JS%25E3%2581%25A7%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E9%2581%25B7%25E7%25A7%25BB%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25ABbeforeunload%25E3%2581%25AF%25E3%2581%2595%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E6%2599%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lqMTRfSGhpb09SazlXcGlSV29ZUjJDdWVHRW9ab3NwcFFER24zPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/peg/articles/dff5c97e5c41b0",
           "author": "ぺい",
           "description": "課題としては、SPAでのアクセス制御。\n\nユーザーがログインしたら特定の画面にアクセスできる\nログインしてない場合はアクセスできないようにする。\nログインしている時はログイン画面からリダイレクトする\n\nなどなど。\nhttps://zenn.dev/nus3/scraps/d04f5026bab361\nhttps://zenn.dev/catnose99/articles/2169dae14b58b6\n\n リダイレクトする前に画面が見えてしまう。\nfunctional componentでuseEffectで制御しようとすると、見せたくない画面が一瞬表示される。\nhttps://davec...",
@@ -725,20 +781,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/maztak/articles/6dba8e02771c29",
-          "author": "Takuya Matsuda",
-          "description": "Next.js x TypeScript x TailwindCss の構成で開発をする人も増えていますよね。TailwindCssはBootStrapと違ってTemplateを与えるものではなくCSSコーディングを不要にモダンなWebサイトを作るCSSフレームワークと理解しています。そう入ってもTemplateが欲しいしなるべく公式っぽいものを使いたいので、公式ドキュメントでも推奨されている Tailwind UI を使います。\nhttps://tailwindui.com/preview\n\n HTMLではなくReactに切り替えてコードをコピーしよう\n\nこれのHeader Nav ...",
-          "link": "https://zenn.dev/maztak/articles/6dba8e02771c29",
-          "publishedOn": "2021-08-15T04:54:28.000Z",
-          "wordCount": 45,
-          "title": "Next.js で Tailwind UI を使用するときにハマった話",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--SdOBMz9c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takuya%2520Matsuda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25A7%2520Tailwind%2520UI%2520%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E3%2583%258F%25E3%2583%259E%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pneVNwNkxqcEZSMEVzVXhmb2pzTVZHblBjYUVSNnRKRVhuY1NzNXc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -824,6 +866,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40",
+          "author": "空雲",
+          "description": "Firebaseを使えるようにするまで\n\n Firebaseでプロジェクトを作成\nFirebaseを利用すると、無料で以下のサービスに対応した認証を行えます。\n自力で一つ一つ対応するより遙かに簡単です。\n\n上記の一覧はFirebaseにプロジェクトを作成し、Authenticationを選ぶと表示されます。\n\n Google認証の有効化\nFirebaseの中でも最も認証が簡単に実装できるのが、Googleアカウントの認証です。\n先ほどのメニューからGoogleを選んで有効にするを押すだけで、ほぼ設定が完了します。\n\n\n アプリケーションの登録\n歯車ボタンからプロジェクトを設定を選びま...",
+          "link": "https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40",
+          "publishedOn": "2021-09-14T00:01:35.000Z",
+          "wordCount": 342,
+          "title": "Next.jsでFirebase経由でGoogle認証を利用する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--uYVZRDtq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Firebase%25E7%25B5%258C%25E7%2594%25B1%25E3%2581%25A7Google%25E8%25AA%258D%25E8%25A8%25BC%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dozo/articles/918416f96ee652",
+          "author": "dozo",
+          "description": "要素多過ぎ問題\n関連記事:\nRustが征くシリーズ過去記事\n\nWSL2で作るWindows開発環境: Rustが征く(1)\nwasmerでWebAssemblyの門を叩く: Rustが征く(2)\nJavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)\nTypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)\nSvelteでWebAssemblyでTypeScriptでRollupで: Rustが征く(5)  ← イマココ\n\n\n前回の記事でTypeScriptとrollup.js、WebAssemblyを繋いだ。\n次...",
+          "link": "https://zenn.dev/dozo/articles/918416f96ee652",
+          "publishedOn": "2021-09-13T21:52:39.000Z",
+          "wordCount": 398,
+          "title": "SvelteでWebAssemblyでTypeScriptでRollupで: Rustが征く(5)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--N9SIwuvX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dozo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Svelte%25E3%2581%25A7WebAssembly%25E3%2581%25A7TypeScript%25E3%2581%25A7Rollup%25E3%2581%25A7%253A%2520Rust%25E3%2581%258C%25E5%25BE%2581%25E3%2581%258F%25285%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8",
+          "author": "azukiazusa",
+          "description": "Vue 3が正式リリースされてから約1年が経過しました。\nVuetifyのリリース目標である2021年Q3も近づく中でそろそろVue3へのアップデートを検討されている方もいらっしゃることでしょうか？\nこの記事ではVue 2からVue 3への移行手順を記述していきます。\n参考用のプロジェクトとして以下レポジトリを用意しました。\nhttps://github.com/azukiazusa1/vue3-migrate-test\nVue 2からの移行を体験してみたい場合には、vue2-todo-appのタグにチェックアウトしてください。\n\n 移行ビルドを使用する\nVue 2からVue 3へ移行す...",
+          "link": "https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8",
+          "publishedOn": "2021-09-13T12:25:39.000Z",
+          "wordCount": 953,
+          "title": "Vue2のプロジェクトをVue3へマイグレーションする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--WO_KQunr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue2%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592Vue3%25E3%2581%25B8%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25B0%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/katsumanarisawa/articles/3e053fe3627b5b",
           "author": "Katsuma Narisawa",
@@ -2055,48 +2139,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
-          "author": "ryo_kawamata",
-          "description": "先日初めて真面目に自分のコードを OSS として公開する機会があり、色々試行錯誤したのでまとめます。\n\n「真面目に」の基準は過去に自分が公開したリポジトリに比べてです 🙏\n\n\n 何を公開した？\nVue Word Highlighter という Vue.js のコンポーネントライブラリを公開しました。\n機能はとても単純で、文字列と検索クエリを渡すと検索クエリに合致した文字をハイライトする（<mark>タグ又は任意のタグ囲む）というものです。\nhttps://github.com/kawamataryo/vue-word-highlighter\n自分なりに良い感じに使えるコンポー...",
-          "link": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
-          "publishedOn": "2021-08-15T11:16:02.000Z",
-          "wordCount": 279,
-          "title": "真面目にOSSを公開する際にやってみたこと・意識したこと",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--JpAp0yXP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%259C%259F%25E9%259D%25A2%25E7%259B%25AE%25E3%2581%25ABOSS%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AB%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%25E3%2583%25BB%25E6%2584%258F%25E8%25AD%2598%25E3%2581%2597%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/altech/articles/3c868c41e64f94",
-          "author": "Altech",
-          "description": "Firebase と React の勉強を兼ねて、愛用しているタスク管理アプリ Todoist のクローンを作ってみた。途中で色々試行錯誤したのだが、「最初から最短の手順で作るならこういう手順になる」というのを備忘と Firebase の紹介も兼ねてまとめてみようと思う。\n\nアプリケーション: https://altech-todoist.web.app/\nソースコード： https://github.com/Altech/todoist-clone\n\n 0. はじめに\n\n 技術スタック\n\n言語： TypeScript\nUIライブラリ： React 17\nバックエンド：Firebase ...",
-          "link": "https://zenn.dev/altech/articles/3c868c41e64f94",
-          "publishedOn": "2021-08-15T03:23:25.000Z",
-          "wordCount": 1337,
-          "title": "Firebase + React で Todoist のクローンを作る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--PYEr3HS6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Altech%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Firebase%2520%252B%2520React%2520%25E3%2581%25A7%2520Todoist%2520%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lwM1lJX0QtdzRRWVpUamg0WHhFV2FNaE01SHgzcHdjRXhucG15PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/gebo/articles/react-ts-cat-1",
-          "author": "gebo",
-          "description": "フロントエンドのお勉強をしています。\nとりあえず React をやってみてるのですが react-redux、redux-thunk がめっちゃ難しくて全然理解できないということで簡単なコードを書いて実行しながら勉強したメモです。\nハンズオンぽく書いてます。\n結果だけ興味のある方は コチラ からどうぞ。\n\n はじめに\n\n 環境\n\nOS : macOS Big Sur\nエディタ : VSCODE\n言語 : React & TypeScript\nブラウザ : Chrome\n\n\n キーワード\n以下の内容を雰囲気レベルで使っています。\n\nReact Router( react-route...",
-          "link": "https://zenn.dev/gebo/articles/react-ts-cat-1",
-          "publishedOn": "2021-08-15T02:06:45.000Z",
-          "wordCount": 1328,
-          "title": "React&TypeScriptでのreact-redux、redux-thunkお勉強メモ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--5mcIuEFO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gebo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%2526TypeScript%25E3%2581%25A7%25E3%2581%25AEreact-redux%25E3%2580%2581redux-thunk%25E3%2581%258A%25E5%258B%2589%25E5%25BC%25B7%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzRjMDUyZDE0OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2280,6 +2322,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8",
+          "author": "azukiazusa",
+          "description": "Vue 3が正式リリースされてから約1年が経過しました。\nVuetifyのリリース目標である2021年Q3も近づく中でそろそろVue3へのアップデートを検討されている方もいらっしゃることでしょうか？\nこの記事ではVue 2からVue 3への移行手順を記述していきます。\n参考用のプロジェクトとして以下レポジトリを用意しました。\nhttps://github.com/azukiazusa1/vue3-migrate-test\nVue 2からの移行を体験してみたい場合には、vue2-todo-appのタグにチェックアウトしてください。\n\n 移行ビルドを使用する\nVue 2からVue 3へ移行す...",
+          "link": "https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8",
+          "publishedOn": "2021-09-13T12:25:39.000Z",
+          "wordCount": 953,
+          "title": "Vue2のプロジェクトをVue3へマイグレーションする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--WO_KQunr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue2%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592Vue3%25E3%2581%25B8%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25B0%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/chabatake_i/articles/headlessui_introduction",
           "author": "k-shigehito",
@@ -2668,34 +2724,6 @@
           "title": "vuetify/v-autocompleteのポップアップメニューの位置ずれ",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--Ge3N-7D_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:walking_on_ice%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuetify%252Fv-autocomplete%25E3%2581%25AE%25E3%2583%259D%25E3%2583%2583%25E3%2583%2597%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25A1%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25AE%25E4%25BD%258D%25E7%25BD%25AE%25E3%2581%259A%25E3%2582%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTZhZjc2YmQ3Yy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ojk/books/intro-to-vue",
-          "author": "OJK",
-          "description": "文系学科の大学生を対象としたpetite-vueの入門書です。petite-vueはJavaScriptベースのウェブアプリ開発（フロントエンド開発）のフレームワークのひとつで、素のJavaScriptでコーディングするよりも完結に記述することができます。OJKの担当している授業テキストを公開しているものです。",
-          "link": "https://zenn.dev/ojk/books/intro-to-vue",
-          "publishedOn": "2021-08-15T12:08:25.000Z",
-          "wordCount": 9,
-          "title": "文型大学生のためのpetite-vue入門",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--e0FB1U6l--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9kMThjNzg1NDNkLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
-          "author": "ryo_kawamata",
-          "description": "先日初めて真面目に自分のコードを OSS として公開する機会があり、色々試行錯誤したのでまとめます。\n\n「真面目に」の基準は過去に自分が公開したリポジトリに比べてです 🙏\n\n\n 何を公開した？\nVue Word Highlighter という Vue.js のコンポーネントライブラリを公開しました。\n機能はとても単純で、文字列と検索クエリを渡すと検索クエリに合致した文字をハイライトする（<mark>タグ又は任意のタグ囲む）というものです。\nhttps://github.com/kawamataryo/vue-word-highlighter\n自分なりに良い感じに使えるコンポー...",
-          "link": "https://zenn.dev/ryo_kawamata/articles/b6f679bfe11261",
-          "publishedOn": "2021-08-15T11:16:02.000Z",
-          "wordCount": 279,
-          "title": "真面目にOSSを公開する際にやってみたこと・意識したこと",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--JpAp0yXP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ryo_kawamata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%259C%259F%25E9%259D%25A2%25E7%259B%25AE%25E3%2581%25ABOSS%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AB%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%25E3%2583%25BB%25E6%2584%258F%25E8%25AD%2598%25E3%2581%2597%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTY3Y2IxMjRlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
