@@ -12,6 +12,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/09/14/node-v16.9.0corepack-spook.jssame-site/",
+          "author": null,
+          "description": "JSer.info #557 - Node.js 16.9.0リリース。\nNode v16.9.0 (Current) | Node.js\nプロジェクトごとにnpm/yarn/pnpmなどのパッケージマネージャを切り替えて利用できるCorepackのサポートが実験的に追加されています。Corepackが有効時は、どのパッケージマネージャを使うかをpackage.json の packageManager フィールドで指定して、透過的にインストールや実行できるようになります。\nまた実験的であるため、利用するにはcorepack enable yarnなどのコマンドがオプトインで必要となっています。\nCorepack | Node.js v16.9.0 Documentation\ncorepack is 何?\nその他には、V8 9.3へアップデートしObject.hasOwnとError Causeをサポート、stream.composeの追加などが含まれています。\nV8 release v9.3 · V8\nSpook.jsという、投機的実行を利用したsame-siteでのサイドチャネル攻撃についての論文が公開されています。\nsame-site/cross-site, same-origin/cross-originをちゃんと理解する\n以前、GoogleがSpectreの概念を説明するものとしてhttps://leaky.page/というサイトを公開しています。\nGoogle Online Security Blog: A Spectre proof-of-concept for a Spectre-proof web\nSpook.jsは、これをより実践的に検証した論文で、BitbucketやTumblrなどのユーザーコンテンツがサブドメインにあるサイト同士でのデモ、Googl…",
+          "link": "https://jser.info/2021/09/14/node-v16.9.0corepack-spook.jssame-site/",
+          "publishedOn": "2021-09-14T01:00:58.000Z",
+          "wordCount": 527,
+          "title": "2021-09-14のJS: Node v16.9.0(Corepack)、Spook.js(Same-Siteでのサイドチャネル攻撃)"
+        },
+        {
           "id": "https://jser.info/2021/09/07/electron-14.0.0-node-fetch-3.0.0-replace-jquery/",
           "author": null,
           "description": "JSer.info #556 - Electron 14.0.0がリリースされました。\nElectron 14.0.0 | Electron Blog\n依存がそれぞれChromium 93、Node.js 14.17.0、V8 9.3へとアップデートされています。\napp.allowRendererProcessReuseオプションの削除、worldSafeExecuteJavaScriptオプションを削除(trueがデフォルト)されています。\nまた、Electron 12でDeprecatedとなっていたremoteモジュールを削除し、@electron/remoteという外部モジュールへと変更されています。\ncontextBridgeを使っていく方向になっています。\nElectron（v.14.0.0 現在）の IPC 通信入門 - よりセキュアな方法への変遷 - Qiita\nNode.jsでのFetch APIのpolyfillライブラリであるnode-fetch 3.0.0がリリースされました。\nRelease v3.0.0 · node-fetch/node-fetch\n破壊的な変更として、Node.jsのESMのサポート、Node.js 12未満のサポート終了されています。\ntimeoutオプションは不要となったため削除されています。\nShould we deprecate timeout in favor of AbortController? · Issue #523 · node-fetch/node-fetch\n一方で、非標準なhighWaterMarkオプションの追加されています。\nWhen users clone(), automatically create streams with custom highWaterMark · Issue #38…",
@@ -54,6 +63,48 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/kanon_code/articles/4384426f8f8a80",
+          "author": "kanon_code",
+          "description": "【個人開発】コードレビューサービスKanon CodeでOGP設定するときにハマったこと\nフロント：Next.js\nホスティング：vercel\nこの記事ではOGPの説明は割愛します。\n\n 参考記事一覧\nNext.jsにおけるSSG（静的サイト生成）とISRについて（自分の）限界まで丁寧に説明する\nnextjsのISRを使うときのfallback指定について理解するまでの話\nfallbackに関して【公式】\n\n 下調べが足りなかった箇所\n\nOGPで表示される画像の拡張子\nOGPで表示される画像の最小サイズ\nfallbackの挙動についての理解\n\n\n OGPに関すること\nこれは自分がドキ...",
+          "link": "https://zenn.dev/kanon_code/articles/4384426f8f8a80",
+          "publishedOn": "2021-09-14T03:00:14.000Z",
+          "wordCount": 225,
+          "title": "【個人開発】コードレビューサービスKanon CodeでOGP設定するときにハマったこと",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--AgvvVgOA--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kanon_code%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2580%2591%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9Kanon%2520Code%25E3%2581%25A7OGP%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E3%2583%258F%25E3%2583%259E%25E3%2581%25A3%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzRjMjEwNDA1Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40",
+          "author": "空雲",
+          "description": "Firebaseを使えるようにするまで\n\n Firebaseでプロジェクトを作成\nFirebaseを利用すると、無料で以下のサービスに対応した認証を行えます。\n自力で一つ一つ対応するより遙かに簡単です。\n\n上記の一覧はFirebaseにプロジェクトを作成し、Authenticationを選ぶと表示されます。\n\n Google認証の有効化\nFirebaseの中でも最も認証が簡単に実装できるのが、Googleアカウントの認証です。\n先ほどのメニューからGoogleを選んで有効にするを押すだけで、ほぼ設定が完了します。\n\n\n アプリケーションの登録\n歯車ボタンからプロジェクトを設定を選びま...",
+          "link": "https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40",
+          "publishedOn": "2021-09-14T00:01:35.000Z",
+          "wordCount": 342,
+          "title": "Next.jsでFirebase経由でGoogle認証を利用する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--uYVZRDtq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Firebase%25E7%25B5%258C%25E7%2594%25B1%25E3%2581%25A7Google%25E8%25AA%258D%25E8%25A8%25BC%25E3%2582%2592%25E5%2588%25A9%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/cacbahbj/articles/4e72e38872d67f",
+          "author": "terry",
+          "description": "概要\n2021/09/01に開催された下記勉強会のメモです\nhttps://mercari.connpass.com/event/221978/\nhttps://www.youtube.com/watch?v=YNLvIkqRC-g\nhttps://engineering.mercari.com/blog/entry/20210823-a57631d32e/\n\n パネルディスカッション\n\n メルカリShopsの画面構成\n\nメルカリトップからwebアプリケーションで埋め込み\n\nタブの中がメルカリShopsのWebView\nおすすめの商品をタップで商品画面を出す個別のWebView\n\n検...",
+          "link": "https://zenn.dev/cacbahbj/articles/4e72e38872d67f",
+          "publishedOn": "2021-09-13T16:15:39.000Z",
+          "wordCount": 109,
+          "title": "Souzoh Tech Talk #03: Frontend",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--CPnG8PmF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:terry%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Souzoh%2520Tech%2520Talk%2520%252303%253A%2520Frontend%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hKejB3ejZmdXM2N25DX1NTZzdDa2YxNXUwc1J3b0tBNmdjMmZBPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kanon_code/articles/b3019ec509d6f5",
           "author": "kanon_code",
@@ -725,62 +776,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/byanbyan/articles/baa0b53f8cef4d",
-          "author": "ゆゆゆ",
-          "description": "Next.jsのnext/imageは、画質をコンポーネントごとに設定できる。\n詳しくは公式を！\nhttps://nextjs.org/docs/api-reference/next/image\n実際どんなもんか気になったので調べてみた。\n\n コードの書き方\nquality={}に値を設定する。\n1〜100の間で設定する（100が最高画質）\nデフォルトは75\n\n      \n        \n        import Image from 'next/image'\n\n<Image src=\"...\" quality={1} width={900} height={500} /&...",
-          "link": "https://zenn.dev/byanbyan/articles/baa0b53f8cef4d",
-          "publishedOn": "2021-08-16T06:53:01.000Z",
-          "wordCount": 143,
-          "title": "Nextjs 🐕 next/imageのqualityの数値いじってみた！",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--sJ42cDmR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2586%25E3%2582%2586%25E3%2582%2586%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nextjs%2520%2520%2520next%252Fimage%25E3%2581%25AEquality%25E3%2581%25AE%25E6%2595%25B0%25E5%2580%25A4%25E3%2581%2584%25E3%2581%2598%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2U3NDQzNzU4NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/snowwshiro/articles/e0386f9cb6743f",
-          "author": "snowwshiro中の人",
-          "description": "私が開発・運営しているスノーアクティビティイベントマッチングサービス「snowwshiro」に、Next.js × Relayを使ったGraphQLフロントエンド環境を構築しようとしたところ、かなり手間取りましたので、記事にしました。\n最終的なコードについては、以下にて公開しています。\nhttps://github.com/snowwshiro/nextjs-relay-demo\n\n 前提\n現在snowwshiroは、フロントエンド・バックエンド共にRuby on Railsにて開発しています。\n一方、私自身は現在他プロジェクトでフロントエンドはReact・Next.js、バックエンドは...",
-          "link": "https://zenn.dev/snowwshiro/articles/e0386f9cb6743f",
-          "publishedOn": "2021-08-16T05:04:17.000Z",
-          "wordCount": 603,
-          "title": "Next.js × Relay でGraphQLフロントエンド環境を構築してGitHub APIにアクセスする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Mj0iOwJd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:snowwshiro%25E4%25B8%25AD%25E3%2581%25AE%25E4%25BA%25BA%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Next.js%2520%25C3%2597%2520Relay%2520%25E3%2581%25A7GraphQL%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2597%25E3%2581%25A6GitHub%2520API%25E3%2581%25AB%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTIzNjc5OTk4YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/maztak/articles/023ff810071d17",
-          "author": "Takuya Matsuda",
-          "description": "まず Bing Search Services は Cognitive Services Bing Custom Search に移行中であるが、いずれの Bing Custom Search API（Bing Web Search API と混同しないように）のドキュメントにも非推奨となっているjsライブラリrequestによる記法しか書いてない（2021年8月16日現在）。\nhttps://docs.microsoft.com/ja-jp/bing/search-apis/bing-custom-search/quickstarts/rest/nodejs\n今回はNext.js（R...",
-          "link": "https://zenn.dev/maztak/articles/023ff810071d17",
-          "publishedOn": "2021-08-16T03:39:44.000Z",
-          "wordCount": 118,
-          "title": "fetch による Bing Custom Search API の叩き方",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--y1DMit1K--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takuya%2520Matsuda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:fetch%2520%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%2520Bing%2520Custom%2520Search%2520API%2520%25E3%2581%25AE%25E5%258F%25A9%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pneVNwNkxqcEZSMEVzVXhmb2pzTVZHblBjYUVSNnRKRVhuY1NzNXc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/thetalemon/articles/20b1e5e11be545",
-          "author": "まなさす",
-          "description": "概要\n\nNext.js(ts) + Node.js(ts) + apollo + graphql-code-generatorでスキーマファーストなGraphQL環境を構築していくよ！\n\n完成物\n\n\n対象: ざっくりGraphQLでスキーマファーストな環境を構築する方法を知りたい人\n説明しないこと: .graphqlファイルの書き方とかGraphQLの設計とか、具体的なこと\n\n\n GraphQLとは何か\n\nAPIにクエリを投げてFE側から返却するレスポンスを制限できるAPIの形式\n有名どころだとNetflixとかで利用されていて、APIの返却をFEで制御できるので『画面やデバイスによ...",
-          "link": "https://zenn.dev/thetalemon/articles/20b1e5e11be545",
-          "publishedOn": "2021-08-15T14:32:16.000Z",
-          "wordCount": 648,
-          "title": "Next.jsとNode.jsでスキーマファーストなGraphQLの環境を構築する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--8NLQcjjD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BE%25E3%2581%25AA%25E3%2581%2595%25E3%2581%2599%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25A8Node.js%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%259E%25E3%2583%2595%25E3%2582%25A1%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AAGraphQL%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTYzY2I2MWY4MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -866,6 +861,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/wok/articles/0019_super-resolution-with-webrtc",
+          "author": "wok",
+          "description": "この記事は、こちらの記事を改変したものになります。\nhttps://cloud.flect.co.jp/entry/2021/09/14/105249\n\nこんにちは。\n前回の記事では、Amazon Chime SDK JSを用いたビデオ会議システムやゲーム配信システム(Among us auto mute)において、複数ユーザのビデオ映像を単一の映像に合成することでデータ通信量を削減する方法をご紹介しました。\n今回は、データ通信量を削減する別の方法として、ビデオ映像の送信時には解像度を落として受信後に超解像技術を用いる方法を試みてみましたので、これを紹介したいと思います。\n下図が実際に...",
+          "link": "https://zenn.dev/wok/articles/0019_super-resolution-with-webrtc",
+          "publishedOn": "2021-09-14T01:54:45.000Z",
+          "wordCount": 134,
+          "title": "WebRTC(Amazon Chime SDK JS)で超解像を使ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--OztpcbK7--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:wok%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:WebRTC%2528Amazon%2520Chime%2520SDK%2520JS%2529%25E3%2581%25A7%25E8%25B6%2585%25E8%25A7%25A3%25E5%2583%258F%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hZemxmeFk4WFJDTHJzM1VvRWI2YmI0cEVhem1kTDg5ejFXQnFZdVE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40",
           "author": "空雲",
@@ -2097,48 +2106,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/merutin/articles/16397b8a7f25f3",
-          "author": "merutin",
-          "description": "undefinedな値が入る可能性がある配列がある場合、filterを使ってnullableなものを排除しますが、typescriptではそのままではうまく認識されません。\n\n      \n        \n        const item = ['a', undefined, 'b', 'c', 'd'];\n\nconst ret = item.filter(i => i !==  undefined && i !== null);\n// const ret: (string | undefined)[]\n\n\n      \n      TypeScript Pl...",
-          "link": "https://zenn.dev/merutin/articles/16397b8a7f25f3",
-          "publishedOn": "2021-08-16T08:20:30.000Z",
-          "wordCount": 95,
-          "title": "TypeScriptの配列でnullableなものを外す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--xcJCQ0OH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:merutin%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AE%25E9%2585%258D%25E5%2588%2597%25E3%2581%25A7nullable%25E3%2581%25AA%25E3%2582%2582%25E3%2581%25AE%25E3%2582%2592%25E5%25A4%2596%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmM4YmUzYmM5Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2",
-          "author": "azukiazusa",
-          "description": "普段からTypeScriptで開発されている方ならば、TypeScriptの恩恵を十分に堪能されていることと思います。\n特に私はVS Codeのインテリセンスには頼りっぱなしでこれがなければまともにコーディングができない体になってしまいました。\nしかし時には、TypeScriptという概念が存在しない退屈な世界で開発を行わなけらばならない状況はあるでしょう。私はもはやキーボードでタイピングすることすらままなりません。\nそんなJavaScriptしか利用できない状況で代替手段となるのが、JSDocです。JSDocのアノテーションによって型を付与することによって最低限の支援を受けることができ...",
-          "link": "https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2",
-          "publishedOn": "2021-08-15T22:08:09.000Z",
-          "wordCount": 634,
-          "title": "JSDocで型を定義してTypeScriptの恩恵を受ける",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Gd-9xjxd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:JSDoc%25E3%2581%25A7%25E5%259E%258B%25E3%2582%2592%25E5%25AE%259A%25E7%25BE%25A9%25E3%2581%2597%25E3%2581%25A6TypeScript%25E3%2581%25AE%25E6%2581%25A9%25E6%2581%25B5%25E3%2582%2592%25E5%258F%2597%25E3%2581%2591%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde",
-          "author": "ふんばりフロントエンジニア",
-          "description": "はじめに\ncreate-react-app（以下、cra）めちゃくちゃ便利ですよね。\nまた、TypeScriptでもサクッとテンプレートを作成できるのがグッドです。\nで、craでwebpackの設定いじりたいなーって時に私は「craco」というライブラリを使います。\nhttps://www.npmjs.com/package/@craco/craco\n今回はこのcracoを使って、上記のaliasの設定をしていきます。（厳密にはwebpackに定義するわけではないのですが...）\n\n 普通にaliasを設定する\nまず、cracoをVanillaなJSテンプレートで使う場合の、webp...",
-          "link": "https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde",
-          "publishedOn": "2021-08-15T13:30:18.000Z",
-          "wordCount": 190,
-          "title": "【create-react-app】webpackのaliasをTypeScriptでも有効にする方法は",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--IqiBRLH4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B5%25E3%2582%2593%25E3%2581%25B0%25E3%2582%258A%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590create-react-app%25E3%2580%2591webpack%25E3%2581%25AEalias%25E3%2582%2592TypeScript%25E3%2581%25A7%25E3%2582%2582%25E6%259C%2589%25E5%258A%25B9%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMmRjMDE3NmI1OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2300,20 +2267,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/altair/articles/9238308d2432c6",
-          "author": "Altair",
-          "description": "初めに\n技術記事を書きたいと思いつつ、気づけば直前の投稿から随分と時間が経ってしまいました。\n投稿しないでだらだらしているよりも、当たり前のことでも良いから記事を書こう！ということで最近触っているneovimのプラグインを紹介していきます。\n他にも良いプラグインがあるよ、等アドバイスをいただけるとうれしいです。（まだまだneovim始めてからそんなに触れてないです。）\n自分の入れているプラグインの紹介が終わったら、コメントに寄せてくれたプラグインを試して良さそうなものがあったらまた記事にしたいと思います。\nでは、前置きが長くなりましたがその第一弾をどうぞ！\n\n コードにコメントすると...",
-          "link": "https://zenn.dev/altair/articles/9238308d2432c6",
-          "publishedOn": "2021-08-15T13:57:51.000Z",
-          "wordCount": 35,
-          "title": "自分で使っているvimのプラグインを紹介していくよ - 第一弾",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--6UcxX23H--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Altair%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258Bvim%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%258F%25E3%2582%2588%2520-%2520%25E7%25AC%25AC%25E4%25B8%2580%25E5%25BC%25BE%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2322,6 +2275,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/imaginelab/articles/c59db2aa20aecf",
+          "author": "ima",
+          "description": "はじめに\n個人開発しているWEBサービスにキーボードショートカットを追加しました。その時に使ったnpmパッケージがお手軽で素晴らしかったので記事にすることにしました。\n\n hotkey by GitHub\nキーボードショートカットを実現するJSライブラリなどを探して、何を使うか検討していたところ、GitHub社が開発するnpmパッケージを見つけました。\nhttps://github.com/github/hotkey\nGitHubのサイトのHTMLソースを見ると、data-hotkey というhotkey由来の記述が発見できたので、GitHubのサービス内で実際に使っているようです。...",
+          "link": "https://zenn.dev/imaginelab/articles/c59db2aa20aecf",
+          "publishedOn": "2021-09-14T08:29:26.000Z",
+          "wordCount": 129,
+          "title": "GitHub風のキーボードショートカットをお手軽に追加する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--IQ-FkXHo--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ima%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:GitHub%25E9%25A2%25A8%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25BC%25E3%2583%2588%25E3%2582%25AB%25E3%2583%2583%25E3%2583%2588%25E3%2582%2592%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2581%25AB%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzg4M2FhMTMxYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/azukiazusa/articles/c8d76eb56f5fd8",
           "author": "azukiazusa",

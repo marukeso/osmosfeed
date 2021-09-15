@@ -2,10 +2,116 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-14T01:09:02.264Z</updated>
+    <updated>2021-09-15T01:05:22.024Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub風のキーボードショートカットをお手軽に追加する]]></title>
+        <id>https://zenn.dev/imaginelab/articles/c59db2aa20aecf</id>
+        <link href="https://zenn.dev/imaginelab/articles/c59db2aa20aecf"/>
+        <updated>2021-09-14T08:29:26.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+個人開発しているWEBサービスにキーボードショートカットを追加しました。その時に使ったnpmパッケージがお手軽で素晴らしかったので記事にすることにしました。
+
+ hotkey by GitHub
+キーボードショートカットを実現するJSライブラリなどを探して、何を使うか検討していたところ、GitHub社が開発するnpmパッケージを見つけました。
+https://github.com/github/hotkey
+GitHubのサイトのHTMLソースを見ると、data-hotkey というhotkey由来の記述が発見できたので、GitHubのサービス内で実際に使っているようです。...]]></summary>
+        <author>
+            <name>ima</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【個人開発】コードレビューサービスKanon CodeでOGP設定するときにハマったこと]]></title>
+        <id>https://zenn.dev/kanon_code/articles/4384426f8f8a80</id>
+        <link href="https://zenn.dev/kanon_code/articles/4384426f8f8a80"/>
+        <updated>2021-09-14T03:00:14.000Z</updated>
+        <summary type="html"><![CDATA[【個人開発】コードレビューサービスKanon CodeでOGP設定するときにハマったこと
+フロント：Next.js
+ホスティング：vercel
+この記事ではOGPの説明は割愛します。
+
+ 参考記事一覧
+Next.jsにおけるSSG（静的サイト生成）とISRについて（自分の）限界まで丁寧に説明する
+nextjsのISRを使うときのfallback指定について理解するまでの話
+fallbackに関して【公式】
+
+ 下調べが足りなかった箇所
+
+OGPで表示される画像の拡張子
+OGPで表示される画像の最小サイズ
+fallbackの挙動についての理解
+
+
+ OGPに関すること
+これは自分がドキ...]]></summary>
+        <author>
+            <name>kanon_code</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebRTC(Amazon Chime SDK JS)で超解像を使ってみた]]></title>
+        <id>https://zenn.dev/wok/articles/0019_super-resolution-with-webrtc</id>
+        <link href="https://zenn.dev/wok/articles/0019_super-resolution-with-webrtc"/>
+        <updated>2021-09-14T01:54:45.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、こちらの記事を改変したものになります。
+https://cloud.flect.co.jp/entry/2021/09/14/105249
+
+こんにちは。
+前回の記事では、Amazon Chime SDK JSを用いたビデオ会議システムやゲーム配信システム(Among us auto mute)において、複数ユーザのビデオ映像を単一の映像に合成することでデータ通信量を削減する方法をご紹介しました。
+今回は、データ通信量を削減する別の方法として、ビデオ映像の送信時には解像度を落として受信後に超解像技術を用いる方法を試みてみましたので、これを紹介したいと思います。
+下図が実際に...]]></summary>
+        <author>
+            <name>wok</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-09-14のJS: Node v16.9.0(Corepack)、Spook.js(Same-Siteでのサイドチャネル攻撃)]]></title>
+        <id>https://jser.info/2021/09/14/node-v16.9.0corepack-spook.jssame-site/</id>
+        <link href="https://jser.info/2021/09/14/node-v16.9.0corepack-spook.jssame-site/"/>
+        <updated>2021-09-14T01:00:58.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #557 - Node.js 16.9.0リリース。
+Node v16.9.0 (Current) | Node.js
+プロジェクトごとにnpm/yarn/pnpmなどのパッケージマネージャを切り替えて利用できるCorepackのサポートが実験的に追加されています。Corepackが有効時は、どのパッケージマネージャを使うかをpackage.json の packageManager フィールドで指定して、透過的にインストールや実行できるようになります。
+また実験的であるため、利用するにはcorepack enable yarnなどのコマンドがオプトインで必要となっています。
+Corepack | Node.js v16.9.0 Documentation
+corepack is 何?
+その他には、V8 9.3へアップデートしObject.hasOwnとError Causeをサポート、stream.composeの追加などが含まれています。
+V8 release v9.3 · V8
+Spook.jsという、投機的実行を利用したsame-siteでのサイドチャネル攻撃についての論文が公開されています。
+same-site/cross-site, same-origin/cross-originをちゃんと理解する
+以前、GoogleがSpectreの概念を説明するものとしてhttps://leaky.page/というサイトを公開しています。
+Google Online Security Blog: A Spectre proof-of-concept for a Spectre-proof web
+Spook.jsは、これをより実践的に検証した論文で、BitbucketやTumblrなどのユーザーコンテンツがサブドメインにあるサイト同士でのデモ、Googl…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでFirebase経由でGoogle認証を利用する]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40</id>
+        <link href="https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40"/>
+        <updated>2021-09-14T00:01:35.000Z</updated>
+        <summary type="html"><![CDATA[Firebaseを使えるようにするまで
+
+ Firebaseでプロジェクトを作成
+Firebaseを利用すると、無料で以下のサービスに対応した認証を行えます。
+自力で一つ一つ対応するより遙かに簡単です。
+
+上記の一覧はFirebaseにプロジェクトを作成し、Authenticationを選ぶと表示されます。
+
+ Google認証の有効化
+Firebaseの中でも最も認証が簡単に実装できるのが、Googleアカウントの認証です。
+先ほどのメニューからGoogleを選んで有効にするを押すだけで、ほぼ設定が完了します。
+
+
+ アプリケーションの登録
+歯車ボタンからプロジェクトを設定を選びま...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.jsでFirebase経由でGoogle認証を利用する]]></title>
         <id>https://zenn.dev/sora_kumo/articles/2bcd0c9ced9b40</id>
@@ -50,6 +156,31 @@ SvelteでWebAssemblyでTypeScriptでRollupで: Rustが征く(5)  ← イマコ�
 次...]]></summary>
         <author>
             <name>dozo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Souzoh Tech Talk #03: Frontend]]></title>
+        <id>https://zenn.dev/cacbahbj/articles/4e72e38872d67f</id>
+        <link href="https://zenn.dev/cacbahbj/articles/4e72e38872d67f"/>
+        <updated>2021-09-13T16:15:39.000Z</updated>
+        <summary type="html"><![CDATA[概要
+2021/09/01に開催された下記勉強会のメモです
+https://mercari.connpass.com/event/221978/
+https://www.youtube.com/watch?v=YNLvIkqRC-g
+https://engineering.mercari.com/blog/entry/20210823-a57631d32e/
+
+ パネルディスカッション
+
+ メルカリShopsの画面構成
+
+メルカリトップからwebアプリケーションで埋め込み
+
+タブの中がメルカリShopsのWebView
+おすすめの商品をタップで商品画面を出す個別のWebView
+
+検...]]></summary>
+        <author>
+            <name>terry</name>
         </author>
     </entry>
     <entry>
@@ -4278,151 +4409,6 @@ typescript 4.3.5
   name: String...]]></summary>
         <author>
             <name>d yoshikawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptの配列でnullableなものを外す]]></title>
-        <id>https://zenn.dev/merutin/articles/16397b8a7f25f3</id>
-        <link href="https://zenn.dev/merutin/articles/16397b8a7f25f3"/>
-        <updated>2021-08-16T08:20:30.000Z</updated>
-        <summary type="html"><![CDATA[undefinedな値が入る可能性がある配列がある場合、filterを使ってnullableなものを排除しますが、typescriptではそのままではうまく認識されません。
-
-      
-        
-        const item = ['a', undefined, 'b', 'c', 'd'];
-
-const ret = item.filter(i => i !==  undefined && i !== null);
-// const ret: (string | undefined)[]
-
-
-      
-      TypeScript Pl...]]></summary>
-        <author>
-            <name>merutin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nextjs 🐕 next/imageのqualityの数値いじってみた！]]></title>
-        <id>https://zenn.dev/byanbyan/articles/baa0b53f8cef4d</id>
-        <link href="https://zenn.dev/byanbyan/articles/baa0b53f8cef4d"/>
-        <updated>2021-08-16T06:53:01.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsのnext/imageは、画質をコンポーネントごとに設定できる。
-詳しくは公式を！
-https://nextjs.org/docs/api-reference/next/image
-実際どんなもんか気になったので調べてみた。
-
- コードの書き方
-quality={}に値を設定する。
-1〜100の間で設定する（100が最高画質）
-デフォルトは75
-
-      
-        
-        import Image from 'next/image'
-
-<Image src="..." quality={1} width={900} height={500} /&...]]></summary>
-        <author>
-            <name>ゆゆゆ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js × Relay でGraphQLフロントエンド環境を構築してGitHub APIにアクセスする]]></title>
-        <id>https://zenn.dev/snowwshiro/articles/e0386f9cb6743f</id>
-        <link href="https://zenn.dev/snowwshiro/articles/e0386f9cb6743f"/>
-        <updated>2021-08-16T05:04:17.000Z</updated>
-        <summary type="html"><![CDATA[私が開発・運営しているスノーアクティビティイベントマッチングサービス「snowwshiro」に、Next.js × Relayを使ったGraphQLフロントエンド環境を構築しようとしたところ、かなり手間取りましたので、記事にしました。
-最終的なコードについては、以下にて公開しています。
-https://github.com/snowwshiro/nextjs-relay-demo
-
- 前提
-現在snowwshiroは、フロントエンド・バックエンド共にRuby on Railsにて開発しています。
-一方、私自身は現在他プロジェクトでフロントエンドはReact・Next.js、バックエンドは...]]></summary>
-        <author>
-            <name>snowwshiro中の人</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[fetch による Bing Custom Search API の叩き方]]></title>
-        <id>https://zenn.dev/maztak/articles/023ff810071d17</id>
-        <link href="https://zenn.dev/maztak/articles/023ff810071d17"/>
-        <updated>2021-08-16T03:39:44.000Z</updated>
-        <summary type="html"><![CDATA[まず Bing Search Services は Cognitive Services Bing Custom Search に移行中であるが、いずれの Bing Custom Search API（Bing Web Search API と混同しないように）のドキュメントにも非推奨となっているjsライブラリrequestによる記法しか書いてない（2021年8月16日現在）。
-https://docs.microsoft.com/ja-jp/bing/search-apis/bing-custom-search/quickstarts/rest/nodejs
-今回はNext.js（R...]]></summary>
-        <author>
-            <name>Takuya Matsuda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JSDocで型を定義してTypeScriptの恩恵を受ける]]></title>
-        <id>https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2</id>
-        <link href="https://zenn.dev/azukiazusa/articles/c89d4bdc7dacf2"/>
-        <updated>2021-08-15T22:08:09.000Z</updated>
-        <summary type="html"><![CDATA[普段からTypeScriptで開発されている方ならば、TypeScriptの恩恵を十分に堪能されていることと思います。
-特に私はVS Codeのインテリセンスには頼りっぱなしでこれがなければまともにコーディングができない体になってしまいました。
-しかし時には、TypeScriptという概念が存在しない退屈な世界で開発を行わなけらばならない状況はあるでしょう。私はもはやキーボードでタイピングすることすらままなりません。
-そんなJavaScriptしか利用できない状況で代替手段となるのが、JSDocです。JSDocのアノテーションによって型を付与することによって最低限の支援を受けることができ...]]></summary>
-        <author>
-            <name>azukiazusa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsとNode.jsでスキーマファーストなGraphQLの環境を構築する]]></title>
-        <id>https://zenn.dev/thetalemon/articles/20b1e5e11be545</id>
-        <link href="https://zenn.dev/thetalemon/articles/20b1e5e11be545"/>
-        <updated>2021-08-15T14:32:16.000Z</updated>
-        <summary type="html"><![CDATA[概要
-
-Next.js(ts) + Node.js(ts) + apollo + graphql-code-generatorでスキーマファーストなGraphQL環境を構築していくよ！
-
-完成物
-
-
-対象: ざっくりGraphQLでスキーマファーストな環境を構築する方法を知りたい人
-説明しないこと: .graphqlファイルの書き方とかGraphQLの設計とか、具体的なこと
-
-
- GraphQLとは何か
-
-APIにクエリを投げてFE側から返却するレスポンスを制限できるAPIの形式
-有名どころだとNetflixとかで利用されていて、APIの返却をFEで制御できるので『画面やデバイスによ...]]></summary>
-        <author>
-            <name>まなさす</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自分で使っているvimのプラグインを紹介していくよ - 第一弾]]></title>
-        <id>https://zenn.dev/altair/articles/9238308d2432c6</id>
-        <link href="https://zenn.dev/altair/articles/9238308d2432c6"/>
-        <updated>2021-08-15T13:57:51.000Z</updated>
-        <summary type="html"><![CDATA[初めに
-技術記事を書きたいと思いつつ、気づけば直前の投稿から随分と時間が経ってしまいました。
-投稿しないでだらだらしているよりも、当たり前のことでも良いから記事を書こう！ということで最近触っているneovimのプラグインを紹介していきます。
-他にも良いプラグインがあるよ、等アドバイスをいただけるとうれしいです。（まだまだneovim始めてからそんなに触れてないです。）
-自分の入れているプラグインの紹介が終わったら、コメントに寄せてくれたプラグインを試して良さそうなものがあったらまた記事にしたいと思います。
-では、前置きが長くなりましたがその第一弾をどうぞ！
-
- コードにコメントすると...]]></summary>
-        <author>
-            <name>Altair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【create-react-app】webpackのaliasをTypeScriptでも有効にする方法は]]></title>
-        <id>https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde</id>
-        <link href="https://zenn.dev/hunbari_front/articles/5b7bce2a2f8cde"/>
-        <updated>2021-08-15T13:30:18.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-create-react-app（以下、cra）めちゃくちゃ便利ですよね。
-また、TypeScriptでもサクッとテンプレートを作成できるのがグッドです。
-で、craでwebpackの設定いじりたいなーって時に私は「craco」というライブラリを使います。
-https://www.npmjs.com/package/@craco/craco
-今回はこのcracoを使って、上記のaliasの設定をしていきます。（厳密にはwebpackに定義するわけではないのですが...）
-
- 普通にaliasを設定する
-まず、cracoをVanillaなJSテンプレートで使う場合の、webp...]]></summary>
-        <author>
-            <name>ふんばりフロントエンジニア</name>
         </author>
     </entry>
 </feed>
