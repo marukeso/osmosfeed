@@ -77,6 +77,131 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-15">2021-09-15</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Deno 1.14.0 がリリースされたので新機能や変更点の紹介</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/magurotuna/articles/deno-release-note-1-14-0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Copyright (c) 2018-2021 the Deno authors. MIT License.
+日本時間の昨日（2021 年 9 月 15 日）に Deno の v1.14.0 がリリースされました。
+https://deno.com/blog/v1.14
+詳細なリリース内容は上記のリリースノートにまとまっていますが、ざっと紹介していきたいと思います。
+
+
+Web Crypto API の追加
+
+deno lint と deno fmt に対するカスタマイズオプションの追加
+
+URLPattern の実装
+ネイティブ実装されたサーバーサイド WebSocket API の...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">値を中継する関数の引数の型にParametersを使う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sunnyone/articles/40a60f08eb391e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>TypeScriptでは、オーバーロードが行われていたりして、素直に定義したくない関数の型があったりする。例えば、こういう型。
+
+      
+        
+            interface LogFn {
+        (obj: T, msg?: string, ...args: any[]): void;
+        (msg: string, ...args: any[]): void;
+    }
+
+
+      
+      例えばこういう関数を何かしつつ呼びたいというとき、組み込みの型関数Parameter...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">MicroCMSのAPIをTypeScriptで型カッチリに実装する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/2876c8f98eca56">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>MicroCMSとTypeScript
+MicroCMSのAPIをTypeScript上で扱う場合、設定したスキーマに沿って自分で型を書かなければなりません。
+この作業はそれなりに手間がかかるので、自動化していきたいと思います。
+
+ 今回使用しているソースコード
+https://github.com/SoraKumo001/microcms-test
+
+ MicroCMSの設定
+
+ サービスの作成
+まずはMicroCMS上でサービスを作成します。
+名前は早い者勝ち方式のようなので、空いている名前を設定します。
+
+開発確認用なのでプランは無料を選びます
+
+
+ APIの作成
+今回はAPI...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Deno標準ライブラリ0.107.0で増強されたcollectionsの紹介</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kawarimidoll/articles/db250a329c2f22">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Deno標準ライブラリのバージョン0.107.0が公開されました。
+https://github.com/denoland/deno_std/releases/tag/0.107.0
+こちらで増強されたcollectionsというモジュールを紹介します。
+https://deno.land/std@0.107.0/collections
+その名の通り、集合の扱いを支援してくれるモジュールです。
+本記事では0.107.0のリリースで追加された関数を紹介します。
+既存のものは以下の記事で解説していますので、あわせてご覧ください。
+https://zenn.dev/kawarimidoll/a...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vueの再描画されたコンポーネントをハイライトするChrome拡張を作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yuichkun/articles/e4e8c7e633439c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>作ったもの
+記事タイトルの通り、Vue.jsで再描画が走ったコンポーネントの輪郭をフラッシュしてハイライトしてくれるChrome拡張 + npmパッケージを作りました。
+
+GitHub: yuichkun/vue-devtool-flash-updates
+
+ 背景
+Vueの開発をする上で、Vue.js devtools を使っている人は多いと思います。
+React Developer Tools では以前から再描画されたコンポーネントを光らせてくれる機能があり、パフォーマンス問題の解消などに役立っていたのですが、どうやらVue devtoolsにはそれがないらしいことをissueな...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-14">2021-09-14</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -172,6 +297,32 @@ Firebaseの中でも最も認証が簡単に実装できるのが、Googleアカ
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">DenoのWeb Storage APIサポートとその将来について</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uki00a/articles/web-storage-api-in-deno">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>はじめに
+Denoはv1.10からWeb Storage APIをサポートしています。
+この記事ではDenoにおけるWeb Storage APIのサポートについて解説します。
+
+ 前提
+この記事はDeno v1.14を想定して記述されています。
+
+ 基本的な使い方
+
+ localStorage
+まず、localStorageの使い方について解説します。
+
+      
+        main.ts
+        localStorage.setItem(&quot;foo&quot;, &quot;bar&quot;);
+console.assert(localStorage.getItem(&quot;foo&quot;) &#x3D;&#x3D;&#x3D; &quot;...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">WebRTC(Amazon Chime SDK JS)で超解像を使ってみた</summary>
@@ -5191,160 +5342,13 @@ esbuildやswcのようにGoやRustのようなハードウェアレイヤーの�
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScriptを使ってNode.jsとブラウザ間のRPC（情報求む）</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/eagle/articles/where-is-simple-rpc-for-js">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>前提
-昔から、個人が思いつくようなことは
-
-既に方法が確立されている。自分が発見できていないだけ。
-既に試してみた先人たちがいるが、上手くいかないことが分かり頓挫したプロジェクトである。
-
-の2択だとよく言われます。
-私が今探しているのは超シンプルなWebサーバーとクライアント間のRPCです。
-特に、バックエンドはNodeJS限定とします。
-これにより言語が統一されるのでバックエンドとフロントエンドでコード共有ができます。
-C#のMagicOnionのように、APIのインターフェースとその実装、および少々のコンフィギュレーションを定義するだけで済むはずです。
-超お手軽です。
-
- 現実...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React-Hook-Formがシンプルで使いやすい👍</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kenta0313/articles/6a9cf3989aa443">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>コード全体
-
-      
-        
-        import type { NextPage } from &#x27;next&#x27;
-import { useForm, SubmitHandler } from &quot;react-hook-form&quot;;
-import { ErrorMessage } from &quot;@hookform/error-message&quot;;
-
-type Inputs &#x3D; {
-  name: string;
-  phone_number: number;
-}
-
-const Home: NextPage &#x3D; () &#x3D;&gt; {
-  const {
-    regis...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-16">2021-08-16</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-08-17のJS: Next.js 11.1、Rails 7で予定されているimport mapsベースのJSライブラリの利用</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/08/17/next.js-11.1-rails-7import-mapsjs/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>JSer.info #553 - Next.js 11.1 がリリースされました。
-Blog - Next.js 11.1 | Next.js
-オープンリダイレクタの脆弱性が修正されています。
-experimental.esmExternalsオプションでNode.jsのESMをサポートしています。
-node-fetchのkeepAliveをデフォルトで有効化、Source Map/ESLint/next/imageの改善なども含まれています。
-また、Rust製のJS/TS Compiler/BundlerであるSWCの作者であるDongYoon KangがVercelに入り、Next.jsでのコンパイルにSWCを利用できるように開発中とのことです。
-Rails 7.0では、現在のwebpacker(webpack)ではなく、Import mapsベースのJavaScriptライブラリをデフォルトする方針が提案されています。
-Modern web apps without JavaScript bundling or transpiling
-Replace webpack with importmapped Hotwire as default js by dhh · Pull Request #42999 · rails/rails
-Import mapsはES Modulesでimportする際に、importするモジュールの名前解決を定義するウェブ標準です。
-
-{
-  &quot;imports&quot;: {
-    &quot;app&quot;: &quot;./src/app.js&quot;,
-    &quot;md5&quot;: &quot;https://cdn.skypack.dev/md5&quot;
-  }
-}
-
-
-
-Import mapsはChromeのみがサポートしてい…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Amazon Chime SDKアプリで映像データ転送量を削減するアイデア -Among Us Auto Mute-</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/wok/articles/0018_reduce-transfered-data-amazon-chime-sdk">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>この記事は、こちらの記事を改変したものになります。
-https://cloud.flect.co.jp/entry/2021/08/17/064854
-
-こんにちは。
-前回の記事では、Amazon Chime SDK for javascript(Amazon Chime SDK JS)を用いて、&quot;Among usをAuto Muteする機能&quot;と&quot;ゲーム画面を配信する機能&quot;を持つゲーム実況システムを構築する方法についてご紹介しました。
-前回のシステムでは、最大15名のユーザのゲーム画面をリアルタイムに配信します。このため、映像を受信する側にはそれなりのネットワーク帯域が前提とされます。...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">AWS AppSyncでLambdaをDataSoruceとした場合のLambda関数の入出力</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dyoshikawa/articles/b9b92d358f8f04">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>GraphQL入門としてAppSyncを触ってみました。
-AppSyncのデータソースとしてLambdaを選択した場合、
-
-Lambda関数へ入力値はどんなふうに渡るのか
-どのような値を返せば良いのか
-
-についてイメージしづらかったため、実際に試してみました。
-
- 環境
-
-(端末の)node 15.11.0
-aws-cdk 1.117.0
-typescript 4.3.5
-@types/aws-lambda 8.10.81
-
-
- schema.graphql
-
-      
-        
-        type user {
-  id: String!
-  name: String...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-15T01:05:21.996Z">2021-09-15T01:05:21.996Z</time>
+    <time id="build-timestamp" datetime="2021-09-16T01:09:52.861Z">2021-09-16T01:09:52.861Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
