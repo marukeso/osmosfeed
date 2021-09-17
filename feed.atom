@@ -2,10 +2,196 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-16T01:09:52.890Z</updated>
-    <generator>osmosfeed 1.11.0</generator>
+    <updated>2021-09-17T01:13:08.608Z</updated>
+    <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Reactのライブラリでたまに見る<Component.Content />みたいなやつを調べた。~雰囲気でJSを書いている仲間へ届け~]]></title>
+        <id>https://zenn.dev/mura_chan/articles/93c6027b176ce6</id>
+        <link href="https://zenn.dev/mura_chan/articles/93c6027b176ce6"/>
+        <updated>2021-09-16T19:22:48.000Z</updated>
+        <summary type="html"><![CDATA[ことの発端
+
+      
+        
+        <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+  <Alert.Heading>...</Alert.Heading>
+  <p>
+    str...
+  </p>
+</Alert>
+
+
+      
+      React Bootstrapを使用している時にこんなコードを目にし、私はこう思いました。
+<Alert.Heading> ってなん...]]></summary>
+        <author>
+            <name>mm1995tk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactでpropsにスプレッド構文を使った場合にclassNameが意図通り適用されない]]></title>
+        <id>https://zenn.dev/takasing/articles/tsx-spread-operator-overwrite</id>
+        <link href="https://zenn.dev/takasing/articles/tsx-spread-operator-overwrite"/>
+        <updated>2021-09-16T13:32:34.000Z</updated>
+        <summary type="html"><![CDATA[ハマったのでメモ。
+以下のような Text Component があるとする。
+このコンポーネントでは div をラップしているので、Props には HTMLDivElement の attributes をユニオンしており、onClick などをいちいち定義しなくてよいようにしている。
+
+      
+        
+        export type Props = React.HTMLAttributes<HTMLDivElement> & {
+  size: number;
+  weight?: Weight;
+  align?: Align;
+  c...]]></summary>
+        <author>
+            <name>Takashi Toyofuku</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactのinteractjsを使って3×3のスライドパズルを作った]]></title>
+        <id>https://zenn.dev/beeeyan/articles/4e0737146199d7</id>
+        <link href="https://zenn.dev/beeeyan/articles/4e0737146199d7"/>
+        <updated>2021-09-16T11:07:38.000Z</updated>
+        <summary type="html"><![CDATA[完成形はこんな感じ
+
+動かして中途半端な位置だと他のパズルが動かせないのでご注意ください。
+完成すると、「完成!! Congratulations!!」と表示されます。
+私のポートフォリオサイトでも試せます。
+
+ 本記事内容
+ソースコードは公開しているので（上記のcodesandbox内のものも含め）実装方法についてはあまり触れていません。（コメントは残したつもり）
+参考情報とか、もしこのソースコードを利用する場合の注意点とか書いてます。
+どっちかって言うと、「作ってみた」要素が強いです
+
+ 作った経緯
+Reactで「コンポーネントをドラッグで動かす」をやってみたかった。
+動かせるU...]]></summary>
+        <author>
+            <name>beeeyan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Hook Form(v7)を使ったコンポーネント設計案]]></title>
+        <id>https://zenn.dev/manalink/articles/manalink-react-hook-form-v7</id>
+        <link href="https://zenn.dev/manalink/articles/manalink-react-hook-form-v7"/>
+        <updated>2021-09-16T09:22:21.000Z</updated>
+        <summary type="html"><![CDATA[本記事ではReact Hook Form(v7)を使ったコンポーネント設計のアイデアについて話します。
+https://react-hook-form.com/jp/
+React Hook Formはその名の通り、Hooksをベースにフォームのバリデーション設定を記述できるライブラリで、特にv7で大きな変更が入りました。そのため、本記事ではv7前提であることをタイトルで明記しています。
+Hooksにフォームのロジックが切り離されることにより、理論的には、TSXで記述されたView層と、バリデーションを司るロジック層を切り離して実装することができるはずです。
+オンライン家庭教師マナリンクで...]]></summary>
+        <author>
+            <name>マナリンク Tech Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【TS】NestJSでFirebaseを使ってプッシュ通知を送るモック作成]]></title>
+        <id>https://zenn.dev/nekoniki/articles/d4bd396476c107</id>
+        <link href="https://zenn.dev/nekoniki/articles/d4bd396476c107"/>
+        <updated>2021-09-16T08:37:28.000Z</updated>
+        <summary type="html"><![CDATA[概要
+今回はNestJSからfirebase-adminを使って端末にプッシュ通知を送るモックを作成する手順の私的メモです。
+同様の構成でプッシュ通知の導通を試したい方もいるかなと思い記事にしました。
+前提条件としてFirebaseのプロジェクトは作成済みで、アプリ側にもFirebaseは組み込み済み(=プッシュ通知を受け取る準備ができている)ものとします。
+
+ NestJSとは
+以下公式サイトです。
+https://nestjs.com/
+以下のような説明があります。
+
+A progressive Node.js framework for building efficient, ...]]></summary>
+        <author>
+            <name>nekoniki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.11.1]]></title>
+        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1</id>
+        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1"/>
+        <updated>2021-09-16T06:39:32.000Z</updated>
+        <summary type="html"><![CDATA[Fixed: Unexpected nested element in author field crashes the parser
+Thank you @ad-m]]></summary>
+        <author>
+            <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NestJS + serverlessのアプリの一部にバッチ処理を入れる]]></title>
+        <id>https://zenn.dev/xxpiyomaruxx/articles/8f7b45d1c4e794</id>
+        <link href="https://zenn.dev/xxpiyomaruxx/articles/8f7b45d1c4e794"/>
+        <updated>2021-09-16T06:15:42.000Z</updated>
+        <summary type="html"><![CDATA[NestJSで構築した、ServerlessFrameworkを使ってデプロイするようなアプリケーションについて、普通のエンドポイントと別にバッチ処理を動かしたいことがありました。
+結論から言うとbatch処理用のhandlerを用意して
+
+ 手法の比較
+バッチ処理というキーワードだけだと
+
+NestJSのTask Scheculingを使う
+NestJSにAPIの口を普通に作って、APIを定期実行するLambdaを外で作る
+APIを定期実行するLambdaをserverlessで新しく用意する
+serverlessに新しいfunctionsの口を生やす
+
+みたいな手法が自分にはぱっと思...]]></summary>
+        <author>
+            <name>ぴよまる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript Compiler API で型を自動生成する]]></title>
+        <id>https://zenn.dev/panda_program/articles/typescript-compiler-api</id>
+        <link href="https://zenn.dev/panda_program/articles/typescript-compiler-api"/>
+        <updated>2021-09-16T02:00:57.000Z</updated>
+        <summary type="html"><![CDATA[Compiler API で yaml から型を自動生成する
+この記事は TypeScript Compiler API を実際に使って TypeScript の型を自動生成する方法を紹介しています。
+記事内では Google Analytics のイベントの型の自動生成にトライしています。
+題材として GA を選んだのは、以前 Next.js に Google Analytics（GA） を導入する方法を紹介した記事でGA のイベントで使う型を yaml から自動生成するのはどうか と書いていたからです。
+正直なところ、GA のイベントに馴染みのない方もいらっしゃると思うので、最初...]]></summary>
+        <author>
+            <name>Panda_Program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでブラケット記法を使うときにハマったこと]]></title>
+        <id>https://zenn.dev/katoaki/articles/37a8cff3a8a32a</id>
+        <link href="https://zenn.dev/katoaki/articles/37a8cff3a8a32a"/>
+        <updated>2021-09-16T00:54:48.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+ブラケット記法でプロパティへアクセスしようとしたら「Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'xxx'. No index signature with a parameter of type 'string' was found on type 'xxx'」のエラーが出ました。
+対応について整理しました。
+
+ やってみたこと
+
+ エラーの再現
+エラーになった時のソースはこんな感じでした。
+
+      
+    ...]]></summary>
+        <author>
+            <name>katoaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[TypeScript]モノレポ管理ツール比較検討]]></title>
+        <id>https://zenn.dev/okmttdhr/articles/96506133e4efa0</id>
+        <link href="https://zenn.dev/okmttdhr/articles/96506133e4efa0"/>
+        <updated>2021-09-15T22:44:41.000Z</updated>
+        <summary type="html"><![CDATA[モノレポ管理のツールを検討したときのメモ
+
+ Background
+自分が所属するチームで開発する JavaScript/TypeScript のプロダクトが増えてきて、同じような内容のリポジトリがいくつも存在している（n個とする）。
+変更を加えていくにつれて、それぞれの差分が大きくなり、以下のような問題が発生する。
+
+開発が止まっているプロジェクトの構成が古くなり、修正コストが発生する
+開発が複数同時進行している場合、同じような実装を手動で同期する必要がある
+
+これらは共通の基盤等があれば効率的に（理想的にはn分の1の労力で）開発が可能であり、将来的なコストを考えると、いまのうちにその...]]></summary>
+        <author>
+            <name>okmttdhr</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deno 1.14.0 がリリースされたので新機能や変更点の紹介]]></title>
         <id>https://zenn.dev/magurotuna/articles/deno-release-note-1-14-0</id>
@@ -4287,131 +4473,6 @@ DIにおける依存対象は、オブジェクトのインスタンスです。
 DIの対応前後のサンプルコードで比較を確認します。次のコードは、ブラウザのコンソールに「...]]></summary>
         <author>
             <name>chida</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでWeb-Workerを呼び出す]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/65420761a0bec2</id>
-        <link href="https://zenn.dev/sora_kumo/articles/65420761a0bec2"/>
-        <updated>2021-08-18T12:58:21.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsとWeb-Worker
-Next.jsは様々な機能を無設定で行えるように開発されています
-Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
-どのぐらい手軽に利用可能か、試してみたいと思います
-
- 初期作業
-
-      
-        
-        yarn add next react react-dom
-yarn add -D typescript @types/node @types/react
-
-
-      
-      
- ソースコード
-
-src/libs/sums.ts
-
-1からcountで与え...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでWeb-Workerを呼び出す]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/65420761a0bec2</id>
-        <link href="https://zenn.dev/sora_kumo/articles/65420761a0bec2"/>
-        <updated>2021-08-18T12:58:21.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsとWeb-Worker
-Next.jsは様々な機能を無設定で行えるように開発されています
-Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
-どのぐらい手軽に利用可能か、試してみたいと思います
-
- 初期作業
-
-      
-        
-        yarn add next react react-dom
-yarn add -D typescript @types/node @types/react
-
-
-      
-      
- ソースコード
-
-src/libs/sums.ts
-
-1からcountで与え...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[日常の作業改善のため超シンプルvimプラグインを作成した]]></title>
-        <id>https://zenn.dev/bun913/articles/3c07695fe1474c</id>
-        <link href="https://zenn.dev/bun913/articles/3c07695fe1474c"/>
-        <updated>2021-08-18T12:34:06.000Z</updated>
-        <summary type="html"><![CDATA[何を作ったのか
-vimでTodo管理を便利にするための小さなプラグインです。
-
-新規タスクを作成する
-タスクの終了・未了をワンボタンで切り替えられる
-終了済みのタスクをまとめて、最終行に移動させる
-
-ということをできるようにしました。
-https://github.com/bun913/min-todo.vim
-
- イメージ
-タスクの作成
-
-タスクの終了・未了を切り替え
-
-終了済みのタスクをまとめて移動
-
-
- 参考にしたサイト
-初めて作るvimプラグインですし、そもそもまともにvimスクリプトを書いたことがないためお作法がさっぱりわかりませんでした。
-以下のサイトを参考にさせていただ...]]></summary>
-        <author>
-            <name>bun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS AppSync + Local Resolver でチャットっぽいものを作ってみる]]></title>
-        <id>https://zenn.dev/amay077/articles/77b08c940decbe</id>
-        <link href="https://zenn.dev/amay077/articles/77b08c940decbe"/>
-        <updated>2021-08-18T03:03:02.000Z</updated>
-        <summary type="html"><![CDATA[AWS AppSync というと、私は「Google Firestore 対抗のオフライン対応リアルタイムデータベース、ただし API は GraphQL」という認識だったのですが、もう少し機能をブレークダウンしていくと、「単なるマネージドな WebSocket 的サービス」としても使えるな、と気付きまして、試しにチャットっぽいアプリを作ってみました。
-こんなやつ↓
-
-
- AppSync 側の設定
-データソースは使用しません（＝ローカルリゾルバーを使用）。
-これによりデータは永続化されずただの 「WebSocket的サーバー」 として動作します。
-データを永続化したい場合は、Dynamo...]]></summary>
-        <author>
-            <name>amay077</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rollup.jsに爆速esbuildを組み込む方法]]></title>
-        <id>https://zenn.dev/dozo/articles/54f697ff41f100</id>
-        <link href="https://zenn.dev/dozo/articles/54f697ff41f100"/>
-        <updated>2021-08-17T20:41:28.000Z</updated>
-        <summary type="html"><![CDATA[rollup-plugin-esbuildでそれぞれのいいとこ取り
-------------------- ↓ 前書はここから ↓-------------------
-Webpack嫌いには光の速さで消えて欲しい筆者にとって、
-バンドラーはもっぱらrollup.jsだった。
-プラグインの豊富さからありとあらゆる場面で活用していたのだが、
-最近バンドラーのトレンドにビルド速度というのがあり、
-ちょっと気になる今日この頃。
-esbuildやswcのようにGoやRustのようなハードウェアレイヤーの言語を使って、
-ビルド実行をしてしまうアプローチ。
-(緩募: 低レベル言語に変わる用語)
-...]]></summary>
-        <author>
-            <name>dozo</name>
         </author>
     </entry>
 </feed>

@@ -4,7 +4,17 @@
       "title": "Release notes from osmosfeed",
       "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
+          "author": null,
+          "description": "Fixed: Unexpected nested element in author field crashes the parser\nThank you @ad-m",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
+          "publishedOn": "2021-09-16T06:39:32.000Z",
+          "wordCount": 343,
+          "title": "v1.11.1"
+        }
+      ]
     },
     {
       "title": "JSer.info",
@@ -753,20 +763,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
-          "author": "空雲",
-          "description": "Next.jsとWeb-Worker\nNext.jsは様々な機能を無設定で行えるように開発されています\nWeb-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます\nどのぐらい手軽に利用可能か、試してみたいと思います\n\n 初期作業\n\n      \n        \n        yarn add next react react-dom\nyarn add -D typescript @types/node @types/react\n\n\n      \n      \n ソースコード\n\nsrc/libs/sums.ts\n\n1からcountで与え...",
-          "link": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
-          "publishedOn": "2021-08-18T12:58:21.000Z",
-          "wordCount": 185,
-          "title": "Next.jsでWeb-Workerを呼び出す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--qqkuF2EI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -852,6 +848,132 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/mura_chan/articles/93c6027b176ce6",
+          "author": "mm1995tk",
+          "description": "ことの発端\n\n      \n        \n        <Alert variant=\"danger\" onClose={() => setShow(false)} dismissible>\n  <Alert.Heading>...</Alert.Heading>\n  <p>\n    str...\n  </p>\n</Alert>\n\n\n      \n      React Bootstrapを使用している時にこんなコードを目にし、私はこう思いました。\n<Alert.Heading> ってなん...",
+          "link": "https://zenn.dev/mura_chan/articles/93c6027b176ce6",
+          "publishedOn": "2021-09-16T19:22:48.000Z",
+          "wordCount": 138,
+          "title": "Reactのライブラリでたまに見る<Component.Content />みたいなやつを調べた。~雰囲気でJSを書いている仲間へ届け~",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--pakzO6Ov--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mm1995tk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:React%25E3%2581%25AE%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%25E3%2581%25A7%25E3%2581%259F%25E3%2581%25BE%25E3%2581%25AB%25E8%25A6%258B%25E3%2582%258B%253CComponent.Content%2520%252F%253E%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E3%2581%25AA%25E3%2582%2584%25E3%2581%25A4%25E3%2582%2592%25E8%25AA%25BF%25E3%2581%25B9%25E3%2581%259F%25E3%2580%2582%7E%25E9%259B%25B0%25E5%259B%25B2%25E6%25B0%2597%25E3%2581%25A7JS%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E4%25BB%25B2%25E9%2596%2593%25E3%2581%25B8%25E5%25B1%258A%25E3%2581%2591%7E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dvRGRPZUxRTGV3TWRYYVg4c0RmelFtaXFVZFRPaThQQ3MxenMtZ3c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/takasing/articles/tsx-spread-operator-overwrite",
+          "author": "Takashi Toyofuku",
+          "description": "ハマったのでメモ。\n以下のような Text Component があるとする。\nこのコンポーネントでは div をラップしているので、Props には HTMLDivElement の attributes をユニオンしており、onClick などをいちいち定義しなくてよいようにしている。\n\n      \n        \n        export type Props = React.HTMLAttributes<HTMLDivElement> & {\n  size: number;\n  weight?: Weight;\n  align?: Align;\n  c...",
+          "link": "https://zenn.dev/takasing/articles/tsx-spread-operator-overwrite",
+          "publishedOn": "2021-09-16T13:32:34.000Z",
+          "wordCount": 132,
+          "title": "Reactでpropsにスプレッド構文を使った場合にclassNameが意図通り適用されない",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--aMYVvwBq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takashi%2520Toyofuku%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:React%25E3%2581%25A7props%25E3%2581%25AB%25E3%2582%25B9%25E3%2583%2597%25E3%2583%25AC%25E3%2583%2583%25E3%2583%2589%25E6%25A7%258B%25E6%2596%2587%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E5%25A0%25B4%25E5%2590%2588%25E3%2581%25ABclassName%25E3%2581%258C%25E6%2584%258F%25E5%259B%25B3%25E9%2580%259A%25E3%2582%258A%25E9%2581%25A9%25E7%2594%25A8%25E3%2581%2595%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDE5M2Y3MTBiOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/beeeyan/articles/4e0737146199d7",
+          "author": "beeeyan",
+          "description": "完成形はこんな感じ\n\n動かして中途半端な位置だと他のパズルが動かせないのでご注意ください。\n完成すると、「完成!! Congratulations!!」と表示されます。\n私のポートフォリオサイトでも試せます。\n\n 本記事内容\nソースコードは公開しているので（上記のcodesandbox内のものも含め）実装方法についてはあまり触れていません。（コメントは残したつもり）\n参考情報とか、もしこのソースコードを利用する場合の注意点とか書いてます。\nどっちかって言うと、「作ってみた」要素が強いです\n\n 作った経緯\nReactで「コンポーネントをドラッグで動かす」をやってみたかった。\n動かせるU...",
+          "link": "https://zenn.dev/beeeyan/articles/4e0737146199d7",
+          "publishedOn": "2021-09-16T11:07:38.000Z",
+          "wordCount": 240,
+          "title": "Reactのinteractjsを使って3×3のスライドパズルを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--G2E1gsZ---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:beeeyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25E3%2581%25AEinteractjs%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A63%25C3%25973%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2589%25E3%2583%2591%25E3%2582%25BA%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTg0NTA1OGQzYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/manalink/articles/manalink-react-hook-form-v7",
+          "author": "マナリンク Tech Blog",
+          "description": "本記事ではReact Hook Form(v7)を使ったコンポーネント設計のアイデアについて話します。\nhttps://react-hook-form.com/jp/\nReact Hook Formはその名の通り、Hooksをベースにフォームのバリデーション設定を記述できるライブラリで、特にv7で大きな変更が入りました。そのため、本記事ではv7前提であることをタイトルで明記しています。\nHooksにフォームのロジックが切り離されることにより、理論的には、TSXで記述されたView層と、バリデーションを司るロジック層を切り離して実装することができるはずです。\nオンライン家庭教師マナリンクで...",
+          "link": "https://zenn.dev/manalink/articles/manalink-react-hook-form-v7",
+          "publishedOn": "2021-09-16T09:22:21.000Z",
+          "wordCount": 408,
+          "title": "React Hook Form(v7)を使ったコンポーネント設計案",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--lKYHIL5m--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%2520Tech%2520Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520Hook%2520Form%2528v7%2529%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E8%25A8%25AD%25E8%25A8%2588%25E6%25A1%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODNjZWUyZDUxMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nekoniki/articles/d4bd396476c107",
+          "author": "nekoniki",
+          "description": "概要\n今回はNestJSからfirebase-adminを使って端末にプッシュ通知を送るモックを作成する手順の私的メモです。\n同様の構成でプッシュ通知の導通を試したい方もいるかなと思い記事にしました。\n前提条件としてFirebaseのプロジェクトは作成済みで、アプリ側にもFirebaseは組み込み済み(=プッシュ通知を受け取る準備ができている)ものとします。\n\n NestJSとは\n以下公式サイトです。\nhttps://nestjs.com/\n以下のような説明があります。\n\nA progressive Node.js framework for building efficient, ...",
+          "link": "https://zenn.dev/nekoniki/articles/d4bd396476c107",
+          "publishedOn": "2021-09-16T08:37:28.000Z",
+          "wordCount": 336,
+          "title": "【TS】NestJSでFirebaseを使ってプッシュ通知を送るモック作成",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--FCo8b4Py--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590TS%25E3%2580%2591NestJS%25E3%2581%25A7Firebase%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%2597%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E9%2580%259A%25E7%259F%25A5%25E3%2582%2592%25E9%2580%2581%25E3%2582%258B%25E3%2583%25A2%25E3%2583%2583%25E3%2582%25AF%25E4%25BD%259C%25E6%2588%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/xxpiyomaruxx/articles/8f7b45d1c4e794",
+          "author": "ぴよまる",
+          "description": "NestJSで構築した、ServerlessFrameworkを使ってデプロイするようなアプリケーションについて、普通のエンドポイントと別にバッチ処理を動かしたいことがありました。\n結論から言うとbatch処理用のhandlerを用意して\n\n 手法の比較\nバッチ処理というキーワードだけだと\n\nNestJSのTask Scheculingを使う\nNestJSにAPIの口を普通に作って、APIを定期実行するLambdaを外で作る\nAPIを定期実行するLambdaをserverlessで新しく用意する\nserverlessに新しいfunctionsの口を生やす\n\nみたいな手法が自分にはぱっと思...",
+          "link": "https://zenn.dev/xxpiyomaruxx/articles/8f7b45d1c4e794",
+          "publishedOn": "2021-09-16T06:15:42.000Z",
+          "wordCount": 101,
+          "title": "NestJS + serverlessのアプリの一部にバッチ処理を入れる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--C7PNB1bL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B4%25E3%2582%2588%25E3%2581%25BE%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:NestJS%2520%252B%2520serverless%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E4%25B8%2580%25E9%2583%25A8%25E3%2581%25AB%25E3%2583%2590%25E3%2583%2583%25E3%2583%2581%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWE2ZDhjM2Y2MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/panda_program/articles/typescript-compiler-api",
+          "author": "Panda_Program",
+          "description": "Compiler API で yaml から型を自動生成する\nこの記事は TypeScript Compiler API を実際に使って TypeScript の型を自動生成する方法を紹介しています。\n記事内では Google Analytics のイベントの型の自動生成にトライしています。\n題材として GA を選んだのは、以前 Next.js に Google Analytics（GA） を導入する方法を紹介した記事でGA のイベントで使う型を yaml から自動生成するのはどうか と書いていたからです。\n正直なところ、GA のイベントに馴染みのない方もいらっしゃると思うので、最初...",
+          "link": "https://zenn.dev/panda_program/articles/typescript-compiler-api",
+          "publishedOn": "2021-09-16T02:00:57.000Z",
+          "wordCount": 4051,
+          "title": "TypeScript Compiler API で型を自動生成する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--HO6E0qz_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Panda_Program%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%2520Compiler%2520API%2520%25E3%2581%25A7%25E5%259E%258B%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E7%2594%259F%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l6MVBBTkFPNzhHNkI2bGJoTUx2Q2xrWHRweU9vWXd1S3gyNjI2Rmc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/katoaki/articles/37a8cff3a8a32a",
+          "author": "katoaki",
+          "description": "はじめに\nブラケット記法でプロパティへアクセスしようとしたら「Element implicitly has an 'any' type because expression of type 'string' can't be used to index type 'xxx'. No index signature with a parameter of type 'string' was found on type 'xxx'」のエラーが出ました。\n対応について整理しました。\n\n やってみたこと\n\n エラーの再現\nエラーになった時のソースはこんな感じでした。\n\n      \n    ...",
+          "link": "https://zenn.dev/katoaki/articles/37a8cff3a8a32a",
+          "publishedOn": "2021-09-16T00:54:48.000Z",
+          "wordCount": 274,
+          "title": "TypeScriptでブラケット記法を使うときにハマったこと",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--7YkfaPun--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:katoaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25B1%25E3%2583%2583%25E3%2583%2588%25E8%25A8%2598%25E6%25B3%2595%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E3%2583%258F%25E3%2583%259E%25E3%2581%25A3%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTU0ZTYyMTc2OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/okmttdhr/articles/96506133e4efa0",
+          "author": "okmttdhr",
+          "description": "モノレポ管理のツールを検討したときのメモ\n\n Background\n自分が所属するチームで開発する JavaScript/TypeScript のプロダクトが増えてきて、同じような内容のリポジトリがいくつも存在している（n個とする）。\n変更を加えていくにつれて、それぞれの差分が大きくなり、以下のような問題が発生する。\n\n開発が止まっているプロジェクトの構成が古くなり、修正コストが発生する\n開発が複数同時進行している場合、同じような実装を手動で同期する必要がある\n\nこれらは共通の基盤等があれば効率的に（理想的にはn分の1の労力で）開発が可能であり、将来的なコストを考えると、いまのうちにその...",
+          "link": "https://zenn.dev/okmttdhr/articles/96506133e4efa0",
+          "publishedOn": "2021-09-15T22:44:41.000Z",
+          "wordCount": 444,
+          "title": "[TypeScript]モノレポ管理ツール比較検討",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--1bTIVWgU--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:okmttdhr%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BTypeScript%255D%25E3%2583%25A2%25E3%2583%258E%25E3%2583%25AC%25E3%2583%259D%25E7%25AE%25A1%25E7%2590%2586%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E6%25AF%2594%25E8%25BC%2583%25E6%25A4%259C%25E8%25A8%258E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjk2ZmUyNzhhNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/magurotuna/articles/deno-release-note-1-14-0",
           "author": "magurotuna",
@@ -2069,48 +2191,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
-          "author": "空雲",
-          "description": "Next.jsとWeb-Worker\nNext.jsは様々な機能を無設定で行えるように開発されています\nWeb-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます\nどのぐらい手軽に利用可能か、試してみたいと思います\n\n 初期作業\n\n      \n        \n        yarn add next react react-dom\nyarn add -D typescript @types/node @types/react\n\n\n      \n      \n ソースコード\n\nsrc/libs/sums.ts\n\n1からcountで与え...",
-          "link": "https://zenn.dev/sora_kumo/articles/65420761a0bec2",
-          "publishedOn": "2021-08-18T12:58:21.000Z",
-          "wordCount": 185,
-          "title": "Next.jsでWeb-Workerを呼び出す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--qqkuF2EI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/amay077/articles/77b08c940decbe",
-          "author": "amay077",
-          "description": "AWS AppSync というと、私は「Google Firestore 対抗のオフライン対応リアルタイムデータベース、ただし API は GraphQL」という認識だったのですが、もう少し機能をブレークダウンしていくと、「単なるマネージドな WebSocket 的サービス」としても使えるな、と気付きまして、試しにチャットっぽいアプリを作ってみました。\nこんなやつ↓\n\n\n AppSync 側の設定\nデータソースは使用しません（＝ローカルリゾルバーを使用）。\nこれによりデータは永続化されずただの 「WebSocket的サーバー」 として動作します。\nデータを永続化したい場合は、Dynamo...",
-          "link": "https://zenn.dev/amay077/articles/77b08c940decbe",
-          "publishedOn": "2021-08-18T03:03:02.000Z",
-          "wordCount": 414,
-          "title": "AWS AppSync + Local Resolver でチャットっぽいものを作ってみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--weTmIUpy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:amay077%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:AWS%2520AppSync%2520%252B%2520Local%2520Resolver%2520%25E3%2581%25A7%25E3%2583%2581%25E3%2583%25A3%25E3%2583%2583%25E3%2583%2588%25E3%2581%25A3%25E3%2581%25BD%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjc1ZGNhOGM5Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dozo/articles/54f697ff41f100",
-          "author": "dozo",
-          "description": "rollup-plugin-esbuildでそれぞれのいいとこ取り\n------------------- ↓ 前書はここから ↓-------------------\nWebpack嫌いには光の速さで消えて欲しい筆者にとって、\nバンドラーはもっぱらrollup.jsだった。\nプラグインの豊富さからありとあらゆる場面で活用していたのだが、\n最近バンドラーのトレンドにビルド速度というのがあり、\nちょっと気になる今日この頃。\nesbuildやswcのようにGoやRustのようなハードウェアレイヤーの言語を使って、\nビルド実行をしてしまうアプローチ。\n(緩募: 低レベル言語に変わる用語)\n...",
-          "link": "https://zenn.dev/dozo/articles/54f697ff41f100",
-          "publishedOn": "2021-08-17T20:41:28.000Z",
-          "wordCount": 173,
-          "title": "rollup.jsに爆速esbuildを組み込む方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--CZVRE7f---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dozo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:rollup.js%25E3%2581%25AB%25E7%2588%2586%25E9%2580%259Fesbuild%25E3%2582%2592%25E7%25B5%2584%25E3%2581%25BF%25E8%25BE%25BC%25E3%2582%2580%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2255,20 +2335,6 @@
           "title": "Neovim builtin LSP設定入門",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--L73F58UN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nz%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Neovim%2520builtin%2520LSP%25E8%25A8%25AD%25E5%25AE%259A%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hxcDBncFdKRUpUUWRWNkQxMWFtVWYxY1R6YnFUakVtX3hGT1Z5ZUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/bun913/articles/3c07695fe1474c",
-          "author": "bun",
-          "description": "何を作ったのか\nvimでTodo管理を便利にするための小さなプラグインです。\n\n新規タスクを作成する\nタスクの終了・未了をワンボタンで切り替えられる\n終了済みのタスクをまとめて、最終行に移動させる\n\nということをできるようにしました。\nhttps://github.com/bun913/min-todo.vim\n\n イメージ\nタスクの作成\n\nタスクの終了・未了を切り替え\n\n終了済みのタスクをまとめて移動\n\n\n 参考にしたサイト\n初めて作るvimプラグインですし、そもそもまともにvimスクリプトを書いたことがないためお作法がさっぱりわかりませんでした。\n以下のサイトを参考にさせていただ...",
-          "link": "https://zenn.dev/bun913/articles/3c07695fe1474c",
-          "publishedOn": "2021-08-18T12:34:06.000Z",
-          "wordCount": 56,
-          "title": "日常の作業改善のため超シンプルvimプラグインを作成した",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--EmKvRNNy--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:bun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%2597%25A5%25E5%25B8%25B8%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E6%2594%25B9%25E5%2596%2584%25E3%2581%25AE%25E3%2581%259F%25E3%2582%2581%25E8%25B6%2585%25E3%2582%25B7%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25ABvim%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzE0ZWEwMTIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
@@ -2717,5 +2783,5 @@
       ]
     }
   ],
-  "cliVersion": "1.11.0"
+  "cliVersion": "1.11.1"
 }

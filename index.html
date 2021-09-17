@@ -77,12 +77,218 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-16">2021-09-16</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.com/osmoscraft/osmosfeed/releases">Release notes from osmosfeed</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">v1.11.1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Fixed: Unexpected nested element in author field crashes the parser
+Thank you @ad-m</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reactのライブラリでたまに見るみたいなやつを調べた。~雰囲気でJSを書いている仲間へ届け~</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mura_chan/articles/93c6027b176ce6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ことの発端
+
+      
+        
+         setShow(false)} dismissible&gt;
+  ...
+  
+ ってなん...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reactでpropsにスプレッド構文を使った場合にclassNameが意図通り適用されない</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/takasing/articles/tsx-spread-operator-overwrite">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ハマったのでメモ。
+以下のような Text Component があるとする。
+このコンポーネントでは div をラップしているので、Props には HTMLDivElement の attributes をユニオンしており、onClick などをいちいち定義しなくてよいようにしている。
+
+      
+        
+        export type Props &#x3D; React.HTMLAttributes &amp; {
+  size: number;
+  weight?: Weight;
+  align?: Align;
+  c...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reactのinteractjsを使って3×3のスライドパズルを作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/beeeyan/articles/4e0737146199d7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>完成形はこんな感じ
+
+動かして中途半端な位置だと他のパズルが動かせないのでご注意ください。
+完成すると、「完成!! Congratulations!!」と表示されます。
+私のポートフォリオサイトでも試せます。
+
+ 本記事内容
+ソースコードは公開しているので（上記のcodesandbox内のものも含め）実装方法についてはあまり触れていません。（コメントは残したつもり）
+参考情報とか、もしこのソースコードを利用する場合の注意点とか書いてます。
+どっちかって言うと、「作ってみた」要素が強いです
+
+ 作った経緯
+Reactで「コンポーネントをドラッグで動かす」をやってみたかった。
+動かせるU...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React Hook Form(v7)を使ったコンポーネント設計案</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/manalink/articles/manalink-react-hook-form-v7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>本記事ではReact Hook Form(v7)を使ったコンポーネント設計のアイデアについて話します。
+https://react-hook-form.com/jp/
+React Hook Formはその名の通り、Hooksをベースにフォームのバリデーション設定を記述できるライブラリで、特にv7で大きな変更が入りました。そのため、本記事ではv7前提であることをタイトルで明記しています。
+Hooksにフォームのロジックが切り離されることにより、理論的には、TSXで記述されたView層と、バリデーションを司るロジック層を切り離して実装することができるはずです。
+オンライン家庭教師マナリンクで...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【TS】NestJSでFirebaseを使ってプッシュ通知を送るモック作成</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nekoniki/articles/d4bd396476c107">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>概要
+今回はNestJSからfirebase-adminを使って端末にプッシュ通知を送るモックを作成する手順の私的メモです。
+同様の構成でプッシュ通知の導通を試したい方もいるかなと思い記事にしました。
+前提条件としてFirebaseのプロジェクトは作成済みで、アプリ側にもFirebaseは組み込み済み(&#x3D;プッシュ通知を受け取る準備ができている)ものとします。
+
+ NestJSとは
+以下公式サイトです。
+https://nestjs.com/
+以下のような説明があります。
+
+A progressive Node.js framework for building efficient, ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">NestJS + serverlessのアプリの一部にバッチ処理を入れる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/xxpiyomaruxx/articles/8f7b45d1c4e794">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>NestJSで構築した、ServerlessFrameworkを使ってデプロイするようなアプリケーションについて、普通のエンドポイントと別にバッチ処理を動かしたいことがありました。
+結論から言うとbatch処理用のhandlerを用意して
+
+ 手法の比較
+バッチ処理というキーワードだけだと
+
+NestJSのTask Scheculingを使う
+NestJSにAPIの口を普通に作って、APIを定期実行するLambdaを外で作る
+APIを定期実行するLambdaをserverlessで新しく用意する
+serverlessに新しいfunctionsの口を生やす
+
+みたいな手法が自分にはぱっと思...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScript Compiler API で型を自動生成する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/panda_program/articles/typescript-compiler-api">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(14 min)</span>
+                    <span>Compiler API で yaml から型を自動生成する
+この記事は TypeScript Compiler API を実際に使って TypeScript の型を自動生成する方法を紹介しています。
+記事内では Google Analytics のイベントの型の自動生成にトライしています。
+題材として GA を選んだのは、以前 Next.js に Google Analytics（GA） を導入する方法を紹介した記事でGA のイベントで使う型を yaml から自動生成するのはどうか と書いていたからです。
+正直なところ、GA のイベントに馴染みのない方もいらっしゃると思うので、最初...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptでブラケット記法を使うときにハマったこと</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/katoaki/articles/37a8cff3a8a32a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+ブラケット記法でプロパティへアクセスしようとしたら「Element implicitly has an &#x27;any&#x27; type because expression of type &#x27;string&#x27; can&#x27;t be used to index type &#x27;xxx&#x27;. No index signature with a parameter of type &#x27;string&#x27; was found on type &#x27;xxx&#x27;」のエラーが出ました。
+対応について整理しました。
+
+ やってみたこと
+
+ エラーの再現
+エラーになった時のソースはこんな感じでした。
+
+      
+    ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-15">2021-09-15</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[TypeScript]モノレポ管理ツール比較検討</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/okmttdhr/articles/96506133e4efa0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>モノレポ管理のツールを検討したときのメモ
+
+ Background
+自分が所属するチームで開発する JavaScript/TypeScript のプロダクトが増えてきて、同じような内容のリポジトリがいくつも存在している（n個とする）。
+変更を加えていくにつれて、それぞれの差分が大きくなり、以下のような問題が発生する。
+
+開発が止まっているプロジェクトの構成が古くなり、修正コストが発生する
+開発が複数同時進行している場合、同じような実装を手動で同期する必要がある
+
+これらは共通の基盤等があれば効率的に（理想的にはn分の1の労力で）開発が可能であり、将来的なコストを考えると、いまのうちにその...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Deno 1.14.0 がリリースされたので新機能や変更点の紹介</summary>
@@ -5147,42 +5353,6 @@ menu-propsを利用します。
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでWeb-Workerを呼び出す</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/65420761a0bec2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Next.jsとWeb-Worker
-Next.jsは様々な機能を無設定で行えるように開発されています
-Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
-どのぐらい手軽に利用可能か、試してみたいと思います
-
- 初期作業
-
-      
-        
-        yarn add next react react-dom
-yarn add -D typescript @types/node @types/react
-
-
-      
-      
- ソースコード
-
-src/libs/sums.ts
-
-1からcountで与え...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -5225,131 +5395,14 @@ DIの対応前後のサンプルコードで比較を確認します。次のコ
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでWeb-Workerを呼び出す</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/65420761a0bec2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Next.jsとWeb-Worker
-Next.jsは様々な機能を無設定で行えるように開発されています
-Web-Workerに関しても同様で、next.config.jsに一切手を入れずに動かすことが出来ます
-どのぐらい手軽に利用可能か、試してみたいと思います
-
- 初期作業
-
-      
-        
-        yarn add next react react-dom
-yarn add -D typescript @types/node @types/react
-
-
-      
-      
- ソースコード
-
-src/libs/sums.ts
-
-1からcountで与え...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">AWS AppSync + Local Resolver でチャットっぽいものを作ってみる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/amay077/articles/77b08c940decbe">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>AWS AppSync というと、私は「Google Firestore 対抗のオフライン対応リアルタイムデータベース、ただし API は GraphQL」という認識だったのですが、もう少し機能をブレークダウンしていくと、「単なるマネージドな WebSocket 的サービス」としても使えるな、と気付きまして、試しにチャットっぽいアプリを作ってみました。
-こんなやつ↓
-
-
- AppSync 側の設定
-データソースは使用しません（＝ローカルリゾルバーを使用）。
-これによりデータは永続化されずただの 「WebSocket的サーバー」 として動作します。
-データを永続化したい場合は、Dynamo...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">日常の作業改善のため超シンプルvimプラグインを作成した</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bun913/articles/3c07695fe1474c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>何を作ったのか
-vimでTodo管理を便利にするための小さなプラグインです。
-
-新規タスクを作成する
-タスクの終了・未了をワンボタンで切り替えられる
-終了済みのタスクをまとめて、最終行に移動させる
-
-ということをできるようにしました。
-https://github.com/bun913/min-todo.vim
-
- イメージ
-タスクの作成
-
-タスクの終了・未了を切り替え
-
-終了済みのタスクをまとめて移動
-
-
- 参考にしたサイト
-初めて作るvimプラグインですし、そもそもまともにvimスクリプトを書いたことがないためお作法がさっぱりわかりませんでした。
-以下のサイトを参考にさせていただ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-17">2021-08-17</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">rollup.jsに爆速esbuildを組み込む方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/dozo/articles/54f697ff41f100">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>rollup-plugin-esbuildでそれぞれのいいとこ取り
-------------------- ↓ 前書はここから ↓-------------------
-Webpack嫌いには光の速さで消えて欲しい筆者にとって、
-バンドラーはもっぱらrollup.jsだった。
-プラグインの豊富さからありとあらゆる場面で活用していたのだが、
-最近バンドラーのトレンドにビルド速度というのがあり、
-ちょっと気になる今日この頃。
-esbuildやswcのようにGoやRustのようなハードウェアレイヤーの言語を使って、
-ビルド実行をしてしまうアプローチ。
-(緩募: 低レベル言語に変わる用語)
-...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-16T01:09:52.861Z">2021-09-16T01:09:52.861Z</time>
-    <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
+    <time id="build-timestamp" datetime="2021-09-17T01:13:08.567Z">2021-09-17T01:13:08.567Z</time>
+    <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>
   <!-- %before-body-end.html% -->
