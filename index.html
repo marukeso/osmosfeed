@@ -77,6 +77,59 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-17">2021-09-17</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">next.jsで複数のAPIエンドポイントで同じhandlerを使う小技</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/terrierscript/articles/2021-09-16-next-js-api-same-handler">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>next.jsで同じエンドポイントをハンドラとして使い回すとちょっと便利だった
+
+ ユースケース1: URLを変更したい場合
+APIのURLを変更したいが後方互換を保ちたいようなケースがあるだろう。
+リダイレクトを設定したり、Custom Serverを利用しても良いが、ちょっとそこまでやりたくないがコピペもしたくないようなときに利用できる
+例えばこんなAPIが/api/greetとしてあったとする
+
+      
+        
+        // /api/greet.ts
+
+import { NextApiHandler } from &quot;next&quot;
+
+const handler...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vercelのプレビューURLでは、sessionの保存ができないみたい🤔</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mochinozenn/articles/8218f316e704e7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>現在携わっているプロジェクトが、フロントNext.js, バックエンドrailsのジャムスタック構成です。
+そこで、rails側で生成したsessionがブラウザのcookieに保存されない事件が起こり、解決に時間がかかったため、備忘録です。
+(1ヶ月ほど時間が空いてしまったので、試したところは、覚えているものだけです、少し前後しているかも🙇‍♂️)
+認証情報はブラウザのsessionで管理したいというものが前提のものです。
+
+ 問題の発端
+ユーザー新規登録した際に、sessionを生成し、ブラウザのcookieに保存して、ユーザー情報を扱いたかった。
+そのため、railsのinitia...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-16">2021-09-16</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -5230,36 +5283,6 @@ Atomic design
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.js + YouTube Data API でchannelの情報を取得し表示してみる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/shimapon3/articles/90b32eb39acc50">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-Next.jsでYouTube Data APIに触ってみたいと思います。
-下のように任意のチャンネルの情報を表示するまでの手順を記載します。
-
-表示例
-
- ドキュメント
-Youtube Data API Channels：　https://developers.google.com/youtube/v3/docs/channels
-
- 環境
-
-macOS Big Sur	 (v11.2.1)
-Node.js (v16.3.0)
-
-
- API Keyを取得する
-まずは、YouTube Data APIでプロジェクトを作成し、API keyを取得しましょう。
-
-
-Google...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -5291,117 +5314,13 @@ Atomic design
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Firebase HostingでBasic認証をかける ~TypeScript編~</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kingu/articles/c32dfd9ca28fe8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>開発中だから見られたくない、特定の人にだけ見せたいなどで簡単に認証かけたいとなるとBasic認証である。
-Firebase HostingでもCloud Functionsと連携すれば実現できる。
-
- ググるといっぱい出てくるが...
-https://www.google.com/search?q&#x3D;firebase+hosting+basic認証
-なぜかCloud FunctionsはJavaScriptベースしか出てこなかった。
-TypeScriptでやろうとしてちょっとハマったので共有していく。
-
-見つけられなかっただけかも...
-
-
- 手順
-とは言え特別にやることはない。
-
-Fir...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vuetify/v-autocompleteのポップアップメニューの位置ずれ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gz/articles/378ed050719e75">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>答え：
-menu-propsを利用します。
-サンプル：
-
-      
-        
-        :menu-props&#x3D;&quot;{nudgeRight: 10, nudgeTop: 20}&quot;
-
-
-      
-      ポップアップメニューの正体はv-menuですので、詳細はv-menuのAPIをご参照ください。
-※注意点：APIのほうでnudge-rightと書かれているもの、nudgeRightのように書き換えてください。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-18">2021-08-18</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">デザインパターン ~Strategyパターン~</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/bonfireman/articles/1baea537219738">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Strategyとは？
-GoF（Gang of Four）デザインパターンの一つであり、さまざまなビジネスルールやアルゴリズムの変更が発生した際に、使用する側には意識させる事なく、柔軟に変更を可能にするためのパターンです。
-
- コードを書いてみよう
-今回は、以下のようなにネットで購入できる「写真」があったとします。
-写真のサイズには「L」「2L」「DL（ダウンロード）」の３種類があり、それぞれの定価があります。
-
- Strategyを使わない場合
-
-      
-        
-        class Photo {
-// 種類
-  private _size: &#x27;L&#x27; | &#x27;...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScriptでのDIと、Tsyringeについて</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/chida/articles/1f7df8f2beb6b6">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>DIとは
-DI（Dependency Injection）とは、日本語訳で依存性の注入です。依存性の注入と聞くと、依存性という抽象的な概念を何かに注入するような印象を与えますが、依存性という言葉自体は依存対象を表します。
-DIにおける依存対象は、オブジェクトのインスタンスです。つまり、Dependencyはオブジェクトのインスタンスを指します。そして、Injectionは外部から挿入するという意味を持つため、DIはオブジェクトのインスタンスを外部から挿入するという事になります。
-
- DIのコード
-DIの対応前後のサンプルコードで比較を確認します。次のコードは、ブラウザのコンソールに「...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-17T01:13:08.567Z">2021-09-17T01:13:08.567Z</time>
+    <time id="build-timestamp" datetime="2021-09-18T01:04:59.838Z">2021-09-18T01:04:59.838Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>

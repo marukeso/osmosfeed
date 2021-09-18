@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-17T01:13:08.608Z</updated>
+    <updated>2021-09-18T01:04:59.899Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[next.jsで複数のAPIエンドポイントで同じhandlerを使う小技]]></title>
+        <id>https://zenn.dev/terrierscript/articles/2021-09-16-next-js-api-same-handler</id>
+        <link href="https://zenn.dev/terrierscript/articles/2021-09-16-next-js-api-same-handler"/>
+        <updated>2021-09-17T14:07:30.000Z</updated>
+        <summary type="html"><![CDATA[next.jsで同じエンドポイントをハンドラとして使い回すとちょっと便利だった
+
+ ユースケース1: URLを変更したい場合
+APIのURLを変更したいが後方互換を保ちたいようなケースがあるだろう。
+リダイレクトを設定したり、Custom Serverを利用しても良いが、ちょっとそこまでやりたくないがコピペもしたくないようなときに利用できる
+例えばこんなAPIが/api/greetとしてあったとする
+
+      
+        
+        // /api/greet.ts
+
+import { NextApiHandler } from "next"
+
+const handler...]]></summary>
+        <author>
+            <name>terrierscript</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vercelのプレビューURLでは、sessionの保存ができないみたい🤔]]></title>
+        <id>https://zenn.dev/mochinozenn/articles/8218f316e704e7</id>
+        <link href="https://zenn.dev/mochinozenn/articles/8218f316e704e7"/>
+        <updated>2021-09-17T00:41:23.000Z</updated>
+        <summary type="html"><![CDATA[現在携わっているプロジェクトが、フロントNext.js, バックエンドrailsのジャムスタック構成です。
+そこで、rails側で生成したsessionがブラウザのcookieに保存されない事件が起こり、解決に時間がかかったため、備忘録です。
+(1ヶ月ほど時間が空いてしまったので、試したところは、覚えているものだけです、少し前後しているかも🙇‍♂️)
+認証情報はブラウザのsessionで管理したいというものが前提のものです。
+
+ 問題の発端
+ユーザー新規登録した際に、sessionを生成し、ブラウザのcookieに保存して、ユーザー情報を扱いたかった。
+そのため、railsのinitia...]]></summary>
+        <author>
+            <name>RyosukeMochizuki</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reactのライブラリでたまに見る<Component.Content />みたいなやつを調べた。~雰囲気でJSを書いている仲間へ届け~]]></title>
         <id>https://zenn.dev/mura_chan/articles/93c6027b176ce6</id>
@@ -4361,118 +4401,6 @@ Atomic design
 ※導入は個人の責任でおねがいします。（...]]></summary>
         <author>
             <name>y_Knight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js + YouTube Data API でchannelの情報を取得し表示してみる]]></title>
-        <id>https://zenn.dev/shimapon3/articles/90b32eb39acc50</id>
-        <link href="https://zenn.dev/shimapon3/articles/90b32eb39acc50"/>
-        <updated>2021-08-19T10:50:07.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-Next.jsでYouTube Data APIに触ってみたいと思います。
-下のように任意のチャンネルの情報を表示するまでの手順を記載します。
-
-表示例
-
- ドキュメント
-Youtube Data API Channels：　https://developers.google.com/youtube/v3/docs/channels
-
- 環境
-
-macOS Big Sur	 (v11.2.1)
-Node.js (v16.3.0)
-
-
- API Keyを取得する
-まずは、YouTube Data APIでプロジェクトを作成し、API keyを取得しましょう。
-
-
-Google...]]></summary>
-        <author>
-            <name>shimapon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firebase HostingでBasic認証をかける ~TypeScript編~]]></title>
-        <id>https://zenn.dev/kingu/articles/c32dfd9ca28fe8</id>
-        <link href="https://zenn.dev/kingu/articles/c32dfd9ca28fe8"/>
-        <updated>2021-08-19T09:32:59.000Z</updated>
-        <summary type="html"><![CDATA[開発中だから見られたくない、特定の人にだけ見せたいなどで簡単に認証かけたいとなるとBasic認証である。
-Firebase HostingでもCloud Functionsと連携すれば実現できる。
-
- ググるといっぱい出てくるが...
-https://www.google.com/search?q=firebase+hosting+basic認証
-なぜかCloud FunctionsはJavaScriptベースしか出てこなかった。
-TypeScriptでやろうとしてちょっとハマったので共有していく。
-
-見つけられなかっただけかも...
-
-
- 手順
-とは言え特別にやることはない。
-
-Fir...]]></summary>
-        <author>
-            <name>kingu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vuetify/v-autocompleteのポップアップメニューの位置ずれ]]></title>
-        <id>https://zenn.dev/gz/articles/378ed050719e75</id>
-        <link href="https://zenn.dev/gz/articles/378ed050719e75"/>
-        <updated>2021-08-19T08:41:12.000Z</updated>
-        <summary type="html"><![CDATA[答え：
-menu-propsを利用します。
-サンプル：
-
-      
-        
-        :menu-props="{nudgeRight: 10, nudgeTop: 20}"
-
-
-      
-      ポップアップメニューの正体はv-menuですので、詳細はv-menuのAPIをご参照ください。
-※注意点：APIのほうでnudge-rightと書かれているもの、nudgeRightのように書き換えてください。]]></summary>
-        <author>
-            <name>walking_on_ice</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デザインパターン ~Strategyパターン~]]></title>
-        <id>https://zenn.dev/bonfireman/articles/1baea537219738</id>
-        <link href="https://zenn.dev/bonfireman/articles/1baea537219738"/>
-        <updated>2021-08-18T15:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Strategyとは？
-GoF（Gang of Four）デザインパターンの一つであり、さまざまなビジネスルールやアルゴリズムの変更が発生した際に、使用する側には意識させる事なく、柔軟に変更を可能にするためのパターンです。
-
- コードを書いてみよう
-今回は、以下のようなにネットで購入できる「写真」があったとします。
-写真のサイズには「L」「2L」「DL（ダウンロード）」の３種類があり、それぞれの定価があります。
-
- Strategyを使わない場合
-
-      
-        
-        class Photo {
-// 種類
-  private _size: 'L' | '...]]></summary>
-        <author>
-            <name>Shota Nakano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptでのDIと、Tsyringeについて]]></title>
-        <id>https://zenn.dev/chida/articles/1f7df8f2beb6b6</id>
-        <link href="https://zenn.dev/chida/articles/1f7df8f2beb6b6"/>
-        <updated>2021-08-18T15:04:41.000Z</updated>
-        <summary type="html"><![CDATA[DIとは
-DI（Dependency Injection）とは、日本語訳で依存性の注入です。依存性の注入と聞くと、依存性という抽象的な概念を何かに注入するような印象を与えますが、依存性という言葉自体は依存対象を表します。
-DIにおける依存対象は、オブジェクトのインスタンスです。つまり、Dependencyはオブジェクトのインスタンスを指します。そして、Injectionは外部から挿入するという意味を持つため、DIはオブジェクトのインスタンスを外部から挿入するという事になります。
-
- DIのコード
-DIの対応前後のサンプルコードで比較を確認します。次のコードは、ブラウザのコンソールに「...]]></summary>
-        <author>
-            <name>chida</name>
         </author>
     </entry>
 </feed>
