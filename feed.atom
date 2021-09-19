@@ -2,10 +2,761 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-18T01:04:59.899Z</updated>
+    <updated>2021-09-19T00:55:13.086Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】アクセスコントロールパターン]]></title>
+        <id>https://zenn.dev/aiji42/articles/450ce962cc225a</id>
+        <link href="https://zenn.dev/aiji42/articles/450ce962cc225a"/>
+        <updated>2021-09-18T17:11:31.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Next.js で MPA を構築していると、ページ単位でアクアセスコントロールを行うニーズやケースがよく発生します。
+ここでのアクセスコントロールは、ページごとにアクセス可能な条件を定義したり、ルールにそぐわないアクセスを別のページに転送させるなどの処理を意味します。
+例えば、一般ユーザ向けのページと、登録済みユーザ向けのマイページを持つケースを考えてみると…
+
+一般ユーザ向けページは誰でもアクセス可能
+マイページはログイン済みのユーザのみアクセス可能
+ログインのためのサインイン・アップフォームのページも存在するが、ログイン済みであればマイページにリダイレクトされる
+
+た...]]></summary>
+        <author>
+            <name>aiji42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】アクセスコントロールパターン]]></title>
+        <id>https://zenn.dev/aiji42/articles/450ce962cc225a</id>
+        <link href="https://zenn.dev/aiji42/articles/450ce962cc225a"/>
+        <updated>2021-09-18T17:11:31.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Next.js で MPA を構築していると、ページ単位でアクアセスコントロールを行うニーズやケースがよく発生します。
+ここでのアクセスコントロールは、ページごとにアクセス可能な条件を定義したり、ルールにそぐわないアクセスを別のページに転送させるなどの処理を意味します。
+例えば、一般ユーザ向けのページと、登録済みユーザ向けのマイページを持つケースを考えてみると…
+
+一般ユーザ向けページは誰でもアクセス可能
+マイページはログイン済みのユーザのみアクセス可能
+ログインのためのサインイン・アップフォームのページも存在するが、ログイン済みであればマイページにリダイレクトされる
+
+た...]]></summary>
+        <author>
+            <name>aiji42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vim でディレクトリ内のファイルを一括リネームする]]></title>
+        <id>https://zenn.dev/anozon/articles/vimfilter-rename</id>
+        <link href="https://zenn.dev/anozon/articles/vimfilter-rename"/>
+        <updated>2021-09-18T13:58:17.000Z</updated>
+        <summary type="html"><![CDATA[vimfiler の rename 機能が便利で、複数ファイルを自由自在にリネームできます。
+Shougo/vimfiler.vim: Powerful file explorer implemented by Vim script
+
+ やってみる
+
+.js ファイルを .tsx に書き換えます。
+
+ 動画
+oembed: https://www.youtube.com/watch?v=BxSkWfem7uI&feature=youtu.be
+
+
+vim target/dir ディレクトリを開く
+
+* 全ファイル選択
+
+r リネームモード
+
+vim 編集の例 1 解説
+
+
+/js...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vim の q マクロを保存して使いまわす]]></title>
+        <id>https://zenn.dev/anozon/articles/vim-macro-save</id>
+        <link href="https://zenn.dev/anozon/articles/vim-macro-save"/>
+        <updated>2021-09-18T13:58:16.000Z</updated>
+        <summary type="html"><![CDATA[1 度作ったマクロを保存して、 vim を開き直したときも使いまわしたいときの方法。
+マクロ @b に保存する例で説明します。
+
+ .vimrc に保存する
+
+ q で macro を記録する
+qb → 操作 → q で記録。
+
+ .vimrc に追記する
+
+      
+        
+        let @b = 'Gk$F_lvEygg$p
+
+
+      
+      
+ (外部クリップボードにコピーしたりしたいとき)
+
+      
+        
+        "bpyy
+
+
+      
+      "b b を選択 →p 貼り付け → yy コピーで外部クリップ...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vim の visual mode で選択した範囲に paste できないとき]]></title>
+        <id>https://zenn.dev/anozon/articles/vim-cannot-paste</id>
+        <link href="https://zenn.dev/anozon/articles/vim-cannot-paste"/>
+        <updated>2021-09-18T13:58:16.000Z</updated>
+        <summary type="html"><![CDATA[恐らく visual mode で選択した範囲がコピーされています。
+clipboard に autoselect が設定されているときの挙動です。
+
+ 設定
+
+      
+        
+        -set clipboard=unnamed,autoselect
++set clipboard=unnamed]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js with TypeScript で最小限の _app.tsx, _document.tsx]]></title>
+        <id>https://zenn.dev/anozon/articles/ts-nextjs-pages</id>
+        <link href="https://zenn.dev/anozon/articles/ts-nextjs-pages"/>
+        <updated>2021-09-18T13:58:15.000Z</updated>
+        <summary type="html"><![CDATA[この記事では Next.js with TypeScript で最小限の _app.tsx, _document.tsx について紹介します。
+Gist: Next.js with typescript minimum pages/_document.tsx, pages/_app.tsx
+
+ pages/_app.tsx
+こちらは Function Component でかけるのでシンプルです。
+
+      
+        
+        import { AppProps } from 'next/app'
+import Head from 'next/head'
+
+const...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[アロー関数とfunction それぞれの Type Guard 書き方]]></title>
+        <id>https://zenn.dev/anozon/articles/type-guard-arrow-function</id>
+        <link href="https://zenn.dev/anozon/articles/type-guard-arrow-function"/>
+        <updated>2021-09-18T13:58:15.000Z</updated>
+        <summary type="html"><![CDATA[この記事では アロー関数で Type Guard について紹介します。
+TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript
+
+      
+        
+        type Nigiri = {
+  category: 'nigiri'
+  neta: string
+}
+type Gunkan = {
+  category: 'gunkan'
+  neta: string
+  nori: number
+}
+type Sushi = Nigiri | Gunkan...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js with TypeScript で最小限の _app.tsx, _document.tsx]]></title>
+        <id>https://zenn.dev/anozon/articles/ts-nextjs-pages</id>
+        <link href="https://zenn.dev/anozon/articles/ts-nextjs-pages"/>
+        <updated>2021-09-18T13:58:15.000Z</updated>
+        <summary type="html"><![CDATA[この記事では Next.js with TypeScript で最小限の _app.tsx, _document.tsx について紹介します。
+Gist: Next.js with typescript minimum pages/_document.tsx, pages/_app.tsx
+
+ pages/_app.tsx
+こちらは Function Component でかけるのでシンプルです。
+
+      
+        
+        import { AppProps } from 'next/app'
+import Head from 'next/head'
+
+const...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[surround.vim 入門【vim中級者向け】]]></title>
+        <id>https://zenn.dev/anozon/articles/surround-vim-tutorial</id>
+        <link href="https://zenn.dev/anozon/articles/surround-vim-tutorial"/>
+        <updated>2021-09-18T13:58:14.000Z</updated>
+        <summary type="html"><![CDATA[公式リポジトリ https://github.com/tpope/vim-surround
+
+ why
+
+周囲(クウォート, 括弧, タグ ...)の操作が楽になる
+Vim plugin にデフォルトでついてることが多いのですぐ使える
+
+VSCodeVim(VSCode), IdeaVIM(JetBrains)
+
+      
+        
+        Plug 'tpope/vim-surround'
+
+
+      
+      
+ demos
+公式の Introduction にそって基本コマンドを紹介します。
+vim-surround/surround.txt at ma...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[js で先頭以外(n行目以降)をソートする]]></title>
+        <id>https://zenn.dev/anozon/articles/sort-without-head</id>
+        <link href="https://zenn.dev/anozon/articles/sort-without-head"/>
+        <updated>2021-09-18T13:58:12.000Z</updated>
+        <summary type="html"><![CDATA[js で配列の 2 行目以降のみをソートする方法のメモです。
+repl: https://repl.it/@anozon/sortbody#index.ts
+
+ ソート対象の配列
+
+      
+        
+        // js
+const elems = [
+  { name: 'primary', count: 10 }, // ソートしないで！
+  { name: 'b', count: 2 },
+  { name: 'd', count: 12 },
+  { name: 'a', count: 1 },
+  { name: 'c', count: 11 },
+]
+
+/...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ssh 接続先の vim でマウスの選択範囲をコピーする]]></title>
+        <id>https://zenn.dev/anozon/articles/ssh-vim-copy</id>
+        <link href="https://zenn.dev/anozon/articles/ssh-vim-copy"/>
+        <updated>2021-09-18T13:58:12.000Z</updated>
+        <summary type="html"><![CDATA[vim で mouse を off にする
+
+      
+        
+        :set mouse=
+
+
+      
+      
+ iTerm2 の設定]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React で URL props が変わったら fade アニメーションで 背景を変える]]></title>
+        <id>https://zenn.dev/anozon/articles/react-transition-props-bg</id>
+        <link href="https://zenn.dev/anozon/articles/react-transition-props-bg"/>
+        <updated>2021-09-18T13:58:10.000Z</updated>
+        <summary type="html"><![CDATA[props で指定された URL が変わったら フェードアウト し、
+新しい URL 画像で フェードイン しながら表示するコンポーネントを作りました。
+react-transition-group を使います。
+
+ デモ
+<iframe src="https://codesandbox.io/embed/react-animation-background-image-jznjc?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+style="width:100%; height:210px; bo...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React で特定の props を固定した特化コンポーネントを定義する]]></title>
+        <id>https://zenn.dev/anozon/articles/react-set-props</id>
+        <link href="https://zenn.dev/anozon/articles/react-set-props"/>
+        <updated>2021-09-18T13:58:10.000Z</updated>
+        <summary type="html"><![CDATA[React で特定の props を固定した特化コンポーネントを定義する方法をいくつかまとめました。
+DEMO です。
+react-set-props - CodeSandbox
+以下の Message という自作コンポーネントと Star というライブラリのコンポーネントを例に使います。
+Star は `material-ui の icon コンポーネントです。
+
+      
+        
+        import Star from '@material-ui/icons/Star'
+
+const Message = (props) => <p>mes: ...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React で複数の ref を 1つのコンポーネントにセットする]]></title>
+        <id>https://zenn.dev/anozon/articles/react-multiple-ref-to-one-component</id>
+        <link href="https://zenn.dev/anozon/articles/react-multiple-ref-to-one-component"/>
+        <updated>2021-09-18T13:58:09.000Z</updated>
+        <summary type="html"><![CDATA[同じ div に useSize と useHover の両方を使いたいとがあった。
+しかしどちらも ref を渡さなければいけなかったのでその方法です。
+Share ref with multiple ref handlers · Issue #13029 · facebook/react
+
+ useCombinedRefs
+ref を合成する関数を用意する。
+参考: https://github.com/facebook/react/issues/13029#issuecomment-497641073
+
+      
+        
+        export const us...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React と display grid でメモリ付き定規]]></title>
+        <id>https://zenn.dev/anozon/articles/react-memory-ruler</id>
+        <link href="https://zenn.dev/anozon/articles/react-memory-ruler"/>
+        <updated>2021-09-18T13:58:09.000Z</updated>
+        <summary type="html"><![CDATA[メモリ付きの定規、ルーラーコンポーネントのサンプルです。
+
+
+ コード
+ruler-with-memory - CodeSandbox
+
+      
+        title=Ruler.tsx
+        <Ruler
+  memories={[1, 2, 4, 8, 16, 32, 64, 128]}
+  colors={['#333', '#444', '#555', '#666', '#777', '#888', '#999']}
+/>
+
+
+      
+      
+      
+        
+        function Ruler({ memor...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[children を持つ Component を normal function で書くときの型定義]]></title>
+        <id>https://zenn.dev/anozon/articles/react-fc-with-function</id>
+        <link href="https://zenn.dev/anozon/articles/react-fc-with-function"/>
+        <updated>2021-09-18T13:58:09.000Z</updated>
+        <summary type="html"><![CDATA[この記事では children を持つ Component を function で書くときの型定義する方法を説明します。
+
+ 書き方
+React.PropsWithChildren<Props> を使うことで書けます。
+Sample PropsWithChildren - CodeSandbox
+
+      
+        
+        type Props = {}
+function Component(props: React.PropsWithChildren<Props>) {}
+
+
+      
+      
+ それぞれの書き方
+
+      ...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React で canvas から画像生成する最小コード]]></title>
+        <id>https://zenn.dev/anozon/articles/react-canvas-to-img</id>
+        <link href="https://zenn.dev/anozon/articles/react-canvas-to-img"/>
+        <updated>2021-09-18T13:58:08.000Z</updated>
+        <summary type="html"><![CDATA[この記事では React (と TypeScript で) canvas から画像生成する方法を紹介します。
+文字描画や色変更をサンプルに説明していきます。
+
+ React で Canvas を使うベースのコード
+
+      
+        
+        import React, { useEffect, useState } from 'react'
+const width = 255
+const height = 255
+
+function App() {
+  const [png, setPng] = useState<string | null>(null)...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python で TypeScript の UnionType を使う]]></title>
+        <id>https://zenn.dev/anozon/articles/python-typing-literal</id>
+        <link href="https://zenn.dev/anozon/articles/python-typing-literal"/>
+        <updated>2021-09-18T13:58:08.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript の UnionType は以下のように定義できます。
+
+      
+        
+        type Color = 'red' | 'green'
+
+
+      
+      Python の type でも同じようなことができるのか調べました。
+ちなみに typeing.Union というのがありますが別です。
+
+ typeing.Literal を使う
+
+      
+        
+        from typing import Literal, get_args
+
+COLOR = Literal['red', 'green', 'bl...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js export 実行時のタイムスタンプをコンポーネントで使う]]></title>
+        <id>https://zenn.dev/anozon/articles/next-initial-props-timestmap</id>
+        <link href="https://zenn.dev/anozon/articles/next-initial-props-timestmap"/>
+        <updated>2021-09-18T13:58:05.000Z</updated>
+        <summary type="html"><![CDATA[next export を実行した時のタイムスタンプをレンダリングしたいときの方法です。
+jsx 上で <span>{new Date()}</span> などとするとクライアントサイドでレンダリングされた時間が表示されてしまいます。
+SSR 時のデータを React で使いたい場合は NextPage コンポーネント で Component.getInitialProps を使うと渡すことが出来ます。
+(/pages 直下で export するコンポーネント)
+
+ コード
+
+      
+        
+        import { createConte...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js export 実行時のタイムスタンプをコンポーネントで使う]]></title>
+        <id>https://zenn.dev/anozon/articles/next-initial-props-timestmap</id>
+        <link href="https://zenn.dev/anozon/articles/next-initial-props-timestmap"/>
+        <updated>2021-09-18T13:58:05.000Z</updated>
+        <summary type="html"><![CDATA[next export を実行した時のタイムスタンプをレンダリングしたいときの方法です。
+jsx 上で <span>{new Date()}</span> などとするとクライアントサイドでレンダリングされた時間が表示されてしまいます。
+SSR 時のデータを React で使いたい場合は NextPage コンポーネント で Component.getInitialProps を使うと渡すことが出来ます。
+(/pages 直下で export するコンポーネント)
+
+ コード
+
+      
+        
+        import { createConte...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[localhost.{appname}:3000 で開発してブラウザキャッシュを活用する案]]></title>
+        <id>https://zenn.dev/anozon/articles/localhost-apphost-dev</id>
+        <link href="https://zenn.dev/anozon/articles/localhost-apphost-dev"/>
+        <updated>2021-09-18T13:58:02.000Z</updated>
+        <summary type="html"><![CDATA[複数のアプリを同じ localhost:3000 で開発すると切り替えるたびにキャッシュが競合するので /etc/hosts で変える案です。
+
+ /etc/hosts
+
+      
+        
+        sudo vim /etc/hosts
+
+
+      
+      
+      
+        
+        127.0.0.1 localhost.appname
+127.0.0.1 localhost.othername
+127.0.0.1 localhost.hoge
+127.0.0.1 localhost.fuga
+
+
+      
+      
+ フロ...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5層 ReactComponent と TypeScript でカウンター書いてみる]]></title>
+        <id>https://zenn.dev/anozon/articles/layer-react-counterapp</id>
+        <link href="https://zenn.dev/anozon/articles/layer-react-counterapp"/>
+        <updated>2021-09-18T13:58:01.000Z</updated>
+        <summary type="html"><![CDATA[経年劣化に耐える ReactComponent の書き方 - Qiita
+が良さそうだったので TypeScript で書く場合を試してみた。
+
+ コード
+CodeSandbox
+
+      
+        
+        import React, { useState } from "react"
+import styled from "styled-components"
+
+type Props = {
+  className?: string
+  count: number
+  handleCountUp: () => void
+  handleCountDown: ...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[styled-components の keyframes で ts-styled-plugin のエラーが出る]]></title>
+        <id>https://zenn.dev/anozon/articles/keyframes-ts-styled-plugin</id>
+        <link href="https://zenn.dev/anozon/articles/keyframes-ts-styled-plugin"/>
+        <updated>2021-09-18T13:58:00.000Z</updated>
+        <summary type="html"><![CDATA[css animation の 100% や 0% などのキーワードに対して ts-styled-plugin のエラーが出たので対処しました。
+styled-components で animation を扱う場合以下のように書きます。 (styled-components@5.2.1)
+
+      
+        
+        import styled, { keyframes } from 'styled-components'
+
+const invert = keyframes`
+0% {
+	background: white;
+	color: black;
+}
+100...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[component から props の型を取得する]]></title>
+        <id>https://zenn.dev/anozon/articles/get-props-type-from-component</id>
+        <link href="https://zenn.dev/anozon/articles/get-props-type-from-component"/>
+        <updated>2021-09-18T13:57:52.000Z</updated>
+        <summary type="html"><![CDATA[Storybook で props 型が必要だけど export したくなかったので。
+
+ 方法 1
+
+      
+        
+        import { ComponentProps } from 'react'
+
+type Props = ComponentProps<typeof TargetComponent>
+
+
+      
+      
+ 方法 2(古い)
+
+      
+        
+        type Props = Parameters<typeof TargetComponent>[0]]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GatsbyJS を Typescript に移行した際の Type 付け]]></title>
+        <id>https://zenn.dev/anozon/articles/gatsby-to-typescript</id>
+        <link href="https://zenn.dev/anozon/articles/gatsby-to-typescript"/>
+        <updated>2021-09-18T11:29:37.000Z</updated>
+        <summary type="html"><![CDATA[GatsbyJS で書いているこのブログを Typescript 移行しました。
+主に以下の記事を参考に移行しました。なので今回は Type づけに焦点を当てて書きます。
+Gatsby.js を完全 TypeScript 化する - Qiita
+
+ GraphQL Data, Page Component に型をつける
+gatsby-plugin-graphql-codegen を使用する方法と @graphql-codegen/typescript を使用する方法がありましたが前者を選びました。セットアップが簡潔に済んだので。
+
+ PageQuery
+
+      
+        
+...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[fitty を React で使う useFitty hook]]></title>
+        <id>https://zenn.dev/anozon/articles/fitty-in-react</id>
+        <link href="https://zenn.dev/anozon/articles/fitty-in-react"/>
+        <updated>2021-09-18T11:29:34.000Z</updated>
+        <summary type="html"><![CDATA[fitty はコンテナに合わせてテキストのフォントサイズをフィットしてくれるライブラリです。
+rikschennink/fitty: ✨ Makes text fit perfectly
+それを React で使うための hooks を書いた。
+Gist fitty for react
+
+ コード
+
+      
+        
+        import { useEffect, useRef } from 'react'
+import fitty from 'fitty'
+
+export function useFitty() {
+  const ref = useRef<...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[絵文字を含めて文字数カウントするWebアプリ作った]]></title>
+        <id>https://zenn.dev/anozon/articles/emoji-moji-count</id>
+        <link href="https://zenn.dev/anozon/articles/emoji-moji-count"/>
+        <updated>2021-09-18T11:29:32.000Z</updated>
+        <summary type="html"><![CDATA[アプリ
+文字頻度カウント(絵文字対応)
+
+
+ 絵文字対応
+"text".split('') では絵文字が 1 文字として分割できません。
+
+      
+        
+        > "😔"
+'😔'
+> "😔".split('')
+[ '�', '�' ]
+
+
+      
+      punycode.js を使います。
+
+      
+        
+        const punySplit = (s: string) =>
+  punycode.ucs2.decode(s).map((v) => punycode.ucs2.encode(...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Clasp】GoogleAppScript のコードをローカルで開発する]]></title>
+        <id>https://zenn.dev/anozon/articles/clasp-init-feels</id>
+        <link href="https://zenn.dev/anozon/articles/clasp-init-feels"/>
+        <updated>2021-09-18T11:29:30.000Z</updated>
+        <summary type="html"><![CDATA[この記事では Clasp を使って GoogleAppScript のコードを手元で管理する方法を紹介します。
+Clasp Command Line Interface using clasp | Google Developers
+
+ 手順 1. 初期化する
+管理するディレクトリに移動してしてパッケージをインストールします。
+その後 Google アカウントでログインします。
+
+      
+        
+        yarn add @google/clasp -D
+clasp login
+
+
+      
+      プロジェクトのみに入れてる場合は以降の clasp ho...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arrow function で generics にすると HTML タグとして認識されてしまうときの tips]]></title>
+        <id>https://zenn.dev/anozon/articles/arrow-function-generics</id>
+        <link href="https://zenn.dev/anozon/articles/arrow-function-generics"/>
+        <updated>2021-09-18T11:29:28.000Z</updated>
+        <summary type="html"><![CDATA[エディタなどによってうまくハイライトされなかったときはこうする。
+
+      
+        
+        const double = <T>(v: T): [T, T] => [v, v]
+const hello = () => <p>Hello</p>
+// ↑ハイライトがおかしい
+
+
+      
+      <T>を<T,>にする。
+
+
+      
+        
+        const double = <T,>(v: T): [T, T] => [v, v]
+const...]]></summary>
+        <author>
+            <name>anozon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Vue3】@capacitor-community/capacitor-googlemaps-native まとめ]]></title>
+        <id>https://zenn.dev/tentel/articles/63bbb2c0fbb7b1</id>
+        <link href="https://zenn.dev/tentel/articles/63bbb2c0fbb7b1"/>
+        <updated>2021-09-18T06:28:44.000Z</updated>
+        <summary type="html"><![CDATA[@capacitor-community/capacitor-googlemaps-nativeをVue3で利用する際の手順と各種説明です。
+
+このライブラリはエミュレータもしくは実機でのみ確認できます。
+
+
+現段階で未検証（実装されていない機能など）は説明を記載していません。
+
+
+ 環境
+
+
+
+項目名
+バージョン
+
+
+
+
+vue
+^3.0.0
+
+
+@capacitor/core
+^3.2.2
+
+
+@capacitor/android
+^3.2.2
+
+
+@capacitor/ios
+^3.2.2
+
+
+@capacitor-community/capacitor-googlemaps-na...]]></summary>
+        <author>
+            <name>てんてる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[useStateの使いすぎで、収集つかなくなりそうになった時のためのリファクタリング方法🧹]]></title>
+        <id>https://zenn.dev/mochinozenn/articles/173dd93e19ba18</id>
+        <link href="https://zenn.dev/mochinozenn/articles/173dd93e19ba18"/>
+        <updated>2021-09-18T02:33:00.000Z</updated>
+        <summary type="html"><![CDATA[useStateで全てのstateを定義している人なら、ぶち当たるであろう「コードの肥大化問題」。
+useStateで一つずつ定義していくのは、stateが１つか２つならいいんですけど、
+増えてくると、同じような記述がたくさんでてきてコードが肥大化します。(例えば、入力フォームなど)
+入力フォームの例↓
+
+      
+        
+        export default function Home () {
+	const [name, setName] = useState("");
+	const [age, setAge] = useState(0);
+	const [ge...]]></summary>
+        <author>
+            <name>RyosukeMochizuki</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[next.jsで複数のAPIエンドポイントで同じhandlerを使う小技]]></title>
         <id>https://zenn.dev/terrierscript/articles/2021-09-16-next-js-api-same-handler</id>
@@ -27,6 +778,27 @@ import { NextApiHandler } from "next"
 const handler...]]></summary>
         <author>
             <name>terrierscript</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravel Jetstream+Vueの多言語化(i18n)]]></title>
+        <id>https://zenn.dev/yamabiko/articles/jetstream-i18n</id>
+        <link href="https://zenn.dev/yamabiko/articles/jetstream-i18n"/>
+        <updated>2021-09-17T03:41:29.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事を読むと、Laravel Jetstream+Vue環境をja.json等のファイルによって多言語化(i18n)できるようになります。
+多言語化にはvue-i18nを使用します。
+Jetstreamではフロントエンドとして、livewireまたはVueを選択できます。
+livewireバージョンは既に多言語化対応されています。
+しかし、現状、Vueバージョンの方は多言語化対応されていません。
+この記事ではフロントエンドとしてvueを選択した場合の多言語化(i18n)について解説します。
+
+ 多言語化(i18n)
+
+ １．ja.jsonファイル作成
+以下のコマンドを実...]]></summary>
+        <author>
+            <name>やまびこ</name>
         </author>
     </entry>
     <entry>
@@ -4335,72 +5107,6 @@ virtual-scrollbarがありますが、クリックする時の動きとか、振
 以上です。]]></summary>
         <author>
             <name>walking_on_ice</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vueのカスタムイベントで .prevent する]]></title>
-        <id>https://zenn.dev/yufushiro/articles/12d1db1f390f05</id>
-        <link href="https://zenn.dev/yufushiro/articles/12d1db1f390f05"/>
-        <updated>2021-08-20T11:50:42.000Z</updated>
-        <summary type="html"><![CDATA[要約
-Vue テンプレートのイベントハンドラーにおける .prevent modifier は $event.preventDefault() と等価なので、カスタムイベントであっても preventDefault メソッドさえ定義すれば使うことができる。
-おわり
-
- .prevent modifier とは
-Vue テンプレートで a 要素などに対して @click.prevent="..." のようにしてイベントハンドラーを書くと、その要素の click イベントにおけるデフォルトのアクションを抑制することができる。
-
-
-<a href="http://example.co...]]></summary>
-        <author>
-            <name>ゆふしろ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【2021-8】 Next.js + TypeScript + Storybook(Atomic Design) + Sass + jest]]></title>
-        <id>https://zenn.dev/yknight/articles/f0167dc5b0cceb</id>
-        <link href="https://zenn.dev/yknight/articles/f0167dc5b0cceb"/>
-        <updated>2021-08-19T18:54:15.000Z</updated>
-        <summary type="html"><![CDATA[フロントエンド環境に実装をしたStorybookに、Sassを導入する
-StorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。
-原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）
-でも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。
-
- 実装リスト
-
-docker
-Next.js/TypeScript
-Sass
-Storybook
-jest
-Atomic design
-
-※導入は個人の責任でおねがいします。（...]]></summary>
-        <author>
-            <name>y_Knight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【2021-8】 Next.js + TypeScript + Storybook(Atomic Design) + Sass + jest]]></title>
-        <id>https://zenn.dev/yknight/articles/f0167dc5b0cceb</id>
-        <link href="https://zenn.dev/yknight/articles/f0167dc5b0cceb"/>
-        <updated>2021-08-19T18:54:15.000Z</updated>
-        <summary type="html"><![CDATA[フロントエンド環境に実装をしたStorybookに、Sassを導入する
-StorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。
-原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）
-でも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。
-
- 実装リスト
-
-docker
-Next.js/TypeScript
-Sass
-Storybook
-jest
-Atomic design
-
-※導入は個人の責任でおねがいします。（...]]></summary>
-        <author>
-            <name>y_Knight</name>
         </author>
     </entry>
 </feed>

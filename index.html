@@ -77,6 +77,812 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-18">2021-09-18</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Next.js】アクセスコントロールパターン</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/aiji42/articles/450ce962cc225a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+Next.js で MPA を構築していると、ページ単位でアクアセスコントロールを行うニーズやケースがよく発生します。
+ここでのアクセスコントロールは、ページごとにアクセス可能な条件を定義したり、ルールにそぐわないアクセスを別のページに転送させるなどの処理を意味します。
+例えば、一般ユーザ向けのページと、登録済みユーザ向けのマイページを持つケースを考えてみると…
+
+一般ユーザ向けページは誰でもアクセス可能
+マイページはログイン済みのユーザのみアクセス可能
+ログインのためのサインイン・アップフォームのページも存在するが、ログイン済みであればマイページにリダイレクトされる
+
+た...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js with TypeScript で最小限の _app.tsx, _document.tsx</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/ts-nextjs-pages">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事では Next.js with TypeScript で最小限の _app.tsx, _document.tsx について紹介します。
+Gist: Next.js with typescript minimum pages/_document.tsx, pages/_app.tsx
+
+ pages/_app.tsx
+こちらは Function Component でかけるのでシンプルです。
+
+      
+        
+        import { AppProps } from &#x27;next/app&#x27;
+import Head from &#x27;next/head&#x27;
+
+const...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js export 実行時のタイムスタンプをコンポーネントで使う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/next-initial-props-timestmap">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>next export を実行した時のタイムスタンプをレンダリングしたいときの方法です。
+jsx 上で {new Date()} などとするとクライアントサイドでレンダリングされた時間が表示されてしまいます。
+SSR 時のデータを React で使いたい場合は NextPage コンポーネント で Component.getInitialProps を使うと渡すことが出来ます。
+(/pages 直下で export するコンポーネント)
+
+ コード
+
+      
+        
+        import { createConte...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">localhost.{appname}:3000 で開発してブラウザキャッシュを活用する案</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/localhost-apphost-dev">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>複数のアプリを同じ localhost:3000 で開発すると切り替えるたびにキャッシュが競合するので /etc/hosts で変える案です。
+
+ /etc/hosts
+
+      
+        
+        sudo vim /etc/hosts
+
+
+      
+      
+      
+        
+        127.0.0.1 localhost.appname
+127.0.0.1 localhost.othername
+127.0.0.1 localhost.hoge
+127.0.0.1 localhost.fuga
+
+
+      
+      
+ フロ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">useStateの使いすぎで、収集つかなくなりそうになった時のためのリファクタリング方法🧹</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/mochinozenn/articles/173dd93e19ba18">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>useStateで全てのstateを定義している人なら、ぶち当たるであろう「コードの肥大化問題」。
+useStateで一つずつ定義していくのは、stateが１つか２つならいいんですけど、
+増えてくると、同じような記述がたくさんでてきてコードが肥大化します。(例えば、入力フォームなど)
+入力フォームの例↓
+
+      
+        
+        export default function Home () {
+	const [name, setName] &#x3D; useState(&quot;&quot;);
+	const [age, setAge] &#x3D; useState(0);
+	const [ge...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Next.js】アクセスコントロールパターン</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/aiji42/articles/450ce962cc225a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+Next.js で MPA を構築していると、ページ単位でアクアセスコントロールを行うニーズやケースがよく発生します。
+ここでのアクセスコントロールは、ページごとにアクセス可能な条件を定義したり、ルールにそぐわないアクセスを別のページに転送させるなどの処理を意味します。
+例えば、一般ユーザ向けのページと、登録済みユーザ向けのマイページを持つケースを考えてみると…
+
+一般ユーザ向けページは誰でもアクセス可能
+マイページはログイン済みのユーザのみアクセス可能
+ログインのためのサインイン・アップフォームのページも存在するが、ログイン済みであればマイページにリダイレクトされる
+
+た...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">アロー関数とfunction それぞれの Type Guard 書き方</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/type-guard-arrow-function">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事では アロー関数で Type Guard について紹介します。
+TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript
+
+      
+        
+        type Nigiri &#x3D; {
+  category: &#x27;nigiri&#x27;
+  neta: string
+}
+type Gunkan &#x3D; {
+  category: &#x27;gunkan&#x27;
+  neta: string
+  nori: number
+}
+type Sushi &#x3D; Nigiri | Gunkan...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js with TypeScript で最小限の _app.tsx, _document.tsx</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/ts-nextjs-pages">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事では Next.js with TypeScript で最小限の _app.tsx, _document.tsx について紹介します。
+Gist: Next.js with typescript minimum pages/_document.tsx, pages/_app.tsx
+
+ pages/_app.tsx
+こちらは Function Component でかけるのでシンプルです。
+
+      
+        
+        import { AppProps } from &#x27;next/app&#x27;
+import Head from &#x27;next/head&#x27;
+
+const...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">js で先頭以外(n行目以降)をソートする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/sort-without-head">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>js で配列の 2 行目以降のみをソートする方法のメモです。
+repl: https://repl.it/@anozon/sortbody#index.ts
+
+ ソート対象の配列
+
+      
+        
+        // js
+const elems &#x3D; [
+  { name: &#x27;primary&#x27;, count: 10 }, // ソートしないで！
+  { name: &#x27;b&#x27;, count: 2 },
+  { name: &#x27;d&#x27;, count: 12 },
+  { name: &#x27;a&#x27;, count: 1 },
+  { name: &#x27;c&#x27;, count: 11 },
+]
+
+/...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React で URL props が変わったら fade アニメーションで 背景を変える</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/react-transition-props-bg">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>props で指定された URL が変わったら フェードアウト し、
+新しい URL 画像で フェードイン しながら表示するコンポーネントを作りました。
+react-transition-group を使います。
+
+ デモ
+&lt;iframe src&#x3D;&quot;https://codesandbox.io/embed/react-animation-background-image-jznjc?fontsize&#x3D;14&amp;hidenavigation&#x3D;1&amp;theme&#x3D;dark&amp;view&#x3D;preview&quot;
+style&#x3D;&quot;width:100%; height:210px; bo...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React で特定の props を固定した特化コンポーネントを定義する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/react-set-props">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>React で特定の props を固定した特化コンポーネントを定義する方法をいくつかまとめました。
+DEMO です。
+react-set-props - CodeSandbox
+以下の Message という自作コンポーネントと Star というライブラリのコンポーネントを例に使います。
+Star は &#x60;material-ui の icon コンポーネントです。
+
+      
+        
+        import Star from &#x27;@material-ui/icons/Star&#x27;
+
+const Message &#x3D; (props) &#x3D;&gt; 
+mes: ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React で複数の ref を 1つのコンポーネントにセットする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/react-multiple-ref-to-one-component">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>同じ div に useSize と useHover の両方を使いたいとがあった。
+しかしどちらも ref を渡さなければいけなかったのでその方法です。
+Share ref with multiple ref handlers · Issue #13029 · facebook/react
+
+ useCombinedRefs
+ref を合成する関数を用意する。
+参考: https://github.com/facebook/react/issues/13029#issuecomment-497641073
+
+      
+        
+        export const us...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React と display grid でメモリ付き定規</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/react-memory-ruler">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>メモリ付きの定規、ルーラーコンポーネントのサンプルです。
+
+
+ コード
+ruler-with-memory - CodeSandbox
+
+      
+        title&#x3D;Ruler.tsx
+        
+
+
+      
+      
+      
+        
+        function Ruler({ memor...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">children を持つ Component を normal function で書くときの型定義</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/react-fc-with-function">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>この記事では children を持つ Component を function で書くときの型定義する方法を説明します。
+
+ 書き方
+React.PropsWithChildren を使うことで書けます。
+Sample PropsWithChildren - CodeSandbox
+
+      
+        
+        type Props &#x3D; {}
+function Component(props: React.PropsWithChildren) {}
+
+
+      
+      
+ それぞれの書き方
+
+      ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React で canvas から画像生成する最小コード</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/react-canvas-to-img">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>この記事では React (と TypeScript で) canvas から画像生成する方法を紹介します。
+文字描画や色変更をサンプルに説明していきます。
+
+ React で Canvas を使うベースのコード
+
+      
+        
+        import React, { useEffect, useState } from &#x27;react&#x27;
+const width &#x3D; 255
+const height &#x3D; 255
+
+function App() {
+  const [png, setPng] &#x3D; useState(null)...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Python で TypeScript の UnionType を使う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/python-typing-literal">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>TypeScript の UnionType は以下のように定義できます。
+
+      
+        
+        type Color &#x3D; &#x27;red&#x27; | &#x27;green&#x27;
+
+
+      
+      Python の type でも同じようなことができるのか調べました。
+ちなみに typeing.Union というのがありますが別です。
+
+ typeing.Literal を使う
+
+      
+        
+        from typing import Literal, get_args
+
+COLOR &#x3D; Literal[&#x27;red&#x27;, &#x27;green&#x27;, &#x27;bl...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.js export 実行時のタイムスタンプをコンポーネントで使う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/next-initial-props-timestmap">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>next export を実行した時のタイムスタンプをレンダリングしたいときの方法です。
+jsx 上で {new Date()} などとするとクライアントサイドでレンダリングされた時間が表示されてしまいます。
+SSR 時のデータを React で使いたい場合は NextPage コンポーネント で Component.getInitialProps を使うと渡すことが出来ます。
+(/pages 直下で export するコンポーネント)
+
+ コード
+
+      
+        
+        import { createConte...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">5層 ReactComponent と TypeScript でカウンター書いてみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/layer-react-counterapp">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>経年劣化に耐える ReactComponent の書き方 - Qiita
+が良さそうだったので TypeScript で書く場合を試してみた。
+
+ コード
+CodeSandbox
+
+      
+        
+        import React, { useState } from &quot;react&quot;
+import styled from &quot;styled-components&quot;
+
+type Props &#x3D; {
+  className?: string
+  count: number
+  handleCountUp: () &#x3D;&gt; void
+  handleCountDown: ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">styled-components の keyframes で ts-styled-plugin のエラーが出る</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/keyframes-ts-styled-plugin">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>css animation の 100% や 0% などのキーワードに対して ts-styled-plugin のエラーが出たので対処しました。
+styled-components で animation を扱う場合以下のように書きます。 (styled-components@5.2.1)
+
+      
+        
+        import styled, { keyframes } from &#x27;styled-components&#x27;
+
+const invert &#x3D; keyframes&#x60;
+0% {
+	background: white;
+	color: black;
+}
+100...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">component から props の型を取得する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/get-props-type-from-component">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Storybook で props 型が必要だけど export したくなかったので。
+
+ 方法 1
+
+      
+        
+        import { ComponentProps } from &#x27;react&#x27;
+
+type Props &#x3D; ComponentProps
+
+
+      
+      
+ 方法 2(古い)
+
+      
+        
+        type Props &#x3D; Parameters[0]</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GatsbyJS を Typescript に移行した際の Type 付け</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/gatsby-to-typescript">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>GatsbyJS で書いているこのブログを Typescript 移行しました。
+主に以下の記事を参考に移行しました。なので今回は Type づけに焦点を当てて書きます。
+Gatsby.js を完全 TypeScript 化する - Qiita
+
+ GraphQL Data, Page Component に型をつける
+gatsby-plugin-graphql-codegen を使用する方法と @graphql-codegen/typescript を使用する方法がありましたが前者を選びました。セットアップが簡潔に済んだので。
+
+ PageQuery
+
+      
+        
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">fitty を React で使う useFitty hook</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/fitty-in-react">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>fitty はコンテナに合わせてテキストのフォントサイズをフィットしてくれるライブラリです。
+rikschennink/fitty: ✨ Makes text fit perfectly
+それを React で使うための hooks を書いた。
+Gist fitty for react
+
+ コード
+
+      
+        
+        import { useEffect, useRef } from &#x27;react&#x27;
+import fitty from &#x27;fitty&#x27;
+
+export function useFitty() {
+  const ref &#x3D; useRef&lt;...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">絵文字を含めて文字数カウントするWebアプリ作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/emoji-moji-count">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>アプリ
+文字頻度カウント(絵文字対応)
+
+
+ 絵文字対応
+&quot;text&quot;.split(&#x27;&#x27;) では絵文字が 1 文字として分割できません。
+
+      
+        
+        &gt; &quot;😔&quot;
+&#x27;😔&#x27;
+&gt; &quot;😔&quot;.split(&#x27;&#x27;)
+[ &#x27;�&#x27;, &#x27;�&#x27; ]
+
+
+      
+      punycode.js を使います。
+
+      
+        
+        const punySplit &#x3D; (s: string) &#x3D;&gt;
+  punycode.ucs2.decode(s).map((v) &#x3D;&gt; punycode.ucs2.encode(...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Clasp】GoogleAppScript のコードをローカルで開発する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/clasp-init-feels">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>この記事では Clasp を使って GoogleAppScript のコードを手元で管理する方法を紹介します。
+Clasp Command Line Interface using clasp | Google Developers
+
+ 手順 1. 初期化する
+管理するディレクトリに移動してしてパッケージをインストールします。
+その後 Google アカウントでログインします。
+
+      
+        
+        yarn add @google/clasp -D
+clasp login
+
+
+      
+      プロジェクトのみに入れてる場合は以降の clasp ho...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Arrow function で generics にすると HTML タグとして認識されてしまうときの tips</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/arrow-function-generics">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>エディタなどによってうまくハイライトされなかったときはこうする。
+
+      
+        
+        const double &#x3D; (v: T): [T, T] &#x3D;&gt; [v, v]
+const hello &#x3D; () &#x3D;&gt; 
+Hello
+をにする。
+
+
+      
+        
+        const double &#x3D; (v: T): [T, T] &#x3D;&gt; [v, v]
+const...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vim でディレクトリ内のファイルを一括リネームする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/vimfilter-rename">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>vimfiler の rename 機能が便利で、複数ファイルを自由自在にリネームできます。
+Shougo/vimfiler.vim: Powerful file explorer implemented by Vim script
+
+ やってみる
+
+.js ファイルを .tsx に書き換えます。
+
+ 動画
+oembed: https://www.youtube.com/watch?v&#x3D;BxSkWfem7uI&amp;feature&#x3D;youtu.be
+
+
+vim target/dir ディレクトリを開く
+
+* 全ファイル選択
+
+r リネームモード
+
+vim 編集の例 1 解説
+
+
+/js...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vim の q マクロを保存して使いまわす</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/vim-macro-save">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>1 度作ったマクロを保存して、 vim を開き直したときも使いまわしたいときの方法。
+マクロ @b に保存する例で説明します。
+
+ .vimrc に保存する
+
+ q で macro を記録する
+qb → 操作 → q で記録。
+
+ .vimrc に追記する
+
+      
+        
+        let @b &#x3D; &#x27;Gk$F_lvEygg$p
+
+
+      
+      
+ (外部クリップボードにコピーしたりしたいとき)
+
+      
+        
+        &quot;bpyy
+
+
+      
+      &quot;b b を選択 →p 貼り付け → yy コピーで外部クリップ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vim の visual mode で選択した範囲に paste できないとき</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/vim-cannot-paste">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>恐らく visual mode で選択した範囲がコピーされています。
+clipboard に autoselect が設定されているときの挙動です。
+
+ 設定
+
+      
+        
+        -set clipboard&#x3D;unnamed,autoselect
++set clipboard&#x3D;unnamed</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">surround.vim 入門【vim中級者向け】</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/surround-vim-tutorial">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>公式リポジトリ https://github.com/tpope/vim-surround
+
+ why
+
+周囲(クウォート, 括弧, タグ ...)の操作が楽になる
+Vim plugin にデフォルトでついてることが多いのですぐ使える
+
+VSCodeVim(VSCode), IdeaVIM(JetBrains)
+
+      
+        
+        Plug &#x27;tpope/vim-surround&#x27;
+
+
+      
+      
+ demos
+公式の Introduction にそって基本コマンドを紹介します。
+vim-surround/surround.txt at ma...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ssh 接続先の vim でマウスの選択範囲をコピーする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/anozon/articles/ssh-vim-copy">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>vim で mouse を off にする
+
+      
+        
+        :set mouse&#x3D;
+
+
+      
+      
+ iTerm2 の設定</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Vue3】@capacitor-community/capacitor-googlemaps-native まとめ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tentel/articles/63bbb2c0fbb7b1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>@capacitor-community/capacitor-googlemaps-nativeをVue3で利用する際の手順と各種説明です。
+
+このライブラリはエミュレータもしくは実機でのみ確認できます。
+
+
+現段階で未検証（実装されていない機能など）は説明を記載していません。
+
+
+ 環境
+
+
+
+項目名
+バージョン
+
+
+
+
+vue
+^3.0.0
+
+
+@capacitor/core
+^3.2.2
+
+
+@capacitor/android
+^3.2.2
+
+
+@capacitor/ios
+^3.2.2
+
+
+@capacitor-community/capacitor-googlemaps-na...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-17">2021-09-17</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -121,6 +927,34 @@ const handler...</span>
  問題の発端
 ユーザー新規登録した際に、sessionを生成し、ブラウザのcookieに保存して、ユーザー情報を扱いたかった。
 そのため、railsのinitia...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Laravel Jetstream+Vueの多言語化(i18n)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yamabiko/articles/jetstream-i18n">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+この記事を読むと、Laravel Jetstream+Vue環境をja.json等のファイルによって多言語化(i18n)できるようになります。
+多言語化にはvue-i18nを使用します。
+Jetstreamではフロントエンドとして、livewireまたはVueを選択できます。
+livewireバージョンは既に多言語化対応されています。
+しかし、現状、Vueバージョンの方は多言語化対応されていません。
+この記事ではフロントエンドとしてvueを選択した場合の多言語化(i18n)について解説します。
+
+ 多言語化(i18n)
+
+ １．ja.jsonファイル作成
+以下のコマンドを実...</span>
                   </div>
                 </a>
               </details>
@@ -5228,99 +6062,13 @@ virtual-scrollbarがありますが、クリックする時の動きとか、振
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vueのカスタムイベントで .prevent する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yufushiro/articles/12d1db1f390f05">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>要約
-Vue テンプレートのイベントハンドラーにおける .prevent modifier は $event.preventDefault() と等価なので、カスタムイベントであっても preventDefault メソッドさえ定義すれば使うことができる。
-おわり
-
- .prevent modifier とは
-Vue テンプレートで a 要素などに対して @click.prevent&#x3D;&quot;...&quot; のようにしてイベントハンドラーを書くと、その要素の click イベントにおけるデフォルトのアクションを抑制することができる。
-
-
-&lt;a href&#x3D;&quot;http://example.co...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-19">2021-08-19</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【2021-8】 Next.js + TypeScript + Storybook(Atomic Design) + Sass + jest</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yknight/articles/f0167dc5b0cceb">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>フロントエンド環境に実装をしたStorybookに、Sassを導入する
-StorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。
-原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）
-でも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。
-
- 実装リスト
-
-docker
-Next.js/TypeScript
-Sass
-Storybook
-jest
-Atomic design
-
-※導入は個人の責任でおねがいします。（...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【2021-8】 Next.js + TypeScript + Storybook(Atomic Design) + Sass + jest</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yknight/articles/f0167dc5b0cceb">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>フロントエンド環境に実装をしたStorybookに、Sassを導入する
-StorybookへのSassの導入でcss-loaderでエラーにはまり、手順の記事を書きました。
-原因はWebpack4と５で破壊的な変更（更新）からPKGをインストールして解決できました。（めでたし）
-でも、フロントエンド開発に必要そうなベーシックな環境構築を、「ざーーっと、まとめたかった」ことが、個人的には一番の記事の動機です。
-
- 実装リスト
-
-docker
-Next.js/TypeScript
-Sass
-Storybook
-jest
-Atomic design
-
-※導入は個人の責任でおねがいします。（...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-18T01:04:59.838Z">2021-09-18T01:04:59.838Z</time>
+    <time id="build-timestamp" datetime="2021-09-19T00:55:13.049Z">2021-09-19T00:55:13.049Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>
