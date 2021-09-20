@@ -2,10 +2,237 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-19T00:55:13.086Z</updated>
+    <updated>2021-09-20T00:57:38.056Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vueでjQueryのslideUp, slideDownを一瞬で実装しちゃう]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8"/>
+        <updated>2021-09-20T00:44:32.000Z</updated>
+        <summary type="html"><![CDATA[jQueryのslideUp, slideDownをvueで作る際に、transitionを使用するやり方があったのですが、高さを指定しないといけない？とかなんとかでよくわからなくてやめちゃったのですが、
+結論から言うとライブラリを使用する方法が死ぬほど簡単でした。
+
+ ライブラリインストール
+vue-slide-up-downをインストールします
+
+      
+        
+        npm i vue-slide-up-down
+
+
+      
+      
+ インポートする
+Laravelとvueをセットで使っているので、 僕はapp.jsというところでインポートしま...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ECMAScript Annex B と型定義、ついでに ES2022 __proto__]]></title>
+        <id>https://zenn.dev/petamoriken/articles/a211183011cd58</id>
+        <link href="https://zenn.dev/petamoriken/articles/a211183011cd58"/>
+        <updated>2021-09-19T16:45:17.000Z</updated>
+        <summary type="html"><![CDATA[この記事は Qiita からコピーされたものです。
+
+
+ Annex B について
+JavaScript の言語仕様には Annex B という項目があります。ここには Web 互換性のために残されているレガシーな機能の仕様について記述してあり、新たに ECMAScript のコードを書く際にこれらの機能を使用したり、その存在を前提にしたりしてはいけないと明記されています。
+https://tc39.es/ecma262/#sec-additional-ecmascript-features-for-web-browsers
+String#big などの今となっては全く実用性のないメソ...]]></summary>
+        <author>
+            <name>petamoriken</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stage 2 Decorators の変遷と最新仕様]]></title>
+        <id>https://zenn.dev/petamoriken/articles/ab9a7d7f654a79</id>
+        <link href="https://zenn.dev/petamoriken/articles/ab9a7d7f654a79"/>
+        <updated>2021-09-19T16:32:49.000Z</updated>
+        <summary type="html"><![CDATA[この記事は Qiita からコピーされたものです。
+
+
+ はじめに
+個人的に TC39 meeting をウォッチしてまとめている @petamoriken です。
+ESNext の Decorators の提案は何度も改定しています。その割にあまり知れ渡っていません。この記事ではその変遷と2021年7月現在における最新の Decorators について簡単にまとめようと思います。
+https://github.com/tc39/proposal-decorators
+こちらの発表スライドを見ると流れがわかりやすいかもしれません。
+
+
+ 最初の提案（2014年~2015年頃）
+最初の提...]]></summary>
+        <author>
+            <name>petamoriken</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScriptで時系列データのクラスタリングがしたい]]></title>
+        <id>https://zenn.dev/yonda/articles/5366cb9beb312d</id>
+        <link href="https://zenn.dev/yonda/articles/5366cb9beb312d"/>
+        <updated>2021-09-19T16:31:06.000Z</updated>
+        <summary type="html"><![CDATA[Pythonで時系列解析をしたい(時系列クラスタリング)
+DTW(Dynamic Time Warping)で台風軌道をクラスタリングする
+こんなふうに時系列データの分類をJavaScript（TypeScript）でしてみたい。
+でも調べるとほとんどみんなPythonのtslean、sklearnやRを使っています。
+調べればJavaScriptライブラリがあるのでしょうが、理屈の勉強がてら自分で実装（TypeScript）してみます。
+
+ 分類法
+分類法においてメジャーなのはK-meansとK-medoids。
+2つを比べたとき外れ値やノイズに強いとされている、また時系列データ同士の...]]></summary>
+        <author>
+            <name>yonda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spotify APIとDiscord.jsでBotを作ってみた]]></title>
+        <id>https://zenn.dev/kyohei1212/articles/0da7851314cacd</id>
+        <link href="https://zenn.dev/kyohei1212/articles/0da7851314cacd"/>
+        <updated>2021-09-19T08:18:12.000Z</updated>
+        <summary type="html"><![CDATA[時間があったのでDiscord Botを作ってみました。
+SpotifyのAPIはSpotify Web API Nodeという素晴らしいラッパーライブラリがあるのでそれを使いました。
+
+axiosやらなんやらで直接URLを叩いてもいいのですがせっかくライブラリがあるのでそっちを使いました。使わなくてもSpotify APIは使えます。
+
+とりあえず基本のmessageCreateイベントでloginと入力されたらログイン用のURLを返すようにします。(Spotify APIのAuthenticationの関係でここだけはブラウザを開かないといけないっぽいです。もし間違ってたら教えていた...]]></summary>
+        <author>
+            <name>Kyohei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptの交差型]]></title>
+        <id>https://zenn.dev/peg/articles/c5fb4ccf0a06b2</id>
+        <link href="https://zenn.dev/peg/articles/c5fb4ccf0a06b2"/>
+        <updated>2021-09-19T06:55:54.000Z</updated>
+        <summary type="html"><![CDATA[TypeScriptの型レベルコードについてあまり慣れてないので勉強を始めた。
+以下のコードのItemFormがどういう型を持つのか。
+
+      
+        
+        type Item = {
+  id: string;
+  title: string;
+  body: string;
+};
+
+
+type ItemForm = Item & {
+  edit: boolean;
+};
+
+
+      
+      &はintersection type（交差型）という。
+
+Intersection types are closely related t...]]></summary>
+        <author>
+            <name>ぺい</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue2 / Vue3 でも Chart.js 3 を使いたい]]></title>
+        <id>https://zenn.dev/sa2knight/articles/cc60e3e7c44968</id>
+        <link href="https://zenn.dev/sa2knight/articles/cc60e3e7c44968"/>
+        <updated>2021-09-19T03:32:58.000Z</updated>
+        <summary type="html"><![CDATA[Chart.js 3 について
+Chart.js 3 は、 Canvas を用いたグラフ描画ライブラリとして人気の高い Chart.js の最新バージョンで、 2021年4月にリリースされました。
+v3 は従来の v2 と比べ、以下のような大きな改善が行われています。
+
+webworkers を用いた並列レンダリングなどによるパフォーマンスの劇的向上
+細分化されたモジュールを必要十分に import することによるツリーシェイキングの有効化
+
+moment など、日付操作用のライブラリへの依存の撤廃
+CSSインジェクションの廃止
+膨大な数のバグフィックス
+
+ただし、多くの破壊的変更を...]]></summary>
+        <author>
+            <name>shingo.sasaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue2 / Vue3 でも Chart.js 3 を使いたい]]></title>
+        <id>https://zenn.dev/sa2knight/articles/cc60e3e7c44968</id>
+        <link href="https://zenn.dev/sa2knight/articles/cc60e3e7c44968"/>
+        <updated>2021-09-19T03:32:58.000Z</updated>
+        <summary type="html"><![CDATA[Chart.js 3 について
+Chart.js 3 は、 Canvas を用いたグラフ描画ライブラリとして人気の高い Chart.js の最新バージョンで、 2021年4月にリリースされました。
+v3 は従来の v2 と比べ、以下のような大きな改善が行われています。
+
+webworkers を用いた並列レンダリングなどによるパフォーマンスの劇的向上
+細分化されたモジュールを必要十分に import することによるツリーシェイキングの有効化
+
+moment など、日付操作用のライブラリへの依存の撤廃
+CSSインジェクションの廃止
+膨大な数のバグフィックス
+
+ただし、多くの破壊的変更を...]]></summary>
+        <author>
+            <name>shingo.sasaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vim-quickrun 実行時に水平分割で表示する]]></title>
+        <id>https://zenn.dev/oppara/articles/vim-quickrun-outputter-buffer-opener</id>
+        <link href="https://zenn.dev/oppara/articles/vim-quickrun-outputter-buffer-opener"/>
+        <updated>2021-09-19T01:05:24.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+thinca/vim-quickrun をアップデート後、実行時に水平分割できなくなっていたので対応。
+
+ 動かなくなった設定
+
+      
+        
+        let g:quickrun_config = {'*': {'split': ''}}
+
+
+      
+      
+ 水平分割できるようにした設定
+
+      
+        
+        let g:quickrun_config = get(g:, 'quickrun_config', {})
+let g:quickrun_config._ = {
+      \ 'outputt...]]></summary>
+        <author>
+            <name>oppara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node + TypeScript で MySQL に接続して Read, Write してみる]]></title>
+        <id>https://zenn.dev/tkm_kj/articles/111ef98ed6297e</id>
+        <link href="https://zenn.dev/tkm_kj/articles/111ef98ed6297e"/>
+        <updated>2021-09-18T20:40:45.000Z</updated>
+        <summary type="html"><![CDATA[背景
+node + TypeScript で MySQL に繋いで少しだけデータ操作をする場面があったのですが、あまり記事無くて苦戦したので備忘録として残しておきます。
+
+ 実装方針
+
+O/Rマッパーのような大きいライブラリじゃなくても済む規模だったので mysql を使用して生クエリで対応
+コールバック地獄にならないようにしたい
+しっかりトランザクションはかけておきたい
+
+
+ バージョン
+
+node: v14.17
+mysql(ライブラリ): 2.18.1
+MySQL(DB): 5.7
+
+
+ 実装
+
+ 接続
+
+      
+        
+        import { cre...]]></summary>
+        <author>
+            <name>Takumi Kaji</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【Next.js】アクセスコントロールパターン]]></title>
         <id>https://zenn.dev/aiji42/articles/450ce962cc225a</id>
@@ -4999,114 +5226,6 @@ Nuxtにサードパーティ製Javascript(以下外部ライブラリと称し�
 こんな感じで書けば外部...]]></summary>
         <author>
             <name>ユウ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Typescriptで計算した結果をGithub Actionsに渡して使用する]]></title>
-        <id>https://zenn.dev/kinjosan/articles/26cff4f92b9453</id>
-        <link href="https://zenn.dev/kinjosan/articles/26cff4f92b9453"/>
-        <updated>2021-08-21T08:25:26.000Z</updated>
-        <summary type="html"><![CDATA[Github Actions 上で Typescript を実行して、その計算内容を Github Actions 上で使用したい時とかありますよね🎅
-
- TL;DR
-
-Github Actions で Typescript 実行
-@actions/core の setOutput を使用
-
-
- 例
-毎朝 10 時に aws のコストを取得して、aws のコストはドルなので、円に直して slack に通知
-※細かい取得方法はテーマではないので省略してます
-
-      
-        
-        const awsCost = 100; // ドル
-const rate = 10...]]></summary>
-        <author>
-            <name>kinjo yuya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Javascriptで数字 → 文字に変換]]></title>
-        <id>https://zenn.dev/kinjosan/articles/04287460d854e4</id>
-        <link href="https://zenn.dev/kinjosan/articles/04287460d854e4"/>
-        <updated>2021-08-21T08:20:08.000Z</updated>
-        <summary type="html"><![CDATA[toStringを使う
-
-      
-        
-        const numToString = (num: number): string => num.toString();
-
-numToString(1234)
-// "1234"
-
-
-      
-      
- String関数を使用する
-
-      
-        
-        const numToString = (num: number): string => String(num);
-numToString(1234)
-// "1234"
-
-
-      
-      undef...]]></summary>
-        <author>
-            <name>kinjo yuya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UTF-8対応のBase64を自作する]]></title>
-        <id>https://zenn.dev/kota_yata/articles/89b10ac8c93b92</id>
-        <link href="https://zenn.dev/kota_yata/articles/89b10ac8c93b92"/>
-        <updated>2021-08-21T05:29:11.000Z</updated>
-        <summary type="html"><![CDATA[TypeScriptでBase64を自作します。Denoの場合標準ライブラリにBase64が実装されていますので実際に利用する際はそちらを使ってください。
-
- 完成品
-一応Denoパッケージとしても公開しています。
-https://github.com/kota-yata/ky_base64
-
- 処理の流れ
-
- エンコーダー
-Base64エンコードの大まかな流れは、
-
-文字列のバイナリーを6bitsで区切る
-余ったビットは末尾に0を加えて6bitsにする
-予め定められている変換表に対応する文字に変換する
-文字数が4の整数倍に満たない場合は=で埋め合わせる
-
-という、割と単純なアルゴリズム...]]></summary>
-        <author>
-            <name>kota-yata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vuetify/v-listを縦スクロールできるように]]></title>
-        <id>https://zenn.dev/gz/articles/491b324570703a</id>
-        <link href="https://zenn.dev/gz/articles/491b324570703a"/>
-        <updated>2021-08-20T16:20:43.000Z</updated>
-        <summary type="html"><![CDATA[HTMLのselectのように縦のすこし展開して、スクロールできるようにしたいです。
-説明より、コードを見ればわかる。
-
-      
-        
-        <v-list
- style="max-height: 150px"
- class="overflow-y-auto"
-...
-
-
-      
-      以下のようになります。
-
-virtual-scrollbarがありますが、クリックする時の動きとか、振る舞いが気に入りませんでした。
-以上です。]]></summary>
-        <author>
-            <name>walking_on_ice</name>
         </author>
     </entry>
 </feed>

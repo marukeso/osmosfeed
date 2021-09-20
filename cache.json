@@ -919,6 +919,104 @@
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
         {
+          "id": "https://zenn.dev/petamoriken/articles/a211183011cd58",
+          "author": "petamoriken",
+          "description": "この記事は Qiita からコピーされたものです。\n\n\n Annex B について\nJavaScript の言語仕様には Annex B という項目があります。ここには Web 互換性のために残されているレガシーな機能の仕様について記述してあり、新たに ECMAScript のコードを書く際にこれらの機能を使用したり、その存在を前提にしたりしてはいけないと明記されています。\nhttps://tc39.es/ecma262/#sec-additional-ecmascript-features-for-web-browsers\nString#big などの今となっては全く実用性のないメソ...",
+          "link": "https://zenn.dev/petamoriken/articles/a211183011cd58",
+          "publishedOn": "2021-09-19T16:45:17.000Z",
+          "wordCount": 396,
+          "title": "ECMAScript Annex B と型定義、ついでに ES2022 __proto__",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BsT5lbsp--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:petamoriken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:ECMAScript%2520Annex%2520B%2520%25E3%2581%25A8%25E5%259E%258B%25E5%25AE%259A%25E7%25BE%25A9%25E3%2580%2581%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A7%25E3%2581%25AB%2520ES2022%2520__proto__%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTUwZjE2MTc1Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/petamoriken/articles/ab9a7d7f654a79",
+          "author": "petamoriken",
+          "description": "この記事は Qiita からコピーされたものです。\n\n\n はじめに\n個人的に TC39 meeting をウォッチしてまとめている @petamoriken です。\nESNext の Decorators の提案は何度も改定しています。その割にあまり知れ渡っていません。この記事ではその変遷と2021年7月現在における最新の Decorators について簡単にまとめようと思います。\nhttps://github.com/tc39/proposal-decorators\nこちらの発表スライドを見ると流れがわかりやすいかもしれません。\n\n\n 最初の提案（2014年~2015年頃）\n最初の提...",
+          "link": "https://zenn.dev/petamoriken/articles/ab9a7d7f654a79",
+          "publishedOn": "2021-09-19T16:32:49.000Z",
+          "wordCount": 827,
+          "title": "Stage 2 Decorators の変遷と最新仕様",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--diQwGZxJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:petamoriken%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Stage%25202%2520Decorators%2520%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%25E3%2581%25A8%25E6%259C%2580%25E6%2596%25B0%25E4%25BB%2595%25E6%25A7%2598%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTUwZjE2MTc1Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yonda/articles/5366cb9beb312d",
+          "author": "yonda",
+          "description": "Pythonで時系列解析をしたい(時系列クラスタリング)\nDTW(Dynamic Time Warping)で台風軌道をクラスタリングする\nこんなふうに時系列データの分類をJavaScript（TypeScript）でしてみたい。\nでも調べるとほとんどみんなPythonのtslean、sklearnやRを使っています。\n調べればJavaScriptライブラリがあるのでしょうが、理屈の勉強がてら自分で実装（TypeScript）してみます。\n\n 分類法\n分類法においてメジャーなのはK-meansとK-medoids。\n2つを比べたとき外れ値やノイズに強いとされている、また時系列データ同士の...",
+          "link": "https://zenn.dev/yonda/articles/5366cb9beb312d",
+          "publishedOn": "2021-09-19T16:31:06.000Z",
+          "wordCount": 2106,
+          "title": "JavaScriptで時系列データのクラスタリングがしたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--SKFWtfrU--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yonda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:JavaScript%25E3%2581%25A7%25E6%2599%2582%25E7%25B3%25BB%25E5%2588%2597%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%258C%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDhmYzUwNTBkYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kyohei1212/articles/0da7851314cacd",
+          "author": "Kyohei",
+          "description": "時間があったのでDiscord Botを作ってみました。\nSpotifyのAPIはSpotify Web API Nodeという素晴らしいラッパーライブラリがあるのでそれを使いました。\n\naxiosやらなんやらで直接URLを叩いてもいいのですがせっかくライブラリがあるのでそっちを使いました。使わなくてもSpotify APIは使えます。\n\nとりあえず基本のmessageCreateイベントでloginと入力されたらログイン用のURLを返すようにします。(Spotify APIのAuthenticationの関係でここだけはブラウザを開かないといけないっぽいです。もし間違ってたら教えていた...",
+          "link": "https://zenn.dev/kyohei1212/articles/0da7851314cacd",
+          "publishedOn": "2021-09-19T08:18:12.000Z",
+          "wordCount": 231,
+          "title": "Spotify APIとDiscord.jsでBotを作ってみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--W2fefVk8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kyohei%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Spotify%2520API%25E3%2581%25A8Discord.js%25E3%2581%25A7Bot%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGMzNjA0YzdmYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/peg/articles/c5fb4ccf0a06b2",
+          "author": "ぺい",
+          "description": "TypeScriptの型レベルコードについてあまり慣れてないので勉強を始めた。\n以下のコードのItemFormがどういう型を持つのか。\n\n      \n        \n        type Item = {\n  id: string;\n  title: string;\n  body: string;\n};\n\n\ntype ItemForm = Item & {\n  edit: boolean;\n};\n\n\n      \n      &はintersection type（交差型）という。\n\nIntersection types are closely related t...",
+          "link": "https://zenn.dev/peg/articles/c5fb4ccf0a06b2",
+          "publishedOn": "2021-09-19T06:55:54.000Z",
+          "wordCount": 161,
+          "title": "TypeScriptの交差型",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Hmq4w-2O--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BA%25E3%2581%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:TypeScript%25E3%2581%25AE%25E4%25BA%25A4%25E5%25B7%25AE%25E5%259E%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjU2OGRmNDg3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sa2knight/articles/cc60e3e7c44968",
+          "author": "shingo.sasaki",
+          "description": "Chart.js 3 について\nChart.js 3 は、 Canvas を用いたグラフ描画ライブラリとして人気の高い Chart.js の最新バージョンで、 2021年4月にリリースされました。\nv3 は従来の v2 と比べ、以下のような大きな改善が行われています。\n\nwebworkers を用いた並列レンダリングなどによるパフォーマンスの劇的向上\n細分化されたモジュールを必要十分に import することによるツリーシェイキングの有効化\n\nmoment など、日付操作用のライブラリへの依存の撤廃\nCSSインジェクションの廃止\n膨大な数のバグフィックス\n\nただし、多くの破壊的変更を...",
+          "link": "https://zenn.dev/sa2knight/articles/cc60e3e7c44968",
+          "publishedOn": "2021-09-19T03:32:58.000Z",
+          "wordCount": 526,
+          "title": "Vue2 / Vue3 でも Chart.js 3 を使いたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2Fm5gHTt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shingo.sasaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue2%2520%252F%2520Vue3%2520%25E3%2581%25A7%25E3%2582%2582%2520Chart.js%25203%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODQ1ZmE3NWJhOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tkm_kj/articles/111ef98ed6297e",
+          "author": "Takumi Kaji",
+          "description": "背景\nnode + TypeScript で MySQL に繋いで少しだけデータ操作をする場面があったのですが、あまり記事無くて苦戦したので備忘録として残しておきます。\n\n 実装方針\n\nO/Rマッパーのような大きいライブラリじゃなくても済む規模だったので mysql を使用して生クエリで対応\nコールバック地獄にならないようにしたい\nしっかりトランザクションはかけておきたい\n\n\n バージョン\n\nnode: v14.17\nmysql(ライブラリ): 2.18.1\nMySQL(DB): 5.7\n\n\n 実装\n\n 接続\n\n      \n        \n        import { cre...",
+          "link": "https://zenn.dev/tkm_kj/articles/111ef98ed6297e",
+          "publishedOn": "2021-09-18T20:40:45.000Z",
+          "wordCount": 359,
+          "title": "Node + TypeScript で MySQL に接続して Read, Write してみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cyPJ4Ji5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takumi%2520Kaji%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Node%2520%252B%2520TypeScript%2520%25E3%2581%25A7%2520MySQL%2520%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2597%25E3%2581%25A6%2520Read%252C%2520Write%2520%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hELWlkLU1hRzQtdF8zN29QMUh3dGVlN3ZhbDdVYmN2dVhDS2VlbGc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/aiji42/articles/450ce962cc225a",
           "author": "aiji42",
           "description": "はじめに\nNext.js で MPA を構築していると、ページ単位でアクアセスコントロールを行うニーズやケースがよく発生します。\nここでのアクセスコントロールは、ページごとにアクセス可能な条件を定義したり、ルールにそぐわないアクセスを別のページに転送させるなどの処理を意味します。\n例えば、一般ユーザ向けのページと、登録済みユーザ向けのマイページを持つケースを考えてみると…\n\n一般ユーザ向けページは誰でもアクセス可能\nマイページはログイン済みのユーザのみアクセス可能\nログインのためのサインイン・アップフォームのページも存在するが、ログイン済みであればマイページにリダイレクトされる\n\nた...",
@@ -2443,48 +2541,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kinjosan/articles/26cff4f92b9453",
-          "author": "kinjo yuya",
-          "description": "Github Actions 上で Typescript を実行して、その計算内容を Github Actions 上で使用したい時とかありますよね🎅\n\n TL;DR\n\nGithub Actions で Typescript 実行\n@actions/core の setOutput を使用\n\n\n 例\n毎朝 10 時に aws のコストを取得して、aws のコストはドルなので、円に直して slack に通知\n※細かい取得方法はテーマではないので省略してます\n\n      \n        \n        const awsCost = 100; // ドル\nconst rate = 10...",
-          "link": "https://zenn.dev/kinjosan/articles/26cff4f92b9453",
-          "publishedOn": "2021-08-21T08:25:26.000Z",
-          "wordCount": 216,
-          "title": "Typescriptで計算した結果をGithub Actionsに渡して使用する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--C0KaPzn0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kinjo%2520yuya%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Typescript%25E3%2581%25A7%25E8%25A8%2588%25E7%25AE%2597%25E3%2581%2597%25E3%2581%259F%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592Github%2520Actions%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%25A6%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pNYmlWVVpNSVV6b1ZfRnhNSWxzWGllQTJPalQ1SGZFNE9BdnNMY25jPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kinjosan/articles/04287460d854e4",
-          "author": "kinjo yuya",
-          "description": "toStringを使う\n\n      \n        \n        const numToString = (num: number): string => num.toString();\n\nnumToString(1234)\n// \"1234\"\n\n\n      \n      \n String関数を使用する\n\n      \n        \n        const numToString = (num: number): string => String(num);\nnumToString(1234)\n// \"1234\"\n\n\n      \n      undef...",
-          "link": "https://zenn.dev/kinjosan/articles/04287460d854e4",
-          "publishedOn": "2021-08-21T08:20:08.000Z",
-          "wordCount": 71,
-          "title": "Javascriptで数字 → 文字に変換",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--HVPd-MJP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kinjo%2520yuya%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Javascript%25E3%2581%25A7%25E6%2595%25B0%25E5%25AD%2597%2520%25E2%2586%2592%2520%25E6%2596%2587%25E5%25AD%2597%25E3%2581%25AB%25E5%25A4%2589%25E6%258F%259B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pNYmlWVVpNSVV6b1ZfRnhNSWxzWGllQTJPalQ1SGZFNE9BdnNMY25jPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kota_yata/articles/89b10ac8c93b92",
-          "author": "kota-yata",
-          "description": "TypeScriptでBase64を自作します。Denoの場合標準ライブラリにBase64が実装されていますので実際に利用する際はそちらを使ってください。\n\n 完成品\n一応Denoパッケージとしても公開しています。\nhttps://github.com/kota-yata/ky_base64\n\n 処理の流れ\n\n エンコーダー\nBase64エンコードの大まかな流れは、\n\n文字列のバイナリーを6bitsで区切る\n余ったビットは末尾に0を加えて6bitsにする\n予め定められている変換表に対応する文字に変換する\n文字数が4の整数倍に満たない場合は=で埋め合わせる\n\nという、割と単純なアルゴリズム...",
-          "link": "https://zenn.dev/kota_yata/articles/89b10ac8c93b92",
-          "publishedOn": "2021-08-21T05:29:11.000Z",
-          "wordCount": 379,
-          "title": "UTF-8対応のBase64を自作する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--3GCe4mhI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kota-yata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:UTF-8%25E5%25AF%25BE%25E5%25BF%259C%25E3%2581%25AEBase64%25E3%2582%2592%25E8%2587%25AA%25E4%25BD%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTdmNTY4NmQyOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2493,6 +2549,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/oppara/articles/vim-quickrun-outputter-buffer-opener",
+          "author": "oppara",
+          "description": "はじめに\nthinca/vim-quickrun をアップデート後、実行時に水平分割できなくなっていたので対応。\n\n 動かなくなった設定\n\n      \n        \n        let g:quickrun_config = {'*': {'split': ''}}\n\n\n      \n      \n 水平分割できるようにした設定\n\n      \n        \n        let g:quickrun_config = get(g:, 'quickrun_config', {})\nlet g:quickrun_config._ = {\n      \\ 'outputt...",
+          "link": "https://zenn.dev/oppara/articles/vim-quickrun-outputter-buffer-opener",
+          "publishedOn": "2021-09-19T01:05:24.000Z",
+          "wordCount": 78,
+          "title": "vim-quickrun 実行時に水平分割で表示する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--NPBBJaQn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:oppara%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vim-quickrun%2520%25E5%25AE%259F%25E8%25A1%258C%25E6%2599%2582%25E3%2581%25AB%25E6%25B0%25B4%25E5%25B9%25B3%25E5%2588%2586%25E5%2589%25B2%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dyYTRKSGo5UzNEckZ0dTlwcUd5d0V4ZEZZTjZmS0JUQjBkTkthdFE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/anozon/articles/vimfilter-rename",
           "author": "anozon",
@@ -2710,6 +2780,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8",
+          "author": "おしうみなおき",
+          "description": "jQueryのslideUp, slideDownをvueで作る際に、transitionを使用するやり方があったのですが、高さを指定しないといけない？とかなんとかでよくわからなくてやめちゃったのですが、\n結論から言うとライブラリを使用する方法が死ぬほど簡単でした。\n\n ライブラリインストール\nvue-slide-up-downをインストールします\n\n      \n        \n        npm i vue-slide-up-down\n\n\n      \n      \n インポートする\nLaravelとvueをセットで使っているので、 僕はapp.jsというところでインポートしま...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8",
+          "publishedOn": "2021-09-20T00:44:32.000Z",
+          "wordCount": 48,
+          "title": "vueでjQueryのslideUp, slideDownを一瞬で実装しちゃう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--wA7o3iR1--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue%25E3%2581%25A7jQuery%25E3%2581%25AEslideUp%252C%2520slideDown%25E3%2582%2592%25E4%25B8%2580%25E7%259E%25AC%25E3%2581%25A7%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2597%25E3%2581%25A1%25E3%2582%2583%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sa2knight/articles/cc60e3e7c44968",
+          "author": "shingo.sasaki",
+          "description": "Chart.js 3 について\nChart.js 3 は、 Canvas を用いたグラフ描画ライブラリとして人気の高い Chart.js の最新バージョンで、 2021年4月にリリースされました。\nv3 は従来の v2 と比べ、以下のような大きな改善が行われています。\n\nwebworkers を用いた並列レンダリングなどによるパフォーマンスの劇的向上\n細分化されたモジュールを必要十分に import することによるツリーシェイキングの有効化\n\nmoment など、日付操作用のライブラリへの依存の撤廃\nCSSインジェクションの廃止\n膨大な数のバグフィックス\n\nただし、多くの破壊的変更を...",
+          "link": "https://zenn.dev/sa2knight/articles/cc60e3e7c44968",
+          "publishedOn": "2021-09-19T03:32:58.000Z",
+          "wordCount": 526,
+          "title": "Vue2 / Vue3 でも Chart.js 3 を使いたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2Fm5gHTt--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shingo.sasaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue2%2520%252F%2520Vue3%2520%25E3%2581%25A7%25E3%2582%2582%2520Chart.js%25203%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODQ1ZmE3NWJhOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/tentel/articles/63bbb2c0fbb7b1",
           "author": "てんてる",
@@ -3126,20 +3224,6 @@
           "title": "Vue.jsから複数の画像をLaravelに送り保存する",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--_ZtBkSnn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue.js%25E3%2581%258B%25E3%2582%2589%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592Laravel%25E3%2581%25AB%25E9%2580%2581%25E3%2582%258A%25E4%25BF%259D%25E5%25AD%2598%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/gz/articles/491b324570703a",
-          "author": "walking_on_ice",
-          "description": "HTMLのselectのように縦のすこし展開して、スクロールできるようにしたいです。\n説明より、コードを見ればわかる。\n\n      \n        \n        <v-list\n style=\"max-height: 150px\"\n class=\"overflow-y-auto\"\n...\n\n\n      \n      以下のようになります。\n\nvirtual-scrollbarがありますが、クリックする時の動きとか、振る舞いが気に入りませんでした。\n以上です。",
-          "link": "https://zenn.dev/gz/articles/491b324570703a",
-          "publishedOn": "2021-08-20T16:20:43.000Z",
-          "wordCount": 13,
-          "title": "vuetify/v-listを縦スクロールできるように",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--6h5X3kDs--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:walking_on_ice%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuetify%252Fv-list%25E3%2582%2592%25E7%25B8%25A6%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTZhZjc2YmQ3Yy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

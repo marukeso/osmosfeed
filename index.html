@@ -77,6 +77,243 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-20">2021-09-20</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vueでjQueryのslideUp, slideDownを一瞬で実装しちゃう</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>jQueryのslideUp, slideDownをvueで作る際に、transitionを使用するやり方があったのですが、高さを指定しないといけない？とかなんとかでよくわからなくてやめちゃったのですが、
+結論から言うとライブラリを使用する方法が死ぬほど簡単でした。
+
+ ライブラリインストール
+vue-slide-up-downをインストールします
+
+      
+        
+        npm i vue-slide-up-down
+
+
+      
+      
+ インポートする
+Laravelとvueをセットで使っているので、 僕はapp.jsというところでインポートしま...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-19">2021-09-19</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ECMAScript Annex B と型定義、ついでに ES2022 __proto__</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/petamoriken/articles/a211183011cd58">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>この記事は Qiita からコピーされたものです。
+
+
+ Annex B について
+JavaScript の言語仕様には Annex B という項目があります。ここには Web 互換性のために残されているレガシーな機能の仕様について記述してあり、新たに ECMAScript のコードを書く際にこれらの機能を使用したり、その存在を前提にしたりしてはいけないと明記されています。
+https://tc39.es/ecma262/#sec-additional-ecmascript-features-for-web-browsers
+String#big などの今となっては全く実用性のないメソ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Stage 2 Decorators の変遷と最新仕様</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/petamoriken/articles/ab9a7d7f654a79">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>この記事は Qiita からコピーされたものです。
+
+
+ はじめに
+個人的に TC39 meeting をウォッチしてまとめている @petamoriken です。
+ESNext の Decorators の提案は何度も改定しています。その割にあまり知れ渡っていません。この記事ではその変遷と2021年7月現在における最新の Decorators について簡単にまとめようと思います。
+https://github.com/tc39/proposal-decorators
+こちらの発表スライドを見ると流れがわかりやすいかもしれません。
+
+
+ 最初の提案（2014年~2015年頃）
+最初の提...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">JavaScriptで時系列データのクラスタリングがしたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yonda/articles/5366cb9beb312d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Pythonで時系列解析をしたい(時系列クラスタリング)
+DTW(Dynamic Time Warping)で台風軌道をクラスタリングする
+こんなふうに時系列データの分類をJavaScript（TypeScript）でしてみたい。
+でも調べるとほとんどみんなPythonのtslean、sklearnやRを使っています。
+調べればJavaScriptライブラリがあるのでしょうが、理屈の勉強がてら自分で実装（TypeScript）してみます。
+
+ 分類法
+分類法においてメジャーなのはK-meansとK-medoids。
+2つを比べたとき外れ値やノイズに強いとされている、また時系列データ同士の...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Spotify APIとDiscord.jsでBotを作ってみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kyohei1212/articles/0da7851314cacd">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>時間があったのでDiscord Botを作ってみました。
+SpotifyのAPIはSpotify Web API Nodeという素晴らしいラッパーライブラリがあるのでそれを使いました。
+
+axiosやらなんやらで直接URLを叩いてもいいのですがせっかくライブラリがあるのでそっちを使いました。使わなくてもSpotify APIは使えます。
+
+とりあえず基本のmessageCreateイベントでloginと入力されたらログイン用のURLを返すようにします。(Spotify APIのAuthenticationの関係でここだけはブラウザを開かないといけないっぽいです。もし間違ってたら教えていた...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypeScriptの交差型</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/peg/articles/c5fb4ccf0a06b2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>TypeScriptの型レベルコードについてあまり慣れてないので勉強を始めた。
+以下のコードのItemFormがどういう型を持つのか。
+
+      
+        
+        type Item &#x3D; {
+  id: string;
+  title: string;
+  body: string;
+};
+
+
+type ItemForm &#x3D; Item &amp; {
+  edit: boolean;
+};
+
+
+      
+      &amp;はintersection type（交差型）という。
+
+Intersection types are closely related t...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue2 / Vue3 でも Chart.js 3 を使いたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sa2knight/articles/cc60e3e7c44968">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Chart.js 3 について
+Chart.js 3 は、 Canvas を用いたグラフ描画ライブラリとして人気の高い Chart.js の最新バージョンで、 2021年4月にリリースされました。
+v3 は従来の v2 と比べ、以下のような大きな改善が行われています。
+
+webworkers を用いた並列レンダリングなどによるパフォーマンスの劇的向上
+細分化されたモジュールを必要十分に import することによるツリーシェイキングの有効化
+
+moment など、日付操作用のライブラリへの依存の撤廃
+CSSインジェクションの廃止
+膨大な数のバグフィックス
+
+ただし、多くの破壊的変更を...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">vim-quickrun 実行時に水平分割で表示する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/oppara/articles/vim-quickrun-outputter-buffer-opener">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>はじめに
+thinca/vim-quickrun をアップデート後、実行時に水平分割できなくなっていたので対応。
+
+ 動かなくなった設定
+
+      
+        
+        let g:quickrun_config &#x3D; {&#x27;*&#x27;: {&#x27;split&#x27;: &#x27;&#x27;}}
+
+
+      
+      
+ 水平分割できるようにした設定
+
+      
+        
+        let g:quickrun_config &#x3D; get(g:, &#x27;quickrun_config&#x27;, {})
+let g:quickrun_config._ &#x3D; {
+      \ &#x27;outputt...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vue2 / Vue3 でも Chart.js 3 を使いたい</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sa2knight/articles/cc60e3e7c44968">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Chart.js 3 について
+Chart.js 3 は、 Canvas を用いたグラフ描画ライブラリとして人気の高い Chart.js の最新バージョンで、 2021年4月にリリースされました。
+v3 は従来の v2 と比べ、以下のような大きな改善が行われています。
+
+webworkers を用いた並列レンダリングなどによるパフォーマンスの劇的向上
+細分化されたモジュールを必要十分に import することによるツリーシェイキングの有効化
+
+moment など、日付操作用のライブラリへの依存の撤廃
+CSSインジェクションの廃止
+膨大な数のバグフィックス
+
+ただし、多くの破壊的変更を...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-18">2021-09-18</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -204,6 +441,40 @@ useStateで一つずつ定義していくのは、stateが１つか２つなら�
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Node + TypeScript で MySQL に接続して Read, Write してみる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/tkm_kj/articles/111ef98ed6297e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>背景
+node + TypeScript で MySQL に繋いで少しだけデータ操作をする場面があったのですが、あまり記事無くて苦戦したので備忘録として残しておきます。
+
+ 実装方針
+
+O/Rマッパーのような大きいライブラリじゃなくても済む規模だったので mysql を使用して生クエリで対応
+コールバック地獄にならないようにしたい
+しっかりトランザクションはかけておきたい
+
+
+ バージョン
+
+node: v14.17
+mysql(ライブラリ): 2.18.1
+MySQL(DB): 5.7
+
+
+ 実装
+
+ 接続
+
+      
+        
+        import { cre...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">【Next.js】アクセスコントロールパターン</summary>
@@ -5909,98 +6180,6 @@ Nuxtにサードパーティ製Javascript(以下外部ライブラリと称し�
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Typescriptで計算した結果をGithub Actionsに渡して使用する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kinjosan/articles/26cff4f92b9453">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Github Actions 上で Typescript を実行して、その計算内容を Github Actions 上で使用したい時とかありますよね🎅
-
- TL;DR
-
-Github Actions で Typescript 実行
-@actions/core の setOutput を使用
-
-
- 例
-毎朝 10 時に aws のコストを取得して、aws のコストはドルなので、円に直して slack に通知
-※細かい取得方法はテーマではないので省略してます
-
-      
-        
-        const awsCost &#x3D; 100; // ドル
-const rate &#x3D; 10...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Javascriptで数字 → 文字に変換</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kinjosan/articles/04287460d854e4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>toStringを使う
-
-      
-        
-        const numToString &#x3D; (num: number): string &#x3D;&gt; num.toString();
-
-numToString(1234)
-// &quot;1234&quot;
-
-
-      
-      
- String関数を使用する
-
-      
-        
-        const numToString &#x3D; (num: number): string &#x3D;&gt; String(num);
-numToString(1234)
-// &quot;1234&quot;
-
-
-      
-      undef...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">UTF-8対応のBase64を自作する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kota_yata/articles/89b10ac8c93b92">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>TypeScriptでBase64を自作します。Denoの場合標準ライブラリにBase64が実装されていますので実際に利用する際はそちらを使ってください。
-
- 完成品
-一応Denoパッケージとしても公開しています。
-https://github.com/kota-yata/ky_base64
-
- 処理の流れ
-
- エンコーダー
-Base64エンコードの大まかな流れは、
-
-文字列のバイナリーを6bitsで区切る
-余ったビットは末尾に0を加えて6bitsにする
-予め定められている変換表に対応する文字に変換する
-文字数が4の整数倍に満たない場合は&#x3D;で埋め合わせる
-
-という、割と単純なアルゴリズム...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -6029,46 +6208,9 @@ Vimscriptは使わずLuaで書きます
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-20">2021-08-20</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vuetify/v-listを縦スクロールできるように</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gz/articles/491b324570703a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>HTMLのselectのように縦のすこし展開して、スクロールできるようにしたいです。
-説明より、コードを見ればわかる。
-
-      
-        
-        &lt;v-list
- style&#x3D;&quot;max-height: 150px&quot;
- class&#x3D;&quot;overflow-y-auto&quot;
-...
-
-
-      
-      以下のようになります。
-
-virtual-scrollbarがありますが、クリックする時の動きとか、振る舞いが気に入りませんでした。
-以上です。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-19T00:55:13.049Z">2021-09-19T00:55:13.049Z</time>
+    <time id="build-timestamp" datetime="2021-09-20T00:57:38.028Z">2021-09-20T00:57:38.028Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>
