@@ -65,6 +65,34 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/aiji42/articles/30116d3ffdb329",
+          "author": "aiji42",
+          "description": "はじめに\nNext.js には SSR するための getServerSideProps と SSG/ISR のための getStaticProps というデータフェッチファンクションが用意されています。\n一般的な getServerSideProps は、次のようにレンダリングに必要な props を返却することが主な用途です。\n\n      \n        \n        export async function getServerSideProps(context) {\n  const data = await fetch('...').then((res) => ...",
+          "link": "https://zenn.dev/aiji42/articles/30116d3ffdb329",
+          "publishedOn": "2021-09-20T16:03:30.000Z",
+          "wordCount": 267,
+          "title": "【Next.js】getServerSidePropsをリバースプロキシ化して遊ぼう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--bgvRilVw--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:aiji42%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E3%2580%2591getServerSideProps%25E3%2582%2592%25E3%2583%25AA%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25AD%25E3%2582%25B7%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E9%2581%258A%25E3%2581%25BC%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTczOGQyOGQwMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7",
+          "author": "空雲",
+          "description": "Next.jsの初回queryのundefined現象\n\nsrc/pages/[q].tsx\n\n\n      \n        \n        import { useRouter } from 'next/router'\nimport React from 'react'\n\nconst Page = () => {\n  const router = useRouter()\n  const q = router.query['q']\n  console.log(\"q:\",q)\n  return <div>{q}</div>\n}\n\nexport defa...",
+          "link": "https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7",
+          "publishedOn": "2021-09-20T04:26:09.000Z",
+          "wordCount": 81,
+          "title": "[Next.js]router.queryから初回のundefinedを消し去る方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--W26cShMZ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%255BNext.js%255Drouter.query%25E3%2581%258B%25E3%2582%2589%25E5%2588%259D%25E5%259B%259E%25E3%2581%25AEundefined%25E3%2582%2592%25E6%25B6%2588%25E3%2581%2597%25E5%258E%25BB%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/aiji42/articles/450ce962cc225a",
           "author": "aiji42",
           "description": "はじめに\nNext.js で MPA を構築していると、ページ単位でアクアセスコントロールを行うニーズやケースがよく発生します。\nここでのアクセスコントロールは、ページごとにアクセス可能な条件を定義したり、ルールにそぐわないアクセスを別のページに転送させるなどの処理を意味します。\n例えば、一般ユーザ向けのページと、登録済みユーザ向けのマイページを持つケースを考えてみると…\n\n一般ユーザ向けページは誰でもアクセス可能\nマイページはログイン済みのユーザのみアクセス可能\nログインのためのサインイン・アップフォームのページも存在するが、ログイン済みであればマイページにリダイレクトされる\n\nた...",
@@ -805,34 +833,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kyo9bo/articles/e02fdaa36fa322",
-          "author": "kyo9bo",
-          "description": "クエリが取得できない\nNextのメリットの一つとしてdynamic routingが挙げられると思います。しかし、paramを取得する際に一点気になる部分が存在します。\n\nPages that are statically optimized by Automatic Static Optimization will be hydrated without their route parameters provided, i.e query will be an empty object ({}).\n\n\nAfter hydration, Next.js will trigger an...",
-          "link": "https://zenn.dev/kyo9bo/articles/e02fdaa36fa322",
-          "publishedOn": "2021-08-22T06:03:00.000Z",
-          "wordCount": 103,
-          "title": "【Next.js】dynamic routingで、paramsがundefinedになる問題解決方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ptVOH9Uu--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kyo9bo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E3%2580%2591dynamic%2520routing%25E3%2581%25A7%25E3%2580%2581params%25E3%2581%258Cundefined%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E5%2595%258F%25E9%25A1%258C%25E8%25A7%25A3%25E6%25B1%25BA%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjc5YjJkN2JmNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
-          "author": "空雲",
-          "description": "Next.jsでWeb-Workerを簡単に使うには\n前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です\nしかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません\n機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります\n\n 前回の記事\nNext.jsでWeb-Workerを呼び出す\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker2\nhttps://n...",
-          "link": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
-          "publishedOn": "2021-08-22T04:16:21.000Z",
-          "wordCount": 519,
-          "title": "Next.jsでお手軽にWeb-Workerを呼び出す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--GigYvxg5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2581%25ABWeb-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -841,6 +841,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/kata_n/articles/0e1c640c4d6680",
+          "author": "kata",
+          "description": "jestとは\nJestはJavaScriptの単体テストのフレームワークです。\n単体テスト（ユニット(Unit)テストとも言います）とは、ボタンやセレクトボックスなど個々の機能を正しく果たしているかどうかを検証するテストの事を指します。\nこの記事はJavaScriptのテストフレームワークでよく使われているjestをNuxt.jsを使ってとりあえず試してみたものになります。\n\n バージョン\nnuxt.js: 2.15.8\nnode.js:16.6.0\n\n nuxtcliでプロジェクト作成\n\n      \n        \n        ❯ yarn create nuxt-app ...",
+          "link": "https://zenn.dev/kata_n/articles/0e1c640c4d6680",
+          "publishedOn": "2021-09-20T11:51:49.000Z",
+          "wordCount": 638,
+          "title": "nuxt.jsでjestを使ってテストを始める",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--KvEMYRrl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nuxt.js%25E3%2581%25A7jest%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWRjMjM1OTE3Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/azu369yu/articles/a9989d73b4d19d",
           "author": "Yu Watanabe",
@@ -896,20 +910,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sengosha/articles/54ec4c57194626",
-          "author": "ユウ",
-          "description": "サードパーティ製Javascriptを読み込ませる方法\nNuxtにサードパーティ製Javascript(以下外部ライブラリと称します）を読み込む方法は三つあります、headメソッドやnuxt.config.jsでの設定とpluginで読み込ませる方法です。\n今回は開発中に外部ライブラリの導入にあたってheadメソッドとnuxt.config.jsで設定する方法を試していくつかの問題が起きてしまいまして、最後はpluginで読み込ませる方法を選ぶ経緯をまとめました。\n\n 方法１ headメソッド\n特定なページに外部ライブラリを読み込ませるには一番手軽な方法です。\nこんな感じで書けば外部...",
-          "link": "https://zenn.dev/sengosha/articles/54ec4c57194626",
-          "publishedOn": "2021-08-21T14:06:58.000Z",
-          "wordCount": 263,
-          "title": "Nuxtのサードパーティ製Javascriptの読み込む方法を色々試してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--wMLNG7kr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A6%25E3%2582%25A6%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2589%25E3%2583%2591%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%25E8%25A3%25BDJavascript%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E8%25BE%25BC%25E3%2582%2580%25E6%2596%25B9%25E6%25B3%2595%25E3%2582%2592%25E8%2589%25B2%25E3%2580%2585%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -918,6 +918,20 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7",
+          "author": "空雲",
+          "description": "Next.jsの初回queryのundefined現象\n\nsrc/pages/[q].tsx\n\n\n      \n        \n        import { useRouter } from 'next/router'\nimport React from 'react'\n\nconst Page = () => {\n  const router = useRouter()\n  const q = router.query['q']\n  console.log(\"q:\",q)\n  return <div>{q}</div>\n}\n\nexport defa...",
+          "link": "https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7",
+          "publishedOn": "2021-09-20T04:26:09.000Z",
+          "wordCount": 81,
+          "title": "[Next.js]router.queryから初回のundefinedを消し去る方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--W26cShMZ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%255BNext.js%255Drouter.query%25E3%2581%258B%25E3%2582%2589%25E5%2588%259D%25E5%259B%259E%25E3%2581%25AEundefined%25E3%2582%2592%25E6%25B6%2588%25E3%2581%2597%25E5%258E%25BB%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/petamoriken/articles/a211183011cd58",
           "author": "petamoriken",
@@ -2527,20 +2541,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
-          "author": "空雲",
-          "description": "Next.jsでWeb-Workerを簡単に使うには\n前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です\nしかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません\n機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります\n\n 前回の記事\nNext.jsでWeb-Workerを呼び出す\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker2\nhttps://n...",
-          "link": "https://zenn.dev/sora_kumo/articles/bb10104c12080e",
-          "publishedOn": "2021-08-22T04:16:21.000Z",
-          "wordCount": 519,
-          "title": "Next.jsでお手軽にWeb-Workerを呼び出す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--GigYvxg5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2581%258A%25E6%2589%258B%25E8%25BB%25BD%25E3%2581%25ABWeb-Worker%25E3%2582%2592%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2755,20 +2755,6 @@
           "title": "無人島に持っていく(Neo)vimプラグイン10選 (TS開発環境編)",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--gnVdjZCD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuki%2520Yano%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2584%25A1%25E4%25BA%25BA%25E5%25B3%25B6%25E3%2581%25AB%25E6%258C%2581%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%258F%2528Neo%2529vim%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B310%25E9%2581%25B8%2520%2528TS%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E7%25B7%25A8%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liaDZMcy05WWRBbnZqZGtvMzJuTllGZEY3UThVWXE0N3kxNklhPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nazo6/articles/c2f16b07798bab",
-          "author": "nz",
-          "description": "Neovimには組み込みのLSPクライアントがあります。ちょっと前まではVSCode並の開発体験のためにはcocを使うのがベストな選択肢でしたが、neovim builtin lsp(以下nvim-lsp)でもエコシステムが整ってきており、かなりいい感じの支援機能が受けられます。この記事ではその設定などについて書いていこうと思います。\n\n 環境\n\nLinux (Windowsだと後述のlspinstallというプラグインが使えないのでおすすめできません。LSPを使うこと自体はできます。)\nNeovim 0.5\nVimscriptは使わずLuaで書きます\n\n\n 基本的な設定\n\n 必須プラグ...",
-          "link": "https://zenn.dev/nazo6/articles/c2f16b07798bab",
-          "publishedOn": "2021-08-21T14:33:34.000Z",
-          "wordCount": 465,
-          "title": "Neovim builtin LSP設定入門",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--L73F58UN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nz%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Neovim%2520builtin%2520LSP%25E8%25A8%25AD%25E5%25AE%259A%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hxcDBncFdKRUpUUWRWNkQxMWFtVWYxY1R6YnFUakVtX3hGT1Z5ZUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

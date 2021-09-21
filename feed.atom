@@ -2,10 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-20T00:57:38.056Z</updated>
+    <updated>2021-09-21T00:55:18.617Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】getServerSidePropsをリバースプロキシ化して遊ぼう]]></title>
+        <id>https://zenn.dev/aiji42/articles/30116d3ffdb329</id>
+        <link href="https://zenn.dev/aiji42/articles/30116d3ffdb329"/>
+        <updated>2021-09-20T16:03:30.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Next.js には SSR するための getServerSideProps と SSG/ISR のための getStaticProps というデータフェッチファンクションが用意されています。
+一般的な getServerSideProps は、次のようにレンダリングに必要な props を返却することが主な用途です。
+
+      
+        
+        export async function getServerSideProps(context) {
+  const data = await fetch('...').then((res) => ...]]></summary>
+        <author>
+            <name>aiji42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nuxt.jsでjestを使ってテストを始める]]></title>
+        <id>https://zenn.dev/kata_n/articles/0e1c640c4d6680</id>
+        <link href="https://zenn.dev/kata_n/articles/0e1c640c4d6680"/>
+        <updated>2021-09-20T11:51:49.000Z</updated>
+        <summary type="html"><![CDATA[jestとは
+JestはJavaScriptの単体テストのフレームワークです。
+単体テスト（ユニット(Unit)テストとも言います）とは、ボタンやセレクトボックスなど個々の機能を正しく果たしているかどうかを検証するテストの事を指します。
+この記事はJavaScriptのテストフレームワークでよく使われているjestをNuxt.jsを使ってとりあえず試してみたものになります。
+
+ バージョン
+nuxt.js: 2.15.8
+node.js:16.6.0
+
+ nuxtcliでプロジェクト作成
+
+      
+        
+        ❯ yarn create nuxt-app ...]]></summary>
+        <author>
+            <name>kata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Next.js]router.queryから初回のundefinedを消し去る方法]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7</id>
+        <link href="https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7"/>
+        <updated>2021-09-20T04:26:09.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsの初回queryのundefined現象
+
+src/pages/[q].tsx
+
+
+      
+        
+        import { useRouter } from 'next/router'
+import React from 'react'
+
+const Page = () => {
+  const router = useRouter()
+  const q = router.query['q']
+  console.log("q:",q)
+  return <div>{q}</div>
+}
+
+export defa...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Next.js]router.queryから初回のundefinedを消し去る方法]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7</id>
+        <link href="https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7"/>
+        <updated>2021-09-20T04:26:09.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsの初回queryのundefined現象
+
+src/pages/[q].tsx
+
+
+      
+        
+        import { useRouter } from 'next/router'
+import React from 'react'
+
+const Page = () => {
+  const router = useRouter()
+  const q = router.query['q']
+  console.log("q:",q)
+  return <div>{q}</div>
+}
+
+export defa...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vueでjQueryのslideUp, slideDownを一瞬で実装しちゃう]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8</id>
@@ -5133,99 +5227,6 @@ Jest & React Testing Library
 この判断についてはドキュメントに書かれていなかった...]]></summary>
         <author>
             <name>Takepepe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Next.js】dynamic routingで、paramsがundefinedになる問題解決方法]]></title>
-        <id>https://zenn.dev/kyo9bo/articles/e02fdaa36fa322</id>
-        <link href="https://zenn.dev/kyo9bo/articles/e02fdaa36fa322"/>
-        <updated>2021-08-22T06:03:00.000Z</updated>
-        <summary type="html"><![CDATA[クエリが取得できない
-Nextのメリットの一つとしてdynamic routingが挙げられると思います。しかし、paramを取得する際に一点気になる部分が存在します。
-
-Pages that are statically optimized by Automatic Static Optimization will be hydrated without their route parameters provided, i.e query will be an empty object ({}).
-
-
-After hydration, Next.js will trigger an...]]></summary>
-        <author>
-            <name>kyo9bo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでお手軽にWeb-Workerを呼び出す]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/bb10104c12080e</id>
-        <link href="https://zenn.dev/sora_kumo/articles/bb10104c12080e"/>
-        <updated>2021-08-22T04:16:21.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsでWeb-Workerを簡単に使うには
-前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です
-しかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません
-機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります
-
- 前回の記事
-Next.jsでWeb-Workerを呼び出す
-
- サンプル置き場
-https://github.com/SoraKumo001/next-worker2
-https://n...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでお手軽にWeb-Workerを呼び出す]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/bb10104c12080e</id>
-        <link href="https://zenn.dev/sora_kumo/articles/bb10104c12080e"/>
-        <updated>2021-08-22T04:16:21.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsでWeb-Workerを簡単に使うには
-前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です
-しかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません
-機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります
-
- 前回の記事
-Next.jsでWeb-Workerを呼び出す
-
- サンプル置き場
-https://github.com/SoraKumo001/next-worker2
-https://n...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neovim builtin LSP設定入門]]></title>
-        <id>https://zenn.dev/nazo6/articles/c2f16b07798bab</id>
-        <link href="https://zenn.dev/nazo6/articles/c2f16b07798bab"/>
-        <updated>2021-08-21T14:33:34.000Z</updated>
-        <summary type="html"><![CDATA[Neovimには組み込みのLSPクライアントがあります。ちょっと前まではVSCode並の開発体験のためにはcocを使うのがベストな選択肢でしたが、neovim builtin lsp(以下nvim-lsp)でもエコシステムが整ってきており、かなりいい感じの支援機能が受けられます。この記事ではその設定などについて書いていこうと思います。
-
- 環境
-
-Linux (Windowsだと後述のlspinstallというプラグインが使えないのでおすすめできません。LSPを使うこと自体はできます。)
-Neovim 0.5
-Vimscriptは使わずLuaで書きます
-
-
- 基本的な設定
-
- 必須プラグ...]]></summary>
-        <author>
-            <name>nz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxtのサードパーティ製Javascriptの読み込む方法を色々試してみた]]></title>
-        <id>https://zenn.dev/sengosha/articles/54ec4c57194626</id>
-        <link href="https://zenn.dev/sengosha/articles/54ec4c57194626"/>
-        <updated>2021-08-21T14:06:58.000Z</updated>
-        <summary type="html"><![CDATA[サードパーティ製Javascriptを読み込ませる方法
-Nuxtにサードパーティ製Javascript(以下外部ライブラリと称します）を読み込む方法は三つあります、headメソッドやnuxt.config.jsでの設定とpluginで読み込ませる方法です。
-今回は開発中に外部ライブラリの導入にあたってheadメソッドとnuxt.config.jsで設定する方法を試していくつかの問題が起きてしまいまして、最後はpluginで読み込ませる方法を選ぶ経緯をまとめました。
-
- 方法１ headメソッド
-特定なページに外部ライブラリを読み込ませるには一番手軽な方法です。
-こんな感じで書けば外部...]]></summary>
-        <author>
-            <name>ユウ</name>
         </author>
     </entry>
 </feed>

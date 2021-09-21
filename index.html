@@ -81,6 +81,124 @@
     <ul class="sources card">
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【Next.js】getServerSidePropsをリバースプロキシ化して遊ぼう</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/aiji42/articles/30116d3ffdb329">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+Next.js には SSR するための getServerSideProps と SSG/ISR のための getStaticProps というデータフェッチファンクションが用意されています。
+一般的な getServerSideProps は、次のようにレンダリングに必要な props を返却することが主な用途です。
+
+      
+        
+        export async function getServerSideProps(context) {
+  const data &#x3D; await fetch(&#x27;...&#x27;).then((res) &#x3D;&gt; ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Next.js]router.queryから初回のundefinedを消し去る方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Next.jsの初回queryのundefined現象
+
+src/pages/[q].tsx
+
+
+      
+        
+        import { useRouter } from &#x27;next/router&#x27;
+import React from &#x27;react&#x27;
+
+const Page &#x3D; () &#x3D;&gt; {
+  const router &#x3D; useRouter()
+  const q &#x3D; router.query[&#x27;q&#x27;]
+  console.log(&quot;q:&quot;,q)
+  return 
+{q}
+}
+
+export defa...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">nuxt.jsでjestを使ってテストを始める</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kata_n/articles/0e1c640c4d6680">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>jestとは
+JestはJavaScriptの単体テストのフレームワークです。
+単体テスト（ユニット(Unit)テストとも言います）とは、ボタンやセレクトボックスなど個々の機能を正しく果たしているかどうかを検証するテストの事を指します。
+この記事はJavaScriptのテストフレームワークでよく使われているjestをNuxt.jsを使ってとりあえず試してみたものになります。
+
+ バージョン
+nuxt.js: 2.15.8
+node.js:16.6.0
+
+ nuxtcliでプロジェクト作成
+
+      
+        
+        ❯ yarn create nuxt-app ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Next.js]router.queryから初回のundefinedを消し去る方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Next.jsの初回queryのundefined現象
+
+src/pages/[q].tsx
+
+
+      
+        
+        import { useRouter } from &#x27;next/router&#x27;
+import React from &#x27;react&#x27;
+
+const Page &#x3D; () &#x3D;&gt; {
+  const router &#x3D; useRouter()
+  const q &#x3D; router.query[&#x27;q&#x27;]
+  console.log(&quot;q:&quot;,q)
+  return 
+{q}
+}
+
+export defa...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -6012,44 +6130,6 @@ Jest &amp; React Testing Library
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Next.js】dynamic routingで、paramsがundefinedになる問題解決方法</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kyo9bo/articles/e02fdaa36fa322">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>クエリが取得できない
-Nextのメリットの一つとしてdynamic routingが挙げられると思います。しかし、paramを取得する際に一点気になる部分が存在します。
-
-Pages that are statically optimized by Automatic Static Optimization will be hydrated without their route parameters provided, i.e query will be an empty object ({}).
-
-
-After hydration, Next.js will trigger an...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでお手軽にWeb-Workerを呼び出す</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/bb10104c12080e">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Next.jsでWeb-Workerを簡単に使うには
-前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です
-しかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません
-機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります
-
- 前回の記事
-Next.jsでWeb-Workerを呼び出す
-
- サンプル置き場
-https://github.com/SoraKumo001/next-worker2
-https://n...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -6101,27 +6181,6 @@ from app.models.pydantic import SummaryPayloadSchem...</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Next.jsでお手軽にWeb-Workerを呼び出す</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/bb10104c12080e">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Next.jsでWeb-Workerを簡単に使うには
-前回の記事で書きましたが、Next.jsには最初からWeb-Workerを読み込むためのWebPack設定が入っているので、そのまま利用することが可能です
-しかしWeb-Workerとして書いたスクリプトを読み込む設定が入っているだけで、それ以外のサポートはありません
-機能を利用するには、コード上でそれなりに面倒な手順を記述する必要があります
-
- 前回の記事
-Next.jsでWeb-Workerを呼び出す
-
- サンプル置き場
-https://github.com/SoraKumo001/next-worker2
-https://n...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -6152,65 +6211,9 @@ Laravel×Vue.jsで実際に試してみたので、メモがてら残してお�
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-21">2021-08-21</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nuxtjs">Zennの「Nuxt.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Nuxtのサードパーティ製Javascriptの読み込む方法を色々試してみた</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sengosha/articles/54ec4c57194626">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>サードパーティ製Javascriptを読み込ませる方法
-Nuxtにサードパーティ製Javascript(以下外部ライブラリと称します）を読み込む方法は三つあります、headメソッドやnuxt.config.jsでの設定とpluginで読み込ませる方法です。
-今回は開発中に外部ライブラリの導入にあたってheadメソッドとnuxt.config.jsで設定する方法を試していくつかの問題が起きてしまいまして、最後はpluginで読み込ませる方法を選ぶ経緯をまとめました。
-
- 方法１ headメソッド
-特定なページに外部ライブラリを読み込ませるには一番手軽な方法です。
-こんな感じで書けば外部...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Neovim builtin LSP設定入門</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nazo6/articles/c2f16b07798bab">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Neovimには組み込みのLSPクライアントがあります。ちょっと前まではVSCode並の開発体験のためにはcocを使うのがベストな選択肢でしたが、neovim builtin lsp(以下nvim-lsp)でもエコシステムが整ってきており、かなりいい感じの支援機能が受けられます。この記事ではその設定などについて書いていこうと思います。
-
- 環境
-
-Linux (Windowsだと後述のlspinstallというプラグインが使えないのでおすすめできません。LSPを使うこと自体はできます。)
-Neovim 0.5
-Vimscriptは使わずLuaで書きます
-
-
- 基本的な設定
-
- 必須プラグ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-20T00:57:38.028Z">2021-09-20T00:57:38.028Z</time>
+    <time id="build-timestamp" datetime="2021-09-21T00:55:18.596Z">2021-09-21T00:55:18.596Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>
