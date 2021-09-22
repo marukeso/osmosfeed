@@ -22,6 +22,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/09/21/deno-1.14-chromeuser-agent-vue-2vue-3/",
+          "author": null,
+          "description": "JSer.info #558 - Deno 1.14がリリースされました。\nDeno 1.14 Release Notes | Deno Blog\nDeno 1.14.0 がリリースされたので新機能や変更点の紹介\ndeno lintとdeno fmtがオプションをサポートしてquoteやindentなどの設定ができるようになっています。\nURLPatternのサポート。fetchがMutual TLSをサポートなども追加されています。\nstd/httpモジュールのパフォーマンス改善などが含まれています。\nChromeのUser-Agent文字列削減のスケジュールが改めて公開されています。\nChromium Blog: User-Agent Reduction Origin Trial and Dates\nnavigator.userAgent、@navigator.appVersion、 navigator.platformなどの情報量を減らす/固定化することでfinger printingなどのリスクを減らすことが目的です。これらのAPIは非推奨となり、代替としてUser Agent Client Hintsが実装されています。\nUA文字列の削減などは、次のようなスケジュールで展開していく予定となっています。\nChrome 92:  コンソールに警告の追加\nChrome 95 から 100: Origin Trialの実施\nChrome 100: Reverse Origin Trialの実施\nChrome 101から110: 削減を段階的に実施\nChrome 113: 完了\nVue2のプロジェクトをVue3へマイグレーションするという記事では、@vue/compatを使いつつVue2で書かれたアプリケーションをVue3へマイグレーションしていく方法について書かれています…",
+          "link": "https://jser.info/2021/09/21/deno-1.14-chromeuser-agent-vue-2vue-3/",
+          "publishedOn": "2021-09-21T02:25:53.000Z",
+          "wordCount": 389,
+          "title": "2021-09-21のJS: Deno 1.14リリース、ChromeのUser-Agent文字列削減スケジュール、Vue 2からVue 3への移行"
+        },
+        {
           "id": "https://jser.info/2021/09/14/node-v16.9.0corepack-spook.jssame-site/",
           "author": null,
           "description": "JSer.info #557 - Node.js 16.9.0リリース。\nNode v16.9.0 (Current) | Node.js\nプロジェクトごとにnpm/yarn/pnpmなどのパッケージマネージャを切り替えて利用できるCorepackのサポートが実験的に追加されています。Corepackが有効時は、どのパッケージマネージャを使うかをpackage.json の packageManager フィールドで指定して、透過的にインストールや実行できるようになります。\nまた実験的であるため、利用するにはcorepack enable yarnなどのコマンドがオプトインで必要となっています。\nCorepack | Node.js v16.9.0 Documentation\ncorepack is 何?\nその他には、V8 9.3へアップデートしObject.hasOwnとError Causeをサポート、stream.composeの追加などが含まれています。\nV8 release v9.3 · V8\nSpook.jsという、投機的実行を利用したsame-siteでのサイドチャネル攻撃についての論文が公開されています。\nsame-site/cross-site, same-origin/cross-originをちゃんと理解する\n以前、GoogleがSpectreの概念を説明するものとしてhttps://leaky.page/というサイトを公開しています。\nGoogle Online Security Blog: A Spectre proof-of-concept for a Spectre-proof web\nSpook.jsは、これをより実践的に検証した論文で、BitbucketやTumblrなどのユーザーコンテンツがサブドメインにあるサイト同士でのデモ、Googl…",
@@ -64,6 +73,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/ucwork/articles/dc993c8494d65e",
+          "author": "ucwork",
+          "description": "概要\nやっとローカルのインフラ周りができてきたので\n次は認証認可を実装していきたい🏄‍♂️\n....が、なんかフロントエンド見えるものがないとやりずらいので\nNext.jsをMinikube + Istio環境にデプロイしてみたら\n実行時にpermission deniedエラーが出てちょっと詰まったのでメモ\n\n 雑談\nせっかくprivateで作ってるアプリだし\nマイクロフロントエンドやってみようかと思って結構調べたけど\n相当上手に設計できないと利点以上に困難さが発生する未来しか見えなかったので断念...\n技術がNext.js, Reactに縛られるけど\n一旦コンポーネントをマイクロ...",
+          "link": "https://zenn.dev/ucwork/articles/dc993c8494d65e",
+          "publishedOn": "2021-09-21T12:27:35.000Z",
+          "wordCount": 222,
+          "title": "Next.jsをDockerでdeployするとpermission deniedが出る",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--yG7aoMUf--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ucwork%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2582%2592Docker%25E3%2581%25A7deploy%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8permission%2520denied%25E3%2581%258C%25E5%2587%25BA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dtWVRJV1B6ai1fb0s0ZmJlVTZCT3hfU0xST08xaERPTnV3Q2VsPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/izumin/articles/fce4918f5f7946",
+          "author": "Masayuki Izumi",
+          "description": "TL;DR\n\nNext.js アプリ内のページ遷移では、原則として元 page の component は unmount される\n「遷移前後の page component が同じである」場合、および「App に記述されたコンポーネント（Layout）」は unmount されない\n\npage component に getLayout 関数を定義するパターン[1]を適用することで、page ごとの Layout を細かく設定・管理できる\n\n\n モチベーション\nたとえばタブを使ったページ遷移などで、一部のコンポーネントを引き継ぎたい場合。\nzenn.dev でいうとトップページのグ...",
+          "link": "https://zenn.dev/izumin/articles/fce4918f5f7946",
+          "publishedOn": "2021-09-21T01:32:22.000Z",
+          "wordCount": 436,
+          "title": "Next.js でページ遷移前後で共通するコンポーネントを残す",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--rOkddw5H--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Masayuki%2520Izumi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25A7%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E9%2581%25B7%25E7%25A7%25BB%25E5%2589%258D%25E5%25BE%258C%25E3%2581%25A7%25E5%2585%25B1%25E9%2580%259A%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%25AE%258B%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pLQnhYeEszZEtUbG80dkZXU04zbWNpU0lvNlRFckpid1M3WUdoeFE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/aiji42/articles/30116d3ffdb329",
           "author": "aiji42",
@@ -805,34 +842,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/shimotaroo/articles/c8f2e751cd7877",
-          "author": "ゆーたろー",
-          "description": "概要\n以下の記事でNext.jsにESlint（JSのコードが正しいか検証してくれるツール）を導入した時に\n\n      \n        \n        Parsing error: Cannot find module 'next/babel'\n\n\n      \n      が出たので解決方法を残しておきます。\nhttps://fwywd.com/tech/next-eslint-prettier\n上記エラー出力が確認できたのは以下のファイル（Tailwind CSSを導入済み）\n\nnext.config.js\ntailwind.config.js\npostcss.config...",
-          "link": "https://zenn.dev/shimotaroo/articles/c8f2e751cd7877",
-          "publishedOn": "2021-08-23T09:44:44.000Z",
-          "wordCount": 51,
-          "title": "【Next.js】Parsing error: Cannot find module 'next/babel'の解決",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ZJJdyzyf--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2586%25E3%2583%25BC%25E3%2581%259F%25E3%2582%258D%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E3%2580%2591Parsing%2520error%253A%2520Cannot%2520find%2520module%2520%2527next%252Fbabel%2527%25E3%2581%25AE%25E8%25A7%25A3%25E6%25B1%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pMR2wxeDJfQXlDeXh5aHBSS3pRREFYc3pSeEZqeTc5cFNwZTRRbmc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/takepepe/articles/testing-with-nextjs",
-          "author": "Takepepe",
-          "description": "先日、Next.js で開発するアプリケーションテスト手法について、公式ドキュメントが追加され話題になりました。\nhttps://twitter.com/delba_oliveira/status/1427307677709967362\n取り上げられている 2 者はよく知られており、いずれかに触れたことがある方も多いかと思います。この公式ドキュメントページでは「何を使って」を紹介しているのみなので、どちらを選ぶべきか悩んだ方もいるのではないでしょうか？\n\nCypress\nJest & React Testing Library\n\nこの判断についてはドキュメントに書かれていなかった...",
-          "link": "https://zenn.dev/takepepe/articles/testing-with-nextjs",
-          "publishedOn": "2021-08-22T13:29:53.000Z",
-          "wordCount": 355,
-          "title": "Testing with Next.js",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--6o_elqxP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takepepe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Testing%2520with%2520Next.js%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dpejh1QmdoVHJXUHhiRlRFdm9IVHJ5WDNhRkdmdlJCLUtVVTl6SUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -918,6 +927,104 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kaorun343/articles/654a9673863388",
+          "author": "kaorun343",
+          "description": "動機\nElectronのIPC通信は特にメインプロセスとレンダラープロセスでデータのやりとりをする場合に使われます。昨今のセキュリティ向上の流れでレンダラープロセスからメインプロセスで使うモジュールを直接呼び出すことは避けられるようになり、IPC通信を介して実現することが多くなっています。\nしかしながらIPC通信の種類が増えるとその管理が非常に大変になります。特に引数やキーワードのチェックがなく、正しいデータを送受信しているのか確認するのが大変です。\nそこで今回はIPC通信にGraphQLを使ってみようと思います。これによりGraphQLの機能で上記の課題を解決できます。\n\n 方法\n...",
+          "link": "https://zenn.dev/kaorun343/articles/654a9673863388",
+          "publishedOn": "2021-09-21T10:42:35.000Z",
+          "wordCount": 289,
+          "title": "ElectronのIPC通信にGraphQLを使う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--oI_6te3j--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kaorun343%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Electron%25E3%2581%25AEIPC%25E9%2580%259A%25E4%25BF%25A1%25E3%2581%25ABGraphQL%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dVZklPMktRZzdjMWFRTVNpaW1PMUt4RzRtZlBBcDFwLVpWMndsPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kaito_takase/articles/f334ada1dadf6b",
+          "author": "kaito takase",
+          "description": "経緯\n普段はwebpackでthree.jsを読み込んで使用していましたが、Nuxtだとどのように読み込むのかわからなかったので試してみました。\n\n バージョン\nnode v16.5.0\nNuxt v2.15.3\nthree.js v0.130.1\ntypescript v2.15.3\n\n 読み込む3Dデータ\nglTF形式（.gltf）のモデリングデータを読み込みます。\n\n 読み込み方法\n\n      \n        nuxt.config.ts\n        // 一部省略\n     :\n    // Plugins to run before rendering page: ...",
+          "link": "https://zenn.dev/kaito_takase/articles/f334ada1dadf6b",
+          "publishedOn": "2021-09-21T08:04:59.000Z",
+          "wordCount": 161,
+          "title": "Nuxtでthree.jsを使って3Dモデルを読み込みたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xyQ4mXsM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kaito%2520takase%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25A7three.js%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A63D%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BF%25E8%25BE%25BC%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pxNWhMQkd2MDNiRmgwSWNDS2tMc09OdE1vYTMxb2dqYllFd3RqPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/gamin/articles/c58b8fb43c8a75",
+          "author": "gamine🍑",
+          "description": "code の例 1\n\n      \n        \n        const func = (key: string) => computed(() => (toggle.value === true ? key : 'false'))\n\n\n      \n      \n code の例 2\nこんなのでも与えられるらしい。\n\n      \n        \n        <template>\n\t{{ hoge('Momo') }}\t\n</template>\n\n\n      \n      \n      \n        \n        cons...",
+          "link": "https://zenn.dev/gamin/articles/c58b8fb43c8a75",
+          "publishedOn": "2021-09-21T01:29:51.000Z",
+          "wordCount": 53,
+          "title": "computed に引数を与えたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--r4cRkBF6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:computed%2520%25E3%2581%25AB%25E5%25BC%2595%25E6%2595%25B0%25E3%2582%2592%25E4%25B8%258E%25E3%2581%2588%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/aiji42/articles/30116d3ffdb329",
+          "author": "aiji42",
+          "description": "はじめに\nNext.js には SSR するための getServerSideProps と SSG/ISR のための getStaticProps というデータフェッチファンクションが用意されています。\n一般的な getServerSideProps は、次のようにレンダリングに必要な props を返却することが主な用途です。\n\n      \n        \n        export async function getServerSideProps(context) {\n  const data = await fetch('...').then((res) => ...",
+          "link": "https://zenn.dev/aiji42/articles/30116d3ffdb329",
+          "publishedOn": "2021-09-20T16:03:30.000Z",
+          "wordCount": 267,
+          "title": "【Next.js】getServerSidePropsをリバースプロキシ化して遊ぼう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--bgvRilVw--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:aiji42%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E3%2580%2591getServerSideProps%25E3%2582%2592%25E3%2583%25AA%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B9%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25AD%25E3%2582%25B7%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E9%2581%258A%25E3%2581%25BC%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTczOGQyOGQwMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/eringiv3/books/a85174531fd56a",
+          "author": "Eringi_V3",
+          "description": "この本では、TypeScriptで型安全にGraphQLサーバーを構築する方法をハンズオン形式で学習することができます。\nTodoアプリの開発を通して、GraphQLスキーマの扱いやCLIツールの設定方法、TypeScriptのORMであるPrismaの基本的な使用方法、CI/CDパイプラインの構築によるマイグレーションの自動化などを体験します。\nGraphQLサーバー実装の素振りをしておきたい方や、フロントエンドからGraphQL APIを使用したことはあるけど自分でAPIを実装したことはないようなバックエンドの開発初心者の方に向けた内容となっております。",
+          "link": "https://zenn.dev/eringiv3/books/a85174531fd56a",
+          "publishedOn": "2021-09-20T13:26:40.000Z",
+          "wordCount": 26,
+          "title": "Apollo ServerとPrismaではじめるGraphQL API開発入門",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2BFbdGWQ--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci80ZmZmNDlhOGExLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/aota/articles/49410ad98b33c7",
+          "author": "aota",
+          "description": "個人開発でco-metubというスタブAPIを共有できるGUIツールを作りました。\nバックエンドとフロントエンドのチームで、スタブAPIを良い感じに共有したい時にお使いください。\nhttps://github.com/solaoi/co-metub\n\n 使い方\n\n インストール方法\nDockerが入った環境であれば、下記コマンドを実行するだけです。\n空いてるサーバをスタブAPIサーバにしてしまいましょう。\n\n      \n        \n        # 公開したいポートを決めます。\nHOST_PORT=8080\n# httpで公開するなら、セキュア属性クッキーの無効化をtrueに設...",
+          "link": "https://zenn.dev/aota/articles/49410ad98b33c7",
+          "publishedOn": "2021-09-20T13:07:53.000Z",
+          "wordCount": 143,
+          "title": "共有できるスタブAPIツールを公開してみた",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2sYMmT3G--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:aota%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E5%2585%25B1%25E6%259C%2589%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2596API%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2k1R254U0xMeVM4ZjlpQUZlMG5mcVF3a09iS1k4SUhQWDVBck5LNUE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kata_n/articles/0e1c640c4d6680",
+          "author": "kata",
+          "description": "jestとは\nJestはJavaScriptの単体テストのフレームワークです。\n単体テスト（ユニット(Unit)テストとも言います）とは、ボタンやセレクトボックスなど個々の機能を正しく果たしているかどうかを検証するテストの事を指します。\nこの記事はJavaScriptのテストフレームワークでよく使われているjestをNuxt.jsを使ってとりあえず試してみたものになります。\n\n バージョン\nnuxt.js: 2.15.8\nnode.js:16.6.0\n\n nuxtcliでプロジェクト作成\n\n      \n        \n        ❯ yarn create nuxt-app ...",
+          "link": "https://zenn.dev/kata_n/articles/0e1c640c4d6680",
+          "publishedOn": "2021-09-20T11:51:49.000Z",
+          "wordCount": 638,
+          "title": "nuxt.jsでjestを使ってテストを始める",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--KvEMYRrl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kata%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nuxt.js%25E3%2581%25A7jest%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWRjMjM1OTE3Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/sora_kumo/articles/e86bbf0291d4a7",
           "author": "空雲",
@@ -2499,48 +2606,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/ezryow/articles/1639171ddb994a",
-          "author": "EZ.Ryow",
-          "description": "今回、リリースしたアプリケーション\n\nhttps://www.autof2f.io/\n\n皆さん、SNSでこんな経験ありませんか？\n「この人の投稿面白いな、でも勝手にフォローしても失礼じゃないかな？？？」\n今回リリースしたアプリケーションは、**「無言でフォローしまっていいのか問題」**をプログラムで自動的に解決しようという目的をもとに開発されました。\n一言でどのように解決するか説明すると、\n匿名掲示板上のユーザAの書き込みを『いいね』し、その『いいね』が一定の値を超えると自動的にユーザAがフォローに追加されるというものです。\n\n AutoF2Fの名前の由来\nこのアプリケーションを開発する...",
-          "link": "https://zenn.dev/ezryow/articles/1639171ddb994a",
-          "publishedOn": "2021-08-23T07:27:26.000Z",
-          "wordCount": 70,
-          "title": "【個人開発】大学生が『友達が半自動的に追加される新感覚SNS モドキ`AutoF2F`』 をリリースしました 🎉🎉🎉",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--18iGO1sW--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:EZ.Ryow%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2580%2591%25E5%25A4%25A7%25E5%25AD%25A6%25E7%2594%259F%25E3%2581%258C%25E3%2580%258E%25E5%258F%258B%25E9%2581%2594%25E3%2581%258C%25E5%258D%258A%25E8%2587%25AA%25E5%258B%2595%25E7%259A%2584%25E3%2581%25AB%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25E6%2596%25B0%25E6%2584%259F%25E8%25A6%259ASNS%2520%25E3%2583%25A2%25E3%2583%2589%25E3%2582%25AD%2560AutoF2F%2560%25E3%2580%258F%2520%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2520%2520%2520%2520%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzVkYzllOWQ1NC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/dozo/articles/0b5940f1994a6c",
-          "author": "dozo",
-          "description": "@wasm-tool/rollup-plugin-rustの使い方\n関連記事:\nRustが征くシリーズ過去記事\n\nWSL2で作るWindows開発環境: Rustが征く(1)\nwasmerでWebAssemblyの門を叩く: Rustが征く(2)\nJavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)\nTypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4) ← イマココ\n\n\n------------------- ↓ 前書はここから ↓-------------------\n前回はコマンドを駆使して、\nブラウザ上...",
-          "link": "https://zenn.dev/dozo/articles/0b5940f1994a6c",
-          "publishedOn": "2021-08-22T21:20:21.000Z",
-          "wordCount": 327,
-          "title": "TypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Y5w9ST9r--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dozo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%25E3%2581%25A8Rollup%25E3%2581%25A7Webassembly%25E3%2582%2592%25E7%25A8%25BC%25E5%2583%258D%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%253A%2520Rust%25E3%2581%258C%25E5%25BE%2581%25E3%2581%258F%25284%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348",
-          "author": "daisuke sasaki",
-          "description": "前回のbackend編からの続きです\nbackend編\n正直、フロント側はさっぱりセンスが無い＋忘れまくってたりしたのでめちゃくちゃ調べ直した。\nあらためて両方できる皆さんすごいわぁ、、（ちなみに僕はバックエンド側もセンスないです）\nfrontend側に入る前に前回やった内容がちょっと半端だったのでまずはそこをサクッと修正してしまおうと思います。\n\n crud.py\n\n      \n        \n        # project/backend/app/api/crud.py\nfrom app.models.pydantic import SummaryPayloadSchem...",
-          "link": "https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348",
-          "publishedOn": "2021-08-22T14:14:08.000Z",
-          "wordCount": 1254,
-          "title": "Docker×FastAPI×React(TypeScript) on AWS ECS【frontend】",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--oBhPaJmk--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:daisuke%2520sasaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Docker%25C3%2597FastAPI%25C3%2597React%2528TypeScript%2529%2520on%2520AWS%2520ECS%25E3%2580%2590frontend%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYWZiMjI1NmFmZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2744,20 +2809,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/yano/articles/vim_plugin_top_10",
-          "author": "Yuki Yano",
-          "description": "概要\n自分は普段Neovimを使って(主にTypeScriptでの)開発を行っています。\nNeovimでのTypeScript開発は環境を整えればVSCodeと遜色ない開発体験を得ることができると思っています。\nまた、Vimの操作に慣れれば一部の編集機能についてはVimの方が優れていると感じています。\nこの記事では自分の開発に欠かせないプラグイン10個を紹介しようと思います。\n\n プラグイン10選\n\nVimをIDE化するプラグイン coc.nvim\n\n様々な操作の起点に使うFuzzy Finder fzf-preview.vim\n\n高機能なファイラ fern.vim\n\nVim上でGi...",
-          "link": "https://zenn.dev/yano/articles/vim_plugin_top_10",
-          "publishedOn": "2021-08-23T12:02:20.000Z",
-          "wordCount": 466,
-          "title": "無人島に持っていく(Neo)vimプラグイン10選 (TS開発環境編)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--gnVdjZCD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Yuki%2520Yano%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E7%2584%25A1%25E4%25BA%25BA%25E5%25B3%25B6%25E3%2581%25AB%25E6%258C%2581%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%258F%2528Neo%2529vim%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B310%25E9%2581%25B8%2520%2528TS%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E7%25B7%25A8%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2liaDZMcy05WWRBbnZqZGtvMzJuTllGZEY3UThVWXE0N3kxNklhPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2766,6 +2817,62 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/coder_ka/articles/275b551d662e35",
+          "author": "koeda",
+          "description": "使ってわかる、Vueへの恨み、つらつらと（随時更新）\n\nコンポーネントのローカルスコープでコンポーネントを定義しようとするとJSXが必要\nJSXが嫌でReactを使わないならSvelteがあり、SvelteはゼロオーバーヘッドでVueより速い\nReact+JSXと違って、マークアップをJavaScriptのデータ構造として扱えない上、TypeScriptとの相性も悪い\nSlotに渡す引数の型が指定できない（TypeScript）\nジェネリックなコンポーネントが作れない（TypeScript）\nPropsに関数を指定したいときもあるのに、イベントをemitするパターンが推奨されている為、仕...",
+          "link": "https://zenn.dev/coder_ka/articles/275b551d662e35",
+          "publishedOn": "2021-09-21T06:49:30.000Z",
+          "wordCount": 22,
+          "title": "2021年現在Vueを選択すべきでないと思う理由",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--_LUUWdap--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:koeda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:2021%25E5%25B9%25B4%25E7%258F%25BE%25E5%259C%25A8Vue%25E3%2582%2592%25E9%2581%25B8%25E6%258A%259E%25E3%2581%2599%25E3%2581%25B9%25E3%2581%258D%25E3%2581%25A7%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25A8%25E6%2580%259D%25E3%2581%2586%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmM3ZWU2OTdhMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/gamin/articles/c58b8fb43c8a75",
+          "author": "gamine🍑",
+          "description": "code の例 1\n\n      \n        \n        const func = (key: string) => computed(() => (toggle.value === true ? key : 'false'))\n\n\n      \n      \n code の例 2\nこんなのでも与えられるらしい。\n\n      \n        \n        <template>\n\t{{ hoge('Momo') }}\t\n</template>\n\n\n      \n      \n      \n        \n        cons...",
+          "link": "https://zenn.dev/gamin/articles/c58b8fb43c8a75",
+          "publishedOn": "2021-09-21T01:29:51.000Z",
+          "wordCount": 53,
+          "title": "computed に引数を与えたい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--r4cRkBF6--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gamine%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:computed%2520%25E3%2581%25AB%25E5%25BC%2595%25E6%2595%25B0%25E3%2582%2592%25E4%25B8%258E%25E3%2581%2588%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDE0MDRhMWYwOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/599baba4a32e14",
+          "author": "azukiazusa",
+          "description": "Vue.js3.2からは、JavaScriptの変数をCSS変数としてバインドできるようになりました。\nつまりは、CSSの値を動的に設定できるということです。\nものは試しのやってみましょう。\n\n      \n        \n        <script setup lang=\"ts\">\nimport { ref } from \"@vue/reactivity\";\nconst color = ref(\"#000000\");\n</script>\n\n<template>\n  <h1 class=\"title\">タイトル</h1>\n...",
+          "link": "https://zenn.dev/azukiazusa/articles/599baba4a32e14",
+          "publishedOn": "2021-09-20T04:03:39.000Z",
+          "wordCount": 464,
+          "title": "【Vue3.2】styleタグ内でJavaScript変数をバインドできる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--J2__d1x8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Vue3.2%25E3%2580%2591style%25E3%2582%25BF%25E3%2582%25B0%25E5%2586%2585%25E3%2581%25A7JavaScript%25E5%25A4%2589%25E6%2595%25B0%25E3%2582%2592%25E3%2583%2590%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kai/articles/nuxt-payload-generate",
+          "author": "カイ",
+          "description": "Nuxt の generate の改善を職場ですることがあったので、そこで学んだことを備忘録的に書いてきます。\n\n 環境\nnuxt v2.15.7\n\n Qiita の API について\nQiita api を使って実際にやってみます。\n(Zenn に記事書いてるのに Qiita で申し訳ないですが、サンプルにちょうどよかったので。)\nQiita の API のドキュメントはこちら\n一覧の取得のドキュメントはこちら\n特定の記事の取得のドキュメントはこちら\n100 件の記事を取得するには以下のような感じす。\nhttps://qiita.com/api/v2/items?page=1&...",
+          "link": "https://zenn.dev/kai/articles/nuxt-payload-generate",
+          "publishedOn": "2021-09-20T02:06:13.000Z",
+          "wordCount": 440,
+          "title": "NuxtのSSGのgenerateの改善~payloadちゃんと使えてますか？~",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--cgmoNH1x--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25AB%25E3%2582%25A4%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Nuxt%25E3%2581%25AESSG%25E3%2581%25AEgenerate%25E3%2581%25AE%25E6%2594%25B9%25E5%2596%2584%7Epayload%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%25E3%2581%25A8%25E4%25BD%25BF%25E3%2581%2588%25E3%2581%25A6%25E3%2581%25BE%25E3%2581%2599%25E3%2581%258B%25EF%25BC%259F%7E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTllM2UwYWYxOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/naoki_oshiumi/articles/a744298ec0d3a8",
           "author": "おしうみなおき",
@@ -3140,76 +3247,6 @@
           "title": "Rails+VueでHello Vue！まで",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--1dN1a8ee--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2582%2585%25E3%2580%259C%25E3%2581%25B6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Rails%252BVue%25E3%2581%25A7Hello%2520Vue%25EF%25BC%2581%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lTZVE3RGdOWUEyQ0hQWUFJalp1dGpxSHJIVHhTTjVoMVhZQWN4a3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc",
-          "author": "しめじ",
-          "description": "Vue.jsの導入からBMI計算機やTODOアプリの作り方までの手順をまとめていきます。\nこの本を読むにあたり、下記の2点について経験がありますと、より理解しやすい内容と思います。\n\n1. HTMLとCSSを使った事がある方\n2. JavaScriptをそれなりに使った事がある方",
-          "link": "https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc",
-          "publishedOn": "2021-08-23T12:15:53.000Z",
-          "wordCount": 14,
-          "title": "Vue.jsをかじる本",
-          "enclosure": {
-            "url": "https://zenn.dev/images/logo-only-dark.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/udyest/articles/46b1fd84001663",
-          "author": "udyest",
-          "description": "navigator.online\n\nnavigator.onlineで、現在オンラインか否かを判定できます。\nオンライン状態ならtrue、オフライン状態ならfalseになります。\n\n      \n        \n        console.log(navigator.online)\n\n\n      \n      \n onlineイベント / offlineイベント\nnavigator.onlineは、あくまで現在のオンライン状態を取得するにすぎません。なので、「オンラインになったら何かをする」といった監視の処理はできません。\nオンライン状態を監視するには、onlineイベントと...",
-          "link": "https://zenn.dev/udyest/articles/46b1fd84001663",
-          "publishedOn": "2021-08-23T08:59:15.000Z",
-          "wordCount": 207,
-          "title": "[Vue3]オンラインか否かを判定・監視する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--y960TwCb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:udyest%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%255BVue3%255D%25E3%2582%25AA%25E3%2583%25B3%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%258B%25E5%2590%25A6%25E3%2581%258B%25E3%2582%2592%25E5%2588%25A4%25E5%25AE%259A%25E3%2583%25BB%25E7%259B%25A3%25E8%25A6%2596%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzg0MjY0YTJiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ynakamura/articles/8fab06bba527b5",
-          "author": "yoshihiro nakamura",
-          "description": "かれこれ４、５年くらいAtomic designに触れてきて、こんなに使いづらいのになんで使ってるんんだっけ？ってなったので、脳死と妥協のAtomic designを辞めたいというモチベを高め、重い腰を上げて考えてみました。\n\n 前提\n今回の趣旨はあくまでも共通コンポーネントにフォーカスしています。なのでpages(人によってはscreens,containersと命名しているかも)は考慮しません。\nまた、atomic designのデザインサイドの思想そのものについては言及しません。あくまでもディレクトリ構成の運用上の課題にフォーカスします。\n\n ディレクトリを分ける意味とは\nそもそも...",
-          "link": "https://zenn.dev/ynakamura/articles/8fab06bba527b5",
-          "publishedOn": "2021-08-23T08:29:33.000Z",
-          "wordCount": 272,
-          "title": "Atomic designを辞めて利用目的別のディレクトリ構成に移行する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--W5KlHrc_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yoshihiro%2520nakamura%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Atomic%2520design%25E3%2582%2592%25E8%25BE%259E%25E3%2582%2581%25E3%2581%25A6%25E5%2588%25A9%25E7%2594%25A8%25E7%259B%25AE%25E7%259A%2584%25E5%2588%25A5%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tokusuke/articles/e42e6d4d63618a",
-          "author": "yosuke-dev",
-          "description": "概要\n\nVue.jsのフォーム検証機能を実装するため、vuelidateを実装したお話です。\n\n\n2019年に社内LTで発表したものを編集して投稿した記事です。\n一部古い情報が残っている場合がございますので、ご留意ください。\n\n\n はじめに\n\n話さないこと\n\nVue.jsの導入\nVue 3.x での実例紹介\nカスタムバリデーションの方法\n\n\n話すこと\n\nvuelidateの導入\nコンポーネントへの実装\nVue 2.x での実例紹介\n\n\n\n\n 環境\n\nVue.js 2.x\nBootstrap 4.x\nnpm ?\n\n当時のバージョンのメモを失念してましたが、13.x だったと思います。\n...",
-          "link": "https://zenn.dev/tokusuke/articles/e42e6d4d63618a",
-          "publishedOn": "2021-08-23T02:33:18.000Z",
-          "wordCount": 196,
-          "title": "Vueにフォーム検証機能を実装する (vuelidate)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--6GavV-EQ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yosuke-dev%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25E3%2581%25AB%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25A0%25E6%25A4%259C%25E8%25A8%25BC%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2520%2528vuelidate%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzNiZTg3YzI1Ny5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609",
-          "author": "おしうみなおき",
-          "description": "複数の画像を一度にアップロードしたい場合があると思います。\nLaravel×Vue.jsで実際に試してみたので、メモがてら残しておきたいと思います。\nまずは、画像をアップロードするところのHTMLです\n\n      \n        \n        <template>\n  <div v-for=\"(file, index) in files\">\n    <label>ファイルを選択する</label>\n    <input type=\"file\" @change=\"onFileChange($event, file, index)...",
-          "link": "https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609",
-          "publishedOn": "2021-08-22T23:45:51.000Z",
-          "wordCount": 135,
-          "title": "Vue.jsから複数の画像をLaravelに送り保存する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--_ZtBkSnn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue.js%25E3%2581%258B%25E3%2582%2589%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592Laravel%25E3%2581%25AB%25E9%2580%2581%25E3%2582%258A%25E4%25BF%259D%25E5%25AD%2598%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }

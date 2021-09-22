@@ -2,10 +2,204 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-21T00:55:18.617Z</updated>
+    <updated>2021-09-22T00:56:58.725Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next.jsをDockerでdeployするとpermission deniedが出る]]></title>
+        <id>https://zenn.dev/ucwork/articles/dc993c8494d65e</id>
+        <link href="https://zenn.dev/ucwork/articles/dc993c8494d65e"/>
+        <updated>2021-09-21T12:27:35.000Z</updated>
+        <summary type="html"><![CDATA[概要
+やっとローカルのインフラ周りができてきたので
+次は認証認可を実装していきたい🏄‍♂️
+....が、なんかフロントエンド見えるものがないとやりずらいので
+Next.jsをMinikube + Istio環境にデプロイしてみたら
+実行時にpermission deniedエラーが出てちょっと詰まったのでメモ
+
+ 雑談
+せっかくprivateで作ってるアプリだし
+マイクロフロントエンドやってみようかと思って結構調べたけど
+相当上手に設計できないと利点以上に困難さが発生する未来しか見えなかったので断念...
+技術がNext.js, Reactに縛られるけど
+一旦コンポーネントをマイクロ...]]></summary>
+        <author>
+            <name>ucwork</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ElectronのIPC通信にGraphQLを使う]]></title>
+        <id>https://zenn.dev/kaorun343/articles/654a9673863388</id>
+        <link href="https://zenn.dev/kaorun343/articles/654a9673863388"/>
+        <updated>2021-09-21T10:42:35.000Z</updated>
+        <summary type="html"><![CDATA[動機
+ElectronのIPC通信は特にメインプロセスとレンダラープロセスでデータのやりとりをする場合に使われます。昨今のセキュリティ向上の流れでレンダラープロセスからメインプロセスで使うモジュールを直接呼び出すことは避けられるようになり、IPC通信を介して実現することが多くなっています。
+しかしながらIPC通信の種類が増えるとその管理が非常に大変になります。特に引数やキーワードのチェックがなく、正しいデータを送受信しているのか確認するのが大変です。
+そこで今回はIPC通信にGraphQLを使ってみようと思います。これによりGraphQLの機能で上記の課題を解決できます。
+
+ 方法
+...]]></summary>
+        <author>
+            <name>kaorun343</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxtでthree.jsを使って3Dモデルを読み込みたい]]></title>
+        <id>https://zenn.dev/kaito_takase/articles/f334ada1dadf6b</id>
+        <link href="https://zenn.dev/kaito_takase/articles/f334ada1dadf6b"/>
+        <updated>2021-09-21T08:04:59.000Z</updated>
+        <summary type="html"><![CDATA[経緯
+普段はwebpackでthree.jsを読み込んで使用していましたが、Nuxtだとどのように読み込むのかわからなかったので試してみました。
+
+ バージョン
+node v16.5.0
+Nuxt v2.15.3
+three.js v0.130.1
+typescript v2.15.3
+
+ 読み込む3Dデータ
+glTF形式（.gltf）のモデリングデータを読み込みます。
+
+ 読み込み方法
+
+      
+        nuxt.config.ts
+        // 一部省略
+     :
+    // Plugins to run before rendering page: ...]]></summary>
+        <author>
+            <name>kaito takase</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021年現在Vueを選択すべきでないと思う理由]]></title>
+        <id>https://zenn.dev/coder_ka/articles/275b551d662e35</id>
+        <link href="https://zenn.dev/coder_ka/articles/275b551d662e35"/>
+        <updated>2021-09-21T06:49:30.000Z</updated>
+        <summary type="html"><![CDATA[使ってわかる、Vueへの恨み、つらつらと（随時更新）
+
+コンポーネントのローカルスコープでコンポーネントを定義しようとするとJSXが必要
+JSXが嫌でReactを使わないならSvelteがあり、SvelteはゼロオーバーヘッドでVueより速い
+React+JSXと違って、マークアップをJavaScriptのデータ構造として扱えない上、TypeScriptとの相性も悪い
+Slotに渡す引数の型が指定できない（TypeScript）
+ジェネリックなコンポーネントが作れない（TypeScript）
+Propsに関数を指定したいときもあるのに、イベントをemitするパターンが推奨されている為、仕...]]></summary>
+        <author>
+            <name>koeda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021-09-21のJS: Deno 1.14リリース、ChromeのUser-Agent文字列削減スケジュール、Vue 2からVue 3への移行]]></title>
+        <id>https://jser.info/2021/09/21/deno-1.14-chromeuser-agent-vue-2vue-3/</id>
+        <link href="https://jser.info/2021/09/21/deno-1.14-chromeuser-agent-vue-2vue-3/"/>
+        <updated>2021-09-21T02:25:53.000Z</updated>
+        <summary type="html"><![CDATA[JSer.info #558 - Deno 1.14がリリースされました。
+Deno 1.14 Release Notes | Deno Blog
+Deno 1.14.0 がリリースされたので新機能や変更点の紹介
+deno lintとdeno fmtがオプションをサポートしてquoteやindentなどの設定ができるようになっています。
+URLPatternのサポート。fetchがMutual TLSをサポートなども追加されています。
+std/httpモジュールのパフォーマンス改善などが含まれています。
+ChromeのUser-Agent文字列削減のスケジュールが改めて公開されています。
+Chromium Blog: User-Agent Reduction Origin Trial and Dates
+navigator.userAgent、@navigator.appVersion、 navigator.platformなどの情報量を減らす/固定化することでfinger printingなどのリスクを減らすことが目的です。これらのAPIは非推奨となり、代替としてUser Agent Client Hintsが実装されています。
+UA文字列の削減などは、次のようなスケジュールで展開していく予定となっています。
+Chrome 92:  コンソールに警告の追加
+Chrome 95 から 100: Origin Trialの実施
+Chrome 100: Reverse Origin Trialの実施
+Chrome 101から110: 削減を段階的に実施
+Chrome 113: 完了
+Vue2のプロジェクトをVue3へマイグレーションするという記事では、@vue/compatを使いつつVue2で書かれたアプリケーションをVue3へマイグレーションしていく方法について書かれています…]]></summary>
+        <author>
+            <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js でページ遷移前後で共通するコンポーネントを残す]]></title>
+        <id>https://zenn.dev/izumin/articles/fce4918f5f7946</id>
+        <link href="https://zenn.dev/izumin/articles/fce4918f5f7946"/>
+        <updated>2021-09-21T01:32:22.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+
+Next.js アプリ内のページ遷移では、原則として元 page の component は unmount される
+「遷移前後の page component が同じである」場合、および「App に記述されたコンポーネント（Layout）」は unmount されない
+
+page component に getLayout 関数を定義するパターン[1]を適用することで、page ごとの Layout を細かく設定・管理できる
+
+
+ モチベーション
+たとえばタブを使ったページ遷移などで、一部のコンポーネントを引き継ぎたい場合。
+zenn.dev でいうとトップページのグ...]]></summary>
+        <author>
+            <name>Masayuki Izumi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[computed に引数を与えたい]]></title>
+        <id>https://zenn.dev/gamin/articles/c58b8fb43c8a75</id>
+        <link href="https://zenn.dev/gamin/articles/c58b8fb43c8a75"/>
+        <updated>2021-09-21T01:29:51.000Z</updated>
+        <summary type="html"><![CDATA[code の例 1
+
+      
+        
+        const func = (key: string) => computed(() => (toggle.value === true ? key : 'false'))
+
+
+      
+      
+ code の例 2
+こんなのでも与えられるらしい。
+
+      
+        
+        <template>
+	{{ hoge('Momo') }}	
+</template>
+
+
+      
+      
+      
+        
+        cons...]]></summary>
+        <author>
+            <name>gamine🍑</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[computed に引数を与えたい]]></title>
+        <id>https://zenn.dev/gamin/articles/c58b8fb43c8a75</id>
+        <link href="https://zenn.dev/gamin/articles/c58b8fb43c8a75"/>
+        <updated>2021-09-21T01:29:51.000Z</updated>
+        <summary type="html"><![CDATA[code の例 1
+
+      
+        
+        const func = (key: string) => computed(() => (toggle.value === true ? key : 'false'))
+
+
+      
+      
+ code の例 2
+こんなのでも与えられるらしい。
+
+      
+        
+        <template>
+	{{ hoge('Momo') }}	
+</template>
+
+
+      
+      
+      
+        
+        cons...]]></summary>
+        <author>
+            <name>gamine🍑</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【Next.js】getServerSidePropsをリバースプロキシ化して遊ぼう]]></title>
         <id>https://zenn.dev/aiji42/articles/30116d3ffdb329</id>
@@ -21,6 +215,82 @@ Next.js には SSR するための getServerSideProps と SSG/ISR のための g
   const data = await fetch('...').then((res) => ...]]></summary>
         <author>
             <name>aiji42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js】getServerSidePropsをリバースプロキシ化して遊ぼう]]></title>
+        <id>https://zenn.dev/aiji42/articles/30116d3ffdb329</id>
+        <link href="https://zenn.dev/aiji42/articles/30116d3ffdb329"/>
+        <updated>2021-09-20T16:03:30.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Next.js には SSR するための getServerSideProps と SSG/ISR のための getStaticProps というデータフェッチファンクションが用意されています。
+一般的な getServerSideProps は、次のようにレンダリングに必要な props を返却することが主な用途です。
+
+      
+        
+        export async function getServerSideProps(context) {
+  const data = await fetch('...').then((res) => ...]]></summary>
+        <author>
+            <name>aiji42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apollo ServerとPrismaではじめるGraphQL API開発入門]]></title>
+        <id>https://zenn.dev/eringiv3/books/a85174531fd56a</id>
+        <link href="https://zenn.dev/eringiv3/books/a85174531fd56a"/>
+        <updated>2021-09-20T13:26:40.000Z</updated>
+        <summary type="html"><![CDATA[この本では、TypeScriptで型安全にGraphQLサーバーを構築する方法をハンズオン形式で学習することができます。
+Todoアプリの開発を通して、GraphQLスキーマの扱いやCLIツールの設定方法、TypeScriptのORMであるPrismaの基本的な使用方法、CI/CDパイプラインの構築によるマイグレーションの自動化などを体験します。
+GraphQLサーバー実装の素振りをしておきたい方や、フロントエンドからGraphQL APIを使用したことはあるけど自分でAPIを実装したことはないようなバックエンドの開発初心者の方に向けた内容となっております。]]></summary>
+        <author>
+            <name>Eringi_V3</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[共有できるスタブAPIツールを公開してみた]]></title>
+        <id>https://zenn.dev/aota/articles/49410ad98b33c7</id>
+        <link href="https://zenn.dev/aota/articles/49410ad98b33c7"/>
+        <updated>2021-09-20T13:07:53.000Z</updated>
+        <summary type="html"><![CDATA[個人開発でco-metubというスタブAPIを共有できるGUIツールを作りました。
+バックエンドとフロントエンドのチームで、スタブAPIを良い感じに共有したい時にお使いください。
+https://github.com/solaoi/co-metub
+
+ 使い方
+
+ インストール方法
+Dockerが入った環境であれば、下記コマンドを実行するだけです。
+空いてるサーバをスタブAPIサーバにしてしまいましょう。
+
+      
+        
+        # 公開したいポートを決めます。
+HOST_PORT=8080
+# httpで公開するなら、セキュア属性クッキーの無効化をtrueに設...]]></summary>
+        <author>
+            <name>aota</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nuxt.jsでjestを使ってテストを始める]]></title>
+        <id>https://zenn.dev/kata_n/articles/0e1c640c4d6680</id>
+        <link href="https://zenn.dev/kata_n/articles/0e1c640c4d6680"/>
+        <updated>2021-09-20T11:51:49.000Z</updated>
+        <summary type="html"><![CDATA[jestとは
+JestはJavaScriptの単体テストのフレームワークです。
+単体テスト（ユニット(Unit)テストとも言います）とは、ボタンやセレクトボックスなど個々の機能を正しく果たしているかどうかを検証するテストの事を指します。
+この記事はJavaScriptのテストフレームワークでよく使われているjestをNuxt.jsを使ってとりあえず試してみたものになります。
+
+ バージョン
+nuxt.js: 2.15.8
+node.js:16.6.0
+
+ nuxtcliでプロジェクト作成
+
+      
+        
+        ❯ yarn create nuxt-app ...]]></summary>
+        <author>
+            <name>kata</name>
         </author>
     </entry>
     <entry>
@@ -98,6 +368,51 @@ const Page = () => {
 export defa...]]></summary>
         <author>
             <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Vue3.2】styleタグ内でJavaScript変数をバインドできる]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/599baba4a32e14</id>
+        <link href="https://zenn.dev/azukiazusa/articles/599baba4a32e14"/>
+        <updated>2021-09-20T04:03:39.000Z</updated>
+        <summary type="html"><![CDATA[Vue.js3.2からは、JavaScriptの変数をCSS変数としてバインドできるようになりました。
+つまりは、CSSの値を動的に設定できるということです。
+ものは試しのやってみましょう。
+
+      
+        
+        <script setup lang="ts">
+import { ref } from "@vue/reactivity";
+const color = ref("#000000");
+</script>
+
+<template>
+  <h1 class="title">タイトル</h1>
+...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NuxtのSSGのgenerateの改善~payloadちゃんと使えてますか？~]]></title>
+        <id>https://zenn.dev/kai/articles/nuxt-payload-generate</id>
+        <link href="https://zenn.dev/kai/articles/nuxt-payload-generate"/>
+        <updated>2021-09-20T02:06:13.000Z</updated>
+        <summary type="html"><![CDATA[Nuxt の generate の改善を職場ですることがあったので、そこで学んだことを備忘録的に書いてきます。
+
+ 環境
+nuxt v2.15.7
+
+ Qiita の API について
+Qiita api を使って実際にやってみます。
+(Zenn に記事書いてるのに Qiita で申し訳ないですが、サンプルにちょうどよかったので。)
+Qiita の API のドキュメントはこちら
+一覧の取得のドキュメントはこちら
+特定の記事の取得のドキュメントはこちら
+100 件の記事を取得するには以下のような感じす。
+https://qiita.com/api/v2/items?page=1&...]]></summary>
+        <author>
+            <name>カイ</name>
         </author>
     </entry>
     <entry>
@@ -4979,254 +5294,6 @@ DBもMySQLを使うので、-d mysqlも一緒に指定します。※--database=
         rails db:creat...]]></summary>
         <author>
             <name>にゅ〜ぶる</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue.jsをかじる本]]></title>
-        <id>https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc</id>
-        <link href="https://zenn.dev/sdkfz181tiger/books/363d20b1e591fc"/>
-        <updated>2021-08-23T12:15:53.000Z</updated>
-        <summary type="html"><![CDATA[Vue.jsの導入からBMI計算機やTODOアプリの作り方までの手順をまとめていきます。
-この本を読むにあたり、下記の2点について経験がありますと、より理解しやすい内容と思います。
-
-1. HTMLとCSSを使った事がある方
-2. JavaScriptをそれなりに使った事がある方]]></summary>
-        <author>
-            <name>しめじ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[無人島に持っていく(Neo)vimプラグイン10選 (TS開発環境編)]]></title>
-        <id>https://zenn.dev/yano/articles/vim_plugin_top_10</id>
-        <link href="https://zenn.dev/yano/articles/vim_plugin_top_10"/>
-        <updated>2021-08-23T12:02:20.000Z</updated>
-        <summary type="html"><![CDATA[概要
-自分は普段Neovimを使って(主にTypeScriptでの)開発を行っています。
-NeovimでのTypeScript開発は環境を整えればVSCodeと遜色ない開発体験を得ることができると思っています。
-また、Vimの操作に慣れれば一部の編集機能についてはVimの方が優れていると感じています。
-この記事では自分の開発に欠かせないプラグイン10個を紹介しようと思います。
-
- プラグイン10選
-
-VimをIDE化するプラグイン coc.nvim
-
-様々な操作の起点に使うFuzzy Finder fzf-preview.vim
-
-高機能なファイラ fern.vim
-
-Vim上でGi...]]></summary>
-        <author>
-            <name>Yuki Yano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Next.js】Parsing error: Cannot find module 'next/babel'の解決]]></title>
-        <id>https://zenn.dev/shimotaroo/articles/c8f2e751cd7877</id>
-        <link href="https://zenn.dev/shimotaroo/articles/c8f2e751cd7877"/>
-        <updated>2021-08-23T09:44:44.000Z</updated>
-        <summary type="html"><![CDATA[概要
-以下の記事でNext.jsにESlint（JSのコードが正しいか検証してくれるツール）を導入した時に
-
-      
-        
-        Parsing error: Cannot find module 'next/babel'
-
-
-      
-      が出たので解決方法を残しておきます。
-https://fwywd.com/tech/next-eslint-prettier
-上記エラー出力が確認できたのは以下のファイル（Tailwind CSSを導入済み）
-
-next.config.js
-tailwind.config.js
-postcss.config...]]></summary>
-        <author>
-            <name>ゆーたろー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Vue3]オンラインか否かを判定・監視する]]></title>
-        <id>https://zenn.dev/udyest/articles/46b1fd84001663</id>
-        <link href="https://zenn.dev/udyest/articles/46b1fd84001663"/>
-        <updated>2021-08-23T08:59:15.000Z</updated>
-        <summary type="html"><![CDATA[navigator.online
-
-navigator.onlineで、現在オンラインか否かを判定できます。
-オンライン状態ならtrue、オフライン状態ならfalseになります。
-
-      
-        
-        console.log(navigator.online)
-
-
-      
-      
- onlineイベント / offlineイベント
-navigator.onlineは、あくまで現在のオンライン状態を取得するにすぎません。なので、「オンラインになったら何かをする」といった監視の処理はできません。
-オンライン状態を監視するには、onlineイベントと...]]></summary>
-        <author>
-            <name>udyest</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atomic designを辞めて利用目的別のディレクトリ構成に移行する]]></title>
-        <id>https://zenn.dev/ynakamura/articles/8fab06bba527b5</id>
-        <link href="https://zenn.dev/ynakamura/articles/8fab06bba527b5"/>
-        <updated>2021-08-23T08:29:33.000Z</updated>
-        <summary type="html"><![CDATA[かれこれ４、５年くらいAtomic designに触れてきて、こんなに使いづらいのになんで使ってるんんだっけ？ってなったので、脳死と妥協のAtomic designを辞めたいというモチベを高め、重い腰を上げて考えてみました。
-
- 前提
-今回の趣旨はあくまでも共通コンポーネントにフォーカスしています。なのでpages(人によってはscreens,containersと命名しているかも)は考慮しません。
-また、atomic designのデザインサイドの思想そのものについては言及しません。あくまでもディレクトリ構成の運用上の課題にフォーカスします。
-
- ディレクトリを分ける意味とは
-そもそも...]]></summary>
-        <author>
-            <name>yoshihiro nakamura</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【個人開発】大学生が『友達が半自動的に追加される新感覚SNS モドキ`AutoF2F`』 をリリースしました 🎉🎉🎉]]></title>
-        <id>https://zenn.dev/ezryow/articles/1639171ddb994a</id>
-        <link href="https://zenn.dev/ezryow/articles/1639171ddb994a"/>
-        <updated>2021-08-23T07:27:26.000Z</updated>
-        <summary type="html"><![CDATA[今回、リリースしたアプリケーション
-
-https://www.autof2f.io/
-
-皆さん、SNSでこんな経験ありませんか？
-「この人の投稿面白いな、でも勝手にフォローしても失礼じゃないかな？？？」
-今回リリースしたアプリケーションは、**「無言でフォローしまっていいのか問題」**をプログラムで自動的に解決しようという目的をもとに開発されました。
-一言でどのように解決するか説明すると、
-匿名掲示板上のユーザAの書き込みを『いいね』し、その『いいね』が一定の値を超えると自動的にユーザAがフォローに追加されるというものです。
-
- AutoF2Fの名前の由来
-このアプリケーションを開発する...]]></summary>
-        <author>
-            <name>EZ.Ryow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vueにフォーム検証機能を実装する (vuelidate)]]></title>
-        <id>https://zenn.dev/tokusuke/articles/e42e6d4d63618a</id>
-        <link href="https://zenn.dev/tokusuke/articles/e42e6d4d63618a"/>
-        <updated>2021-08-23T02:33:18.000Z</updated>
-        <summary type="html"><![CDATA[概要
-
-Vue.jsのフォーム検証機能を実装するため、vuelidateを実装したお話です。
-
-
-2019年に社内LTで発表したものを編集して投稿した記事です。
-一部古い情報が残っている場合がございますので、ご留意ください。
-
-
- はじめに
-
-話さないこと
-
-Vue.jsの導入
-Vue 3.x での実例紹介
-カスタムバリデーションの方法
-
-
-話すこと
-
-vuelidateの導入
-コンポーネントへの実装
-Vue 2.x での実例紹介
-
-
-
-
- 環境
-
-Vue.js 2.x
-Bootstrap 4.x
-npm ?
-
-当時のバージョンのメモを失念してましたが、13.x だったと思います。
-...]]></summary>
-        <author>
-            <name>yosuke-dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue.jsから複数の画像をLaravelに送り保存する]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/0885e71f6f3609"/>
-        <updated>2021-08-22T23:45:51.000Z</updated>
-        <summary type="html"><![CDATA[複数の画像を一度にアップロードしたい場合があると思います。
-Laravel×Vue.jsで実際に試してみたので、メモがてら残しておきたいと思います。
-まずは、画像をアップロードするところのHTMLです
-
-      
-        
-        <template>
-  <div v-for="(file, index) in files">
-    <label>ファイルを選択する</label>
-    <input type="file" @change="onFileChange($event, file, index)...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)]]></title>
-        <id>https://zenn.dev/dozo/articles/0b5940f1994a6c</id>
-        <link href="https://zenn.dev/dozo/articles/0b5940f1994a6c"/>
-        <updated>2021-08-22T21:20:21.000Z</updated>
-        <summary type="html"><![CDATA[@wasm-tool/rollup-plugin-rustの使い方
-関連記事:
-Rustが征くシリーズ過去記事
-
-WSL2で作るWindows開発環境: Rustが征く(1)
-wasmerでWebAssemblyの門を叩く: Rustが征く(2)
-JavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)
-TypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4) ← イマココ
-
-
-------------------- ↓ 前書はここから ↓-------------------
-前回はコマンドを駆使して、
-ブラウザ上...]]></summary>
-        <author>
-            <name>dozo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker×FastAPI×React(TypeScript) on AWS ECS【frontend】]]></title>
-        <id>https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348</id>
-        <link href="https://zenn.dev/daisukesasaki/articles/9620f7fd0ca348"/>
-        <updated>2021-08-22T14:14:08.000Z</updated>
-        <summary type="html"><![CDATA[前回のbackend編からの続きです
-backend編
-正直、フロント側はさっぱりセンスが無い＋忘れまくってたりしたのでめちゃくちゃ調べ直した。
-あらためて両方できる皆さんすごいわぁ、、（ちなみに僕はバックエンド側もセンスないです）
-frontend側に入る前に前回やった内容がちょっと半端だったのでまずはそこをサクッと修正してしまおうと思います。
-
- crud.py
-
-      
-        
-        # project/backend/app/api/crud.py
-from app.models.pydantic import SummaryPayloadSchem...]]></summary>
-        <author>
-            <name>daisuke sasaki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Testing with Next.js]]></title>
-        <id>https://zenn.dev/takepepe/articles/testing-with-nextjs</id>
-        <link href="https://zenn.dev/takepepe/articles/testing-with-nextjs"/>
-        <updated>2021-08-22T13:29:53.000Z</updated>
-        <summary type="html"><![CDATA[先日、Next.js で開発するアプリケーションテスト手法について、公式ドキュメントが追加され話題になりました。
-https://twitter.com/delba_oliveira/status/1427307677709967362
-取り上げられている 2 者はよく知られており、いずれかに触れたことがある方も多いかと思います。この公式ドキュメントページでは「何を使って」を紹介しているのみなので、どちらを選ぶべきか悩んだ方もいるのではないでしょうか？
-
-Cypress
-Jest & React Testing Library
-
-この判断についてはドキュメントに書かれていなかった...]]></summary>
-        <author>
-            <name>Takepepe</name>
         </author>
     </entry>
 </feed>
