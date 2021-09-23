@@ -2,10 +2,210 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-22T00:56:58.725Z</updated>
+    <updated>2021-09-23T00:58:45.467Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vue.js x Chrome Extension x Salesforceで便利ツールを開発]]></title>
+        <id>https://zenn.dev/karaageeeee/articles/80dff29498e925</id>
+        <link href="https://zenn.dev/karaageeeee/articles/80dff29498e925"/>
+        <updated>2021-09-22T16:07:41.000Z</updated>
+        <summary type="html"><![CDATA[Let's try
+
+ テンプレ生成ツール
+vue-web-extensionというツールを使うと、Vue.jsを使ったChrome Extensionのテンプレを生成することができます。
+vueのcliをインストールしていない場合はまず以下のコマンドを実行。
+
+      
+        
+        npm i -g @vue/cli-init
+
+
+      
+      次のコマンドで、Chrome Extensionのテンプレを生成
+
+      
+        
+        vue init kocal/vue-web-extension helloworld...]]></summary>
+        <author>
+            <name>からあげ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravel x VueにVue Routerを導入しコンポーネントを切り替える]]></title>
+        <id>https://zenn.dev/karaageeeee/articles/9ba4228248efe2</id>
+        <link href="https://zenn.dev/karaageeeee/articles/9ba4228248efe2"/>
+        <updated>2021-09-22T15:39:19.000Z</updated>
+        <summary type="html"><![CDATA[Vue Routerを導入する
+まずはnpmでVue Routerをインストールしましょう。
+
+      
+        
+        npm install vue-router
+
+
+      
+      切り替えるページコンポーネントを簡単に作ります。
+resources/jsにpagesディレクトリを作成しその中にIndex.vueとAbout.vueを作ります。
+Index.vue
+
+      
+        
+        <template>
+    <div>
+        Index
+    </div>
+<...]]></summary>
+        <author>
+            <name>からあげ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firebase SDK v9, Recoil で Next.js アプリの Google ログインを実装する]]></title>
+        <id>https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9</id>
+        <link href="https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9"/>
+        <updated>2021-09-22T13:23:52.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事では TypeScript で書かれた Next アプリに Firebase JavaScript SDK v9 を利用して Google ログインを実装する方法について書きます. 認証するユーザは Recoil で管理します. Context API で管理する方法はこちらの記事で書いています.
+また, 前述した記事に載っていますので, この記事では Firebase プロジェクトの作成, Google プロバイダの有効化などの詳しい手順は省略させて頂きます.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘して...]]></summary>
+        <author>
+            <name>minguu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[カーソル移動がとにかく気持ちいいNeovim - Neovide]]></title>
+        <id>https://zenn.dev/hisasann/articles/neovim-fvim-neovide</id>
+        <link href="https://zenn.dev/hisasann/articles/neovim-fvim-neovide"/>
+        <updated>2021-09-22T13:20:53.000Z</updated>
+        <summary type="html"><![CDATA[ふだんは Neovim でドキュメントを書いたりプログラミングをしたりしていますが、ちょっと前に見て放置していた Neovide という Neovim の GUI のカーソル移動がとにかくかっこいいので試してみました。
+
+ neovide
+neovide/neovide: No Nonsense Neovim Client in Rust
+https://www.youtube.com/watch?v=uMtfl6vpT-Q
+動画を撮ってみました。
+どうですか？雰囲気は伝わったかなーと思います。
+一部アイコンフォントが当たっていませんがいったんは気にしないでおきます。
+カーソルがかっちょ...]]></summary>
+        <author>
+            <name>Yoshiyuki Hisamatsu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二次元配列を回転や反転させる方法]]></title>
+        <id>https://zenn.dev/kanoi/articles/f3a86f99cdce44</id>
+        <link href="https://zenn.dev/kanoi/articles/f3a86f99cdce44"/>
+        <updated>2021-09-22T10:27:09.000Z</updated>
+        <summary type="html"><![CDATA[二次元配列の回転や反転は、ゲームなどを作るときにたま～に使うので備忘録として記します。
+
+ サンプルコード
+サンプルコードを用意しました。分かりやすいように二次元配列に対応した図形を表示しており、回転,反転ボタンを押すことで二次元配列が回転,反転し、その結果図形も回転,反転したものが表示されるようにしています。
+こちらのコードは、React＋TypeScriptを使用していますが、ロジック部分は素のJavaScriptとほとんど変わりません。
+
+
+ 回転
+サンプルコードの中から、二次元配列を右に90度回転させた配列を生成する部分だけを抜き出しました。
+
+      
+        
+ ...]]></summary>
+        <author>
+            <name>カノイ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno Deploy専用のSSGを作った]]></title>
+        <id>https://zenn.dev/kawarimidoll/articles/a30d49f46bd773</id>
+        <link href="https://zenn.dev/kawarimidoll/articles/a30d49f46bd773"/>
+        <updated>2021-09-22T10:15:07.000Z</updated>
+        <summary type="html"><![CDATA[本記事はtoranoana.deno #1の発表資料です。
+https://yumenosora.connpass.com/event/223214/
+
+Deno Deployで動くSSGを作りました。
+その名もDiplodocusです。
+https://github.com/kawarimidoll/deno-diplodocus
+名前のDiplodocusはDeploy docsからの連想です。
+https://ja.wikipedia.org/wiki/ディプロドクス
+
+ なぜつくったか
+Denoモジュールや関連プロダクトは増えていますが、解説ドキュメントをGitHub Pages...]]></summary>
+        <author>
+            <name>kawarimidoll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[andのpro-formの type="select"がちゃんと表示されない... ...]]></title>
+        <id>https://zenn.dev/tikashi/articles/fe6d57c4a1f5be</id>
+        <link href="https://zenn.dev/tikashi/articles/fe6d57c4a1f5be"/>
+        <updated>2021-09-22T02:19:31.000Z</updated>
+        <summary type="html"><![CDATA[antd pro-formのshchema-form
+を使っていたら下記のコードで詰まった。
+
+      
+        
+        const userEnum = {
+  1: 'ユーザー１',
+  2: 'ユーザー2',
+  3: 'ユーザー3',
+};
+
+type Task = {
+  id: number
+  name: string
+  userId: number
+}
+
+<BetaSchemaForm<Task>
+        trigger={<a>登録</a>}
+        layoutType="Embed"
+...]]></summary>
+        <author>
+            <name>tikashi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WASMのサイズでかすぎね？: Rustが征く(6)]]></title>
+        <id>https://zenn.dev/dozo/articles/14b76b561f3b45</id>
+        <link href="https://zenn.dev/dozo/articles/14b76b561f3b45"/>
+        <updated>2021-09-22T01:10:33.000Z</updated>
+        <summary type="html"><![CDATA[wasm-optを設定する
+関連記事:
+Rustが征くシリーズ過去記事
+
+WSL2で作るWindows開発環境: Rustが征く(1)
+wasmerでWebAssemblyの門を叩く: Rustが征く(2)
+JavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)
+TypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)
+SvelteでWebAssemblyでTypeScriptでRollupで: Rustが征く(5)
+WASMのサイズでかすぎね？: Rustが征く(6)     ← イマココ
+
+
+WebでWebAs...]]></summary>
+        <author>
+            <name>dozo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DRYを間違って適応するとどうなるのか]]></title>
+        <id>https://zenn.dev/dove/articles/e046bd69a93464</id>
+        <link href="https://zenn.dev/dove/articles/e046bd69a93464"/>
+        <updated>2021-09-21T13:45:15.000Z</updated>
+        <summary type="html"><![CDATA[DRY(Don't Repeat Yourself!)原則ありますね。昔はコードの二重化をなくすことと考えられていましたが、現在では「知識」の二重化なくす原則と考えられています。達人プログラマーでも以下のように述べられています。
+
+コードの二重化すべてが知識の二重化というわけではないワインの注文アプリで、顧客の年齢を認証し、注文本数を受け付けるモジュールを開発していると考えてください。
+
+
+      
+        
+        def  validate_age(value):
+  validate_type(value,:integer)
+  validate_min_int...]]></summary>
+        <author>
+            <name>ハトすけ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.jsをDockerでdeployするとpermission deniedが出る]]></title>
         <id>https://zenn.dev/ucwork/articles/dc993c8494d65e</id>
@@ -5159,139 +5359,6 @@ $ rails s
 
 
     ...]]></summary>
-        <author>
-            <name>にゅ〜ぶる</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[アトミックデザインにおけるコンポーネントのAuto importの問題について色々と調査した件]]></title>
-        <id>https://zenn.dev/sengosha/articles/95f3ec0d62fba8</id>
-        <link href="https://zenn.dev/sengosha/articles/95f3ec0d62fba8"/>
-        <updated>2021-08-24T08:37:01.000Z</updated>
-        <summary type="html"><![CDATA[Nuxt2.15.x以降のコンポーネントimportに関して
-
-
-@nuxt/components はバージョン 2 が使えるようになります
-コンポーネント名にディレクトリ名を付与したタグを使うことができるようになり、コンポーネントの import や宣言などの記述を省略することができます (記述の省略は 2.14 でも可能でしたが 2.15 で先の記述の使用が可能となりました)
-
-
- ディレクト名付きのコンポーネント名
-例えば下記のフォルダー構造
-
-      
-        
-        | components/
----| my/
-------| form/
-------...]]></summary>
-        <author>
-            <name>ユウ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js で動的/静的ルーティングのサイトマップを生成する]]></title>
-        <id>https://zenn.dev/soberhiko/articles/aed491ed167bad</id>
-        <link href="https://zenn.dev/soberhiko/articles/aed491ed167bad"/>
-        <updated>2021-08-24T05:47:46.000Z</updated>
-        <summary type="html"><![CDATA[概要
-Next.js のアプリケーションで、CMS などから取得したコンテンツによって動的に生成される URL と、静的な URL の両方がある場合に、サイトマップをどのように自動生成させるかについての記事です。
-Zenn に投稿されている記事など、先行事例も見られますが、以下の要件を満たすサイトマップの生成方法については見当たらなかったため、その共有を目的としています。
-
-対象 URL は Next.js の動的/静的ルーティングの両方を含む
-
-動的 URL のページはコンテンツ追加のタイミングでビルドが走らない
-
-
-サイトマップファイルはいくつかに分割し、インデックスファイルも生...]]></summary>
-        <author>
-            <name>eyama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nuxt に Payjp.js を導入する]]></title>
-        <id>https://zenn.dev/nappa/articles/e201780237a81e</id>
-        <link href="https://zenn.dev/nappa/articles/e201780237a81e"/>
-        <updated>2021-08-23T19:38:52.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-副業の開発で、決済システムに PAY.JP を導入することになり、クライアント向けのライブラリとして、カスタマイズがしやすい Payjp.js を使うことになった。
-しかし、副業の開発では Nuxt を使っており、良い感じに連携するドキュメントがなかったため、メモ代わりに残しておく。
-
- 使っている技術
-
-Nuxt 2.15.3
-
-universal(ssr) モードを使用
-
-
-
-
- Payjp.js を読み込む
-Payjp.js は script タグで読み込ませるので nuxt.config.js に設定を追加する必要がある。
-下記の設定を追加して、<head&g...]]></summary>
-        <author>
-            <name>nappa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OAS使ってなるべく楽にNuxtのテスト]]></title>
-        <id>https://zenn.dev/okoha/articles/1f909a3af0ee0244fe40</id>
-        <link href="https://zenn.dev/okoha/articles/1f909a3af0ee0244fe40"/>
-        <updated>2021-08-23T17:12:50.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-composition apiの登場でVueもようやくテストしやすい感じになってきました。
-とはいえ実際AJAXが絡んだコンポーネントのテストをやろうとするとあれをモックしてこれもモックしてとなんだかんだ大量のモッキングが必要になって色々めんどくさい感じになりがちですし、ほとんどモックされてて実際のところどこがテストできてるのかわけがわからない感じになりがちです。
-前回の記事ではOASを利用することでスタブサーバーが用意できることを紹介しました。
-この記事ではそのスタブサーバーを利用して、フロントで再現性のあるAJAXテストを簡単に行える方法がないか模索してみます。
-スタブ...]]></summary>
-        <author>
-            <name>夕暮おこは</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GraphQL で N+1 問題を解決する 4 つのアプローチ]]></title>
-        <id>https://zenn.dev/alea12/articles/15d73282c3aacc</id>
-        <link href="https://zenn.dev/alea12/articles/15d73282c3aacc"/>
-        <updated>2021-08-23T14:37:01.000Z</updated>
-        <summary type="html"><![CDATA[TLDR
-
-Prisma が検討できる場合: Prisma の findUnique を使う
-それ以外の場合: DataLoader を実装する。ライブラリを使えばそんなに大変ではない
-
-JOIN での解決は GraphQL の道を踏み外している(ように感じる)
-
-
- GraphQL における N+1 問題
-GraphQL で 1:N のデータ構造をクエリすると、すぐに N+1 問題に行き当たります。User と Post が 1:N の関係となる、以下の例を見てみましょう。
-
-      
-        
-        type User {
-  id: Int!
-  name...]]></summary>
-        <author>
-            <name>alea12</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rails+VueでHello Vue！まで]]></title>
-        <id>https://zenn.dev/newburu/articles/e21629af475d69</id>
-        <link href="https://zenn.dev/newburu/articles/e21629af475d69"/>
-        <updated>2021-08-23T14:28:41.000Z</updated>
-        <summary type="html"><![CDATA[rails new でアプリケーションを作成する
-rails newには、Vueを簡単に使えるオプション--webpack=vueがあるので、それを指定してrails newします。
-DBもMySQLを使うので、-d mysqlも一緒に指定します。※--database=mysqlと同じです。
-
-      
-        
-        rails new -d mysql --webpack=vue hello-vue
-
-
-      
-      そして、いつもの起動するまでのコマンドをぽちぽち
-
-      
-        
-        rails db:creat...]]></summary>
         <author>
             <name>にゅ〜ぶる</name>
         </author>
