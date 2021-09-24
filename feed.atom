@@ -2,10 +2,250 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-23T00:58:45.467Z</updated>
+    <updated>2021-09-24T00:55:36.452Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ReactからVue3に移行した理由と感想]]></title>
+        <id>https://zenn.dev/masa0317/articles/3f09fce580302e</id>
+        <link href="https://zenn.dev/masa0317/articles/3f09fce580302e"/>
+        <updated>2021-09-24T00:29:23.000Z</updated>
+        <summary type="html"><![CDATA[去年の末から開発しているWEBアプリでVue3を利用してます。
+ここ数年のWEB開発はずっとReactを使っていましたが、色々と不満が蓄積していたので、思い切って他のフレームワークを利用することにしました。
+そして、色々なフレームワークを検証して分かったのは、
+いまや、React以外のフレームワークでもフロント開発は問題ない
+ということでした。
+この記事では、ReactからVue3に移行した理由、ReactからVue3にして良かった点と悪かった点を記載します。
+
+ React
+フロントの開発でReactを使うのは、ここ数年のフロントエンドでは最も標準的な選択です。
+私が初めてReactに...]]></summary>
+        <author>
+            <name>masa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuepressでポートフォリオ作成ハンズオン]]></title>
+        <id>https://zenn.dev/wataru72v/books/wataru72v-vuepress-portfolio</id>
+        <link href="https://zenn.dev/wataru72v/books/wataru72v-vuepress-portfolio"/>
+        <updated>2021-09-23T15:40:12.000Z</updated>
+        <summary type="html"><![CDATA[Vuepressでポートフォリオ作成ハンズオン]]></summary>
+        <author>
+            <name>wataru72v</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テストサーバー建てるの面倒くさいからモックサーバーツールを作った]]></title>
+        <id>https://zenn.dev/gari8/articles/af95c50a2b688b</id>
+        <link href="https://zenn.dev/gari8/articles/af95c50a2b688b"/>
+        <updated>2021-09-23T15:00:22.000Z</updated>
+        <summary type="html"><![CDATA[なぜ作ったか
+最近フロントが面白くてNext.jsだのReact.jsを書いていたんですが、サーバーを作るまでモックを内部コードに抱えながら書いていました。
+しかしそうすると、API通信周りが軒並みTODOになってしまい、最終的なコード改修が割と多くなってしまいます ↓。
+
+      
+         hoge.ts
+        import * as mock from "./data.json"
+
+// データを全権取得
+const getDataList = (): Data[] => {
+   const list =  mock.list;
+   // TOD...]]></summary>
+        <author>
+            <name>gari8</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jsでgroup byするメモ]]></title>
+        <id>https://zenn.dev/sbleru/articles/450d98407312ba</id>
+        <link href="https://zenn.dev/sbleru/articles/450d98407312ba"/>
+        <updated>2021-09-23T09:11:14.000Z</updated>
+        <summary type="html"><![CDATA[WHY
+オブジェクトのリストに対して、SQLのようにgroup byしてcountしたオブジェクトが欲しかった
+
+ HOW
+
+オブジェクトのパラメータにcountを追加するのではなく、ひとつ階層を増やして、dataに元のオブジェクトを、count にカウント数を入れるようにした。
+
+listに渡されるオブジェクトは同じ型を持ったオブジェクトである想定
+
+
+reduceでカウントして、最後mapで整形
+
+
+      
+        
+        export const groupBy = <T, K extends keyof T>(
+  list: T[],
+ ...]]></summary>
+        <author>
+            <name>ぶれる</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[expoのOTAを--no-publishとpublish:setを使ってなるべく安全に扱う]]></title>
+        <id>https://zenn.dev/terrierscript/articles/2021-09-16-expo-ota-with-publish-set</id>
+        <link href="https://zenn.dev/terrierscript/articles/2021-09-16-expo-ota-with-publish-set"/>
+        <updated>2021-09-23T04:55:05.000Z</updated>
+        <summary type="html"><![CDATA[Expoはビルドをサーバーで行ってくれたり、React nativeにまつわる様々な問題を対処してくれるとても良いツールだ。
+ExpoにはOTAの機能もついており、デフォルトで動作するようになっているが、若干便利さが重視されており、プロダクション向けに使うには色々考えることが必要だった。
+expoをオレオレバージョニングしながら色々やりくりしていたが、やはりリリースサイクルを早めたくなるとOTAをちゃんと使っていきたいという気持ちになったので考えた。
+なお、ExpoのOTAの基礎的な部分については解説を省略している箇所があるため、詳細な点など知りたい場合は下記の記事などが手助けになるだろ...]]></summary>
+        <author>
+            <name>terrierscript</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでSSRを限界まで簡単に実現する]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/4498ad794002c3</id>
+        <link href="https://zenn.dev/sora_kumo/articles/4498ad794002c3"/>
+        <updated>2021-09-23T04:39:31.000Z</updated>
+        <summary type="html"><![CDATA[１．getInitialPropsの終焉
+
+ 1.1. Next.jsではgetInitialPropsのSSRが終わったことにされている
+Next.jsの9.3以降、getStaticPropsやgetServerSidePropsが登場し、現在ではgetInitialPropsを使ったSSRが終焉を迎えたかのような風潮となっています。しかしgetStaticPropsとgetServerSidePropsは、実際の所で大きな欠点を抱えています。
+getStaticPropsはSSG前提で使うなら全く問題ありません。しかし、ある程度の更新頻度をもつシステムやリアルタイムな編集機能と...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React コンテキストの真の使い方（useContext）]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/7f38cab4792446</id>
+        <link href="https://zenn.dev/sora_kumo/articles/7f38cab4792446"/>
+        <updated>2021-09-23T00:48:25.000Z</updated>
+        <summary type="html"><![CDATA[※ ジョーク記事です
+※ ジョークですが、プログラムはきちんと動きます
+ソースコード https://github.com/SoraKumo001/next-context
+動作確認 https://next-context-ten.vercel.app/
+
+ コンテキストについて
+下記の公式ドキュメントでコンテキストはこのように説明されています。
+
+コンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。
+
+つまり、ツリー内で有効となるデータ領域です。
+それ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React コンテキストの真の使い方（useContext）]]></title>
+        <id>https://zenn.dev/sora_kumo/articles/7f38cab4792446</id>
+        <link href="https://zenn.dev/sora_kumo/articles/7f38cab4792446"/>
+        <updated>2021-09-23T00:48:25.000Z</updated>
+        <summary type="html"><![CDATA[※ ジョーク記事です
+※ ジョークですが、プログラムはきちんと動きます
+ソースコード https://github.com/SoraKumo001/next-context
+動作確認 https://next-context-ten.vercel.app/
+
+ コンテキストについて
+下記の公式ドキュメントでコンテキストはこのように説明されています。
+
+コンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。
+
+つまり、ツリー内で有効となるデータ領域です。
+それ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...]]></summary>
+        <author>
+            <name>空雲</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【TypeScript】type派？interface派？僕はもちろんtype派]]></title>
+        <id>https://zenn.dev/hk_206/articles/a4abda20d8b14d</id>
+        <link href="https://zenn.dev/hk_206/articles/a4abda20d8b14d"/>
+        <updated>2021-09-23T00:08:50.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript？
+
+ 型付けできるJavaScript
+
+      
+        
+        let age: number = 0;
+
+age = 28;
+
+age = "ぞんぞん"; //エラー
+
+
+      
+      
+ いろんな型
+
+
+
+型
+意味
+例
+
+
+
+
+string
+文字列
+'ぞんぞん'
+
+
+number
+数値
+28
+
+
+boolean
+真偽値
+true
+
+
+[]
+配列
+string[] → ['aaa', 'bbb', 'ccc']
+
+
+any
+制約なし
+
+
+
+
+
+ オブジェクトの型は？
+
+ 普通に書くと読みづらい、管理しづらい🥺(ぱおん)
+
+...]]></summary>
+        <author>
+            <name>hokuto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[frourio の Methods を型安全に定義する]]></title>
+        <id>https://zenn.dev/yutaro_elk/articles/c65052449a6212</id>
+        <link href="https://zenn.dev/yutaro_elk/articles/c65052449a6212"/>
+        <updated>2021-09-22T23:35:08.000Z</updated>
+        <summary type="html"><![CDATA[三行まとめ
+
+npm i aspida
+
+type DefineMethods<T extends AspidaMethods> = T;を定義
+
+DefineMethodsでより型安全な世界
+
+
+ frourio はとっても型安全
+frourio は Methods として API の型を一つだけ定義すればフロントエンド、バックエンド間の疎通を TypeScript で静的に検査できるフルスタックフレームワークです。
+例えば、
+
+      
+        index.ts
+        export type Methods = {
+  get: {
+    re...]]></summary>
+        <author>
+            <name>yutaro_elk</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vue.js x Chrome Extension x Salesforceで便利ツールを開発]]></title>
         <id>https://zenn.dev/karaageeeee/articles/80dff29498e925</id>
@@ -59,6 +299,20 @@ Index.vue
 <...]]></summary>
         <author>
             <name>からあげ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firebase SDK v9, Recoil で Next.js アプリの Google ログインを実装する]]></title>
+        <id>https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9</id>
+        <link href="https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9"/>
+        <updated>2021-09-22T13:23:52.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事では TypeScript で書かれた Next アプリに Firebase JavaScript SDK v9 を利用して Google ログインを実装する方法について書きます. 認証するユーザは Recoil で管理します. Context API で管理する方法はこちらの記事で書いています.
+また, 前述した記事に載っていますので, この記事では Firebase プロジェクトの作成, Google プロバイダの有効化などの詳しい手順は省略させて頂きます.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘して...]]></summary>
+        <author>
+            <name>minguu</name>
         </author>
     </entry>
     <entry>
@@ -5277,90 +5531,6 @@ VSCodeのように自分で対象のファイルを選んだりするのを楽�
 なお私の環境は以下の通りで...]]></summary>
         <author>
             <name>bun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vuepress でリンクの url に frontmatter を混ぜる]]></title>
-        <id>https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525</id>
-        <link href="https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525"/>
-        <updated>2021-08-25T05:36:55.000Z</updated>
-        <summary type="html"><![CDATA[なにがしたいのか
-同じ単語の複数の辞書へのリンクみたいなページを作る時に
-
-大概の辞書って検索 URL にパラメタで単語を渡す感じの API なので
-frontmatter で単語を宣言して
-
-      
-        
-        ---
-pv: get in
----
-
-
-      
-      あとは {{$frontmatter.pv}} とかで使い回せれば楽です
-
- ところが
-実際にやってみると、こんなリンクで
-
-[英辞郎](https://eow.alc.co.jp/search?q={{$frontmatter.pv}})
-
-一見、いい感じに見えるのですが
-
-全...]]></summary>
-        <author>
-            <name>UedaTakeyuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-08-25のJS: browser-compat-dataにDenoを追加、Mobile First and Desktop First、create-react-appからNext.jsに移行]]></title>
-        <id>https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/</id>
-        <link href="https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/"/>
-        <updated>2021-08-25T02:44:57.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #554 - MDNなどが利用するブラウザ実装の互換データを管理している @mdn/browser-compat-data 4.0.0がリリースされました。
-Release v4.0.0 · mdn/browser-compat-data
-互換リストにDenoのデータが追加されています。
-Deno on MDN | Deno Blog
-スキーマにpreviewとaccepts_flagsの追加、XPathとXSLTのデータが不完全であるため削除などの変更も含まれています・
-The State Of Mobile First and Desktop First - Ahmad Shadeedという記事では、CSSを書くときにMobileとDesktop向けのどちらを先に書くかについて書かれています。
-MobileとDesktopのどちらかを先に書いて、もう一方をMedia Queryで上書きしたときのコード量や拡張性の違いについて比較しています。
-From Create-React-App to Next | Kitty Giraudelという記事ではCreate React App(CRA)からNext.jsへの移行をどのようにしたかについて書かれています。
-<head>やスタイリングなどの項目ごとに、CRAからNext.jsにどのように移植したのかが書かれています。
-<Link>以外はどちらの環境でも実行できたため、移行の動作確認として両方の環境で動かしてテストする方法についても書かれています。
-ヘッドライン
-Announcing React Native 0.65 · React Native
-reactnative.dev/blog/2021/08/17/version-065
-React iOS Android
-
-
-React Native 0.…]]></summary>
-        <author>
-            <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RailsでHelloVue3!!!]]></title>
-        <id>https://zenn.dev/newburu/articles/7efb9d9f0658a8</id>
-        <link href="https://zenn.dev/newburu/articles/7efb9d9f0658a8"/>
-        <updated>2021-08-24T13:54:05.000Z</updated>
-        <summary type="html"><![CDATA[前回は、「rails new」のオプションでVueをインストールしました。
-https://zenn.dev/newburu/articles/e21629af475d69
-が・・・Vue2になるようで、Vue3を使うためには、手動でVue3のインストールが必要とのことでした。
-という事で、やり直します！！
-
- rails newでWebアプリケーションを作成
-前回同様、まずは「rails new」します。
-
-      
-        
-        $ rails new -d mysql hello-vue3
-$ rails db:create
-$ rails s
-
-
-    ...]]></summary>
-        <author>
-            <name>にゅ〜ぶる</name>
         </author>
     </entry>
 </feed>

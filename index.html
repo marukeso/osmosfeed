@@ -77,12 +77,317 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-09-22">2021-09-22</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-09-24">2021-09-24</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ReactからVue3に移行した理由と感想</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/masa0317/articles/3f09fce580302e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>去年の末から開発しているWEBアプリでVue3を利用してます。
+ここ数年のWEB開発はずっとReactを使っていましたが、色々と不満が蓄積していたので、思い切って他のフレームワークを利用することにしました。
+そして、色々なフレームワークを検証して分かったのは、
+いまや、React以外のフレームワークでもフロント開発は問題ない
+ということでした。
+この記事では、ReactからVue3に移行した理由、ReactからVue3にして良かった点と悪かった点を記載します。
+
+ React
+フロントの開発でReactを使うのは、ここ数年のフロントエンドでは最も標準的な選択です。
+私が初めてReactに...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-23">2021-09-23</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React コンテキストの真の使い方（useContext）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/7f38cab4792446">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>※ ジョーク記事です
+※ ジョークですが、プログラムはきちんと動きます
+ソースコード https://github.com/SoraKumo001/next-context
+動作確認 https://next-context-ten.vercel.app/
+
+ コンテキストについて
+下記の公式ドキュメントでコンテキストはこのように説明されています。
+
+コンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。
+
+つまり、ツリー内で有効となるデータ領域です。
+それ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">テストサーバー建てるの面倒くさいからモックサーバーツールを作った</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gari8/articles/af95c50a2b688b">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>なぜ作ったか
+最近フロントが面白くてNext.jsだのReact.jsを書いていたんですが、サーバーを作るまでモックを内部コードに抱えながら書いていました。
+しかしそうすると、API通信周りが軒並みTODOになってしまい、最終的なコード改修が割と多くなってしまいます ↓。
+
+      
+         hoge.ts
+        import * as mock from &quot;./data.json&quot;
+
+// データを全権取得
+const getDataList &#x3D; (): Data[] &#x3D;&gt; {
+   const list &#x3D;  mock.list;
+   // TOD...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">jsでgroup byするメモ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sbleru/articles/450d98407312ba">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>WHY
+オブジェクトのリストに対して、SQLのようにgroup byしてcountしたオブジェクトが欲しかった
+
+ HOW
+
+オブジェクトのパラメータにcountを追加するのではなく、ひとつ階層を増やして、dataに元のオブジェクトを、count にカウント数を入れるようにした。
+
+listに渡されるオブジェクトは同じ型を持ったオブジェクトである想定
+
+
+reduceでカウントして、最後mapで整形
+
+
+      
+        
+        export const groupBy &#x3D; (
+  list: T[],
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">expoのOTAを--no-publishとpublish:setを使ってなるべく安全に扱う</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/terrierscript/articles/2021-09-16-expo-ota-with-publish-set">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Expoはビルドをサーバーで行ってくれたり、React nativeにまつわる様々な問題を対処してくれるとても良いツールだ。
+ExpoにはOTAの機能もついており、デフォルトで動作するようになっているが、若干便利さが重視されており、プロダクション向けに使うには色々考えることが必要だった。
+expoをオレオレバージョニングしながら色々やりくりしていたが、やはりリリースサイクルを早めたくなるとOTAをちゃんと使っていきたいという気持ちになったので考えた。
+なお、ExpoのOTAの基礎的な部分については解説を省略している箇所があるため、詳細な点など知りたい場合は下記の記事などが手助けになるだろ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsでSSRを限界まで簡単に実現する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/4498ad794002c3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>１．getInitialPropsの終焉
+
+ 1.1. Next.jsではgetInitialPropsのSSRが終わったことにされている
+Next.jsの9.3以降、getStaticPropsやgetServerSidePropsが登場し、現在ではgetInitialPropsを使ったSSRが終焉を迎えたかのような風潮となっています。しかしgetStaticPropsとgetServerSidePropsは、実際の所で大きな欠点を抱えています。
+getStaticPropsはSSG前提で使うなら全く問題ありません。しかし、ある程度の更新頻度をもつシステムやリアルタイムな編集機能と...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React コンテキストの真の使い方（useContext）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sora_kumo/articles/7f38cab4792446">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>※ ジョーク記事です
+※ ジョークですが、プログラムはきちんと動きます
+ソースコード https://github.com/SoraKumo001/next-context
+動作確認 https://next-context-ten.vercel.app/
+
+ コンテキストについて
+下記の公式ドキュメントでコンテキストはこのように説明されています。
+
+コンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。
+
+つまり、ツリー内で有効となるデータ領域です。
+それ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【TypeScript】type派？interface派？僕はもちろんtype派</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hk_206/articles/a4abda20d8b14d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>TypeScript？
+
+ 型付けできるJavaScript
+
+      
+        
+        let age: number &#x3D; 0;
+
+age &#x3D; 28;
+
+age &#x3D; &quot;ぞんぞん&quot;; //エラー
+
+
+      
+      
+ いろんな型
+
+
+
+型
+意味
+例
+
+
+
+
+string
+文字列
+&#x27;ぞんぞん&#x27;
+
+
+number
+数値
+28
+
+
+boolean
+真偽値
+true
+
+
+[]
+配列
+string[] → [&#x27;aaa&#x27;, &#x27;bbb&#x27;, &#x27;ccc&#x27;]
+
+
+any
+制約なし
+
+
+
+
+
+ オブジェクトの型は？
+
+ 普通に書くと読みづらい、管理しづらい🥺(ぱおん)
+
+...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vuepressでポートフォリオ作成ハンズオン</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/wataru72v/books/wataru72v-vuepress-portfolio">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Vuepressでポートフォリオ作成ハンズオン</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-22">2021-09-22</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Firebase SDK v9, Recoil で Next.js アプリの Google ログインを実装する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>はじめに
+この記事では TypeScript で書かれた Next アプリに Firebase JavaScript SDK v9 を利用して Google ログインを実装する方法について書きます. 認証するユーザは Recoil で管理します. Context API で管理する方法はこちらの記事で書いています.
+また, 前述した記事に載っていますので, この記事では Firebase プロジェクトの作成, Google プロバイダの有効化などの詳しい手順は省略させて頂きます.
+この記事が他の人の参考になれば幸いです.
+また, この記事の内容に間違った記載がありましたら, 指摘して...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">frourio の Methods を型安全に定義する</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yutaro_elk/articles/c65052449a6212">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>三行まとめ
+
+npm i aspida
+
+type DefineMethods &#x3D; T;を定義
+
+DefineMethodsでより型安全な世界
+
+
+ frourio はとっても型安全
+frourio は Methods として API の型を一つだけ定義すればフロントエンド、バックエンド間の疎通を TypeScript で静的に検査できるフルスタックフレームワークです。
+例えば、
+
+      
+        index.ts
+        export type Methods &#x3D; {
+  get: {
+    re...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Firebase SDK v9, Recoil で Next.js アプリの Google ログインを実装する</summary>
@@ -6156,39 +6461,6 @@ Docker Desktop for Windows (on Hyper-V), Version 3.6.0...</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://jser.info/">JSer.info</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">2021-08-25のJS: browser-compat-dataにDenoを追加、Mobile First and Desktop First、create-react-appからNext.jsに移行</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>JSer.info #554 - MDNなどが利用するブラウザ実装の互換データを管理している @mdn/browser-compat-data 4.0.0がリリースされました。
-Release v4.0.0 · mdn/browser-compat-data
-互換リストにDenoのデータが追加されています。
-Deno on MDN | Deno Blog
-スキーマにpreviewとaccepts_flagsの追加、XPathとXSLTのデータが不完全であるため削除などの変更も含まれています・
-The State Of Mobile First and Desktop First - Ahmad Shadeedという記事では、CSSを書くときにMobileとDesktop向けのどちらを先に書くかについて書かれています。
-MobileとDesktopのどちらかを先に書いて、もう一方をMedia Queryで上書きしたときのコード量や拡張性の違いについて比較しています。
-From Create-React-App to Next | Kitty Giraudelという記事ではCreate React App(CRA)からNext.jsへの移行をどのようにしたかについて書かれています。
-やスタイリングなどの項目ごとに、CRAからNext.jsにどのように移植したのかが書かれています。
-以外はどちらの環境でも実行できたため、移行の動作確認として両方の環境で動かしてテストする方法についても書かれています。
-ヘッドライン
-Announcing React Native 0.65 · React Native
-reactnative.dev/blog/2021/08/17/version-065
-React iOS Android
-
-
-React Native 0.…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
             <article>
@@ -6261,88 +6533,11 @@ VSCodeのように自分で対象のファイルを選んだりするのを楽�
             </article>
         </section>
       </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">vuepress でリンクの url に frontmatter を混ぜる</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>なにがしたいのか
-同じ単語の複数の辞書へのリンクみたいなページを作る時に
-
-大概の辞書って検索 URL にパラメタで単語を渡す感じの API なので
-frontmatter で単語を宣言して
-
-      
-        
-        ---
-pv: get in
----
-
-
-      
-      あとは {{$frontmatter.pv}} とかで使い回せれば楽です
-
- ところが
-実際にやってみると、こんなリンクで
-
-[英辞郎](https://eow.alc.co.jp/search?q&#x3D;{{$frontmatter.pv}})
-
-一見、いい感じに見えるのですが
-
-全...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-24">2021-08-24</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">RailsでHelloVue3!!!</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/newburu/articles/7efb9d9f0658a8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>前回は、「rails new」のオプションでVueをインストールしました。
-https://zenn.dev/newburu/articles/e21629af475d69
-が・・・Vue2になるようで、Vue3を使うためには、手動でVue3のインストールが必要とのことでした。
-という事で、やり直します！！
-
- rails newでWebアプリケーションを作成
-前回同様、まずは「rails new」します。
-
-      
-        
-        $ rails new -d mysql hello-vue3
-$ rails db:create
-$ rails s
-
-
-    ...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-23T00:58:45.441Z">2021-09-23T00:58:45.441Z</time>
+    <time id="build-timestamp" datetime="2021-09-24T00:55:36.404Z">2021-09-24T00:55:36.404Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.1</a></span>
   </footer>
   <script src="index.js"></script>

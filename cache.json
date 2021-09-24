@@ -56,15 +56,6 @@
           "publishedOn": "2021-08-30T22:46:59.000Z",
           "wordCount": 511,
           "title": "2021-08-31のJS: TypeScript 4.4、PageSpeed InsightsのLab/Field data、Packemon(ライブラリ向けビルドツール)"
-        },
-        {
-          "id": "https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/",
-          "author": null,
-          "description": "JSer.info #554 - MDNなどが利用するブラウザ実装の互換データを管理している @mdn/browser-compat-data 4.0.0がリリースされました。\nRelease v4.0.0 · mdn/browser-compat-data\n互換リストにDenoのデータが追加されています。\nDeno on MDN | Deno Blog\nスキーマにpreviewとaccepts_flagsの追加、XPathとXSLTのデータが不完全であるため削除などの変更も含まれています・\nThe State Of Mobile First and Desktop First - Ahmad Shadeedという記事では、CSSを書くときにMobileとDesktop向けのどちらを先に書くかについて書かれています。\nMobileとDesktopのどちらかを先に書いて、もう一方をMedia Queryで上書きしたときのコード量や拡張性の違いについて比較しています。\nFrom Create-React-App to Next | Kitty Giraudelという記事ではCreate React App(CRA)からNext.jsへの移行をどのようにしたかについて書かれています。\n<head>やスタイリングなどの項目ごとに、CRAからNext.jsにどのように移植したのかが書かれています。\n<Link>以外はどちらの環境でも実行できたため、移行の動作確認として両方の環境で動かしてテストする方法についても書かれています。\nヘッドライン\nAnnouncing React Native 0.65 · React Native\nreactnative.dev/blog/2021/08/17/version-065\nReact iOS Android\n\n\nReact Native 0.…",
-          "link": "https://jser.info/2021/08/25/browser-compat-datadeno-mobile-first-and-desktop-first-create-react-appnext.js/",
-          "publishedOn": "2021-08-25T02:44:57.000Z",
-          "wordCount": 458,
-          "title": "2021-08-25のJS: browser-compat-dataにDenoを追加、Mobile First and Desktop First、create-react-appからNext.jsに移行"
         }
       ]
     },
@@ -73,6 +64,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/7f38cab4792446",
+          "author": "空雲",
+          "description": "※ ジョーク記事です\n※ ジョークですが、プログラムはきちんと動きます\nソースコード https://github.com/SoraKumo001/next-context\n動作確認 https://next-context-ten.vercel.app/\n\n コンテキストについて\n下記の公式ドキュメントでコンテキストはこのように説明されています。\n\nコンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。\n\nつまり、ツリー内で有効となるデータ領域です。\nそれ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...",
+          "link": "https://zenn.dev/sora_kumo/articles/7f38cab4792446",
+          "publishedOn": "2021-09-23T00:48:25.000Z",
+          "wordCount": 426,
+          "title": "React コンテキストの真の使い方（useContext）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--neIUJTXG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E7%259C%259F%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25EF%25BC%2588useContext%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9",
+          "author": "minguu",
+          "description": "はじめに\nこの記事では TypeScript で書かれた Next アプリに Firebase JavaScript SDK v9 を利用して Google ログインを実装する方法について書きます. 認証するユーザは Recoil で管理します. Context API で管理する方法はこちらの記事で書いています.\nまた, 前述した記事に載っていますので, この記事では Firebase プロジェクトの作成, Google プロバイダの有効化などの詳しい手順は省略させて頂きます.\nこの記事が他の人の参考になれば幸いです.\nまた, この記事の内容に間違った記載がありましたら, 指摘して...",
+          "link": "https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9",
+          "publishedOn": "2021-09-22T13:23:52.000Z",
+          "wordCount": 620,
+          "title": "Firebase SDK v9, Recoil で Next.js アプリの Google ログインを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--79iO3zKf--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:minguu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Firebase%2520SDK%2520v9%252C%2520Recoil%2520%25E3%2581%25A7%2520Next.js%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%2520Google%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lMaU1RSm1OSlUyZXBOWldpcWpTOTV6eXBVeFQxSDRjU2FVVUNvbVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/ucwork/articles/dc993c8494d65e",
           "author": "ucwork",
@@ -899,6 +918,104 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/gari8/articles/af95c50a2b688b",
+          "author": "gari8",
+          "description": "なぜ作ったか\n最近フロントが面白くてNext.jsだのReact.jsを書いていたんですが、サーバーを作るまでモックを内部コードに抱えながら書いていました。\nしかしそうすると、API通信周りが軒並みTODOになってしまい、最終的なコード改修が割と多くなってしまいます ↓。\n\n      \n         hoge.ts\n        import * as mock from \"./data.json\"\n\n// データを全権取得\nconst getDataList = (): Data[] => {\n   const list =  mock.list;\n   // TOD...",
+          "link": "https://zenn.dev/gari8/articles/af95c50a2b688b",
+          "publishedOn": "2021-09-23T15:00:22.000Z",
+          "wordCount": 248,
+          "title": "テストサーバー建てるの面倒くさいからモックサーバーツールを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--jmaSKjcU--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:gari8%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E5%25BB%25BA%25E3%2581%25A6%25E3%2582%258B%25E3%2581%25AE%25E9%259D%25A2%25E5%2580%2592%25E3%2581%258F%25E3%2581%2595%25E3%2581%2584%25E3%2581%258B%25E3%2582%2589%25E3%2583%25A2%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lmZWxpNHFHcGhZZXdyNVdWNUNFUklfMk0wZWVLX2FKUHlvMjgyMlE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sbleru/articles/450d98407312ba",
+          "author": "ぶれる",
+          "description": "WHY\nオブジェクトのリストに対して、SQLのようにgroup byしてcountしたオブジェクトが欲しかった\n\n HOW\n\nオブジェクトのパラメータにcountを追加するのではなく、ひとつ階層を増やして、dataに元のオブジェクトを、count にカウント数を入れるようにした。\n\nlistに渡されるオブジェクトは同じ型を持ったオブジェクトである想定\n\n\nreduceでカウントして、最後mapで整形\n\n\n      \n        \n        export const groupBy = <T, K extends keyof T>(\n  list: T[],\n ...",
+          "link": "https://zenn.dev/sbleru/articles/450d98407312ba",
+          "publishedOn": "2021-09-23T09:11:14.000Z",
+          "wordCount": 101,
+          "title": "jsでgroup byするメモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BRmDxPaq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B6%25E3%2582%258C%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:js%25E3%2581%25A7group%2520by%25E3%2581%2599%25E3%2582%258B%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODYzMjcyMGI3ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/terrierscript/articles/2021-09-16-expo-ota-with-publish-set",
+          "author": "terrierscript",
+          "description": "Expoはビルドをサーバーで行ってくれたり、React nativeにまつわる様々な問題を対処してくれるとても良いツールだ。\nExpoにはOTAの機能もついており、デフォルトで動作するようになっているが、若干便利さが重視されており、プロダクション向けに使うには色々考えることが必要だった。\nexpoをオレオレバージョニングしながら色々やりくりしていたが、やはりリリースサイクルを早めたくなるとOTAをちゃんと使っていきたいという気持ちになったので考えた。\nなお、ExpoのOTAの基礎的な部分については解説を省略している箇所があるため、詳細な点など知りたい場合は下記の記事などが手助けになるだろ...",
+          "link": "https://zenn.dev/terrierscript/articles/2021-09-16-expo-ota-with-publish-set",
+          "publishedOn": "2021-09-23T04:55:05.000Z",
+          "wordCount": 369,
+          "title": "expoのOTAを--no-publishとpublish:setを使ってなるべく安全に扱う",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--QSzj_PYG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:terrierscript%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:expo%25E3%2581%25AEOTA%25E3%2582%2592--no-publish%25E3%2581%25A8publish%253Aset%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25AA%25E3%2582%258B%25E3%2581%25B9%25E3%2581%258F%25E5%25AE%2589%25E5%2585%25A8%25E3%2581%25AB%25E6%2589%25B1%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZGE3MmMyMTRjZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/4498ad794002c3",
+          "author": "空雲",
+          "description": "１．getInitialPropsの終焉\n\n 1.1. Next.jsではgetInitialPropsのSSRが終わったことにされている\nNext.jsの9.3以降、getStaticPropsやgetServerSidePropsが登場し、現在ではgetInitialPropsを使ったSSRが終焉を迎えたかのような風潮となっています。しかしgetStaticPropsとgetServerSidePropsは、実際の所で大きな欠点を抱えています。\ngetStaticPropsはSSG前提で使うなら全く問題ありません。しかし、ある程度の更新頻度をもつシステムやリアルタイムな編集機能と...",
+          "link": "https://zenn.dev/sora_kumo/articles/4498ad794002c3",
+          "publishedOn": "2021-09-23T04:39:31.000Z",
+          "wordCount": 379,
+          "title": "Next.jsでSSRを限界まで簡単に実現する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--P1V4DtNj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7SSR%25E3%2582%2592%25E9%2599%2590%25E7%2595%258C%25E3%2581%25BE%25E3%2581%25A7%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25AB%25E5%25AE%259F%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/7f38cab4792446",
+          "author": "空雲",
+          "description": "※ ジョーク記事です\n※ ジョークですが、プログラムはきちんと動きます\nソースコード https://github.com/SoraKumo001/next-context\n動作確認 https://next-context-ten.vercel.app/\n\n コンテキストについて\n下記の公式ドキュメントでコンテキストはこのように説明されています。\n\nコンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。\n\nつまり、ツリー内で有効となるデータ領域です。\nそれ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...",
+          "link": "https://zenn.dev/sora_kumo/articles/7f38cab4792446",
+          "publishedOn": "2021-09-23T00:48:25.000Z",
+          "wordCount": 426,
+          "title": "React コンテキストの真の使い方（useContext）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--neIUJTXG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E7%259C%259F%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25EF%25BC%2588useContext%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hk_206/articles/a4abda20d8b14d",
+          "author": "hokuto",
+          "description": "TypeScript？\n\n 型付けできるJavaScript\n\n      \n        \n        let age: number = 0;\n\nage = 28;\n\nage = \"ぞんぞん\"; //エラー\n\n\n      \n      \n いろんな型\n\n\n\n型\n意味\n例\n\n\n\n\nstring\n文字列\n'ぞんぞん'\n\n\nnumber\n数値\n28\n\n\nboolean\n真偽値\ntrue\n\n\n[]\n配列\nstring[] → ['aaa', 'bbb', 'ccc']\n\n\nany\n制約なし\n\n\n\n\n\n オブジェクトの型は？\n\n 普通に書くと読みづらい、管理しづらい🥺(ぱおん)\n\n...",
+          "link": "https://zenn.dev/hk_206/articles/a4abda20d8b14d",
+          "publishedOn": "2021-09-23T00:08:50.000Z",
+          "wordCount": 201,
+          "title": "【TypeScript】type派？interface派？僕はもちろんtype派",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--mKs4JZwF--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hokuto%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590TypeScript%25E3%2580%2591type%25E6%25B4%25BE%25EF%25BC%259Finterface%25E6%25B4%25BE%25EF%25BC%259F%25E5%2583%2595%25E3%2581%25AF%25E3%2582%2582%25E3%2581%25A1%25E3%2582%258D%25E3%2582%2593type%25E6%25B4%25BE%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzJmZGU0YTBhOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yutaro_elk/articles/c65052449a6212",
+          "author": "yutaro_elk",
+          "description": "三行まとめ\n\nnpm i aspida\n\ntype DefineMethods<T extends AspidaMethods> = T;を定義\n\nDefineMethodsでより型安全な世界\n\n\n frourio はとっても型安全\nfrourio は Methods として API の型を一つだけ定義すればフロントエンド、バックエンド間の疎通を TypeScript で静的に検査できるフルスタックフレームワークです。\n例えば、\n\n      \n        index.ts\n        export type Methods = {\n  get: {\n    re...",
+          "link": "https://zenn.dev/yutaro_elk/articles/c65052449a6212",
+          "publishedOn": "2021-09-22T23:35:08.000Z",
+          "wordCount": 180,
+          "title": "frourio の Methods を型安全に定義する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--N7tJI1Ep--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yutaro_elk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:frourio%2520%25E3%2581%25AE%2520Methods%2520%25E3%2582%2592%25E5%259E%258B%25E5%25AE%2589%25E5%2585%25A8%25E3%2581%25AB%25E5%25AE%259A%25E7%25BE%25A9%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fN2UxNDI1YzAwZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/minguu42/articles/20210922-nextjs-firebase-v9",
           "author": "minguu",
@@ -2860,6 +2977,34 @@
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
         {
+          "id": "https://zenn.dev/masa0317/articles/3f09fce580302e",
+          "author": "masa",
+          "description": "去年の末から開発しているWEBアプリでVue3を利用してます。\nここ数年のWEB開発はずっとReactを使っていましたが、色々と不満が蓄積していたので、思い切って他のフレームワークを利用することにしました。\nそして、色々なフレームワークを検証して分かったのは、\nいまや、React以外のフレームワークでもフロント開発は問題ない\nということでした。\nこの記事では、ReactからVue3に移行した理由、ReactからVue3にして良かった点と悪かった点を記載します。\n\n React\nフロントの開発でReactを使うのは、ここ数年のフロントエンドでは最も標準的な選択です。\n私が初めてReactに...",
+          "link": "https://zenn.dev/masa0317/articles/3f09fce580302e",
+          "publishedOn": "2021-09-24T00:29:23.000Z",
+          "wordCount": 170,
+          "title": "ReactからVue3に移行した理由と感想",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--sjg7OjNE--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:masa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25E3%2581%258B%25E3%2582%2589Vue3%25E3%2581%25AB%25E7%25A7%25BB%25E8%25A1%258C%25E3%2581%2597%25E3%2581%259F%25E7%2590%2586%25E7%2594%25B1%25E3%2581%25A8%25E6%2584%259F%25E6%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGU0NzQ4MDhiMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/wataru72v/books/wataru72v-vuepress-portfolio",
+          "author": "wataru72v",
+          "description": "Vuepressでポートフォリオ作成ハンズオン",
+          "link": "https://zenn.dev/wataru72v/books/wataru72v-vuepress-portfolio",
+          "publishedOn": "2021-09-23T15:40:12.000Z",
+          "wordCount": 22,
+          "title": "Vuepressでポートフォリオ作成ハンズオン",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zw88_1Da--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9jM2U1OTIxZGM5LmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
           "id": "https://zenn.dev/karaageeeee/articles/80dff29498e925",
           "author": "からあげ",
           "description": "Let's try\n\n テンプレ生成ツール\nvue-web-extensionというツールを使うと、Vue.jsを使ったChrome Extensionのテンプレを生成することができます。\nvueのcliをインストールしていない場合はまず以下のコマンドを実行。\n\n      \n        \n        npm i -g @vue/cli-init\n\n\n      \n      次のコマンドで、Chrome Extensionのテンプレを生成\n\n      \n        \n        vue init kocal/vue-web-extension helloworld...",
@@ -3261,34 +3406,6 @@
           "title": "vuetify v2の環境をDockerで気軽に作る",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--11VzaZxP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:moroshi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuetify%2520v2%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592Docker%25E3%2581%25A7%25E6%25B0%2597%25E8%25BB%25BD%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWYyODk0MjM2Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525",
-          "author": "UedaTakeyuki",
-          "description": "なにがしたいのか\n同じ単語の複数の辞書へのリンクみたいなページを作る時に\n\n大概の辞書って検索 URL にパラメタで単語を渡す感じの API なので\nfrontmatter で単語を宣言して\n\n      \n        \n        ---\npv: get in\n---\n\n\n      \n      あとは {{$frontmatter.pv}} とかで使い回せれば楽です\n\n ところが\n実際にやってみると、こんなリンクで\n\n[英辞郎](https://eow.alc.co.jp/search?q={{$frontmatter.pv}})\n\n一見、いい感じに見えるのですが\n\n全...",
-          "link": "https://zenn.dev/uedatakeyuki/articles/c42d7852b2a525",
-          "publishedOn": "2021-08-25T05:36:55.000Z",
-          "wordCount": 51,
-          "title": "vuepress でリンクの url に frontmatter を混ぜる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--O-IoV8CR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:UedaTakeyuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuepress%2520%25E3%2581%25A7%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2581%25AE%2520url%2520%25E3%2581%25AB%2520frontmatter%2520%25E3%2582%2592%25E6%25B7%25B7%25E3%2581%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o5Zzc0M0lsRjVqeVR6enRySTVUbHhqeTNqMzBFZlBaYmJCaEtoS2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/newburu/articles/7efb9d9f0658a8",
-          "author": "にゅ〜ぶる",
-          "description": "前回は、「rails new」のオプションでVueをインストールしました。\nhttps://zenn.dev/newburu/articles/e21629af475d69\nが・・・Vue2になるようで、Vue3を使うためには、手動でVue3のインストールが必要とのことでした。\nという事で、やり直します！！\n\n rails newでWebアプリケーションを作成\n前回同様、まずは「rails new」します。\n\n      \n        \n        $ rails new -d mysql hello-vue3\n$ rails db:create\n$ rails s\n\n\n    ...",
-          "link": "https://zenn.dev/newburu/articles/7efb9d9f0658a8",
-          "publishedOn": "2021-08-24T13:54:05.000Z",
-          "wordCount": 176,
-          "title": "RailsでHelloVue3!!!",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ELpypaBV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2582%2585%25E3%2580%259C%25E3%2581%25B6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Rails%25E3%2581%25A7HelloVue3%2521%2521%2521%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lTZVE3RGdOWUEyQ0hQWUFJalp1dGpxSHJIVHhTTjVoMVhZQWN4a3c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
