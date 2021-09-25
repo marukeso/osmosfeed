@@ -65,6 +65,118 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/ryoka419319/articles/4518625e1b5b74",
+          "author": "ITEEK 上川",
+          "description": "はじめに\n前回、Next.js について調べてみたので、今回はよく使うアカウント認証について、アプリケーションを作ってみようと思います。\nNext.js を開発している Vercel が作っている NextAuth.js を使用します。\n\n アプリを作ってみる\nsample という名前でアカウント認証付きのアプリケーションを作成します。\n\n 1. まずは、Hello world！\n\n      \n        \n        $ yarn create next-app --typescript\n$ cd sample\n$ yarn add next-auth\n$ yarn a...",
+          "link": "https://zenn.dev/ryoka419319/articles/4518625e1b5b74",
+          "publishedOn": "2021-09-24T12:46:52.000Z",
+          "wordCount": 331,
+          "title": "Next.js で SNS アカウント認証！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--AP_9owfQ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ITEEK%2520%25E4%25B8%258A%25E5%25B7%259D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25A7%2520SNS%2520%25E3%2582%25A2%25E3%2582%25AB%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%2588%25E8%25AA%258D%25E8%25A8%25BC%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dIb1d3OGQ2eEFsUjVlamxTNy13Q1BhdVBPUkxpUFp0YVdDblJ4Tmc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ryoka419319/articles/82e92b209a9fc9",
+          "author": "ITEEK 上川",
+          "description": "はじめに\nNext.js は本番環境のための React フレームワークで主に以下のような特徴があります。\n\n画像最適化\n国際化ルーティング\nNext.js アナリティクス\nゼロコンフィグ\nハイブリッド SSG・SSR\nISR（Incremental Static Regeneration）\nTypeScript サポート\nファスト・リフレッシュ\nファイルシステムルート\nAPI ルーティング\nビルトイン CSS サポート\nコード分割とバンドリング\n\n今回は、これらの特徴について、説明していきたいと思います。\n\n 特徴\n\n 画像最適化\nhttps://nextjs.org/docs/...",
+          "link": "https://zenn.dev/ryoka419319/articles/82e92b209a9fc9",
+          "publishedOn": "2021-09-24T11:09:27.000Z",
+          "wordCount": 477,
+          "title": "React の フレームワーク、Next.js に入門！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5iqKDwdY--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ITEEK%2520%25E4%25B8%258A%25E5%25B7%259D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%25E3%2581%25AE%2520%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%25AF%25E3%2580%2581Next.js%2520%25E3%2581%25AB%25E5%2585%25A5%25E9%2596%2580%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dIb1d3OGQ2eEFsUjVlamxTNy13Q1BhdVBPUkxpUFp0YVdDblJ4Tmc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/oubakiou/books/0e7ab2e09ebe1c",
+          "author": "oubakiou",
+          "description": "クリスマスまでには出版される予定になっている",
+          "link": "https://zenn.dev/oubakiou/books/0e7ab2e09ebe1c",
+          "publishedOn": "2021-09-24T03:47:24.000Z",
+          "wordCount": 31,
+          "title": "出来る100%TypeScript   作って学ぶNext.js + GraphQL + Prisma(下) - GCP編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ClxhHh4o--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9kMjMyMTBmMTYwLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/oubakiou/books/181b750dfb6838",
+          "author": "oubakiou",
+          "description": "クライアントサイドでは広く普及したTypeScriptですが、その一方サーバーサイドでは比較すると緩やかな採用拡大に留まっています。もしも両方を一貫してTypeScriptでの開発が出来たら？\n\n本書ではTypeScriptの強みである静的型の力を最大限活かした構成でのアプリケーション開発について、SNS開発を題材に学べる実践的なチュートリアルです。",
+          "link": "https://zenn.dev/oubakiou/books/181b750dfb6838",
+          "publishedOn": "2021-09-24T03:46:49.000Z",
+          "wordCount": 22,
+          "title": "出来る100%TypeScript  作って学ぶNext.js + GraphQL + Prisma(上) - GCP編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--uYdqMh0g--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9jOTQzZjk0NmVlLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/takepepe/articles/form-with-useswr",
+          "author": "Takepepe",
+          "description": "管理画面のような CRUD 中心のプロダクトでは Form と CSR をよく利用します。SWR は開発体験に優れたライブラリですが、Form に利用する場合注意点があるので、備忘録として共有します（広義の SWR と紛わない様に、タイトルはuseSWRとしました）\n\n 視覚的安定性とキャッシュ\nはじめに、SWR や React Query を利用するモチベーションについて言及します。SWR は一意のキーに紐づいたキャッシュが無い場合、loading fallback を表示します。fallback 表示はたとえ一瞬であっても「チカっ」とした表示になるため「スムーズではない印象」を利用者...",
+          "link": "https://zenn.dev/takepepe/articles/form-with-useswr",
+          "publishedOn": "2021-09-24T03:03:28.000Z",
+          "wordCount": 599,
+          "title": "useSWR で作る Form 画面の備忘録",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--G8Pd0w9A--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takepepe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:useSWR%2520%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%2520Form%2520%25E7%2594%25BB%25E9%259D%25A2%25E3%2581%25AE%25E5%2582%2599%25E5%25BF%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dpejh1QmdoVHJXUHhiRlRFdm9IVHJ5WDNhRkdmdlJCLUtVVTl6SUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/k_kazukiiiiii/articles/ea6e1135c2af3d",
+          "author": "Kimura Kazuki",
+          "description": "やりたいこと\n.svg を .tsx の拡張子に変換したい\n\n 技術選定\n\nReact\nTypeScript\nNext.js\n\n\n 実現方法\nSVGRというツールを用いることで簡単に実現できた\n\n 前提知識\n\n SVGRとは何か？\n\n      \n        \n        svgファイル から Reactコンポーネント にコマンド1つで簡単に変換できる CLI ツール\n\n\n      \n      \n SVGR の基本構成\n\n      \n        \n        svgファイル（.svg） → SVGR → React Component（.jsx | .tsx）\n...",
+          "link": "https://zenn.dev/k_kazukiiiiii/articles/ea6e1135c2af3d",
+          "publishedOn": "2021-09-23T20:48:45.000Z",
+          "wordCount": 319,
+          "title": "svgファイルをReactコンポーネントに変換する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--oXF0_pL---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kimura%2520Kazuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:svg%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592React%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E5%25A4%2589%25E6%258F%259B%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzYwMmFkYjExZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yun8boo/articles/74e0f6994a93c9",
+          "author": "yun8boo",
+          "description": "Supabaseとは\n公式ドキュメント見てもらえればなと。\n\n Storage Usage\nStorageの基本的な操作をざっくりメモ程度に残す。\n※supabase clientの初期化などは行っていることを前提\n\n アップロード\nfrom.upload()\ne.g. avatarsバケットにアップロード\n\n      \n        \n        const avatarFile = event.target.files[0]\nconst { data, error } = await supabase\n  .storage\n  .from('avatars')\n  .up...",
+          "link": "https://zenn.dev/yun8boo/articles/74e0f6994a93c9",
+          "publishedOn": "2021-09-23T14:41:39.000Z",
+          "wordCount": 149,
+          "title": "Supabase Storage Usage Memo",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--hUMmbw4B--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yun8boo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Supabase%2520Storage%2520Usage%2520Memo%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMGM0MGY5ZmIyNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sora_kumo/articles/4498ad794002c3",
+          "author": "空雲",
+          "description": "１．getInitialPropsの終焉\n\n 1.1. Next.jsではgetInitialPropsのSSRが終わったことにされている\nNext.jsの9.3以降、getStaticPropsやgetServerSidePropsが登場し、現在ではgetInitialPropsを使ったSSRが終焉を迎えたかのような風潮となっています。しかしgetStaticPropsとgetServerSidePropsは、実際の所で大きな欠点を抱えています。\ngetStaticPropsはSSG前提で使うなら全く問題ありません。しかし、ある程度の更新頻度をもつシステムやリアルタイムな編集機能と...",
+          "link": "https://zenn.dev/sora_kumo/articles/4498ad794002c3",
+          "publishedOn": "2021-09-23T04:39:31.000Z",
+          "wordCount": 379,
+          "title": "Next.jsでSSRを限界まで簡単に実現する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--P1V4DtNj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7SSR%25E3%2582%2592%25E9%2599%2590%25E7%2595%258C%25E3%2581%25BE%25E3%2581%25A7%25E7%25B0%25A1%25E5%258D%2598%25E3%2581%25AB%25E5%25AE%259F%25E7%258F%25BE%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/sora_kumo/articles/7f38cab4792446",
           "author": "空雲",
           "description": "※ ジョーク記事です\n※ ジョークですが、プログラムはきちんと動きます\nソースコード https://github.com/SoraKumo001/next-context\n動作確認 https://next-context-ten.vercel.app/\n\n コンテキストについて\n下記の公式ドキュメントでコンテキストはこのように説明されています。\n\nコンテクストは各階層で手動でプロパティを下に渡すことなく、コンポーネントツリー内でデータを渡す方法を提供します。\n\nつまり、ツリー内で有効となるデータ領域です。\nそれ以上を期待すると残念なことになるので、とにかくタダのデータ領域だと思いまし...",
@@ -833,20 +945,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/uttk/articles/f48fc75120f018",
-          "author": "uttk",
-          "description": "この記事について\nFirebase AuthenticationとNext.jsのgetServerSideProps()を使って、Cookieを使ったセッション管理方法を、この場を借りて共有したいと思います💪\nまた、この記事の内容は基本的に以下の記事の内容を踏襲したものとなっています。そのため、内容やソースコードに引用などが含まれますので、予めご了承ください🙇‍♂️\nhttps://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja\nそれでは行きましょう🛴\n\n 環境構築\n\nこの記事ではFirebaseの環境構築については...",
-          "link": "https://zenn.dev/uttk/articles/f48fc75120f018",
-          "publishedOn": "2021-08-26T08:41:39.000Z",
-          "wordCount": 1088,
-          "title": "Next.jsとFirebaseでCookieを使った認証処理を実装する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--1XXPVF4i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uttk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A8Firebase%25E3%2581%25A7Cookie%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E8%25AA%258D%25E8%25A8%25BC%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzdkM2Q1NTAxNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -918,6 +1016,76 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/ryoka419319/articles/4518625e1b5b74",
+          "author": "ITEEK 上川",
+          "description": "はじめに\n前回、Next.js について調べてみたので、今回はよく使うアカウント認証について、アプリケーションを作ってみようと思います。\nNext.js を開発している Vercel が作っている NextAuth.js を使用します。\n\n アプリを作ってみる\nsample という名前でアカウント認証付きのアプリケーションを作成します。\n\n 1. まずは、Hello world！\n\n      \n        \n        $ yarn create next-app --typescript\n$ cd sample\n$ yarn add next-auth\n$ yarn a...",
+          "link": "https://zenn.dev/ryoka419319/articles/4518625e1b5b74",
+          "publishedOn": "2021-09-24T12:46:52.000Z",
+          "wordCount": 331,
+          "title": "Next.js で SNS アカウント認証！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--AP_9owfQ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ITEEK%2520%25E4%25B8%258A%25E5%25B7%259D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%25E3%2581%25A7%2520SNS%2520%25E3%2582%25A2%25E3%2582%25AB%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%2588%25E8%25AA%258D%25E8%25A8%25BC%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dIb1d3OGQ2eEFsUjVlamxTNy13Q1BhdVBPUkxpUFp0YVdDblJ4Tmc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/676d88675e4e74",
+          "author": "azukiazusa",
+          "description": "<script setup> 構文とは\nVue.js 3.2 から <script setup> 構文が使えるようになりました。これは単一ファイルコンポーネント(SFC)内で Composition API を使用している際に使える糖衣構文です。下記のようなメリットを得ることができ、公式からも使用が推奨されています。\n\nポイラープレートが減りより簡潔になる\nprops と emit を定義する際に純粋な TypeScript の構文が使える\nランタイムのパフォーマンスが向上する\nIDE のパフォーマンスが向上する\n\n\n 基本的な構文\n<script se...",
+          "link": "https://zenn.dev/azukiazusa/articles/676d88675e4e74",
+          "publishedOn": "2021-09-24T08:15:03.000Z",
+          "wordCount": 785,
+          "title": "【Vue.js 3.2】`<script setup>` 構文がすごくすごい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8tj9fRo8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Vue.js%25203.2%25E3%2580%2591%2560%253Cscript%2520setup%253E%2560%2520%25E6%25A7%258B%25E6%2596%2587%25E3%2581%258C%25E3%2581%2599%25E3%2581%2594%25E3%2581%258F%25E3%2581%2599%25E3%2581%2594%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/oubakiou/books/0e7ab2e09ebe1c",
+          "author": "oubakiou",
+          "description": "クリスマスまでには出版される予定になっている",
+          "link": "https://zenn.dev/oubakiou/books/0e7ab2e09ebe1c",
+          "publishedOn": "2021-09-24T03:47:24.000Z",
+          "wordCount": 31,
+          "title": "出来る100%TypeScript   作って学ぶNext.js + GraphQL + Prisma(下) - GCP編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ClxhHh4o--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9kMjMyMTBmMTYwLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/oubakiou/books/181b750dfb6838",
+          "author": "oubakiou",
+          "description": "クライアントサイドでは広く普及したTypeScriptですが、その一方サーバーサイドでは比較すると緩やかな採用拡大に留まっています。もしも両方を一貫してTypeScriptでの開発が出来たら？\n\n本書ではTypeScriptの強みである静的型の力を最大限活かした構成でのアプリケーション開発について、SNS開発を題材に学べる実践的なチュートリアルです。",
+          "link": "https://zenn.dev/oubakiou/books/181b750dfb6838",
+          "publishedOn": "2021-09-24T03:46:49.000Z",
+          "wordCount": 22,
+          "title": "出来る100%TypeScript  作って学ぶNext.js + GraphQL + Prisma(上) - GCP編",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--uYdqMh0g--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9jOTQzZjk0NmVlLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/k_kazukiiiiii/articles/ea6e1135c2af3d",
+          "author": "Kimura Kazuki",
+          "description": "やりたいこと\n.svg を .tsx の拡張子に変換したい\n\n 技術選定\n\nReact\nTypeScript\nNext.js\n\n\n 実現方法\nSVGRというツールを用いることで簡単に実現できた\n\n 前提知識\n\n SVGRとは何か？\n\n      \n        \n        svgファイル から Reactコンポーネント にコマンド1つで簡単に変換できる CLI ツール\n\n\n      \n      \n SVGR の基本構成\n\n      \n        \n        svgファイル（.svg） → SVGR → React Component（.jsx | .tsx）\n...",
+          "link": "https://zenn.dev/k_kazukiiiiii/articles/ea6e1135c2af3d",
+          "publishedOn": "2021-09-23T20:48:45.000Z",
+          "wordCount": 319,
+          "title": "svgファイルをReactコンポーネントに変換する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--oXF0_pL---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kimura%2520Kazuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:svg%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592React%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E5%25A4%2589%25E6%258F%259B%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzYwMmFkYjExZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/gari8/articles/af95c50a2b688b",
           "author": "gari8",
@@ -2681,76 +2849,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sqer/articles/d9d51bbd4b410418cde3",
-          "author": "sqer",
-          "description": "目次\n\n目次\n\nはじめに\n\nany使っていませんか？\n対象読者\n今回の目標\n\n\nElementについて\nEventについて\n\n実践！TypeScriptで型付けする\n\ntyped-query-selectorを使う\ntarget.valueに型をつける\n\n\nまとめ\nリンク\n\n\n はじめに\n\n any使っていませんか？\n\nidが\"xxx\"のinput要素に入力された値を取得してみてください。\n\nこの要件を w3schools のサンプルコードをコピペして実装しようとすると、\n\n      \n        \n        document.getElementById(\"xxx\")....",
-          "link": "https://zenn.dev/sqer/articles/d9d51bbd4b410418cde3",
-          "publishedOn": "2021-08-26T12:03:15.000Z",
-          "wordCount": 232,
-          "title": "ElementやEventに型をつけよう",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--XBmn78hR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:sqer%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Element%25E3%2582%2584Event%25E3%2581%25AB%25E5%259E%258B%25E3%2582%2592%25E3%2581%25A4%25E3%2581%2591%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWZmNzNmM2U4NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/uttk/articles/f48fc75120f018",
-          "author": "uttk",
-          "description": "この記事について\nFirebase AuthenticationとNext.jsのgetServerSideProps()を使って、Cookieを使ったセッション管理方法を、この場を借りて共有したいと思います💪\nまた、この記事の内容は基本的に以下の記事の内容を踏襲したものとなっています。そのため、内容やソースコードに引用などが含まれますので、予めご了承ください🙇‍♂️\nhttps://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja\nそれでは行きましょう🛴\n\n 環境構築\n\nこの記事ではFirebaseの環境構築については...",
-          "link": "https://zenn.dev/uttk/articles/f48fc75120f018",
-          "publishedOn": "2021-08-26T08:41:39.000Z",
-          "wordCount": 1088,
-          "title": "Next.jsとFirebaseでCookieを使った認証処理を実装する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--1XXPVF4i--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uttk%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A8Firebase%25E3%2581%25A7Cookie%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E8%25AA%258D%25E8%25A8%25BC%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzdkM2Q1NTAxNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nitaking/articles/16a90535f3d535",
-          "author": "nitaking",
-          "description": "Answer\n\n      \n        \n        var str = 'apple_mango_banana';\nvar arr = ['apple','banana'];\n\nvar isEvery = arr.every(item => str.includes(item));\n\nconsole.log(isEvery);\n\n\n      \n      \n Refs\nhttps://stackoverflow.com/a/40649736/8023331",
-          "link": "https://zenn.dev/nitaking/articles/16a90535f3d535",
-          "publishedOn": "2021-08-26T07:55:52.000Z",
-          "wordCount": 23,
-          "title": "１つの文字列に、配列の文字列が全て含まれているか",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Zb2vPNrl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nitaking%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25EF%25BC%2591%25E3%2581%25A4%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2581%25AB%25E3%2580%2581%25E9%2585%258D%25E5%2588%2597%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2581%258C%25E5%2585%25A8%25E3%2581%25A6%25E5%2590%25AB%25E3%2581%25BE%25E3%2582%258C%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pDTWQ2V3JtNEFxOTluQ2xBTXQ1NHVJZTBPdnVYX05Fd1BZNElLUnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/ichigo_dev/articles/540ebe464a6463674ea0",
-          "author": "ichigo",
-          "description": "Node.jsにおけるモジュールシステム\nモジュールシステムとは外部ファイル（モジュール）を読み込むときの仕様である。\nNode.jsで使えるモジュールシステムとして、CJSとESMがある、現在はCJSがデフォルトになっている。\n拡張子が.cjsのものはCJS。\n拡張子が.mjsのものはECM。\n拡張子が.jsのファイルは、package.jsonのtypeフィールドの値によって判断される。\n具体的にはtypeがmoduleであれば.jsファイルがECMとして扱われる。commonjsにするとCJSとして扱われる。記述しない場合もCJSとして扱われる。\n\n TypeScript\nts...",
-          "link": "https://zenn.dev/ichigo_dev/articles/540ebe464a6463674ea0",
-          "publishedOn": "2021-08-26T02:23:05.000Z",
-          "wordCount": 104,
-          "title": "Node.jsにおけるモジュールシステム",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--PHEr3aVJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:ichigo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Node.js%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dJbjVqVFhfRGlKc2tiUjVzUkxXVnNUby03dFRWTkpCcUFvMWlLPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/mo_ri_regen/articles/nodejs-with-typescript",
-          "author": "モーリー",
-          "description": "TypeScript で書かれている場合、一度 JS に変換(トランスパイル)してから 実行する必要があります。\n\n 実行方法\n\n\nTypeScript のインストール\n\n      \n        \n        # npm\nnpm i -D typescript\n\n# yarn\nyarn add typescript --dev\n\n\n      \n      \n\nコンパイル\n下記コマンドを入力することで(エラーがなければ) hoge.js が生成されます。\n\n      \n        \n        tsc hoge.ts\n\n\n      \n      \n\n実行\nhoge....",
-          "link": "https://zenn.dev/mo_ri_regen/articles/nodejs-with-typescript",
-          "publishedOn": "2021-08-25T23:45:47.000Z",
-          "wordCount": 60,
-          "title": "TypeScriptで書かれたJSをNode.js上で実行する方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--D0B0UNIM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25A2%25E3%2583%25BC%25E3%2583%25AA%25E3%2583%25BC%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258B%25E3%2582%258C%25E3%2581%259FJS%25E3%2582%2592Node.js%25E4%25B8%258A%25E3%2581%25A7%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTE4MDU3NTdkNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2940,34 +3038,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/shougo/articles/ddc-vim-beta",
-          "author": "Shougo",
-          "description": "始めに\nここ数ヵ月力を入れてddc.vimの開発をしていて、ようやく一通りの機能がそろいました\nので、広くユーザーに使ってもらうフェーズに進めたいと考えています。\nユーザーからの要望やバグ報告に対応が終わってから正式版の1.0となりますのでよろし\nくお願いします。\n\n ddc.vim の特徴\n\n Vim8/neovim 両対応\ndeoplete.nvimでもvim-hug-neovim-rpcを用いることによりVimに対応していました。\nしかしインストールが煩雑になる、neovimと比較してパフォーマンスに問題がある、安\n定性への問題がありました。\nddc.vimではdenops.v...",
-          "link": "https://zenn.dev/shougo/articles/ddc-vim-beta",
-          "publishedOn": "2021-08-26T11:19:39.000Z",
-          "wordCount": 392,
-          "title": "新世代の自動補完プラグイン ddc.vim",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--0Cdb6vk0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Shougo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E6%2596%25B0%25E4%25B8%2596%25E4%25BB%25A3%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E8%25A3%259C%25E5%25AE%258C%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%2520ddc.vim%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2llTXlqT3huMG12REN6SFFNMWZNeGlYd3Z4dmw5cVk1ZzVBN2lWPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/bun913/articles/f18e0d37ece27b",
-          "author": "bun",
-          "description": "なんちゃってvimmerのbunです。\n私は普段 nvim と VSCode をエディターとして利用しております。\nVSCodeに関しては neovim 拡張を利用しています。\n（使い始めるための記事を以前書きました）\nhttps://zenn.dev/bun913/articles/02785aed0ba50e\nvimにおいてファイル横断検索や置換をするには vimgrepを利用すれば良いのですが\nVSCodeのように自分で対象のファイルを選んだりするのを楽にしたいなぁ と考えておりました。\n↓以下のような形で。また、vimなのでマウスを使わずに使用したい\n\nなお私の環境は以下の通りで...",
-          "link": "https://zenn.dev/bun913/articles/f18e0d37ece27b",
-          "publishedOn": "2021-08-25T13:33:38.000Z",
-          "wordCount": 145,
-          "title": "nvimでVSCodeみたいなファイル横断検索・置換がしたい",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--gJsqSR3l--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:bun%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:nvim%25E3%2581%25A7VSCode%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E3%2581%25AA%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E6%25A8%25AA%25E6%2596%25AD%25E6%25A4%259C%25E7%25B4%25A2%25E3%2583%25BB%25E7%25BD%25AE%25E6%258F%259B%25E3%2581%258C%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzE0ZWEwMTIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2976,6 +3046,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/azukiazusa/articles/676d88675e4e74",
+          "author": "azukiazusa",
+          "description": "<script setup> 構文とは\nVue.js 3.2 から <script setup> 構文が使えるようになりました。これは単一ファイルコンポーネント(SFC)内で Composition API を使用している際に使える糖衣構文です。下記のようなメリットを得ることができ、公式からも使用が推奨されています。\n\nポイラープレートが減りより簡潔になる\nprops と emit を定義する際に純粋な TypeScript の構文が使える\nランタイムのパフォーマンスが向上する\nIDE のパフォーマンスが向上する\n\n\n 基本的な構文\n<script se...",
+          "link": "https://zenn.dev/azukiazusa/articles/676d88675e4e74",
+          "publishedOn": "2021-09-24T08:15:03.000Z",
+          "wordCount": 785,
+          "title": "【Vue.js 3.2】`<script setup>` 構文がすごくすごい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--8tj9fRo8--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Vue.js%25203.2%25E3%2580%2591%2560%253Cscript%2520setup%253E%2560%2520%25E6%25A7%258B%25E6%2596%2587%25E3%2581%258C%25E3%2581%2599%25E3%2581%2594%25E3%2581%258F%25E3%2581%2599%25E3%2581%2594%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yamabiko/articles/jetstream-socialite",
+          "author": "やまびこ",
+          "description": "はじめに\nこの記事を読むと、Laravel JetstreamでSocialiteによりSNS認証できるようになります。\nまた、Jetstream全ての機能でパスワード確認を必要としないシングルサイオンを実現できるようになります。\nそれだけではなく、SNS認証後に二段階認証をすることが可能になります。\n\n 対象となる読者\nSocialiteの知識があり、Jetstreamに導入したい方向け\n\n 前提\n\nJetstreamのフロントエンド実装としてVueを使用しています\nチーム機能を有効化しています\n多言語化(i18n)対応済みです\nこの記事ではSNSの例としてGitHub、GitLa...",
+          "link": "https://zenn.dev/yamabiko/articles/jetstream-socialite",
+          "publishedOn": "2021-09-24T06:26:10.000Z",
+          "wordCount": 1449,
+          "title": "Laravel Jetstream+SocialiteでSNS認証",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--YTN8nE5g--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2584%25E3%2581%25BE%25E3%2581%25B3%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Laravel%2520Jetstream%252BSocialite%25E3%2581%25A7SNS%25E8%25AA%258D%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYmFiMDQ1MjY4NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/masa0317/articles/3f09fce580302e",
           "author": "masa",
@@ -3392,20 +3490,6 @@
           "title": "vueで非同期処理をまとめて処理する際のベストプラクティス",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--LfUlgPWb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue%25E3%2581%25A7%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E5%2587%25A6%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AE%25E3%2583%2599%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/moroshi/articles/24a8bd494ee67c",
-          "author": "moroshi",
-          "description": "はじめに\n\n 経緯\nSPA(single page application)をvue.js + vuetifyで作成し、Laravelを作成したAPIサーバーと連携する環境をよく構築する。\nそれと関連して、ちょっとしたクリーンな検証環境をサクッと作りたくなることがあるため、dockerでそれらしい環境を作成しようと思ったのがことの始まり。\n以下、\"それらしい環境\"の作成手順を残す。\n\n 前提\n環境や使うツールは以下のとおり\n\n 環境\n\nWindows 10 Pro 64bit\nDocker Desktop for Windows (on Hyper-V), Version 3.6.0...",
-          "link": "https://zenn.dev/moroshi/articles/24a8bd494ee67c",
-          "publishedOn": "2021-08-26T12:04:56.000Z",
-          "wordCount": 844,
-          "title": "vuetify v2の環境をDockerで気軽に作る",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--11VzaZxP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:moroshi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vuetify%2520v2%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592Docker%25E3%2581%25A7%25E6%25B0%2597%25E8%25BB%25BD%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWYyODk0MjM2Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
