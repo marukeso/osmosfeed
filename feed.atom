@@ -2,10 +2,210 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-25T00:53:59.887Z</updated>
+    <updated>2021-09-26T00:56:31.528Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Next.jsのトレイリングスラッシュ設定により404ページをNetlifyで表示できない場合の対処方法(Typescript)]]></title>
+        <id>https://zenn.dev/t723/articles/f63785a12e3280</id>
+        <link href="https://zenn.dev/t723/articles/f63785a12e3280"/>
+        <updated>2021-09-25T12:29:15.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsのバージョン
+執筆時点(2021/9/25)でのバージョン11.1.2の最新を使っています。
+
+ トレイリングスラッシュ設定とUrlの関係について
+next.config.jsに下記のように記載がある場合はトレイリングスラッシュが設定されています。
+
+      
+        
+        module.exports = {
+  trailingSlash: true,
+}
+
+
+      
+      この設定をしていると/posts/hello.html -> /posts/hello/index.htmlでアクセスできるようになります。
+404ペー...]]></summary>
+        <author>
+            <name>T_723</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsのトレイリングスラッシュ設定により404ページをNetlifyで表示できない場合の対処方法(Typescript)]]></title>
+        <id>https://zenn.dev/t723/articles/f63785a12e3280</id>
+        <link href="https://zenn.dev/t723/articles/f63785a12e3280"/>
+        <updated>2021-09-25T12:29:15.000Z</updated>
+        <summary type="html"><![CDATA[Next.jsのバージョン
+執筆時点(2021/9/25)でのバージョン11.1.2の最新を使っています。
+
+ トレイリングスラッシュ設定とUrlの関係について
+next.config.jsに下記のように記載がある場合はトレイリングスラッシュが設定されています。
+
+      
+        
+        module.exports = {
+  trailingSlash: true,
+}
+
+
+      
+      この設定をしていると/posts/hello.html -> /posts/hello/index.htmlでアクセスできるようになります。
+404ペー...]]></summary>
+        <author>
+            <name>T_723</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Hooks と TypeScript でつくる Todo PWA アプリ]]></title>
+        <id>https://zenn.dev/sprout2000/books/76a279bb90c3f3</id>
+        <link href="https://zenn.dev/sprout2000/books/76a279bb90c3f3"/>
+        <updated>2021-09-25T07:51:49.000Z</updated>
+        <summary type="html"><![CDATA[React と TypeScript でつくるプログレッシブ・ウェブアプリ入門]]></summary>
+        <author>
+            <name>k_touge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recoil入門① 主要機能の説明]]></title>
+        <id>https://zenn.dev/nisitin/articles/42d8afd7203282</id>
+        <link href="https://zenn.dev/nisitin/articles/42d8afd7203282"/>
+        <updated>2021-09-25T06:03:50.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+Recoil歴の短い若造なので間違っている点・こうしたほうがパフォーマンスにも良さそう！などがあればコメントいただけると助かります。
+コメントの数だけスクワットします。冗談です。
+
+ Recoilの環境構築と主要機能
+
+      
+        
+        yarn add recoil
+
+
+      
+      
+ インストールできたけどRecoilって何者なの？？
+Recoilは2020年5月にFacebookによって開発された状態管理ライブラリです。RecoilはReduxと同様にState管理ができるライブラリでもあります。
+状態管理とは何か？？という...]]></summary>
+        <author>
+            <name>ニシティン</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Promise.all で同時に実行される数を制限したい]]></title>
+        <id>https://zenn.dev/tsugitta/articles/concurrency-lock</id>
+        <link href="https://zenn.dev/tsugitta/articles/concurrency-lock"/>
+        <updated>2021-09-25T05:36:58.000Z</updated>
+        <summary type="html"><![CDATA[Promise.all で同時に実行される数を制限したい
+
+
+Promise Pool のようなライブラリがある
+
+
+それに加えて、100 並行で動かすとして突然 100 個の処理を実行し始めるのでなく、少しずつ 100 に向けて増やしていきたい
+
+例えば最小実行間隔を設けるようにしたい
+
+
+
+
+ 実装
+
+      
+        
+        export class ConcurrencyLock {
+  private readonly concurrency: number;
+  private readonly interval: number;
+
+  privat...]]></summary>
+        <author>
+            <name>tsugitta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsで、Apollo Client設定メモ]]></title>
+        <id>https://zenn.dev/knaka0209/articles/36ce5834d2f73e</id>
+        <link href="https://zenn.dev/knaka0209/articles/36ce5834d2f73e"/>
+        <updated>2021-09-25T05:14:25.000Z</updated>
+        <summary type="html"><![CDATA[概要:
+next.js 11 で、Apollo Client設定内容となります
+
+apollo Serverは、事前に設置したり。しておきます
+
+
+
+ 環境
+
+node : 14.17
+next.js : 11.1.2
+@apollo/client: 3.4.13
+
+
+
+ 関連
+https://www.apollographql.com/blog/apollo-client/next-js/next-js-getting-started
+
+
+ 参考のコード
+https://github.com/kuc-arc-f/nextjs11_2apollo
+
+
+next.js / npm の追...]]></summary>
+        <author>
+            <name>knaka Tech-Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 11で、ESLint設定メモ]]></title>
+        <id>https://zenn.dev/knaka0209/articles/53a679da7ba502</id>
+        <link href="https://zenn.dev/knaka0209/articles/53a679da7ba502"/>
+        <updated>2021-09-25T00:57:08.000Z</updated>
+        <summary type="html"><![CDATA[概要:
+next.js 11 で、ESLint 対応されているようでしたので
+試したメモとなります
+
+
+ 環境
+
+node : 14.17
+next.js : 11.1.2
+ESLint : 7.32.0
+
+
+
+ 関連
+https://zenn.dev/thiragi/articles/555a644b35ebc1
+https://qiita.com/howdy39/items/6e2c75861bc5a14b2acf
+
+
+ 参考のコード
+https://github.com/kuc-arc-f/nextjs11_1eslint
+
+.eslintrc.json
+ruleは、適当に設定...]]></summary>
+        <author>
+            <name>knaka Tech-Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでグローバルな型定義ファイルを用意する]]></title>
+        <id>https://zenn.dev/fagai/articles/7f76a3b3b5a415</id>
+        <link href="https://zenn.dev/fagai/articles/7f76a3b3b5a415"/>
+        <updated>2021-09-24T16:26:48.000Z</updated>
+        <summary type="html"><![CDATA[プロジェクトで、同じ型を別のファイルで使うことがあり、共通のinterfaceやtypeをどこかに定義して自動で読みたいなーと思い、調べてみました。
+調べてみると、最初はtypeRootsの話が出てきたのですがどうやら私がしたいものはそうではないようです。(///から始まったりする型定義ファイルを書くのがtypeRoots)
+どうやらtsconfig.jsonのpathsに書けば良いらしい。
+
+      
+        tsconfig.json
+        {
+  "compilerOptions: {
+    "paths": {
+      "*": ["./types/*...]]></summary>
+        <author>
+            <name>fagai</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.js で SNS アカウント認証！]]></title>
         <id>https://zenn.dev/ryoka419319/articles/4518625e1b5b74</id>
@@ -5460,166 +5660,6 @@ tsconfig.jsonにjsxImportSourceパラメーターを追加する。
   "compilerOptions"...]]></summary>
         <author>
             <name>hanetsuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでWeb-WorkerからWeb-Assembly呼び出す]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/5b031d682d3fe2</id>
-        <link href="https://zenn.dev/sora_kumo/articles/5b031d682d3fe2"/>
-        <updated>2021-08-27T12:32:02.000Z</updated>
-        <summary type="html"><![CDATA[Web-WorkerとWeb-Assemblyの連携に関して
-Web-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます
-対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます
-ならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう
-しかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます
-その辺りを簡単に実現するための方法を紹介します
-
- サンプル置き場
-https://github.com/SoraKumo001/next-worker3
-https://next-wo...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsでWeb-WorkerからWeb-Assembly呼び出す]]></title>
-        <id>https://zenn.dev/sora_kumo/articles/5b031d682d3fe2</id>
-        <link href="https://zenn.dev/sora_kumo/articles/5b031d682d3fe2"/>
-        <updated>2021-08-27T12:32:02.000Z</updated>
-        <summary type="html"><![CDATA[Web-WorkerとWeb-Assemblyの連携に関して
-Web-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます
-対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます
-ならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう
-しかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます
-その辺りを簡単に実現するための方法を紹介します
-
- サンプル置き場
-https://github.com/SoraKumo001/next-worker3
-https://next-wo...]]></summary>
-        <author>
-            <name>空雲</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VuetifyのテーマをCSS変数として使用する]]></title>
-        <id>https://zenn.dev/azukiazusa/articles/5a69cbcca75113</id>
-        <link href="https://zenn.dev/azukiazusa/articles/5a69cbcca75113"/>
-        <updated>2021-08-27T09:54:35.000Z</updated>
-        <summary type="html"><![CDATA[結論
-オプションとしてcustomProperties:trueを渡します。
-
-      
-        
-        import Vue from 'vue'
-import Vuetify from 'vuetify/lib'
-
-Vue.use(Vuetify)
-
-export default new Vuetify({
-  theme: {
-    themes: {
-      light: {
-        main: '#D7F9F1',
-        secondary: '#7AA095',
-      }
-    },
-    options: { cu...]]></summary>
-        <author>
-            <name>azukiazusa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js + TypeScriptでimportしたSVGの型がanyになってしまう]]></title>
-        <id>https://zenn.dev/catnose99/articles/49c12f84182bdf</id>
-        <link href="https://zenn.dev/catnose99/articles/49c12f84182bdf"/>
-        <updated>2021-08-27T06:12:13.000Z</updated>
-        <summary type="html"><![CDATA[前提: TypeScript + Next.js + svgrでSVGをインポートする
-自分の関わっているNext.js製アプリケーションでは、svgrを導入することによりSVGを他のReactコンポーネントと同じ形でimportできるようにしています。
-この記事の本筋からそれますが、svgrは以下のようにNext.jsへの導入できます。
-↓ インストール
-
-      
-        
-        $ npm install --save-dev @svgr/webpack
-
-
-      
-      ↓ @svgr/webpackをWebpackのloaderとして設定し...]]></summary>
-        <author>
-            <name>CatNose</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue.js入門]]></title>
-        <id>https://zenn.dev/compiled_oz/articles/a8edecc6c39713</id>
-        <link href="https://zenn.dev/compiled_oz/articles/a8edecc6c39713"/>
-        <updated>2021-08-27T05:53:53.000Z</updated>
-        <summary type="html"><![CDATA[Vue.js is 何？
-Vue.jsはシンプルなMVVM構造のプログレッシブフレームワークで、
-Model、View、ViewModelの３つでアプリケーションを構築する。
-
- データバインディング
-データバインディングを行うにはテンプレートで使用する全てのデータはリアクティブデータとして定義する必要がある
-
- ディレクティブ
-vから始まるViewの要素に付加できる独自の属性のこと。
-v-if、v-show、v-for、v-model、v-bind、v-onなどがある。
-HTMLのクラスを動的に制御したり、イベントをハンドルできる。
-
-v-on:イベントハンドラ
-v-model:双...]]></summary>
-        <author>
-            <name>Oz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vueで非同期処理をまとめて処理する際のベストプラクティス]]></title>
-        <id>https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40</id>
-        <link href="https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40"/>
-        <updated>2021-08-26T23:52:48.000Z</updated>
-        <summary type="html"><![CDATA[vue.jsで非同期処理をまとめて処理したい場合があります。
-普通に1つ1つ処理を待つ場合は async - awaitで良いのですが、それだと1つずつしか処理できないので、どうしても処理が遅くなってしまいます。
-そんな時は、 Promise.all を使えば、複数の非同期処理をまとめて処理しつつ、全ての処理が完了したら次に行きますよー！というふうにできます。
-
-      
-        
-        // 非同期をまとめて処理する
-async process() {
-    await Promise.all([
-        this.methodA(),
-	this.me...]]></summary>
-        <author>
-            <name>おしうみなおき</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blitz.jsでSupabaseのデータベースに接続する]]></title>
-        <id>https://zenn.dev/kijikunnn/articles/0c06902611964d</id>
-        <link href="https://zenn.dev/kijikunnn/articles/0c06902611964d"/>
-        <updated>2021-08-26T15:48:36.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。
-普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。
-今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。
-
-過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...]]></summary>
-        <author>
-            <name>きじくん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blitz.jsでSupabaseのデータベースに接続する]]></title>
-        <id>https://zenn.dev/kijikunnn/articles/0c06902611964d</id>
-        <link href="https://zenn.dev/kijikunnn/articles/0c06902611964d"/>
-        <updated>2021-08-26T15:48:36.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。
-普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。
-今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。
-
-過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...]]></summary>
-        <author>
-            <name>きじくん</name>
         </author>
     </entry>
 </feed>

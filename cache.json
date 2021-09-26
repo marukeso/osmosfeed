@@ -65,6 +65,48 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/t723/articles/f63785a12e3280",
+          "author": "T_723",
+          "description": "Next.jsのバージョン\n執筆時点(2021/9/25)でのバージョン11.1.2の最新を使っています。\n\n トレイリングスラッシュ設定とUrlの関係について\nnext.config.jsに下記のように記載がある場合はトレイリングスラッシュが設定されています。\n\n      \n        \n        module.exports = {\n  trailingSlash: true,\n}\n\n\n      \n      この設定をしていると/posts/hello.html -> /posts/hello/index.htmlでアクセスできるようになります。\n404ペー...",
+          "link": "https://zenn.dev/t723/articles/f63785a12e3280",
+          "publishedOn": "2021-09-25T12:29:15.000Z",
+          "wordCount": 98,
+          "title": "Next.jsのトレイリングスラッシュ設定により404ページをNetlifyで表示できない場合の対処方法(Typescript)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--3lrr1VxR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:T_723%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%25E3%2581%25AE%25E3%2583%2588%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25B9%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258A404%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592Netlify%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25AA%25E3%2581%2584%25E5%25A0%25B4%25E5%2590%2588%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%25E6%2596%25B9%25E6%25B3%2595%2528Typescript%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKd1NNNk9sQ2lfRXh6M2Q1MUh0aHB1ckVsaW9UTnlXWnJQZEltR3g9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/knaka0209/articles/36ce5834d2f73e",
+          "author": "knaka Tech-Blog",
+          "description": "概要:\nnext.js 11 で、Apollo Client設定内容となります\n\napollo Serverは、事前に設置したり。しておきます\n\n\n\n 環境\n\nnode : 14.17\nnext.js : 11.1.2\n@apollo/client: 3.4.13\n\n\n\n 関連\nhttps://www.apollographql.com/blog/apollo-client/next-js/next-js-getting-started\n\n\n 参考のコード\nhttps://github.com/kuc-arc-f/nextjs11_2apollo\n\n\nnext.js / npm の追...",
+          "link": "https://zenn.dev/knaka0209/articles/36ce5834d2f73e",
+          "publishedOn": "2021-09-25T05:14:25.000Z",
+          "wordCount": 143,
+          "title": "Next.jsで、Apollo Client設定メモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--v4C3ECLl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:knaka%2520Tech-Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E3%2580%2581Apollo%2520Client%25E8%25A8%25AD%25E5%25AE%259A%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owZG5pNFJFRHhHSGxQMkJMVGgtMzNaV2hoSjI5RVIxOG14d3FFV2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/knaka0209/articles/53a679da7ba502",
+          "author": "knaka Tech-Blog",
+          "description": "概要:\nnext.js 11 で、ESLint 対応されているようでしたので\n試したメモとなります\n\n\n 環境\n\nnode : 14.17\nnext.js : 11.1.2\nESLint : 7.32.0\n\n\n\n 関連\nhttps://zenn.dev/thiragi/articles/555a644b35ebc1\nhttps://qiita.com/howdy39/items/6e2c75861bc5a14b2acf\n\n\n 参考のコード\nhttps://github.com/kuc-arc-f/nextjs11_1eslint\n\n.eslintrc.json\nruleは、適当に設定...",
+          "link": "https://zenn.dev/knaka0209/articles/53a679da7ba502",
+          "publishedOn": "2021-09-25T00:57:08.000Z",
+          "wordCount": 85,
+          "title": "Next.js 11で、ESLint設定メモ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--kZXCvolp--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:knaka%2520Tech-Blog%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%252011%25E3%2581%25A7%25E3%2580%2581ESLint%25E8%25A8%25AD%25E5%25AE%259A%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2owZG5pNFJFRHhHSGxQMkJMVGgtMzNaV2hoSjI5RVIxOG14d3FFV2c9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/ryoka419319/articles/4518625e1b5b74",
           "author": "ITEEK 上川",
           "description": "はじめに\n前回、Next.js について調べてみたので、今回はよく使うアカウント認証について、アプリケーションを作ってみようと思います。\nNext.js を開発している Vercel が作っている NextAuth.js を使用します。\n\n アプリを作ってみる\nsample という名前でアカウント認証付きのアプリケーションを作成します。\n\n 1. まずは、Hello world！\n\n      \n        \n        $ yarn create next-app --typescript\n$ cd sample\n$ yarn add next-auth\n$ yarn a...",
@@ -903,48 +945,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
-          "author": "空雲",
-          "description": "Web-WorkerとWeb-Assemblyの連携に関して\nWeb-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます\n対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます\nならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう\nしかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます\nその辺りを簡単に実現するための方法を紹介します\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker3\nhttps://next-wo...",
-          "link": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
-          "publishedOn": "2021-08-27T12:32:02.000Z",
-          "wordCount": 391,
-          "title": "Next.jsでWeb-WorkerからWeb-Assembly呼び出す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s---mG3_wf---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2581%258B%25E3%2582%2589Web-Assembly%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/catnose99/articles/49c12f84182bdf",
-          "author": "CatNose",
-          "description": "前提: TypeScript + Next.js + svgrでSVGをインポートする\n自分の関わっているNext.js製アプリケーションでは、svgrを導入することによりSVGを他のReactコンポーネントと同じ形でimportできるようにしています。\nこの記事の本筋からそれますが、svgrは以下のようにNext.jsへの導入できます。\n↓ インストール\n\n      \n        \n        $ npm install --save-dev @svgr/webpack\n\n\n      \n      ↓ @svgr/webpackをWebpackのloaderとして設定し...",
-          "link": "https://zenn.dev/catnose99/articles/49c12f84182bdf",
-          "publishedOn": "2021-08-27T06:12:13.000Z",
-          "wordCount": 225,
-          "title": "Next.js + TypeScriptでimportしたSVGの型がanyになってしまう",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--s4l7BZUT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:CatNose%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%2520%252B%2520TypeScript%25E3%2581%25A7import%25E3%2581%2597%25E3%2581%259FSVG%25E3%2581%25AE%25E5%259E%258B%25E3%2581%258Cany%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzZjNjE0YTFmYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
-          "author": "きじくん",
-          "description": "はじめに\n初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。\n普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。\n今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。\n\n過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...",
-          "link": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
-          "publishedOn": "2021-08-26T15:48:36.000Z",
-          "wordCount": 185,
-          "title": "Blitz.jsでSupabaseのデータベースに接続する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--5_4Z5kyO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258D%25E3%2581%2598%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%25E3%2581%25A7Supabase%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjliOTM3ZWExNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1016,6 +1016,76 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/t723/articles/f63785a12e3280",
+          "author": "T_723",
+          "description": "Next.jsのバージョン\n執筆時点(2021/9/25)でのバージョン11.1.2の最新を使っています。\n\n トレイリングスラッシュ設定とUrlの関係について\nnext.config.jsに下記のように記載がある場合はトレイリングスラッシュが設定されています。\n\n      \n        \n        module.exports = {\n  trailingSlash: true,\n}\n\n\n      \n      この設定をしていると/posts/hello.html -> /posts/hello/index.htmlでアクセスできるようになります。\n404ペー...",
+          "link": "https://zenn.dev/t723/articles/f63785a12e3280",
+          "publishedOn": "2021-09-25T12:29:15.000Z",
+          "wordCount": 98,
+          "title": "Next.jsのトレイリングスラッシュ設定により404ページをNetlifyで表示できない場合の対処方法(Typescript)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--3lrr1VxR--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:T_723%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%25E3%2581%25AE%25E3%2583%2588%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25B9%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258A404%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592Netlify%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25AA%25E3%2581%2584%25E5%25A0%25B4%25E5%2590%2588%25E3%2581%25AE%25E5%25AF%25BE%25E5%2587%25A6%25E6%2596%25B9%25E6%25B3%2595%2528Typescript%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKd1NNNk9sQ2lfRXh6M2Q1MUh0aHB1ckVsaW9UTnlXWnJQZEltR3g9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sprout2000/books/76a279bb90c3f3",
+          "author": "k_touge",
+          "description": "React と TypeScript でつくるプログレッシブ・ウェブアプリ入門",
+          "link": "https://zenn.dev/sprout2000/books/76a279bb90c3f3",
+          "publishedOn": "2021-09-25T07:51:49.000Z",
+          "wordCount": 85,
+          "title": "React Hooks と TypeScript でつくる Todo PWA アプリ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--qnh55JQJ--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci84MzY4Yzc5MjA5LmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
+            "length": "0",
+            "type": "image/jpeg"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nisitin/articles/42d8afd7203282",
+          "author": "ニシティン",
+          "description": "はじめに\nRecoil歴の短い若造なので間違っている点・こうしたほうがパフォーマンスにも良さそう！などがあればコメントいただけると助かります。\nコメントの数だけスクワットします。冗談です。\n\n Recoilの環境構築と主要機能\n\n      \n        \n        yarn add recoil\n\n\n      \n      \n インストールできたけどRecoilって何者なの？？\nRecoilは2020年5月にFacebookによって開発された状態管理ライブラリです。RecoilはReduxと同様にState管理ができるライブラリでもあります。\n状態管理とは何か？？という...",
+          "link": "https://zenn.dev/nisitin/articles/42d8afd7203282",
+          "publishedOn": "2021-09-25T06:03:50.000Z",
+          "wordCount": 64,
+          "title": "Recoil入門① 主要機能の説明",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--DRhhJF_n--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%258B%25E3%2582%25B7%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25B3%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Recoil%25E5%2585%25A5%25E9%2596%2580%25E2%2591%25A0%2520%25E4%25B8%25BB%25E8%25A6%2581%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AE%25E8%25AA%25AC%25E6%2598%258E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDZhYWQ1MWFjNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tsugitta/articles/concurrency-lock",
+          "author": "tsugitta",
+          "description": "Promise.all で同時に実行される数を制限したい\n\n\nPromise Pool のようなライブラリがある\n\n\nそれに加えて、100 並行で動かすとして突然 100 個の処理を実行し始めるのでなく、少しずつ 100 に向けて増やしていきたい\n\n例えば最小実行間隔を設けるようにしたい\n\n\n\n\n 実装\n\n      \n        \n        export class ConcurrencyLock {\n  private readonly concurrency: number;\n  private readonly interval: number;\n\n  privat...",
+          "link": "https://zenn.dev/tsugitta/articles/concurrency-lock",
+          "publishedOn": "2021-09-25T05:36:58.000Z",
+          "wordCount": 321,
+          "title": "Promise.all で同時に実行される数を制限したい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--_e9AYeJ0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tsugitta%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Promise.all%2520%25E3%2581%25A7%25E5%2590%258C%25E6%2599%2582%25E3%2581%25AB%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25E6%2595%25B0%25E3%2582%2592%25E5%2588%25B6%25E9%2599%2590%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMWMxNzE3MmEzZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/fagai/articles/7f76a3b3b5a415",
+          "author": "fagai",
+          "description": "プロジェクトで、同じ型を別のファイルで使うことがあり、共通のinterfaceやtypeをどこかに定義して自動で読みたいなーと思い、調べてみました。\n調べてみると、最初はtypeRootsの話が出てきたのですがどうやら私がしたいものはそうではないようです。(///から始まったりする型定義ファイルを書くのがtypeRoots)\nどうやらtsconfig.jsonのpathsに書けば良いらしい。\n\n      \n        tsconfig.json\n        {\n  \"compilerOptions: {\n    \"paths\": {\n      \"*\": [\"./types/*...",
+          "link": "https://zenn.dev/fagai/articles/7f76a3b3b5a415",
+          "publishedOn": "2021-09-24T16:26:48.000Z",
+          "wordCount": 34,
+          "title": "TypeScriptでグローバルな型定義ファイルを用意する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--sqN5CzAK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:fagai%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E3%2582%25B0%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25AB%25E3%2581%25AA%25E5%259E%258B%25E5%25AE%259A%25E7%25BE%25A9%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592%25E7%2594%25A8%25E6%2584%258F%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZmExZWU1OGIzMy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/ryoka419319/articles/4518625e1b5b74",
           "author": "ITEEK 上川",
@@ -2821,34 +2891,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
-          "author": "空雲",
-          "description": "Web-WorkerとWeb-Assemblyの連携に関して\nWeb-Workerを使えば、並列化による恩恵で総合的な動作速度の向上が見込めます\n対してWeb-Assemblyを使えば、演算速度のような直列的な向上が見込めます\nならば「二つを合わせれば、さらなるパフォーマンスアップが見込める」というのは誰でも思うことでしょう\nしかしこの二つの技術、いざ使おうとするとそれなりに面倒で敷居が高く感じます\nその辺りを簡単に実現するための方法を紹介します\n\n サンプル置き場\nhttps://github.com/SoraKumo001/next-worker3\nhttps://next-wo...",
-          "link": "https://zenn.dev/sora_kumo/articles/5b031d682d3fe2",
-          "publishedOn": "2021-08-27T12:32:02.000Z",
-          "wordCount": 391,
-          "title": "Next.jsでWeb-WorkerからWeb-Assembly呼び出す",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s---mG3_wf---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7Web-Worker%25E3%2581%258B%25E3%2582%2589Web-Assembly%25E5%2591%25BC%25E3%2581%25B3%25E5%2587%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWVlODMwNjIwNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
-          "author": "きじくん",
-          "description": "はじめに\n初投稿です。勉強したことをアウトプットして残していきたいと思い、投稿を始めました。\n普段は学生でPythonによる機械学習で研究をしている一方で、プライベートではReactやNext.jsを勉強しています。\n今回は、ReactのフルスタックフレームワークであるBlitz.jsが先日、v1.0に向けた大きな修正が終了したと発信していたことを機に、久しぶりに触れてみました。\n\n過去にチュートリアルだけやったことはあったのですが、その時はデータベースがローカル環境のSQLiteもしくはPostgreSQLの2択だったため、「開発時だったら良いかもしれないけれど、実際にデプロイした...",
-          "link": "https://zenn.dev/kijikunnn/articles/0c06902611964d",
-          "publishedOn": "2021-08-26T15:48:36.000Z",
-          "wordCount": 185,
-          "title": "Blitz.jsでSupabaseのデータベースに接続する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--5_4Z5kyO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258D%25E3%2581%2598%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%25E3%2581%25A7Supabase%25E3%2581%25AE%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AB%25E6%258E%25A5%25E7%25B6%259A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjliOTM3ZWExNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3448,48 +3490,6 @@
           "title": "Vue.jsで郵便番号自動入力機能を作成する",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--IK7Jmh2x--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue.js%25E3%2581%25A7%25E9%2583%25B5%25E4%25BE%25BF%25E7%2595%25AA%25E5%258F%25B7%25E8%2587%25AA%25E5%258B%2595%25E5%2585%25A5%25E5%258A%259B%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/azukiazusa/articles/5a69cbcca75113",
-          "author": "azukiazusa",
-          "description": "結論\nオプションとしてcustomProperties:trueを渡します。\n\n      \n        \n        import Vue from 'vue'\nimport Vuetify from 'vuetify/lib'\n\nVue.use(Vuetify)\n\nexport default new Vuetify({\n  theme: {\n    themes: {\n      light: {\n        main: '#D7F9F1',\n        secondary: '#7AA095',\n      }\n    },\n    options: { cu...",
-          "link": "https://zenn.dev/azukiazusa/articles/5a69cbcca75113",
-          "publishedOn": "2021-08-27T09:54:35.000Z",
-          "wordCount": 241,
-          "title": "VuetifyのテーマをCSS変数として使用する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ka3j8SfY--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:azukiazusa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vuetify%25E3%2581%25AE%25E3%2583%2586%25E3%2583%25BC%25E3%2583%259E%25E3%2582%2592CSS%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMjgzYWY0MzVjZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/compiled_oz/articles/a8edecc6c39713",
-          "author": "Oz",
-          "description": "Vue.js is 何？\nVue.jsはシンプルなMVVM構造のプログレッシブフレームワークで、\nModel、View、ViewModelの３つでアプリケーションを構築する。\n\n データバインディング\nデータバインディングを行うにはテンプレートで使用する全てのデータはリアクティブデータとして定義する必要がある\n\n ディレクティブ\nvから始まるViewの要素に付加できる独自の属性のこと。\nv-if、v-show、v-for、v-model、v-bind、v-onなどがある。\nHTMLのクラスを動的に制御したり、イベントをハンドルできる。\n\nv-on:イベントハンドラ\nv-model:双...",
-          "link": "https://zenn.dev/compiled_oz/articles/a8edecc6c39713",
-          "publishedOn": "2021-08-27T05:53:53.000Z",
-          "wordCount": 397,
-          "title": "Vue.js入門",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s---X8noaM3--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Oz%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vue.js%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2gxLTQ4QzBya1c5T3FFMHhJSHJvYU1MUGR6NTNwQUtBV0lNWmJnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40",
-          "author": "おしうみなおき",
-          "description": "vue.jsで非同期処理をまとめて処理したい場合があります。\n普通に1つ1つ処理を待つ場合は async - awaitで良いのですが、それだと1つずつしか処理できないので、どうしても処理が遅くなってしまいます。\nそんな時は、 Promise.all を使えば、複数の非同期処理をまとめて処理しつつ、全ての処理が完了したら次に行きますよー！というふうにできます。\n\n      \n        \n        // 非同期をまとめて処理する\nasync process() {\n    await Promise.all([\n        this.methodA(),\n\tthis.me...",
-          "link": "https://zenn.dev/naoki_oshiumi/articles/c776ef1586eb40",
-          "publishedOn": "2021-08-26T23:52:48.000Z",
-          "wordCount": 38,
-          "title": "vueで非同期処理をまとめて処理する際のベストプラクティス",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--LfUlgPWb--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue%25E3%2581%25A7%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E5%2587%25A6%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%25E9%259A%259B%25E3%2581%25AE%25E3%2583%2599%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
