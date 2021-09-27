@@ -2,10 +2,230 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-26T00:56:31.528Z</updated>
-    <generator>osmosfeed 1.11.1</generator>
+    <updated>2021-09-27T00:54:23.190Z</updated>
+    <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vue-selectでいい感じのセレクトボックスを実装する]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/56945521c61341</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/56945521c61341"/>
+        <updated>2021-09-26T23:21:17.000Z</updated>
+        <summary type="html"><![CDATA[HTMLとCSSでセレクトボックスの装飾をするの意外と面倒ですよね。
+なんとか簡単にセレクトボックス作れないかな〜〜と調べたら、ありました。
+僕はvue.jsをよく使うので「vue-select」という良さそうなライブラリを使ってみます。
+
+ vue-selectをインストールする
+vue-selectをインストールします。
+
+      
+        
+        npm install vue-select
+
+
+      
+      
+ vue-selectをインポートします
+僕はLaravelとVueを使っているので、app.jsでインポートします
+
+      
+  ...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.11.2]]></title>
+        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2</id>
+        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2"/>
+        <updated>2021-09-26T18:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Fixed: unicode characters in URL caused download error
+Fixed: project root npm install error
+Added: unit test library
+Chore: Dependency updates
+Thank you: @CaptNo1]]></summary>
+        <author>
+            <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue/CLI と Nuxt.js で IE11 と戦うための知識]]></title>
+        <id>https://zenn.dev/kon_karin/articles/75b9808778e362</id>
+        <link href="https://zenn.dev/kon_karin/articles/75b9808778e362"/>
+        <updated>2021-09-26T12:30:45.000Z</updated>
+        <summary type="html"><![CDATA[令和も3年だというのに、仕事でどうしても Internet Explorer 11 と戦わなければならないこと、あると思います。
+IE 11 への対応は巷の記事で様々取り扱われていますが、どうも情報が古かったり、とっ散らかってる印象がありました。
+そこで、最新の Vue 2.x の環境はどうなんだろう？と思い、Vue/CLI と Nuxt.js の最新バージョン（2021-09-22時点）の Babel によるトランスパイルと Polyfill についてまとめました。
+正直、IE 11 について記事を書くのはこれが最後にしたいですね。
+今後、可能な限り各 OSS のアップデートに合わせて...]]></summary>
+        <author>
+            <name>こんかりん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xcode 13 vim mode]]></title>
+        <id>https://zenn.dev/tdrk18/articles/xcode-13-vim-mode</id>
+        <link href="https://zenn.dev/tdrk18/articles/xcode-13-vim-mode"/>
+        <updated>2021-09-26T11:44:06.000Z</updated>
+        <summary type="html"><![CDATA[Xcode 13 で vim mode を使う
+Xcode 13 で公式に vim mode がサポートされました。
+https://developer.apple.com/xcode/
+
+Vim mode
+Many common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.
+
+
+ vim mode を有効にする
+Editor...]]></summary>
+        <author>
+            <name>tdrk18</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vim/NeoVimでMarkdownをプレビューするプラグインを作った]]></title>
+        <id>https://zenn.dev/kato_k/articles/3aa7217a1636ca</id>
+        <link href="https://zenn.dev/kato_k/articles/3aa7217a1636ca"/>
+        <updated>2021-09-26T10:31:19.000Z</updated>
+        <summary type="html"><![CDATA[初めに
+Vim/NeoVim両対応のMarkdownプレビュープラグインを作成しました。
+この記事では作った経緯とこのプラグインについて紹介します。
+
+https://github.com/kat0h/dps-bufpreview.vim
+
+ 使い方
+
+ インストール
+このプラグインはDenoとdenops.vimに依存しています。
+初めにDenoを公式のインストールからインストールしてください。
+denops.vimは通常のVimプラグインと同じようにインストールしてください。
+Plug-Vim:
+
+      
+        
+        Plug 'vim-denops...]]></summary>
+        <author>
+            <name>kat0h</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React * TypeScript * Material-UIで、 Youtubeのコメント欄ライクなUIを作る方法]]></title>
+        <id>https://zenn.dev/mone9610/articles/f4548546fb8e81</id>
+        <link href="https://zenn.dev/mone9610/articles/f4548546fb8e81"/>
+        <updated>2021-09-26T06:28:50.000Z</updated>
+        <summary type="html"><![CDATA[react_mui_comment_list_mock
+
+ はじめに
+
+ この記事について
+ReactとMaterial-UIを用いて、Youtubeのコメント欄ライクなUIを作る方法について解説します。
+
+ 完成イメージ
+
+
+ 前提
+
+ 使用するデータについて
+実際の開発では、「投稿」と「ユーザー」のオブジェクトを別々のテーブルとして、DB上で管理しているケースが多いかと思います。
+今回に関しては、APIサーバーからデータを取得するケースを想定します。
+「投稿」を意味するデータである"Post"というjson配列、
+「ユーザー」を意味するデータの"User"というjson配列を用い...]]></summary>
+        <author>
+            <name>mone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[こんにちはMUI！ 新しくなったMaterial UI v5]]></title>
+        <id>https://zenn.dev/h_yoshikawa0724/articles/2021-09-26-material-ui-v5</id>
+        <link href="https://zenn.dev/h_yoshikawa0724/articles/2021-09-26-material-ui-v5"/>
+        <updated>2021-09-26T03:58:52.000Z</updated>
+        <summary type="html"><![CDATA[どうもよしです。久しぶりの投稿になります。
+元々、Material Design をベースとした UI コンポーネントライブラリである、Material UI の v5 が遂にリリースされました！
+v4 からどう変わったのか自分でも試すなど、さらっと見てみたので、ここにまとめてみました。
+
+この記事は、個人ブログへ投稿した記事の転載です。
+
+
+ Material UI とは？
+元々、Google の Material Design をベースに開発された、UI コンポーネントライブラリです。
+Material UI の概要や v4 の機能に関しては、以前に記事を書いていますので、よろしけれ...]]></summary>
+        <author>
+            <name>よし</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでGithub APIを使用する方法(octokit/rest)Typescript]]></title>
+        <id>https://zenn.dev/t723/articles/a76c583084f383</id>
+        <link href="https://zenn.dev/t723/articles/a76c583084f383"/>
+        <updated>2021-09-26T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[octokit/restを利用してリポジトリのコンテンツを参照
+
+ Typescript用のGithub APIを利用するライブラリ
+octokit/rest
+
+ インストール
+npm i @octokit/rest
+
+ 使い方
+
+      
+        
+        import { Octokit } from "@octokit/rest";
+
+
+      
+      ドキュメント
+
+ 認証
+Github APIを利用しているとアクセス制限にかかるので認証(GITHUB_TOKEN)を取得し宣言しておきます。
+私の場合は、リポジトリのコンテンツにアクセスしたかった...]]></summary>
+        <author>
+            <name>T_723</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでGithub APIを使用する方法(octokit/rest)Typescript]]></title>
+        <id>https://zenn.dev/t723/articles/a76c583084f383</id>
+        <link href="https://zenn.dev/t723/articles/a76c583084f383"/>
+        <updated>2021-09-26T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[octokit/restを利用してリポジトリのコンテンツを参照
+
+ Typescript用のGithub APIを利用するライブラリ
+octokit/rest
+
+ インストール
+npm i @octokit/rest
+
+ 使い方
+
+      
+        
+        import { Octokit } from "@octokit/rest";
+
+
+      
+      ドキュメント
+
+ 認証
+Github APIを利用しているとアクセス制限にかかるので認証(GITHUB_TOKEN)を取得し宣言しておきます。
+私の場合は、リポジトリのコンテンツにアクセスしたかった...]]></summary>
+        <author>
+            <name>T_723</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NextAuth.js と Firebase Authentication の連携]]></title>
+        <id>https://zenn.dev/elpnt/articles/1af1047612992d</id>
+        <link href="https://zenn.dev/elpnt/articles/1af1047612992d"/>
+        <updated>2021-09-25T15:16:05.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+https://next-auth.js.org/
+NextAuth.js は Next.js のために作られた OSS の認証ライブラリです。
+このライブラリは主に OAuth もしくは Email で認証したユーザーの情報やセッションを連携したデータベースで自動管理できるのが売りです。他の認証システムで既に認証済みのユーザーを管理する方法もありはするのですが、OAuth や Email 認証に比べるとあまり分かりやすいサンプルコードがありません。防備録も兼ねて、ここで知見を共有したいと思います。
+なお、NextAuth ではログイン中のユーザーの情報は firebase...]]></summary>
+        <author>
+            <name>elpnt</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Next.jsのトレイリングスラッシュ設定により404ページをNetlifyで表示できない場合の対処方法(Typescript)]]></title>
         <id>https://zenn.dev/t723/articles/f63785a12e3280</id>
@@ -5452,214 +5672,6 @@ https://rennnosukesann.hatenablog.com/entry/2018/03/19/233245
 export, serv...]]></summary>
         <author>
             <name>ぺい</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsで作成する管理画面作成チュートリアル]]></title>
-        <id>https://zenn.dev/thirosue/books/13ac92fc34ae22</id>
-        <link href="https://zenn.dev/thirosue/books/13ac92fc34ae22"/>
-        <updated>2021-08-28T12:44:02.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsで管理画面のボイラーテンプレートを作成してみました。
-本書では、利用した技術などを紹介していきます。
-
-1. はじめに
-2. プロジェクトセットアップ
-3. 自動デプロイ（CI/CD）
-4. バックエンドの準備
-5. コンポーネント作成（Atomic Design）
-6. 共通処理
-7. 入力フォーム
-8. 状態管理
-9. 非同期処理（react-query）
-10. レンダリングオプション（CSR/SSG/SSR/ISR）
-11. 単体テスト]]></summary>
-        <author>
-            <name>Thirosue</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.jsの開発サーバー（dev server）が動かなくなる]]></title>
-        <id>https://zenn.dev/shuri/articles/d63c5d242859d9</id>
-        <link href="https://zenn.dev/shuri/articles/d63c5d242859d9"/>
-        <updated>2021-08-28T07:49:22.000Z</updated>
-        <summary type="html"><![CDATA[問題
-Next.js初心者です
-yarn dev後、Google Chromeで Next.jsの開発サーバーを動かしていると、
-
-      
-        
-        ・ リンクを押しても動作しない
-・ リロードすると永遠にページの読み込み中になる
-・ HMRも動いてない
-
-
-      
-      の問題が起きてました
-
- 解決方法
-
-      
-        
-        ・ Google chromeで chrome://serviceworker-internals/ を開く
-・ Scope: localhost:3000 の記載があるサービスワーカーを...]]></summary>
-        <author>
-            <name>ヴィジュアル系エンジニア</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[fish, neovim, starshipあたりでめっかわ❤️ターミナルを用意する]]></title>
-        <id>https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab</id>
-        <link href="https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab"/>
-        <updated>2021-08-28T02:41:59.000Z</updated>
-        <summary type="html"><![CDATA[デフォルトのシェルだと色があまりついていないし、可愛くもなくてつらい気持ちになったのでかわいくします。dotfilesの存在は知っていたが何から触ればいいのやらな人向け。
-
- だいたい導入するもの
-
-
-fish
-
-bashとかzshの変わりに使う
-historyをGUIで見ることができたり、シンタックスハイライトをデフォルトでしてくれたり、入力補完をデフォルトでしてくれたりする
-なので設定めんどくさい人でも入れるだけでちょっとハッピー
-
-
-
-tmux
-
-ターミナルのペインとか良い感じに分割したりセッション保存してくれたり
-
-
-
-neovim
-
-vimのすごいやつ
-いれなくても良い気はした...]]></summary>
-        <author>
-            <name>ぴよまる</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yupで配列内のオブジェクトのプロパティがユニークであることを検証する方法]]></title>
-        <id>https://zenn.dev/rince/articles/4e35e52e0e158d</id>
-        <link href="https://zenn.dev/rince/articles/4e35e52e0e158d"/>
-        <updated>2021-08-28T01:49:17.000Z</updated>
-        <summary type="html"><![CDATA[バリデーション用ライブラリ Yup で、配列内のオブジェクトのプロパティが重複していないことを検証する方法。
-READMEには重複チェックについて書かれていなかったのでまとめておく。
-例えば、url と caption を持つオブジェクトの配列で url がユニークであることを検証する場合、こんな感じに書ける。
-
-      
-        
-        import * as yup from "yup";
-
-const objectSchema = yup.object().shape({
-  url: yup.string().url(),
-  caption: yup.st...]]></summary>
-        <author>
-            <name>rince</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[firebase v9でupdateが(少し)型安全になりました]]></title>
-        <id>https://zenn.dev/arark/articles/60927323db8697</id>
-        <link href="https://zenn.dev/arark/articles/60927323db8697"/>
-        <updated>2021-08-27T16:05:00.000Z</updated>
-        <summary type="html"><![CDATA[先日ついにfirebase v9が リリースされました
-知っている限り、v9ではモジュール式(ESM?)になっただけで、バンドルサイズの最適化以外の機能はないのですが、updateに関しては型定義での更新があったので紹介します。
-
- v9の使い方
-少しv9の使い方を紹介します。v8までのようにクラスで実装するとtree shakeしづらいので、全て関数になりました。
-
-      
-        
-        import { initializeApp } from "firebase/app";
-const app = initializeApp({ projectId: "....]]></summary>
-        <author>
-            <name>arark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blitz.js 学習記録 #1 - blitz generate]]></title>
-        <id>https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9</id>
-        <link href="https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9"/>
-        <updated>2021-08-27T14:59:06.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。
-
- 1. blitz generate
-
-      
-        
-        blitz generate [type] [model]
-
-
-      
-      もしくは
-
-      
-        
-        blitz g [type] [model]
-
-
-    ...]]></summary>
-        <author>
-            <name>きじくん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blitz.js 学習記録 #1 - blitz generate]]></title>
-        <id>https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9</id>
-        <link href="https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9"/>
-        <updated>2021-08-27T14:59:06.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。
-
- 1. blitz generate
-
-      
-        
-        blitz generate [type] [model]
-
-
-      
-      もしくは
-
-      
-        
-        blitz g [type] [model]
-
-
-    ...]]></summary>
-        <author>
-            <name>きじくん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js + Emotion(css関数) でスタイリングする]]></title>
-        <id>https://zenn.dev/rabbit/articles/e7376c9fce90db</id>
-        <link href="https://zenn.dev/rabbit/articles/e7376c9fce90db"/>
-        <updated>2021-08-27T14:02:12.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsの環境でEmotionのcss関数でスタイリングを行う際に少し手間取ったのでその忘備録。
-
- 設定する
-
- emotionを追加
-
-      
-        
-        yarn add @emotion/react
-
-
-      
-      https://emotion.sh/docs/@emotion/react
-tsconfig.jsonにjsxImportSourceパラメーターを追加する。
-※ これが設定できていないとcss属性をpropできないので詰む。
-
-      
-        
-        {
-  "compilerOptions"...]]></summary>
-        <author>
-            <name>hanetsuki</name>
         </author>
     </entry>
 </feed>

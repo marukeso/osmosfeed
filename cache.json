@@ -6,6 +6,15 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
+          "author": null,
+          "description": "Fixed: unicode characters in URL caused download error\nFixed: project root npm install error\nAdded: unit test library\nChore: Dependency updates\nThank you: @CaptNo1",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
+          "publishedOn": "2021-09-26T18:45:39.000Z",
+          "wordCount": 354,
+          "title": "v1.11.2"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
           "author": null,
           "description": "Fixed: Unexpected nested element in author field crashes the parser\nThank you @ad-m",
@@ -64,6 +73,34 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/t723/articles/a76c583084f383",
+          "author": "T_723",
+          "description": "octokit/restを利用してリポジトリのコンテンツを参照\n\n Typescript用のGithub APIを利用するライブラリ\noctokit/rest\n\n インストール\nnpm i @octokit/rest\n\n 使い方\n\n      \n        \n        import { Octokit } from \"@octokit/rest\";\n\n\n      \n      ドキュメント\n\n 認証\nGithub APIを利用しているとアクセス制限にかかるので認証(GITHUB_TOKEN)を取得し宣言しておきます。\n私の場合は、リポジトリのコンテンツにアクセスしたかった...",
+          "link": "https://zenn.dev/t723/articles/a76c583084f383",
+          "publishedOn": "2021-09-26T00:07:00.000Z",
+          "wordCount": 72,
+          "title": "Next.jsでGithub APIを使用する方法(octokit/rest)Typescript",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--jQSbtbGV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:T_723%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25A7Github%2520API%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2528octokit%252Frest%2529Typescript%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKd1NNNk9sQ2lfRXh6M2Q1MUh0aHB1ckVsaW9UTnlXWnJQZEltR3g9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/elpnt/articles/1af1047612992d",
+          "author": "elpnt",
+          "description": "はじめに\nhttps://next-auth.js.org/\nNextAuth.js は Next.js のために作られた OSS の認証ライブラリです。\nこのライブラリは主に OAuth もしくは Email で認証したユーザーの情報やセッションを連携したデータベースで自動管理できるのが売りです。他の認証システムで既に認証済みのユーザーを管理する方法もありはするのですが、OAuth や Email 認証に比べるとあまり分かりやすいサンプルコードがありません。防備録も兼ねて、ここで知見を共有したいと思います。\nなお、NextAuth ではログイン中のユーザーの情報は firebase...",
+          "link": "https://zenn.dev/elpnt/articles/1af1047612992d",
+          "publishedOn": "2021-09-25T15:16:05.000Z",
+          "wordCount": 695,
+          "title": "NextAuth.js と Firebase Authentication の連携",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Z0Oiutaz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:elpnt%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:NextAuth.js%2520%25E3%2581%25A8%2520Firebase%2520Authentication%2520%25E3%2581%25AE%25E9%2580%25A3%25E6%2590%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTZjYzMxZjE5NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/t723/articles/f63785a12e3280",
           "author": "T_723",
@@ -889,62 +926,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/thirosue/books/13ac92fc34ae22",
-          "author": "Thirosue",
-          "description": "Next.jsで管理画面のボイラーテンプレートを作成してみました。\n本書では、利用した技術などを紹介していきます。\n\n1. はじめに\n2. プロジェクトセットアップ\n3. 自動デプロイ（CI/CD）\n4. バックエンドの準備\n5. コンポーネント作成（Atomic Design）\n6. 共通処理\n7. 入力フォーム\n8. 状態管理\n9. 非同期処理（react-query）\n10. レンダリングオプション（CSR/SSG/SSR/ISR）\n11. 単体テスト",
-          "link": "https://zenn.dev/thirosue/books/13ac92fc34ae22",
-          "publishedOn": "2021-08-28T12:44:02.000Z",
-          "wordCount": 38,
-          "title": "Next.jsで作成する管理画面作成チュートリアル",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--2s_F8f3P--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYm9va19jb3Zlci9mNDkxYzEwMGQxLmpwZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg",
-            "length": "0",
-            "type": "image/jpeg"
-          }
-        },
-        {
-          "id": "https://zenn.dev/shuri/articles/d63c5d242859d9",
-          "author": "ヴィジュアル系エンジニア",
-          "description": "問題\nNext.js初心者です\nyarn dev後、Google Chromeで Next.jsの開発サーバーを動かしていると、\n\n      \n        \n        ・ リンクを押しても動作しない\n・ リロードすると永遠にページの読み込み中になる\n・ HMRも動いてない\n\n\n      \n      の問題が起きてました\n\n 解決方法\n\n      \n        \n        ・ Google chromeで chrome://serviceworker-internals/ を開く\n・ Scope: localhost:3000 の記載があるサービスワーカーを...",
-          "link": "https://zenn.dev/shuri/articles/d63c5d242859d9",
-          "publishedOn": "2021-08-28T07:49:22.000Z",
-          "wordCount": 47,
-          "title": "Next.jsの開発サーバー（dev server）が動かなくなる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--rKs1YUzq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%25B4%25E3%2582%25A3%25E3%2582%25B8%25E3%2583%25A5%25E3%2582%25A2%25E3%2583%25AB%25E7%25B3%25BB%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25EF%25BC%2588dev%2520server%25EF%25BC%2589%25E3%2581%258C%25E5%258B%2595%25E3%2581%258B%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTAyYmE5M2RlZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9",
-          "author": "きじくん",
-          "description": "はじめに\n普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。\n\n 1. blitz generate\n\n      \n        \n        blitz generate [type] [model]\n\n\n      \n      もしくは\n\n      \n        \n        blitz g [type] [model]\n\n\n    ...",
-          "link": "https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9",
-          "publishedOn": "2021-08-27T14:59:06.000Z",
-          "wordCount": 323,
-          "title": "Blitz.js 学習記録 #1 - blitz generate",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--WW2Gwpwr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258D%25E3%2581%2598%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%2520%25E5%25AD%25A6%25E7%25BF%2592%25E8%25A8%2598%25E9%258C%25B2%2520%25231%2520-%2520blitz%2520generate%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjliOTM3ZWExNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/rabbit/articles/e7376c9fce90db",
-          "author": "hanetsuki",
-          "description": "Next.jsの環境でEmotionのcss関数でスタイリングを行う際に少し手間取ったのでその忘備録。\n\n 設定する\n\n emotionを追加\n\n      \n        \n        yarn add @emotion/react\n\n\n      \n      https://emotion.sh/docs/@emotion/react\ntsconfig.jsonにjsxImportSourceパラメーターを追加する。\n※ これが設定できていないとcss属性をpropできないので詰む。\n\n      \n        \n        {\n  \"compilerOptions\"...",
-          "link": "https://zenn.dev/rabbit/articles/e7376c9fce90db",
-          "publishedOn": "2021-08-27T14:02:12.000Z",
-          "wordCount": 135,
-          "title": "Next.js + Emotion(css関数) でスタイリングする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--WQ_WyzHV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hanetsuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%2520%252B%2520Emotion%2528css%25E9%2596%25A2%25E6%2595%25B0%2529%2520%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqcUw3akdtc1E3STZUTUtMcDBzUXVhd0FNUzNvcHBWNFVCRGZzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1016,6 +997,48 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/mone9610/articles/f4548546fb8e81",
+          "author": "mone",
+          "description": "react_mui_comment_list_mock\n\n はじめに\n\n この記事について\nReactとMaterial-UIを用いて、Youtubeのコメント欄ライクなUIを作る方法について解説します。\n\n 完成イメージ\n\n\n 前提\n\n 使用するデータについて\n実際の開発では、「投稿」と「ユーザー」のオブジェクトを別々のテーブルとして、DB上で管理しているケースが多いかと思います。\n今回に関しては、APIサーバーからデータを取得するケースを想定します。\n「投稿」を意味するデータである\"Post\"というjson配列、\n「ユーザー」を意味するデータの\"User\"というjson配列を用い...",
+          "link": "https://zenn.dev/mone9610/articles/f4548546fb8e81",
+          "publishedOn": "2021-09-26T06:28:50.000Z",
+          "wordCount": 488,
+          "title": "React * TypeScript * Material-UIで、 Youtubeのコメント欄ライクなUIを作る方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--u4joWanJ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:mone%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:React%2520%252A%2520TypeScript%2520%252A%2520Material-UI%25E3%2581%25A7%25E3%2580%2581%2520Youtube%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E6%25AC%2584%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25AF%25E3%2581%25AAUI%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTAxYWM1OTJlNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/h_yoshikawa0724/articles/2021-09-26-material-ui-v5",
+          "author": "よし",
+          "description": "どうもよしです。久しぶりの投稿になります。\n元々、Material Design をベースとした UI コンポーネントライブラリである、Material UI の v5 が遂にリリースされました！\nv4 からどう変わったのか自分でも試すなど、さらっと見てみたので、ここにまとめてみました。\n\nこの記事は、個人ブログへ投稿した記事の転載です。\n\n\n Material UI とは？\n元々、Google の Material Design をベースに開発された、UI コンポーネントライブラリです。\nMaterial UI の概要や v4 の機能に関しては、以前に記事を書いていますので、よろしけれ...",
+          "link": "https://zenn.dev/h_yoshikawa0724/articles/2021-09-26-material-ui-v5",
+          "publishedOn": "2021-09-26T03:58:52.000Z",
+          "wordCount": 2917,
+          "title": "こんにちはMUI！ 新しくなったMaterial UI v5",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--3okbZ3F---/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2588%25E3%2581%2597%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2581%2593%25E3%2582%2593%25E3%2581%25AB%25E3%2581%25A1%25E3%2581%25AFMUI%25EF%25BC%2581%2520%25E6%2596%25B0%25E3%2581%2597%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259FMaterial%2520UI%2520v5%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3RDVWRUhGaUh0Nmw1SEhtQ3FfVkFGSnRKS21NMmtVd2VicFp4PXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/t723/articles/a76c583084f383",
+          "author": "T_723",
+          "description": "octokit/restを利用してリポジトリのコンテンツを参照\n\n Typescript用のGithub APIを利用するライブラリ\noctokit/rest\n\n インストール\nnpm i @octokit/rest\n\n 使い方\n\n      \n        \n        import { Octokit } from \"@octokit/rest\";\n\n\n      \n      ドキュメント\n\n 認証\nGithub APIを利用しているとアクセス制限にかかるので認証(GITHUB_TOKEN)を取得し宣言しておきます。\n私の場合は、リポジトリのコンテンツにアクセスしたかった...",
+          "link": "https://zenn.dev/t723/articles/a76c583084f383",
+          "publishedOn": "2021-09-26T00:07:00.000Z",
+          "wordCount": 72,
+          "title": "Next.jsでGithub APIを使用する方法(octokit/rest)Typescript",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--jQSbtbGV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:T_723%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25A7Github%2520API%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2528octokit%252Frest%2529Typescript%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKd1NNNk9sQ2lfRXh6M2Q1MUh0aHB1ckVsaW9UTnlXWnJQZEltR3g9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/t723/articles/f63785a12e3280",
           "author": "T_723",
@@ -2849,48 +2872,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/rince/articles/4e35e52e0e158d",
-          "author": "rince",
-          "description": "バリデーション用ライブラリ Yup で、配列内のオブジェクトのプロパティが重複していないことを検証する方法。\nREADMEには重複チェックについて書かれていなかったのでまとめておく。\n例えば、url と caption を持つオブジェクトの配列で url がユニークであることを検証する場合、こんな感じに書ける。\n\n      \n        \n        import * as yup from \"yup\";\n\nconst objectSchema = yup.object().shape({\n  url: yup.string().url(),\n  caption: yup.st...",
-          "link": "https://zenn.dev/rince/articles/4e35e52e0e158d",
-          "publishedOn": "2021-08-28T01:49:17.000Z",
-          "wordCount": 132,
-          "title": "Yupで配列内のオブジェクトのプロパティがユニークであることを検証する方法",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--mft3pgOn--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:rince%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Yup%25E3%2581%25A7%25E9%2585%258D%25E5%2588%2597%25E5%2586%2585%25E3%2581%25AE%25E3%2582%25AA%25E3%2583%2596%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2591%25E3%2583%2586%25E3%2582%25A3%25E3%2581%258C%25E3%2583%25A6%25E3%2583%258B%25E3%2583%25BC%25E3%2582%25AF%25E3%2581%25A7%25E3%2581%2582%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjk1Y2E5ZjgzNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/arark/articles/60927323db8697",
-          "author": "arark",
-          "description": "先日ついにfirebase v9が リリースされました\n知っている限り、v9ではモジュール式(ESM?)になっただけで、バンドルサイズの最適化以外の機能はないのですが、updateに関しては型定義での更新があったので紹介します。\n\n v9の使い方\n少しv9の使い方を紹介します。v8までのようにクラスで実装するとtree shakeしづらいので、全て関数になりました。\n\n      \n        \n        import { initializeApp } from \"firebase/app\";\nconst app = initializeApp({ projectId: \"....",
-          "link": "https://zenn.dev/arark/articles/60927323db8697",
-          "publishedOn": "2021-08-27T16:05:00.000Z",
-          "wordCount": 216,
-          "title": "firebase v9でupdateが(少し)型安全になりました",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--7i_j1ByG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:arark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:firebase%2520v9%25E3%2581%25A7update%25E3%2581%258C%2528%25E5%25B0%2591%25E3%2581%2597%2529%25E5%259E%258B%25E5%25AE%2589%25E5%2585%25A8%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWQ5ODQ2MjJmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9",
-          "author": "きじくん",
-          "description": "はじめに\n普段はPython、React、Next.js等を中心に勉強していますが、個人的に今最も注目しているフレームワークであるBlitz.jsの勉強も最近始めました。ここでは私がBlitz.jsを学んでいく過程で、自身の学習記録兼日本語ドキュメント感覚で今後書いていこうと思っています。\n\n 1. blitz generate\n\n      \n        \n        blitz generate [type] [model]\n\n\n      \n      もしくは\n\n      \n        \n        blitz g [type] [model]\n\n\n    ...",
-          "link": "https://zenn.dev/kijikunnn/articles/0d58e86c3ce0c9",
-          "publishedOn": "2021-08-27T14:59:06.000Z",
-          "wordCount": 323,
-          "title": "Blitz.js 学習記録 #1 - blitz generate",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--WW2Gwpwr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258D%25E3%2581%2598%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Blitz.js%2520%25E5%25AD%25A6%25E7%25BF%2592%25E8%25A8%2598%25E9%258C%25B2%2520%25231%2520-%2520blitz%2520generate%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjliOTM3ZWExNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -2899,6 +2880,34 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/tdrk18/articles/xcode-13-vim-mode",
+          "author": "tdrk18",
+          "description": "Xcode 13 で vim mode を使う\nXcode 13 で公式に vim mode がサポートされました。\nhttps://developer.apple.com/xcode/\n\nVim mode\nMany common key combinations and editing modes familiar to Vim users are supported directly within the code editor, using the new bottom bar to show mode indicators.\n\n\n vim mode を有効にする\nEditor...",
+          "link": "https://zenn.dev/tdrk18/articles/xcode-13-vim-mode",
+          "publishedOn": "2021-09-26T11:44:06.000Z",
+          "wordCount": 77,
+          "title": "Xcode 13 vim mode",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--JgwdhYXO--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tdrk18%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Xcode%252013%2520vim%2520mode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lHSmhpODY5RjY2UjVGQk0tczB2VTlsNnRlV242TFl2OU90SFkzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kato_k/articles/3aa7217a1636ca",
+          "author": "kat0h",
+          "description": "初めに\nVim/NeoVim両対応のMarkdownプレビュープラグインを作成しました。\nこの記事では作った経緯とこのプラグインについて紹介します。\n\nhttps://github.com/kat0h/dps-bufpreview.vim\n\n 使い方\n\n インストール\nこのプラグインはDenoとdenops.vimに依存しています。\n初めにDenoを公式のインストールからインストールしてください。\ndenops.vimは通常のVimプラグインと同じようにインストールしてください。\nPlug-Vim:\n\n      \n        \n        Plug 'vim-denops...",
+          "link": "https://zenn.dev/kato_k/articles/3aa7217a1636ca",
+          "publishedOn": "2021-09-26T10:31:19.000Z",
+          "wordCount": 76,
+          "title": "Vim/NeoVimでMarkdownをプレビューするプラグインを作った",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--2kJktU2s--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kat0h%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vim%252FNeoVim%25E3%2581%25A7Markdown%25E3%2582%2592%25E3%2583%2597%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%2599%25E3%2582%258B%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDA1MWRmMmFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/hisasann/articles/neovim-fvim-neovide",
           "author": "Yoshiyuki Hisamatsu",
@@ -3066,20 +3075,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab",
-          "author": "ぴよまる",
-          "description": "デフォルトのシェルだと色があまりついていないし、可愛くもなくてつらい気持ちになったのでかわいくします。dotfilesの存在は知っていたが何から触ればいいのやらな人向け。\n\n だいたい導入するもの\n\n\nfish\n\nbashとかzshの変わりに使う\nhistoryをGUIで見ることができたり、シンタックスハイライトをデフォルトでしてくれたり、入力補完をデフォルトでしてくれたりする\nなので設定めんどくさい人でも入れるだけでちょっとハッピー\n\n\n\ntmux\n\nターミナルのペインとか良い感じに分割したりセッション保存してくれたり\n\n\n\nneovim\n\nvimのすごいやつ\nいれなくても良い気はした...",
-          "link": "https://zenn.dev/xxpiyomaruxx/articles/0661277cd1b2ab",
-          "publishedOn": "2021-08-28T02:41:59.000Z",
-          "wordCount": 208,
-          "title": "fish, neovim, starshipあたりでめっかわ❤️ターミナルを用意する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--vlAP7KSc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B4%25E3%2582%2588%25E3%2581%25BE%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:fish%252C%2520neovim%252C%2520starship%25E3%2581%2582%25E3%2581%259F%25E3%2582%258A%25E3%2581%25A7%25E3%2582%2581%25E3%2581%25A3%25E3%2581%258B%25E3%2582%258F%2520%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%259F%25E3%2583%258A%25E3%2583%25AB%25E3%2582%2592%25E7%2594%25A8%25E6%2584%258F%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWE2ZDhjM2Y2MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3088,6 +3083,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/naoki_oshiumi/articles/56945521c61341",
+          "author": "おしうみなおき",
+          "description": "HTMLとCSSでセレクトボックスの装飾をするの意外と面倒ですよね。\nなんとか簡単にセレクトボックス作れないかな〜〜と調べたら、ありました。\n僕はvue.jsをよく使うので「vue-select」という良さそうなライブラリを使ってみます。\n\n vue-selectをインストールする\nvue-selectをインストールします。\n\n      \n        \n        npm install vue-select\n\n\n      \n      \n vue-selectをインポートします\n僕はLaravelとVueを使っているので、app.jsでインポートします\n\n      \n  ...",
+          "link": "https://zenn.dev/naoki_oshiumi/articles/56945521c61341",
+          "publishedOn": "2021-09-26T23:21:17.000Z",
+          "wordCount": 75,
+          "title": "vue-selectでいい感じのセレクトボックスを実装する",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--IRlHk1ze--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%258A%25E3%2581%2597%25E3%2581%2586%25E3%2581%25BF%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:vue-select%25E3%2581%25A7%25E3%2581%2584%25E3%2581%2584%25E6%2584%259F%25E3%2581%2598%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%259C%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDRmOWU0YmY2ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kon_karin/articles/75b9808778e362",
+          "author": "こんかりん",
+          "description": "令和も3年だというのに、仕事でどうしても Internet Explorer 11 と戦わなければならないこと、あると思います。\nIE 11 への対応は巷の記事で様々取り扱われていますが、どうも情報が古かったり、とっ散らかってる印象がありました。\nそこで、最新の Vue 2.x の環境はどうなんだろう？と思い、Vue/CLI と Nuxt.js の最新バージョン（2021-09-22時点）の Babel によるトランスパイルと Polyfill についてまとめました。\n正直、IE 11 について記事を書くのはこれが最後にしたいですね。\n今後、可能な限り各 OSS のアップデートに合わせて...",
+          "link": "https://zenn.dev/kon_karin/articles/75b9808778e362",
+          "publishedOn": "2021-09-26T12:30:45.000Z",
+          "wordCount": 298,
+          "title": "Vue/CLI と Nuxt.js で IE11 と戦うための知識",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--SEIDSjiz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%2593%25E3%2582%2593%25E3%2581%258B%25E3%2582%258A%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%252FCLI%2520%25E3%2581%25A8%2520Nuxt.js%2520%25E3%2581%25A7%2520IE11%2520%25E3%2581%25A8%25E6%2588%25A6%25E3%2581%2586%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E7%259F%25A5%25E8%25AD%2598%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDU5ZDU2M2Q0YS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/azukiazusa/articles/676d88675e4e74",
           "author": "azukiazusa",
@@ -3497,5 +3520,5 @@
       ]
     }
   ],
-  "cliVersion": "1.11.1"
+  "cliVersion": "1.11.2"
 }
