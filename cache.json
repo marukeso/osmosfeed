@@ -31,6 +31,15 @@
       "siteUrl": "https://jser.info/",
       "articles": [
         {
+          "id": "https://jser.info/2021/09/27/lit-2-gatsby-4-beta-partytownthird-party-script-into-worker/",
+          "author": null,
+          "description": "JSer.info #559 - Web Componentsを扱うライブラリであるLit 2がリリースされました。\nAnnouncing Lit 2 stable release – Lit\nLit 2.0 Release Livestream - YouTube\nLit 2は今までLitElement 2.xとlit-html 1.xという別々のパッケージになったものを統合していて、litという新しいパッケージ担っています。\nclassベースのDirectives API、非同期Directives、Reactive Controllersの追加されています。\nLitElement 2.xとlit-html 1.xからアップグレードガイドも公開されています。\nUpgrade guide – Lit\nGatsby 4のベータ版がリリースされています。\nIntroducing Gatsby 4 | Gatsby\nrendering modeとして、HTMLの生成を実際にアクセスするときまで遅延するDeferred Static Generation(DSG)のサポート、SSRのサポートが追加されています。\nDeferred Static Generation(DSG)はNext.jsのIncremental Static Regeneration(ISR)と似ていて、初回のリクエストがきた段階で始めてビルドを開始することで、めったにアクセスされないコンテンツを含むようなサイトでのデプロイにかかるビルド時間を短縮する仕組みです。\nWhile DSG may look similar on the surface, what Gatsby does is that it takes a snapshot of the data at initial build time and…",
+          "link": "https://jser.info/2021/09/27/lit-2-gatsby-4-beta-partytownthird-party-script-into-worker/",
+          "publishedOn": "2021-09-27T14:10:06.000Z",
+          "wordCount": 715,
+          "title": "2021-09-28のJS: Lit 2、Gatsby 4 beta、Partytown(Third-Party Script into Worker)"
+        },
+        {
           "id": "https://jser.info/2021/09/21/deno-1.14-chromeuser-agent-vue-2vue-3/",
           "author": null,
           "description": "JSer.info #558 - Deno 1.14がリリースされました。\nDeno 1.14 Release Notes | Deno Blog\nDeno 1.14.0 がリリースされたので新機能や変更点の紹介\ndeno lintとdeno fmtがオプションをサポートしてquoteやindentなどの設定ができるようになっています。\nURLPatternのサポート。fetchがMutual TLSをサポートなども追加されています。\nstd/httpモジュールのパフォーマンス改善などが含まれています。\nChromeのUser-Agent文字列削減のスケジュールが改めて公開されています。\nChromium Blog: User-Agent Reduction Origin Trial and Dates\nnavigator.userAgent、@navigator.appVersion、 navigator.platformなどの情報量を減らす/固定化することでfinger printingなどのリスクを減らすことが目的です。これらのAPIは非推奨となり、代替としてUser Agent Client Hintsが実装されています。\nUA文字列の削減などは、次のようなスケジュールで展開していく予定となっています。\nChrome 92:  コンソールに警告の追加\nChrome 95 から 100: Origin Trialの実施\nChrome 100: Reverse Origin Trialの実施\nChrome 101から110: 削減を段階的に実施\nChrome 113: 完了\nVue2のプロジェクトをVue3へマイグレーションするという記事では、@vue/compatを使いつつVue2で書かれたアプリケーションをVue3へマイグレーションしていく方法について書かれています…",
@@ -73,6 +82,62 @@
       "feedUrl": "https://zenn.dev/topics/nextjs/feed",
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/yoshiko/articles/32371c83e68cbe",
+          "author": "よしこ",
+          "description": "こんにちは、よしこです。\n株式会社ナレッジワーク というスタートアップで、2020年4月の創業時から一人目のフロントエンドエンジニアをしています。\n初期に考えて組み上げたスタックで1年半ほど開発・運用してみて、なかなか快適に日々開発ができているので\n\n新規開発のプロダクト立ち上げ時にどのようにフロントエンドを構築したのか？\n立ち上げから1年以上開発・運用を続けてきた今、それらの選択はどうだったのか？\n\nを記事にして振り返り、公開したいなと思いました。\n（プロダクトの内容はステルスで進めていてあまり対外的な発信ができないので、かわりに技術的なところはどんどんオープンにしていきたいなという気...",
+          "link": "https://zenn.dev/yoshiko/articles/32371c83e68cbe",
+          "publishedOn": "2021-09-27T03:30:10.000Z",
+          "wordCount": 262,
+          "title": "2020年に立ち上げたWebフロントエンド構成の振り返り",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--bQFeA8RV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2588%25E3%2581%2597%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:2020%25E5%25B9%25B4%25E3%2581%25AB%25E7%25AB%258B%25E3%2581%25A1%25E4%25B8%258A%25E3%2581%2592%25E3%2581%259FWeb%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25AE%25E6%258C%25AF%25E3%2582%258A%25E8%25BF%2594%25E3%2582%258A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kwU3JDUjBpVERyUHpqWnF4YjJLZ0tueHgtamE0N253SEE0NGE4RDhrPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tera_ny/articles/cd19497b39e1d5",
+          "author": "teranyan",
+          "description": "こちらの記事に追記しても良かったのですが、この内容単体で出す方が内容も纏まると思ったので投稿しました。\nCloudStorageに静的コンテンツをアップロードする場合、REST APIやCloudStorage用のライブラリを使用してアップロードすることがほとんどです。ですがどちらもアップロードするコンテンツの内容、命名をサービス提供者側が強制することは難しいです。\n例えばですがfirestoreのドキュメントとCloudStorageのコンテンツを1対1で紐づけたい場合や、CloudFunctionsのCloudStorageイベントトリガーなどでアップロードされたファイル名に依存する...",
+          "link": "https://zenn.dev/tera_ny/articles/cd19497b39e1d5",
+          "publishedOn": "2021-09-26T13:06:15.000Z",
+          "wordCount": 230,
+          "title": "ポリシードキュメントを使用したCloudStorageのファイルアップロード",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--DFhLKKxM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:teranyan%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%259D%25E3%2583%25AA%25E3%2582%25B7%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%25BF%25E7%2594%25A8%25E3%2581%2597%25E3%2581%259FCloudStorage%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzBmMzFlOTdmZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tiwu_dev/articles/2504a20732d305",
+          "author": "Wataru Taguchi",
+          "description": "はじめに\n今までは実装方法がわからず調査し試行錯誤して実装できた方法を書いたりしていましたが、\n今回は実装自体はできているが、より良い実装はないか？という方向性で書いてみたいと思います。\n書いていく内容は Next.js で実装された一覧と検索機能を持った画面のコンポーネントと状態管理のファイル分割と設計についてです。\n自分は Next.js(React) については書き始めて1年位で、仕事では書いたことなく他PJの構成をほぼ知らないですが、一旦自分の中の設計が落ち着いたので書こうと思った次第です🙏\n\n 解説するページ\n今回解説するページは自分が実装しているサイトのツイッターの呟き一...",
+          "link": "https://zenn.dev/tiwu_dev/articles/2504a20732d305",
+          "publishedOn": "2021-09-26T11:28:53.000Z",
+          "wordCount": 561,
+          "title": "【Next.js】コンポーネントと状態管理のファイル分割と設計",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--vPiU5GMl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Wataru%2520Taguchi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E3%2580%2591%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A8%25E7%258A%25B6%25E6%2585%258B%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E5%2588%2586%25E5%2589%25B2%25E3%2581%25A8%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTIyZWFlYzZmYy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/thisistakanori/articles/fb3a013085e652",
+          "author": "Takanori Fukuyama",
+          "description": "最近フロントエンドちょっとやってるので書いてみる\nnextauth v4のfirebase adapterを使ったらエラーでサーバーが起動しないので仕方なくapi-routeでcredencialを渡して、firebase authenticationと連携させた\n\n細かい解説はしていません。あとで時間と需要があれば書きます\nOAuth周りはnextauthに任せて、ユーザーの永続化だけfirebaseでやる想定です\nGoogle認証のみです。\nfirebaseの認証UIを使わない\nnextauthとfirebaseの基本的な初期設定は済んでいる想定です\n\n\n 手を抜くためにnextau...",
+          "link": "https://zenn.dev/thisistakanori/articles/fb3a013085e652",
+          "publishedOn": "2021-09-26T10:07:42.000Z",
+          "wordCount": 264,
+          "title": "[Next.js] nextauth v4でのfirebase(SDK v9) authentication認証(API Routeで)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LuXP5gX4--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takanori%2520Fukuyama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:%255BNext.js%255D%2520nextauth%2520v4%25E3%2581%25A7%25E3%2581%25AEfirebase%2528SDK%2520v9%2529%2520authentication%25E8%25AA%258D%25E8%25A8%25BC%2528API%2520Route%25E3%2581%25A7%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pUdVhDa2tfOGdSclBia0Flb0FTMzc5VzhCbmtmdFdvVmtyODZZbzQwPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/t723/articles/a76c583084f383",
           "author": "T_723",
@@ -884,48 +949,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
-          "author": "otanu",
-          "description": "先日、Next.js 11.1がリリースされました。\nhttps://nextjs.org/blog/next-11-1\nStorybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。\n構成は以下のようになっています。\n\nyarn\nNext.js v11.1.0\nESLint v7.32.0(Next.js v11.1から含まれるように)\nTypeScript v4.4.2\nTailwind v2.2.8\nStorybook v6.3\nPrettier v2.3.2\nJest v27.1.0\n\nコー...",
-          "link": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
-          "publishedOn": "2021-08-29T10:19:30.000Z",
-          "wordCount": 540,
-          "title": "Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--yxWEstlL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:otanu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2528v11.1%2529%252BTypeScript%252BTailwind%252BSASS%252BStorybook%252BJest%25E3%2581%25AE%25E3%2583%259C%25E3%2582%25A4%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzM0ZjNjYTg5OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/crea7/articles/5b2fde4be6b6f3",
-          "author": "Crea7",
-          "description": "以前Crea7というタイムラインとブログ機能を持ったサイトを作成した時に、Next.js + microCMS + Tailwind CSSで実装を行いました。\n\n 問題点\n記事の詳細画面では、microCMSのリッチエディタで作成した記事を、HTML形式で取得しinnerHTMLで表示を行なっています。\n\n      \n        \n        <div\nclassName=\"text-black pt-7\"\ndangerouslySetInnerHTML={{ __html: `${article.body}` }}\n></div>\n\n\n      \n...",
-          "link": "https://zenn.dev/crea7/articles/5b2fde4be6b6f3",
-          "publishedOn": "2021-08-29T09:57:18.000Z",
-          "wordCount": 80,
-          "title": "microCMS + TailwindCSSでのHTMLコンテンツに対するスタイル適用",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--EPjxoynv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Crea7%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:microCMS%2520%252B%2520TailwindCSS%25E3%2581%25A7%25E3%2581%25AEHTML%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2584%25E3%2581%25AB%25E5%25AF%25BE%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B9%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%25AB%25E9%2581%25A9%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNGU2MjZkZDdmNC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/peg/articles/bca7b0ba13bce3",
-          "author": "ぺい",
-          "description": "https://qiita.com/G-awa/items/639f4f83aa4d97bc1f0d\nこちらのサンプルプロジェクトを利用。\nserveパッケージで静的ファイルをホスティングするローカルサーバーを立ち上げる。\n\n      \n        \n        yarn add -D serve\n\n\n      \n      \nhttps://qiita.com/Nossa/items/bdc6a9705e89ea8fc250\nhttps://rennnosukesann.hatenablog.com/entry/2018/03/19/233245\n\nexport, serv...",
-          "link": "https://zenn.dev/peg/articles/bca7b0ba13bce3",
-          "publishedOn": "2021-08-28T14:20:08.000Z",
-          "wordCount": 470,
-          "title": "NextJSでSSR/SSGの挙動を確認する。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--zepKBlqG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BA%25E3%2581%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:NextJS%25E3%2581%25A7SSR%252FSSG%25E3%2581%25AE%25E6%258C%2599%25E5%258B%2595%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjU2OGRmNDg3OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -934,6 +957,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/mh4gf/articles/674cfdcf1e5d89d75d09",
+          "author": "Miyagi Hirotaka",
+          "description": "起きたこと\nUniversalモードのNuxt.jsアプリをVercelにデプロイし、ページを開くとエラーが出る。\nfunctionのログを見ると以下のログが残っていた。\n\n      \n        \n        [GET] /\n13:10:38:35\n2021-09-25T04:10:38.643Z\tundefined\tERROR\tUncaught Exception \t{\"errorType\":\"Error\",\"errorMessage\":\"Could not load Nuxt configuration. Make sure all dependencies are ...",
+          "link": "https://zenn.dev/mh4gf/articles/674cfdcf1e5d89d75d09",
+          "publishedOn": "2021-09-27T07:09:57.000Z",
+          "wordCount": 161,
+          "title": "Vercel上のNuxt.jsで`Could not load Nuxt configuration.` が出た",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Yvt8q8iT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Miyagi%2520Hirotaka%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Vercel%25E4%25B8%258A%25E3%2581%25AENuxt.js%25E3%2581%25A7%2560Could%2520not%2520load%2520Nuxt%2520configuration.%2560%2520%25E3%2581%258C%25E5%2587%25BA%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTU5MDA4ZjMyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kata_n/articles/0e1c640c4d6680",
           "author": "kata",
@@ -997,6 +1034,118 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/engstt/articles/bcdd5c4c3f5b29",
+          "author": "issei",
+          "description": "導入\nadmin dashboardのtemplateを探していたところたまたまプロジェクトをコピーするタイプではなくライブラリ形式で提供している react-admin を見つけました。\nこれがとてつもなく作業効率が良かったため使い方を備忘録として記録します。\nまた、知っている人には蛇足な情報も多分に含みますため、不要な方はお手数ですが適宜読み飛ばしていただければと思います。\n\n 概要\nUIコンポーネントなどをライブラリの形式で提供している管理画面作成用OSS。\n画面に表示するデータはAPI（Server side）から取得することが前提の設計になっており、外部通信専用プラグインも...",
+          "link": "https://zenn.dev/engstt/articles/bcdd5c4c3f5b29",
+          "publishedOn": "2021-09-27T04:03:26.000Z",
+          "wordCount": 471,
+          "title": "react-adminを使って5分で作るハイカラDashboard",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--EIOqXwPH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:issei%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:react-admin%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A65%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E3%2583%258F%25E3%2582%25A4%25E3%2582%25AB%25E3%2583%25A9Dashboard%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2haYWdvMnZmLTJTTGVUc3k3bXZWclNHdm1zSXJJLVRBVFVQV2FHTnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yoshiko/articles/32371c83e68cbe",
+          "author": "よしこ",
+          "description": "こんにちは、よしこです。\n株式会社ナレッジワーク というスタートアップで、2020年4月の創業時から一人目のフロントエンドエンジニアをしています。\n初期に考えて組み上げたスタックで1年半ほど開発・運用してみて、なかなか快適に日々開発ができているので\n\n新規開発のプロダクト立ち上げ時にどのようにフロントエンドを構築したのか？\n立ち上げから1年以上開発・運用を続けてきた今、それらの選択はどうだったのか？\n\nを記事にして振り返り、公開したいなと思いました。\n（プロダクトの内容はステルスで進めていてあまり対外的な発信ができないので、かわりに技術的なところはどんどんオープンにしていきたいなという気...",
+          "link": "https://zenn.dev/yoshiko/articles/32371c83e68cbe",
+          "publishedOn": "2021-09-27T03:30:10.000Z",
+          "wordCount": 262,
+          "title": "2020年に立ち上げたWebフロントエンド構成の振り返り",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--bQFeA8RV--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%2588%25E3%2581%2597%25E3%2581%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:2020%25E5%25B9%25B4%25E3%2581%25AB%25E7%25AB%258B%25E3%2581%25A1%25E4%25B8%258A%25E3%2581%2592%25E3%2581%259FWeb%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E6%25A7%258B%25E6%2588%2590%25E3%2581%25AE%25E6%258C%25AF%25E3%2582%258A%25E8%25BF%2594%25E3%2582%258A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kwU3JDUjBpVERyUHpqWnF4YjJLZ0tueHgtamE0N253SEE0NGE4RDhrPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/dozo/articles/c871421864af4b",
+          "author": "dozo",
+          "description": "nightlyは当たり前\n関連記事:\n\nrollup.jsに爆速esbuildを組み込む方法\nRustのimage::load_from_memory遅すぎ問題\n\nRustが征くシリーズ過去記事\n\nWSL2で作るWindows開発環境: Rustが征く(1)\nwasmerでWebAssemblyの門を叩く: Rustが征く(2)\nJavaScriptからWebAssemblyの関数を呼び出す: Rustが征く(3)\nTypeScriptとRollupでWebassemblyを稼働させる: Rustが征く(4)\nSvelteでWebAssemblyでTypeScriptでRollupで...",
+          "link": "https://zenn.dev/dozo/articles/c871421864af4b",
+          "publishedOn": "2021-09-27T00:01:49.000Z",
+          "wordCount": 181,
+          "title": "Webassemblyマルチスレッド用crateを調べる: Rustが征く(7)",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--H0llP6Pa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:dozo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Webassembly%25E3%2583%259E%25E3%2583%25AB%25E3%2583%2581%25E3%2582%25B9%25E3%2583%25AC%25E3%2583%2583%25E3%2583%2589%25E7%2594%25A8crate%25E3%2582%2592%25E8%25AA%25BF%25E3%2581%25B9%25E3%2582%258B%253A%2520Rust%25E3%2581%258C%25E5%25BE%2581%25E3%2581%258F%25287%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvZC5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/nekoniki/articles/1fad65eb8beb1c",
+          "author": "nekoniki",
+          "description": "はじめに\n今回はReact Nativeアプリにジオコーディング機能を盛り込む方法について紹介します。\nジオコーディングについて簡単に説明しておくと、「静岡駅」といった文字列から位置情報(緯度、経度)への変換を指します。\n今回はreact-native-geocodingというライブラリを使って行います。\nhttps://github.com/marlove/react-native-geocoding\n注意点ですが、内部的にはGoogle Cloud Platform(以下長いのでGCP)を用いるため、GCP側でのAPI KEYの発行や課金登録(ジオコーディングは従量課金のため、要...",
+          "link": "https://zenn.dev/nekoniki/articles/1fad65eb8beb1c",
+          "publishedOn": "2021-09-26T23:54:35.000Z",
+          "wordCount": 149,
+          "title": "【RN】react-native-geocodingでジオコーディングを実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9TZDxprP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590RN%25E3%2580%2591react-native-geocoding%25E3%2581%25A7%25E3%2582%25B8%25E3%2582%25AA%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/chida/articles/bba2b5346414ed",
+          "author": "chida",
+          "description": "今回はNestJSを使って、TODOリストを題材にCRUDのロジックを実装します。\nOSはMacを使います。NodeとYarnが既にインストールされていることを前提に進めます。今回の記事で扱うツールなどのバージョンは以下の通りです。\n\n\n\nNode\nyarn\nNestJS\nMySQL\n\n\n\n\n16.4.2\n1.22.11\n16.4.2\n8.0.26\n\n\n\n\n プロジェクトの作成\nnestコマンドを実行できるように@nestjs/cliをインストールします。\nそしてnest newコマンドを実行し、nest-todolistプロジェクトを作成します。作成途中で「どのパッケージマネージャーを...",
+          "link": "https://zenn.dev/chida/articles/bba2b5346414ed",
+          "publishedOn": "2021-09-26T23:54:14.000Z",
+          "wordCount": 1307,
+          "title": "【NestJS】TODOリストでCRUDの処理を実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--W_28bpPX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:chida%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590NestJS%25E3%2580%2591TODO%25E3%2583%25AA%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25A7CRUD%25E3%2581%25AE%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYjVjNjA3YmIyOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/katoaki/articles/2f23ec42de7f6b",
+          "author": "katoaki",
+          "description": "はじめに\nTSのconstructorを書いていて、一部awaitで値をセットしようとしたらできませんでした。\nということで、初期化用の非同期メソッドを用意して、その中でawaitを使う処理を行うように変更して返すことにしました。\nこれ、よくやるのですが、たまに忘れるので備忘録として記事にしておこうと思います。\n\n 結論\n\nconstructorにはasyncに利用できない\n\n\n'async' modifier cannot appear on a constructor declaration.(1089) が発生する\n\n\n初期化時に非同期処理（外部APIをコールした結果を取得する...",
+          "link": "https://zenn.dev/katoaki/articles/2f23ec42de7f6b",
+          "publishedOn": "2021-09-26T23:12:20.000Z",
+          "wordCount": 267,
+          "title": "TypeScriptのconstructorで非同期処理をしたくなったら",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--x12aiyiH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:katoaki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AEconstructor%25E3%2581%25A7%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E3%2581%2597%25E3%2581%259F%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTU0ZTYyMTc2OC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hitoshiasano/articles/f27ce8788d2452",
+          "author": "ひとし",
+          "description": "概要\n副作用フックの使い方を下記の公式ドキュメントの例を用いて説明します。\n下記の例はカウンターを表示します。ボタンをクリックすると、カウンターの値が増えます。また、クリック回数を含んだカスタムのメッセージをドキュメントのタイトルに設定しています。\nhttps://ja.reactjs.org/docs/hooks-effect.html\nuseEffectとは関数を渡すことでレンダリング時に渡した関数を処理することができます。\nReact コンポーネントにおける副作用フックには 2 種類あります。クリーンアップコードを必要としない副作用と、必要とする副作用です。これらの違いについて...",
+          "link": "https://zenn.dev/hitoshiasano/articles/f27ce8788d2452",
+          "publishedOn": "2021-09-26T16:49:21.000Z",
+          "wordCount": 196,
+          "title": "【useEffect】副作用フックの使い方",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Q6TafuDU--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B2%25E3%2581%25A8%25E3%2581%2597%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590useEffect%25E3%2580%2591%25E5%2589%25AF%25E4%25BD%259C%25E7%2594%25A8%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjk4OGQ4NDhiOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/estra/articles/obsidian-plugin-dev_1",
+          "author": "PADAone🐕",
+          "description": "はじめに\n久しぶりのZennの記事ですが、Obsidian October 2021のイベント開催を記念してObsidianでのプラグインの作り方を紹介したいと思います。偶然なのですが、ちょうど自分も初のプラグインを作成しコミュニティプラグインとしてリリースしたので、自分自身のアウトプットも兼ねてプラグイン開発についてゼロから説明する記事にしたいと思います。\n今回は、初心者の方がプラグインを作ってみたいと思った時に役立つ開発のやり方と公開までのロードマップを初歩から解説します。長い話になるので複数回の記事にする予定で、これが第一回目となります。\n\nObsidian October 2...",
+          "link": "https://zenn.dev/estra/articles/obsidian-plugin-dev_1",
+          "publishedOn": "2021-09-26T14:59:19.000Z",
+          "wordCount": 301,
+          "title": "ゼロから始めるObsidianプラグイン開発-01",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--eUJ2eUNq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:PADAone%2520%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2582%25BC%25E3%2583%25AD%25E3%2581%258B%25E3%2582%2589%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258BObsidian%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E9%2596%258B%25E7%2599%25BA-01%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWRhMGFkMTFhYS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/mone9610/articles/f4548546fb8e81",
           "author": "mone",
@@ -2816,62 +2965,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/eagle/articles/ts-maybe-introduction",
-          "author": "eagle",
-          "description": "本記事はこの記事の続きです。\nhttps://zenn.dev/eagle/articles/ts-coproduct-introduction\n実用性の観点から割愛したMaybeを改めて紹介します。\n代数的データ型をコードで表現するために次のコード群を使用します。\n\n      \n        \n        type Coproduct<T> = {\n  [K in keyof T]: Record<\"type\", K> & T[K];\n}[keyof T];\n\ntype Individual<TCoproduct extends Recor...",
-          "link": "https://zenn.dev/eagle/articles/ts-maybe-introduction",
-          "publishedOn": "2021-08-29T10:42:49.000Z",
-          "wordCount": 1906,
-          "title": "TypeScriptで学ぶ古典的ADT - Maybe",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--mfDKKF2c--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:eagle%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25A7%25E5%25AD%25A6%25E3%2581%25B6%25E5%258F%25A4%25E5%2585%25B8%25E7%259A%2584ADT%2520-%2520Maybe%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTFmZjAxNGQyZi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
-          "author": "otanu",
-          "description": "先日、Next.js 11.1がリリースされました。\nhttps://nextjs.org/blog/next-11-1\nStorybookの最新版インストールを試してみたのですが、中々うまくいかなかったりしたので、環境の整理ついでにボイラープレートとしてまとめてみました。\n構成は以下のようになっています。\n\nyarn\nNext.js v11.1.0\nESLint v7.32.0(Next.js v11.1から含まれるように)\nTypeScript v4.4.2\nTailwind v2.2.8\nStorybook v6.3\nPrettier v2.3.2\nJest v27.1.0\n\nコー...",
-          "link": "https://zenn.dev/otanu/articles/f0a0b2bd0d9c44",
-          "publishedOn": "2021-08-29T10:19:30.000Z",
-          "wordCount": 540,
-          "title": "Next.js(v11.1)+TypeScript+Tailwind+SASS+Storybook+Jestのボイラープレート",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--yxWEstlL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:otanu%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_57_bold:Next.js%2528v11.1%2529%252BTypeScript%252BTailwind%252BSASS%252BStorybook%252BJest%25E3%2581%25AE%25E3%2583%259C%25E3%2582%25A4%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzM0ZjNjYTg5OS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/shimapon3/articles/13e3d4b147742c",
-          "author": "shimapon",
-          "description": "はじめに\n初めて記事のようなものを書きます．よろしくお願いします．\n今回は2020年のインターンシップ選考で私が開発した，都道府県ごとの人口を表示するアプリについて開発した手順を書いていきたいと思います．\n至らない点があれば、遠慮なくご指摘いただければとも思います。\n\n Demo\n県名にチェックを入れると，その県の人口推移が表示されます．\n複数選択すると、まとめて表示されます。\n\nhttps://react-highcharts-resas.web.app/\n\n 環境\n\nmacOS Catalina (v10.15.6)\nNode.js (v14.8.0)\n\n\n 使用技術\n\nReac...",
-          "link": "https://zenn.dev/shimapon3/articles/13e3d4b147742c",
-          "publishedOn": "2021-08-28T23:43:44.000Z",
-          "wordCount": 684,
-          "title": "React + Highcharts で都道府県の人口をグラフで表示するアプリ",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--fwDS_XM2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:shimapon%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520%252B%2520Highcharts%2520%25E3%2581%25A7%25E9%2583%25BD%25E9%2581%2593%25E5%25BA%259C%25E7%259C%258C%25E3%2581%25AE%25E4%25BA%25BA%25E5%258F%25A3%25E3%2582%2592%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%2595%25E3%2581%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/arark/articles/0ee7d75dd200db",
-          "author": "arark",
-          "description": "firebaseってtypescriptと相性わるいな～～～～～～～～～とまじで思ってたので超型安全firestore作ってみたらできました。パスまで型安全でやってくれます。これです。\nhttps://github.com/Hagihara-A/fire-fuse\nnpm i firefuse\nで使えます\nfirestore-v9を想定しています。\n\n 特徴/出来ること\n\nただのユーティリティパッケージなので、一切の独自実装がない。ただし型安全。\nパスの型付け\nパスを解析してReferenceを型付けできる\n\n\n なにができるか\n\n      \n        \n        // /...",
-          "link": "https://zenn.dev/arark/articles/0ee7d75dd200db",
-          "publishedOn": "2021-08-28T16:04:02.000Z",
-          "wordCount": 447,
-          "title": "超型安全firestoreができた(更新)",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--4-HrrYUM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:arark%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%25B6%2585%25E5%259E%258B%25E5%25AE%2589%25E5%2585%25A8firestore%25E3%2581%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%259F%2528%25E6%259B%25B4%25E6%2596%25B0%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWQ5ODQ2MjJmOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3058,20 +3151,6 @@
           "title": ".vimrc  を packadd で整理するとめっちゃ便利だった！",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--zMnd6yXQ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AB%25E3%2582%2583%25E3%2582%258B%25E3%2582%2589%25EF%25BC%2588%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E7%25B3%25BB%25EF%25BC%2589%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:.vimrc%2520%2520%25E3%2582%2592%2520packadd%2520%25E3%2581%25A7%25E6%2595%25B4%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A3%25E3%2581%25A1%25E3%2582%2583%25E4%25BE%25BF%25E5%2588%25A9%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMzk1NTc4MDJjOS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/e4exp/articles/ee523772afa0e5",
-          "author": "e4exp",
-          "description": "前提\n\nColabはproプランでターミナルが使える\nブラウザ(Chrome)にVimiumという拡張が入っている\n普段はEscキーでvimのinsertモードから抜けているが，Vimiumが有効だとEscキーを押すとターミナル領域ごと閉じてしまう\n\n\n 解決方法\n\n\nctrl + cでinsertモードから抜けられる\n\nまたは\n\nVimiumを無効化する(特定urlのみ無効化もできる)\n\n\n 参考\n\n\nExit insert mode in Google Colab 2020",
-          "link": "https://zenn.dev/e4exp/articles/ee523772afa0e5",
-          "publishedOn": "2021-08-29T03:04:42.000Z",
-          "wordCount": 25,
-          "title": "Google Colabのターミナルでvimから抜けられないとき",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Amq6vPgd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:e4exp%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Google%2520Colab%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%259F%25E3%2583%258A%25E3%2583%25AB%25E3%2581%25A7vim%25E3%2581%258B%25E3%2582%2589%25E6%258A%259C%25E3%2581%2591%25E3%2582%2589%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZTk3MzRhZDA0Yi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
