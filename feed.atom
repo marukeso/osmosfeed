@@ -2,10 +2,151 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-28T00:55:45.489Z</updated>
+    <updated>2021-09-29T00:53:26.636Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[vue-scrolltoで超簡単にページ内リンクのスムーススクロールを実現する]]></title>
+        <id>https://zenn.dev/naoki_oshiumi/articles/75dadb9e6d5632</id>
+        <link href="https://zenn.dev/naoki_oshiumi/articles/75dadb9e6d5632"/>
+        <updated>2021-09-29T00:24:46.000Z</updated>
+        <summary type="html"><![CDATA[ページ内リンクでぬるっとスクロールするやつを実装したく、vue-scrolltoというライブラリを試してみました。
+するとめちゃめちゃ簡単に実装できましたので、メモ程度に共有します。
+
+ vue-scrolltoをインストールする
+まずは普通にインストールします
+
+      
+        
+        npm install --save vue-scrollto
+
+
+      
+      
+ vue-scrolltoをインポートする
+僕はLaravel×vue.jsを使っているので、app.jsにインポートします。
+
+      
+        
+        imp...]]></summary>
+        <author>
+            <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptの関数定義について]]></title>
+        <id>https://zenn.dev/randd/articles/0cf27dc77c7b6b</id>
+        <link href="https://zenn.dev/randd/articles/0cf27dc77c7b6b"/>
+        <updated>2021-09-28T06:01:35.000Z</updated>
+        <summary type="html"><![CDATA[伊藤です、いろいろな言語に触っていると分からなくなりますが、定義の形くらいは覚えたいものです。
+
+ アロー関数
+
+      
+        
+        //アロー関数
+export const logMessage = (message: string): void => {
+    console.log(message)
+}
+
+
+      
+      
+ 名前付き関数
+
+      
+        
+        //名前付き関数
+export function logMessage2(message: string): void {
+    console....]]></summary>
+        <author>
+            <name>株式会社R&amp;D</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescriptでユークリッド互除法で最大公約数を求める関数(Euclidean Algorithm By Typescript)]]></title>
+        <id>https://zenn.dev/aa/articles/101b9ccec20984</id>
+        <link href="https://zenn.dev/aa/articles/101b9ccec20984"/>
+        <updated>2021-09-28T03:38:02.000Z</updated>
+        <summary type="html"><![CDATA[コード
+以下のコードで求めます。
+
+      
+        
+        // gcd(Gratest common devisior)
+function gcd(a: number, b: number): number {
+  const q = Math.floor(a / b);
+  const r = a % b;
+  if (r == 0) {
+    return b;
+  } else {
+    return gcd(b, r);
+  }
+}
+
+
+      
+      
+ 結果
+
+      
+        
+        console.log(...]]></summary>
+        <author>
+            <name>Kuuubo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React/TypeScript のプロダクトに GA4 を導入しようとしたら思ったより大変だった話]]></title>
+        <id>https://zenn.dev/magicmoment/articles/react-ga4-202109</id>
+        <link href="https://zenn.dev/magicmoment/articles/react-ga4-202109"/>
+        <updated>2021-09-28T00:15:01.000Z</updated>
+        <summary type="html"><![CDATA[Agenda
+
+はじめに
+Google Analytics の導入
+
+グローバルサイトタグの設置
+ページビューイベントの送信
+User 属性の送信
+デバッグ方法
+
+
+まとめ
+
+
+ はじめに
+はじめまして。Magic Moment でエンジニアをしている栗原と申します。
+Magic Moment では Magic Moment Playbook をリリースし半年が経ち、多くのお客様にお使い頂くようになりました。
+お客様が増えたことで UI/UX に関してご意見を頂くようになりましたが、実際にどのように使われているかがわからず、正しく改善できない状態でした。
+そこで、データに基づく UI...]]></summary>
+        <author>
+            <name>Magic Moment Tech Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScriptでパイプを作ってみる【※ネタです】]]></title>
+        <id>https://zenn.dev/yuitosato/articles/7bd35f601c1e13</id>
+        <link href="https://zenn.dev/yuitosato/articles/7bd35f601c1e13"/>
+        <updated>2021-09-27T14:17:49.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+TypeScriptでもパイプライン演算子が使いたい！！！
+はい、ということでネタ記事を書きました。
+TypeScriptではよくクラスではなくオブジェクトを使う人がいると思います。
+自分もオブジェクト派です。
+スプレッド演算子が便利だったり、フロントエンド特有の状態管理ストアへの書き込みが楽だったりするからです。
+しかし当たり前ですがオブジェクトだとふるまいを保持できないため外出しの関数を脇に置く形になると思います。
+
+      
+        user.ts
+        type User = {
+  userId: number;
+  userName: st...]]></summary>
+        <author>
+            <name>Yuito Sato</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021-09-28のJS: Lit 2、Gatsby 4 beta、Partytown(Third-Party Script into Worker)]]></title>
         <id>https://jser.info/2021/09/27/lit-2-gatsby-4-beta-partytownthird-party-script-into-worker/</id>
@@ -25,6 +166,39 @@ Deferred Static Generation(DSG)はNext.jsのIncremental Static Regeneration(ISR)
 While DSG may look similar on the surface, what Gatsby does is that it takes a snapshot of the data at initial build time and…]]></summary>
         <author>
             <name>JSer.info</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + Apollo client で、CRUD作成]]></title>
+        <id>https://zenn.dev/knaka0209/articles/c8044a7e80e181</id>
+        <link href="https://zenn.dev/knaka0209/articles/c8044a7e80e181"/>
+        <updated>2021-09-27T08:56:11.000Z</updated>
+        <summary type="html"><![CDATA[概要:
+Next.js+ apollo client で、CRUD作成の例となります
+
+
+ 環境
+
+node 14
+next.js: 11.1.2
+@apollo/client: 3.4.13
+Prisma ORM
+mysql 5.7
+
+
+
+ 参考のコード
+https://github.com/kuc-arc-f/nextjs11_5apollo
+
+apollo server
+
+https://github.com/kuc-arc-f/apollo_server_prisma
+
+
+ 関連の記事 / apollo client 追加
+https://zenn.dev/knaka0209...]]></summary>
+        <author>
+            <name>knaka Tech-Blog</name>
         </author>
     </entry>
     <entry>
@@ -5678,60 +5852,6 @@ Chrome User Experience Reportで収集されたChromeユーザーのRUMデータ
 Packemonはnpmで公開するパッケージ向けのビルドツー…]]></summary>
         <author>
             <name>JSer.info</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js BFFとかExpress記事]]></title>
-        <id>https://zenn.dev/peg/articles/1878a6d6661295</id>
-        <link href="https://zenn.dev/peg/articles/1878a6d6661295"/>
-        <updated>2021-08-30T08:06:42.000Z</updated>
-        <summary type="html"><![CDATA[Next.jsにExpressを使うという記事を見かけて???となったので調べた。
-まずこの記事をコピペしてやってみた。
-https://www.forcia.com/blog/001559.html
-
-Next.jsはデフォルトではパスと一致するpagesディレクトリ配下の各ファイルにルーティングされます。 このルーティングに独自実装を組み込みたい場合にカスタムサーバを利用します。 例えば、特定のパスの場合のCookie操作やリダイレクト処理の実装などが挙げられます。
-参考: https://nextjs-ja-translation-docs.vercel.app/docs/adva...]]></summary>
-        <author>
-            <name>ぺい</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[実際の挙手と Google Meet 上の挙手ボタンが連動する Chrome 拡張を作ったのでコード全公開&解説]]></title>
-        <id>https://zenn.dev/ryo_kawamata/articles/82871052dad5ff</id>
-        <link href="https://zenn.dev/ryo_kawamata/articles/82871052dad5ff"/>
-        <updated>2021-08-30T03:16:03.000Z</updated>
-        <summary type="html"><![CDATA[最近公開した Chrome 拡張の紹介と技術的なポイントの解説です。
-
- ✨ 何を作った？
-実際の挙手と Google Meet 上の挙手ボタンが連動する Chrome 拡張を作りました。
-https://twitter.com/KawamataRyo/status/1430730469260234756
-https://chrome.google.com/webstore/detail/sync-raise-hand/pimhkdcdgmedijjnjeagagnnddgbcnkm
-大人数のミーティングで挙手ボタンを使う機会があるのですが、ボタンを押すという動作が億劫 & 挙手...]]></summary>
-        <author>
-            <name>ryo_kawamata</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[.vimrc  を packadd で整理するとめっちゃ便利だった！]]></title>
-        <id>https://zenn.dev/nyarla/articles/0a171145604993</id>
-        <link href="https://zenn.dev/nyarla/articles/0a171145604993"/>
-        <updated>2021-08-30T02:34:07.000Z</updated>
-        <summary type="html"><![CDATA[お前が思うんならそうなんだろう。お前ん中ではな
-
-
- 話の前提
-私は普段プログラミングやテキスト管理に NeoVim を使っていて、.vimrc （NeoVim だと init.vim）に色々な場面で必要になる設定や関数、あるいは機能拡張などを記述していました。
-しかし最初は機能ごとにファイルを分けたり init.vim を一つに統一したりと、色々と調整していたものの、どの方法も上手くファイルを整理するに至らず、
-
-さてどうしたもんかな……これは……
-
-と考え込んでいたところで、
-
-あ！ 試しに vim 組み込みのパッケージ管理機能を使ってみるか！
-
-と思いつき、実際にやってみたら結構...]]></summary>
-        <author>
-            <name>にゃるら（テック系）</name>
         </author>
     </entry>
 </feed>
