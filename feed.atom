@@ -2,10 +2,141 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-29T00:53:26.636Z</updated>
+    <updated>2021-09-30T00:59:53.543Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[海外進出を目指して、ProductHuntへ個人開発サービスを投稿するまでにやったこと&やった結果を全面的にシェアする]]></title>
+        <id>https://zenn.dev/nice2have/articles/120b1df8fcea2a</id>
+        <link href="https://zenn.dev/nice2have/articles/120b1df8fcea2a"/>
+        <updated>2021-09-29T22:16:23.000Z</updated>
+        <summary type="html"><![CDATA[初めて作った個人開発サービスで海外進出しようという無謀な挑戦
+以下の記事の通り、9月頭に2goというサービスを作って公開しました。サービスの詳細は以下のURLから見てもらえればと思いますが、いくつかの理由から世界での公開を元から視野に入れていました。
+https://zenn.dev/nice2have/articles/aa15eccd13a23c
+
+
+英語圏のユーザーも含めたほうがサービスの規模感が大きくなる
+サービス内容が日本だけに留まらない共通の需要があると思った
+どこかで挑戦しなくてはならないのなら、ここで挑戦しようと思った（無謀）
+
+こういった背景があり、全てのインターフ...]]></summary>
+        <author>
+            <name>Nakajima</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vimのプラグインの変更が反映されない(dein.vim)]]></title>
+        <id>https://zenn.dev/abcd/articles/55660f68a6a113</id>
+        <link href="https://zenn.dev/abcd/articles/55660f68a6a113"/>
+        <updated>2021-09-29T14:39:04.000Z</updated>
+        <summary type="html"><![CDATA[初めに
+Vimのテーマをforkしていじったものの、その変更がちゃんと反映されなかったので覚え書き。
+
+ 環境
+
+      
+        
+        OS: WSL2 Ubuntu 20.04.3 LTS
+Vim: 8.1
+プラグインマネージャー: dein.vim
+
+
+      
+      
+ 解決方法
+~/.cache/dein/repos/github.com/ユーザー名/リポジトリ名 を削除する。
+おそらく編集する前に一度cloneしたものが残っていた。
+削除した後にVimを開くことでもう一度cloneされ、最新のものが適用された。
+:call dein#re...]]></summary>
+        <author>
+            <name>ryo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuex 5でどのように変わるのか？]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/38e9f804474668</id>
+        <link href="https://zenn.dev/azukiazusa/articles/38e9f804474668"/>
+        <updated>2021-09-29T10:18:50.000Z</updated>
+        <summary type="html"><![CDATA[この記事の内容は RFC を元に作成されており、将来によって機能が変更になる可能性があります。
+
+
+ はじめに
+現在リリースされている Vuex の最新のバージョンは Vuex 4 です。
+これは Vuex 3 と互換性のあるバージョンで Vue 3 で使用するためのバージョンであり、 Vuex 3 と同じ API となっています。
+そのために現状 Vuex の問題点としてよくあげられている TypeScript サポートの問題点を解決できていません。
+Vuex 5 は Vue 3 において Composition API による Reactivity API が登場したことにより R...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuex 5でどのように変わるのか？]]></title>
+        <id>https://zenn.dev/azukiazusa/articles/38e9f804474668</id>
+        <link href="https://zenn.dev/azukiazusa/articles/38e9f804474668"/>
+        <updated>2021-09-29T10:18:50.000Z</updated>
+        <summary type="html"><![CDATA[この記事の内容は RFC を元に作成されており、将来によって機能が変更になる可能性があります。
+
+
+ はじめに
+現在リリースされている Vuex の最新のバージョンは Vuex 4 です。
+これは Vuex 3 と互換性のあるバージョンで Vue 3 で使用するためのバージョンであり、 Vuex 3 と同じ API となっています。
+そのために現状 Vuex の問題点としてよくあげられている TypeScript サポートの問題点を解決できていません。
+Vuex 5 は Vue 3 において Composition API による Reactivity API が登場したことにより R...]]></summary>
+        <author>
+            <name>azukiazusa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt製WebサービスのLighthouseスコアを28点→55点に上げた話]]></title>
+        <id>https://zenn.dev/manalink/articles/manalink-lighthouse-score-top-page</id>
+        <link href="https://zenn.dev/manalink/articles/manalink-lighthouse-score-top-page"/>
+        <updated>2021-09-29T09:13:26.000Z</updated>
+        <summary type="html"><![CDATA[オンライン家庭教師マナリンクのトップページのLighthouseスコアを28点前後から55点前後まで上げた話をします。
+
+ 背景説明
+
+ 対象読者
+
+Nuxt.jsでアプリケーション開発の経験がある方
+開発しているサービスのスコアが50点未満の方
+実際に運用されていて50点未満のサービスのLighthouseスコアをどうやって上げるのか興味がある方
+フロントエンドのパフォーマンス改善について網羅的にざっくり知りたい方
+
+
+ 環境
+
+Nuxt.js 2.15系
+Lighthouse 8.3系を利用して測定
+ピボット前の時期も含めると、2年半ほど運用されているNuxtアプリケーション
+
+
+ ...]]></summary>
+        <author>
+            <name>マナリンク Tech Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boltでサーバーを閉じる]]></title>
+        <id>https://zenn.dev/ratmie/articles/855250b71e7b40</id>
+        <link href="https://zenn.dev/ratmie/articles/855250b71e7b40"/>
+        <updated>2021-09-29T08:31:37.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR
+BoltではApp.stop()でサーバーを閉じることができる。
+
+ やりたいこと
+SlackアプリのnodeフレームワークであるBoltにて、サーバーを終了処理を実装する。
+
+ もう少し詳しく
+BoltがexpressReceiverを用いているとき、App.stop()はexpress.close()をラップしている。
+expressはhttp(s).serverを持っているので、最終的にnet.server.close()が呼ばれ、リクエストの待受を停止する。
+
+ 参考リンク
+https://nodejs.org/api/net.html#net_server_cl...]]></summary>
+        <author>
+            <name>ratmie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vue-scrolltoで超簡単にページ内リンクのスムーススクロールを実現する]]></title>
         <id>https://zenn.dev/naoki_oshiumi/articles/75dadb9e6d5632</id>
@@ -32,6 +163,26 @@
         imp...]]></summary>
         <author>
             <name>おしうみなおき</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js + Apollo + Prisma で、GraphQL初級編]]></title>
+        <id>https://zenn.dev/knaka0209/books/261398faf9b13a</id>
+        <link href="https://zenn.dev/knaka0209/books/261398faf9b13a"/>
+        <updated>2021-09-28T23:41:51.000Z</updated>
+        <summary type="html"><![CDATA[Next.js + Apollo で、GraphQL に入門、初級的な記事を集めました。
+導入、製作ノウハウ、事例等の内容を追加予定です。
+
+環境について、下記となります。
+node : 14.17
+next.js: 11.1.2
+apollo-server-express: 2.25.1
+@apollo/client: 3.4.13
+Prisma ORM
+mysql : 5.7
+eslint : 7.32.0]]></summary>
+        <author>
+            <name>knaka Tech-Blog</name>
         </author>
     </entry>
     <entry>
@@ -5813,45 +5964,6 @@ React hooksで例えばパターンA、パターンBを切り替える、factory
 /...]]></summary>
         <author>
             <name>terrierscript</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Symbol x Angular その1 Angularでsymbol-sdkを使うための環境構築]]></title>
-        <id>https://zenn.dev/nemtus/articles/blockchain-symbol-angular-1st-symbol-sdk</id>
-        <link href="https://zenn.dev/nemtus/articles/blockchain-symbol-angular-1st-symbol-sdk"/>
-        <updated>2021-08-31T03:08:26.000Z</updated>
-        <summary type="html"><![CDATA[Angularでsymbol-sdkを使うための環境構築
-
- 概要
-この記事では、Angularで作成されたWebアプリ上でsymbol-sdkというnpmパッケージを用いてSymbolというブロックチェーンを利用するための第一歩となる環境構築について説明します。Angularのデフォルトの設定のままsymbol-sdkをインストールするといくつかのエラーが発生します。それを修正するための方法について説明し、同時にsymbol-sdkをAngularプロジェクトで使う際のサンプルコードを紹介します。
-以下URLでサンプルコードを実際に動かしているので、必要に応じてご参照ください。
-
-...]]></summary>
-        <author>
-            <name>NEMTUS公式</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021-08-31のJS: TypeScript 4.4、PageSpeed InsightsのLab/Field data、Packemon(ライブラリ向けビルドツール)]]></title>
-        <id>https://jser.info/2021/08/31/typescript-4.4-pagespeed-insightslabfield-data-packemon/</id>
-        <link href="https://jser.info/2021/08/31/typescript-4.4-pagespeed-insightslabfield-data-packemon/"/>
-        <updated>2021-08-30T22:46:59.000Z</updated>
-        <summary type="html"><![CDATA[JSer.info #555 - TypeScript 4.4が正式にリリースされました。
-Announcing TypeScript 4.4 | TypeScript
-Control Flow Analysisの改善、Index SignaturesにSymbolやTemplate Stringを利用できるようになっています。
-unknown型にするuseUnknownInCatchVariablesオプションと
-undefined値の区別をするexactOptionalPropertyTypesオプションの追加されています。
-useUnknownInCatchVariablesはstrictオプションが有効の場合は自動的にONとなります。
-exactOptionalPropertyTypesはstrictオプションとは別途設定が必要になります。
-また、ES Proposal Stage 3のclass static blockがサポートされています。
-tsc --helpの表示を改善、ビルドパフォーマンスの改善も含まれています。
-Why lab and field data can be different (and what to do about it)という記事では、PageSpeed Insightsなどに表示される"lab data"と"field data"の違いについて解説しています。
-Lab dataは、ネットワークは実行環境を固定したSynthetic モニタリングのデータとなっています。
-Chrome User Experience Reportで収集されたChromeユーザーのRUMデータを元にしています。
-この2つのデータの違い、どのようなケースで値に違いがでるかなどを解説しています。
-Packemonはnpmで公開するパッケージ向けのビルドツー…]]></summary>
-        <author>
-            <name>JSer.info</name>
         </author>
     </entry>
 </feed>
