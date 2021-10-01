@@ -77,6 +77,145 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-30">2021-09-30</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reactの実践練習を兼ねてPX→REM変換表のWEBサイトを作ってみた。</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hamchance/articles/01d76ed7fa0754">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>フロントエンド開発をしている時にpxをremに変換することが多かったので変換表を作ってみました。
+ググったらpxを1つずつ計算するサイトは見つかったのですが、つど計算するのは面倒なのでfont-sizeを入力したら1〜1500pxに対応するpxとremの対応表を表示するようにしました。
+また、個人開発でインフラコストがかかるとツライのでFirebaseを使ってインフラコストゼロで構築しました。
+https://table-of-px-to-rem.web.app
+
+font-size(px)を入力すると、1pxから1,500pxに対応するremを表示します。
+値をクリックすると、クリップ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TypescriptのExtractでオブジェクトユニオンから1個とりだす</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/umezo/articles/48c20a1d77a6d7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>ユニオンから type: aの型だけ抜き出したい。
+Extractでできます。
+
+      
+        
+        type Payload &#x3D; {
+    type: &#x27;a&#x27;,
+    data: number;
+} | {
+    type: &#x27;b&#x27;,
+    data: string;
+};
+
+type PayloadA &#x3D; Extract; // &lt;- ここ
+
+
+      
+      コード部分では、こう。
+
+      
+        
+        // no error
+const pa...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">MUI (Material UI) v5 で App Shell をつくる</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/sprout2000/articles/3aa67a5981f4c0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>はじめに
+2021 年 9 月、MUI (旧 material-ui) v5 がリリースされました。
+これを使って App Shell を作ってみます。
+https://mui.com/
+Material UI が MUI へと変更された経緯や変更点などについては、よしさんによる記事が詳しいです。
+https://zenn.dev/h_yoshikawa0724/articles/2021-09-26-material-ui-v5
+
+ App Shell is 何？
+↓ こんなやつのことです。
+
+https://developers.google.com/web/fundamenta...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">【RN】アプリストアを開く</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nekoniki/articles/b4a35f89e2c843">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>概要
+今回はReact Nativeで、App StoreやGoogle Play Storeなどのアプリストアに遷移する方法について紹介します。
+アプリストアに遷移する目的としては、ユーザに対してアプリのレビューを促したい場合や、強制アップデートを行わせたい場合などが挙げられます。
+
+ 前提：そもそもアプリストアのURLはどうなっているか
+iOSないしAndoridを使う場合、ホーム画面からApp StoreやGoogle Play Storeのアプリケーションを立ち上げて、その中でキーワードやジャンルなどからアプリを検索するため、あまりURLは意識されません。
+今回react-n...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React+TSプロジェクトで便利だったLint/Format設定紹介</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yoshiko/articles/0994f518015c04">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは、よしこです。
+この記事は 2020年に立ち上げたWebフロントエンド構成の振り返り の「linter/formatter」項の詳細記事です。単体でも読めますが、よければ元記事もあわせてどうぞ！
+
+この記事では、今わたしが 株式会社ナレッジワーク というスタートアップで開発・運用しているプロジェクトにおいて便利だったLint/Format関連の設定についてご紹介していきます。
+使っているのは、TSのlintのためにESLint, CSSのlintのためにStylelint, 主なファイルのformatのためにPrettierです。
+
+ ESLint
+pluginsとextend...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React v17から学んだEvent Delegationについて</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hk_206/articles/c0e1925a92d8e9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>こんにちは、Another works フロントエンドエンジニアのみやぞんです。
+つい最近、Reactのアップデートを行ったので React v17 での変更で学んだことについて紹介したいと思います。
+
+ アップデート内容
+
+新機能 “なし”
+段階的なアップグレードが可能になった
+
+公式：https://ja.reactjs.org/blog/2020/10/20/react-v17.html
+
+ 破壊的変更があった部分
+アップデート内容にもあった「段階的なアップグレード」を実現するための変更が「Event Delegationの変更」です。React v17 における最も大きな変更と言...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-29">2021-09-29</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -119,6 +258,36 @@ Lighthouse 8.3系を利用して測定
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">p5.jsのExamplesをReactで写経してみた</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/nszknao/articles/d94060914046e7f40e07">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>こんにちは、にしざかです。
+普段はWebのインフラからフロントまで薄く広く開発しています。デザインはできないです。
+最近のNFTプロジェクトの盛り上がりを感じる中で、自分もクリエイターとして作品作りをしたいな、でも何のメディアで作ろうかなと漠然と考えていました。いわゆる2次元のキャンバスに描かれるようなアート作品を0から作ることは、自分のスキルとマッチしていないのが明らかなので何から手をつけようか調べていました。
+そんな時にGenerative Artという分野があることを知りました。ソフトウェアのアルゴリズムを使って、人工物とも自然物とも言えない有機的な作品を作ることができます。これな...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[jest] check x days later</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hugtech/articles/28f7245723a3b8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>expect.extend({
+  toBeXDaysAfter (received, x, epochType &#x3D; &#x27;milliseconds&#x27;) {
+    const recv &#x3D; (epochType &#x3D;&#x3D;&#x3D; &#x27;seconds&#x27;) ? new Date(received * 1000).valueOf() : new Date(received).valueOf()
+    const today &#x3D; Date.now()
+    const dur &#x3D; recv - today
+    const durDays &#x3D; Math....</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Vuex 5でどのように変わるのか？</summary>
@@ -6807,189 +6976,13 @@ functio...</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Sass】Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル (2021/09)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yknight/articles/1e46d3754e7f3b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>node-sassの終了アナウンスから、dart-sassを使う
-Sass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。
-
- node-sassの終了に関してはこちらの記事を参照
-
-
-前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。
-
-
- sass-loaderに依存するNext.js（v11系）と、Storybook（v6.3.7）へ、「dart-sassの導入」...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Auth0 の onContinuePostLogin を理解して Actions を柔軟に実装する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/okunokentaro/articles/01fee7f2chzps2s0zpbfd48fbd">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>こんにちは、クレスウェア株式会社の奥野賢太郎 ( @okunokentaro ) です。
-今回はAuth0が提供する、ログインフローを拡張する仕組みであるActionsと、さらに強力な機能であるonContinuePostLogin()について紹介します。Auth0は認証認可の機能を扱うIDaaSのひとつで、サービス自体の詳解は省略します。
-Auth0 Actionsは2021年5月にGAされた比較的新しい機能であるため、日本語情報どころか英語圏の情報がそもそも少ないため、頼りになるのは公式ドキュメント、及び試行錯誤の結果となります。今回紹介するonContinuePostLogin()...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">【Sass】node-sassの終了アナウンスから、dart-sassを使う (2021/09)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yknight/articles/1e46d3754e7f3b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Next.js(v11) /TypescriptとStorybookでsass導入と@useを使ったサンプル
-Sass(Scss)のnode-sassは、2022年10月に終了のアナウンスがされています。現在の推奨はdart-sassです。
-
- node-sassの終了に関してはこちらの記事を参照
-
-
-前回の記事で、Sassの導入について、以下のコメを記載していましたが、node-sassの終了に伴い、dart-sass(yarn add sass)によりインストールをしていることが理由です。
-
-
- sass-loaderに依存するNext.js（v11系）と、Storybook（v...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Material-UIのDate Pickerをカスタマイズしよう</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryoryo16/articles/7a62ca4634685f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-Material-UIのDate Pickerって見た目もシンプルでかなりいい感じですよね～
-
-デフォルトのDate Picker
-しかし、やはりデフォルで使用するには表示が日本人向けではない...
-英語というだけでかなりの拒否反応を起こしてしまう方もいたりいなかったりしますよね。
-ここはしっかりと日本人向けにカスタマイズしていこうじゃないかという趣旨の記事となっております。
-
- 基本の使い方
-ここはドキュメントをサラッと読むだけでも分かる部分なので読み飛ばしていただいても OK
-
- インストール
-Date Pickerですがcoreパッケージではなく「Material-U...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Material-UIのwithStylesでカスタマイズ</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/ryoryo16/articles/076cc7e7391467">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>はじめに
-Material-UI のコンポーネントのスタイルを変更したいなーと思った際に、公式ドキュメントだけでは&quot;withStyles&quot;の利用方法が分かりづらかったので。
-色々と使い方はあるみたいだが、とりあえず基本の基本をピックアップ。
-
- withStyles の基本
-下記のように withStyles によってコンポーネントを作成し配置する。
-
-      
-        
-        const CustomComponent &#x3D; withStyles({
-  root: {
-    // ここにスタイルを書いたり
-  },
-  label: {},
-  // etc...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vue.jsで郵便番号自動入力機能を作成する</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/naoki_oshiumi/articles/0cd78360bcaf15">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Vue.jsだけで郵便番号自動入力機能を作成します。
-CORSのエラーが発生してしまうので、jsonpを使用してCORSのエラーが出ないようにしていきます。
-
- jsonpインストール
-
-      
-        
-        npm install axios-jsonp
-
-
-      
-      
- 郵便番号から住所を取得してセットする取得実装
-jsonpのaxiosを使用して、郵便局dが出している郵便番号取得APiを叩きに行きます。
-
-      
-        
-        
-  &lt;label&amp;g...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-31">2021-08-31</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React hooksでfactoryパターンっぽいことをしたいときは結局コンポーネントを分離するのが妥当</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/terrierscript/articles/2021-08-31-react-hooks-factory">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Reactでhooksを切り替えしたい時について考えたケースがあったので書き残し。
-中盤は悪例を挟みます。悪例については利用しないことをおすすめします
-結論だけ知りたい方向け -&gt; 結論へ
-
- 前提
-React hooksで例えばパターンA、パターンBを切り替える、factoryパターンっぽいことをやりたくなることがある。
-コンポーネントより外側で切り替えることが可能であればこちらの記事などのようなことが可能だが、コンポーネントの内部で切り替えたいケースだとこのやり方だと処理出来ない
-例えばこのようなカウンターを考えてみたい。
-
-      
-        
-        
-/...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-30T00:59:53.518Z">2021-09-30T00:59:53.518Z</time>
+    <time id="build-timestamp" datetime="2021-10-01T00:59:16.096Z">2021-10-01T00:59:16.096Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.2</a></span>
   </footer>
   <script src="index.js"></script>
