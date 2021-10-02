@@ -74,6 +74,62 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/rabbit/articles/af45822a7cd01c",
+          "author": "hanetsuki",
+          "description": "先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。\nhttps://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li\n簡易構成のリポジトリを作成しましたので、参考になればと思います。\nhttps://github.com/tsuki-lab/split-view-and-hook\n\n 経緯\n\nメディアサイトを作成することになった\n\nデザイナーコーダー ×1\nフロントエンドエンジニア ×1（ワイ）\n\n\nNext.jsとmicroCMSでSSGしてverc...",
+          "link": "https://zenn.dev/rabbit/articles/af45822a7cd01c",
+          "publishedOn": "2021-10-01T08:29:38.000Z",
+          "wordCount": 319,
+          "title": "Next.jsで整える。デザインとロジックの分離",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--d-zKEf48--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hanetsuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E6%2595%25B4%25E3%2581%2588%25E3%2582%258B%25E3%2580%2582%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25A8%25E3%2583%25AD%25E3%2582%25B8%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%25E5%2588%2586%25E9%259B%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqcUw3akdtc1E3STZUTUtMcDBzUXVhd0FNUzNvcHBWNFVCRGZzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/heavenosk/articles/nextjs-extension-config",
+          "author": "へぶん",
+          "description": "Next.js で開発中のページを公開したくない状況がありました。\nCustom Page Extension を利用してリリースに含めるかどうかをコントロールすることができたので、その方法を紹介します。\n\n TL;DR\n\nCustom Page Extension で page.tsx を設定する\n開発用に next dev 時の Custom Page Extension の制限を緩くする\n\n\n next.config.js で Custom Page Extensions を設定する\n以下のように設定すると、ビルド対象を page.tsx の拡張子のファイルに限定することができます...",
+          "link": "https://zenn.dev/heavenosk/articles/nextjs-extension-config",
+          "publishedOn": "2021-10-01T07:52:58.000Z",
+          "wordCount": 152,
+          "title": "[Next.js] Custom Page Extensions で開発中のページを非公開にする",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xq61akXI--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B8%25E3%2581%25B6%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%255BNext.js%255D%2520Custom%2520Page%2520Extensions%2520%25E3%2581%25A7%25E9%2596%258B%25E7%2599%25BA%25E4%25B8%25AD%25E3%2581%25AE%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E9%259D%259E%25E5%2585%25AC%25E9%2596%258B%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hoMWZIZ0JrazVrQ3N2c2dQYS10azVkMG0yTk02ZHBDM3BBWXdKPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/takepepe/articles/storybook-driven-development",
+          "author": "Takepepe",
+          "description": "Storybook CSF3.0 の概要\n単体テスト・結合テスト・Storybook を充実させるためには、多くの工数が必要です。堅牢なフロントエンド開発のためとはいえ、これらのメンテナンスは日に日に負担が増しています。似かよったテストケースでは、同じような下作業をそれぞれに用意する必要がありました。\nComponent Story Format（CSF）は、この課題への取り組みとして開発されました。「様々なソリューションで再利用可能な資材」 が用意できれば、開発は素早く・より楽しいものになります。リリース間近の CSF3.0 はより一層、そのゴールを明確に示してくれています。\nht...",
+          "link": "https://zenn.dev/takepepe/articles/storybook-driven-development",
+          "publishedOn": "2021-09-30T13:52:06.000Z",
+          "wordCount": 1173,
+          "title": "Storybook 駆動開発 @ CSF3.0",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zYx3JLbC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takepepe%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Storybook%2520%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%2520%2540%2520CSF3.0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dpejh1QmdoVHJXUHhiRlRFdm9IVHJ5WDNhRkdmdlJCLUtVVTl6SUE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/maztak/articles/d0608857bb140e",
+          "author": "Takuya Matsuda",
+          "description": "Next.js x TypeScript x Firebase Authentication で Twitterログインを実装するケースは今後増えそうですが、Firebase公式ドキュメントを見てもサクッと実装できなかったのでZennにします。\nRecoil, Atom, State まわりの理解が正直自信ないので、「意味わからないことしてる」「もっとスマートな書き方がある」などあればコメントでご指摘いただけると幸いですm(_ _)m\n\n 環境 & 注意\n\nTypeScript\nNode.js 16\nM1 Mac...\n\nNext.js（SSR）なのでFirebaesのinitま...",
+          "link": "https://zenn.dev/maztak/articles/d0608857bb140e",
+          "publishedOn": "2021-09-30T12:35:17.000Z",
+          "wordCount": 416,
+          "title": "Recoil で Next.js x Firebase Twitter auth を実装",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s---NJlB9jB--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Takuya%2520Matsuda%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Recoil%2520%25E3%2581%25A7%2520Next.js%2520x%2520Firebase%2520Twitter%2520auth%2520%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pneVNwNkxqcEZSMEVzVXhmb2pzTVZHblBjYUVSNnRKRVhuY1NzNXc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/knaka0209/books/261398faf9b13a",
           "author": "knaka Tech-Blog",
           "description": "Next.js + Apollo で、GraphQL に入門、初級的な記事を集めました。\n導入、製作ノウハウ、事例等の内容を追加予定です。\n\n環境について、下記となります。\nnode : 14.17\nnext.js: 11.1.2\napollo-server-express: 2.25.1\n@apollo/client: 3.4.13\nPrisma ORM\nmysql : 5.7\neslint : 7.32.0",
@@ -912,20 +968,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/creamstew/articles/674a0e2208a2befc131f",
-          "author": "creamstew",
-          "description": "ある特定の条件を満たすまで、定期的にデータフェッチしたかった。\nSWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。\n例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。\n\n 完成形\nこれで条件を満たすまで、定期的なデータフェッチを実現しています。\n\n      \n        \n        import useSWR from 'swr'\nimport { useEffect, useState } from 'react';\n\nfunctio...",
-          "link": "https://zenn.dev/creamstew/articles/674a0e2208a2befc131f",
-          "publishedOn": "2021-09-01T14:52:24.000Z",
-          "wordCount": 100,
-          "title": "SWRとReact hooksで条件を満たすまで定期的にデータフェッチする処理を実現",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--XEL2Q6U0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:creamstew%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:SWR%25E3%2581%25A8React%2520hooks%25E3%2581%25A7%25E6%259D%25A1%25E4%25BB%25B6%25E3%2582%2592%25E6%25BA%2580%25E3%2581%259F%25E3%2581%2599%25E3%2581%25BE%25E3%2581%25A7%25E5%25AE%259A%25E6%259C%259F%25E7%259A%2584%25E3%2581%25AB%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2595%25E3%2582%25A7%25E3%2583%2583%25E3%2583%2581%25E3%2581%2599%25E3%2582%258B%25E5%2587%25A6%25E7%2590%2586%25E3%2582%2592%25E5%25AE%259F%25E7%258F%25BE%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYy5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1025,6 +1067,62 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kenara/articles/645c955a67ac08",
+          "author": "KenAra",
+          "description": "記事を書いているときのバージョン7.7.0（@types/react-tableは7.7.5）にて、\nソート機能がなかなか実装できなかったので、できるまでを書いていきます。\n\n 普通に実装した際の問題点\nまず、公式のガイド通りに実装してみると、\nソート機能を有効化させるプロパティは存在しないエラーが出てしまいます。\n\n      \n        \n        Property 'getSortByToggleProps' does not exist on type 'HeaderGroup<CategoryTable | TagTable>'.ts(2339)\n\n\n ...",
+          "link": "https://zenn.dev/kenara/articles/645c955a67ac08",
+          "publishedOn": "2021-10-01T13:50:29.000Z",
+          "wordCount": 379,
+          "title": "react-tableでソート機能を実装（TypeScript）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--5nFC8ZDj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenAra%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:react-table%25E3%2581%25A7%25E3%2582%25BD%25E3%2583%25BC%25E3%2583%2588%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25EF%25BC%2588TypeScript%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2NjNWVkZjFlNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/rabbit/articles/af45822a7cd01c",
+          "author": "hanetsuki",
+          "description": "先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。\nhttps://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li\n簡易構成のリポジトリを作成しましたので、参考になればと思います。\nhttps://github.com/tsuki-lab/split-view-and-hook\n\n 経緯\n\nメディアサイトを作成することになった\n\nデザイナーコーダー ×1\nフロントエンドエンジニア ×1（ワイ）\n\n\nNext.jsとmicroCMSでSSGしてverc...",
+          "link": "https://zenn.dev/rabbit/articles/af45822a7cd01c",
+          "publishedOn": "2021-10-01T08:29:38.000Z",
+          "wordCount": 319,
+          "title": "Next.jsで整える。デザインとロジックの分離",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--d-zKEf48--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hanetsuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Next.js%25E3%2581%25A7%25E6%2595%25B4%25E3%2581%2588%25E3%2582%258B%25E3%2580%2582%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25A8%25E3%2583%25AD%25E3%2582%25B8%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%25E5%2588%2586%25E9%259B%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dqcUw3akdtc1E3STZUTUtMcDBzUXVhd0FNUzNvcHBWNFVCRGZzPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/yukiyada/articles/053722ddadd18a",
+          "author": "yukiyada",
+          "description": "1.はじめに\n作る経験はコピーできない。技術書を読むだけではわからなかったことが、「実際に手を動かし、作る」という作業を経て、一本の線がつながるように理解できるようになった。そんな経験は、エンジニアであれば誰もが一度はあると思います。\nタイトルにもあるとおり、今回取り組んだことはTypescriptによるニューラルネットのスクラッチ実装( データセットはMNIST )です。最近、機械学習の理論的背景をより深く理解したいなぁ、と思っていたので、勉強がてらやってみることにしました。以下は実装したリポジトリになります。\nhttps://github.com/YadaYuki/neural_...",
+          "link": "https://zenn.dev/yukiyada/articles/053722ddadd18a",
+          "publishedOn": "2021-10-01T06:50:09.000Z",
+          "wordCount": 874,
+          "title": "Typescriptでゼロから作るニューラルネット",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--kuw1cAcm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:yukiyada%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Typescript%25E3%2581%25A7%25E3%2582%25BC%25E3%2583%25AD%25E3%2581%258B%25E3%2582%2589%25E4%25BD%259C%25E3%2582%258B%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25A9%25E3%2583%25AB%25E3%2583%258D%25E3%2583%2583%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5zdmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/wok/articles/0020_bundle-webworker",
+          "author": "wok",
+          "description": "はじめに\nこれまで様々な機械学習モデルをWebWorkderで動かすnpmパッケージを作成してきたのですが、どうにもTypeScriptで作成したWebWorkerを単一のファイルにバンドルする方法がわかりませんでした。なので、npm install後にWebWorkerのスクリプトをpublicフォルダにコピーしてもらうようなインストール方法をReadmeに記載していました。\nたとえば、次のような感じ。\n\n      \n        \n        $ npx create-react-app demo  --template typescript\n$ cd demo/\n$ n...",
+          "link": "https://zenn.dev/wok/articles/0020_bundle-webworker",
+          "publishedOn": "2021-10-01T02:11:32.000Z",
+          "wordCount": 223,
+          "title": "WebWorkerをnpmパッケージにバンドルする方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--zO6RuqVT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:wok%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:WebWorker%25E3%2582%2592npm%25E3%2583%2591%25E3%2583%2583%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AB%25E3%2583%2590%25E3%2583%25B3%25E3%2583%2589%25E3%2583%25AB%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hZemxmeFk4WFJDTHJzM1VvRWI2YmI0cEVhem1kTDg5ejFXQnFZdVE9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/hamchance/articles/01d76ed7fa0754",
           "author": "ham",
@@ -3040,34 +3138,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/koki_tech/articles/361bb8f2278764",
-          "author": "Koki Nagai",
-          "description": "こんにちは、株式会社スタメンでオンラインサロンFANTSのフロントエンドエンジニアをしている@0906kokiです。\n今回はSOLID原則の5つの設計原則を、Reactのコードをベースにして解説できればと思います。\n\n SOLID原則とは？\nSOLID原則とは、ソフトウェアを柔軟に、メンテナンス性を高く設計するための5つの原則となります。\nRobert C. Martinによって、5つの原則の頭文字をとってSOLIDという名前が付けられました。5つの原則とは以下の通りです。\n\nSRP: 単一責任の原則\nOCP: 開放閉鎖の原則\nLSP: リスコフの置換原則\nISP: インタフェース分離の...",
-          "link": "https://zenn.dev/koki_tech/articles/361bb8f2278764",
-          "publishedOn": "2021-09-02T07:49:17.000Z",
-          "wordCount": 1123,
-          "title": "SOLID原則で考えるReact設計",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--YFq6E64w--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Koki%2520Nagai%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:SOLID%25E5%258E%259F%25E5%2589%2587%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258BReact%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h2X19mQldpYWVVeFVsZjVxaHZPSGpfMk1uZTIwdGpBdW9rV2hnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/hiro__dev/articles/605161cd5a7875",
-          "author": "Hiro",
-          "description": "環境\n・MacOS BigSur（11.5.2）\n・VScode（1.59.1）\n・Node.js   (16.1.1）\n・Firebase （9.0.0）←New!\n・yarn (1.22.11)\n・TypeScript(4.4.2)\n\n 対象\n・これからFirebaseでプロジェクトを始めようとする人\n✍️8月25日以前に出された教材やチュートリアル、記事、そして現時点での日本語の公式ドキュメントを参考にしようとしている人は特に！\n・教材や記事、ハンズオン通りにFirebaseでプロジェクトを始めたのに原因不明のエラーぶつかった人\n・8月25日以前にFirebaseプロジェクト作って...",
-          "link": "https://zenn.dev/hiro__dev/articles/605161cd5a7875",
-          "publishedOn": "2021-09-02T01:01:39.000Z",
-          "wordCount": 464,
-          "title": "これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--cN2qHcGL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Hiro%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2581%2593%25E3%2582%258C%25E3%2581%258B%25E3%2582%2589Firebase%25E3%2581%25A7%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%2588%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2599%25E3%2582%258B%25E5%2585%25A8%25E3%2581%25A6%25E3%2581%25AE%25E4%25BA%25BA%25E3%2581%258C%25E7%259F%25A5%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258A%25E3%2581%258F%25E3%2581%25B9%25E3%2581%258D%25E3%2581%2593%25E3%2581%25A8%2520v8%25E2%2586%2592v9%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptT1MtaXJhZ2RXSHJTRkNPTzcwdVV4TkVaTnh0S29HcVpaUjNObDVNPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3076,6 +3146,20 @@
       "feedUrl": "https://zenn.dev/topics/vim/feed",
       "siteUrl": "https://zenn.dev/topics/vim",
       "articles": [
+        {
+          "id": "https://zenn.dev/hasu_83/articles/how-to-use-skk-in-vim",
+          "author": "はす",
+          "description": "突然ですが、昨日こんなツイートをしました。\nhttps://twitter.com/83_hasu/status/1443533878401011712\nこのツイートが筆者の想像よりも反応があったので、今回はvimにSKKという日本語IME環境を構築する方法を記事にしていきます。\n\n SKKってなんぞや？？\n多分これを見ている読者のほとんどがSKKを知らないと思います(筆者もvim-jpに入るまで知らなかった)\n\nSKK（エスケイケイ、Simple Kana to Kanji conversion program）とは、オープンソースで開発されている日本語入力システム（日本語入力メソッド...",
+          "link": "https://zenn.dev/hasu_83/articles/how-to-use-skk-in-vim",
+          "publishedOn": "2021-09-30T23:01:27.000Z",
+          "wordCount": 198,
+          "title": "詳説 最新のVim+SKKで日本語入力する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--J8gwTU1d--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25AF%25E3%2581%2599%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E8%25A9%25B3%25E8%25AA%25AC%2520%25E6%259C%2580%25E6%2596%25B0%25E3%2581%25AEVim%252BSKK%25E3%2581%25A7%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E5%2585%25A5%25E5%258A%259B%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjRhYmVjN2IwOC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/abcd/articles/55660f68a6a113",
           "author": "ryo",
@@ -3265,6 +3349,20 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/gz/articles/59095a390da895",
+          "author": "walking_on_ice",
+          "description": "Styleを動的に指定するのは割と簡単にできます。しかし、より複雑のCSSを使いたい、そして、Deep Selectorも使いたい場合、ちょっとした工夫が必要ですが、それでも簡単にできました。\n\n      \n        \n        //template\n<div :class=\"getMyClass()\" />\n\n//methods\ngetMyClass: function() {\n  if(condition1) {\n    return 'class1'\n  }\n  return 'class2'\n}\n\n//style\n<style scoped>...",
+          "link": "https://zenn.dev/gz/articles/59095a390da895",
+          "publishedOn": "2021-09-30T15:13:38.000Z",
+          "wordCount": 37,
+          "title": "Vuejsで動的にCSSをスイッチ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Zry8SYUa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:walking_on_ice%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vuejs%25E3%2581%25A7%25E5%258B%2595%25E7%259A%2584%25E3%2581%25ABCSS%25E3%2582%2592%25E3%2582%25B9%25E3%2582%25A4%25E3%2583%2583%25E3%2583%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYTZhZjc2YmQ3Yy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/nice2have/articles/120b1df8fcea2a",
           "author": "Nakajima",

@@ -77,8 +77,190 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-10-01">2021-10-01</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsで整える。デザインとロジックの分離</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rabbit/articles/af45822a7cd01c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。
+https://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li
+簡易構成のリポジトリを作成しましたので、参考になればと思います。
+https://github.com/tsuki-lab/split-view-and-hook
+
+ 経緯
+
+メディアサイトを作成することになった
+
+デザイナーコーダー ×1
+フロントエンドエンジニア ×1（ワイ）
+
+
+Next.jsとmicroCMSでSSGしてverc...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">[Next.js] Custom Page Extensions で開発中のページを非公開にする</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/heavenosk/articles/nextjs-extension-config">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.js で開発中のページを公開したくない状況がありました。
+Custom Page Extension を利用してリリースに含めるかどうかをコントロールすることができたので、その方法を紹介します。
+
+ TL;DR
+
+Custom Page Extension で page.tsx を設定する
+開発用に next dev 時の Custom Page Extension の制限を緩くする
+
+
+ next.config.js で Custom Page Extensions を設定する
+以下のように設定すると、ビルド対象を page.tsx の拡張子のファイルに限定することができます...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">react-tableでソート機能を実装（TypeScript）</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/kenara/articles/645c955a67ac08">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>記事を書いているときのバージョン7.7.0（@types/react-tableは7.7.5）にて、
+ソート機能がなかなか実装できなかったので、できるまでを書いていきます。
+
+ 普通に実装した際の問題点
+まず、公式のガイド通りに実装してみると、
+ソート機能を有効化させるプロパティは存在しないエラーが出てしまいます。
+
+      
+        
+        Property &#x27;getSortByToggleProps&#x27; does not exist on type &#x27;HeaderGroup&#x27;.ts(2339)
+
+
+ ...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Next.jsで整える。デザインとロジックの分離</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/rabbit/articles/af45822a7cd01c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。
+https://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li
+簡易構成のリポジトリを作成しましたので、参考になればと思います。
+https://github.com/tsuki-lab/split-view-and-hook
+
+ 経緯
+
+メディアサイトを作成することになった
+
+デザイナーコーダー ×1
+フロントエンドエンジニア ×1（ワイ）
+
+
+Next.jsとmicroCMSでSSGしてverc...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Typescriptでゼロから作るニューラルネット</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/yukiyada/articles/053722ddadd18a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>1.はじめに
+作る経験はコピーできない。技術書を読むだけではわからなかったことが、「実際に手を動かし、作る」という作業を経て、一本の線がつながるように理解できるようになった。そんな経験は、エンジニアであれば誰もが一度はあると思います。
+タイトルにもあるとおり、今回取り組んだことはTypescriptによるニューラルネットのスクラッチ実装( データセットはMNIST )です。最近、機械学習の理論的背景をより深く理解したいなぁ、と思っていたので、勉強がてらやってみることにしました。以下は実装したリポジトリになります。
+https://github.com/YadaYuki/neural_...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">WebWorkerをnpmパッケージにバンドルする方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/wok/articles/0020_bundle-webworker">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>はじめに
+これまで様々な機械学習モデルをWebWorkderで動かすnpmパッケージを作成してきたのですが、どうにもTypeScriptで作成したWebWorkerを単一のファイルにバンドルする方法がわかりませんでした。なので、npm install後にWebWorkerのスクリプトをpublicフォルダにコピーしてもらうようなインストール方法をReadmeに記載していました。
+たとえば、次のような感じ。
+
+      
+        
+        $ npx create-react-app demo  --template typescript
+$ cd demo/
+$ n...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-30">2021-09-30</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Storybook 駆動開発 @ CSF3.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/takepepe/articles/storybook-driven-development">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Storybook CSF3.0 の概要
+単体テスト・結合テスト・Storybook を充実させるためには、多くの工数が必要です。堅牢なフロントエンド開発のためとはいえ、これらのメンテナンスは日に日に負担が増しています。似かよったテストケースでは、同じような下作業をそれぞれに用意する必要がありました。
+Component Story Format（CSF）は、この課題への取り組みとして開発されました。「様々なソリューションで再利用可能な資材」 が用意できれば、開発は素早く・より楽しいものになります。リリース間近の CSF3.0 はより一層、そのゴールを明確に示してくれています。
+ht...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Recoil で Next.js x Firebase Twitter auth を実装</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/maztak/articles/d0608857bb140e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Next.js x TypeScript x Firebase Authentication で Twitterログインを実装するケースは今後増えそうですが、Firebase公式ドキュメントを見てもサクッと実装できなかったのでZennにします。
+Recoil, Atom, State まわりの理解が正直自信ないので、「意味わからないことしてる」「もっとスマートな書き方がある」などあればコメントでご指摘いただけると幸いですm(_ _)m
+
+ 環境 &amp; 注意
+
+TypeScript
+Node.js 16
+M1 Mac...
+
+Next.js（SSR）なのでFirebaesのinitま...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/typescript">Zennの「TypeScript」のフィード</a></h3>
@@ -207,6 +389,63 @@ pluginsとextend...</span>
 
  破壊的変更があった部分
 アップデート内容にもあった「段階的なアップグレード」を実現するための変更が「Event Delegationの変更」です。React v17 における最も大きな変更と言...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vim">Zennの「Vim」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">詳説 最新のVim+SKKで日本語入力する方法</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hasu_83/articles/how-to-use-skk-in-vim">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>突然ですが、昨日こんなツイートをしました。
+https://twitter.com/83_hasu/status/1443533878401011712
+このツイートが筆者の想像よりも反応があったので、今回はvimにSKKという日本語IME環境を構築する方法を記事にしていきます。
+
+ SKKってなんぞや？？
+多分これを見ている読者のほとんどがSKKを知らないと思います(筆者もvim-jpに入るまで知らなかった)
+
+SKK（エスケイケイ、Simple Kana to Kanji conversion program）とは、オープンソースで開発されている日本語入力システム（日本語入力メソッド...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/vue">Zennの「Vue.js」のフィード</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Vuejsで動的にCSSをスイッチ</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/gz/articles/59095a390da895">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Styleを動的に指定するのは割と簡単にできます。しかし、より複雑のCSSを使いたい、そして、Deep Selectorも使いたい場合、ちょっとした工夫が必要ですが、それでも簡単にできました。
+
+      
+        
+        //template
+
+
+//methods
+getMyClass: function() {
+  if(condition1) {
+    return &#x27;class1&#x27;
+  }
+  return &#x27;class2&#x27;
+}
+
+//style
+...</span>
                   </div>
                 </a>
               </details>
@@ -6868,50 +7107,6 @@ https://headlessui.dev/
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SOLID原則で考えるReact設計</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/koki_tech/articles/361bb8f2278764">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>こんにちは、株式会社スタメンでオンラインサロンFANTSのフロントエンドエンジニアをしている@0906kokiです。
-今回はSOLID原則の5つの設計原則を、Reactのコードをベースにして解説できればと思います。
-
- SOLID原則とは？
-SOLID原則とは、ソフトウェアを柔軟に、メンテナンス性を高く設計するための5つの原則となります。
-Robert C. Martinによって、5つの原則の頭文字をとってSOLIDという名前が付けられました。5つの原則とは以下の通りです。
-
-SRP: 単一責任の原則
-OCP: 開放閉鎖の原則
-LSP: リスコフの置換原則
-ISP: インタフェース分離の...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/hiro__dev/articles/605161cd5a7875">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>環境
-・MacOS BigSur（11.5.2）
-・VScode（1.59.1）
-・Node.js   (16.1.1）
-・Firebase （9.0.0）←New!
-・yarn (1.22.11)
-・TypeScript(4.4.2)
-
- 対象
-・これからFirebaseでプロジェクトを始めようとする人
-✍️8月25日以前に出された教材やチュートリアル、記事、そして現時点での日本語の公式ドキュメントを参考にしようとしている人は特に！
-・教材や記事、ハンズオン通りにFirebaseでプロジェクトを始めたのに原因不明のエラーぶつかった人
-・8月25日以前にFirebaseプロジェクト作って...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -6946,43 +7141,9 @@ https://skk-dev.gith...</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-09-01">2021-09-01</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://zenn.dev/topics/nextjs">Zennの「Next.js」のフィード</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SWRとReact hooksで条件を満たすまで定期的にデータフェッチする処理を実現</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://zenn.dev/creamstew/articles/674a0e2208a2befc131f">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>ある特定の条件を満たすまで、定期的にデータフェッチしたかった。
-SWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。
-例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。
-
- 完成形
-これで条件を満たすまで、定期的なデータフェッチを実現しています。
-
-      
-        
-        import useSWR from &#x27;swr&#x27;
-import { useEffect, useState } from &#x27;react&#x27;;
-
-functio...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-10-01T00:59:16.096Z">2021-10-01T00:59:16.096Z</time>
+    <time id="build-timestamp" datetime="2021-10-02T00:54:36.181Z">2021-10-02T00:54:36.181Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.2</a></span>
   </footer>
   <script src="index.js"></script>

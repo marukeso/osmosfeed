@@ -2,10 +2,185 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-01T00:59:16.125Z</updated>
+    <updated>2021-10-02T00:54:36.209Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[react-tableでソート機能を実装（TypeScript）]]></title>
+        <id>https://zenn.dev/kenara/articles/645c955a67ac08</id>
+        <link href="https://zenn.dev/kenara/articles/645c955a67ac08"/>
+        <updated>2021-10-01T13:50:29.000Z</updated>
+        <summary type="html"><![CDATA[記事を書いているときのバージョン7.7.0（@types/react-tableは7.7.5）にて、
+ソート機能がなかなか実装できなかったので、できるまでを書いていきます。
+
+ 普通に実装した際の問題点
+まず、公式のガイド通りに実装してみると、
+ソート機能を有効化させるプロパティは存在しないエラーが出てしまいます。
+
+      
+        
+        Property 'getSortByToggleProps' does not exist on type 'HeaderGroup<CategoryTable | TagTable>'.ts(2339)
+
+
+ ...]]></summary>
+        <author>
+            <name>KenAra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsで整える。デザインとロジックの分離]]></title>
+        <id>https://zenn.dev/rabbit/articles/af45822a7cd01c</id>
+        <link href="https://zenn.dev/rabbit/articles/af45822a7cd01c"/>
+        <updated>2021-10-01T08:29:38.000Z</updated>
+        <summary type="html"><![CDATA[先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。
+https://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li
+簡易構成のリポジトリを作成しましたので、参考になればと思います。
+https://github.com/tsuki-lab/split-view-and-hook
+
+ 経緯
+
+メディアサイトを作成することになった
+
+デザイナーコーダー ×1
+フロントエンドエンジニア ×1（ワイ）
+
+
+Next.jsとmicroCMSでSSGしてverc...]]></summary>
+        <author>
+            <name>hanetsuki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsで整える。デザインとロジックの分離]]></title>
+        <id>https://zenn.dev/rabbit/articles/af45822a7cd01c</id>
+        <link href="https://zenn.dev/rabbit/articles/af45822a7cd01c"/>
+        <updated>2021-10-01T08:29:38.000Z</updated>
+        <summary type="html"><![CDATA[先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。
+https://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li
+簡易構成のリポジトリを作成しましたので、参考になればと思います。
+https://github.com/tsuki-lab/split-view-and-hook
+
+ 経緯
+
+メディアサイトを作成することになった
+
+デザイナーコーダー ×1
+フロントエンドエンジニア ×1（ワイ）
+
+
+Next.jsとmicroCMSでSSGしてverc...]]></summary>
+        <author>
+            <name>hanetsuki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Next.js] Custom Page Extensions で開発中のページを非公開にする]]></title>
+        <id>https://zenn.dev/heavenosk/articles/nextjs-extension-config</id>
+        <link href="https://zenn.dev/heavenosk/articles/nextjs-extension-config"/>
+        <updated>2021-10-01T07:52:58.000Z</updated>
+        <summary type="html"><![CDATA[Next.js で開発中のページを公開したくない状況がありました。
+Custom Page Extension を利用してリリースに含めるかどうかをコントロールすることができたので、その方法を紹介します。
+
+ TL;DR
+
+Custom Page Extension で page.tsx を設定する
+開発用に next dev 時の Custom Page Extension の制限を緩くする
+
+
+ next.config.js で Custom Page Extensions を設定する
+以下のように設定すると、ビルド対象を page.tsx の拡張子のファイルに限定することができます...]]></summary>
+        <author>
+            <name>へぶん</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescriptでゼロから作るニューラルネット]]></title>
+        <id>https://zenn.dev/yukiyada/articles/053722ddadd18a</id>
+        <link href="https://zenn.dev/yukiyada/articles/053722ddadd18a"/>
+        <updated>2021-10-01T06:50:09.000Z</updated>
+        <summary type="html"><![CDATA[1.はじめに
+作る経験はコピーできない。技術書を読むだけではわからなかったことが、「実際に手を動かし、作る」という作業を経て、一本の線がつながるように理解できるようになった。そんな経験は、エンジニアであれば誰もが一度はあると思います。
+タイトルにもあるとおり、今回取り組んだことはTypescriptによるニューラルネットのスクラッチ実装( データセットはMNIST )です。最近、機械学習の理論的背景をより深く理解したいなぁ、と思っていたので、勉強がてらやってみることにしました。以下は実装したリポジトリになります。
+https://github.com/YadaYuki/neural_...]]></summary>
+        <author>
+            <name>yukiyada</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebWorkerをnpmパッケージにバンドルする方法]]></title>
+        <id>https://zenn.dev/wok/articles/0020_bundle-webworker</id>
+        <link href="https://zenn.dev/wok/articles/0020_bundle-webworker"/>
+        <updated>2021-10-01T02:11:32.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+これまで様々な機械学習モデルをWebWorkderで動かすnpmパッケージを作成してきたのですが、どうにもTypeScriptで作成したWebWorkerを単一のファイルにバンドルする方法がわかりませんでした。なので、npm install後にWebWorkerのスクリプトをpublicフォルダにコピーしてもらうようなインストール方法をReadmeに記載していました。
+たとえば、次のような感じ。
+
+      
+        
+        $ npx create-react-app demo  --template typescript
+$ cd demo/
+$ n...]]></summary>
+        <author>
+            <name>wok</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[詳説 最新のVim+SKKで日本語入力する方法]]></title>
+        <id>https://zenn.dev/hasu_83/articles/how-to-use-skk-in-vim</id>
+        <link href="https://zenn.dev/hasu_83/articles/how-to-use-skk-in-vim"/>
+        <updated>2021-09-30T23:01:27.000Z</updated>
+        <summary type="html"><![CDATA[突然ですが、昨日こんなツイートをしました。
+https://twitter.com/83_hasu/status/1443533878401011712
+このツイートが筆者の想像よりも反応があったので、今回はvimにSKKという日本語IME環境を構築する方法を記事にしていきます。
+
+ SKKってなんぞや？？
+多分これを見ている読者のほとんどがSKKを知らないと思います(筆者もvim-jpに入るまで知らなかった)
+
+SKK（エスケイケイ、Simple Kana to Kanji conversion program）とは、オープンソースで開発されている日本語入力システム（日本語入力メソッド...]]></summary>
+        <author>
+            <name>はす</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuejsで動的にCSSをスイッチ]]></title>
+        <id>https://zenn.dev/gz/articles/59095a390da895</id>
+        <link href="https://zenn.dev/gz/articles/59095a390da895"/>
+        <updated>2021-09-30T15:13:38.000Z</updated>
+        <summary type="html"><![CDATA[Styleを動的に指定するのは割と簡単にできます。しかし、より複雑のCSSを使いたい、そして、Deep Selectorも使いたい場合、ちょっとした工夫が必要ですが、それでも簡単にできました。
+
+      
+        
+        //template
+<div :class="getMyClass()" />
+
+//methods
+getMyClass: function() {
+  if(condition1) {
+    return 'class1'
+  }
+  return 'class2'
+}
+
+//style
+<style scoped>...]]></summary>
+        <author>
+            <name>walking_on_ice</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Storybook 駆動開発 @ CSF3.0]]></title>
+        <id>https://zenn.dev/takepepe/articles/storybook-driven-development</id>
+        <link href="https://zenn.dev/takepepe/articles/storybook-driven-development"/>
+        <updated>2021-09-30T13:52:06.000Z</updated>
+        <summary type="html"><![CDATA[Storybook CSF3.0 の概要
+単体テスト・結合テスト・Storybook を充実させるためには、多くの工数が必要です。堅牢なフロントエンド開発のためとはいえ、これらのメンテナンスは日に日に負担が増しています。似かよったテストケースでは、同じような下作業をそれぞれに用意する必要がありました。
+Component Story Format（CSF）は、この課題への取り組みとして開発されました。「様々なソリューションで再利用可能な資材」 が用意できれば、開発は素早く・より楽しいものになります。リリース間近の CSF3.0 はより一層、そのゴールを明確に示してくれています。
+ht...]]></summary>
+        <author>
+            <name>Takepepe</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reactの実践練習を兼ねてPX→REM変換表のWEBサイトを作ってみた。]]></title>
         <id>https://zenn.dev/hamchance/articles/01d76ed7fa0754</id>
@@ -20,6 +195,25 @@ font-size(px)を入力すると、1pxから1,500pxに対応するremを表示し
 値をクリックすると、クリップ...]]></summary>
         <author>
             <name>ham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recoil で Next.js x Firebase Twitter auth を実装]]></title>
+        <id>https://zenn.dev/maztak/articles/d0608857bb140e</id>
+        <link href="https://zenn.dev/maztak/articles/d0608857bb140e"/>
+        <updated>2021-09-30T12:35:17.000Z</updated>
+        <summary type="html"><![CDATA[Next.js x TypeScript x Firebase Authentication で Twitterログインを実装するケースは今後増えそうですが、Firebase公式ドキュメントを見てもサクッと実装できなかったのでZennにします。
+Recoil, Atom, State まわりの理解が正直自信ないので、「意味わからないことしてる」「もっとスマートな書き方がある」などあればコメントでご指摘いただけると幸いですm(_ _)m
+
+ 環境 & 注意
+
+TypeScript
+Node.js 16
+M1 Mac...
+
+Next.js（SSR）なのでFirebaesのinitま...]]></summary>
+        <author>
+            <name>Takuya Matsuda</name>
         </author>
     </entry>
     <entry>
@@ -5904,70 +6098,6 @@ skkを使うには読みとの対応が列挙された辞書が必要になる�
 https://skk-dev.gith...]]></summary>
         <author>
             <name>kato-k</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SOLID原則で考えるReact設計]]></title>
-        <id>https://zenn.dev/koki_tech/articles/361bb8f2278764</id>
-        <link href="https://zenn.dev/koki_tech/articles/361bb8f2278764"/>
-        <updated>2021-09-02T07:49:17.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、株式会社スタメンでオンラインサロンFANTSのフロントエンドエンジニアをしている@0906kokiです。
-今回はSOLID原則の5つの設計原則を、Reactのコードをベースにして解説できればと思います。
-
- SOLID原則とは？
-SOLID原則とは、ソフトウェアを柔軟に、メンテナンス性を高く設計するための5つの原則となります。
-Robert C. Martinによって、5つの原則の頭文字をとってSOLIDという名前が付けられました。5つの原則とは以下の通りです。
-
-SRP: 単一責任の原則
-OCP: 開放閉鎖の原則
-LSP: リスコフの置換原則
-ISP: インタフェース分離の...]]></summary>
-        <author>
-            <name>Koki Nagai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[これからFirebaseでプロジェクトを始めようとする全ての人が知っておくべきこと v8→v9リリース]]></title>
-        <id>https://zenn.dev/hiro__dev/articles/605161cd5a7875</id>
-        <link href="https://zenn.dev/hiro__dev/articles/605161cd5a7875"/>
-        <updated>2021-09-02T01:01:39.000Z</updated>
-        <summary type="html"><![CDATA[環境
-・MacOS BigSur（11.5.2）
-・VScode（1.59.1）
-・Node.js   (16.1.1）
-・Firebase （9.0.0）←New!
-・yarn (1.22.11)
-・TypeScript(4.4.2)
-
- 対象
-・これからFirebaseでプロジェクトを始めようとする人
-✍️8月25日以前に出された教材やチュートリアル、記事、そして現時点での日本語の公式ドキュメントを参考にしようとしている人は特に！
-・教材や記事、ハンズオン通りにFirebaseでプロジェクトを始めたのに原因不明のエラーぶつかった人
-・8月25日以前にFirebaseプロジェクト作って...]]></summary>
-        <author>
-            <name>Hiro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SWRとReact hooksで条件を満たすまで定期的にデータフェッチする処理を実現]]></title>
-        <id>https://zenn.dev/creamstew/articles/674a0e2208a2befc131f</id>
-        <link href="https://zenn.dev/creamstew/articles/674a0e2208a2befc131f"/>
-        <updated>2021-09-01T14:52:24.000Z</updated>
-        <summary type="html"><![CDATA[ある特定の条件を満たすまで、定期的にデータフェッチしたかった。
-SWRとReact hooksを使って、ある程度簡単に処理が書けたので紹介します。
-例えば、すごく時間がかかる処理（動画のアップロードとか）を今どのくらいまで処理が進んでるのかユーザーにステータス画面として表示したい場合などに使えると思います。
-
- 完成形
-これで条件を満たすまで、定期的なデータフェッチを実現しています。
-
-      
-        
-        import useSWR from 'swr'
-import { useEffect, useState } from 'react';
-
-functio...]]></summary>
-        <author>
-            <name>creamstew</name>
         </author>
     </entry>
 </feed>
