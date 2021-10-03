@@ -74,6 +74,286 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/unreact/articles/nextjs-static-optimization-indicator-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Static Optimization Indicatorの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n\n 備考\nこのインジケーターは Next.js のバージョン 10.0.1 で削除されました。最新の Next.js にアップグレードすることをお勧めします。\n\n自動静的最適化の対象となるページがあると、それを知らせるインジケータが表示されます。\n自動静的最適化は非常に有益...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-static-optimization-indicator-jp",
+          "publishedOn": "2021-10-02T14:30:44.000Z",
+          "wordCount": 40,
+          "title": "【Next.js和訳】API Reference/Static Optimization Indicator",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ywAlb4TN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252FStatic%2520Optimization%2520Indicator%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-data-fetching-get-initial-props-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Data Fetching/getInitialProps の記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n getInitialProps\n\n推奨：getStaticProps または getServerSideProps 。\nNext.js 9.3 以降を使用している場合、getInitialProps の代わりに getStaticProps または getServerS...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-data-fetching-get-initial-props-jp",
+          "publishedOn": "2021-10-02T14:29:16.000Z",
+          "wordCount": 315,
+          "title": "【Next.js和訳】API Reference/Data Fetching/getInitialProps",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Ur09A1k9--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252FData%2520Fetching%252FgetInitialProps%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-next-amp-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next/ampの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n next/amp\nExamples\n\nAMP\n\n\n\nAMP 対応は、私たちの高度な機能の一つで、AMP についてはこちらをご覧ください。\n\nAMP を有効にするには、ページに以下の config を追加します。\n\n      \n        \n        export const config = { am...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-next-amp-jp",
+          "publishedOn": "2021-10-02T14:27:14.000Z",
+          "wordCount": 171,
+          "title": "【Next.js和訳】API Reference/ next/amp",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--uecCiOlr--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252F%2520next%252Famp%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-next-image",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next/imageの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n\n next/image\nExamples\n\nImage Component\n\n\nVersion History\n\n\n\nVersion\nChanges\n\n\n\n\nバージョン\n変更点\n\n\nv11.1.0\n\nonLoadingComplete プロップと lazyBoundary プロップを追加しました。\n\n\nv11...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-next-image",
+          "publishedOn": "2021-10-02T14:25:07.000Z",
+          "wordCount": 384,
+          "title": "【Next.js和訳】API Reference/ next/image",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xzavZh_N--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252F%2520next%252Fimage%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-next-link-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next/linkの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n next/link\n例 | Examples\n\nハローワールド | Hello World\nリンクのアクティブなクラス名 | Active className on Link\n\n\n\n先に進む前に、まずルーティング入門をお読みいただくことをお勧めします。\n\nクライアントサイドでのルート間の遷移は、next/lin...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-next-link-jp",
+          "publishedOn": "2021-10-02T14:22:51.000Z",
+          "wordCount": 482,
+          "title": "【Next.js和訳】API Reference/ next/link",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--s3_D0_1L--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252F%2520next%252Flink%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-next-router",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next/routerの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n\n next/router\n\n先に進む前に、まず「ルーティング入門」をお読みいただくことをお勧めします。\n\n\n useRouter\nアプリ内の任意の関数コンポーネントでrouterオブジェクトにアクセスしたい場合は、useRouter フックを使用できます。\n\n      \n        \n        ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-next-router",
+          "publishedOn": "2021-10-02T14:21:49.000Z",
+          "wordCount": 940,
+          "title": "【Next.js和訳】API Reference/ next/router",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--K1v30T4_--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252F%2520next%252Frouter%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/web_tips/articles/c026df542bc18b",
+          "author": "Tomoki",
+          "description": "はじめに\nタイトルの通りですが、ReactのuseStateで配列の特定の要素を更新する方法がググっても出てこなかったので記事にしようと思います。\n\n useStateで配列に追加する方法\n配列に要素を追加する方法はネット上にあふれている。\n以下がその例で、スプレッド構文を使用するのが推奨されている。\n\n      \n        \n        const [sports, setSports] = useState([]);\nconst addSports = () => {\n    setSports([...sports, \"baseball\"]);\n}\n\n\n   ...",
+          "link": "https://zenn.dev/web_tips/articles/c026df542bc18b",
+          "publishedOn": "2021-10-02T14:21:46.000Z",
+          "wordCount": 143,
+          "title": "useStateで配列の特定の要素を更新する方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--RtU8jj67--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Tomoki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:useState%25E3%2581%25A7%25E9%2585%258D%25E5%2588%2597%25E3%2581%25AE%25E7%2589%25B9%25E5%25AE%259A%25E3%2581%25AE%25E8%25A6%2581%25E7%25B4%25A0%25E3%2582%2592%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOWVhYjZhOTAyMS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-api-reference-create-next-app-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、API Reference/Create Next Appの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Create Next App\nNext.js を使い始めるには、create-next-app を使うのが一番簡単です。この CLI ツールを使うと、すべてが設定された状態で、新しい Next.js アプリケーションの構築をすばやく開始することができます。新しいアプリは...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-api-reference-create-next-app-jp",
+          "publishedOn": "2021-10-02T14:20:24.000Z",
+          "wordCount": 145,
+          "title": "【Next.js和訳】API Reference/Create Next App",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--0xUMaQs0--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252FCreate%2520Next%2520App%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-api-reference-cli-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、API Reference/CLI の記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Next.js CLI\nNext.jsのCLIでは、アプリケーションの起動、ビルド、エクスポートを行うことができます。\n利用可能なCLIコマンドの一覧を表示するには、プロジェクトディレクトリ内で次のコマンドを実行します。\n\n      \n        \n        npx next -h...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-api-reference-cli-jp",
+          "publishedOn": "2021-10-02T14:19:17.000Z",
+          "wordCount": 165,
+          "title": "【Next.js和訳】API Reference/CLI",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--qt9u3vkq--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252FCLI%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-faq-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、FAQの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n よくある質問｜ Frequently Asked Questions\nプロダクションは万全ですか？\nNext.js は、https://vercel.com の立ち上げ時から使用されています。\n開発者の体験とエンドユーザーのパフォーマンスの両方に満足しているので、それをコミュニティで共有することにしました。\n\nバンドルのサ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-faq-jp",
+          "publishedOn": "2021-10-02T13:57:42.000Z",
+          "wordCount": 122,
+          "title": "【Next.js和訳】FAQ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--nZxSJRFw--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591FAQ%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-react-router-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Migrating to Next.js/Migrating from React Routerの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Migrating from React Router\nこのガイドは、Next.jsで React Router から ファイルシステムベース のルートに移行する方法を理解するのに役立ちます。next/linkとnext/router...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-react-router-jp",
+          "publishedOn": "2021-10-02T08:47:06.000Z",
+          "wordCount": 276,
+          "title": "【Next.js和訳】Migrating to Next.js/Migrating from React Router",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--lix7w_kl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Migrating%2520to%2520Next.js%252FMigrating%2520from%2520React%2520Router%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-gatsby-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Migrating to Next.js/Migrating from Gatsby の記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Migrating from Gatsby\nこのガイドでは、既存のGatsbyプロジェクトからNext.jsに移行する方法をご紹介します。Next.jsに移行することで、以下のことが可能になります。\n\nページごとに、どのようなdata fetc...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-gatsby-jp",
+          "publishedOn": "2021-10-02T08:46:41.000Z",
+          "wordCount": 639,
+          "title": "【Next.js和訳】Migrating to Next.js/Migrating from Gatsby",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--a2MUBg2r--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Migrating%2520to%2520Next.js%252FMigrating%2520from%2520Gatsby%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-create-react-app-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Migrating to Next.js/Migrating from Create React Appの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Migrating from Create React App\nこのガイドでは、イジェクトされていない既存の Create React App プロジェクトから Next.js に移行する方法を理解することができます。Next...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-create-react-app-jp",
+          "publishedOn": "2021-10-02T08:46:40.000Z",
+          "wordCount": 528,
+          "title": "【Next.js和訳】Migrating to Next.js/Migrating from CRA",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xAjLCBdM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Migrating%2520to%2520Next.js%252FMigrating%2520from%2520CRA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-migrate-to-nextjs-imcrement-adopt-nextjs-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Migrating to Next.js/Incrementally Adopting Next.jsの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Incrementally Adopting Next.js\n例\n\nRewrites\nRedirects\nMulti-Zones\n\n\nNext.js は段階的に導入できるように設計されています。Next.js では、既存のコード...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-migrate-to-nextjs-imcrement-adopt-nextjs-jp",
+          "publishedOn": "2021-10-02T08:45:01.000Z",
+          "wordCount": 143,
+          "title": "【Next.js和訳】Migrating to Next.js/Incrementally Adopt Next.js",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ltMgoykG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Migrating%2520to%2520Next.js%252FIncrementally%2520Adopt%2520Next.js%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-upgrade-guide-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Upgrade Guideの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Upgrade Guide\n\n バージョン 10 から 11 へのアップグレード\n\n React のバージョンを最新にアップグレード\nほとんどのアプリケーションは、すでに最新の React を使用しています。Next.js 11 では、最小の React バージョンが 17.0.2 に更新されています。...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-upgrade-guide-jp",
+          "publishedOn": "2021-10-02T08:42:56.000Z",
+          "wordCount": 621,
+          "title": "【Next.js和訳】Upgrade Guide",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--mnanR-ow--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Upgrade%2520Guide%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-testing",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Testingの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Testing\n例\n\nNext.js with Cypress\nNext.js with Jest and React Testing Library\n\n\nNext.js を、一般的に使用されている 3 つのテストツールでセットアップする方法をご紹介します。Cypress、Jest、そしてReact Testing...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-testing",
+          "publishedOn": "2021-10-02T08:40:54.000Z",
+          "wordCount": 563,
+          "title": "【Next.js和訳】Testing",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--9PftGVRG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Testing%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-advanced-features-security-headers-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Advanced Features/Security Headersの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Security Headers\nアプリケーションのセキュリティを向上させるために、next.config.js で headers を使用すると、アプリケーション内のすべてのルートにHTTPレスポンスヘッダを適用することができます。\n\n      \n     ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-advanced-features-security-headers-jp",
+          "publishedOn": "2021-10-02T08:36:33.000Z",
+          "wordCount": 159,
+          "title": "【Next.js和訳】Advanced Features/Security Headers",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BmXbWB7b--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Advanced%2520Features%252FSecurity%2520Headers%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-advancd-features-internationalized-routing",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Advanced Features/Internationalized Routingの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Internationalized Routing\n例 | Examples\n\n国際化のためのルーティング\n\n\nNext.js はv10.0.0以降、国際化(i18n)ルーティングをビルトインでサポートしています。\nロケールのリスト、デフォルト...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-advancd-features-internationalized-routing",
+          "publishedOn": "2021-10-02T08:35:36.000Z",
+          "wordCount": 634,
+          "title": "【Next.js和訳】Advanced Features/Internationalized Routing",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--EUQ421x2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Advanced%2520Features%252FInternationalized%2520Routing%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-advanced-features-codemods-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Advanced Features/Codemodsの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Next.js Codemods\nNext.jsはCodemodトランスフォームを提供しており、ある機能が非推奨になったときにNext.jsのコードベースをアップグレードするのに役立ちます。\nCodemodとは、コードベース上でプログラム的に実行される変換のことです。これにより...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-advanced-features-codemods-jp",
+          "publishedOn": "2021-10-02T08:07:11.000Z",
+          "wordCount": 258,
+          "title": "【Next.js和訳】Advanced Features/Codemods",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4nLtdcwC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Advanced%2520Features%252FCodemods%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-advancd-features-source-maps-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Advanced Features/Source Mapsの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Source Maps\nソースマップとは、コンパイル前（元のコード）とコンパイル後の対応関係を記したファイル\n開発環境の時には、ソースマップは、デフォルトで有効になっています。\nソースマップを生成すると、ビルド時間が大幅に長くなり、生成中のメモリ使用量も増えるため、プロダ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-advancd-features-source-maps-jp",
+          "publishedOn": "2021-10-02T08:06:22.000Z",
+          "wordCount": 48,
+          "title": "【Next.js和訳】Advanced Features/Source Maps",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BxEhSMIs--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591Advanced%2520Features%252FSource%2520Maps%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/rabbit/articles/af45822a7cd01c",
           "author": "hanetsuki",
           "description": "先日開催されたジャムジャムJamstackで登壇させていただいた時の記事になります。\nhttps://speakerdeck.com/hanetsuki/next-dot-jstezheng-eru-tesaintorositukufalsefen-li\n簡易構成のリポジトリを作成しましたので、参考になればと思います。\nhttps://github.com/tsuki-lab/split-view-and-hook\n\n 経緯\n\nメディアサイトを作成することになった\n\nデザイナーコーダー ×1\nフロントエンドエンジニア ×1（ワイ）\n\n\nNext.jsとmicroCMSでSSGしてverc...",
@@ -1067,6 +1347,118 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/nekoniki/articles/d3979257e6e958",
+          "author": "nekoniki",
+          "description": "概要\nこんにちは！\n普段はReact NativeのTips的な記事を上げているのですが、今日は自分の学習メモも兼ねて、カンファレンスのレポートを公開したいと思います。\n参加したのは、この記事を書いている2021年10月2日(土)に開催されたReact Native Matsuri 2021というカンファレンスです。\n\nReact Native Matsuri2021公式サイト\n\n以下、公式サイトトップの概要になります。\n\n2021年、React Nativeをメインテーマにした、日本で初開催の技術カンファレンス。\nReact NativeやReactの深い知見を持つ開発者によるセッ...",
+          "link": "https://zenn.dev/nekoniki/articles/d3979257e6e958",
+          "publishedOn": "2021-10-02T14:43:05.000Z",
+          "wordCount": 444,
+          "title": "React Native Matsuri 2021に参加したのでまとめる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--dI5r3ZtL--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%2520Native%2520Matsuri%25202021%25E3%2581%25AB%25E5%258F%2582%25E5%258A%25A0%25E3%2581%2597%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/watson_sei/articles/1b7447fc9a12ac",
+          "author": "Watson-Sei",
+          "description": "最近人気のブロックチェーンに参入してみた引きこもり学生エンジニアSeiです。\n普段私はWebアプリを開発している人間ですが、DAppsなどを作る上でWeb3.jsの基礎知識は必要だと思い勉強しています。ただ、なかなかWeb3.jsのサンプルコードって少ないですよね。なのでアプトプットついでに記事を書こうと思います。\n\n React.js + Web3.jsセットアップ\n\n\nプロジェクトを以下のコマンドで立ち上げます。\nnpx create-react-app --template typescript myapp\n\n\nMetaMaskのProvideを取得できる以下のライブラリを使います...",
+          "link": "https://zenn.dev/watson_sei/articles/1b7447fc9a12ac",
+          "publishedOn": "2021-10-02T14:40:17.000Z",
+          "wordCount": 194,
+          "title": "React.jsで学ぶWeb3.js 第一弾（🦊MetaMask）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--IqppXxmc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Watson-Sei%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React.js%25E3%2581%25A7%25E5%25AD%25A6%25E3%2581%25B6Web3.js%2520%25E7%25AC%25AC%25E4%25B8%2580%25E5%25BC%25BE%25EF%25BC%2588%2520MetaMask%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hCanNSY2NqVVRDN0ZYcl9XbUdOV1dHNVVIVG1aUE9SSFNxZ0VDPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/ignorant_kenji/articles/9f4bc3ebd72ec9",
+          "author": "Kenji",
+          "description": "はじめに\nこの記事では、ボク自身が開発しているプロジェクトで学んだ Reactのデザインパターン, Tipsの備忘録として、残させていただきます。\n\n props\n\n props の初期値に値を指定する\n関数の引数に初期値を定義することができます。\n\n      \n        \n        type Props = {\n  color: string,\n  text: string\n}\n\nconst Button: React.VFC<Props> = ({ color = \"red\", text = 'text something here' }) => ...",
+          "link": "https://zenn.dev/ignorant_kenji/articles/9f4bc3ebd72ec9",
+          "publishedOn": "2021-10-02T07:56:00.000Z",
+          "wordCount": 193,
+          "title": "実務で学んだReactのデザインパターンとTips",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--ex1oL7Ae--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Kenji%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E5%25AE%259F%25E5%258B%2599%25E3%2581%25A7%25E5%25AD%25A6%25E3%2582%2593%25E3%2581%25A0React%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25A8Tips%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZDk0MmE0YWEyNS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sosukesuzuki/articles/1460075795cf08",
+          "author": "Sosuke Suzuki",
+          "description": "TypeScript 4.5 のベータ版がアナウンスされました。\nhttps://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/\nたくさんの新機能があり、大きなバージョンになりそうです。\nそれらの新機能の中に type Modifiers on Import Names というものがあります。\nこれは、TypeScript 3.8 から追加された Type-only imports and exports を specifier 単位で指定できるようにしたものです。\n今までは、\n\n      \n     ...",
+          "link": "https://zenn.dev/sosukesuzuki/articles/1460075795cf08",
+          "publishedOn": "2021-10-02T07:53:34.000Z",
+          "wordCount": 469,
+          "title": "TS4.5 の type Modifiers on Import Names のパースがおもしろい",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--7bzSJ7yM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sosuke%2520Suzuki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TS4.5%2520%25E3%2581%25AE%2520type%2520Modifiers%2520on%2520Import%2520Names%2520%25E3%2581%25AE%25E3%2583%2591%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%258C%25E3%2581%258A%25E3%2582%2582%25E3%2581%2597%25E3%2582%258D%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2kzVm5WZHo2MC1CT3lMTS1VVnZaNmdNSDJlTlp1T0lTa1owT3lyNnc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/murmurase/articles/composition-api-navigation-guard",
+          "author": "murase",
+          "description": "はじめに\ncomposition-apiが出て、2系のNuxtとcomposition-apiを合わせて使う方が多いのではないでしょうか？\nNuxt 2系とcomposition-apiの組み合わせでなビゲーションガードを実装するのに難航したので忘備録として記事にしておきます。\n（Nuxt 3系がリリースされたら多分使わなくなると思う）\nversion\n\n      \n        \n        Nuxt 2.15.xx\n@nuxtjs/composition-api 0.26.0\n\n\n      \n      \n ナビゲーションガードをする\nこちらの記事にあるように、\nhtt...",
+          "link": "https://zenn.dev/murmurase/articles/composition-api-navigation-guard",
+          "publishedOn": "2021-10-02T06:57:27.000Z",
+          "wordCount": 165,
+          "title": "nuxt v2系 + composition apiでナビゲーションガードをする方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4VV5QZ4g--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:murase%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:nuxt%2520v2%25E7%25B3%25BB%2520%252B%2520composition%2520api%25E3%2581%25A7%25E3%2583%258A%25E3%2583%2593%25E3%2582%25B2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%25AC%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l0SXdyTGtLUF82SmJIVU15MUotVnBhX0FoSzV5VHFoWHVCU295PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tasuya/articles/da033574b85e6d",
+          "author": "たつや",
+          "description": "この記事ではDockerを使ってNext.js11の開発環境の構築方法を紹介します。\n今は、TypeScriptが当たり前になってきていると感じてますので、Typescriptでの環境を構築します。\n\n なぜDockerで構築するのか\n通常はnode等を直接マシンにインストールして環境を構築していきます。その場合、環境の違いによるトラブル解消で、多くの時間を消費してしまいます。\nそこで、Dockerを使用して、仮想環境上に環境を構築すれば、環境の差異によるトラブルは避けることができます。\nまた、仮想環境上にインストールするため、不要になった場合は、仮想環境を削除するだけですので、マシンを...",
+          "link": "https://zenn.dev/tasuya/articles/da033574b85e6d",
+          "publishedOn": "2021-10-02T05:19:15.000Z",
+          "wordCount": 107,
+          "title": "Dockerで、Next.js,TypeScript環境構築方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--iVuQ1pmG--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%259F%25E3%2581%25A4%25E3%2582%2584%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Docker%25E3%2581%25A7%25E3%2580%2581Next.js%252CTypeScript%25E7%2592%25B0%25E5%25A2%2583%25E6%25A7%258B%25E7%25AF%2589%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNjgwYmZiNDMzMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/uhyo/articles/better-typescript-lib-v2",
+          "author": "uhyo",
+          "description": "今日リリースされた TypeScript 4.5 Beta の新機能として、標準ライブラリの差し替えが従来よりも簡単になるというものがあります。\n筆者は TypeScript の標準ライブラリからanyを排除してより安全にしたbetter-typescript-libを開発していましたが、このたび TypeScript 4.5 に対応した v2.0.0 のベータ版を用意しました（2.0.0-beta）。\nこの記事では better-typescript-lib の簡単な紹介に加えて、TypeScript 4.5 の機能の解説やそれによって better-typescript-lib に起...",
+          "link": "https://zenn.dev/uhyo/articles/better-typescript-lib-v2",
+          "publishedOn": "2021-10-02T02:10:53.000Z",
+          "wordCount": 246,
+          "title": "TypeScript 4.5でますます便利に！ better-typescript-lib v2",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--rWNuBCWK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:uhyo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:TypeScript%25204.5%25E3%2581%25A7%25E3%2581%25BE%25E3%2581%2599%25E3%2581%25BE%25E3%2581%2599%25E4%25BE%25BF%25E5%2588%25A9%25E3%2581%25AB%25EF%25BC%2581%2520better-typescript-lib%2520v2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNWNiMWUwMmU0ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/tis1116/articles/8b04672a0221bb",
+          "author": "tis",
+          "description": "はじめに\n都内でフロントエンドエンジニアとして開発をしているものです。\n具体的な技術スタックは下記です\n\nReact.js\nNext.js\nTypeScript\nGraphQL(Apollo)\n\n今回は React.js の Hooks であるuseStateとuseReducerの違いについて色々述べていきたいと思います。\n\n この記事を書こうと思ったきっかけ\n今まで私はuseStateを利用して基本的に開発しており、useReducerを扱う機会がありませんでした。\nそんな中ある複雑な画面をuseStateで実装すると品質を担保できず、バグを生んでしまったからです。(著者の実装力...",
+          "link": "https://zenn.dev/tis1116/articles/8b04672a0221bb",
+          "publishedOn": "2021-10-02T01:24:05.000Z",
+          "wordCount": 1124,
+          "title": "useStateとuseReducerって実は大きな違いがある",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--aWRyCd4O--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:tis%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:useState%25E3%2581%25A8useReducer%25E3%2581%25A3%25E3%2581%25A6%25E5%25AE%259F%25E3%2581%25AF%25E5%25A4%25A7%25E3%2581%258D%25E3%2581%25AA%25E9%2581%2595%25E3%2581%2584%25E3%2581%258C%25E3%2581%2582%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjMwMWZlOTQ4Ni5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/kenara/articles/645c955a67ac08",
           "author": "KenAra",
@@ -3054,90 +3446,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb",
-          "author": "k_touge",
-          "description": "サマリー\nDocker Desktop （docker デーモン）を起動させておいて…\n\n      \n        zsh\n        % git clone https://github.com/sprout2000/cra.git\n% cd cra\n% docker-compose up\n\n\n      \n      localhost:3000 を開きましょう。これだけです。\nhttps://github.com/sprout2000/cra\n\nこのコンテナの実行を停止するには以下のようにしてください。\n\n      \n        bash\n        ^C  ...",
-          "link": "https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb",
-          "publishedOn": "2021-09-03T09:08:44.000Z",
-          "wordCount": 485,
-          "title": "Docker で React + TypeScript の開発環境【入門編】",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--t5X1G3Zg--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:k_touge%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Docker%2520%25E3%2581%25A7%2520React%2520%252B%2520TypeScript%2520%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2580%2590%25E5%2585%25A5%25E9%2596%2580%25E7%25B7%25A8%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTkyNDAwNGE0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/umezo/articles/dc452d9a1a24f2",
-          "author": "umezo",
-          "description": "やりたいこと\n\n      \n        \n        type T1 = {\n    a: {\n        a1: string;\n\ta2: number;\n    };\n    b: {\n        b1: string;\n        b2: number;\n    }[];\n};\n\ntype T2: DeepPartial<T1>;\n\nconst t2: T2 = {\n    a: {\n        a2: \"1\",\n    },\n    b: [\n        {\n\t    b2: 1\n\t}\n    ],\n};\n\n\n      \n     ...",
-          "link": "https://zenn.dev/umezo/articles/dc452d9a1a24f2",
-          "publishedOn": "2021-09-03T07:14:04.000Z",
-          "wordCount": 72,
-          "title": "TypeScriptのPartialを再帰的にするやつ。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--9mXxMU1P--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umezo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AEPartial%25E3%2582%2592%25E5%2586%258D%25E5%25B8%25B0%25E7%259A%2584%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2582%2584%25E3%2581%25A4%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hmRUZCbmZtcERXLXlGRUtmOUR0MUF0MDZJR3lNdlJWY0pGYnV4Q0E9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/umezo/articles/06bd73b3a02be3",
-          "author": "umezo",
-          "description": "やりたいこと\nこういうことをしたい。\n\n      \n        \n        type T1 = {\n    a: number,\n    b: string,\n};\n\ntype T2 = PickUpByType<T1, number>;\n\nconst t2: T2 = {\n    a: 1,\n};\n\n\n      \n      \n 解決\n実装はこう\n\n      \n        \n        type KeysByType<T, Type> = {\n  [key in keyof T]: T[key] extends Type ? key ...",
-          "link": "https://zenn.dev/umezo/articles/06bd73b3a02be3",
-          "publishedOn": "2021-09-03T06:42:39.000Z",
-          "wordCount": 119,
-          "title": "TypeScriptのPickをTypeで指定できるやつ。",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--kIATZRjC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:umezo%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%25E3%2581%25AEPick%25E3%2582%2592Type%25E3%2581%25A7%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2584%25E3%2581%25A4%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hmRUZCbmZtcERXLXlGRUtmOUR0MUF0MDZJR3lNdlJWY0pGYnV4Q0E9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/rgbkids/articles/3ab4c91b3b028c",
-          "author": "vteacher",
-          "description": "原文を元に、会話風（入門編によくある感じ）にしたてあげました。\nわかりにくいところは説明を足しています。\n原文：\nhttps://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html\n\n あいさつ\n🙍‍♀️「TypeScriptを使用して簡単なWebアプリケーションを構築することから始めましょう」\n🙂「うう…TypeScriptって、使っていないとなんとなくマウントを取られた感じがするあれですね」\n🙍‍♀️「そうですね。小さいストレスでもバグの元。フロントエンドの開発にTypeScriptは必須...",
-          "link": "https://zenn.dev/rgbkids/articles/3ab4c91b3b028c",
-          "publishedOn": "2021-09-03T03:50:41.000Z",
-          "wordCount": 346,
-          "title": "「5分でTypeScript」を会話風に説明してみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--W2-24eUx--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:vteacher%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%258C5%25E5%2588%2586%25E3%2581%25A7TypeScript%25E3%2580%258D%25E3%2582%2592%25E4%25BC%259A%25E8%25A9%25B1%25E9%25A2%25A8%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dZZXAwYXhYZ084ZHlWVVJsbndsanVacFlaRmF4ZU14YV92Z3JDSHc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/nekoniki/articles/26dfda35b90377",
-          "author": "nekoniki",
-          "description": "はじめに\n今回はReactNativeアプリから端末のカレンダーへイベントを登録する方法について紹介します。\n会議やイベント情報などを表示するようなタイプのアプリでは、OSのカレンダーと同期を行いたいケースも多いので役立つかと思います。\n\n 使用するライブラリ\n使用するライブラリはreact-native-calendar-eventsです。\n端末内のカレンダー情報の取得から、そこにイベントを追加するまでを行うことができます。\nhttps://github.com/wmcmahan/react-native-calendar-events\n\n インストール\n以下コマンドでインストール...",
-          "link": "https://zenn.dev/nekoniki/articles/26dfda35b90377",
-          "publishedOn": "2021-09-03T01:20:02.000Z",
-          "wordCount": 209,
-          "title": "【RN】端末のカレンダーにイベントを追加する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--gmAljGGz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nekoniki%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590RN%25E3%2580%2591%25E7%25AB%25AF%25E6%259C%25AB%25E3%2581%25AE%25E3%2582%25AB%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2580%25E3%2583%25BC%25E3%2581%25AB%25E3%2582%25A4%25E3%2583%2599%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZjU4Y2YzMzAxMC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/heavenosk/articles/headless-ui-drawer",
-          "author": "へぶん",
-          "description": "Headless UI + Tailwind CSS を組み合わせてドロワーを楽に実装できたので紹介します。\n以下のような Twitter っぽいのドロワーを作成しました。\nhttps://twitter.com/heavenOSK/status/1433431433146605571?s=20\n\n Headless UI とは\nHeadless UI はスタイルを排除したコンポーネント集で、Tailwind CSS と相性がいいとのことです。\nhttps://headlessui.dev/\n\n スタイルを排除した設計\n各コンポーネントのスタイルを切り替えるタイミングを抽象化してくれてい...",
-          "link": "https://zenn.dev/heavenosk/articles/headless-ui-drawer",
-          "publishedOn": "2021-09-02T17:40:36.000Z",
-          "wordCount": 444,
-          "title": "Headless UI + Tailwind CSS で Twitter 風のドロワーを作ってみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--wxOlXCoD--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25B8%25E3%2581%25B6%25E3%2582%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Headless%2520UI%2520%252B%2520Tailwind%2520CSS%2520%25E3%2581%25A7%2520Twitter%2520%25E9%25A2%25A8%25E3%2581%25AE%25E3%2583%2589%25E3%2583%25AD%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hoMWZIZ0JrazVrQ3N2c2dQYS10azVkMG0yTk02ZHBDM3BBWXdKPXM4MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3327,20 +3635,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/kato_k/articles/753b36262b3213",
-          "author": "kato-k",
-          "description": "はじめに\nVim上での日本語入力の手段としてeskk.vimを導入しましたので自分用のメモも兼ねて残します。\nSKK・eskk.vim共にこれまで使ったことがないので、参考程度に見てください。\n\n インストール\n\n eskk.vim\nhttps://github.com/tyru/eskk.vim\n好みのプラグインマネージャでeskkを導入してください。\n\n 辞書\nskkを使うには読みとの対応が列挙された辞書が必要になるので、ダウンロードしてeskkに教えてあげる必要があります。\n辞書ファイルはこちら↓などで公開されている物を利用しましょう。\nhttps://skk-dev.gith...",
-          "link": "https://zenn.dev/kato_k/articles/753b36262b3213",
-          "publishedOn": "2021-09-02T15:04:12.000Z",
-          "wordCount": 168,
-          "title": "Vimにeskkをインストールする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--_sBVbMm1--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kato-k%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_80_bold:Vim%25E3%2581%25ABeskk%25E3%2582%2592%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMDA1MWRmMmFlMi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3349,6 +3643,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/marty_ojiya/articles/9d8b30212e2631",
+          "author": "マーティ",
+          "description": "ただ、使ってもらえるものをつくりたい。\n冒頭から\n欲望を剥き出しにしてしまったことを\nお許しください。\nこんにちは、@マーティ と申します。\n東京のデザイン&開発会社の下っ端エンジニアです。\nZenn初投稿です。\nこのたび、　モックアップ画像をURLや画像から秒で作れるサービスをつくりました。\n今回はそこから学んだことを書いていきます。\nもしよければ最後まで読んでやってください。\nWorks Thumbnail Generator\n\n\n なんでつくったの??\n皆さまもご存知の通り\n昨今、駆け出しエンジニアが湧いております。\n主にTwitterに生息していて、\n毎日、積み上げと...",
+          "link": "https://zenn.dev/marty_ojiya/articles/9d8b30212e2631",
+          "publishedOn": "2021-10-03T00:15:18.000Z",
+          "wordCount": 155,
+          "title": "【個人開発】モックアップ画像を一瞬でつくれるサービスをVue.jsでつくって学んだこと",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--7l3cVRRN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2580%2591%25E3%2583%25A2%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E7%2594%25BB%25E5%2583%258F%25E3%2582%2592%25E4%25B8%2580%25E7%259E%25AC%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258C%25E3%2582%258B%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2582%2592Vue.js%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%258F%25E3%2581%25A3%25E3%2581%25A6%25E5%25AD%25A6%25E3%2582%2593%25E3%2581%25A0%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2RjYzE1ZmNlNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/murmurase/articles/composition-api-navigation-guard",
+          "author": "murase",
+          "description": "はじめに\ncomposition-apiが出て、2系のNuxtとcomposition-apiを合わせて使う方が多いのではないでしょうか？\nNuxt 2系とcomposition-apiの組み合わせでなビゲーションガードを実装するのに難航したので忘備録として記事にしておきます。\n（Nuxt 3系がリリースされたら多分使わなくなると思う）\nversion\n\n      \n        \n        Nuxt 2.15.xx\n@nuxtjs/composition-api 0.26.0\n\n\n      \n      \n ナビゲーションガードをする\nこちらの記事にあるように、\nhtt...",
+          "link": "https://zenn.dev/murmurase/articles/composition-api-navigation-guard",
+          "publishedOn": "2021-10-02T06:57:27.000Z",
+          "wordCount": 165,
+          "title": "nuxt v2系 + composition apiでナビゲーションガードをする方法",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--4VV5QZ4g--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:murase%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:nuxt%2520v2%25E7%25B3%25BB%2520%252B%2520composition%2520api%25E3%2581%25A7%25E3%2583%258A%25E3%2583%2593%25E3%2582%25B2%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%25AC%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l0SXdyTGtLUF82SmJIVU15MUotVnBhX0FoSzV5VHFoWHVCU295PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/gz/articles/59095a390da895",
           "author": "walking_on_ice",

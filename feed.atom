@@ -2,10 +2,692 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-02T00:54:36.209Z</updated>
+    <updated>2021-10-03T01:00:47.165Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【個人開発】モックアップ画像を一瞬でつくれるサービスをVue.jsでつくって学んだこと]]></title>
+        <id>https://zenn.dev/marty_ojiya/articles/9d8b30212e2631</id>
+        <link href="https://zenn.dev/marty_ojiya/articles/9d8b30212e2631"/>
+        <updated>2021-10-03T00:15:18.000Z</updated>
+        <summary type="html"><![CDATA[ただ、使ってもらえるものをつくりたい。
+冒頭から
+欲望を剥き出しにしてしまったことを
+お許しください。
+こんにちは、@マーティ と申します。
+東京のデザイン&開発会社の下っ端エンジニアです。
+Zenn初投稿です。
+このたび、　モックアップ画像をURLや画像から秒で作れるサービスをつくりました。
+今回はそこから学んだことを書いていきます。
+もしよければ最後まで読んでやってください。
+Works Thumbnail Generator
+
+
+ なんでつくったの??
+皆さまもご存知の通り
+昨今、駆け出しエンジニアが湧いております。
+主にTwitterに生息していて、
+毎日、積み上げと...]]></summary>
+        <author>
+            <name>マーティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native Matsuri 2021に参加したのでまとめる]]></title>
+        <id>https://zenn.dev/nekoniki/articles/d3979257e6e958</id>
+        <link href="https://zenn.dev/nekoniki/articles/d3979257e6e958"/>
+        <updated>2021-10-02T14:43:05.000Z</updated>
+        <summary type="html"><![CDATA[概要
+こんにちは！
+普段はReact NativeのTips的な記事を上げているのですが、今日は自分の学習メモも兼ねて、カンファレンスのレポートを公開したいと思います。
+参加したのは、この記事を書いている2021年10月2日(土)に開催されたReact Native Matsuri 2021というカンファレンスです。
+
+React Native Matsuri2021公式サイト
+
+以下、公式サイトトップの概要になります。
+
+2021年、React Nativeをメインテーマにした、日本で初開催の技術カンファレンス。
+React NativeやReactの深い知見を持つ開発者によるセッ...]]></summary>
+        <author>
+            <name>nekoniki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React.jsで学ぶWeb3.js 第一弾（🦊MetaMask）]]></title>
+        <id>https://zenn.dev/watson_sei/articles/1b7447fc9a12ac</id>
+        <link href="https://zenn.dev/watson_sei/articles/1b7447fc9a12ac"/>
+        <updated>2021-10-02T14:40:17.000Z</updated>
+        <summary type="html"><![CDATA[最近人気のブロックチェーンに参入してみた引きこもり学生エンジニアSeiです。
+普段私はWebアプリを開発している人間ですが、DAppsなどを作る上でWeb3.jsの基礎知識は必要だと思い勉強しています。ただ、なかなかWeb3.jsのサンプルコードって少ないですよね。なのでアプトプットついでに記事を書こうと思います。
+
+ React.js + Web3.jsセットアップ
+
+
+プロジェクトを以下のコマンドで立ち上げます。
+npx create-react-app --template typescript myapp
+
+
+MetaMaskのProvideを取得できる以下のライブラリを使います...]]></summary>
+        <author>
+            <name>Watson-Sei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/Static Optimization Indicator]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-static-optimization-indicator-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-static-optimization-indicator-jp"/>
+        <updated>2021-10-02T14:30:44.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Static Optimization Indicatorの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+
+ 備考
+このインジケーターは Next.js のバージョン 10.0.1 で削除されました。最新の Next.js にアップグレードすることをお勧めします。
+
+自動静的最適化の対象となるページがあると、それを知らせるインジケータが表示されます。
+自動静的最適化は非常に有益...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/Data Fetching/getInitialProps]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-data-fetching-get-initial-props-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-data-fetching-get-initial-props-jp"/>
+        <updated>2021-10-02T14:29:16.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Data Fetching/getInitialProps の記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ getInitialProps
+
+推奨：getStaticProps または getServerSideProps 。
+Next.js 9.3 以降を使用している場合、getInitialProps の代わりに getStaticProps または getServerS...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/ next/amp]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-next-amp-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-next-amp-jp"/>
+        <updated>2021-10-02T14:27:14.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next/ampの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ next/amp
+Examples
+
+AMP
+
+
+
+AMP 対応は、私たちの高度な機能の一つで、AMP についてはこちらをご覧ください。
+
+AMP を有効にするには、ページに以下の config を追加します。
+
+      
+        
+        export const config = { am...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/ next/image]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-next-image</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-next-image"/>
+        <updated>2021-10-02T14:25:07.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next/imageの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+
+ next/image
+Examples
+
+Image Component
+
+
+Version History
+
+
+
+Version
+Changes
+
+
+
+
+バージョン
+変更点
+
+
+v11.1.0
+
+onLoadingComplete プロップと lazyBoundary プロップを追加しました。
+
+
+v11...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/ next/link]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-next-link-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-next-link-jp"/>
+        <updated>2021-10-02T14:22:51.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next/linkの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ next/link
+例 | Examples
+
+ハローワールド | Hello World
+リンクのアクティブなクラス名 | Active className on Link
+
+
+
+先に進む前に、まずルーティング入門をお読みいただくことをお勧めします。
+
+クライアントサイドでのルート間の遷移は、next/lin...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/ next/router]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-next-router</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-next-router"/>
+        <updated>2021-10-02T14:21:49.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next/routerの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+
+ next/router
+
+先に進む前に、まず「ルーティング入門」をお読みいただくことをお勧めします。
+
+
+ useRouter
+アプリ内の任意の関数コンポーネントでrouterオブジェクトにアクセスしたい場合は、useRouter フックを使用できます。
+
+      
+        
+        ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[useStateで配列の特定の要素を更新する方法]]></title>
+        <id>https://zenn.dev/web_tips/articles/c026df542bc18b</id>
+        <link href="https://zenn.dev/web_tips/articles/c026df542bc18b"/>
+        <updated>2021-10-02T14:21:46.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+タイトルの通りですが、ReactのuseStateで配列の特定の要素を更新する方法がググっても出てこなかったので記事にしようと思います。
+
+ useStateで配列に追加する方法
+配列に要素を追加する方法はネット上にあふれている。
+以下がその例で、スプレッド構文を使用するのが推奨されている。
+
+      
+        
+        const [sports, setSports] = useState([]);
+const addSports = () => {
+    setSports([...sports, "baseball"]);
+}
+
+
+   ...]]></summary>
+        <author>
+            <name>Tomoki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/Create Next App]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-api-reference-create-next-app-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-api-reference-create-next-app-jp"/>
+        <updated>2021-10-02T14:20:24.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、API Reference/Create Next Appの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Create Next App
+Next.js を使い始めるには、create-next-app を使うのが一番簡単です。この CLI ツールを使うと、すべてが設定された状態で、新しい Next.js アプリケーションの構築をすばやく開始することができます。新しいアプリは...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/CLI]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-api-reference-cli-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-api-reference-cli-jp"/>
+        <updated>2021-10-02T14:19:17.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、API Reference/CLI の記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Next.js CLI
+Next.jsのCLIでは、アプリケーションの起動、ビルド、エクスポートを行うことができます。
+利用可能なCLIコマンドの一覧を表示するには、プロジェクトディレクトリ内で次のコマンドを実行します。
+
+      
+        
+        npx next -h...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】FAQ]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-faq-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-faq-jp"/>
+        <updated>2021-10-02T13:57:42.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、FAQの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ よくある質問｜ Frequently Asked Questions
+プロダクションは万全ですか？
+Next.js は、https://vercel.com の立ち上げ時から使用されています。
+開発者の体験とエンドユーザーのパフォーマンスの両方に満足しているので、それをコミュニティで共有することにしました。
+
+バンドルのサ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Migrating to Next.js/Migrating from React Router]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-react-router-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-react-router-jp"/>
+        <updated>2021-10-02T08:47:06.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Migrating to Next.js/Migrating from React Routerの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Migrating from React Router
+このガイドは、Next.jsで React Router から ファイルシステムベース のルートに移行する方法を理解するのに役立ちます。next/linkとnext/router...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Migrating to Next.js/Migrating from Gatsby]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-gatsby-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-from-gatsby-jp"/>
+        <updated>2021-10-02T08:46:41.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Migrating to Next.js/Migrating from Gatsby の記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Migrating from Gatsby
+このガイドでは、既存のGatsbyプロジェクトからNext.jsに移行する方法をご紹介します。Next.jsに移行することで、以下のことが可能になります。
+
+ページごとに、どのようなdata fetc...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Migrating to Next.js/Migrating from CRA]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-create-react-app-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-migrating-to-nextjs-create-react-app-jp"/>
+        <updated>2021-10-02T08:46:40.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Migrating to Next.js/Migrating from Create React Appの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Migrating from Create React App
+このガイドでは、イジェクトされていない既存の Create React App プロジェクトから Next.js に移行する方法を理解することができます。Next...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Migrating to Next.js/Incrementally Adopt Next.js]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-migrate-to-nextjs-imcrement-adopt-nextjs-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-migrate-to-nextjs-imcrement-adopt-nextjs-jp"/>
+        <updated>2021-10-02T08:45:01.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Migrating to Next.js/Incrementally Adopting Next.jsの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Incrementally Adopting Next.js
+例
+
+Rewrites
+Redirects
+Multi-Zones
+
+
+Next.js は段階的に導入できるように設計されています。Next.js では、既存のコード...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Upgrade Guide]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-upgrade-guide-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-upgrade-guide-jp"/>
+        <updated>2021-10-02T08:42:56.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Upgrade Guideの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Upgrade Guide
+
+ バージョン 10 から 11 へのアップグレード
+
+ React のバージョンを最新にアップグレード
+ほとんどのアプリケーションは、すでに最新の React を使用しています。Next.js 11 では、最小の React バージョンが 17.0.2 に更新されています。...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Testing]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-testing</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-testing"/>
+        <updated>2021-10-02T08:40:54.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Testingの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Testing
+例
+
+Next.js with Cypress
+Next.js with Jest and React Testing Library
+
+
+Next.js を、一般的に使用されている 3 つのテストツールでセットアップする方法をご紹介します。Cypress、Jest、そしてReact Testing...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Advanced Features/Security Headers]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-advanced-features-security-headers-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-advanced-features-security-headers-jp"/>
+        <updated>2021-10-02T08:36:33.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Advanced Features/Security Headersの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Security Headers
+アプリケーションのセキュリティを向上させるために、next.config.js で headers を使用すると、アプリケーション内のすべてのルートにHTTPレスポンスヘッダを適用することができます。
+
+      
+     ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Advanced Features/Internationalized Routing]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-advancd-features-internationalized-routing</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-advancd-features-internationalized-routing"/>
+        <updated>2021-10-02T08:35:36.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Advanced Features/Internationalized Routingの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Internationalized Routing
+例 | Examples
+
+国際化のためのルーティング
+
+
+Next.js はv10.0.0以降、国際化(i18n)ルーティングをビルトインでサポートしています。
+ロケールのリスト、デフォルト...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Advanced Features/Codemods]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-advanced-features-codemods-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-advanced-features-codemods-jp"/>
+        <updated>2021-10-02T08:07:11.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Advanced Features/Codemodsの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Next.js Codemods
+Next.jsはCodemodトランスフォームを提供しており、ある機能が非推奨になったときにNext.jsのコードベースをアップグレードするのに役立ちます。
+Codemodとは、コードベース上でプログラム的に実行される変換のことです。これにより...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】Advanced Features/Source Maps]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-advancd-features-source-maps-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-advancd-features-source-maps-jp"/>
+        <updated>2021-10-02T08:06:22.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、Advanced Features/Source Mapsの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Source Maps
+ソースマップとは、コンパイル前（元のコード）とコンパイル後の対応関係を記したファイル
+開発環境の時には、ソースマップは、デフォルトで有効になっています。
+ソースマップを生成すると、ビルド時間が大幅に長くなり、生成中のメモリ使用量も増えるため、プロダ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[実務で学んだReactのデザインパターンとTips]]></title>
+        <id>https://zenn.dev/ignorant_kenji/articles/9f4bc3ebd72ec9</id>
+        <link href="https://zenn.dev/ignorant_kenji/articles/9f4bc3ebd72ec9"/>
+        <updated>2021-10-02T07:56:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+この記事では、ボク自身が開発しているプロジェクトで学んだ Reactのデザインパターン, Tipsの備忘録として、残させていただきます。
+
+ props
+
+ props の初期値に値を指定する
+関数の引数に初期値を定義することができます。
+
+      
+        
+        type Props = {
+  color: string,
+  text: string
+}
+
+const Button: React.VFC<Props> = ({ color = "red", text = 'text something here' }) => ...]]></summary>
+        <author>
+            <name>Kenji</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TS4.5 の type Modifiers on Import Names のパースがおもしろい]]></title>
+        <id>https://zenn.dev/sosukesuzuki/articles/1460075795cf08</id>
+        <link href="https://zenn.dev/sosukesuzuki/articles/1460075795cf08"/>
+        <updated>2021-10-02T07:53:34.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript 4.5 のベータ版がアナウンスされました。
+https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/
+たくさんの新機能があり、大きなバージョンになりそうです。
+それらの新機能の中に type Modifiers on Import Names というものがあります。
+これは、TypeScript 3.8 から追加された Type-only imports and exports を specifier 単位で指定できるようにしたものです。
+今までは、
+
+      
+     ...]]></summary>
+        <author>
+            <name>Sosuke Suzuki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nuxt v2系 + composition apiでナビゲーションガードをする方法]]></title>
+        <id>https://zenn.dev/murmurase/articles/composition-api-navigation-guard</id>
+        <link href="https://zenn.dev/murmurase/articles/composition-api-navigation-guard"/>
+        <updated>2021-10-02T06:57:27.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+composition-apiが出て、2系のNuxtとcomposition-apiを合わせて使う方が多いのではないでしょうか？
+Nuxt 2系とcomposition-apiの組み合わせでなビゲーションガードを実装するのに難航したので忘備録として記事にしておきます。
+（Nuxt 3系がリリースされたら多分使わなくなると思う）
+version
+
+      
+        
+        Nuxt 2.15.xx
+@nuxtjs/composition-api 0.26.0
+
+
+      
+      
+ ナビゲーションガードをする
+こちらの記事にあるように、
+htt...]]></summary>
+        <author>
+            <name>murase</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nuxt v2系 + composition apiでナビゲーションガードをする方法]]></title>
+        <id>https://zenn.dev/murmurase/articles/composition-api-navigation-guard</id>
+        <link href="https://zenn.dev/murmurase/articles/composition-api-navigation-guard"/>
+        <updated>2021-10-02T06:57:27.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+composition-apiが出て、2系のNuxtとcomposition-apiを合わせて使う方が多いのではないでしょうか？
+Nuxt 2系とcomposition-apiの組み合わせでなビゲーションガードを実装するのに難航したので忘備録として記事にしておきます。
+（Nuxt 3系がリリースされたら多分使わなくなると思う）
+version
+
+      
+        
+        Nuxt 2.15.xx
+@nuxtjs/composition-api 0.26.0
+
+
+      
+      
+ ナビゲーションガードをする
+こちらの記事にあるように、
+htt...]]></summary>
+        <author>
+            <name>murase</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dockerで、Next.js,TypeScript環境構築方法]]></title>
+        <id>https://zenn.dev/tasuya/articles/da033574b85e6d</id>
+        <link href="https://zenn.dev/tasuya/articles/da033574b85e6d"/>
+        <updated>2021-10-02T05:19:15.000Z</updated>
+        <summary type="html"><![CDATA[この記事ではDockerを使ってNext.js11の開発環境の構築方法を紹介します。
+今は、TypeScriptが当たり前になってきていると感じてますので、Typescriptでの環境を構築します。
+
+ なぜDockerで構築するのか
+通常はnode等を直接マシンにインストールして環境を構築していきます。その場合、環境の違いによるトラブル解消で、多くの時間を消費してしまいます。
+そこで、Dockerを使用して、仮想環境上に環境を構築すれば、環境の差異によるトラブルは避けることができます。
+また、仮想環境上にインストールするため、不要になった場合は、仮想環境を削除するだけですので、マシンを...]]></summary>
+        <author>
+            <name>たつや</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 4.5でますます便利に！ better-typescript-lib v2]]></title>
+        <id>https://zenn.dev/uhyo/articles/better-typescript-lib-v2</id>
+        <link href="https://zenn.dev/uhyo/articles/better-typescript-lib-v2"/>
+        <updated>2021-10-02T02:10:53.000Z</updated>
+        <summary type="html"><![CDATA[今日リリースされた TypeScript 4.5 Beta の新機能として、標準ライブラリの差し替えが従来よりも簡単になるというものがあります。
+筆者は TypeScript の標準ライブラリからanyを排除してより安全にしたbetter-typescript-libを開発していましたが、このたび TypeScript 4.5 に対応した v2.0.0 のベータ版を用意しました（2.0.0-beta）。
+この記事では better-typescript-lib の簡単な紹介に加えて、TypeScript 4.5 の機能の解説やそれによって better-typescript-lib に起...]]></summary>
+        <author>
+            <name>uhyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[useStateとuseReducerって実は大きな違いがある]]></title>
+        <id>https://zenn.dev/tis1116/articles/8b04672a0221bb</id>
+        <link href="https://zenn.dev/tis1116/articles/8b04672a0221bb"/>
+        <updated>2021-10-02T01:24:05.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+都内でフロントエンドエンジニアとして開発をしているものです。
+具体的な技術スタックは下記です
+
+React.js
+Next.js
+TypeScript
+GraphQL(Apollo)
+
+今回は React.js の Hooks であるuseStateとuseReducerの違いについて色々述べていきたいと思います。
+
+ この記事を書こうと思ったきっかけ
+今まで私はuseStateを利用して基本的に開発しており、useReducerを扱う機会がありませんでした。
+そんな中ある複雑な画面をuseStateで実装すると品質を担保できず、バグを生んでしまったからです。(著者の実装力...]]></summary>
+        <author>
+            <name>tis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[react-tableでソート機能を実装（TypeScript）]]></title>
         <id>https://zenn.dev/kenara/articles/645c955a67ac08</id>
@@ -5915,189 +6597,6 @@ export interface Props = {
   className?: st...]]></summary>
         <author>
             <name>Ren Shimosawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker で React + TypeScript の開発環境【入門編】]]></title>
-        <id>https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb</id>
-        <link href="https://zenn.dev/sprout2000/articles/27aa1c8ca3dcfb"/>
-        <updated>2021-09-03T09:08:44.000Z</updated>
-        <summary type="html"><![CDATA[サマリー
-Docker Desktop （docker デーモン）を起動させておいて…
-
-      
-        zsh
-        % git clone https://github.com/sprout2000/cra.git
-% cd cra
-% docker-compose up
-
-
-      
-      localhost:3000 を開きましょう。これだけです。
-https://github.com/sprout2000/cra
-
-このコンテナの実行を停止するには以下のようにしてください。
-
-      
-        bash
-        ^C  ...]]></summary>
-        <author>
-            <name>k_touge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptのPartialを再帰的にするやつ。]]></title>
-        <id>https://zenn.dev/umezo/articles/dc452d9a1a24f2</id>
-        <link href="https://zenn.dev/umezo/articles/dc452d9a1a24f2"/>
-        <updated>2021-09-03T07:14:04.000Z</updated>
-        <summary type="html"><![CDATA[やりたいこと
-
-      
-        
-        type T1 = {
-    a: {
-        a1: string;
-	a2: number;
-    };
-    b: {
-        b1: string;
-        b2: number;
-    }[];
-};
-
-type T2: DeepPartial<T1>;
-
-const t2: T2 = {
-    a: {
-        a2: "1",
-    },
-    b: [
-        {
-	    b2: 1
-	}
-    ],
-};
-
-
-      
-     ...]]></summary>
-        <author>
-            <name>umezo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptのPickをTypeで指定できるやつ。]]></title>
-        <id>https://zenn.dev/umezo/articles/06bd73b3a02be3</id>
-        <link href="https://zenn.dev/umezo/articles/06bd73b3a02be3"/>
-        <updated>2021-09-03T06:42:39.000Z</updated>
-        <summary type="html"><![CDATA[やりたいこと
-こういうことをしたい。
-
-      
-        
-        type T1 = {
-    a: number,
-    b: string,
-};
-
-type T2 = PickUpByType<T1, number>;
-
-const t2: T2 = {
-    a: 1,
-};
-
-
-      
-      
- 解決
-実装はこう
-
-      
-        
-        type KeysByType<T, Type> = {
-  [key in keyof T]: T[key] extends Type ? key ...]]></summary>
-        <author>
-            <name>umezo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「5分でTypeScript」を会話風に説明してみる]]></title>
-        <id>https://zenn.dev/rgbkids/articles/3ab4c91b3b028c</id>
-        <link href="https://zenn.dev/rgbkids/articles/3ab4c91b3b028c"/>
-        <updated>2021-09-03T03:50:41.000Z</updated>
-        <summary type="html"><![CDATA[原文を元に、会話風（入門編によくある感じ）にしたてあげました。
-わかりにくいところは説明を足しています。
-原文：
-https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
-
- あいさつ
-🙍‍♀️「TypeScriptを使用して簡単なWebアプリケーションを構築することから始めましょう」
-🙂「うう…TypeScriptって、使っていないとなんとなくマウントを取られた感じがするあれですね」
-🙍‍♀️「そうですね。小さいストレスでもバグの元。フロントエンドの開発にTypeScriptは必須...]]></summary>
-        <author>
-            <name>vteacher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【RN】端末のカレンダーにイベントを追加する]]></title>
-        <id>https://zenn.dev/nekoniki/articles/26dfda35b90377</id>
-        <link href="https://zenn.dev/nekoniki/articles/26dfda35b90377"/>
-        <updated>2021-09-03T01:20:02.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-今回はReactNativeアプリから端末のカレンダーへイベントを登録する方法について紹介します。
-会議やイベント情報などを表示するようなタイプのアプリでは、OSのカレンダーと同期を行いたいケースも多いので役立つかと思います。
-
- 使用するライブラリ
-使用するライブラリはreact-native-calendar-eventsです。
-端末内のカレンダー情報の取得から、そこにイベントを追加するまでを行うことができます。
-https://github.com/wmcmahan/react-native-calendar-events
-
- インストール
-以下コマンドでインストール...]]></summary>
-        <author>
-            <name>nekoniki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Headless UI + Tailwind CSS で Twitter 風のドロワーを作ってみた]]></title>
-        <id>https://zenn.dev/heavenosk/articles/headless-ui-drawer</id>
-        <link href="https://zenn.dev/heavenosk/articles/headless-ui-drawer"/>
-        <updated>2021-09-02T17:40:36.000Z</updated>
-        <summary type="html"><![CDATA[Headless UI + Tailwind CSS を組み合わせてドロワーを楽に実装できたので紹介します。
-以下のような Twitter っぽいのドロワーを作成しました。
-https://twitter.com/heavenOSK/status/1433431433146605571?s=20
-
- Headless UI とは
-Headless UI はスタイルを排除したコンポーネント集で、Tailwind CSS と相性がいいとのことです。
-https://headlessui.dev/
-
- スタイルを排除した設計
-各コンポーネントのスタイルを切り替えるタイミングを抽象化してくれてい...]]></summary>
-        <author>
-            <name>へぶん</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vimにeskkをインストールする]]></title>
-        <id>https://zenn.dev/kato_k/articles/753b36262b3213</id>
-        <link href="https://zenn.dev/kato_k/articles/753b36262b3213"/>
-        <updated>2021-09-02T15:04:12.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-Vim上での日本語入力の手段としてeskk.vimを導入しましたので自分用のメモも兼ねて残します。
-SKK・eskk.vim共にこれまで使ったことがないので、参考程度に見てください。
-
- インストール
-
- eskk.vim
-https://github.com/tyru/eskk.vim
-好みのプラグインマネージャでeskkを導入してください。
-
- 辞書
-skkを使うには読みとの対応が列挙された辞書が必要になるので、ダウンロードしてeskkに教えてあげる必要があります。
-辞書ファイルはこちら↓などで公開されている物を利用しましょう。
-https://skk-dev.gith...]]></summary>
-        <author>
-            <name>kato-k</name>
         </author>
     </entry>
 </feed>
