@@ -2,10 +2,656 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://marukeso.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-03T01:00:47.165Z</updated>
+    <updated>2021-10-04T01:00:19.806Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://marukeso.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://marukeso.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[なに？テスト駆動開発やったことないのかい？まったくキミってやつは！]]></title>
+        <id>https://zenn.dev/marty_ojiya/articles/cb9aee536d8737</id>
+        <link href="https://zenn.dev/marty_ojiya/articles/cb9aee536d8737"/>
+        <updated>2021-10-03T22:43:08.000Z</updated>
+        <summary type="html"><![CDATA[ある日のパイセン「テスト書いておいてくれよ！」
+そう言われたのだけど…
+ボクはテストを書いたことのなかったのさ！
+どうなったかって？
+Oh...ジーザス
+レビューで突き返されちまったよ！
+そのうえリファクタリングまでされて。
+最終的にパイセンのコードを見よう見まねで
+テストを追加していって、マージはされたんだ
+そこで、ボクは思ったよ
+テスト書けるかどうか、ボクがテストされるべきだったんだなってね！
+
+ TDD本というバイブルがあるじゃないか！
+テスト駆動開発をはじめよう、という人には
+TDD本と呼ばれる『テスト駆動開発』というものがあるんだ！
+どんな本買って？
+あれはまさにバイブルさ...]]></summary>
+        <author>
+            <name>マーティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[firebase-adminで2つ目のプロジェクトを使うとき]]></title>
+        <id>https://zenn.dev/kenara/articles/da81835ca0ec5c</id>
+        <link href="https://zenn.dev/kenara/articles/da81835ca0ec5c"/>
+        <updated>2021-10-03T12:51:11.000Z</updated>
+        <summary type="html"><![CDATA[ライブラリの宣言（設定反映）
+第二引数に、独自のプロジェクト名を指定したらOK。
+
+      
+        
+        import * as admin from 'firebase-admin'
+
+// 1つ目
+admin.initializeApp({
+  credential: admin.credential.cert('./firebase-adminsdk.json'),
+})
+
+// 2つ目
+admin.initializeApp(
+  {
+    credential: admin.credential.cert(
+      './firebase-a...]]></summary>
+        <author>
+            <name>KenAra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravel 8でInertia+Vuetifyを使ってみる - Laravel JetStream - アタック]]></title>
+        <id>https://zenn.dev/moroshi/articles/4e08a62f3748e8</id>
+        <link href="https://zenn.dev/moroshi/articles/4e08a62f3748e8"/>
+        <updated>2021-10-03T12:44:49.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+
+ 経緯
+Laravel 6で組んでいるAPIサーバーをLaravel 8で組みなおしてみるという一連の実証です。
+以前の、Laravel 8のAPI認証を味見するのとおり、APIサーバーとしてSanctumのAPI認証を試してみました。
+この仕組みは、Vuetifyを利用したSPAとの連携を想定した仕組みです。
+（ちなみに、SPA認証を利用しないのは、SPA以外からも連携する想定があるから、です。）
+そんな折、こちらの方の記事が目に留まりました。(感謝)
+Laravel JetStreamのinertiaで、Vuetifyが使えるですって？！
+ということで、試します。
+
+...]]></summary>
+        <author>
+            <name>moroshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactで404画面を作成する（TypeScript）]]></title>
+        <id>https://zenn.dev/kenara/articles/3677b9a899cfb9</id>
+        <link href="https://zenn.dev/kenara/articles/3677b9a899cfb9"/>
+        <updated>2021-10-03T12:28:13.000Z</updated>
+        <summary type="html"><![CDATA[src/index.tsx
+        import { AuthProvider } from 'providers/AuthProvider'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Route, Switch } from 'react-router'
+import { BrowserRouter } from 'react-router-dom'
+import Login from 'template/Login'
+import NotFound f...]]></summary>
+        <author>
+            <name>KenAra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[lighthouseスコアを改善するためにやったこと5つ]]></title>
+        <id>https://zenn.dev/thetalemon/articles/d501197b08dfa2</id>
+        <link href="https://zenn.dev/thetalemon/articles/d501197b08dfa2"/>
+        <updated>2021-10-03T11:58:49.000Z</updated>
+        <summary type="html"><![CDATA[背景
+
+ポートフォリオのスコアがズタボロだったので改善することにしました
+どんな構成のPJでもあり得る汎用的な話がほとんどですが、一部Nuxt.js+firebase特有の悩み・解決方法を記載しています。
+実際の改善率はこんな感じ。
+
+
+
+
+
+
+ 測定方法
+
+Devtoolにあるので、それを使います。localhostでも使えて便利です。
+
+
+
+
+Chrome拡張もあります。こっちはlocalhostでは使えません。
+
+
+ やったこと
+
+ imgにwidth/height/altを付与する　【Perfomance, Accessibillity】
+
+Image elements do...]]></summary>
+        <author>
+            <name>まなさす</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js & TypeScript】Emotionの導入が大変だったので手順をまとめておく]]></title>
+        <id>https://zenn.dev/iwakin999/articles/7a5e11e62ba668</id>
+        <link href="https://zenn.dev/iwakin999/articles/7a5e11e62ba668"/>
+        <updated>2021-10-03T09:30:42.000Z</updated>
+        <summary type="html"><![CDATA[CSS in JSとして後発だけありEmotionは使い勝手いいですよね。Material UIがv5からEmotionを利用している影響もあるのか、React版の@emotion/reactはnpmダウンロード数の伸びがすごいです。
+
+@emotion/css vs @emotion/react vs @emotion/styled vs styled-components
+（赤が Styled Component、他が Emotion の主要ライブラリ）
+ただ、EmotionをNext.js & TypeScriptに導入するのはそこそこ面倒です。ハマりどころも結構多いので手...]]></summary>
+        <author>
+            <name>iwakin999</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js & TypeScript】Emotionの導入が大変だったので手順をまとめておく]]></title>
+        <id>https://zenn.dev/iwakin999/articles/7a5e11e62ba668</id>
+        <link href="https://zenn.dev/iwakin999/articles/7a5e11e62ba668"/>
+        <updated>2021-10-03T09:30:42.000Z</updated>
+        <summary type="html"><![CDATA[CSS in JSとして後発だけありEmotionは使い勝手いいですよね。Material UIがv5からEmotionを利用している影響もあるのか、React版の@emotion/reactはnpmダウンロード数の伸びがすごいです。
+
+@emotion/css vs @emotion/react vs @emotion/styled vs styled-components
+（赤が Styled Component、他が Emotion の主要ライブラリ）
+ただ、EmotionをNext.js & TypeScriptに導入するのはそこそこ面倒です。ハマりどころも結構多いので手...]]></summary>
+        <author>
+            <name>iwakin999</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stripe Connectでcheckout sessionを使い定期支払いを実装（Node）]]></title>
+        <id>https://zenn.dev/kenara/articles/e3d606aaf2a038</id>
+        <link href="https://zenn.dev/kenara/articles/e3d606aaf2a038"/>
+        <updated>2021-10-03T09:06:42.000Z</updated>
+        <summary type="html"><![CDATA[実装していく
+前提として、料金を選択できる処理は実装済みとします。
+
+ フロント側
+
+      
+        front.ts
+        import { Stripe } from '@stripe/stripe-js'
+
+const API_BASE_URL = 'https://xxx'
+
+/**
+ * checkout sessionを作成するAPIを叩く
+ */
+const getCheckoutSession = async (
+  accountId: string,
+  priceId: string,
+  originUrl: string
+): Pro...]]></summary>
+        <author>
+            <name>KenAra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.jsでsupabaseを使って、認証からデータベースの更新までをやってみる]]></title>
+        <id>https://zenn.dev/hrtk/articles/3da84e46c97267</id>
+        <link href="https://zenn.dev/hrtk/articles/3da84e46c97267"/>
+        <updated>2021-10-03T08:49:05.000Z</updated>
+        <summary type="html"><![CDATA[supabaseは、「The Open Source Firebase Athlternative」を謳っています。プロプライエタリなFirebaseの代わりにオープンな技術スタックで構成されてバックエンドのサービスです。
+supabaseで提供している認証とデータベースを使って、一連の基本的な機能をさわってみます。
+
+ supabaseの新規プロジェクト作成
+supabaseのサイトより、サインアップします。
+https://supabase.io/
+ダッシュボードから、プロジェクトを作成しておきます。
+
+ GitHubのOauthアプリケーション作成
+GitHubでこちらから新しくア...]]></summary>
+        <author>
+            <name>hrtkmztn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript で userAgentData を使って OS 判定]]></title>
+        <id>https://zenn.dev/sprout2000/articles/eb2a79efdb2c5b</id>
+        <link href="https://zenn.dev/sprout2000/articles/eb2a79efdb2c5b"/>
+        <updated>2021-10-03T08:13:37.000Z</updated>
+        <summary type="html"><![CDATA[2021 年 10 月 3 日現在の私の観測範囲での記述です。最新の情報を追っているわけではないので不正確な内容があるかもしれません。
+
+
+ グーグル、UA やめるってよ（不正確）
+すでにご存知の通り、Google Chrome では window.navigator.userAgent に含める情報を将来的には減少させる予定であるとアナウンスされています。
+https://blog.chromium.org/2021/05/update-on-user-agent-string-reduction.html
+↓ google.com (Chrome) でのスクリーンショット
+
+nav...]]></summary>
+        <author>
+            <name>k_touge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NEXTでSSGしてfirebaseにデプロイしよう]]></title>
+        <id>https://zenn.dev/kult/articles/5f5a034f170d61</id>
+        <link href="https://zenn.dev/kult/articles/5f5a034f170d61"/>
+        <updated>2021-10-03T07:41:31.000Z</updated>
+        <summary type="html"><![CDATA[みなさん、NEXTで作ったアプリはどこにデプロイしていますか？
+やっぱりVERCELですか？
+VERCELはNEXTとの相性が良いのでNEXTアプリのデプロイ先として真っ先に候補にあがると思います。
+しかし、VERCELの無料プランは個人かつ非商用の制限があります。
+どこまでが商用かは明確には決まっていないようです。
+個人ブログに広告を載せるのはOKという情報もありました
+しかし、ECサイトを作りたい！個人事業のHPを作りたい！アフェリエイト広告を載せたい！など、商用に分類されそうなグレーなケースは出てくると思います。
+VERCELのproプランは $20/month で決して安くはあ...]]></summary>
+        <author>
+            <name>kult</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/ next/head]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-next-head</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-next-head"/>
+        <updated>2021-10-03T04:55:18.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next/headの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+
+ next/head
+Examples
+
+Head Elements
+Layout Component
+
+
+ページのheadに要素を追加するための組み込みコンポーネントを公開しています。
+
+      
+        
+        import Head from 'next/head'
+function...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/next.config.js/React Strict Mode]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-react-strict-mode-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-react-strict-mode-jp"/>
+        <updated>2021-10-03T04:54:11.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/React Strict Modeの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ React Strict Mode
+
+推奨 : 将来の React に備えて、Next.js アプリケーションで Strict Mode を有効にすることを強くお勧めします。
+
+React の Strict Mode は、アプリケーションの潜在的な問題を浮き彫りにす...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/next.config.js/Trailing Slash]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-trailing-slash-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-trailing-slash-jp"/>
+        <updated>2021-10-03T04:53:24.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Trailing Slashの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Trailing Slash
+Version History
+
+
+
+Version
+Changes
+
+
+
+
+v9.5.0
+Trailing Slash を追加
+
+
+
+
+デフォルトでは、Next.js は末尾にスラッシュを持つ URL を、末尾にスラッシュを持たない対応する...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/next.config.js/exportPathMap]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-export-path-map-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-export-path-map-jp"/>
+        <updated>2021-10-03T04:52:12.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/exportPathMap の記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ exportPathMap
+
+この機能は、next export 専用です。詳しくは、Static HTML export をご覧ください。
+
+Examples
+
+Static Export
+
+
+exportPathMapでは、エクスポート時に使用する、リクエストパスとペ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/next.config.js/Ingoring TypeScript]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-ignoring-typescript-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-ignoring-typescript-jp"/>
+        <updated>2021-10-03T04:51:18.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Ingoring TypeScriptの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Ingoring TypeScript
+Next.js は、プロジェクト内に TypeScript のエラーがあると、production build(next build) に失敗します。
+アプリケーションにエラーがあっても、Next.js が危険を冒して本番...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/next.config.js/Ignoring ESLint]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-ignoring-eslint-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-ignoring-eslint-jp"/>
+        <updated>2021-10-03T04:49:32.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Ignoring ESLintの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Ignoring ESLint
+プロジェクトで ESLint が検出されると、Next.js はエラーがある場合に production build (next build) に失敗します。
+アプリケーションに ESLint のエラーがあっても Next.js が本番コ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API/next.config.js/Configuring onDemandEntries]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-configuring-on-demand-entries-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-configuring-on-demand-entries-jp"/>
+        <updated>2021-10-03T04:45:23.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Configuring onDemandEntriesの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Configuring onDemandEntries
+Next.jsでは、開発中のビルドされたページをサーバーがどのように破棄したり、メモリに保持したりするかをコントロールするためのオプションが公開されています。
+デフォルトの設定を変更するには...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Configuring the Build ID]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-configuring-the-build-id-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-configuring-the-build-id-jp"/>
+        <updated>2021-10-03T04:43:27.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Configuring the Build IDの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Configuring the Build ID
+Next.js では、ビルド時に生成される定数 ID を使用して、どのバージョンのアプリケーションが提供されているかを識別します。このため、マルチサーバー環境では、すべてのサーバーで next buil...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API/next.config.js/Setting custom build directory]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-setting-a-custom-build-directory-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-setting-a-custom-build-directory-jp"/>
+        <updated>2021-10-03T04:42:19.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Setting a custom build directoryの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Setting a custom build directory
+.next の代わりに使用するカスタムビルドディレクトリの名前を指定することができます。
+next.config.js を開き、distDir の設定を追加します。
+
+ ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Disabling HTTP Keep-Alive]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-disabling-http-keep-alive-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-disabling-http-keep-alive-jp"/>
+        <updated>2021-10-03T04:42:09.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Disabling HTTP Keep-Aliveの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Disabling HTTP Keep-Alive
+Next.js は、デフォルトで node-fetch を自動的にポリフィルし、HTTP Keep-Alive を有効にします。HTTP Keep-Alive を無効にしたい場合は、特定の fetc...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Disabling ETag Generation]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-disabling-etag-generation-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-disabling-etag-generation-jp"/>
+        <updated>2021-10-03T04:33:47.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Disabling ETag Generationの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Disabling ETag Generation
+Next.jsはデフォルトですべてのページにetagを生成します。キャッシュ戦略に応じて、HTMLページのタグ生成を無効にすることができます。
+next.config.jsを開き、generateE...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Disabling x-powered-by]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-disabling-x-powered-by-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-disabling-x-powered-by-jp"/>
+        <updated>2021-10-03T04:31:22.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Disabling x-powered-by の記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Disabling x-powered-by
+デフォルトでは、Next.jsは x-powered-by ヘッダーを追加します。この機能を無効にするには、next.config.js を開き、poweredByHeader の設定を無効にします。
+
+  ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Runtime Configuration]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-runtime-configuration-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-runtime-configuration-jp"/>
+        <updated>2021-10-03T04:29:25.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Runtime Configurationの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Runtime Configuration
+
+一般的には、ビルド時の環境変数を使って設定を行うことになります。その理由は、ランタイム構成はレンダリングや初期化のオーバーヘッドを増やし、自動静的最適化との互換性がないからです。
+
+ランタイム構成をアプリに追加す...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Reference/next.config.js/Compression]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-compression-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-compression-jp"/>
+        <updated>2021-10-03T04:28:42.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Compressionの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Compression
+Next.js は、レンダリングされたコンテンツや静的ファイルを圧縮するために gzip 圧縮機能を提供しています。一般的には、nginx のような HTTP プロキシで圧縮を有効にして、Node.js プロセスの負荷を軽減したいと考えるでしょう。
+圧縮...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Custom Webpack Config]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-custom-webpack-config-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-custom-webpack-config-jp"/>
+        <updated>2021-10-03T04:20:56.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Custom Webpack Configの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Custom Webpack Config
+アプリケーションに webpack のカスタム設定を追加する前に、Next.js があなたのユースケースをサポートしていないことを確認してください。
+
+CSS インポート
+CSS モジュール
+Sass/SCSS イ...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API/next.config.js/CDN Support with Asset Prefix]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-cdn-support-with-asset-prefix-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-cdn-support-with-asset-prefix-jp"/>
+        <updated>2021-10-03T04:19:12.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/CDN Support with Asset Prefixの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ CDN Support with Asset Prefix
+
+注意 : Vercel へのデプロイでは、Next.js プロジェクトにグローバル CDN が自動的に設定されます。アセットプレフィックスを手動で設定する必要はありません。
+
+
+注...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Next.js和訳】API Ref/next.config.js/Custom Page Extensions]]></title>
+        <id>https://zenn.dev/unreact/articles/nextjs-config-custom-page-extensions-jp</id>
+        <link href="https://zenn.dev/unreact/articles/nextjs-config-custom-page-extensions-jp"/>
+        <updated>2021-10-03T04:16:48.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。
+この記事は、next.config.js/Custom Page Extensionsの記事を和訳したものです。
+
+記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。
+
+
+ Custom Page Extensions
+.mdxで終わるページのサポートを追加する@next/mdxのようなモジュールを対象としています。ページを解決するときにpagesディレクトリで探す拡張子を設定することができます。
+next.config.js...]]></summary>
+        <author>
+            <name>株式会社UnReact</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pythonバックエンドエンジニアが1ヶ月でフロントエンドを学んだ話]]></title>
+        <id>https://zenn.dev/shiumachi/articles/4e85117d66bd76</id>
+        <link href="https://zenn.dev/shiumachi/articles/4e85117d66bd76"/>
+        <updated>2021-10-03T04:06:22.000Z</updated>
+        <summary type="html"><![CDATA[この記事について
+Pythonバックエンドエンジニアが1ヶ月でフロントエンドを学んだ話を共有する。
+どういう勉強をしたかのラーニングパスを某所で話したら興味があるというコメントがあったので、自分の振り返りも兼ねて共有することにした。
+
+ TL;DR
+
+学習期間は1ヶ月、30時間程度
+TypeScript → Next.js → MDNでHTML+CSS → TailwindCSS の順に勉強した
+JavaScript、React.jsはほぼすっ飛ばした(というより上記ラーニングパスの中で派生して習得した)
+できるようになったこと: 簡単な処理であればテストつきでTypeScriptの...]]></summary>
+        <author>
+            <name>Sho Shimauchi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stripe Connectで定期購入を次回更新日に解約する処理（Node）]]></title>
+        <id>https://zenn.dev/kenara/articles/bca38af0db0ba4</id>
+        <link href="https://zenn.dev/kenara/articles/bca38af0db0ba4"/>
+        <updated>2021-10-03T02:14:11.000Z</updated>
+        <summary type="html"><![CDATA[expressを使用してAPIを作成。
+
+      
+        
+        import * as cors from 'cors'
+import * as express from 'express'
+import Stripe from 'stripe'
+
+const stripe = (apiKey: string): Stripe =>
+  new Stripe(apiKey, { apiVersion: '2020-08-27' })
+  
+const app = express()
+
+app.use(cors({ origin: true }))
+
+app...]]></summary>
+        <author>
+            <name>KenAra</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【個人開発】モックアップ画像を一瞬でつくれるサービスをVue.jsでつくって学んだこと]]></title>
         <id>https://zenn.dev/marty_ojiya/articles/9d8b30212e2631</id>
@@ -6390,213 +7036,6 @@ Facebook製
 Recoilは20...]]></summary>
         <author>
             <name>ぺい</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PhpStormでReact開発環境を整える]]></title>
-        <id>https://zenn.dev/nimusuke6/articles/fa95a17c5d5f87</id>
-        <link href="https://zenn.dev/nimusuke6/articles/fa95a17c5d5f87"/>
-        <updated>2021-09-04T12:44:25.000Z</updated>
-        <summary type="html"><![CDATA[Node.js（+Yarn）のインストール
-
-
-anyenvをインストール
-anyenvでnodenvをインストール
-nodenvでNode.jsをインストール
-
-Yarnをインストール
-
-
-      
-        
-        npm install -g yarn
-
-
-      
-      
- Reactプロジェクトの作成
-
-      
-        
-        npx create-react-app my-app --template typescript
-cd my-app
-yarn start
-
-
-      
-      
-      
-    ...]]></summary>
-        <author>
-            <name>nimusuke6</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[URLを解析するQsを丁寧に説明してみた]]></title>
-        <id>https://zenn.dev/fujiyama/articles/bf26790ed81964</id>
-        <link href="https://zenn.dev/fujiyama/articles/bf26790ed81964"/>
-        <updated>2021-09-04T12:30:58.000Z</updated>
-        <summary type="html"><![CDATA[Qsって何？
-
-npm公式
-
-クエリの解析，文字列化をするライブラリです．
-使っていて非常に便利なので一旦まとめようと思います．
-
- 基本的な使い方
-
-      
-        
-        import qs from 'qs';  // (以下省略)
-
-const obj = qs.parse('a=c');  // { a: 'c' }
-
-const str = qs.stringify(obj);  // 'a=c'
-
-
-      
-      簡単に言うと，parseはURLなどの文字列をオブジェクトに変換するメソッドで， stringifyはオブジェクトをURL...]]></summary>
-        <author>
-            <name>Fujiyamayama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ddc.vimのlsp機能を強くする with nvim-lsp]]></title>
-        <id>https://zenn.dev/matsui54/articles/2021-09-03-ddc-lsp</id>
-        <link href="https://zenn.dev/matsui54/articles/2021-09-03-ddc-lsp"/>
-        <updated>2021-09-04T09:04:12.000Z</updated>
-        <summary type="html"><![CDATA[はじめに
-ddc.vimのLSPまわりの設定が良い感じになってきたので共有します。
-前提として、補完ソースに関してはこちらを入れてください。
-https://github.com/Shougo/ddc-nvim-lsp
-最終的にはこんな感じで使えるようになります。
-
-
- 補完候補のプレビュー & signature help
-以下のgifにあるような機能で、前者は、補完候補を選択したときにその詳細情報をfloating windowに表示します。signature helpは、補完候補を選択して関数の中身を書いているときに、引数などの情報を表示する機能です。
-
-vim-lsp...]]></summary>
-        <author>
-            <name>matsui54</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする]]></title>
-        <id>https://zenn.dev/gomi_ningen/articles/f1c285f586215b</id>
-        <link href="https://zenn.dev/gomi_ningen/articles/f1c285f586215b"/>
-        <updated>2021-09-04T07:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする際の記述方法がわからなくて 30 分くらい溶けたのでメモっておきます。
-
- 配列
-
-      
-        
-        export interface AppParameters {
-    items: string[]
-}
-
-const AppParametersSchema: JTDSchemaType<AppParameters> = {
-    properties: {
-        items: { elements: { type: 'string' }...]]></summary>
-        <author>
-            <name>ゴミ人間</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Vue3】v-memoディレクティブでレンダリングを最適化する]]></title>
-        <id>https://zenn.dev/tentel/articles/886dc6b615528f</id>
-        <link href="https://zenn.dev/tentel/articles/886dc6b615528f"/>
-        <updated>2021-09-04T06:27:40.000Z</updated>
-        <summary type="html"><![CDATA[Vue3.2からv-memoディレクティブが追加されました。
-v-memoディレクティブを利用することで、不要な再レンダリングを省略することができるので、パフォーマンスの向上につながります。
-
- 概要
-v-memoディレクティブは、指定したすべての値が最後のレンダリング結果と同じであれば、サブツリー全体の再レンダリングをスキップします。
-
-DOMの更新だけでなく、仮想DOMのVNodeの作成もスキップされます。
-
-
- v-memoディレクティブの書き方
-以下のように、コンポーネントが再レンダリングされた際に、配列に指定したvalueA及びvalueBが、最後のレンダリング時と同じ値の場合...]]></summary>
-        <author>
-            <name>てんてる</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue 3のエッセンシャルガイドを会話風に説明してみる]]></title>
-        <id>https://zenn.dev/rgbkids/articles/694a5a491494b8</id>
-        <link href="https://zenn.dev/rgbkids/articles/694a5a491494b8"/>
-        <updated>2021-09-04T03:03:55.000Z</updated>
-        <summary type="html"><![CDATA[原文を元に、会話風（入門編によくある感じ）にしたてあげました。
-わかりにくいところは説明を足しています。
-原文：
-https://v3.ja.vuejs.org/guide/introduction.html
-
- Vue.js とは？
-🙍‍♀️「Vue (発音はビュー) は、ユーザーインターフェイスを構築するためのプログレッシブフレームワークです。Vue は少しずつ適用していけるように設計されています」
-🙂「SPAだから、Reactと類似の技術ってことですね」
-🙍‍♀️「その通りです。Vueの最新バージョンは3です。Vue3の説明をしていきます」
-
- はじめに
-🙍‍♀️「Vue.js を...]]></summary>
-        <author>
-            <name>vteacher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ページ内の文字列を検索してフィルタリングするコンポーネント]]></title>
-        <id>https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1</id>
-        <link href="https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1"/>
-        <updated>2021-09-03T13:05:34.000Z</updated>
-        <summary type="html"><![CDATA[ページ内の文字列を検索して、それだけ残す
-
- こんなかんじに検索して、絞り込むものを作ります。
-
-
-前提として、環境は
-・Next.js
-・TypeScript
-となっています。
-※アイコンとかは違うコンポーネントなので省略して書きます。
-
-      
-        index.tsx
-        import styles from './SearchForm.module.scss'
-import cn from 'classnames'
-
-export interface Props = {
-  placeholder?: string
-  className?: st...]]></summary>
-        <author>
-            <name>Ren Shimosawa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ページ内の文字列を検索してフィルタリングするコンポーネント]]></title>
-        <id>https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1</id>
-        <link href="https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1"/>
-        <updated>2021-09-03T13:05:34.000Z</updated>
-        <summary type="html"><![CDATA[ページ内の文字列を検索して、それだけ残す
-
- こんなかんじに検索して、絞り込むものを作ります。
-
-
-前提として、環境は
-・Next.js
-・TypeScript
-となっています。
-※アイコンとかは違うコンポーネントなので省略して書きます。
-
-      
-        index.tsx
-        import styles from './SearchForm.module.scss'
-import cn from 'classnames'
-
-export interface Props = {
-  placeholder?: string
-  className?: st...]]></summary>
-        <author>
-            <name>Ren Shimosawa</name>
         </author>
     </entry>
 </feed>

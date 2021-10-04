@@ -74,6 +74,286 @@
       "siteUrl": "https://zenn.dev/topics/nextjs",
       "articles": [
         {
+          "id": "https://zenn.dev/iwakin999/articles/7a5e11e62ba668",
+          "author": "iwakin999",
+          "description": "CSS in JSとして後発だけありEmotionは使い勝手いいですよね。Material UIがv5からEmotionを利用している影響もあるのか、React版の@emotion/reactはnpmダウンロード数の伸びがすごいです。\n\n@emotion/css vs @emotion/react vs @emotion/styled vs styled-components\n（赤が Styled Component、他が Emotion の主要ライブラリ）\nただ、EmotionをNext.js & TypeScriptに導入するのはそこそこ面倒です。ハマりどころも結構多いので手...",
+          "link": "https://zenn.dev/iwakin999/articles/7a5e11e62ba668",
+          "publishedOn": "2021-10-03T09:30:42.000Z",
+          "wordCount": 237,
+          "title": "【Next.js & TypeScript】Emotionの導入が大変だったので手順をまとめておく",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xDOXxTYH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:iwakin999%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%2520%2526%2520TypeScript%25E3%2580%2591Emotion%25E3%2581%25AE%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%258C%25E5%25A4%25A7%25E5%25A4%2589%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2589%258B%25E9%25A0%2586%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E3%2581%258A%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDU2OGQ1Zjc1NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/hrtk/articles/3da84e46c97267",
+          "author": "hrtkmztn",
+          "description": "supabaseは、「The Open Source Firebase Athlternative」を謳っています。プロプライエタリなFirebaseの代わりにオープンな技術スタックで構成されてバックエンドのサービスです。\nsupabaseで提供している認証とデータベースを使って、一連の基本的な機能をさわってみます。\n\n supabaseの新規プロジェクト作成\nsupabaseのサイトより、サインアップします。\nhttps://supabase.io/\nダッシュボードから、プロジェクトを作成しておきます。\n\n GitHubのOauthアプリケーション作成\nGitHubでこちらから新しくア...",
+          "link": "https://zenn.dev/hrtk/articles/3da84e46c97267",
+          "publishedOn": "2021-10-03T08:49:05.000Z",
+          "wordCount": 1100,
+          "title": "Next.jsでsupabaseを使って、認証からデータベースの更新までをやってみる",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--qFUPumJm--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:hrtkmztn%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Next.js%25E3%2581%25A7supabase%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2580%2581%25E8%25AA%258D%25E8%25A8%25BC%25E3%2581%258B%25E3%2582%2589%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AE%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%25BE%25E3%2581%25A7%25E3%2582%2592%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzYzZGU5MGE1ZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kult/articles/5f5a034f170d61",
+          "author": "kult",
+          "description": "みなさん、NEXTで作ったアプリはどこにデプロイしていますか？\nやっぱりVERCELですか？\nVERCELはNEXTとの相性が良いのでNEXTアプリのデプロイ先として真っ先に候補にあがると思います。\nしかし、VERCELの無料プランは個人かつ非商用の制限があります。\nどこまでが商用かは明確には決まっていないようです。\n個人ブログに広告を載せるのはOKという情報もありました\nしかし、ECサイトを作りたい！個人事業のHPを作りたい！アフェリエイト広告を載せたい！など、商用に分類されそうなグレーなケースは出てくると思います。\nVERCELのproプランは $20/month で決して安くはあ...",
+          "link": "https://zenn.dev/kult/articles/5f5a034f170d61",
+          "publishedOn": "2021-10-03T07:41:31.000Z",
+          "wordCount": 341,
+          "title": "NEXTでSSGしてfirebaseにデプロイしよう",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--S650OMEC--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:kult%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:NEXT%25E3%2581%25A7SSG%25E3%2581%2597%25E3%2581%25A6firebase%25E3%2581%25AB%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fOGRmZjUyNzE3NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-next-head",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next/headの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n\n next/head\nExamples\n\nHead Elements\nLayout Component\n\n\nページのheadに要素を追加するための組み込みコンポーネントを公開しています。\n\n      \n        \n        import Head from 'next/head'\nfunction...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-next-head",
+          "publishedOn": "2021-10-03T04:55:18.000Z",
+          "wordCount": 114,
+          "title": "【Next.js和訳】API Reference/ next/head",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--CHOM0xWM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252F%2520next%252Fhead%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-react-strict-mode-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/React Strict Modeの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n React Strict Mode\n\n推奨 : 将来の React に備えて、Next.js アプリケーションで Strict Mode を有効にすることを強くお勧めします。\n\nReact の Strict Mode は、アプリケーションの潜在的な問題を浮き彫りにす...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-react-strict-mode-jp",
+          "publishedOn": "2021-10-03T04:54:11.000Z",
+          "wordCount": 63,
+          "title": "【Next.js和訳】API Reference/next.config.js/React Strict Mode",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--BAIk36nv--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252Fnext.config.js%252FReact%2520Strict%2520Mode%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-trailing-slash-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Trailing Slashの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Trailing Slash\nVersion History\n\n\n\nVersion\nChanges\n\n\n\n\nv9.5.0\nTrailing Slash を追加\n\n\n\n\nデフォルトでは、Next.js は末尾にスラッシュを持つ URL を、末尾にスラッシュを持たない対応する...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-trailing-slash-jp",
+          "publishedOn": "2021-10-03T04:53:24.000Z",
+          "wordCount": 58,
+          "title": "【Next.js和訳】API Reference/next.config.js/Trailing Slash",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--fDdHjHAz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252Fnext.config.js%252FTrailing%2520Slash%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-export-path-map-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/exportPathMap の記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n exportPathMap\n\nこの機能は、next export 専用です。詳しくは、Static HTML export をご覧ください。\n\nExamples\n\nStatic Export\n\n\nexportPathMapでは、エクスポート時に使用する、リクエストパスとペ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-export-path-map-jp",
+          "publishedOn": "2021-10-03T04:52:12.000Z",
+          "wordCount": 206,
+          "title": "【Next.js和訳】API Reference/next.config.js/exportPathMap",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--t9CYLyQz--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252Fnext.config.js%252FexportPathMap%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-ignoring-typescript-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Ingoring TypeScriptの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Ingoring TypeScript\nNext.js は、プロジェクト内に TypeScript のエラーがあると、production build(next build) に失敗します。\nアプリケーションにエラーがあっても、Next.js が危険を冒して本番...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-ignoring-typescript-jp",
+          "publishedOn": "2021-10-03T04:51:18.000Z",
+          "wordCount": 60,
+          "title": "【Next.js和訳】API Reference/next.config.js/Ingoring TypeScript",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--miKGvI7o--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252Fnext.config.js%252FIngoring%2520TypeScript%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-ignoring-eslint-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Ignoring ESLintの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Ignoring ESLint\nプロジェクトで ESLint が検出されると、Next.js はエラーがある場合に production build (next build) に失敗します。\nアプリケーションに ESLint のエラーがあっても Next.js が本番コ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-ignoring-eslint-jp",
+          "publishedOn": "2021-10-03T04:49:32.000Z",
+          "wordCount": 60,
+          "title": "【Next.js和訳】API Reference/next.config.js/Ignoring ESLint",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--J2ZJdoNc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252Fnext.config.js%252FIgnoring%2520ESLint%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-configuring-on-demand-entries-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Configuring onDemandEntriesの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Configuring onDemandEntries\nNext.jsでは、開発中のビルドされたページをサーバーがどのように破棄したり、メモリに保持したりするかをコントロールするためのオプションが公開されています。\nデフォルトの設定を変更するには...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-configuring-on-demand-entries-jp",
+          "publishedOn": "2021-10-03T04:45:23.000Z",
+          "wordCount": 42,
+          "title": "【Next.js和訳】API/next.config.js/Configuring onDemandEntries",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--7Z1E8jAX--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%252Fnext.config.js%252FConfiguring%2520onDemandEntries%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-configuring-the-build-id-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Configuring the Build IDの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Configuring the Build ID\nNext.js では、ビルド時に生成される定数 ID を使用して、どのバージョンのアプリケーションが提供されているかを識別します。このため、マルチサーバー環境では、すべてのサーバーで next buil...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-configuring-the-build-id-jp",
+          "publishedOn": "2021-10-03T04:43:27.000Z",
+          "wordCount": 62,
+          "title": "【Next.js和訳】API Ref/next.config.js/Configuring the Build ID",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--tO8ACJ6I--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FConfiguring%2520the%2520Build%2520ID%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-setting-a-custom-build-directory-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Setting a custom build directoryの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Setting a custom build directory\n.next の代わりに使用するカスタムビルドディレクトリの名前を指定することができます。\nnext.config.js を開き、distDir の設定を追加します。\n\n ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-setting-a-custom-build-directory-jp",
+          "publishedOn": "2021-10-03T04:42:19.000Z",
+          "wordCount": 54,
+          "title": "【Next.js和訳】API/next.config.js/Setting custom build directory",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--D9iLA0MQ--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%252Fnext.config.js%252FSetting%2520custom%2520build%2520directory%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-disabling-http-keep-alive-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Disabling HTTP Keep-Aliveの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Disabling HTTP Keep-Alive\nNext.js は、デフォルトで node-fetch を自動的にポリフィルし、HTTP Keep-Alive を有効にします。HTTP Keep-Alive を無効にしたい場合は、特定の fetc...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-disabling-http-keep-alive-jp",
+          "publishedOn": "2021-10-03T04:42:09.000Z",
+          "wordCount": 75,
+          "title": "【Next.js和訳】API Ref/next.config.js/Disabling HTTP Keep-Alive",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--TyljfbCa--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FDisabling%2520HTTP%2520Keep-Alive%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-disabling-etag-generation-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Disabling ETag Generationの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Disabling ETag Generation\nNext.jsはデフォルトですべてのページにetagを生成します。キャッシュ戦略に応じて、HTMLページのタグ生成を無効にすることができます。\nnext.config.jsを開き、generateE...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-disabling-etag-generation-jp",
+          "publishedOn": "2021-10-03T04:33:47.000Z",
+          "wordCount": 35,
+          "title": "【Next.js和訳】API Ref/next.config.js/Disabling ETag Generation",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--p6LhxR5C--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FDisabling%2520ETag%2520Generation%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-disabling-x-powered-by-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Disabling x-powered-by の記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Disabling x-powered-by\nデフォルトでは、Next.jsは x-powered-by ヘッダーを追加します。この機能を無効にするには、next.config.js を開き、poweredByHeader の設定を無効にします。\n\n  ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-disabling-x-powered-by-jp",
+          "publishedOn": "2021-10-03T04:31:22.000Z",
+          "wordCount": 34,
+          "title": "【Next.js和訳】API Ref/next.config.js/Disabling x-powered-by",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--teohCPU2--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FDisabling%2520x-powered-by%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-runtime-configuration-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Runtime Configurationの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Runtime Configuration\n\n一般的には、ビルド時の環境変数を使って設定を行うことになります。その理由は、ランタイム構成はレンダリングや初期化のオーバーヘッドを増やし、自動静的最適化との互換性がないからです。\n\nランタイム構成をアプリに追加す...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-runtime-configuration-jp",
+          "publishedOn": "2021-10-03T04:29:25.000Z",
+          "wordCount": 91,
+          "title": "【Next.js和訳】API Ref/next.config.js/Runtime Configuration",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--eJ11n2Ir--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FRuntime%2520Configuration%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-compression-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Compressionの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Compression\nNext.js は、レンダリングされたコンテンツや静的ファイルを圧縮するために gzip 圧縮機能を提供しています。一般的には、nginx のような HTTP プロキシで圧縮を有効にして、Node.js プロセスの負荷を軽減したいと考えるでしょう。\n圧縮...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-compression-jp",
+          "publishedOn": "2021-10-03T04:28:42.000Z",
+          "wordCount": 34,
+          "title": "【Next.js和訳】API Reference/next.config.js/Compression",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LYx1dBv5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Reference%252Fnext.config.js%252FCompression%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-custom-webpack-config-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Custom Webpack Configの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Custom Webpack Config\nアプリケーションに webpack のカスタム設定を追加する前に、Next.js があなたのユースケースをサポートしていないことを確認してください。\n\nCSS インポート\nCSS モジュール\nSass/SCSS イ...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-custom-webpack-config-jp",
+          "publishedOn": "2021-10-03T04:20:56.000Z",
+          "wordCount": 129,
+          "title": "【Next.js和訳】API Ref/next.config.js/Custom Webpack Config",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--AmTQ5M8G--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FCustom%2520Webpack%2520Config%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-cdn-support-with-asset-prefix-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/CDN Support with Asset Prefixの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n CDN Support with Asset Prefix\n\n注意 : Vercel へのデプロイでは、Next.js プロジェクトにグローバル CDN が自動的に設定されます。アセットプレフィックスを手動で設定する必要はありません。\n\n\n注...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-cdn-support-with-asset-prefix-jp",
+          "publishedOn": "2021-10-03T04:19:12.000Z",
+          "wordCount": 105,
+          "title": "【Next.js和訳】API/next.config.js/CDN Support with Asset Prefix",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--XqVAO2UM--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%252Fnext.config.js%252FCDN%2520Support%2520with%2520Asset%2520Prefix%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/unreact/articles/nextjs-config-custom-page-extensions-jp",
+          "author": "株式会社UnReact",
+          "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、next.config.js/Custom Page Extensionsの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n Custom Page Extensions\n.mdxで終わるページのサポートを追加する@next/mdxのようなモジュールを対象としています。ページを解決するときにpagesディレクトリで探す拡張子を設定することができます。\nnext.config.js...",
+          "link": "https://zenn.dev/unreact/articles/nextjs-config-custom-page-extensions-jp",
+          "publishedOn": "2021-10-03T04:16:48.000Z",
+          "wordCount": 95,
+          "title": "【Next.js和訳】API Ref/next.config.js/Custom Page Extensions",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--f4LXwfEH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEUnReact%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:%25E3%2580%2590Next.js%25E5%2592%258C%25E8%25A8%25B3%25E3%2580%2591API%2520Ref%252Fnext.config.js%252FCustom%2520Page%2520Extensions%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNzAyMzMzMjRiZC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://zenn.dev/unreact/articles/nextjs-static-optimization-indicator-jp",
           "author": "株式会社UnReact",
           "description": "この記事について\n株式会社 UnReact はプロジェクトの一環としてNext.js ドキュメントの和訳を行っています。\nこの記事は、Static Optimization Indicatorの記事を和訳したものです。\n\n記事内で使用する画像は、公式ドキュメント内の画像を引用して使用させていただいております。\n\n\n\n 備考\nこのインジケーターは Next.js のバージョン 10.0.1 で削除されました。最新の Next.js にアップグレードすることをお勧めします。\n\n自動静的最適化の対象となるページがあると、それを知らせるインジケータが表示されます。\n自動静的最適化は非常に有益...",
@@ -1234,20 +1514,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
-          "author": "Ren Shimosawa",
-          "description": "ページ内の文字列を検索して、それだけ残す\n\n こんなかんじに検索して、絞り込むものを作ります。\n\n\n前提として、環境は\n・Next.js\n・TypeScript\nとなっています。\n※アイコンとかは違うコンポーネントなので省略して書きます。\n\n      \n        index.tsx\n        import styles from './SearchForm.module.scss'\nimport cn from 'classnames'\n\nexport interface Props = {\n  placeholder?: string\n  className?: st...",
-          "link": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
-          "publishedOn": "2021-09-03T13:05:34.000Z",
-          "wordCount": 141,
-          "title": "ページ内の文字列を検索してフィルタリングするコンポーネント",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--go-MzjS5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Ren%2520Shimosawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E5%2586%2585%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2595%25E3%2582%25A3%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptcmlXRGR5UjRXLUdpUHd4eUZHbGphX1Q0cUVRS3hqcXhNU1NPPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -1256,6 +1522,20 @@
       "feedUrl": "https://zenn.dev/topics/nuxtjs/feed",
       "siteUrl": "https://zenn.dev/topics/nuxtjs",
       "articles": [
+        {
+          "id": "https://zenn.dev/thetalemon/articles/d501197b08dfa2",
+          "author": "まなさす",
+          "description": "背景\n\nポートフォリオのスコアがズタボロだったので改善することにしました\nどんな構成のPJでもあり得る汎用的な話がほとんどですが、一部Nuxt.js+firebase特有の悩み・解決方法を記載しています。\n実際の改善率はこんな感じ。\n\n\n\n\n\n\n 測定方法\n\nDevtoolにあるので、それを使います。localhostでも使えて便利です。\n\n\n\n\nChrome拡張もあります。こっちはlocalhostでは使えません。\n\n\n やったこと\n\n imgにwidth/height/altを付与する　【Perfomance, Accessibillity】\n\nImage elements do...",
+          "link": "https://zenn.dev/thetalemon/articles/d501197b08dfa2",
+          "publishedOn": "2021-10-03T11:58:49.000Z",
+          "wordCount": 197,
+          "title": "lighthouseスコアを改善するためにやったこと5つ",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--mAI_lVnT--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25BE%25E3%2581%25AA%25E3%2581%2595%25E3%2581%2599%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:lighthouse%25E3%2582%25B9%25E3%2582%25B3%25E3%2582%25A2%25E3%2582%2592%25E6%2594%25B9%25E5%2596%2584%25E3%2581%2599%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AB%25E3%2582%2584%25E3%2581%25A3%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A85%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fMTYzY2I2MWY4MC5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/manalink/articles/manalink-lighthouse-score-top-page",
           "author": "マナリンク Tech Blog",
@@ -1347,6 +1627,104 @@
       "feedUrl": "https://zenn.dev/topics/typescript/feed",
       "siteUrl": "https://zenn.dev/topics/typescript",
       "articles": [
+        {
+          "id": "https://zenn.dev/kenara/articles/da81835ca0ec5c",
+          "author": "KenAra",
+          "description": "ライブラリの宣言（設定反映）\n第二引数に、独自のプロジェクト名を指定したらOK。\n\n      \n        \n        import * as admin from 'firebase-admin'\n\n// 1つ目\nadmin.initializeApp({\n  credential: admin.credential.cert('./firebase-adminsdk.json'),\n})\n\n// 2つ目\nadmin.initializeApp(\n  {\n    credential: admin.credential.cert(\n      './firebase-a...",
+          "link": "https://zenn.dev/kenara/articles/da81835ca0ec5c",
+          "publishedOn": "2021-10-03T12:51:11.000Z",
+          "wordCount": 75,
+          "title": "firebase-adminで2つ目のプロジェクトを使うとき",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LqwrqHkj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenAra%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:firebase-admin%25E3%2581%25A72%25E3%2581%25A4%25E7%259B%25AE%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2NjNWVkZjFlNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kenara/articles/3677b9a899cfb9",
+          "author": "KenAra",
+          "description": "src/index.tsx\n        import { AuthProvider } from 'providers/AuthProvider'\nimport React from 'react'\nimport ReactDOM from 'react-dom'\nimport { Route, Switch } from 'react-router'\nimport { BrowserRouter } from 'react-router-dom'\nimport Login from 'template/Login'\nimport NotFound f...",
+          "link": "https://zenn.dev/kenara/articles/3677b9a899cfb9",
+          "publishedOn": "2021-10-03T12:28:13.000Z",
+          "wordCount": 103,
+          "title": "Reactで404画面を作成する（TypeScript）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--kXQdyDpc--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenAra%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:React%25E3%2581%25A7404%25E7%2594%25BB%25E9%259D%25A2%25E3%2582%2592%25E4%25BD%259C%25E6%2588%2590%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588TypeScript%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2NjNWVkZjFlNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/iwakin999/articles/7a5e11e62ba668",
+          "author": "iwakin999",
+          "description": "CSS in JSとして後発だけありEmotionは使い勝手いいですよね。Material UIがv5からEmotionを利用している影響もあるのか、React版の@emotion/reactはnpmダウンロード数の伸びがすごいです。\n\n@emotion/css vs @emotion/react vs @emotion/styled vs styled-components\n（赤が Styled Component、他が Emotion の主要ライブラリ）\nただ、EmotionをNext.js & TypeScriptに導入するのはそこそこ面倒です。ハマりどころも結構多いので手...",
+          "link": "https://zenn.dev/iwakin999/articles/7a5e11e62ba668",
+          "publishedOn": "2021-10-03T09:30:42.000Z",
+          "wordCount": 237,
+          "title": "【Next.js & TypeScript】Emotionの導入が大変だったので手順をまとめておく",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--xDOXxTYH--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:iwakin999%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:%25E3%2580%2590Next.js%2520%2526%2520TypeScript%25E3%2580%2591Emotion%25E3%2581%25AE%25E5%25B0%258E%25E5%2585%25A5%25E3%2581%258C%25E5%25A4%25A7%25E5%25A4%2589%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E6%2589%258B%25E9%25A0%2586%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E3%2581%258A%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNDU2OGQ1Zjc1NS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kenara/articles/e3d606aaf2a038",
+          "author": "KenAra",
+          "description": "実装していく\n前提として、料金を選択できる処理は実装済みとします。\n\n フロント側\n\n      \n        front.ts\n        import { Stripe } from '@stripe/stripe-js'\n\nconst API_BASE_URL = 'https://xxx'\n\n/**\n * checkout sessionを作成するAPIを叩く\n */\nconst getCheckoutSession = async (\n  accountId: string,\n  priceId: string,\n  originUrl: string\n): Pro...",
+          "link": "https://zenn.dev/kenara/articles/e3d606aaf2a038",
+          "publishedOn": "2021-10-03T09:06:42.000Z",
+          "wordCount": 264,
+          "title": "Stripe Connectでcheckout sessionを使い定期支払いを実装（Node）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--yDl7EvIN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenAra%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Stripe%2520Connect%25E3%2581%25A7checkout%2520session%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E5%25AE%259A%25E6%259C%259F%25E6%2594%25AF%25E6%2589%2595%25E3%2581%2584%25E3%2582%2592%25E5%25AE%259F%25E8%25A3%2585%25EF%25BC%2588Node%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2NjNWVkZjFlNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/sprout2000/articles/eb2a79efdb2c5b",
+          "author": "k_touge",
+          "description": "2021 年 10 月 3 日現在の私の観測範囲での記述です。最新の情報を追っているわけではないので不正確な内容があるかもしれません。\n\n\n グーグル、UA やめるってよ（不正確）\nすでにご存知の通り、Google Chrome では window.navigator.userAgent に含める情報を将来的には減少させる予定であるとアナウンスされています。\nhttps://blog.chromium.org/2021/05/update-on-user-agent-string-reduction.html\n↓ google.com (Chrome) でのスクリーンショット\n\nnav...",
+          "link": "https://zenn.dev/sprout2000/articles/eb2a79efdb2c5b",
+          "publishedOn": "2021-10-03T08:13:37.000Z",
+          "wordCount": 128,
+          "title": "TypeScript で userAgentData を使って OS 判定",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--VPFekQ-e--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:k_touge%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:TypeScript%2520%25E3%2581%25A7%2520userAgentData%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%2520OS%2520%25E5%2588%25A4%25E5%25AE%259A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fNTkyNDAwNGE0Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/shiumachi/articles/4e85117d66bd76",
+          "author": "Sho Shimauchi",
+          "description": "この記事について\nPythonバックエンドエンジニアが1ヶ月でフロントエンドを学んだ話を共有する。\nどういう勉強をしたかのラーニングパスを某所で話したら興味があるというコメントがあったので、自分の振り返りも兼ねて共有することにした。\n\n TL;DR\n\n学習期間は1ヶ月、30時間程度\nTypeScript → Next.js → MDNでHTML+CSS → TailwindCSS の順に勉強した\nJavaScript、React.jsはほぼすっ飛ばした(というより上記ラーニングパスの中で派生して習得した)\nできるようになったこと: 簡単な処理であればテストつきでTypeScriptの...",
+          "link": "https://zenn.dev/shiumachi/articles/4e85117d66bd76",
+          "publishedOn": "2021-10-03T04:06:22.000Z",
+          "wordCount": 170,
+          "title": "Pythonバックエンドエンジニアが1ヶ月でフロントエンドを学んだ話",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--LIjEB8xP--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Sho%2520Shimauchi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Python%25E3%2583%2590%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%258C1%25E3%2583%25B6%25E6%259C%2588%25E3%2581%25A7%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2582%2592%25E5%25AD%25A6%25E3%2582%2593%25E3%2581%25A0%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hpcDZaQjJTNHdmOFdzbmRhenFfNVY3OTVMeFBzUnJKLVNMTVp5d2c9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/kenara/articles/bca38af0db0ba4",
+          "author": "KenAra",
+          "description": "expressを使用してAPIを作成。\n\n      \n        \n        import * as cors from 'cors'\nimport * as express from 'express'\nimport Stripe from 'stripe'\n\nconst stripe = (apiKey: string): Stripe =>\n  new Stripe(apiKey, { apiVersion: '2020-08-27' })\n  \nconst app = express()\n\napp.use(cors({ origin: true }))\n\napp...",
+          "link": "https://zenn.dev/kenara/articles/bca38af0db0ba4",
+          "publishedOn": "2021-10-03T02:14:11.000Z",
+          "wordCount": 89,
+          "title": "Stripe Connectで定期購入を次回更新日に解約する処理（Node）",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--PMLlhk4s--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:KenAra%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Stripe%2520Connect%25E3%2581%25A7%25E5%25AE%259A%25E6%259C%259F%25E8%25B3%25BC%25E5%2585%25A5%25E3%2582%2592%25E6%25AC%25A1%25E5%259B%259E%25E6%259B%25B4%25E6%2596%25B0%25E6%2597%25A5%25E3%2581%25AB%25E8%25A7%25A3%25E7%25B4%2584%25E3%2581%2599%25E3%2582%258B%25E5%2587%25A6%25E7%2590%2586%25EF%25BC%2588Node%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2NjNWVkZjFlNy5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/nekoniki/articles/d3979257e6e958",
           "author": "nekoniki",
@@ -3390,62 +3768,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/nimusuke6/articles/fa95a17c5d5f87",
-          "author": "nimusuke6",
-          "description": "Node.js（+Yarn）のインストール\n\n\nanyenvをインストール\nanyenvでnodenvをインストール\nnodenvでNode.jsをインストール\n\nYarnをインストール\n\n\n      \n        \n        npm install -g yarn\n\n\n      \n      \n Reactプロジェクトの作成\n\n      \n        \n        npx create-react-app my-app --template typescript\ncd my-app\nyarn start\n\n\n      \n      \n      \n    ...",
-          "link": "https://zenn.dev/nimusuke6/articles/fa95a17c5d5f87",
-          "publishedOn": "2021-09-04T12:44:25.000Z",
-          "wordCount": 112,
-          "title": "PhpStormでReact開発環境を整える",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--uynC6bOl--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:nimusuke6%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:PhpStorm%25E3%2581%25A7React%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E6%2595%25B4%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pqWktNZjVMUU9ZMERGMGd6eGZvU29jV003TndXV0xXMUhwWEFOZVE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/fujiyama/articles/bf26790ed81964",
-          "author": "Fujiyamayama",
-          "description": "Qsって何？\n\nnpm公式\n\nクエリの解析，文字列化をするライブラリです．\n使っていて非常に便利なので一旦まとめようと思います．\n\n 基本的な使い方\n\n      \n        \n        import qs from 'qs';  // (以下省略)\n\nconst obj = qs.parse('a=c');  // { a: 'c' }\n\nconst str = qs.stringify(obj);  // 'a=c'\n\n\n      \n      簡単に言うと，parseはURLなどの文字列をオブジェクトに変換するメソッドで， stringifyはオブジェクトをURL...",
-          "link": "https://zenn.dev/fujiyama/articles/bf26790ed81964",
-          "publishedOn": "2021-09-04T12:30:58.000Z",
-          "wordCount": 700,
-          "title": "URLを解析するQsを丁寧に説明してみた",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--Ru1s29JN--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Fujiyamayama%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:URL%25E3%2582%2592%25E8%25A7%25A3%25E6%259E%2590%25E3%2581%2599%25E3%2582%258BQs%25E3%2582%2592%25E4%25B8%2581%25E5%25AF%25A7%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fODY3NDIzNGYyYi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/gomi_ningen/articles/f1c285f586215b",
-          "author": "ゴミ人間",
-          "description": "Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする際の記述方法がわからなくて 30 分くらい溶けたのでメモっておきます。\n\n 配列\n\n      \n        \n        export interface AppParameters {\n    items: string[]\n}\n\nconst AppParametersSchema: JTDSchemaType<AppParameters> = {\n    properties: {\n        items: { elements: { type: 'string' }...",
-          "link": "https://zenn.dev/gomi_ningen/articles/f1c285f586215b",
-          "publishedOn": "2021-09-04T07:30:17.000Z",
-          "wordCount": 433,
-          "title": "Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--I0DWSHVd--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2582%25B4%25E3%2583%259F%25E4%25BA%25BA%25E9%2596%2593%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_65_bold:Ajv%2520%25E3%2581%25AE%2520JTDSchemaType%2520%25E3%2581%25A7%25E8%25A4%2587%25E9%259B%2591%25E3%2581%25AA%2520JSON%2520%25E3%2582%25AA%25E3%2583%2596%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E3%2583%2590%25E3%2583%25AA%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pVQm9rTjV0TTBhUzgycGdtX3FSNV9BLVZiZGNJekNGNHhBaUZ6PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
-          "author": "Ren Shimosawa",
-          "description": "ページ内の文字列を検索して、それだけ残す\n\n こんなかんじに検索して、絞り込むものを作ります。\n\n\n前提として、環境は\n・Next.js\n・TypeScript\nとなっています。\n※アイコンとかは違うコンポーネントなので省略して書きます。\n\n      \n        index.tsx\n        import styles from './SearchForm.module.scss'\nimport cn from 'classnames'\n\nexport interface Props = {\n  placeholder?: string\n  className?: st...",
-          "link": "https://zenn.dev/renshimosawa/articles/dbdb0df966e1a1",
-          "publishedOn": "2021-09-03T13:05:34.000Z",
-          "wordCount": 141,
-          "title": "ページ内の文字列を検索してフィルタリングするコンポーネント",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--go-MzjS5--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:Ren%2520Shimosawa%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E5%2586%2585%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2595%25E3%2582%25A3%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%259D%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25B3%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ptcmlXRGR5UjRXLUdpUHd4eUZHbGphX1Q0cUVRS3hqcXhNU1NPPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3621,20 +3943,6 @@
             "length": "0",
             "type": "image/png"
           }
-        },
-        {
-          "id": "https://zenn.dev/matsui54/articles/2021-09-03-ddc-lsp",
-          "author": "matsui54",
-          "description": "はじめに\nddc.vimのLSPまわりの設定が良い感じになってきたので共有します。\n前提として、補完ソースに関してはこちらを入れてください。\nhttps://github.com/Shougo/ddc-nvim-lsp\n最終的にはこんな感じで使えるようになります。\n\n\n 補完候補のプレビュー & signature help\n以下のgifにあるような機能で、前者は、補完候補を選択したときにその詳細情報をfloating windowに表示します。signature helpは、補完候補を選択して関数の中身を書いているときに、引数などの情報を表示する機能です。\n\nvim-lsp...",
-          "link": "https://zenn.dev/matsui54/articles/2021-09-03-ddc-lsp",
-          "publishedOn": "2021-09-04T09:04:12.000Z",
-          "wordCount": 135,
-          "title": "ddc.vimのlsp機能を強くする with nvim-lsp",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--ZE7iSpjj--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:matsui54%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:ddc.vim%25E3%2581%25AElsp%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E5%25BC%25B7%25E3%2581%258F%25E3%2581%2599%25E3%2582%258B%2520with%2520nvim-lsp%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2habGgtTFpaYTFPZXJIaUpZMVhwTHdKa2hGR2xUTHFUN3NYUzhWbEE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
         }
       ]
     },
@@ -3643,6 +3951,34 @@
       "feedUrl": "https://zenn.dev/topics/vue/feed",
       "siteUrl": "https://zenn.dev/topics/vue",
       "articles": [
+        {
+          "id": "https://zenn.dev/marty_ojiya/articles/cb9aee536d8737",
+          "author": "マーティ",
+          "description": "ある日のパイセン「テスト書いておいてくれよ！」\nそう言われたのだけど…\nボクはテストを書いたことのなかったのさ！\nどうなったかって？\nOh...ジーザス\nレビューで突き返されちまったよ！\nそのうえリファクタリングまでされて。\n最終的にパイセンのコードを見よう見まねで\nテストを追加していって、マージはされたんだ\nそこで、ボクは思ったよ\nテスト書けるかどうか、ボクがテストされるべきだったんだなってね！\n\n TDD本というバイブルがあるじゃないか！\nテスト駆動開発をはじめよう、という人には\nTDD本と呼ばれる『テスト駆動開発』というものがあるんだ！\nどんな本買って？\nあれはまさにバイブルさ...",
+          "link": "https://zenn.dev/marty_ojiya/articles/cb9aee536d8737",
+          "publishedOn": "2021-10-03T22:43:08.000Z",
+          "wordCount": 606,
+          "title": "なに？テスト駆動開発やったことないのかい？まったくキミってやつは！",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--Zwy64fUf--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2583%259E%25E3%2583%25BC%25E3%2583%2586%25E3%2582%25A3%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2581%25AA%25E3%2581%25AB%25EF%25BC%259F%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2584%25E3%2581%25A3%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE%25E3%2581%258B%25E3%2581%2584%25EF%25BC%259F%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258F%25E3%2582%25AD%25E3%2583%259F%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2584%25E3%2581%25A4%25E3%2581%25AF%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fM2RjYzE1ZmNlNi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
+          "id": "https://zenn.dev/moroshi/articles/4e08a62f3748e8",
+          "author": "moroshi",
+          "description": "はじめに\n\n 経緯\nLaravel 6で組んでいるAPIサーバーをLaravel 8で組みなおしてみるという一連の実証です。\n以前の、Laravel 8のAPI認証を味見するのとおり、APIサーバーとしてSanctumのAPI認証を試してみました。\nこの仕組みは、Vuetifyを利用したSPAとの連携を想定した仕組みです。\n（ちなみに、SPA認証を利用しないのは、SPA以外からも連携する想定があるから、です。）\nそんな折、こちらの方の記事が目に留まりました。(感謝)\nLaravel JetStreamのinertiaで、Vuetifyが使えるですって？！\nということで、試します。\n\n...",
+          "link": "https://zenn.dev/moroshi/articles/4e08a62f3748e8",
+          "publishedOn": "2021-10-03T12:44:49.000Z",
+          "wordCount": 1714,
+          "title": "Laravel 8でInertia+Vuetifyを使ってみる - Laravel JetStream - アタック",
+          "enclosure": {
+            "url": "https://res.cloudinary.com/zenn/image/upload/s--q_XZTZ80--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:moroshi%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_60_bold:Laravel%25208%25E3%2581%25A7Inertia%252BVuetify%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2520-%2520Laravel%2520JetStream%2520-%2520%25E3%2582%25A2%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fZWYyODk0MjM2Mi5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://zenn.dev/marty_ojiya/articles/9d8b30212e2631",
           "author": "マーティ",
@@ -4115,34 +4451,6 @@
           "title": "【Vue3】Vueで宣言した変数の値をCSSで読み込む",
           "enclosure": {
             "url": "https://res.cloudinary.com/zenn/image/upload/s--pXh8_Zei--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25A6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Vue3%25E3%2580%2591Vue%25E3%2581%25A7%25E5%25AE%25A3%25E8%25A8%2580%25E3%2581%2597%25E3%2581%259F%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25AE%25E5%2580%25A4%25E3%2582%2592CSS%25E3%2581%25A7%25E8%25AA%25AD%25E3%2581%25BF%25E8%25BE%25BC%25E3%2582%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzlhMGRmYzE4ZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/tentel/articles/886dc6b615528f",
-          "author": "てんてる",
-          "description": "Vue3.2からv-memoディレクティブが追加されました。\nv-memoディレクティブを利用することで、不要な再レンダリングを省略することができるので、パフォーマンスの向上につながります。\n\n 概要\nv-memoディレクティブは、指定したすべての値が最後のレンダリング結果と同じであれば、サブツリー全体の再レンダリングをスキップします。\n\nDOMの更新だけでなく、仮想DOMのVNodeの作成もスキップされます。\n\n\n v-memoディレクティブの書き方\n以下のように、コンポーネントが再レンダリングされた際に、配列に指定したvalueA及びvalueBが、最後のレンダリング時と同じ値の場合...",
-          "link": "https://zenn.dev/tentel/articles/886dc6b615528f",
-          "publishedOn": "2021-09-04T06:27:40.000Z",
-          "wordCount": 349,
-          "title": "【Vue3】v-memoディレクティブでレンダリングを最適化する",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--wTPLUAPe--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:%25E3%2581%25A6%25E3%2582%2593%25E3%2581%25A6%25E3%2582%258B%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:%25E3%2580%2590Vue3%25E3%2580%2591v-memo%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2596%25E3%2581%25A7%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2580%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%2592%25E6%259C%2580%25E9%2581%25A9%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2ljb25fYzlhMGRmYzE4ZS5qcGVn%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://zenn.dev/rgbkids/articles/694a5a491494b8",
-          "author": "vteacher",
-          "description": "原文を元に、会話風（入門編によくある感じ）にしたてあげました。\nわかりにくいところは説明を足しています。\n原文：\nhttps://v3.ja.vuejs.org/guide/introduction.html\n\n Vue.js とは？\n🙍‍♀️「Vue (発音はビュー) は、ユーザーインターフェイスを構築するためのプログレッシブフレームワークです。Vue は少しずつ適用していけるように設計されています」\n🙂「SPAだから、Reactと類似の技術ってことですね」\n🙍‍♀️「その通りです。Vueの最新バージョンは3です。Vue3の説明をしていきます」\n\n はじめに\n🙍‍♀️「Vue.js を...",
-          "link": "https://zenn.dev/rgbkids/articles/694a5a491494b8",
-          "publishedOn": "2021-09-04T03:03:55.000Z",
-          "wordCount": 197,
-          "title": "Vue 3のエッセンシャルガイドを会話風に説明してみる",
-          "enclosure": {
-            "url": "https://res.cloudinary.com/zenn/image/upload/s--yj0yTYJK--/co_rgb:222%2Cg_south_west%2Cl_text:notosansjp-medium.otf_37_bold:vteacher%2Cx_203%2Cy_98/c_fit%2Cco_rgb:222%2Cg_north_west%2Cl_text:notosansjp-medium.otf_70_bold:Vue%25203%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%2583%25E3%2582%25BB%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A3%25E3%2583%25AB%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%25E3%2582%2592%25E4%25BC%259A%25E8%25A9%25B1%25E9%25A2%25A8%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2dZZXAwYXhYZ084ZHlWVVJsbndsanVacFlaRmF4ZU14YV92Z3JDSHc9czgwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/v1627274783/default/og-base_z4sxah.png",
             "length": "0",
             "type": "image/png"
           }
